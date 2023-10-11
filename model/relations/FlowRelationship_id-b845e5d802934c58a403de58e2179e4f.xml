@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sleutel, PI/PP, VI/VP?"
+    id="id-b845e5d802934c58a403de58e2179e4f">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-a999c3ee595a4b95b7260d9689934bcc.xml#id-a999c3ee595a4b95b7260d9689934bcc"/>
+</archimate:FlowRelationship>

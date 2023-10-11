@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="sleutel"
+    id="id-048a3508a4a24094a5bcd93e191a3db3">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-8663ac9316864f948c39dec794669f48.xml#id-8663ac9316864f948c39dec794669f48"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d904439ff4b44281a4092a5d386ad71f.xml#id-d904439ff4b44281a4092a5d386ad71f"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Beheren burgers"
+    id="id-def7b738fe854cdfba5533cdea81d42b"
+    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over burgers."/>

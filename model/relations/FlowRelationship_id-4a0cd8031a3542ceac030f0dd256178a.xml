@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PI/PP en VI/VP "
+    id="id-4a0cd8031a3542ceac030f0dd256178a">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-8663ac9316864f948c39dec794669f48.xml#id-8663ac9316864f948c39dec794669f48"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d5f585bd3da84ac5a671cb97c02334c6.xml#id-d5f585bd3da84ac5a671cb97c02334c6"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Versleutelen pseudoniemen en identiteiten"
+    id="id-d3cb4eb37e2e4449a864dc61c13fca17"
+    documentation="Het polymorf versleutelen van het BSN en het pseudoniem behorende bij de digitale identiteit voor een specifiek identificatiemiddel, alsook het creëren van dienstverlener specifieke versies van deze identiteit en pseudoniem."/>

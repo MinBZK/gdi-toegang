@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="rijbewijs"
+    id="id-400a2ee5f2844461978cfbc0fea6f174">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-3bb3a910d08b4d6e9bc96c207cfcc623.xml#id-3bb3a910d08b4d6e9bc96c207cfcc623"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+</archimate:FlowRelationship>

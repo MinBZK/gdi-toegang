@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Stelsel metadata"
+    id="id-904b487b4a5941c29b3d7d0d5f9b027c"
+    documentation="Metadata op centraal niveau gecontroleerd en opgenomen in een bestand dat ook centraal wordt gepubliceerd. Alle deelnemers en aangesloten dienstverleners worden op basis van hun OIN in de Stelsel Metadata geregistreerd. Er kunnen aanvullende andere attributen opgenomen worden om een verder en verbeterd vertrouwen in het stelsel te waarborgen:&#xD;&#xA;o Naam van de organisatie&#xD;&#xA;o Gegevens diensten van dienstverleners (naam, gewenst LoA, tekst consent, toegang eIDAS, ….)&#xD;&#xA;o Per authenticatiedienst: Hoogste betrouwbaarheidsniveau waarvoor de authenticatiedienst is toegelaten.&#xD;&#xA;o Relevante cryptografische sleutels, certificaten en technische gegevens (bijvoorbeeld een identifier van een systeem of URL van endpoint)."/>

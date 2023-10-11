@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CombiConnect"
+    id="id-f4548c8759f248f9a3ff3195c0b256c3"
+    documentation="Een component dat een koppelvlak vormt richting DigiD en DigiD machtigen dat gebruikers routeert o.b.v. of ze alleen voor zichzelf inloggen of voor iemand anders."/>

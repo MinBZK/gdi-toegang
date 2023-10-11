@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Controleren verschil tussen huidige en gewenste autorisaties"
+    id="id-0d98eda7f7184da88177dd72e60902a5"
+    documentation="Het bepalen of de daadwerkelijk in systemen aanwezige autorisaties overeenkomen met de gewenste autorisaties en het inzichtelijk maken van de verschillen."/>

@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="persoon"
+    id="id-dd50de82fb9144e7a40b7cfc0d5d3022">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-d5f585bd3da84ac5a671cb97c02334c6.xml#id-d5f585bd3da84ac5a671cb97c02334c6"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-757143a6ddc94ebeb8ef30374340814f.xml#id-757143a6ddc94ebeb8ef30374340814f"/>
+</archimate:FlowRelationship>

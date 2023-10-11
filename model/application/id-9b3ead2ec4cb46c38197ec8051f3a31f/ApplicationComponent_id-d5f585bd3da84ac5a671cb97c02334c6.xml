@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eIDAS koppelpunt"
+    id="id-d5f585bd3da84ac5a671cb97c02334c6"
+    documentation="Het Nederlandse eIDAS Koppelpunt faciliteert de interoperabiliteit tussen het Nederlandse stelsel Toegang en de buitenlandse eIDAS koppelpunten. eIDAS koppelpunt houdt een registratie bij van de handelende personen en registreert per persoon de PP/PI."/>

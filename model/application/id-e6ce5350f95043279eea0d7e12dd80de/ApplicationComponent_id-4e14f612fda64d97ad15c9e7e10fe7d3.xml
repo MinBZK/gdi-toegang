@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bevoegdheidsverklaringsdienst"
+    id="id-4e14f612fda64d97ad15c9e7e10fe7d3"
+    documentation="Stelt bevoegdheidsverklaringen op voor een reeds geauthenticeerde digitale identiteit op basis van gezagsverklaringen en bewindsverklaringen. Een idee is om hier in de toekomst ook DigiD machtigen onder te hangen."/>

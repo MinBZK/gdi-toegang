@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authenticeren"
+    id="id-a6e65e269b3e48cf91d4aa32473a6040"
+    documentation="Het bepalen of er voldoende bewijs is dat iemand een digitale identiteit heeft en het creëren, controleren, vertalen en vernietigen van daarbij behorende tokens."/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Routeren naar authenticatiedienst"
+    id="id-902308bf957d4fd9bb733ba5cbb2dff1"
+    documentation="Het routeren van een verzoek tot authenticatie naar een partij die de authenticatie uitvoert."/>

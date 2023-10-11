@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Exporteren digitale identificatiemiddelen"
+    id="id-527055b027c5408db64c3186524b278e"
+    documentation="Het in machineleesbare vorm beschikbaar stellen van gegevens over digitale identificatiemiddelen om authenticatie in doelsystemen te faciliteren. Denk daarbij met name aan het delen van publieke sleutels, waarmee de authenticiteit van private sleutels kan worden vastgesteld."/>

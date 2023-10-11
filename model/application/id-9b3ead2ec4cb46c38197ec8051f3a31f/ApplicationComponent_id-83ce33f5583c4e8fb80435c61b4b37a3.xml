@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Decentrale metadata"
+    id="id-83ce33f5583c4e8fb80435c61b4b37a3"
+    documentation="Het deel van de metadata waar deelnemende partij of aangesloten dienstverlener zelf voor verantwoordelijk is. Centraal is alleen gecontroleerd of het echt van de betreffende partij afkomstig is en wordt een verwijzing naar de partij-eigen metadata opgenomen."/>

@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Ontsleutelen pseudoniemen en identiteiten"
+    id="id-fc86b41206b24ad0844155815442571c"
+    documentation="Het terugvertalen van versleutelde identiteiten en versleutelde pseudoniemen naar BSN en/of pseudoniemen."/>

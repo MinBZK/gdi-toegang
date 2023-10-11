@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Inzageregister"
+    id="id-aac980f42cf24d6ebfabf9ef08be885e"
+    documentation="De volgende gegevens van een authenticatiemiddel worden minimaal vastgelegd:&#xD;&#xA;- Identiteit van de gebruiker (Pseudoniem)&#xD;&#xA;- De authenticatiedienst&#xD;&#xA;- LoA van het authenticatiemiddel.&#xD;&#xA;- Kenmerk authenticatiemiddel: een voor de gebruiker herkenbare eigenschap van het middel dat is aangemaakt of gekoppeld.&#xD;&#xA;- Status van het middel (o.a. geactiveerd, ingetrokken, verlopen)&#xD;&#xA;- Tijdstip begin van de status."/>

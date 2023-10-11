@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRP koppelpunt"
+    id="id-757143a6ddc94ebeb8ef30374340814f"
+    documentation="Het BRP koppelpunt zorgt voor het vaststellen of een burger die met een buitenlands middel inlogt al in de BRP bekend is. Het BRP koppelpunt is een departementsverantwoordelijkheid van het ministerie van BZK. Het BRP koppelpunt geeft invulling aan de BZK verantwoordelijkheid voor registratie van natuurlijke personen. Het BRP koppelpunt registreert de koppeling tussen de uniqueness id en het BSN."/>

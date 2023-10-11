@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BSNk"
+    id="id-8663ac9316864f948c39dec794669f48"
+    documentation="Dit betreft de onderdelen Activatie, Transformatie, Sleutelbeheer en Directe versleuteling. BSNk Decryptie is als los component beschikbaar en benoemd."/>

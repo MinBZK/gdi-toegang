@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="authenticatieverzoek"
+    id="id-51b796b7a9f6451d8d97c9f986d46a79">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-dc5c0503f1eb4cbeb6997d399ab5ccda.xml#id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-f4548c8759f248f9a3ff3195c0b256c3.xml#id-f4548c8759f248f9a3ff3195c0b256c3"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bevoegheidsverklaring"
+    id="id-1d6a9e7e7c624fd6bdf4cdfd3d335e53">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-4e14f612fda64d97ad15c9e7e10fe7d3.xml#id-4e14f612fda64d97ad15c9e7e10fe7d3"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-baa0a1a458e54436813047815a6a1ac6.xml#id-baa0a1a458e54436813047815a6a1ac6"/>
+</archimate:FlowRelationship>

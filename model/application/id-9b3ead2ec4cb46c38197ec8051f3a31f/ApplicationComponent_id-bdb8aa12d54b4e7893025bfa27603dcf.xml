@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bevoegdhedenverklaringsdienst"
+    id="id-bdb8aa12d54b4e7893025bfa27603dcf"
+    documentation="Een handelend burger faciliteren om aan te geven namens welke burger (belanghebbende burger) hij bij een dienstverlener wil handelen. De handelend burger kan hierbij ook optreden als vertegenwoordiger/medewerker van een organisatie."/>

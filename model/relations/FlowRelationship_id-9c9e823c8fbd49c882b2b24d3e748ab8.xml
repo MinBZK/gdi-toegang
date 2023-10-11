@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bewindsverklaring"
+    id="id-9c9e823c8fbd49c882b2b24d3e748ab8">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-53323e6bf2be41b1a4d9a4571262a74c.xml#id-53323e6bf2be41b1a4d9a4571262a74c"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-4e14f612fda64d97ad15c9e7e10fe7d3.xml#id-4e14f612fda64d97ad15c9e7e10fe7d3"/>
+</archimate:FlowRelationship>

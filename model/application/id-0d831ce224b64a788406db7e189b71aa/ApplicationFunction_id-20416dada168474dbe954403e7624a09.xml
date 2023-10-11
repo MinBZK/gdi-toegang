@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Beheren autorisaties per rol"
+    id="id-20416dada168474dbe954403e7624a09"
+    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over de koppeling tussen rollen en autorisaties."/>

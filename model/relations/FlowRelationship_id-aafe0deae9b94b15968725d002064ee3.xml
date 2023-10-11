@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BSN"
+    id="id-aafe0deae9b94b15968725d002064ee3">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-06be8dd9e8c645d6bb482b05c9185e03.xml#id-06be8dd9e8c645d6bb482b05c9185e03"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-a999c3ee595a4b95b7260d9689934bcc.xml#id-a999c3ee595a4b95b7260d9689934bcc"/>
+</archimate:FlowRelationship>

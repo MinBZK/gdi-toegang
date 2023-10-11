@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Uitvoeren authenticatie"
+    id="id-6cb39efe86d640eea41cca7d841a1298"
+    documentation="Het bepalen of er voldoende bewijs is aangeleverd om zeker te stellen dat iemand daadwerkelijk de geclaimde digitale identiteit heeft. Dit vraagt onder andere verificatie van de echtheid van het middel, de geldigheid van het middel, het betrouwbaarheidsniveau van het middel en de identiteit van de gebruiker. Aanvullend betekent het het creëren van tijdelijke tokens die bestaan zolang iemand ingelogd is, zoals een access token, identity token en refresh token."/>

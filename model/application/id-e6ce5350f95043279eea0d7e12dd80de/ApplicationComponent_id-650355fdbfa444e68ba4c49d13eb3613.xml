@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gezag"
+    id="id-650355fdbfa444e68ba4c49d13eb3613"
+    documentation="Bepaalt ouderlijk gezag op basis van de actuele gegevens in de BRP en stelt en gezagsverklaring op."/>
