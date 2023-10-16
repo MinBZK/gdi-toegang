@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gewenste situatie"
+    name="Doelarchitectuur 0.9"
     id="id-e8af2ce565394e1f81411ab32da2a44e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
