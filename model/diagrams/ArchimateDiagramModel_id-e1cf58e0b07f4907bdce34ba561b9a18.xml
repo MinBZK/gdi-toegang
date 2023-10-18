@@ -82,8 +82,8 @@
           href="CompositionRelationship_id-9ffdb360c42d445abb7d724bbaaebe88.xml#id-9ffdb360c42d445abb7d724bbaaebe88"/>
     </sourceConnections>
     <bounds
-        x="646"
-        y="142"
+        x="396"
+        y="12"
         width="181"
         height="529"/>
     <children
@@ -287,8 +287,8 @@
           href="CompositionRelationship_id-c8d1fca80a294c388c9cc6e0e85a5f9b.xml#id-c8d1fca80a294c388c9cc6e0e85a5f9b"/>
     </sourceConnections>
     <bounds
-        x="262"
-        y="802"
+        x="12"
+        y="672"
         width="372"
         height="228"/>
     <children
@@ -458,8 +458,8 @@
           href="CompositionRelationship_id-723ea470f016418b8fbaf4a2c2908a32.xml#id-723ea470f016418b8fbaf4a2c2908a32"/>
     </sourceConnections>
     <bounds
-        x="838"
-        y="142"
+        x="588"
+        y="12"
         width="181"
         height="529"/>
     <children
@@ -602,8 +602,8 @@
           href="CompositionRelationship_id-01af9911674142afb061cb8b19da6065.xml#id-01af9911674142afb061cb8b19da6065"/>
     </sourceConnections>
     <bounds
-        x="838"
-        y="802"
+        x="588"
+        y="672"
         width="372"
         height="228"/>
     <children
@@ -740,8 +740,8 @@
           href="CompositionRelationship_id-bacc9f8295574a44853bb0349d7f3e24.xml#id-bacc9f8295574a44853bb0349d7f3e24"/>
     </sourceConnections>
     <bounds
-        x="454"
-        y="142"
+        x="204"
+        y="12"
         width="181"
         height="529"/>
     <children
@@ -909,8 +909,8 @@
           href="CompositionRelationship_id-74988ba8d4cd4860956818cc89e55bbb.xml#id-74988ba8d4cd4860956818cc89e55bbb"/>
     </sourceConnections>
     <bounds
-        x="646"
-        y="802"
+        x="396"
+        y="672"
         width="180"
         height="228"/>
     <children
@@ -1012,8 +1012,8 @@
           href="CompositionRelationship_id-b6961f90ea86459c9e2ca31b74fc8136.xml#id-b6961f90ea86459c9e2ca31b74fc8136"/>
     </sourceConnections>
     <bounds
-        x="262"
-        y="142"
+        x="12"
+        y="12"
         width="181"
         height="529"/>
     <children
@@ -1156,8 +1156,8 @@
           href="CompositionRelationship_id-f8a258b38b0e4d85902bb65af4bb4dca.xml#id-f8a258b38b0e4d85902bb65af4bb4dca"/>
     </sourceConnections>
     <bounds
-        x="262"
-        y="681"
+        x="12"
+        y="551"
         width="949"
         height="110"/>
     <children
@@ -1279,8 +1279,8 @@
           href="CompositionRelationship_id-fc6a8e1607de480baa287607b49e26a1.xml#id-fc6a8e1607de480baa287607b49e26a1"/>
     </sourceConnections>
     <bounds
-        x="1030"
-        y="142"
+        x="780"
+        y="12"
         width="181"
         height="529"/>
     <children

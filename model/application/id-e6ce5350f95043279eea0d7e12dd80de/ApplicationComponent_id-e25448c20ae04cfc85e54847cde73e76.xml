@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk"
-    id="id-e25448c20ae04cfc85e54847cde73e76"/>
+    name="BSN koppelregister"
+    id="id-e25448c20ae04cfc85e54847cde73e76"
+    documentation="Het BSNk zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn."/>
