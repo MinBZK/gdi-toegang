@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Authenticatiedienst"
-    id="id-1fd5545c30a54234a4ced6b1392d9d93"/>
+    id="id-1fd5545c30a54234a4ced6b1392d9d93"
+    documentation="Een partij die op basis van een identificatiemiddel een authenticatieverklaring afgeeft."/>
