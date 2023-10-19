@@ -425,6 +425,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-56fa50e873f7464e94210a31623f7704"
       textPosition="1">
+    <features
+        name="labelExpression"
+        value="Autorisatielijst&#xD;&#xA;BSN-gerechtigden"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-4601f82553d5450799afdbb278c157e1"
