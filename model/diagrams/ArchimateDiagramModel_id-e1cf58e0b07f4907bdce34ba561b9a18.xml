@@ -1379,6 +1379,9 @@
         id="id-ed4848dbfa0342feb0e51d07786f9e88"
         targetConnections="id-a0ff1c22cb8c4dadaf604a7d45994c3b"
         textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
       <bounds
           x="12"
           y="36"
