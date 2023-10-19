@@ -1,11 +1,11 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="PP, VP, sleutel"
-    id="id-a5d456bc4ef646779eed4d5252ed2bdf">
+    name="authenticatieverzoek"
+    id="id-3a9eafa5d9294f05b3c31d5f53339f7f">
   <source
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+      href="ApplicationComponent_id-dc5c0503f1eb4cbeb6997d399ab5ccda.xml#id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-8263de75e16b4b5189e83635d262aca6.xml#id-8263de75e16b4b5189e83635d262aca6"/>
