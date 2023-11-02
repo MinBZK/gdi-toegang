@@ -726,6 +726,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-bacc9f8295574a44853bb0349d7f3e24.xml#id-bacc9f8295574a44853bb0349d7f3e24"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-95ad7d1e859c4f468116b09a1533f04c"
+        source="id-1d8b9c29f2b44b5d90a9fddeff6395cd"
+        target="id-838f3c99c72b4a57b8114ae0816e02f0">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-a6045c0848c04452a527a7d3eaf69c25.xml#id-a6045c0848c04452a527a7d3eaf69c25"/>
+    </sourceConnections>
     <bounds
         x="204"
         y="12"
@@ -778,7 +787,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="336"
+          y="396"
           width="157"
           height="55"/>
       <archimateElement
@@ -796,7 +805,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="396"
+          y="456"
           width="157"
           height="55"/>
       <archimateElement
@@ -814,7 +823,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="276"
+          y="336"
           width="157"
           height="55"/>
       <archimateElement
@@ -832,7 +841,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="216"
+          y="276"
           width="157"
           height="55"/>
       <archimateElement
@@ -856,6 +865,24 @@
       <archimateElement
           xsi:type="archimate:ApplicationFunction"
           href="ApplicationFunction_id-2cf6a1a354874b06ac1be3af7ffebaa5.xml#id-2cf6a1a354874b06ac1be3af7ffebaa5"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-838f3c99c72b4a57b8114ae0816e02f0"
+        targetConnections="id-95ad7d1e859c4f468116b09a1533f04c"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="216"
+          width="157"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationFunction"
+          href="ApplicationFunction_id-5e59a95f5d5c4620966703496b4defff.xml#id-5e59a95f5d5c4620966703496b4defff"/>
     </children>
     <archimateElement
         xsi:type="archimate:ApplicationFunction"
