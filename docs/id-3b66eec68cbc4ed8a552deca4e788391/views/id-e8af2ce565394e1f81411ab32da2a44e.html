@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Doelarchitectuur 0.9</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Doelarchitectuur 0.9</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-e8af2ce565394e1f81411ab32da2a44e.png" alt="Doelarchitectuur 0.9" usemap="#id-e8af2ce565394e1f81411ab32da2a44emap"/>
+			   <map name="id-e8af2ce565394e1f81411ab32da2a44emap">
+				  		<area shape="rect" coords="281,66,426,145" href="../elements/id-de46af4388d74476901c245ef3afc23b.html"  target="element">
+				  		<area shape="rect" coords="541,62,686,141" href="../elements/id-e5b736ca0a6b41ae9d7765c0648e9944.html"  target="element">
+				  		<area shape="rect" coords="1405,62,1550,141" href="../elements/id-070db4444e01499680cd7ce1a1669ccf.html"  target="element">
+				  		<area shape="rect" coords="1405,854,1550,933" href="../elements/id-8691eedf50cd4b2ca91bda6750e009c0.html"  target="element">
+				  		<area shape="rect" coords="817,854,962,933" href="../elements/id-757143a6ddc94ebeb8ef30374340814f.html"  target="element">
+				  		<area shape="rect" coords="10,62,155,141" href="../elements/id-83ce33f5583c4e8fb80435c61b4b37a3.html"  target="element">
+				  		<area shape="rect" coords="10,252,155,331" href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html"  target="element">
+				  		<area shape="rect" coords="10,446,155,525" href="../elements/id-f98dedea8a334a88a76dca91842aa3cb.html"  target="element">
+				  		<area shape="rect" coords="1405,254,1550,333" href="../elements/id-aac980f42cf24d6ebfabf9ef08be885e.html"  target="element">
+				  		<area shape="rect" coords="541,254,686,333" href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html"  target="element">
+				  		<area shape="rect" coords="541,458,686,537" href="../elements/id-887ff59c939646d19d105df2ba28a5b6.html"  target="element">
+				  		<area shape="rect" coords="817,62,962,141" href="../elements/id-842424c1735e4e869575840500ba5eea.html"  target="element">
+				  		<area shape="rect" coords="1117,650,1262,729" href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html"  target="element">
+				  		<area shape="rect" coords="817,650,962,729" href="../elements/id-3ef065ec83394ff3973661f17f989af1.html"  target="element">
+				  		<area shape="rect" coords="541,650,686,729" href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html"  target="element">
+				  		<area shape="rect" coords="817,458,962,537" href="../elements/id-8663ac9316864f948c39dec794669f48.html"  target="element">
+				  		<area shape="rect" coords="817,254,962,333" href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html"  target="element">
+				  		<area shape="rect" coords="281,254,426,333" href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element"> Digitale Toegang Service </a> </td>
+											    <td> <a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+											    <td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+											    <td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+											    <td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element"> BRP </a> </td>
+											    <td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+											    <td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-842424c1735e4e869575840500ba5eea.html" target="element"> Autorisatielijst BSN-gerechtigden </a> </td>
+											    <td> <a href="../elements/id-842424c1735e4e869575840500ba5eea.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-887ff59c939646d19d105df2ba28a5b6.html" target="element"> Rijbewijsregister </a> </td>
+											    <td> <a href="../elements/id-887ff59c939646d19d105df2ba28a5b6.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+											    <td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-aac980f42cf24d6ebfabf9ef08be885e.html" target="element"> Inzageregister </a> </td>
+											    <td> <a href="../elements/id-aac980f42cf24d6ebfabf9ef08be885e.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f98dedea8a334a88a76dca91842aa3cb.html" target="element"> BSNk Decryptie </a> </td>
+											    <td> <a href="../elements/id-f98dedea8a334a88a76dca91842aa3cb.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst </a> </td>
+											    <td> <a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-83ce33f5583c4e8fb80435c61b4b37a3.html" target="element"> Decentrale metadata </a> </td>
+											    <td> <a href="../elements/id-83ce33f5583c4e8fb80435c61b4b37a3.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-757143a6ddc94ebeb8ef30374340814f.html" target="element"> BRP koppelpunt </a> </td>
+											    <td> <a href="../elements/id-757143a6ddc94ebeb8ef30374340814f.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8691eedf50cd4b2ca91bda6750e009c0.html" target="element"> Selfservice voorziening </a> </td>
+											    <td> <a href="../elements/id-8691eedf50cd4b2ca91bda6750e009c0.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-070db4444e01499680cd7ce1a1669ccf.html" target="element"> Centraal misbruikbestrijdigingsteam </a> </td>
+											    <td> <a href="../elements/id-070db4444e01499680cd7ce1a1669ccf.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e5b736ca0a6b41ae9d7765c0648e9944.html" target="element"> Machtigingsdienst </a> </td>
+											    <td> <a href="../elements/id-e5b736ca0a6b41ae9d7765c0648e9944.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-de46af4388d74476901c245ef3afc23b.html" target="element"> Register voor wettelijke vertegenwoordiging </a> </td>
+											    <td> <a href="../elements/id-de46af4388d74476901c245ef3afc23b.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-c38dcec4426341108efe9eeed2720fef.html" target="element"> VI/VP </a> </td>
+																		<td> <a href="../elements/id-c38dcec4426341108efe9eeed2720fef.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element"> Digitale Toegang Service </a> </td>
+																		<td> <a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-bb57fbb402ac48ab97389adb7a4ec4fd.html" target="element"> authenticatieverzoek </a> </td>
+																		<td> <a href="../elements/id-bb57fbb402ac48ab97389adb7a4ec4fd.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element"> Digitale Toegang Service </a> </td>
+																		<td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-4ab06ff0b9ac4d40bb88088a4c72eae5.html" target="element"> identificatiemiddel </a> </td>
+																		<td> <a href="../elements/id-4ab06ff0b9ac4d40bb88088a4c72eae5.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																		<td> <a href="../elements/id-aac980f42cf24d6ebfabf9ef08be885e.html" target="element"> Inzageregister </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-731871a333d84f16b27ab010a35ca61a.html" target="element"> gebeurtenis, signaal </a> </td>
+																		<td> <a href="../elements/id-731871a333d84f16b27ab010a35ca61a.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																		<td> <a href="../elements/id-070db4444e01499680cd7ce1a1669ccf.html" target="element"> Centraal misbruikbestrijdigingsteam </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-6e61766b7a854951b6e26b571623e890.html" target="element"> sleutel, PI/PP, VI/VP </a> </td>
+																		<td> <a href="../elements/id-6e61766b7a854951b6e26b571623e890.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-4a0cd8031a3542ceac030f0dd256178a.html" target="element"> PI/PP en VI/VP  </a> </td>
+																		<td> <a href="../elements/id-4a0cd8031a3542ceac030f0dd256178a.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-048a3508a4a24094a5bcd93e191a3db3.html" target="element"> sleutel </a> </td>
+																		<td> <a href="../elements/id-048a3508a4a24094a5bcd93e191a3db3.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element"> Digitale Toegang Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d656d5c6783f4df2a827a4f31e7dd0cf.html" target="element"> VI/VP </a> </td>
+																		<td> <a href="../elements/id-d656d5c6783f4df2a827a4f31e7dd0cf.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b40d59250bfa4d13bcc65ff65cf418e4.html" target="element"> statuswijziging identificatiemiddel </a> </td>
+																		<td> <a href="../elements/id-b40d59250bfa4d13bcc65ff65cf418e4.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-aac980f42cf24d6ebfabf9ef08be885e.html" target="element"> Inzageregister </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d67cf4650149410da4b10cd19ecc9c51.html" target="element"> sleutel </a> </td>
+																		<td> <a href="../elements/id-d67cf4650149410da4b10cd19ecc9c51.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																		<td> <a href="../elements/id-8691eedf50cd4b2ca91bda6750e009c0.html" target="element"> Selfservice voorziening </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-dd50de82fb9144e7a40b7cfc0d5d3022.html" target="element"> persoon </a> </td>
+																		<td> <a href="../elements/id-dd50de82fb9144e7a40b7cfc0d5d3022.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+																		<td> <a href="../elements/id-757143a6ddc94ebeb8ef30374340814f.html" target="element"> BRP koppelpunt </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d6707f22b002411bad3a9a474521dba7.html" target="element"> authenticatieverzoek </a> </td>
+																		<td> <a href="../elements/id-d6707f22b002411bad3a9a474521dba7.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-40fe1f2e083d4d0798765524ea219247.html" target="element"> persoon </a> </td>
+																		<td> <a href="../elements/id-40fe1f2e083d4d0798765524ea219247.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element"> BRP </a> </td>
+																		<td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-61057ff4e8a04ea1a188e7bf984bfeb2.html" target="element"> persoon </a> </td>
+																		<td> <a href="../elements/id-61057ff4e8a04ea1a188e7bf984bfeb2.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element"> BRP </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-c0a68efd0514457baaa43780818f5cc7.html" target="element"> persoon </a> </td>
+																		<td> <a href="../elements/id-c0a68efd0514457baaa43780818f5cc7.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element"> BRP </a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ba3597dd857d480e9104fa469a8882c8.html" target="element"> dienstverlener </a> </td>
+																		<td> <a href="../elements/id-ba3597dd857d480e9104fa469a8882c8.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-55127fc3b53a478b9c7e87735f80a9ac.html" target="element"> dienstverlener </a> </td>
+																		<td> <a href="../elements/id-55127fc3b53a478b9c7e87735f80a9ac.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-e0bcb4b046384d30b26a727c178e38ac.html" target="element"> sleutel </a> </td>
+																		<td> <a href="../elements/id-e0bcb4b046384d30b26a727c178e38ac.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+																		<td> <a href="../elements/id-f98dedea8a334a88a76dca91842aa3cb.html" target="element"> BSNk Decryptie </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-a82093d313bf4e2d86d9ccf7ed878f68.html" target="element"> dienstverlener </a> </td>
+																		<td> <a href="../elements/id-a82093d313bf4e2d86d9ccf7ed878f68.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+																		<td> <a href="../elements/id-d5f585bd3da84ac5a671cb97c02334c6.html" target="element"> eIDAS koppelpunt </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-34d339a4e6e84d2b8d999e945dfcfb62.html" target="element"> dienstverlener </a> </td>
+																		<td> <a href="../elements/id-34d339a4e6e84d2b8d999e945dfcfb62.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-842424c1735e4e869575840500ba5eea.html" target="element"> Autorisatielijst BSN-gerechtigden </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-b83200d7129f44008f9bb9968f91c7c8.html" target="element"> dienstverlener </a> </td>
+																		<td> <a href="../elements/id-b83200d7129f44008f9bb9968f91c7c8.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-842424c1735e4e869575840500ba5eea.html" target="element"> Autorisatielijst BSN-gerechtigden </a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-64be549728ab4596bbb72d203f525773.html" target="element"> rijbewijs </a> </td>
+																		<td> <a href="../elements/id-64be549728ab4596bbb72d203f525773.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-887ff59c939646d19d105df2ba28a5b6.html" target="element"> Rijbewijsregister </a> </td>
+																		<td> <a href="../elements/id-8663ac9316864f948c39dec794669f48.html" target="element"> BSN koppelregister </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-f77128c335bc4ea5a582fc6111a4aa3e.html" target="element"> rijbewijs </a> </td>
+																		<td> <a href="../elements/id-f77128c335bc4ea5a582fc6111a4aa3e.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-887ff59c939646d19d105df2ba28a5b6.html" target="element"> Rijbewijsregister </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ccf7056cb12f4a7fa69f5646b35b202c.html" target="element"> authenticatieverzoek </a> </td>
+																		<td> <a href="../elements/id-ccf7056cb12f4a7fa69f5646b35b202c.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+																		<td> <a href="../elements/id-1fd5545c30a54234a4ced6b1392d9d93.html" target="element"> Authenticatiedienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c2c0dfa460ab4f89bea13df7bccb0316.html" target="element"> BSN of pseudoniem </a> </td>
+																		<td> <a href="../elements/id-c2c0dfa460ab4f89bea13df7bccb0316.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-f98dedea8a334a88a76dca91842aa3cb.html" target="element"> BSNk Decryptie </a> </td>
+																		<td> <a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-7820bb97420343aca4c0a9b7bacb760a.html" target="element"> dienstverlener, dienst </a> </td>
+																		<td> <a href="../elements/id-7820bb97420343aca4c0a9b7bacb760a.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-83ce33f5583c4e8fb80435c61b4b37a3.html" target="element"> Decentrale metadata </a> </td>
+																		<td> <a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-ca686aaef00443e58f86f81ec5b11ff0.html" target="element"> persoon </a> </td>
+																		<td> <a href="../elements/id-ca686aaef00443e58f86f81ec5b11ff0.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-757143a6ddc94ebeb8ef30374340814f.html" target="element"> BRP koppelpunt </a> </td>
+																		<td> <a href="../elements/id-3ef065ec83394ff3973661f17f989af1.html" target="element"> BRP </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-86ffd3a4e0c447fba90ae39c653a83f6.html" target="element"> dienstverlener, dienst </a> </td>
+																		<td> <a href="../elements/id-86ffd3a4e0c447fba90ae39c653a83f6.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8691eedf50cd4b2ca91bda6750e009c0.html" target="element"> Selfservice voorziening </a> </td>
+																		<td> <a href="../elements/id-904b487b4a5941c29b3d7d0d5f9b027c.html" target="element"> Stelsel metadata </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-a3c36365ad6d4db09db79b4a2c826a0a.html" target="element"> bevoegdheid </a> </td>
+																		<td> <a href="../elements/id-a3c36365ad6d4db09db79b4a2c826a0a.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-e5b736ca0a6b41ae9d7765c0648e9944.html" target="element"> Machtigingsdienst </a> </td>
+																		<td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-178a7abaf3984e03982f59bd2f499f72.html" target="element"> bevoegdheid </a> </td>
+																		<td> <a href="../elements/id-178a7abaf3984e03982f59bd2f499f72.html" target="element" class="i18n-elementtype-FlowRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-de46af4388d74476901c245ef3afc23b.html" target="element"> Register voor wettelijke vertegenwoordiging </a> </td>
+																		<td> <a href="../elements/id-bdb8aa12d54b4e7893025bfa27603dcf.html" target="element"> Bevoegdhedenverklaringsdienst </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
