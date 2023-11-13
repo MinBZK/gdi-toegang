@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="VI/VP"
+    name="BSN of pseudoniem"
     id="id-c38dcec4426341108efe9eeed2720fef">
   <source
       xsi:type="archimate:ApplicationComponent"
