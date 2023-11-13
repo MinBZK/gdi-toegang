@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="vrijwillige machtigingen"
+    name="vrijwillige machtiging"
     id="id-de8f02c80d5744ea84db9883add41991">
   <source
       xsi:type="archimate:ApplicationComponent"

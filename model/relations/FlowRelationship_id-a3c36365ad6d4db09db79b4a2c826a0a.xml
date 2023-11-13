@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bevoegdheid"
+    name="machting"
     id="id-a3c36365ad6d4db09db79b4a2c826a0a">
   <source
       xsi:type="archimate:ApplicationComponent"
