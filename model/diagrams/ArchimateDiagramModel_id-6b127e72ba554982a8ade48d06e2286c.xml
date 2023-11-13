@@ -297,7 +297,7 @@
           startX="-540"
           startY="3"
           endX="180"
-          endY="279"/>
+          endY="327"/>
       <bendpoints
           startX="-540"
           startY="-297"
@@ -714,6 +714,9 @@
         id="id-85855fa5bc0f44bcbbf2fd8db103e2da"
         source="id-59d00cb28d6d4ab7bffd5a62ed8423ab"
         target="id-75617e92adfb4822837cd5b39180c140">
+      <features
+          name="labelExpression"
+          value="KvK nummer,&#xD;&#xA;vestigingsnummer"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-568a63a028f14942a34f2bd30e386aed.xml#id-568a63a028f14942a34f2bd30e386aed"/>

@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bevoegheidsverklaring"
+    name="bevoegdheidsverklaring"
     id="id-1d6a9e7e7c624fd6bdf4cdfd3d335e53">
   <source
       xsi:type="archimate:ApplicationComponent"

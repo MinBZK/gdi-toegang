@@ -1,5 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Toevoegen bevoegdheden"
+    name="Creëren bevoegdheidsverklaring"
     id="id-b9dddc4beb144b50a4f8ffe120193607"
-    documentation="Het toevoegen van gegevens over bevoegdheden van digitale identiteiten na het uitvoeren van authenticatie."/>
+    documentation="Het creëren van een bewijs dat een digitale identiteit een bepaalde vertegenwoordigingsbevoegdheid heeft."/>

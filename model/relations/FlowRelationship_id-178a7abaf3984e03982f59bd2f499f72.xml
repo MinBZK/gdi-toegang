@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bevoegdheid"
+    name="wettelijke vertegenwoordiging"
     id="id-178a7abaf3984e03982f59bd2f499f72">
   <source
       xsi:type="archimate:ApplicationComponent"
