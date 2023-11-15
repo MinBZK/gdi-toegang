@@ -1,0 +1,5 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="XACML"
+    id="id-ea960156be254aee8b241e6e79f30d8c"
+    documentation="Dit is een taal voor het uitdrukken van regels voor toegangsverlening. Het definieert de gebruikte begrippen en bevat modellen en een beschrijving van architectuurcomponenten, waarop de modellen in het thema Logische Toegang van dit document zijn gebaseerd."/>
