@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Digitaal identificatiemiddel"
+    name="Authenticatiemiddel"
     id="id-4145089decc343f1b8a35540703eb738"
-    documentation="Een fysiek of digitaal middel op grond waarvan authenticatie van een gebruiker kan plaatsvinden; i.e. een drager van een digitale Identiteit met een vastgesteld betrouwbaarheidsniveau. (bron: NORA)"/>
+    documentation="Een fysiek of digitaal middel op grond waarvan authenticatie van een gebruiker kan plaatsvinden."/>
