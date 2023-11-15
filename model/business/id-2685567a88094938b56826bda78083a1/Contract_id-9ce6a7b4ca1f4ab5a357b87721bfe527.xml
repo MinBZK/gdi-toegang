@@ -1,0 +1,5 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="X.509"
+    id="id-9ce6a7b4ca1f4ab5a357b87721bfe527"
+    documentation="De standaard is belangrijk voor de authenticatie van applicaties, gebruikers, systemen via certificaten op het internet. Hierbij kan het gaan om www, elektronische mail (beveiligd), gebruikers authenticatie en IPsec, SSL en TLS. Elke gebruiker kan op deze manier via bijvoorbeeld zijn browser verifiëren of het certificaat dat gebruikt wordt voor de beveiligde koppeling nog valide is of dat deze ingetrokken is en of een verbinding dus wel of niet veilig is."/>
