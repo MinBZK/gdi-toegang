@@ -1,5 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Verstrekken identificatiemiddel"
+    name="Verstrekken authenticatiemiddel"
     id="id-ef0940d64b5d4987a8308f22eb665072"
-    documentation="Het overhandigen van gegevens over een digitaal identificatiemiddel aan de persoon of organisatie met de bijbehorende digitale identiteit."/>
+    documentation="Het overhandigen van gegevens over een authenticatiemiddel aan de persoon of organisatie met de bijbehorende digitale identiteit."/>

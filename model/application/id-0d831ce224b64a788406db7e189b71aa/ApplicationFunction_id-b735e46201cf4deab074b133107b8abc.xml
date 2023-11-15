@@ -1,5 +1,5 @@
 <archimate:ApplicationFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beheren digitale identificatiemiddelen"
+    name="Beheren authenticatiemiddelen"
     id="id-b735e46201cf4deab074b133107b8abc"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) ditale identificatiemiddelen."/>
+    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) authenticatiemiddelen."/>
