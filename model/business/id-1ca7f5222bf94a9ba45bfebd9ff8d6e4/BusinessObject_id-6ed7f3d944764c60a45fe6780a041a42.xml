@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bevoegdheid"
+    id="id-6ed7f3d944764c60a45fe6780a041a42"
+    documentation="Een toestemming van een entiteit of danwel zelf, danwel als vertegenwoordiger van een belanghebbende, om toegang te krijgen tot een resource waarbij voorwaarden kunnen worden gedefinieerd op de attributen van de digitale identiteit."/>
