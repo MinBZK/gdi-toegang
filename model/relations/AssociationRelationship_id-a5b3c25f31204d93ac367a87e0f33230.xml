@@ -1,12 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="is een instantie van"
+    name="heeft specifieke instantie"
     id="id-a5b3c25f31204d93ac367a87e0f33230">
   <source
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-4d32e4b7ef9c4a85acfa2c562ad218d2.xml#id-4d32e4b7ef9c4a85acfa2c562ad218d2"/>
+      href="BusinessObject_id-7417b19f5c21447d8bf281baf4315b20.xml#id-7417b19f5c21447d8bf281baf4315b20"/>
   <target
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-7417b19f5c21447d8bf281baf4315b20.xml#id-7417b19f5c21447d8bf281baf4315b20"/>
+      href="BusinessObject_id-4d32e4b7ef9c4a85acfa2c562ad218d2.xml#id-4d32e4b7ef9c4a85acfa2c562ad218d2"/>
 </archimate:AssociationRelationship>

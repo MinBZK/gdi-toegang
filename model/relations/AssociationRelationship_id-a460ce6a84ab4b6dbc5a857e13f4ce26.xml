@@ -1,11 +1,11 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="is belanghebbende bij"
+    name="wordt vertegenwoordigd in"
     id="id-a460ce6a84ab4b6dbc5a857e13f4ce26">
   <source
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-9e14841bf7a34845a4465fb9aa96cc53.xml#id-9e14841bf7a34845a4465fb9aa96cc53"/>
+      href="BusinessObject_id-797830dc4f51491caf773ed85703e466.xml#id-797830dc4f51491caf773ed85703e466"/>
   <target
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-19881848ccce47c9974cf7bc005393e8.xml#id-19881848ccce47c9974cf7bc005393e8"/>
