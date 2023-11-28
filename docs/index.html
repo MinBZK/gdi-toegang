@@ -68,6 +68,7 @@
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-276320a6bad14e10a39ac2bcfcd13178.html" target="element"> Resource </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-4145089decc343f1b8a35540703eb738.html" target="element"> Authenticatiemiddel </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-4d32e4b7ef9c4a85acfa2c562ad218d2.html" target="element"> Rol </a></li>
+															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-6ed7f3d944764c60a45fe6780a041a42.html" target="element"> Bevoegdheid </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-7417b19f5c21447d8bf281baf4315b20.html" target="element"> Attribuutsoort </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-797830dc4f51491caf773ed85703e466.html" target="element"> Entiteit </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-7a15da44f51b45d0b7b2d1449ea8def3.html" target="element"> Autorisatieregel </a></li>
@@ -80,7 +81,6 @@
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-d128055e2a98447ea02185273849dac9.html" target="element"> Dienst </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-d766d65c0ea14ecc9e01f99938d0b61b.html" target="element"> Attribuut </a></li>
 															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-f51d4497b87b4751842effe518b903d5.html" target="element"> Identiteitsverklaring </a></li>
-															<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-6ed7f3d944764c60a45fe6780a041a42.html" target="element"> Bevoegdheid </a></li>
 
 											</ul>
 											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Standaarden </span>
@@ -261,6 +261,10 @@
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-2f20e54a1de8402dac146628ec3620fa.html" target="element">
 															<span class="i18n-elementtype-AccessRelationship"></span>
 														(Beheren bevoegdheden - Autorisatieregel) 
+													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-35586cbad43d4488855a6933e636ba75.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Beheren bevoegdheden - Bevoegdheid) 
 													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-379144268a894ce09139a2eec3479419.html" target="element">
 															<span class="i18n-elementtype-AccessRelationship"></span>
@@ -798,9 +802,17 @@
 															geeft toegang tot
 														(Autorisatieregel - Resource) 
 													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-1dfa61114d554b759470091272b56b39.html" target="element">
+															geeft toestemming voor
+														(Entiteit - Bevoegdheid) 
+													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-20e13a0e82b948258905b2dd76fafc21.html" target="element">
 															is opgenomen in
 														(Attribuut - Bevoegdheidsverklaring) 
+													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-26cf944020e84607ab1280b84389143c.html" target="element">
+															wordt geoperationaliseerd door
+														(Bevoegdheid - Autorisatieregel) 
 													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-34eb7f0fc6be464e80ca03b3f6348988.html" target="element">
 															is gekoppeld aan
@@ -817,6 +829,10 @@
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-52423eab315f443cbdc38ec5cbff516b.html" target="element">
 															heeft
 														(Entiteit - Digitale identiteit) 
+													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-59b92471ad3b446eaf1989b7c9bb405d.html" target="element">
+															heeft betrekking op
+														(Bevoegdheid - Resource) 
 													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-669f13fc5e7c4d798ed19ef43a3ed0cf.html" target="element">
 															wordt gebruikt in
@@ -841,6 +857,10 @@
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-a5b3c25f31204d93ac367a87e0f33230.html" target="element">
 															heeft specifieke instantie
 														(Attribuutsoort - Rol) 
+													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-e3156b5f9b1d4fd39002ff53bd4f50a0.html" target="element">
+															heeft
+														(Digitale identiteit - Bevoegdheid) 
 													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-e8f14d425db449a195762d35136b623e.html" target="element">
 															wordt gebruikt voor
@@ -1298,6 +1318,10 @@
 															<span class="i18n-elementtype-SpecializationRelationship"></span>
 														(Horizontale machtiging - Machtiging) 
 													</a></li>
+													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-8438805240c14be194a84e3c5e35fde7.html" target="element">
+															<span class="i18n-elementtype-SpecializationRelationship"></span>
+														(Vertegenwoordigingsbevoegdheid - Bevoegdheid) 
+													</a></li>
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-a03a9aef1cf744ca86d73bb8319389e1.html" target="element">
 															<span class="i18n-elementtype-SpecializationRelationship"></span>
 														(Machtiging - Vertegenwoordigingsbevoegdheid) 
@@ -1317,22 +1341,6 @@
 													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-f97b745c207045be9513f2d5459f65d0.html" target="element">
 															<span class="i18n-elementtype-SpecializationRelationship"></span>
 														(Zaak - Resource) 
-													</a></li>
-													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-e3156b5f9b1d4fd39002ff53bd4f50a0.html" target="element">
-															heeft
-														(Digitale identiteit - Bevoegdheid) 
-													</a></li>
-													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-8438805240c14be194a84e3c5e35fde7.html" target="element">
-															<span class="i18n-elementtype-SpecializationRelationship"></span>
-														(Vertegenwoordigingsbevoegdheid - Bevoegdheid) 
-													</a></li>
-													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-59b92471ad3b446eaf1989b7c9bb405d.html" target="element">
-															heeft betrekking op
-														(Bevoegdheid - Resource) 
-													</a></li>
-													<li class="tree-element "><a href="id-3b66eec68cbc4ed8a552deca4e788391/elements/id-35586cbad43d4488855a6933e636ba75.html" target="element">
-															<span class="i18n-elementtype-AccessRelationship"></span>
-														(Beheren bevoegdheden - Bevoegdheid) 
 													</a></li>
 
 									</ul>
