@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Uitloggen"
+    id="id-52aa4858c63d46faa3fa7c4b92716e53"
+    documentation="Het ervoor zorgen dat gecreëerde tijdelijke tokens niet meer gebruikt kunnen worden om toegang te krijgen tot systemen."/>
