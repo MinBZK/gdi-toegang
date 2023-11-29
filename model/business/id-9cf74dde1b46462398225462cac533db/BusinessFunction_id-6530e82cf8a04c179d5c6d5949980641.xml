@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wijzigen of vervangen authenticatiemiddel"
+    id="id-6530e82cf8a04c179d5c6d5949980641"
+    documentation="Het wijzigen van de inhoud van bewijsmiddelen zoals wijzigen wachtwoord, het (periodiek) vervangen van certificaten en het blokkeren of deblokkeren van een authenticatiemiddelen."/>

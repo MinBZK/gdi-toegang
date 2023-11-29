@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Creëren authenticatiemiddel"
+    id="id-651063a181ba4d948ca4a4b898ba3964"
+    documentation="Het creëren en vastleggen van de kerngegevens die horen bij het authenicatiemiddel, waaronder het bewijsmateriaal zoals wachtwoord, sleutels of biometrische vingerafdruk."/>

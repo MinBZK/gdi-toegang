@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Controleren autorisatie voor dienst"
+    id="id-3099a3491bf542f084b6b3defa72ef68"
+    documentation="Het bepalen of een digitale identiteit geautoriseerd is voor een specifieke dienst."/>
