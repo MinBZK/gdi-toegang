@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Verticale machtiging"
     id="id-19372d5882b8419692ad1594ab96eb7f"
-    documentation="Een machtiging waarbij er een hiërarchische relatie bestaat binnen een rechtspersoon. Een natuurlijk persoon binnen een organisatie (b.v. een accountant binnen een accountantskantoor) voert binnen die organisatie taken uit en doet zaken met andere organisaties. (bron: GDI-architectuur M&amp;V)"/>
+    documentation="Een machtiging waarbij er een hiërarchische relatie bestaat binnen een niet-natuurlijk persoon. Een natuurlijk persoon binnen een organisatie (b.v. een accountant binnen een accountantskantoor) voert binnen die organisatie taken uit en doet zaken met andere organisaties. (bron: GDI-architectuur M&amp;V)"/>
