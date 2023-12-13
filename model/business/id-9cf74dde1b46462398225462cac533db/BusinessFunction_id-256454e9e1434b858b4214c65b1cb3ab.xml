@@ -1,4 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beheren basisgegevens"
-    id="id-256454e9e1434b858b4214c65b1cb3ab"/>
+    name="Beheren dienstverlening"
+    id="id-256454e9e1434b858b4214c65b1cb3ab"
+    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) dienstverleners, de digitale diensten die zij leveren en verklarende diensten."/>
