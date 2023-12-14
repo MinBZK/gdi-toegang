@@ -22,7 +22,7 @@
         x="372"
         y="12"
         width="169"
-        height="349"/>
+        height="469"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-7e5b0dd598e845cba274f47bcf82aaba"
@@ -71,7 +71,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="456"
+        y="492"
         width="349"
         height="73"/>
     <children
@@ -184,7 +184,7 @@
         x="552"
         y="12"
         width="169"
-        height="349"/>
+        height="469"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-93eac627e7ae4a3fbf35d77d06be4879"
@@ -305,7 +305,7 @@
         value="2"/>
     <bounds
         x="552"
-        y="456"
+        y="492"
         width="349"
         height="73"/>
     <archimateElement
@@ -331,7 +331,7 @@
         x="192"
         y="12"
         width="169"
-        height="349"/>
+        height="469"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d546414deed5445b818c1479199a1fdd"
@@ -371,7 +371,7 @@
     </sourceConnections>
     <bounds
         x="372"
-        y="456"
+        y="492"
         width="169"
         height="73"/>
     <children
@@ -451,7 +451,7 @@
         x="12"
         y="12"
         width="169"
-        height="349"/>
+        height="289"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-440fed922436476ebc8f0aee28d4d595"
@@ -581,9 +581,9 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="372"
-        width="889"
-        height="74"/>
+        y="312"
+        width="169"
+        height="169"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-95b5c3ca062940e085c50e6eb1f6c24c"
@@ -594,8 +594,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="384"
-          y="24"
+          x="24"
+          y="72"
           width="120"
           height="37"/>
       <archimateElement
@@ -630,8 +630,8 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="744"
-          y="24"
+          x="24"
+          y="120"
           width="120"
           height="37"/>
       <archimateElement
@@ -700,7 +700,7 @@
         x="732"
         y="12"
         width="169"
-        height="349"/>
+        height="469"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-36128d7c2e8d48fcba3e4d6e5de5eb71"
