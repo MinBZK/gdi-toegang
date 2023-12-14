@@ -138,8 +138,8 @@
           href="AccessRelationship_id-62202a8dade649d1965e366c36405708.xml#id-62202a8dade649d1965e366c36405708"/>
     </sourceConnections>
     <bounds
-        x="12"
-        y="552"
+        x="13"
+        y="432"
         width="372"
         height="349"/>
     <children
@@ -280,8 +280,8 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="588"
-        y="552"
+        x="589"
+        y="432"
         width="372"
         height="349"/>
     <archimateElement
@@ -360,8 +360,8 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="396"
-        y="552"
+        x="397"
+        y="432"
         width="180"
         height="349"/>
     <archimateElement
@@ -378,7 +378,7 @@
         x="12"
         y="12"
         width="181"
-        height="409"/>
+        height="205"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-9786d6dbbd44482c97d2ac83bf79bd38.xml#id-9786d6dbbd44482c97d2ac83bf79bd38"/>
@@ -391,9 +391,9 @@
         value="2"/>
     <bounds
         x="12"
-        y="432"
-        width="949"
-        height="110"/>
+        y="228"
+        width="181"
+        height="193"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-256454e9e1434b858b4214c65b1cb3ab.xml#id-256454e9e1434b858b4214c65b1cb3ab"/>
