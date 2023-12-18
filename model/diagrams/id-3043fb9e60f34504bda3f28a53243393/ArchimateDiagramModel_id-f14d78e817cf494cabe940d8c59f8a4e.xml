@@ -191,6 +191,9 @@
         targetConnections="id-c73c8c12663546bb8beef26d0731f036"
         fillColor="#ffffff"
         textPosition="1">
+      <features
+          name="iconVisible"
+          value="1"/>
       <bounds
           x="12"
           y="36"
