@@ -1,0 +1,9 @@
+<archimate:Contract
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="W3C Verifiable Credentials"
+    id="id-ea96d55372da4381a76adfcfeb4e7a69"
+    documentation="Deze specificatie biedt een mechanisme om beweringen over iets of iemand uit te drukken op een manier die cryptografisch veilig is, de privacy respecteert en machinaal verifieerbaar is.">
+  <properties
+      key="Status"
+      value="nvt"/>
+</archimate:Contract>
