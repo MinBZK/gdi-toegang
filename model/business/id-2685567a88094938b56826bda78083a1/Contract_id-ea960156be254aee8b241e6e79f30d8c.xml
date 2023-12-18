@@ -6,4 +6,7 @@
   <properties
       key="Status"
       value="nvt"/>
+  <properties
+      key="URL"
+      value="https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html"/>
 </archimate:Contract>

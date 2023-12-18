@@ -6,4 +6,7 @@
   <properties
       key="Status"
       value="Verplicht"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20"/>
 </archimate:Contract>

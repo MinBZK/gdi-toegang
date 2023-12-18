@@ -6,4 +6,7 @@
   <properties
       key="Status"
       value="Aanbevolen"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/totp"/>
 </archimate:Contract>
