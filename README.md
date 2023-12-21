@@ -1,5 +1,5 @@
 # gdi-toegang
-Samenwerking van de werkgroep toegang van de GDI architectuur. Bestaat uit een ArchiMate Model (toegang.archimate) en een verzameling bestanden die met coArchi kunnen worden ingelezen. 
+Samenwerking van de werkgroep toegang van de GDI architectuur. Bestaat uit een ArchiMate Model in Archi formaat (toegang.archimate) en een verzameling bestanden die met coArchi kunnen worden ingelezen. 
 
 De web versie is beschikbaar op: https://minbzk.github.io/gdi-toegang. Dit is een handmatige HTML export vanuit Archi. Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd.
 
