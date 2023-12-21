@@ -3,7 +3,7 @@ Samenwerking van de werkgroep toegang van de GDI architectuur. Bestaat uit een A
 
 De web versie is beschikbaar op: https://minbzk.github.io/gdi-toegang. Dit is een handmatige HTML export vanuit Archi. Als iemand wijzigingen aanbrengt in het model dan moet er door deze persoon ook een nieuwe HTML export worden gemaakt en gepubliceerd.
 
-#instructies voor coArchi
+# instructies voor coArchi
 1. Installeren Archi: https://www.archimatetool.com/download/
 2. Installeren coArchi: https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.0.archiplugin
 3. Aanmaken Github account
