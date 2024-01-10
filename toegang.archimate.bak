@@ -285,7 +285,6 @@
         <documentation>Het in machineleesbare vorm beschikbaar stellen van gegevens over digitale identiteiten, zodat diensten of systemen deze kunnen gebruiken als basisgegevens voor gebruikers.</documentation>
       </element>
     </folder>
-    <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-e1c345f02b854767bb18c07be4a00138"/>
   </folder>
   <folder name="Application" id="id-d5193e4c1cd54a91a0fdac31884b93b3" type="application">
     <folder name="Doelarchitectuur toegang" id="id-9b3ead2ec4cb46c38197ec8051f3a31f">
@@ -1513,9 +1512,6 @@ o Relevante cryptografische sleutels, certificaten en technische gegevens (bijvo
             <bounds x="24" y="240" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-9c9e6e849f7043569759b4d5b779f712" archimateElement="id-e1c345f02b854767bb18c07be4a00138">
-          <bounds x="1336" y="413" width="120" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel" id="id-d43a21de1f8f4320a22ee4a1a46d660b">
