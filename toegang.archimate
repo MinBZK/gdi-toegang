@@ -1465,21 +1465,21 @@ o Relevante cryptografische sleutels, certificaten en technische gegevens (bijvo
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ed9974c1bc5245209ff7bed227d239e6" archimateElement="id-256454e9e1434b858b4214c65b1cb3ab">
-          <bounds x="12" y="312" width="169" height="169"/>
+          <bounds x="12" y="12" width="169" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-eea762e9e04c4c04bae39f047b72eead" source="id-ed9974c1bc5245209ff7bed227d239e6" target="id-95b5c3ca062940e085c50e6eb1f6c24c" archimateRelationship="id-fd83a718de0d496c9069f1ab7be58733"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-eff9604fe58441d0aeca5b0bfda51fca" source="id-ed9974c1bc5245209ff7bed227d239e6" target="id-098473b0c0564c1fb6a30341835b959f" archimateRelationship="id-bd7a1c1822a74e6a9acc98b145350f71"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-cc6c2144de524ad6be1317bc7ead015a" source="id-ed9974c1bc5245209ff7bed227d239e6" target="id-5d88df6eeab64958978d50b8dd220fc0" archimateRelationship="id-3834b29a02e946a3b64d2f5e16d5ded9"/>
           <child xsi:type="archimate:DiagramObject" id="id-95b5c3ca062940e085c50e6eb1f6c24c" targetConnections="id-eea762e9e04c4c04bae39f047b72eead" fillColor="#ffffff" textPosition="1" archimateElement="id-d128055e2a98447ea02185273849dac9">
-            <bounds x="24" y="72" width="120" height="37"/>
+            <bounds x="24" y="96" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-098473b0c0564c1fb6a30341835b959f" targetConnections="id-eff9604fe58441d0aeca5b0bfda51fca" fillColor="#ffffff" textPosition="1" archimateElement="id-c266e0540ad64714932a780fe9e74037">
-            <bounds x="24" y="24" width="120" height="37"/>
+            <bounds x="24" y="48" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5d88df6eeab64958978d50b8dd220fc0" targetConnections="id-cc6c2144de524ad6be1317bc7ead015a" fillColor="#ffffff" textPosition="1" archimateElement="id-b176e501216a411aab3a570774c04761">
-            <bounds x="24" y="120" width="120" height="37"/>
+            <bounds x="24" y="144" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
