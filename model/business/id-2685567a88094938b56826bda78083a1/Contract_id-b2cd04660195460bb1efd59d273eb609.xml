@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="Het authenticeren van gebruikers door middel van de combinatie van een geheime sleutel en een eenmalig wachtwoord, voorzien van een tijdsstempel."/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/totp"/>
 </archimate:Contract>

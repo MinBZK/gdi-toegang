@@ -6,4 +6,10 @@
   <properties
       key="Status"
       value="Aanbevolen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://forumstandaardisatie.nl/open-standaarden/oauth"/>
 </archimate:Contract>

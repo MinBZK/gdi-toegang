@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="Authenticatie van applicaties, gebruikers, systemen middels certificaten op het internet, zoals www, elektronische mail (beveiligd), gebruikers authenticatie en IPsec, SSL en TLS."/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/x509"/>
 </archimate:Contract>

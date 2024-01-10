@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wijzigen authenticatiemiddel"
+    id="id-d763571d80f54f8892724832e27eed3e"
+    documentation="Het wijzigen van gegevens behorend bij een authenticatiemiddel, inclusief het blokkeren van een authenticatiemiddel."/>

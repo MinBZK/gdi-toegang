@@ -7,6 +7,12 @@
       key="Status"
       value="Aanbevolen"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="OpenID Connect kan toegepast worden bij het beschikbaar stellen van federatieve authenticatiediensten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OpenID Foundation"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/oidc"/>
 </archimate:Contract>

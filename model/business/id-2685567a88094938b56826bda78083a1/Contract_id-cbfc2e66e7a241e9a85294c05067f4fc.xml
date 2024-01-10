@@ -7,6 +7,12 @@
       key="Status"
       value="Verplicht"/>
   <properties
+      key="Functioneel toepassingsgebied"
+      value="SAML moet worden toegepast op de uitwisseling van authenticatie- en autorisatiegegevens om gebruikers na eenmalig inloggen toegang te geven tot meerdere diensten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
       key="URL"
       value="https://www.forumstandaardisatie.nl/open-standaarden/saml"/>
 </archimate:Contract>
