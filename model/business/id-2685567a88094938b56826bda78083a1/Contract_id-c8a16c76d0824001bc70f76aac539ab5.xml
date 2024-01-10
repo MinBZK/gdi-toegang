@@ -1,8 +1,8 @@
 <archimate:Contract
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="NL GOV Assurance Profile for OIDC"
-    id="id-7470e5e65f3d4f208fe8a0f4f541ffe9"
-    documentation="Het NL GOV Assurance profile for OIDC 1.0 geeft door dienstverleners aangeboden diensten de mogelijkheid om de identiteit van een eindgebruiker te controleren gebaseerd op verschillende authenticatieservices (zoals DigiD), waarbij profielinformatie van de eindgebruiker volgens een gestandaardiseerde wijze beschikbaar wordt gesteld aan de daarvoor geautoriseerde diensten.">
+    name="FIDO"
+    id="id-c8a16c76d0824001bc70f76aac539ab5"
+    documentation="Een verzameling normen voor het ondersteunen van wachtwoordloze authenticatie. FIDO ondersteunt een volledig scala aan authenticatietechnologieën, waaronder biometrie, zoals vingerafdruk- en irisscanners, stem- en gezichtsherkenning, naast bestaande oplossingen en communicatiestandaarden zoals Trusted Platform Modules (TPM), USB security tokens, embedded Secure Elements (eSE), smartcards en near-field communication (NFC).">
   <properties
       key="Status"
       value="In behandeling"/>

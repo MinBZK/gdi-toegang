@@ -1,12 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSN of pseudoniem, bevoegdheidsverklaring"
-    id="id-c38dcec4426341108efe9eeed2720fef">
+    name="authenticatieverzoek"
+    id="id-f0286c02d04941d5b76af7c6d99fe7a4">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-d904439ff4b44281a4092a5d386ad71f.xml#id-d904439ff4b44281a4092a5d386ad71f"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-b666322db6e64dd98a41a38e9aeb9119.xml#id-b666322db6e64dd98a41a38e9aeb9119"/>
+      href="ApplicationComponent_id-e5b736ca0a6b41ae9d7765c0648e9944.xml#id-e5b736ca0a6b41ae9d7765c0648e9944"/>
 </archimate:FlowRelationship>
