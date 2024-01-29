@@ -17,9 +17,8 @@
           name="labelExpression"
           value="BSN of pseudoniem, &#xD;&#xA;bevoegdheidsverklaring"/>
       <bendpoints
-          startX="-268"
+          startX="-280"
           startY="-3"
-          endX="12"
           endY="189"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
