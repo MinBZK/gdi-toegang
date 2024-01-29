@@ -45,11 +45,19 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Metadata op centraal niveau gecontroleerd en opgenomen in een bestand dat ook centraal wordt gepubliceerd. Alle deelnemers en aangesloten dienstverleners worden op basis van hun OIN in de Stelsel Metadata geregistreerd. Er kunnen aanvullende andere attributen opgenomen worden om een verder en verbeterd vertrouwen in het stelsel te waarborgen:
-o Naam van de organisatie
-o Gegevens diensten van dienstverleners (naam, gewenst LoA, tekst consent, toegang eIDAS, &#8230;.)
-o Per authenticatiedienst: Hoogste betrouwbaarheidsniveau waarvoor de authenticatiedienst is toegelaten.
-o Relevante cryptografische sleutels, certificaten en technische gegevens (bijvoorbeeld een identifier van een systeem of URL van endpoint).</div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Stelselmetada is de betrouwbare en gezaghebbende bron van de gegevens van de deelnemende partijen en aangesloten dienstverleners die nodig zijn voor het gezamenlijk functioneren van de voorzieningen in het Stelsel Toegang. Elke partij mag ervan uit aan dat de gegevens in de Stelselmetada juist en actueel zijn en als betrouwbaar worden gekwalificeerd. Het betreft gegevens voor de functionele en de technische werking van de componenten van alle betrokken partijen. 
+
+Stelselmetada bevat alleen publieke informatie en is voor iedereen toegankelijk. Alle deelnemers en aangesloten dienstverleners worden op basis van hun OIN in de Stelselmetada geregistreerd. Er kunnen aanvullende andere attributen opgenomen worden om een verder en verbeterd vertrouwen in het stelsel te waarborgen, zoals:
+-	Naam van de organisatie
+-	Gegevens over diensten van dienstverleners (naam, gewenst betrouwbaarheidsniveau, tekst consent, toegang eIDAS, &#8230;.) 
+-	Per authenticatiedienst: hoogste betrouwbaarheidsniveau waarvoor de authenticatiedienst is toegelaten.
+-	Relevante cryptografische sleutels, certificaten en technische gegevens (bijvoorbeeld een identifier van een systeem of URL van endpoint).
+-	De gegevens worden aangeleverd door de partij die er verantwoordelijk voor is. 
+
+
+Deze bevat de benodigde data over de deelnemers in het stelsel. Het gaat hier om de dienstverleners en de toegelaten authenticatie- en machtigingsdiensten. Hiermee wordt een mogelijkheid geboden om de centrale verantwoordelijkheid van de minister m.b.t. de erkenning en toelating onder de Wdo (artikel 9, lid 7,8,9) invulling te geven. Middels het beheer op de Stelselmetada kunnen op eenvoudige wijze partijen (tijdelijk) worden af-/uitgesloten van het Stelsel Toegang
+
+Ook de routeringsfunctie wordt vervuld door de component Stelselmetadata. Door &#8216;caching&#8217; van stelselmetadata bij de deelnemers aan het stelsel is niet bij iedere authenticatie contact met de component Stelselmetadata nodig. Er is daarmee geen directe afhankelijkheid van een centrale voorziening in het verwerken van de dagelijkse inlogtransdacties bij dienstverleners.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
