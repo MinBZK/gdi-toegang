@@ -7,7 +7,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 3. Als <a href="https://minbzk.github.io/gdi-toegang">website</a> in de vorm van een HTML report uit Archi
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
-Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi.
+Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/metamodel.md">metamodel</a.
 
 # Architectuur
 De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein toegang. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
