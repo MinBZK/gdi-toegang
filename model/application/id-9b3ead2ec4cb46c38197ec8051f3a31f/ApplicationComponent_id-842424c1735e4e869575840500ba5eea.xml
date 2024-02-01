@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Autorisatielijst BSN-gerechtigden"
     id="id-842424c1735e4e869575840500ba5eea"
-    documentation="Op de Autorisatielijst BSN-gerechtigden (ALB) staan de organisaties waarvan RvIG heeft vastgesteld dat ze voor hun publieke taken het burgerservicenummer (BSN) mogen gebruiken."/>
+    documentation="Op de Autorisatielijst BSN-gerechtigden (ALB) staan de organisaties waarvan RvIG heeft vastgesteld dat ze voor hun publieke taken het burgerservicenummer (BSN) mogen gebruiken.">
+  <properties
+      key="exclude"/>
+</archimate:ApplicationComponent>

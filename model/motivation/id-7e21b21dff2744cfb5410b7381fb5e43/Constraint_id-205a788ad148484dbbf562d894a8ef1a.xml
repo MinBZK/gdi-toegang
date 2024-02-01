@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="TOTP"
+    id="id-205a788ad148484dbbf562d894a8ef1a"
+    documentation="TOTP zorgt ervoor dat een twee-factor authenticatie mogelijk is via een eenmalig wachtwoord dat op dat moment gegenereerd wordt en daarmee nog niet in het bezit was vooraf aan de aanvraag. Hierdoor is het eenmalige wachtwoord uniek en zorgt voor een extra beveiliging naast wachtwoorden die vaker gebruikt worden om bijvoorbeeld in te loggen in een account. Daarnaast zorgt het korte tijdspad dat een wachtwoord beschikbaar is ervoor dat het eenmalige wachtwoord snel zijn waarde verliest.">
+  <properties
+      key="Status"
+      value="Aanbevolen"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Het authenticeren van gebruikers door middel van de combinatie van een geheime sleutel en een eenmalig wachtwoord, voorzien van een tijdsstempel."/>
+  <properties
+      key="Beheerorganisatie"
+      value="IETF"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/totp"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>

@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BSN koppelregister"
     id="id-8663ac9316864f948c39dec794669f48"
-    documentation="Het BSNk zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn. Dit betreft de onderdelen Activatie, Transformatie, Sleutelbeheer en Directe versleuteling. BSNk Decryptie is als los component beschikbaar en benoemd."/>
+    documentation="Het BSNk zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn. Dit betreft de onderdelen Activatie, Transformatie, Sleutelbeheer en Directe versleuteling. BSNk Decryptie is als los component beschikbaar en benoemd.">
+  <properties
+      key="exclude"/>
+</archimate:ApplicationComponent>

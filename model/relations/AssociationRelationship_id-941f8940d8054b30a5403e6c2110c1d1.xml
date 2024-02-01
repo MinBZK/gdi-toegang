@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bewijst"
+    id="id-941f8940d8054b30a5403e6c2110c1d1">
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a6805c3d0daa4690a04d2f2251c65cc0.xml#id-a6805c3d0daa4690a04d2f2251c65cc0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d766d65c0ea14ecc9e01f99938d0b61b.xml#id-d766d65c0ea14ecc9e01f99938d0b61b"/>
+</archimate:AssociationRelationship>

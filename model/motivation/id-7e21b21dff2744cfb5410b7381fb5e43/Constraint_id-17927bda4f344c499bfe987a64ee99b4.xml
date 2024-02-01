@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="SAML"
+    id="id-17927bda4f344c499bfe987a64ee99b4"
+    documentation="Security Assertion Markup Language (SAML) is een standaard voor het veilig uitwisselen van authenticatie- en autorisatiegegevens van gebruikers tussen verschillende organisaties. SAML maakt het mogelijk om op een veilige manier via het internet toegang te krijgen tot diensten van verschillende organisaties, zonder dat je per dienst eigen inloggegevens nodig hebt, of bij elke dienst apart moet inloggen.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="SAML moet worden toegepast op de uitwisseling van authenticatie- en autorisatiegegevens om gebruikers na eenmalig inloggen toegang te geven tot meerdere diensten."/>
+  <properties
+      key="Beheerorganisatie"
+      value="OASIS"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/saml"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>
