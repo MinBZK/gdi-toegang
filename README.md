@@ -16,17 +16,17 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 
 ## Referentie-architectuur
 
-* Functies: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-e1cf58e0b07f4907bdce34ba561b9a18">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsfuncties.html">overzicht</a>
-* Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-d43a21de1f8f4320a22ee4a1a46d660b">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/bedrijfsobjecten.html">overzicht</a>
-* Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-d24214a9135947e980983cea632143d2">diagram</a>
+* Functies: <a href="https://minbzk.github.io/gdi-toegang/?view=id-e1cf58e0b07f4907bdce34ba561b9a18">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsfuncties.html">overzicht</a>
+* Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-d43a21de1f8f4320a22ee4a1a46d660b">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsobjecten.html">overzicht</a>
+* Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-d24214a9135947e980983cea632143d2">diagram</a>
 * Begrippen: <a href="https://www.noraonline.nl/wiki/Begrippen_IAM">overzicht</a>
 
 ## Huidige situatie
 
-* Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/voorzieningendetails.html">details</a>
+* Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/voorzieningendetails.html">details</a>
 
 ## Gewenste situatie
 
-* Architectuurprincipes: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/principesdetails.html">details</a>
-* Standaarden: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/standaardendetails.html">details</a>
+* Architectuurprincipes: <a href="https://minbzk.github.io/gdi-toegang/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegng/content/views/principesdetails.html">details</a>
+* Standaarden: <a href="https://minbzk.github.io/gdi-toegang/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaardendetails.html">details</a>
 
