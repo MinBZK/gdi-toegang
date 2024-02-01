@@ -1,4 +1,7 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BRP"
-    id="id-3ef065ec83394ff3973661f17f989af1"/>
+    id="id-3ef065ec83394ff3973661f17f989af1">
+  <properties
+      key="exclude"/>
+</archimate:ApplicationComponent>

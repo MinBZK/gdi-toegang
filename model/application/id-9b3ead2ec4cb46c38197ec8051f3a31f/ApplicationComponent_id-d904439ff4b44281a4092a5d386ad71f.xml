@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Aansluitfuncties"
     id="id-d904439ff4b44281a4092a5d386ad71f"
-    documentation="De aansluitfuncties bevat een set van functies die door een dienstverlener geïmplementeerd of toegepast dienen te worden om gebruik te kunnen maken van het Stelsel Toegang. Binnen de aansluitfuncties zijn de volgende elementen opgenomen: uniform koppelvlak, BSNk decryptie, stelselmetadata en uniforme klantreis."/>
+    documentation="De aansluitfuncties bevat een set van functies die door een dienstverlener geïmplementeerd of toegepast dienen te worden om gebruik te kunnen maken van het Stelsel Toegang. Binnen de aansluitfuncties zijn de volgende elementen opgenomen: uniform koppelvlak, BSNk decryptie, stelselmetadata en uniforme klantreis.">
+  <properties
+      key="exclude"/>
+</archimate:ApplicationComponent>

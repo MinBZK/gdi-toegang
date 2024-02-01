@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Toegang"
     id="id-3b66eec68cbc4ed8a552deca4e788391"
-    version="5.0.0"/>
+    version="5.0.0">
+  <profiles
+      name="Wetgeving"
+      id="id-ba7940fab70e40cabbf3f12114beee42"
+      conceptType="Constraint"/>
+  <profiles
+      name="Standaard"
+      id="id-c1e2ee3553d2494d859bb0c0e1d186a7"
+      conceptType="Constraint"/>
+</archimate:ArchimateModel>

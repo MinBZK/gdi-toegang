@@ -2,4 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Dienst"
     id="id-b666322db6e64dd98a41a38e9aeb9119"
-    documentation="De implemementatie van de dienst zoals deze beschikbaar wordt gesteld door de dienstverlener, inclusief alle achterliggende functionaliteit die daarbij nodig is."/>
+    documentation="De implemementatie van de dienst zoals deze beschikbaar wordt gesteld door de dienstverlener, inclusief alle achterliggende functionaliteit die daarbij nodig is.">
+  <properties
+      key="exclude"/>
+</archimate:ApplicationComponent>

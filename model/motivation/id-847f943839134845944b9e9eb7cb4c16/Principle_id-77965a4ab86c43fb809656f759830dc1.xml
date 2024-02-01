@@ -1,0 +1,27 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Er wordt aan vertrouwende partijen alleen de strikt noodzakelijke informatie over entiteiten verstrekt"
+    id="id-77965a4ab86c43fb809656f759830dc1"
+    documentation="Dataminimalisatie is een uitgangspunt in de AVG en betekent dat de persoonsgegevens die worden gebruikt zijn beperkt tot het hoogst noodzakelijke. Dit heeft in de context van toegang vooral betrekking op de verklaringen die worden gevraagd aan verklarende partijen over de digitale identiteiten en de eigenschappen die in deze verklaringen zitten. Informatie is ook niet altijd voor alle handelingen binnen een dienst relevant. Het zou daarom niet passend zijn om specifieke verklaringen en informatie op te halen als niet zeker is dat deze ook daadwerkelijk nodig is. Voor veel diensten is het helemaal niet relevant wie de precieze persoon is, welke BSN daarbij hoort en of deze persoon uit Nederland komt of niet. Veel belangrijker is het om te weten of de gebruiker over de juiste bevoegdheden beschikt. Opsporingsdiensten hebben wel duidelijk andere informatiebehoeften en bevoegdheden.">
+  <properties
+      key="Implicaties"
+      value="1. Het is duidelijk wat de doelbinding is van de dienst en daarmee welke wettelijke grondslag het verwerken van de persoonsgegevens rechtvaardigt."/>
+  <properties
+      key="Implicaties"
+      value="2. Bij het ontwerp van diensten moeten dienstverleners aangeven welke attributen van entiteiten noodzakelijk zijn om de dienst uit te kunnen voeren."/>
+  <properties
+      key="Implicaties"
+      value="3. Gebruikers kunnen voorafgaand aan hun handelen zelf toetsen of zij de voor de dienst gevraagde attributen (persoonsgegevens) willen laten verwerken."/>
+  <properties
+      key="Implicaties"
+      value="4. De toegangsinfrastructuur borgt dat alleen de vooraf benoemde attributen worden verstrekt."/>
+  <properties
+      key="Implicaties"
+      value="5. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
+  <properties
+      key="Implicaties"
+      value="6. Specifieke verklaringen die relevant zijn voor toegang worden pas opgehaald op het moment dat een gebruiker aangeeft handelingen uit te willen voeren waardoor dit nodig is."/>
+  <properties
+      key="Implicaties"
+      value="7. Opsporingsdiensten hebben de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
+</archimate:Principle>

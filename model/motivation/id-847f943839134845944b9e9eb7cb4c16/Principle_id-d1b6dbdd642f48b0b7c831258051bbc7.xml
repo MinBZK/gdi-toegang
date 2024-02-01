@@ -1,0 +1,24 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Toegang tot diensten is zo laagdrempelig als mogelijk voor het gevraagde betrouwbaarheidsniveau"
+    id="id-d1b6dbdd642f48b0b7c831258051bbc7"
+    documentation="Veiligheid en gebruikersvriendelijkheid staan op gespannen voet. Het is duidelijk dat een hogere mate van veiligheid meer handelingen van gebruikers vragen. Tegelijkertijd zijn er ook allerlei handelingen in het processen gerelateerd aan toegang die kunnen worden vereenvoudigd, zonder het gebruikers moeilijk te maken. Dit is niet alleen vriendelijker voor de gebruiker, het voorkomt ook dat mensen minder veilige omwegen bedenken om hetzelfde te bereiken. Daarnaast zijn alle digitale handelingen drempels voor minder digitaal vaardigen en zouden ook alternatieve kanalen moeten worden geboden.">
+  <properties
+      key="Implicaties"
+      value="1. Het optimaliseren van toegangsprocessen bij overheidsorganisaties is minder belangrijk dan het bieden van een optimale klantreis."/>
+  <properties
+      key="Implicaties"
+      value="2. Gebruikers hoeven maar één keer in te loggen voor een bepaald betrouwbaarheidsniveau om gebruik te maken van verschillende diensten die voldoende hebben aan dit niveau."/>
+  <properties
+      key="Implicaties"
+      value="3. Authenticaties worden uitgevoerd op een basisniveau van betrouwbaarheid en pas als een gebruiker een handeling wil uitvoeren die een hoger niveau vraagt dan wordt een aanvullende (step-up) authenticatie uitgevoerd."/>
+  <properties
+      key="Implicaties"
+      value="4. Het liefst kun je iemand per direct digitaal machtigen namens jezelf voor specifieke handelingen, zonder daarvoor allerlei procedures te doorlopen."/>
+  <properties
+      key="Implicaties"
+      value="5. Mensen kunnen ook bij de balie iemand machtigen."/>
+  <properties
+      key="Implicaties"
+      value="6. Het zou een standaard optie moeten zijn om iemand te vertegenwoordigen bij het inloggen."/>
+</archimate:Principle>
