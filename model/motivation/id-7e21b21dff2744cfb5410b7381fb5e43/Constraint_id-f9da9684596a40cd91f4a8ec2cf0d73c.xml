@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="OpenID for Verifiable Credentials"
+    id="id-f9da9684596a40cd91f4a8ec2cf0d73c"
+    documentation="Deze standaard maakt het mogelijk om verifieerbare verklaringen te gebruiken in de context van OpenID Connect.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="OpenID Foundation"/>
+  <properties
+      key="URL"
+      value="https://openid.net/sg/openid4vc/"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>

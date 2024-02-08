@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="De toegangsinfrastructuur ontzorgt vertrouwende partijen"
+    name="5. De toegangsinfrastructuur ontzorgt vertrouwende partijen"
     id="id-05cd71c3758c4182878ba143b870582f"
     documentation="Gebruikers kunnen in de toekomst over meerdere authenticatiemiddelen beschikken. Met de nieuwe eIDAS verordening zullen straks ook private middelen kunnen worden gebruikt voor toegang tot overheidsdienstverlening, aanvullend op dat er ook authenticatiemiddelen uit andere lidstaten kunnen worden gebruikt om gebruik te maken van diensten in Nederland. Daarnaast zullen er nieuwe e-wallets ontstaan die als authenticatiemiddel kunnen worden gebruikt. Er is een wettelijke plicht om voor bedrijven in de toekomst ook een publiek (gratis) toegangsmiddel beschikbaar te stellen. Vertrouwende partijen zullen hoe dan ook al dit soort authenticatiemiddelen moeten ondersteunen, maar het is inefficiënt en voor een deel van deze partijen ook onhaalbaar om dit zelf te ondersteunen. Overigens is het aan gebruikers of ze gebruik willen maken van al deze diversiteit, of eigenlijk maar één middel willen gebruiken. Ze willen mogelijk vooral gebruik maken van middelen waarvan gegarandeerd is dat ze langdurig blijven werken en gekoppeld blijven aan verkregen verifieerbare verklaringen. Daarnaast zijn er allerlei machtigingsregisters die van toepassing kunnen zijn en waarmee vertrouwende partijen niet allemaal losse afspraken en verbindingen mee willen maken.">
   <properties
