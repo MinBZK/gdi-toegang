@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Vertrouwen in digitale identiteiten wordt gebouwd op vertrouwensnetwerken en verifieerbare verklaringen"
+    name="1. Vertrouwen wordt gebouwd op partijen en verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Er is vertrouwen nodig in een digitale identiteit om te bepalen of deze klopt en of deze gerechtigd is om specifieke handelingen uit te voeren. Dit vertrouwen kan voor een deel worden gehaald uit een vertrouwensnetwerk. Een vertrouwensnetwerk is een afsprakenstelsel dat vertrouwen bouwt door eisen te stellen aan de toetreding van partijen en het gebruik van het netwerk. Voorbeelden van vertrouwensnetwerken zijn eIDAS dat specifiek gericht is Europese (overheids)organisaties en commerciële netwerken zoals iShare. Vertrouwende partijen kunnen ook vertrouwen opbouwen in identiteiten uit verifieerbare verklaringen van verklarende partijen. Dat verklaringen verifieerbaar zijn geeft de vertrouwende partij een mate van zekerheid in de verklaring. ">
+    documentation="Toegang wordt alleen verleend door partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van andere partijen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Door gebruik te maken van bestaande vertrouwensnetwerken kan gebouwd worden op een basisniveau van vertrouwen die deze netwerken garanderen.">
   <properties
       key="Implicaties"
       value="1. Vertrouwende partijen zoeken of er relevante bestaande vertrouwensnetwerken zijn waar zij bij aan kunnen sluiten."/>
@@ -11,17 +11,14 @@
       value="2. Vertrouwende partijen kunnen ervoor kiezen om bij meerdere vertrouwensnetwerken aan te sluiten als dat relevant is voor hun diversiteit aan diensten en samenwerkingspartijen."/>
   <properties
       key="Implicaties"
-      value="3. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende verklarende partijen zijn die kunnen verklaren over de identiteit en bevoegdheden van entiteiten."/>
+      value="3. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende betrouwbare verklarende partijen zijn die kunnen verklaren over digitale identiteiten, hun eigenschappen en bevoegdheden."/>
   <properties
       key="Implicaties"
-      value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en de mate van betrouwbaarheid die de verklaring heeft."/>
+      value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en heeft daar vertrouwen in."/>
   <properties
       key="Implicaties"
-      value="5. De mate van vertrouwen is gebaseerd op eigenschappen van de verklaring, zoals de actualiteit van de verklaring en het vertrouwen dat de vertrouwende partij heeft in de verklarende partij."/>
+      value="5. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau en de actualiteit ervan."/>
   <properties
       key="Implicaties"
-      value="6. Als een verklaring onvoldoende zekerheid geeft kan de vertrouwende partij besluiten om nieuwe additionele verklaringen op te vragen."/>
-  <properties
-      key="Implicaties"
-      value="7. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende te weten over de identiteit en erin te kunnen vertrouwen."/>
+      value="6. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
 </archimate:Principle>

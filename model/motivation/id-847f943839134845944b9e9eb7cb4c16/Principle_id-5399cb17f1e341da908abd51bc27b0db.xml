@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Burgers hebben regie over hun eigen gegevens"
+    name="4. Burgers hebben regie over hun eigen gegevens"
     id="id-5399cb17f1e341da908abd51bc27b0db"
     documentation="Het is belangrijk dat burgers zelf een verantwoordelijkheid hebben in het bepalen van de gegevens die over henzelf worden uitgewisseld, voor welk doel en dat ze inzicht hebben in welke uitwisselingen hebben plaatsgevonden. Voor burgers zijn rechten voor de uitwisseling van persoonsgegevens voor een deel al geborgd in bijvoorbeeld de AVG. Vanuit de AVG is ook belangrijk dat burgers expliciet toestemming geven voor gebruik van hun gegevens als hiervoor geen andere wettelijke grondslag is. Dit staat los van dat ze zichzelf ook kunnen laten vertegenwoordigen middels een machtiging. In de nieuwe eIDAS-verordening worden aan burgers en organisaties verdergaande rechten gegeven, waarbij ze de mogelijkheid krijgen om zelf gegevens via eigen wallets te verstrekken aan partijen.">
   <properties
@@ -14,8 +14,8 @@
       value="3. De door de burger gegeven toestemming voor het uitwisselen van gegevens kan eenvoudig door hen worden ingetrokken."/>
   <properties
       key="Implicaties"
-      value="4. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te downloaden inclusief een verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
+      value="4. Aanbieders bieden burgers en organisaties de mogelijkheid om hun gegevens te ontvangen als verifieerbare verklaring, zodat ze deze zelf kunnen delen met partijen of opnemen in hun wallet."/>
   <properties
       key="Implicaties"
-      value="5. Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld."/>
+      value="5. Burgers kunnen hun gegevens inzien en hebben inzicht in wanneer, met wie en waarom hun gegevens zijn uitgewisseld, binnen de grenzen van bewaar- en vernietigingstermijnen."/>
 </archimate:Principle>
