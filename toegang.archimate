@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Toegang" id="id-3b66eec68cbc4ed8a552deca4e788391" version="5.0.0">
-  <folder name="Strategy" id="id-475adfc1ef674f5d9b13aa132b7e56e4" type="strategy"/>
+  <folder name="Strategy" id="id-475adfc1ef674f5d9b13aa132b7e56e4" type="strategy">
+    <element xsi:type="archimate:Capability" name="In control over cyberbeveiliging" id="id-eae8780242bb478496e912e708feeecf">
+      <documentation>Overheidsorganisaties die zijn aangewezen als essentiële dienst moeten voldoen aan verplichtingen inzake risicobeheer, maatregelen en rapportage op het gebied van cyberbeveiliging.</documentation>
+    </element>
+  </folder>
   <folder name="Business" id="id-18d3d3102a5d46808f48412c7c38fcc7" type="business">
     <folder name="Bedrijfsobjecten" id="id-1ca7f5222bf94a9ba45bfebd9ff8d6e4">
       <element xsi:type="archimate:BusinessObject" name="Autorisatiebeslissing" id="id-0e6a68545b2d470d841b82aa5e05d4a5">
@@ -226,11 +230,11 @@
   </folder>
   <folder name="Application" id="id-d5193e4c1cd54a91a0fdac31884b93b3" type="application">
     <folder name="Doelarchitectuur toegang" id="id-9b3ead2ec4cb46c38197ec8051f3a31f">
-      <element xsi:type="archimate:ApplicationComponent" name="Centrale misbruikbestrijdiging" id="id-070db4444e01499680cd7ce1a1669ccf">
+      <element xsi:type="archimate:ApplicationComponent" name="Centrale misbruikbestrijdiging" id="id-070db4444e01499680cd7ce1a1669ccf" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>Er is sprake van centrale misbruikbestrijding. Het doel is het bestrijden van ‘grootschalig’ misbruik met identificatiemiddelen. Centrale misbruikbestrijding is niet voor bestrijding van misbruik met individuele identificatiemiddelen. Centrale misbruikbestrijding is om misbruik aan te pakken die decentraal niet aangepakt kan worden. Hiervoor is het nodig om stelselbrede monitoring in te richten, omdat elke partij (gebruiker, dienstverlener, deelnemer, centrale team) een deel van de informatie heeft. Niemand weet alles.</documentation>
-        <property key="exclude"/>
+        <property/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Authenticatiedienst" id="id-1fd5545c30a54234a4ced6b1392d9d93">
+      <element xsi:type="archimate:ApplicationComponent" name="Authenticatiedienst" id="id-1fd5545c30a54234a4ced6b1392d9d93" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Een authenticatiedienst is een door de wetgever erkende private organisatie of aangewezen publieke organisatie voor het uitgeven van identificatiemiddelen voor een natuurlijke persoon, (een medewerker van) een onderneming of rechtspersoon en voor het afgeven van authenticatieverklaringen op basis van dat identificatiemiddel. &#xD;
 &#xD;
 Een authenticatiedienst voorziet op diens verzoek een persoon van een identificatiemiddel waarmee hij/zij zich kan authenticeren voor het afnemen van digitale publieke diensten bij dienstverleners. Kortom, een authenticatiedienst levert de volgende diensten: &#xD;
@@ -240,25 +244,22 @@ Een authenticatiedienst voorziet op diens verzoek een persoon van een identifica
 </documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Rijbewijsregister" id="id-3bb3a910d08b4d6e9bc96c207cfcc623">
+      <element xsi:type="archimate:ApplicationComponent" name="BRP" id="id-3ef065ec83394ff3973661f17f989af1" profiles="id-bab9074d446642cd95786422c8deba50">
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BRP" id="id-3ef065ec83394ff3973661f17f989af1">
-        <property key="exclude"/>
-      </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BRP koppelpunt" id="id-757143a6ddc94ebeb8ef30374340814f">
+      <element xsi:type="archimate:ApplicationComponent" name="BRP koppelpunt" id="id-757143a6ddc94ebeb8ef30374340814f" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het BRP koppelpunt zorgt voor het vaststellen of een burger die met een buitenlands middel inlogt al in de BRP bekend is. Het BRP koppelpunt is een departementsverantwoordelijkheid van het ministerie van BZK. Het BRP koppelpunt geeft invulling aan de BZK verantwoordelijkheid voor registratie van natuurlijke personen. Het BRP koppelpunt registreert de koppeling tussen de uniqueness id en het BSN.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Autorisatielijst BSN-gerechtigden" id="id-842424c1735e4e869575840500ba5eea">
+      <element xsi:type="archimate:ApplicationComponent" name="Autorisatielijst BSN-gerechtigden" id="id-842424c1735e4e869575840500ba5eea" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Op de Autorisatielijst BSN-gerechtigden (ALB) staan de organisaties waarvan RvIG heeft vastgesteld dat ze voor hun publieke taken het burgerservicenummer (BSN) mogen gebruiken.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BSN koppelregister" id="id-8663ac9316864f948c39dec794669f48">
+      <element xsi:type="archimate:ApplicationComponent" name="BSN koppelregister" id="id-8663ac9316864f948c39dec794669f48" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het BSNk zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn. Dit betreft de onderdelen Activatie, Transformatie, Sleutelbeheer en Directe versleuteling. BSNk Decryptie is als los component beschikbaar en benoemd.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Aansluit- en beheerportaal" id="id-8691eedf50cd4b2ca91bda6750e009c0">
+      <element xsi:type="archimate:ApplicationComponent" name="Aansluit- en beheerportaal" id="id-8691eedf50cd4b2ca91bda6750e009c0" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>Om dienstverleners in staat te stellen zo eenvoudig mogelijk hun aansluiting in te richten en te beheren wordt een aansluit- en beheerportaal beschikbaar gesteld. Dienstverleners beheren met deze voorziening de administratieve, functionele en technische onderdelen en gegevens van hun aansluiting. Ze beheren hun gegevens van de Stelselmetada via het Aansluit- en beheerportaal. Het Aansluit- en beheerportaal verzorgt het aansluiten op de Conformancetestomgeving en op de productieomgeving van het stelsel. Het Aansluit- en beheerportaal biedt ook een kanaal/platform voor informatievoorziening rond het stelsel.&#xD;
 &#xD;
 Het portaal biedt de volgende functies aan dienstverleners en brokers voor de Conformancetestomgeving en de productie omgeving: &#xD;
@@ -269,12 +270,12 @@ Het portaal biedt de volgende functies aan dienstverleners en brokers voor de Co
 •	Status en aanleveren van informatie rond eID-assessments;&#xD;
 •	Algehele communicatie rond het Stelsel Toegang.&#xD;
 </documentation>
+        <property/>
+      </element>
+      <element xsi:type="archimate:ApplicationComponent" name="Rijbewijsregister" id="id-887ff59c939646d19d105df2ba28a5b6" profiles="id-bab9074d446642cd95786422c8deba50">
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Rijbewijsregister" id="id-887ff59c939646d19d105df2ba28a5b6">
-        <property key="exclude"/>
-      </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Stelsel metadata" id="id-904b487b4a5941c29b3d7d0d5f9b027c">
+      <element xsi:type="archimate:ApplicationComponent" name="Stelsel metadata" id="id-904b487b4a5941c29b3d7d0d5f9b027c" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>Stelselmetada is de betrouwbare en gezaghebbende bron van de gegevens van de deelnemende partijen en aangesloten dienstverleners die nodig zijn voor het gezamenlijk functioneren van de voorzieningen in het Stelsel Toegang. Elke partij mag ervan uit aan dat de gegevens in de Stelselmetada juist en actueel zijn en als betrouwbaar worden gekwalificeerd. Het betreft gegevens voor de functionele en de technische werking van de componenten van alle betrokken partijen. &#xD;
 &#xD;
 Stelselmetada bevat alleen publieke informatie en is voor iedereen toegankelijk. Alle deelnemers en aangesloten dienstverleners worden op basis van hun OIN in de Stelselmetada geregistreerd. Er kunnen aanvullende andere attributen opgenomen worden om een verder en verbeterd vertrouwen in het stelsel te waarborgen, zoals:&#xD;
@@ -288,9 +289,9 @@ Stelselmetada bevat alleen publieke informatie en is voor iedereen toegankelijk.
 Deze bevat de benodigde data over de deelnemers in het stelsel. Het gaat hier om de dienstverleners en de toegelaten authenticatie- en machtigingsdiensten. Hiermee wordt een mogelijkheid geboden om de centrale verantwoordelijkheid van de minister m.b.t. de erkenning en toelating onder de Wdo (artikel 9, lid 7,8,9) invulling te geven. Middels het beheer op de Stelselmetada kunnen op eenvoudige wijze partijen (tijdelijk) worden af-/uitgesloten van het Stelsel Toegang&#xD;
 &#xD;
 Ook de routeringsfunctie wordt vervuld door de component Stelselmetadata. Door ‘caching’ van stelselmetadata bij de deelnemers aan het stelsel is niet bij iedere authenticatie contact met de component Stelselmetadata nodig. Er is daarmee geen directe afhankelijkheid van een centrale voorziening in het verwerken van de dagelijkse inlogtransdacties bij dienstverleners.</documentation>
-        <property key="exclude"/>
+        <property/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Inzageregister" id="id-aac980f42cf24d6ebfabf9ef08be885e">
+      <element xsi:type="archimate:ApplicationComponent" name="Inzageregister" id="id-aac980f42cf24d6ebfabf9ef08be885e" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>De centrale voorziening Inzageregister stelt de gebruikers van identificatiemiddelen in staat om met behulp van een inzagefunctie informatie te krijgen over hun identificatiemiddelen. Een gebruiker kan vaststellen of zijn identificatiemiddel binnen het stelsel is geactiveerd is of is geweest. De inzagefunctie biedt alleen de desbetreffende gebruiker inzicht in de status van het identificatiemiddel (bijvoorbeeld: actief, inactief of ingetrokken). Deze informatie geeft de gebruiker de mogelijkheid om actief te handelen bij (vermoeden van) fraude. &#xD;
 &#xD;
 Het Inzageregister legt identiteiten in relatie tot uitgegeven identificatiemiddelen vast in één administratie.&#xD;
@@ -302,13 +303,13 @@ De volgende gegevens van een authenticatiemiddel worden minimaal vastgelegd:&#xD
 - Kenmerk authenticatiemiddel: een voor de gebruiker herkenbare eigenschap van het middel dat is aangemaakt of gekoppeld.&#xD;
 - Status van het middel (o.a. geactiveerd, ingetrokken, verlopen)&#xD;
 - Tijdstip begin van de status.</documentation>
-        <property key="exclude"/>
+        <property/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Dienst" id="id-b666322db6e64dd98a41a38e9aeb9119">
+      <element xsi:type="archimate:ApplicationComponent" name="Dienst" id="id-b666322db6e64dd98a41a38e9aeb9119" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>De implemementatie van de dienst zoals deze beschikbaar wordt gesteld door de dienstverlener, inclusief alle achterliggende functionaliteit die daarbij nodig is.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Bevoegdheidsklaringsdienst" id="id-bdb8aa12d54b4e7893025bfa27603dcf">
+      <element xsi:type="archimate:ApplicationComponent" name="Bevoegdheidsklaringsdienst" id="id-bdb8aa12d54b4e7893025bfa27603dcf" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>De BVD faciliteert een handelend persoon om aan te geven namens welke burger (belanghebbende burger) hij bij een dienstverlener wil handelen. De handelend persoon kan hierbij ook optreden als vertegenwoordiger/medewerker van een organisatie. &#xD;
 &#xD;
 De BVD raadpleegt de onderliggende registers voor vrijwillig machtigen, wettelijke vertegenwoordiging (ouderlijk gezag, bevoegd gezag) en laat de handelend persoon zijn keuze maken. De BVD levert het VP van de handelend persoon en de VI of VP van de belanghebbende burger aan de dienstverlener. &#xD;
@@ -320,24 +321,24 @@ De BVD biedt de volgende functies:&#xD;
 &#xD;
 &#xD;
 Toegang tot vertegenwoordiging in het burgerdomein gaat altijd via de Bevoegdheidverklaringsdienst (BVD). Deze regelt de authenticatie, bevraagt de onderliggende registers van machtigingen  of bevoegdheden en stelt de bevoegdheidsverklaring op aan de dienstverlener. De BVD ontsluit alleen de bronnen voor wettelijke en vrijwillige vertegenwoordiging van burgers. De BVD maakt voor de authenticatie van de handelend persoon gebruik van een erkende authenticatiedienst.  De authenticatiedienst levert de persoonsgegevens benodigd zowel voor de authenticatie bij de BVD als voor de authenticatie bij de dienstverlener.</documentation>
-        <property key="exclude"/>
+        <property/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Tijdelijk Register Restgroepen" id="id-cd0e51aa080a4ee786629abb49476180">
+      <element xsi:type="archimate:ApplicationComponent" name="Tijdelijk Register Restgroepen" id="id-cd0e51aa080a4ee786629abb49476180" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het Tijdelijk Register Restgroepen (TRR) wordt gebruikt voor organisaties die niet in het Handelsregister kunnen worden ingeschreven en diensten van de Belastingdienst afnemen.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="eIDAS koppelpunt" id="id-d5f585bd3da84ac5a671cb97c02334c6">
+      <element xsi:type="archimate:ApplicationComponent" name="eIDAS koppelpunt" id="id-d5f585bd3da84ac5a671cb97c02334c6" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het Nederlandse eIDAS Koppelpunt faciliteert de interoperabiliteit tussen het Nederlandse stelsel Toegang en de buitenlandse eIDAS koppelpunten. eIDAS koppelpunt houdt een registratie bij van de handelende personen en registreert per persoon de PP/PI.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Aansluitfuncties" id="id-d904439ff4b44281a4092a5d386ad71f">
+      <element xsi:type="archimate:ApplicationComponent" name="Aansluitfuncties" id="id-d904439ff4b44281a4092a5d386ad71f" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>De aansluitfuncties bevat een set van functies die door een dienstverlener geïmplementeerd of toegepast dienen te worden om gebruik te kunnen maken van het Stelsel Toegang. Binnen de aansluitfuncties zijn de volgende elementen opgenomen: uniform koppelvlak, BSNk decryptie, stelselmetadata en uniforme klantreis.</documentation>
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Register voor wettelijke vertegenwoordiging" id="id-de46af4388d74476901c245ef3afc23b">
+      <element xsi:type="archimate:ApplicationComponent" name="Register voor wettelijke vertegenwoordiging" id="id-de46af4388d74476901c245ef3afc23b" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <property key="exclude"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Machtigingsdienst" id="id-e5b736ca0a6b41ae9d7765c0648e9944">
+      <element xsi:type="archimate:ApplicationComponent" name="Machtigingsdienst" id="id-e5b736ca0a6b41ae9d7765c0648e9944" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Een machtigingsdienst is een door de wetgever erkende private organisatie die ten behoeve van toegang tot publieke dienstverlening een elektronische verklaring afgeeft waaruit blijkt dat een persoon optreedt namens een onderneming of rechtspersoon en een onderneming of rechtspersoon optreedt namens een andere onderneming of rechtspersoon. &#xD;
 &#xD;
 Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger van een organisatie ingeschreven in het handelsregister een medewerker van de organisatie van de mogelijkheid om zich namens de organisatie te authenticeren voor het afnemen van digitale diensten bij dienstverleners. Bij de authenticatie, ondersteund door de machtigingsdienst, wordt de organisatie geïdentificeerd door een organisatiekenmerk (KVK-nummer of RSIN) en de medewerker door een pseudoniem. De machtigingsdienst maakt voor de authenticatie van de medewerker gebruik van een erkende authenticatiedienst die de persoonsgegevens benodigd voor de authenticatie, zowel bij de machtigingsdienst als de dienstverlener aanlevert.&#xD;
@@ -346,50 +347,50 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
     </folder>
     <folder name="Huidige situatie" id="id-e6ce5350f95043279eea0d7e12dd80de">
-      <element xsi:type="archimate:ApplicationComponent" name="BRP koppelpunt" id="id-0298e208c5304d6cb188fa4ae8c25a1d">
+      <element xsi:type="archimate:ApplicationComponent" name="BRP koppelpunt" id="id-0298e208c5304d6cb188fa4ae8c25a1d" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het BRP koppelpunt zorgt voor het vaststellen of een burger die met een buitenlands middel inlogt al in de BRP bekend is. Het BRP koppelpunt is een departementsverantwoordelijkheid van het ministerie van BZK. Het BRP koppelpunt geeft invulling aan de BZK verantwoordelijkheid voor registratie van natuurlijke personen. Het BRP koppelpunt registreert de koppeling tussen de uniqueness id en het BSN.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BRP" id="id-06be8dd9e8c645d6bb482b05c9185e03"/>
-      <element xsi:type="archimate:ApplicationComponent" name="KvK" id="id-15f0c458430247b1a8a349cda72a5848"/>
-      <element xsi:type="archimate:ApplicationComponent" name="DigiD machtigen dienstencatalogus" id="id-1c827b9387274ffe83285328a7e60046"/>
-      <element xsi:type="archimate:ApplicationComponent" name="OIN register" id="id-2b79a5d9125346ee970a03e2f88c0fda"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Bevoegdheidsverklaringsdienst" id="id-4e14f612fda64d97ad15c9e7e10fe7d3">
+      <element xsi:type="archimate:ApplicationComponent" name="BRP" id="id-06be8dd9e8c645d6bb482b05c9185e03" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="KvK" id="id-15f0c458430247b1a8a349cda72a5848" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="DigiD machtigen dienstencatalogus" id="id-1c827b9387274ffe83285328a7e60046" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="OIN register" id="id-2b79a5d9125346ee970a03e2f88c0fda" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Bevoegdheidsverklaringsdienst" id="id-4e14f612fda64d97ad15c9e7e10fe7d3" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Stelt bevoegdheidsverklaringen op voor een reeds geauthenticeerde digitale identiteit op basis van gezagsverklaringen en bewindsverklaringen. Een idee is om hier in de toekomst ook DigiD machtigen onder te hangen.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Dienstencatalogus wettelijk vertegenwoordigen" id="id-4f74f314b75c46acb11bf9987f66fae2"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Bewind" id="id-53323e6bf2be41b1a4d9a4571262a74c">
+      <element xsi:type="archimate:ApplicationComponent" name="Dienstencatalogus wettelijk vertegenwoordigen" id="id-4f74f314b75c46acb11bf9987f66fae2" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Bewind" id="id-53323e6bf2be41b1a4d9a4571262a74c" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Bepaalt bewind (bewindvoering, curatele, mentorschap) relatie voor professionele en particuliere vertegenwoordigers op basis van actuele gegevens in het wettelijk vertegenwoordigingsregister van de Raad voor de Rechtspraak en stelt een bewindsverklaring op.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Gezag" id="id-650355fdbfa444e68ba4c49d13eb3613">
+      <element xsi:type="archimate:ApplicationComponent" name="Gezag" id="id-650355fdbfa444e68ba4c49d13eb3613" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Bepaalt ouderlijk gezag op basis van de actuele gegevens in de BRP en stelt en gezagsverklaring op.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="DigiD machtigen" id="id-67a39e2cf1274f5c9340308f07a77152"/>
-      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning machtigingsdienst" id="id-796d8d20bc8947d29a2838fdb0886cfe"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Autorisatielijst BSN-gerechtigden" id="id-7a16034297c64f98ac840c5d6897d749">
+      <element xsi:type="archimate:ApplicationComponent" name="DigiD machtigen" id="id-67a39e2cf1274f5c9340308f07a77152" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning machtigingsdienst" id="id-796d8d20bc8947d29a2838fdb0886cfe" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Autorisatielijst BSN-gerechtigden" id="id-7a16034297c64f98ac840c5d6897d749" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Op de Autorisatielijst BSN-gerechtigden (ALB) staan de organisaties waarvan RvIG heeft vastgesteld dat ze voor hun publieke taken het burgerservicenummer (BSN) mogen gebruiken.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="eIDAS koppelpunt" id="id-8263de75e16b4b5189e83635d262aca6">
+      <element xsi:type="archimate:ApplicationComponent" name="eIDAS koppelpunt" id="id-8263de75e16b4b5189e83635d262aca6" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het Nederlandse eIDAS Koppelpunt faciliteert de interoperabiliteit tussen het Nederlandse stelsel Toegang en de buitenlandse eIDAS koppelpunten. eIDAS koppelpunt houdt een registratie bij van de handelende personen en registreert per persoon de PP/PI.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning makelaar" id="id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
-      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning middelenverstrekker" id="id-93a1371d1b704ef9b0d88e433f3ab319"/>
-      <element xsi:type="archimate:ApplicationComponent" name="DigiD" id="id-a999c3ee595a4b95b7260d9689934bcc">
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning makelaar" id="id-92b61d714b7f4ed6a2ffed3d71bc34be" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning middelenverstrekker" id="id-93a1371d1b704ef9b0d88e433f3ab319" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="DigiD" id="id-a999c3ee595a4b95b7260d9689934bcc" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Inclusief autorisatielijst BSN.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Dienst" id="id-baa0a1a458e54436813047815a6a1ac6"/>
-      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning dienstencatalogus" id="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67"/>
-      <element xsi:type="archimate:ApplicationComponent" name="TVS" id="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
-      <element xsi:type="archimate:ApplicationComponent" name="BSN koppelregister" id="id-e25448c20ae04cfc85e54847cde73e76">
+      <element xsi:type="archimate:ApplicationComponent" name="Dienst" id="id-baa0a1a458e54436813047815a6a1ac6" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning dienstencatalogus" id="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="TVS" id="id-dc5c0503f1eb4cbeb6997d399ab5ccda" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="BSN koppelregister" id="id-e25448c20ae04cfc85e54847cde73e76" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het BSNk zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Identity broker" id="id-e4be9a644d7b42bb95f3813f6da903d5"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Tijdelijk Register Restgroepen" id="id-ec568c296f91489aae1063c684b09ecb">
+      <element xsi:type="archimate:ApplicationComponent" name="Identity broker" id="id-e4be9a644d7b42bb95f3813f6da903d5" profiles="id-bab9074d446642cd95786422c8deba50"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Tijdelijk Register Restgroepen" id="id-ec568c296f91489aae1063c684b09ecb" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Het Tijdelijk Register Restgroepen (TRR) wordt gebruikt voor organisaties die niet in het Handelsregister kunnen worden ingeschreven en diensten van de Belastingdienst afnemen.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="CombiConnect" id="id-f4548c8759f248f9a3ff3195c0b256c3">
+      <element xsi:type="archimate:ApplicationComponent" name="CombiConnect" id="id-f4548c8759f248f9a3ff3195c0b256c3" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Een component dat een koppelvlak vormt richting DigiD en DigiD machtigen dat gebruikers routeert o.b.v. of ze alleen voor zichzelf inloggen of voor iemand anders.</documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BSNk Decryptie" id="id-ffacaf3eb24247c9ba68203364e7eb61"/>
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk Decryptie" id="id-ffacaf3eb24247c9ba68203364e7eb61" profiles="id-bab9074d446642cd95786422c8deba50"/>
     </folder>
   </folder>
   <folder name="Technology &amp; Physical" id="id-711ae3fdde524c9e8ef2de0fd83c1210" type="technology"/>
@@ -552,6 +553,30 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="Implicaties" value="6. Het zou een standaard optie moeten zijn om iemand te vertegenwoordigen bij het inloggen."/>
       </element>
     </folder>
+    <folder name="Wet- en regelgeving" id="id-af9a3bb654c64f48b3a918d97fda0497">
+      <element xsi:type="archimate:Constraint" name="General Data Protection Regulation" id="id-76fc928a3c464f5b956348df1966b5d7" profiles="id-ba7940fab70e40cabbf3f12114beee42">
+        <documentation>Deze verordening standaardiseert de regels voor de verwerking van persoonsgegevens door particuliere bedrijven en overheidsinstanties in de Europese Unie. Het doel van de verordening is het garanderen van de bescherming van persoonsgegevens binnen de Europese Unie en het waarborgen van het vrije verkeer van gegevens binnen de Europese interne markt. De verordening heeft rechtstreekse werking en hoeft niet geïmplementeerd te worden in de Nederlandse wetgeving. In Nederland staat de verordening bekend als de Algemene Verordening Gegevensbescherming (AVG).</documentation>
+        <property key="URL" value="https://eur-lex.europa.eu/eli/reg/2016/679/oj"/>
+      </element>
+      <element xsi:type="archimate:Constraint" name="Network and Information Systems (NIS) directive 2" id="id-a692aa89784847fdae662c851c4796fe" profiles="id-ba7940fab70e40cabbf3f12114beee42">
+        <documentation>De oorspronkelijke NIS- directive regelt de beveiliging van netwerk- en informatiesystemen van aanbieders van essentiële diensten (AED’s) en van digitale dienstverleners (DSP’s), onder meer door hen te laten voldoen aan een zorg- en meldplicht. Deze AED’s dienen door de lidstaten zelf te worden aangewezen. De NIS directive 2 vervangt de NIS-directive en stelt maatregelen vast om een hoog gemeenschappelijk niveau van cyberbeveiliging in de Unie te waarborgen.&#xD;
+&#xD;
+Met het oog hierop worden in deze richtlijn:&#xD;
+(a) verplichtingen voor de lidstaten vastgesteld om nationale strategieën voor cyberbeveiliging vast te stellen en om bevoegde nationale autoriteiten, centrale contactpunten en computer security incident response teams (CSIRT’s) aan te wijzen;&#xD;
+b) verplichtingen vastgesteld inzake risicobeheer en rapportage op het gebied van cyberbeveiliging voor entiteiten van een type dat wordt aangeduid als essentiële entiteiten en als belangrijke entiteiten;&#xD;
+(c) verplichtingen vastgesteld met betrekking tot het delen van informatie op het gebied van cyberbeveiliging.</documentation>
+        <property key="URL" value="https://data.consilium.europa.eu/doc/document/ST-14337-2021-INIT/nl/pdf"/>
+      </element>
+      <element xsi:type="archimate:Constraint" name="eIDAS 2.0" id="id-be6fbcd2977a4dacb367e9b4abee32a4" profiles="id-ba7940fab70e40cabbf3f12114beee42">
+        <documentation>Met dit voorstel wil de EC de EU-verordening nr. 910/2014 (de eIDAS-verordening) wijzigen. De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De Europese Unie wil met de verordening Europees kader voor een digitale identiteit regelen dat het makkelijker en veiliger wordt om binnen Europa online zaken te regelen, er wordt beoogd: &#xD;
+• om toegang tot sterk beveiligde en betrouwbare elektronische identiteitsoplossingen te bieden; &#xD;
+• dat openbare en particuliere diensten betrouwbare en veilige digitale- identiteitsoplossingen kunnen gebruiken; &#xD;
+• dat natuurlijke en rechtspersonen digitale-identiteitsoplossingen kunnen gebruiken; &#xD;
+• dat deze oplossingen verbonden zijn met een reeks attributen en dat daarmee identiteitsgegevens gericht kunnen worden gedeeld, binnen de grenzen van hetgeen voor de gevraagde specifieke dienst nodig is; &#xD;
+• dat gekwalificeerde vertrouwensdiensten in de EU worden aanvaard en dat gelijke voorwaarden gelden voor de verlening daarvan. </documentation>
+        <property key="URL" value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52021PC0281"/>
+      </element>
+    </folder>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-056b2170b61b42afaed5f90b1ff5a5f6" type="implementation_migration"/>
   <folder name="Other" id="id-d85fc0a8fe1f4b249b3aa1ffdae85511" type="other"/>
@@ -696,7 +721,6 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-265fde0eaa894f8480d7f4ac1941e134" source="id-d904439ff4b44281a4092a5d386ad71f" target="id-1fd5545c30a54234a4ced6b1392d9d93"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener" id="id-34d339a4e6e84d2b8d999e945dfcfb62" source="id-842424c1735e4e869575840500ba5eea" target="id-1fd5545c30a54234a4ced6b1392d9d93"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-3a9eafa5d9294f05b3c31d5f53339f7f" source="id-dc5c0503f1eb4cbeb6997d399ab5ccda" target="id-8263de75e16b4b5189e83635d262aca6"/>
-    <element xsi:type="archimate:FlowRelationship" name="rijbewijs" id="id-400a2ee5f2844461978cfbc0fea6f174" source="id-3bb3a910d08b4d6e9bc96c207cfcc623" target="id-e25448c20ae04cfc85e54847cde73e76"/>
     <element xsi:type="archimate:FlowRelationship" name="persoon" id="id-40fe1f2e083d4d0798765524ea219247" source="id-3ef065ec83394ff3973661f17f989af1" target="id-d5f585bd3da84ac5a671cb97c02334c6"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-41615341e9714e65b21b02359299570a" source="id-e4be9a644d7b42bb95f3813f6da903d5" target="id-f4548c8759f248f9a3ff3195c0b256c3"/>
     <element xsi:type="archimate:FlowRelationship" name="organisatie" id="id-447861da2df144198f4c8a3eb3e29130" source="id-cd0e51aa080a4ee786629abb49476180" target="id-8663ac9316864f948c39dec794669f48"/>
@@ -750,6 +774,11 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-f0286c02d04941d5b76af7c6d99fe7a4" source="id-d904439ff4b44281a4092a5d386ad71f" target="id-e5b736ca0a6b41ae9d7765c0648e9944"/>
     <element xsi:type="archimate:FlowRelationship" name="rijbewijs" id="id-f77128c335bc4ea5a582fc6111a4aa3e" source="id-887ff59c939646d19d105df2ba28a5b6" target="id-1fd5545c30a54234a4ced6b1392d9d93"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-ff4395d9b5564e4fbd5c76d894c8d5fb" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-306118692b8040fb9199d4eb5600958b" source="id-5399cb17f1e341da908abd51bc27b0db" target="id-76fc928a3c464f5b956348df1966b5d7"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-493eb904a8564983a7d4d5b52171d6fd" source="id-5399cb17f1e341da908abd51bc27b0db" target="id-be6fbcd2977a4dacb367e9b4abee32a4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-ce90df90d8fe431aaec41b37b603fe7f" source="id-77965a4ab86c43fb809656f759830dc1" target="id-76fc928a3c464f5b956348df1966b5d7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-a9d7a724a0444c469fcd1f5c7802f39d" source="id-89cae607ed114aa9b258920260a4499c" target="id-eae8780242bb478496e912e708feeecf"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-b62b25a924d345dc98a529302fc82941" source="id-eae8780242bb478496e912e708feeecf" target="id-a692aa89784847fdae662c851c4796fe"/>
     <element xsi:type="archimate:ServingRelationship" id="id-00f1346985754c149bb07bd3ad6e1c63" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-cd9ce254e1e445b58e7c6e44f9d7084e"/>
     <element xsi:type="archimate:ServingRelationship" id="id-02eaa30edeb54d6d93d6872dcffb9e31" source="id-15f0c458430247b1a8a349cda72a5848" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:ServingRelationship" id="id-02f5875550e14f81a64ae103606e26e3" source="id-1fd5545c30a54234a4ced6b1392d9d93" target="id-3a0dec6839e34aa99103415871ed4194"/>
@@ -861,6 +890,23 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
   </folder>
   <folder name="Views" id="id-69c46f923b47425d8baae04e076ba7b0" type="diagrams">
     <folder name="Gewenste situatie" id="id-3043fb9e60f34504bda3f28a53243393">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes gerelateerd aan wetgeving en functies" id="id-01f6b7a9881e4290a6180343cd8d7e1f">
+        <child xsi:type="archimate:DiagramObject" id="id-011bc0294aa94f348d216eef7b743ecc" archimateElement="id-5399cb17f1e341da908abd51bc27b0db">
+          <bounds x="17" y="193" width="223" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-37fd2c1f2c70419aba95e39d776f4bf3" source="id-011bc0294aa94f348d216eef7b743ecc" target="id-c1a7982265c74728939366bc29fabeee" archimateRelationship="id-493eb904a8564983a7d4d5b52171d6fd"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-da5d945355ce4ab59a01658a16c18c9c" source="id-011bc0294aa94f348d216eef7b743ecc" target="id-cc08041d209a4d3fa3a823657e6b0d6b" archimateRelationship="id-306118692b8040fb9199d4eb5600958b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6df8c90e46614dc0a59c43c9219d8646" archimateElement="id-77965a4ab86c43fb809656f759830dc1">
+          <bounds x="351" y="193" width="210" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d9b30e746ba6401ca32ee7a4cdb13b09" source="id-6df8c90e46614dc0a59c43c9219d8646" target="id-cc08041d209a4d3fa3a823657e6b0d6b" archimateRelationship="id-ce90df90d8fe431aaec41b37b603fe7f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c1a7982265c74728939366bc29fabeee" targetConnections="id-37fd2c1f2c70419aba95e39d776f4bf3" archimateElement="id-be6fbcd2977a4dacb367e9b4abee32a4">
+          <bounds x="69" y="34" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cc08041d209a4d3fa3a823657e6b0d6b" targetConnections="id-d9b30e746ba6401ca32ee7a4cdb13b09 id-da5d945355ce4ab59a01658a16c18c9c" archimateElement="id-76fc928a3c464f5b956348df1966b5d7">
+          <bounds x="396" y="34" width="120" height="55"/>
+        </child>
+      </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Relatie functiemodel - doelarchitectuur" id="id-08c765dc4dea4790a2a37c17bfbe69aa" viewpoint="service_realization">
         <child xsi:type="archimate:DiagramObject" id="id-8bbfeda89203481a8515ed65fca1e64a" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
           <bounds x="636" y="120" width="181" height="517"/>
@@ -1191,6 +1237,19 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e05ed30293b14e81bdce6c5641781706" textPosition="1" archimateElement="id-cd0e51aa080a4ee786629abb49476180">
           <bounds x="23" y="120" width="156" height="55"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Capabilities gerelateerd aan wetgeving en functies" id="id-0b1de22ff1b248798b095a178cf065f8">
+        <child xsi:type="archimate:DiagramObject" id="id-31ab95f891de4fdebb8b7f9b69135a0c" targetConnections="id-3a4dd6a7eac44ba4af0d4854b579cc37" archimateElement="id-eae8780242bb478496e912e708feeecf">
+          <bounds x="36" y="150" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0120f15ab6994b0498b2dd9f8854fec1" source="id-31ab95f891de4fdebb8b7f9b69135a0c" target="id-75afccb0d36a41ef96eca19d30d3326f" archimateRelationship="id-b62b25a924d345dc98a529302fc82941"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-75afccb0d36a41ef96eca19d30d3326f" targetConnections="id-0120f15ab6994b0498b2dd9f8854fec1" archimateElement="id-a692aa89784847fdae662c851c4796fe">
+          <bounds x="36" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1701073eb72a4ef5ad296e90c8b90a7c" fillColor="#ffffff" archimateElement="id-89cae607ed114aa9b258920260a4499c">
+          <bounds x="36" y="300" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3a4dd6a7eac44ba4af0d4854b579cc37" source="id-1701073eb72a4ef5ad296e90c8b90a7c" target="id-31ab95f891de4fdebb8b7f9b69135a0c" archimateRelationship="id-a9d7a724a0444c469fcd1f5c7802f39d"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">
@@ -2410,7 +2469,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bendpoint startX="-36" startY="-81" endX="-36" endY="87"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-c96a3bdaaa3f4f90808a8de9a1ff8034" targetConnections="id-b82e1f86adae4c48a997c5db01db4e02 id-5793a4b0d3684abd92e37776f3056471" textPosition="1" archimateElement="id-e25448c20ae04cfc85e54847cde73e76">
+        <child xsi:type="archimate:DiagramObject" id="id-c96a3bdaaa3f4f90808a8de9a1ff8034" targetConnections="id-5793a4b0d3684abd92e37776f3056471" textPosition="1" archimateElement="id-e25448c20ae04cfc85e54847cde73e76">
           <bounds x="1464" y="192" width="145" height="67"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2933925700ef45d9b7f5a8abf752f7ed" source="id-c96a3bdaaa3f4f90808a8de9a1ff8034" target="id-4ef25696e5d54f239d4d27867e63f0ac" archimateRelationship="id-b845e5d802934c58a403de58e2179e4f">
             <bendpoint startX="-24" startY="-81" endX="312" endY="87"/>
@@ -2446,10 +2505,6 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-e493623904dd43189c3054f3215daf62" fillColor="#c0c0c0" textPosition="1" archimateElement="id-2b79a5d9125346ee970a03e2f88c0fda">
           <bounds x="1464" y="816" width="145" height="67"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-9f5095319e994d89a6de9032ed7d22b9" fillColor="#c0c0c0" textPosition="1" archimateElement="id-3bb3a910d08b4d6e9bc96c207cfcc623">
-          <bounds x="1788" y="192" width="145" height="67"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-b82e1f86adae4c48a997c5db01db4e02" source="id-9f5095319e994d89a6de9032ed7d22b9" target="id-c96a3bdaaa3f4f90808a8de9a1ff8034" archimateRelationship="id-400a2ee5f2844461978cfbc0fea6f174"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2b5173a2caf34a4fb166ffd1d9ff82e1" textPosition="1" archimateElement="id-7a16034297c64f98ac840c5d6897d749">
           <bounds x="1788" y="24" width="145" height="67"/>
@@ -2849,4 +2904,6 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
   </folder>
   <profile name="Wetgeving" id="id-ba7940fab70e40cabbf3f12114beee42" conceptType="Constraint"/>
   <profile name="Standaard" id="id-c1e2ee3553d2494d859bb0c0e1d186a7" conceptType="Constraint"/>
+  <profile name="Huidige voorziening" id="id-bab9074d446642cd95786422c8deba50" conceptType="ApplicationComponent"/>
+  <profile name="Gewenste voorziening" id="id-c2173c4b545e4543808dcf704eb7825b" conceptType="ApplicationComponent"/>
 </archimate:model>
