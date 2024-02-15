@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Toegang" id="id-3b66eec68cbc4ed8a552deca4e788391" version="5.0.0">
   <folder name="Strategy" id="id-475adfc1ef674f5d9b13aa132b7e56e4" type="strategy">
+    <element xsi:type="archimate:Capability" name="Grensoverschrijdende toegang" id="id-0bf067638dbc41d6b18c3fad03f9865f">
+      <documentation>Overheidsorganisaties kunnen burgers met Europees erkende inlogmiddelen toegang verlenen tot hun digitale diensten.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="EDI Wallet als authenticatiemiddel" id="id-1d4b9092915d4da498102683f62a5d50">
+      <documentation>Overheidsorganisaties kunnen een European Digital Identity Wallet accepteren voor het online en offiline geven van toegang tot hun digitale diensten.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Betrouwbare authenticatiemiddelen" id="id-841e130c70094babbe08885826c0cc8a">
+      <documentation>Overheidsorganisaties kunnen authenticatiemiddelen bieden met een substantiële of hoge mate van betrouwbaarheid die de door overheid op veiligheid en betrouwbaarheid zijn gecontroleerd.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Dataminimalisatie" id="id-8644c99911184debb636e09e05e58610">
+      <documentation>Overheidsorganisaties kunnen de gegevens die ze verzamelen beperken tot dat wat nodig is voor het beoogde doel.</documentation>
+    </element>
+    <element xsi:type="archimate:Capability" name="Ondersteunen van publieke en private middelen" id="id-ce305936dfbe416dadd2fd748fa3e298">
+      <documentation>Overheidsorganisaties kunnen alle toegelaten publieke en private authenticatiemiddelen accepteren voor het geven van toegang tot hun digitale diensten.</documentation>
+    </element>
     <element xsi:type="archimate:Capability" name="In control over cyberbeveiliging" id="id-eae8780242bb478496e912e708feeecf">
-      <documentation>Overheidsorganisaties die zijn aangewezen als essentiële dienst moeten voldoen aan verplichtingen inzake risicobeheer, maatregelen en rapportage op het gebied van cyberbeveiliging.</documentation>
+      <documentation>Overheidsorganisaties die zijn aangewezen als essentiële dienst kunnen voldoen aan verplichtingen inzake risicobeheer, maatregelen en rapportage op het gebied van cyberbeveiliging.</documentation>
     </element>
   </folder>
   <folder name="Business" id="id-18d3d3102a5d46808f48412c7c38fcc7" type="business">
@@ -554,27 +569,25 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
     </folder>
     <folder name="Wet- en regelgeving" id="id-af9a3bb654c64f48b3a918d97fda0497">
+      <element xsi:type="archimate:Constraint" name="eIDAS" id="id-3d6bbaf27b0c44bf84e270f33ac5ed6a" profiles="id-ba7940fab70e40cabbf3f12114beee42">
+        <documentation>eIDAS staat voor ‘Electronic Identification And Trust Services’. Met eIDAS verordening hebben de Europese lidstaten afspraken gemaakt om dezelfde begrippen, betrouwbaarheidsniveaus en onderlinge digitale infrastructuur te gebruiken. Een onderdeel van de verordening is het grensoverschrijdend gebruik van Europees erkende inlogmiddelen. Dit kan alleen met een betrouwbare online identiteitscheck aan de voordeur. Hierdoor wordt het makkelijker en veiliger om binnen Europa online zaken te regelen. Concreet betekent dit dat burgers die de beschikking hebben over een erkend inlogmiddel dezelfde zaken moeten kunnen regelen als alle andere burgers in een lidstaat. Levert een dienstverlener digitale toegang, dan wordt deze daarom geadviseerd, niet alleen Nederlandse, maar ook Europees erkende inlogmiddelen toegang te verlenen. </documentation>
+        <property key="URL" value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex:32014R0910"/>
+      </element>
       <element xsi:type="archimate:Constraint" name="General Data Protection Regulation" id="id-76fc928a3c464f5b956348df1966b5d7" profiles="id-ba7940fab70e40cabbf3f12114beee42">
         <documentation>Deze verordening standaardiseert de regels voor de verwerking van persoonsgegevens door particuliere bedrijven en overheidsinstanties in de Europese Unie. Het doel van de verordening is het garanderen van de bescherming van persoonsgegevens binnen de Europese Unie en het waarborgen van het vrije verkeer van gegevens binnen de Europese interne markt. De verordening heeft rechtstreekse werking en hoeft niet geïmplementeerd te worden in de Nederlandse wetgeving. In Nederland staat de verordening bekend als de Algemene Verordening Gegevensbescherming (AVG).</documentation>
         <property key="URL" value="https://eur-lex.europa.eu/eli/reg/2016/679/oj"/>
       </element>
       <element xsi:type="archimate:Constraint" name="Network and Information Systems (NIS) directive 2" id="id-a692aa89784847fdae662c851c4796fe" profiles="id-ba7940fab70e40cabbf3f12114beee42">
-        <documentation>De oorspronkelijke NIS- directive regelt de beveiliging van netwerk- en informatiesystemen van aanbieders van essentiële diensten (AED’s) en van digitale dienstverleners (DSP’s), onder meer door hen te laten voldoen aan een zorg- en meldplicht. Deze AED’s dienen door de lidstaten zelf te worden aangewezen. De NIS directive 2 vervangt de NIS-directive en stelt maatregelen vast om een hoog gemeenschappelijk niveau van cyberbeveiliging in de Unie te waarborgen.&#xD;
-&#xD;
-Met het oog hierop worden in deze richtlijn:&#xD;
-(a) verplichtingen voor de lidstaten vastgesteld om nationale strategieën voor cyberbeveiliging vast te stellen en om bevoegde nationale autoriteiten, centrale contactpunten en computer security incident response teams (CSIRT’s) aan te wijzen;&#xD;
-b) verplichtingen vastgesteld inzake risicobeheer en rapportage op het gebied van cyberbeveiliging voor entiteiten van een type dat wordt aangeduid als essentiële entiteiten en als belangrijke entiteiten;&#xD;
-(c) verplichtingen vastgesteld met betrekking tot het delen van informatie op het gebied van cyberbeveiliging.</documentation>
+        <documentation>De oorspronkelijke NIS- directive regelt de beveiliging van netwerk- en informatiesystemen van aanbieders van essentiële diensten (AED’s) en van digitale dienstverleners (DSP’s), onder meer door hen te laten voldoen aan een zorg- en meldplicht. Deze AED’s dienen door de lidstaten zelf te worden aangewezen. De NIS directive 2 vervangt de NIS-directive en stelt maatregelen vast om een hoog gemeenschappelijk niveau van cyberbeveiliging in de Unie te waarborgen. Dit betekent onder meer dat lidstaten nationale nationale strategieën voor cyberbeveiliging moeten vaststellen en nationale autoriteiten, centrale contactpunten en computer security incident response teams (CSIRT’s) moeten aanwijzen. Daarnaast worden eisen gesteld aan risicobeheer, rapportage en het delen van informatie op het gebied van cyberbeveiliging.</documentation>
         <property key="URL" value="https://data.consilium.europa.eu/doc/document/ST-14337-2021-INIT/nl/pdf"/>
       </element>
       <element xsi:type="archimate:Constraint" name="eIDAS 2.0" id="id-be6fbcd2977a4dacb367e9b4abee32a4" profiles="id-ba7940fab70e40cabbf3f12114beee42">
-        <documentation>Met dit voorstel wil de EC de EU-verordening nr. 910/2014 (de eIDAS-verordening) wijzigen. De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De Europese Unie wil met de verordening Europees kader voor een digitale identiteit regelen dat het makkelijker en veiliger wordt om binnen Europa online zaken te regelen, er wordt beoogd: &#xD;
-• om toegang tot sterk beveiligde en betrouwbare elektronische identiteitsoplossingen te bieden; &#xD;
-• dat openbare en particuliere diensten betrouwbare en veilige digitale- identiteitsoplossingen kunnen gebruiken; &#xD;
-• dat natuurlijke en rechtspersonen digitale-identiteitsoplossingen kunnen gebruiken; &#xD;
-• dat deze oplossingen verbonden zijn met een reeks attributen en dat daarmee identiteitsgegevens gericht kunnen worden gedeeld, binnen de grenzen van hetgeen voor de gevraagde specifieke dienst nodig is; &#xD;
-• dat gekwalificeerde vertrouwensdiensten in de EU worden aanvaard en dat gelijke voorwaarden gelden voor de verlening daarvan. </documentation>
+        <documentation>De e-ID Verordening (eIDAS2.0) ziet erop om de tekortkomingen van de eIDAS-verordening op te lossen. De afkorting eIDAS staat voor ‘electronic IDentities And Trust Services’. De Europese Unie wil met de verordening Europees kader voor een digitale identiteit regelen dat het makkelijker en veiliger wordt om binnen Europa online zaken te regelen. De nieuwe verordening introduceert een Europese wallet waarmee burgers gebruik te maken van digitale diensten, welke voor verschillende doeleinden ingezet kan worden. De digitale identiteit is op vrijwillige basis en maakt het mogelijk voor individuen om controle te hebben over hun persoonsgegevens. De wallet kan gebruikt worden als een identificatiemiddel waarmee specifieke documenten aangeleverd kunnen worden. </documentation>
         <property key="URL" value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:52021PC0281"/>
+      </element>
+      <element xsi:type="archimate:Constraint" name="Wet digitale overheid" id="id-e3c05a29b4c149c785cc57d71372db2f" profiles="id-ba7940fab70e40cabbf3f12114beee42">
+        <documentation>De Wet digitale overheid faciliteert de implementatie van de eIDAS verordening in Nederland. Het regelt dat Nederlandse burgers en bedrijven veilig en betrouwbaar kunnen inloggen bij de (semi-)overheid. Daarmee wordt bedoeld dat burgers elektronische identificatiemiddelen (eID) krijgen met een substantiële of hoge mate van betrouwbaarheid. Deze identificatiemiddelen geven publieke dienstverleners meer zekerheid over iemands identiteit. De wet stelt daarnaast open standaarden verplicht. Hiermee implementeert Nederland de Europese richtlijn over toegankelijkheid van overheidswebsites en apps. De eerste tranche (deel) van Wdo gaat over veilig inloggen op dienstverlening bij (semi-) overheidsinstanties, en toepassing van standaarden zoals informatieveiligheidsstandaarden.</documentation>
+        <property key="URL" value="https://wetten.overheid.nl/BWBR0048156/2023-07-01"/>
       </element>
     </folder>
   </folder>
@@ -776,9 +789,24 @@ b) verplichtingen vastgesteld inzake risicobeheer en rapportage op het gebied va
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-ff4395d9b5564e4fbd5c76d894c8d5fb" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-306118692b8040fb9199d4eb5600958b" source="id-5399cb17f1e341da908abd51bc27b0db" target="id-76fc928a3c464f5b956348df1966b5d7"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-493eb904a8564983a7d4d5b52171d6fd" source="id-5399cb17f1e341da908abd51bc27b0db" target="id-be6fbcd2977a4dacb367e9b4abee32a4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-8ae126b6f12c4f0ab3b6b8193b984ef3" source="id-05cd71c3758c4182878ba143b870582f" target="id-be6fbcd2977a4dacb367e9b4abee32a4"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ce90df90d8fe431aaec41b37b603fe7f" source="id-77965a4ab86c43fb809656f759830dc1" target="id-76fc928a3c464f5b956348df1966b5d7"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-df38720a5b774f84af6c5a0a0d3bdf03" source="id-b4dce57205fe4d48b888481350c6fae1" target="id-be6fbcd2977a4dacb367e9b4abee32a4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-032aa22802de4b188d393fd4c5f9be40" source="id-fe587c1bae3c453285eccb764194ced3" target="id-841e130c70094babbe08885826c0cc8a"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-04acde728c564f2e8eefaec59a8eee30" source="id-1d4b9092915d4da498102683f62a5d50" target="id-be6fbcd2977a4dacb367e9b4abee32a4"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-184eef1c82be4414b88e8141832282a8" source="id-2e4e3b531fa549b79b157b367825df17" target="id-b4dce57205fe4d48b888481350c6fae1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-34cb2654d4364803a53ea7fef84ec265" source="id-3be2a0b7c4e74b64a89ab048535de88d" target="id-77965a4ab86c43fb809656f759830dc1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-44e473ab6c124bfaae3bf39a5763d098" source="id-ce305936dfbe416dadd2fd748fa3e298" target="id-e3c05a29b4c149c785cc57d71372db2f"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-67e0ed3ee8de47b1a58817c1dcf10f25" source="id-841e130c70094babbe08885826c0cc8a" target="id-e3c05a29b4c149c785cc57d71372db2f"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-74c6414d6a784ed0b5b95fcd13282d22" source="id-3be2a0b7c4e74b64a89ab048535de88d" target="id-8644c99911184debb636e09e05e58610"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-89d9b1e447b34a9dbbcbc2a68b8e5693" source="id-fe587c1bae3c453285eccb764194ced3" target="id-ce305936dfbe416dadd2fd748fa3e298"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-a4a7d23fc5144cd0b11716a1d752d4ab" source="id-121061d0dfc74da48a428a108e57b9d2" target="id-0bf067638dbc41d6b18c3fad03f9865f"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-a9d7a724a0444c469fcd1f5c7802f39d" source="id-89cae607ed114aa9b258920260a4499c" target="id-eae8780242bb478496e912e708feeecf"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-b47c32a0c06b4496ae5656f661441b6c" source="id-0bf067638dbc41d6b18c3fad03f9865f" target="id-3d6bbaf27b0c44bf84e270f33ac5ed6a"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-b62b25a924d345dc98a529302fc82941" source="id-eae8780242bb478496e912e708feeecf" target="id-a692aa89784847fdae662c851c4796fe"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-d880b185997a4e2fa90cece13ed25392" source="id-8644c99911184debb636e09e05e58610" target="id-76fc928a3c464f5b956348df1966b5d7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-eb215bf82a35435ba39fbee893bf791f" source="id-fa4be6b66e8d4eb68c946f1f59cad1b1" target="id-77965a4ab86c43fb809656f759830dc1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-f910744a0a5e4330baa8382850030ed4" source="id-fa4be6b66e8d4eb68c946f1f59cad1b1" target="id-8644c99911184debb636e09e05e58610"/>
     <element xsi:type="archimate:ServingRelationship" id="id-00f1346985754c149bb07bd3ad6e1c63" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-cd9ce254e1e445b58e7c6e44f9d7084e"/>
     <element xsi:type="archimate:ServingRelationship" id="id-02eaa30edeb54d6d93d6872dcffb9e31" source="id-15f0c458430247b1a8a349cda72a5848" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:ServingRelationship" id="id-02f5875550e14f81a64ae103606e26e3" source="id-1fd5545c30a54234a4ced6b1392d9d93" target="id-3a0dec6839e34aa99103415871ed4194"/>
@@ -891,20 +919,42 @@ b) verplichtingen vastgesteld inzake risicobeheer en rapportage op het gebied va
   <folder name="Views" id="id-69c46f923b47425d8baae04e076ba7b0" type="diagrams">
     <folder name="Gewenste situatie" id="id-3043fb9e60f34504bda3f28a53243393">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Architectuurprincipes gerelateerd aan wetgeving en functies" id="id-01f6b7a9881e4290a6180343cd8d7e1f">
-        <child xsi:type="archimate:DiagramObject" id="id-011bc0294aa94f348d216eef7b743ecc" archimateElement="id-5399cb17f1e341da908abd51bc27b0db">
-          <bounds x="17" y="193" width="223" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-011bc0294aa94f348d216eef7b743ecc" textPosition="1" archimateElement="id-5399cb17f1e341da908abd51bc27b0db">
+          <bounds x="17" y="193" width="263" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-37fd2c1f2c70419aba95e39d776f4bf3" source="id-011bc0294aa94f348d216eef7b743ecc" target="id-c1a7982265c74728939366bc29fabeee" archimateRelationship="id-493eb904a8564983a7d4d5b52171d6fd"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-da5d945355ce4ab59a01658a16c18c9c" source="id-011bc0294aa94f348d216eef7b743ecc" target="id-cc08041d209a4d3fa3a823657e6b0d6b" archimateRelationship="id-306118692b8040fb9199d4eb5600958b"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-6df8c90e46614dc0a59c43c9219d8646" archimateElement="id-77965a4ab86c43fb809656f759830dc1">
-          <bounds x="351" y="193" width="210" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-6df8c90e46614dc0a59c43c9219d8646" targetConnections="id-05c7c11fae9540b39039480cf929a126 id-11ac77ba57fc496d9ca337cf29a8846e" textPosition="1" archimateElement="id-77965a4ab86c43fb809656f759830dc1">
+          <bounds x="624" y="193" width="250" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d9b30e746ba6401ca32ee7a4cdb13b09" source="id-6df8c90e46614dc0a59c43c9219d8646" target="id-cc08041d209a4d3fa3a823657e6b0d6b" archimateRelationship="id-ce90df90d8fe431aaec41b37b603fe7f"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-c1a7982265c74728939366bc29fabeee" targetConnections="id-37fd2c1f2c70419aba95e39d776f4bf3" archimateElement="id-be6fbcd2977a4dacb367e9b4abee32a4">
-          <bounds x="69" y="34" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-c1a7982265c74728939366bc29fabeee" targetConnections="id-37fd2c1f2c70419aba95e39d776f4bf3 id-9365053c530949499a2c155a6917ab60 id-8fa6523550124fa8b6843453e056bbe9" archimateElement="id-be6fbcd2977a4dacb367e9b4abee32a4">
+          <bounds x="228" y="34" width="144" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-cc08041d209a4d3fa3a823657e6b0d6b" targetConnections="id-d9b30e746ba6401ca32ee7a4cdb13b09 id-da5d945355ce4ab59a01658a16c18c9c" archimateElement="id-76fc928a3c464f5b956348df1966b5d7">
-          <bounds x="396" y="34" width="120" height="55"/>
+          <bounds x="672" y="34" width="144" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8f3a6d580c6946d29d6fcaa78aba59ac" targetConnections="id-fcb6aa92414448df9bb342eefa246769" textPosition="1" archimateElement="id-b4dce57205fe4d48b888481350c6fae1">
+          <bounds x="163" y="300" width="250" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9365053c530949499a2c155a6917ab60" source="id-8f3a6d580c6946d29d6fcaa78aba59ac" target="id-c1a7982265c74728939366bc29fabeee" archimateRelationship="id-df38720a5b774f84af6c5a0a0d3bdf03">
+            <bendpoint startX="-81" startY="-135" endX="51" endY="131"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6674f93820f04a18b1af9a0e6c999d6b" fillColor="#ffffff" textPosition="1" archimateElement="id-2e4e3b531fa549b79b157b367825df17">
+          <bounds x="216" y="432" width="144" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-fcb6aa92414448df9bb342eefa246769" source="id-6674f93820f04a18b1af9a0e6c999d6b" target="id-8f3a6d580c6946d29d6fcaa78aba59ac" archimateRelationship="id-184eef1c82be4414b88e8141832282a8"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-dc8a8c9eeac14ccda5ce22157ad06763" fillColor="#ffffff" textPosition="1" archimateElement="id-fa4be6b66e8d4eb68c946f1f59cad1b1">
+          <bounds x="612" y="432" width="144" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-05c7c11fae9540b39039480cf929a126" source="id-dc8a8c9eeac14ccda5ce22157ad06763" target="id-6df8c90e46614dc0a59c43c9219d8646" archimateRelationship="id-eb215bf82a35435ba39fbee893bf791f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-895068d0bef648e4a89600cf9235b3df" fillColor="#ffffff" textPosition="1" archimateElement="id-3be2a0b7c4e74b64a89ab048535de88d">
+          <bounds x="780" y="432" width="144" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-11ac77ba57fc496d9ca337cf29a8846e" source="id-895068d0bef648e4a89600cf9235b3df" target="id-6df8c90e46614dc0a59c43c9219d8646" archimateRelationship="id-34cb2654d4364803a53ea7fef84ec265"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-737fba9cc85c41f68768710eee7b2e32" textPosition="1" archimateElement="id-05cd71c3758c4182878ba143b870582f">
+          <bounds x="312" y="193" width="263" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8fa6523550124fa8b6843453e056bbe9" source="id-737fba9cc85c41f68768710eee7b2e32" target="id-c1a7982265c74728939366bc29fabeee" archimateRelationship="id-8ae126b6f12c4f0ab3b6b8193b984ef3"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Relatie functiemodel - doelarchitectuur" id="id-08c765dc4dea4790a2a37c17bfbe69aa" viewpoint="service_realization">
@@ -1240,16 +1290,65 @@ b) verplichtingen vastgesteld inzake risicobeheer en rapportage op het gebied va
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Capabilities gerelateerd aan wetgeving en functies" id="id-0b1de22ff1b248798b095a178cf065f8">
-        <child xsi:type="archimate:DiagramObject" id="id-31ab95f891de4fdebb8b7f9b69135a0c" targetConnections="id-3a4dd6a7eac44ba4af0d4854b579cc37" archimateElement="id-eae8780242bb478496e912e708feeecf">
-          <bounds x="36" y="150" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-31ab95f891de4fdebb8b7f9b69135a0c" targetConnections="id-3a4dd6a7eac44ba4af0d4854b579cc37" textPosition="1" archimateElement="id-eae8780242bb478496e912e708feeecf">
+          <bounds x="864" y="162" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-0120f15ab6994b0498b2dd9f8854fec1" source="id-31ab95f891de4fdebb8b7f9b69135a0c" target="id-75afccb0d36a41ef96eca19d30d3326f" archimateRelationship="id-b62b25a924d345dc98a529302fc82941"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-75afccb0d36a41ef96eca19d30d3326f" targetConnections="id-0120f15ab6994b0498b2dd9f8854fec1" archimateElement="id-a692aa89784847fdae662c851c4796fe">
-          <bounds x="36" y="24" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-75afccb0d36a41ef96eca19d30d3326f" targetConnections="id-0120f15ab6994b0498b2dd9f8854fec1" textPosition="1" archimateElement="id-a692aa89784847fdae662c851c4796fe">
+          <bounds x="864" y="36" width="145" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-1701073eb72a4ef5ad296e90c8b90a7c" fillColor="#ffffff" archimateElement="id-89cae607ed114aa9b258920260a4499c">
-          <bounds x="36" y="300" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-1701073eb72a4ef5ad296e90c8b90a7c" fillColor="#ffffff" textPosition="1" archimateElement="id-89cae607ed114aa9b258920260a4499c">
+          <bounds x="864" y="288" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3a4dd6a7eac44ba4af0d4854b579cc37" source="id-1701073eb72a4ef5ad296e90c8b90a7c" target="id-31ab95f891de4fdebb8b7f9b69135a0c" archimateRelationship="id-a9d7a724a0444c469fcd1f5c7802f39d"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1fa7b0ea37c74291b98035567c8243d8" targetConnections="id-2f2b75f730e2461a8f62abb81de9dd7d" textPosition="1" archimateElement="id-be6fbcd2977a4dacb367e9b4abee32a4">
+          <bounds x="696" y="36" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ad6d468002934b5899bffb8cfdb5461c" targetConnections="id-be89532026964d5890d4e22509a10aa1" textPosition="1" archimateElement="id-3d6bbaf27b0c44bf84e270f33ac5ed6a">
+          <bounds x="528" y="36" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2cde884e225b434781adf43a205fb4b2" targetConnections="id-2961db239c374ccbb0e972bbc6bc5eb7" textPosition="1" archimateElement="id-76fc928a3c464f5b956348df1966b5d7">
+          <bounds x="24" y="36" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f2d0f4404aab45e1ae10b0689492009c" targetConnections="id-471e4e4bdac545ed81de9d118050d991 id-cf609e4976c544aea23f59e224e8da49" textPosition="1" archimateElement="id-e3c05a29b4c149c785cc57d71372db2f">
+          <bounds x="276" y="36" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f758a57d48094f04a8cf6e0ba3414e63" textPosition="1" archimateElement="id-1d4b9092915d4da498102683f62a5d50">
+          <bounds x="696" y="162" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2f2b75f730e2461a8f62abb81de9dd7d" source="id-f758a57d48094f04a8cf6e0ba3414e63" target="id-1fa7b0ea37c74291b98035567c8243d8" archimateRelationship="id-04acde728c564f2e8eefaec59a8eee30"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0d2ba13bb1b34da8a678f2ecb3de378f" targetConnections="id-0706abebf50f4368adc89690be5a5a5d" textPosition="1" archimateElement="id-ce305936dfbe416dadd2fd748fa3e298">
+          <bounds x="192" y="162" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-471e4e4bdac545ed81de9d118050d991" source="id-0d2ba13bb1b34da8a678f2ecb3de378f" target="id-f2d0f4404aab45e1ae10b0689492009c" archimateRelationship="id-44e473ab6c124bfaae3bf39a5763d098"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-59addee3a0dd4953abd6d38e5e31e8ce" targetConnections="id-715792b95df24e3f8ede27ad6c6a763b" textPosition="1" archimateElement="id-0bf067638dbc41d6b18c3fad03f9865f">
+          <bounds x="528" y="162" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-be89532026964d5890d4e22509a10aa1" source="id-59addee3a0dd4953abd6d38e5e31e8ce" target="id-ad6d468002934b5899bffb8cfdb5461c" archimateRelationship="id-b47c32a0c06b4496ae5656f661441b6c"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b5a3592149ec4010abc83058141f9579" targetConnections="id-59b522e0f0c04b2d878c19e54191c444" textPosition="1" archimateElement="id-841e130c70094babbe08885826c0cc8a">
+          <bounds x="360" y="162" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-cf609e4976c544aea23f59e224e8da49" source="id-b5a3592149ec4010abc83058141f9579" target="id-f2d0f4404aab45e1ae10b0689492009c" archimateRelationship="id-67e0ed3ee8de47b1a58817c1dcf10f25"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d5e02a3febbc44fbbce589e83e6578df" targetConnections="id-26442944a8614bbcabd25297225f3e8d id-84a670172db44b219aaaaf060ba1c53c" textPosition="1" archimateElement="id-8644c99911184debb636e09e05e58610">
+          <bounds x="24" y="162" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2961db239c374ccbb0e972bbc6bc5eb7" source="id-d5e02a3febbc44fbbce589e83e6578df" target="id-2cde884e225b434781adf43a205fb4b2" archimateRelationship="id-d880b185997a4e2fa90cece13ed25392"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-24434f6406154a28a6d839e534bb537c" fillColor="#ffffff" textPosition="1" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
+          <bounds x="264" y="288" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0706abebf50f4368adc89690be5a5a5d" source="id-24434f6406154a28a6d839e534bb537c" target="id-0d2ba13bb1b34da8a678f2ecb3de378f" archimateRelationship="id-89d9b1e447b34a9dbbcbc2a68b8e5693"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-59b522e0f0c04b2d878c19e54191c444" source="id-24434f6406154a28a6d839e534bb537c" target="id-b5a3592149ec4010abc83058141f9579" archimateRelationship="id-032aa22802de4b188d393fd4c5f9be40"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-69b3103bd482464a895bef192bef8a64" fillColor="#ffffff" textPosition="1" archimateElement="id-121061d0dfc74da48a428a108e57b9d2">
+          <bounds x="528" y="288" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-715792b95df24e3f8ede27ad6c6a763b" source="id-69b3103bd482464a895bef192bef8a64" target="id-59addee3a0dd4953abd6d38e5e31e8ce" archimateRelationship="id-a4a7d23fc5144cd0b11716a1d752d4ab"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e7b5612ccc23487287344933ecc7f5b5" fillColor="#ffffff" textPosition="1" archimateElement="id-3be2a0b7c4e74b64a89ab048535de88d">
+          <bounds x="60" y="372" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-84a670172db44b219aaaaf060ba1c53c" source="id-e7b5612ccc23487287344933ecc7f5b5" target="id-d5e02a3febbc44fbbce589e83e6578df" archimateRelationship="id-74c6414d6a784ed0b5b95fcd13282d22"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-bc9c0366c5ba443ba6dda66301950e98" fillColor="#ffffff" textPosition="1" archimateElement="id-fa4be6b66e8d4eb68c946f1f59cad1b1">
+          <bounds x="24" y="288" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-26442944a8614bbcabd25297225f3e8d" source="id-bc9c0366c5ba443ba6dda66301950e98" target="id-d5e02a3febbc44fbbce589e83e6578df" archimateRelationship="id-f910744a0a5e4330baa8382850030ed4"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">

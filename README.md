@@ -27,6 +27,8 @@ Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en 
 
 ## Gewenste situatie
 
+* Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-toegang/content/views/wetten.html">overzicht</a>
+* Capabilities: <a href="https://minbzk.github.io/gdi-toegang/?view=id-0b1de22ff1b248798b095a178cf065f8">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilitiesdetails.html">details</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-toegang/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principesdetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-toegang/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaardendetails.html">details</a>
 * Gewenste voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningendetails.html">details</a>
