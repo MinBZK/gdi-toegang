@@ -3,6 +3,7 @@
     name="Aansluit- en beheerportaal"
     id="id-8691eedf50cd4b2ca91bda6750e009c0"
     documentation="Om dienstverleners in staat te stellen zo eenvoudig mogelijk hun aansluiting in te richten en te beheren wordt een aansluit- en beheerportaal beschikbaar gesteld. Dienstverleners beheren met deze voorziening de administratieve, functionele en technische onderdelen en gegevens van hun aansluiting. Ze beheren hun gegevens van de Stelselmetada via het Aansluit- en beheerportaal. Het Aansluit- en beheerportaal verzorgt het aansluiten op de Conformancetestomgeving en op de productieomgeving van het stelsel. Het Aansluit- en beheerportaal biedt ook een kanaal/platform voor informatievoorziening rond het stelsel.&#xD;&#xA;&#xD;&#xA;Het portaal biedt de volgende functies aan dienstverleners en brokers voor de Conformancetestomgeving en de productie omgeving: &#xD;&#xA;•&#x9;Informeren over aansluiten;&#xD;&#xA;•&#x9;Inrichten aansluiting;&#xD;&#xA;•&#x9;Beheren aansluiting;&#xD;&#xA;•&#x9;Rapporteren gebruik aansluiting;&#xD;&#xA;•&#x9;Status en aanleveren van informatie rond eID-assessments;&#xD;&#xA;•&#x9;Algehele communicatie rond het Stelsel Toegang.&#xD;&#xA;">
-  <properties
-      key="exclude"/>
+  <properties/>
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
 </archimate:ApplicationComponent>
