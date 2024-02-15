@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Dienst</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Dienst</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-ApplicationComponent"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-ApplicationComponent" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+							<br>
+							<b class="i18n-specialization"></b>
+								Gewenste voorziening
+						<div class="convertlinks documentation" style="white-space:pre-wrap">De implemementatie van de dienst zoals deze beschikbaar wordt gesteld door de dienstverlener, inclusief alle achterliggende functionaliteit die daarbij nodig is.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>exclude</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-08c765dc4dea4790a2a37c17bfbe69aa">
+																	<td><a href="../views/id-08c765dc4dea4790a2a37c17bfbe69aa.html" target="view" title="Relatie functiemodel - doelarchitectuur"> Relatie functiemodel - doelarchitectuur </a></td>
+																	<td><span class="i18n-viewpoint-service_realization" /></td>
+																</tr><tr id="used-in-views-id-e8af2ce565394e1f81411ab32da2a44e">
+																	<td><a href="../views/id-e8af2ce565394e1f81411ab32da2a44e.html" target="view" title="Doelarchitectuur 0.95"> Doelarchitectuur 0.95 </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-00f1346985754c149bb07bd3ad6e1c63.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-cd9ce254e1e445b58e7c6e44f9d7084e.html" target="element"> Beheren resources</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-3df71571558a456c80b9824c0de846de.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-4c5fe57ec2ab485c9cb8bdef64d7d4d9.html" target="element"> Beheren autorisatieregels</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-6c97a9bc471c44ceb504c6e61e1e1633.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-dfa93a7f2bf64bcf8dd828eb7f754b4e.html" target="element"> Toekennen bevoegdheden</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-72396bc07e9442d1a6619f16ac5b24b4.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-9fbbb392461f46a0b24c5cdc58a01ee8.html" target="element"> Vastleggen auditlog</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-798af82515524e5abb1900c886b790a2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-2284caddd8094fd3b974678a31502f9f.html" target="element"> Controleren fijnmazige autorisatie</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-86b61782d2f442209d47bfe3e04184bc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-3099a3491bf542f084b6b3defa72ef68.html" target="element"> Controleren autorisatie voor dienst</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-91cca1a44d974479b119cf27d839e999.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-c07b09ed9fcd46d98cd4efd9700d2c4c.html" target="element"> Controleren verschil tussen huidige en gewenste autorisaties</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c78c961918854ae9b2453d0056406013.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-7cf7d264e6a84c85a50d8feefc8eae67.html" target="element"> Toekennen rollen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cfb224230ef743949ec547dfbad3cc7c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-4ea810315dc14f11b115cef01338dca5.html" target="element"> Ontsleutelen identifiers</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-d42700b5b1f9424d94848f56bea871f7.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-85f7280d5d3649bfb0b8cb60dada3eca.html" target="element"> Controleren conflicterende bevoegdheden</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e7ee87d547764d61b876a9cef90f30f3.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-a6d25074ed4746d78e7b3002de2175dc.html" target="element"> Inzage geven in bevoegdheden</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ea97f9955cd04869a298b9960d412358.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+											<td><a href="../elements/id-f14d8c808bd4443f90a2e6be30054d3e.html" target="element"> Beheren rollen</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-c38dcec4426341108efe9eeed2720fef.html" target="element" title="BSN of pseudoniem, bevoegdheidsverklaring">BSN of pseudoniem, bevoegdheidsverklaring</a></td>
+											<td><span class="i18n-elementtype-FlowRelationship" /></td>
+											<td><a href="../elements/id-d904439ff4b44281a4092a5d386ad71f.html" target="element"> Aansluitfuncties</a></td>
+											<td><a href="../elements/id-b666322db6e64dd98a41a38e9aeb9119.html" target="element"> Dienst</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
