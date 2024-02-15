@@ -1,4 +1,7 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BRP"
-    id="id-06be8dd9e8c645d6bb482b05c9185e03"/>
+    id="id-06be8dd9e8c645d6bb482b05c9185e03">
+  <profiles
+      href="folder.xml#id-bab9074d446642cd95786422c8deba50"/>
+</archimate:ApplicationComponent>

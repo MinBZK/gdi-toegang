@@ -5,4 +5,6 @@
     documentation="De implemementatie van de dienst zoals deze beschikbaar wordt gesteld door de dienstverlener, inclusief alle achterliggende functionaliteit die daarbij nodig is.">
   <properties
       key="exclude"/>
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
 </archimate:ApplicationComponent>
