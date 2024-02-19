@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Contextuele toegangscontrole"
+    id="id-3a8d1d87c09c4893ab51905141811cbf"
+    documentation="Voor het verstrekken van toegang wordt steeds meer contextuele informatie over een gebruiker gebruikt. Denk daarbij bijvoorbeeld aan de locatie van de gebruiker, het tijdstip van toegang, het gebruikte apparaat, het type sessie en het aantal gelijktijdige sessies. Hierdoor kan toegang meer gericht worden verstrekt en wordt ongeautoriseerde toegang dus verder voorkomen. Contextuele toegangsregels kunnen op groepsniveau, maar ook individueel worden toegekend.">
+  <profiles
+      href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
+</archimate:Driver>
