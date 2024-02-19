@@ -19,4 +19,8 @@
       name="Gewenste voorziening"
       id="id-c2173c4b545e4543808dcf704eb7825b"
       conceptType="ApplicationComponent"/>
+  <profiles
+      name="Ontwikkeling"
+      id="id-b1251fd984bf4caca18b0cfe11e36a03"
+      conceptType="Driver"/>
 </archimate:ArchimateModel>
