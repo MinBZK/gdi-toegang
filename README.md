@@ -12,6 +12,7 @@ Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/
 Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrijvingen, diagrammen, overzichten en detailoverzichten. Met uitzondering van de beschrijvingen, zijn deze geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
 # Architectuur
+Inleiding: <a href="https://minbzk.github.io/gdi-toegang/inleiding.html">beschrijving</a>.
 
 Referentie-architectuur:
 * Functies: <a href="https://minbzk.github.io/gdi-toegang/?view=id-e1cf58e0b07f4907bdce34ba561b9a18">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsfuncties.html">overzicht</a>
