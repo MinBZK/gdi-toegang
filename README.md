@@ -5,7 +5,7 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 1. In de vorm van <a href="gegevensuitwisseling.archimate">een bestand</a> voor het modelleertool Archi;
 2. Als bestanden die kunnen worden ingelezen met de coArchi plugin van Archi;
 3. Als <a href="https://minbzk.github.io/gdi-toegang">website</a> in de vorm van een HTML report uit Archi;
-4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren, inclusief <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20toegang.html">een pagina met een samenvatting van alle onderdelen.</a> 
+4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren, inclusief <a href="https://minbzk.github.io/gdi-toegang/content/views/Domeinarchitectuur%20toegang.html">een pagina met een samenvatting van alle onderdelen.</a> 
 
 Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/metamodel.md">metamodel</a>. 
 
@@ -34,4 +34,4 @@ Gewenste situatie:
 * Gewenste voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningendetails.html">details</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-toegang/content/views/veranderinitiatieven.html">overzicht</a>
 
-Samenvatting in één pagina: <a href="https://minbzk.github.io/gdi-gegevensuitwisseling/content/views/Domeinarchitectuur%20toegang.html">samenvatting</a>
+Samenvatting in één pagina: <a href="https://minbzk.github.io/gdi-toegang/content/views/Domeinarchitectuur%20toegang.html">samenvatting</a>
