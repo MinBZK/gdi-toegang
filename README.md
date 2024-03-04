@@ -7,26 +7,23 @@ Het architectuurmodel is beschikbaar in verschillende vormen:
 3. Als <a href="https://minbzk.github.io/gdi-toegang">website</a> in de vorm van een HTML report uit Archi
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren (zie hieronder)
 
-Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/metamodel.md">metamodel</a>.
+Er zijn <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/instructies.md">instructies</a> beschikbaar voor het aanbrengen van wijzigingen en het installeren en configureren van Archi. Daarnaast is er een beschrijving van het gehanteerde <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/metamodel.md">metamodel</a>. 
+
+Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrijvingen, diagrammen, overzichten en detailoverzichten. Met uitzondering van de beschrijvingen, zijn deze geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="scripts/export HTML.ajs">script</a>.
 
 # Architectuur
-De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein toegang. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.
+Inleiding: <a href="https://minbzk.github.io/gdi-toegang/inleiding.html">beschrijving</a>.
 
-Bij de verschillende onderwerpen wordt verwezen naar diagrammen, overzichten en detailoverzichten. Deze zijn geëxporteerd uit het architectuurmodelleertool Archi. De diagrammen zijn onderdeel van de standaard Archi HTML report. De overzichten, detailoverzichten en achterliggende detailpagina's zijn gegenereerd met een <a href="https://github.com/MinBZK/gdi-gegevensuitwisseling/blob/master/scripts/export%20HTML.ajs">script</a>.
-
-## Referentie-architectuur
-
+Referentie-architectuur:
 * Functies: <a href="https://minbzk.github.io/gdi-toegang/?view=id-e1cf58e0b07f4907bdce34ba561b9a18">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsfuncties.html">overzicht</a>
 * Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-d43a21de1f8f4320a22ee4a1a46d660b">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsobjecten.html">overzicht</a>
 * Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-d24214a9135947e980983cea632143d2">diagram</a>
 * Begrippen: <a href="https://www.noraonline.nl/wiki/Begrippen_IAM">overzicht</a>
 
-## Huidige situatie
-
+Huidige situatie:
 * Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningendetails.html">details</a>
 
-## Gewenste situatie
-
+Gewenste situatie:
 * Ontwikkelingen: <a href="https://minbzk.github.io/gdi-toegang/content/views/ontwikkelingen.html">overzicht</a>
 * Wet- en regelgeving: <a href="https://minbzk.github.io/gdi-toegang/content/views/wetten.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/wettendetails.html">details</a>
 * Capabilities: <a href="https://minbzk.github.io/gdi-toegang/?view=id-0b1de22ff1b248798b095a178cf065f8">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilitiesdetails.html">details</a>
