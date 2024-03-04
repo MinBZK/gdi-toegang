@@ -1,0 +1,10 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Huidige voorzieningen"
+    id="id-9592d4808efb4be9aa2751e0019b4771">
+  <properties
+      key="elementType"
+      value="application-componentHuidige voorziening"/>
+  <profiles
+      href="folder.xml#id-b5e689fa75694829b24cf22fd76eacee"/>
+</archimate:Representation>

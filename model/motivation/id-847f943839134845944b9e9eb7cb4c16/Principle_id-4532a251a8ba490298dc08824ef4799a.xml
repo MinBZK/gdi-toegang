@@ -1,0 +1,18 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="5. Beveiliging is niet afhankelijk van individuen"
+    id="id-4532a251a8ba490298dc08824ef4799a"
+    documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten. Mensen hebben soms ook verkeerde intenties. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk borgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden.">
+  <properties
+      key="Implicaties"
+      value="1. Er worden technische beveiligingsmaatregelen geïmplementeerd die zijn geautomatiseerd en niet zomaar door individuen kunnen worden gepasseerd."/>
+  <properties
+      key="Implicaties"
+      value="2. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
+  <properties
+      key="Implicaties"
+      value="3. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de verantwoordelijkheden (least priviledge)."/>
+  <properties
+      key="Implicaties"
+      value="4. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
+</archimate:Principle>

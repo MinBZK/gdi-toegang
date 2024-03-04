@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Toegang zonder BSN niet mogelijk"
+    id="id-a4046d419300443da3ec983b6a64884b"
+    documentation="DigiD mag alleen gebruikt worden voor diensten waarvoor BSN gebruikt moet worden. Dat sluit het gebruik van DigiD uit voor allerlei diensten die ook zonder BSN gebruikt kunnen worden. Hierdoor zijn er geen betrouwbare middelen beschikbaar voor het geven van toegang tot dit soort diensten."/>

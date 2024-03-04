@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Restgroepen worden niet goed ondersteund"
+    id="id-388da3df069946eb8fcc9f6b801b1882"
+    documentation="Er zijn allerlei groepen burgers en bedrijven die niet worden bediend met DigiD, eHerkenning en PKI-overheid omdat ze niet in de onderliggende registers geregistreerd staan. Het gaat bijvoorbeeld om burgers zonder EER paspoort, ambassades en buitenlandse bedrijven die niet in het handelsregister zijn opgenomen. Overheidsorganisaties die deze restgroepen wel moeten bedienen zijn verantwoordelijk om zelf hiervoor een registratie te voeren en een authenticatiemiddel in te richten die voldoet aan de eisen in de Wdo. Er is inmiddels wel een tijdelijk register voor restgroepen, maar deze is alleen beschikbaar voor diensten van de Belastingdienst."/>

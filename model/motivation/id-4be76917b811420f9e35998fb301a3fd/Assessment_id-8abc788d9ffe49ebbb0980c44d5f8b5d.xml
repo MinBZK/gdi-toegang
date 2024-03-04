@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Beperkte machtigingsfunctionaliteit"
+    id="id-8abc788d9ffe49ebbb0980c44d5f8b5d"
+    documentation="Er is op dit moment beperkte machtigingsfunctionaliteit aanwezig in DigiD machtigen en eHerkenning machtigen en ketenmachtigen. Zo is het bijvoorbeeld niet mogelijk om te machtigen voor zaken of voor specifieke deelgebieden. Daarnaast is het niet mogelijk om een machtiging een bepaald betrouwbaarheidsniveau te geven. Mede om deze reden zijn er ook machtigingsfunctionaliteiten in allerlei specifieke portalen en systemen gerealiseerd. Dit is overheidsbreed niet een kostenefficiënte oplossing."/>

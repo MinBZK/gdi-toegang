@@ -1,0 +1,10 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Capabilities"
+    id="id-9edaa105afef4c02bab19e78598847a7">
+  <properties
+      key="elementType"
+      value="capability"/>
+  <profiles
+      href="folder.xml#id-b5e689fa75694829b24cf22fd76eacee"/>
+</archimate:Representation>

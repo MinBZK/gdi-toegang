@@ -17,11 +17,14 @@
       value="4. De toegangsinfrastructuur borgt dat alleen de vooraf benoemde attributen worden verstrekt."/>
   <properties
       key="Implicaties"
-      value="5. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
+      value="5. Er kunnen ook gebruikers anoniem (met een pseudoniem) gebruik maken van diensten, zolang de precieze identiteit van iemand nog niet relevant is."/>
   <properties
       key="Implicaties"
-      value="6. Specifieke verklaringen die relevant zijn voor toegang worden pas opgehaald op het moment dat een gebruiker aangeeft handelingen uit te willen voeren waardoor dit nodig is."/>
+      value="6. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
   <properties
       key="Implicaties"
-      value="7. Opsporingsdiensten hebben de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
+      value="7. Specifieke verklaringen die relevant zijn voor toegang (inclusief de verklaring over de precieze identiteit van iemand) worden pas opgehaald op het moment dat een gebruiker aangeeft handelingen uit te willen voeren waardoor dit nodig is."/>
+  <properties
+      key="Implicaties"
+      value="8. Opsporingsdiensten hebben de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
 </archimate:Principle>

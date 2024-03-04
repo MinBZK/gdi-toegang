@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Koppeling met meerdere authenticatiediensten"
+    id="id-3154a0a622914f4f9b5afc86fee4346e"
+    documentation="Overheidsorganisaties zijn in de Wdo verplicht om alle toegelaten publieke en private authenticatiemiddelen te accepteren voor het geven van toegang tot hun digitale diensten. Dat betekent dat zij afspraken moeten maken en koppelingen moeten realiseren met meerdere authenticatiediensten. De routeringsdienst TVS kan overheidsorganisaties hier grotendeels in ontzorgen, maar kan op dit moment niet worden gebruikt door veel overheidsorganisaties. Er zijn commerciële partijen die diensten bieden waarmee meerdere authenticatiemiddelen worden ondersteund, maar deze kosten wel geld."/>
