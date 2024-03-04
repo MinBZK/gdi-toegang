@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pilot FSC voor toegang tussen systemen"
+    id="id-d0f151a4be2047ecbc2019f47e419fc5"
+    documentation="Voor het verlenen van toegang tussen systemen moet nu gebruik worden gemaakt van PKI-overheidscertificaten. De FSC standaard kan hier mogelijk vereenvoudiging in aanbrengen. Een pilot is wenselijk om te bepalen in hoeverre FSC hierin voldoende ondersteunt."/>

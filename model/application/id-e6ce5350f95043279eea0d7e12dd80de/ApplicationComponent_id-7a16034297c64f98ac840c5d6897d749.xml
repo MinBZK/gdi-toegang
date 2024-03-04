@@ -3,6 +3,12 @@
     name="Autorisatielijst BSN-gerechtigden"
     id="id-7a16034297c64f98ac840c5d6897d749"
     documentation="Op de Autorisatielijst BSN-gerechtigden (ALB) staan de organisaties waarvan RvIG heeft vastgesteld dat ze voor hun publieke taken het burgerservicenummer (BSN) mogen gebruiken.">
+  <properties
+      key="Beheerorganisatie"
+      value="RvIG"/>
+  <properties
+      key="URL"
+      value="https://www.rvig.nl/autorisatielijst-bsn-gerechtigden"/>
   <profiles
       href="folder.xml#id-bab9074d446642cd95786422c8deba50"/>
 </archimate:ApplicationComponent>

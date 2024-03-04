@@ -1,0 +1,10 @@
+<archimate:Representation
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Beleid"
+    id="id-77f44709a232443f943f54fe68f3af8d">
+  <properties
+      key="elementType"
+      value="driverBeleid"/>
+  <profiles
+      href="folder.xml#id-b5e689fa75694829b24cf22fd76eacee"/>
+</archimate:Representation>

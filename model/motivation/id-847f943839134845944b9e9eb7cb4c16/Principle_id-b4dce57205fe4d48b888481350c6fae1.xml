@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Vertrouwen wordt gebouwd op partijen en verifieerbare verklaringen"
+    name="1. Vertrouwen wordt gebouwd op verifieerbare verklaringen van vertrouwde partijen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Toegang wordt alleen verleend door partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van andere partijen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Door gebruik te maken van bestaande vertrouwensnetwerken kan gebouwd worden op een basisniveau van vertrouwen die deze netwerken garanderen.">
+    documentation="Toegang wordt alleen verleend door vertrouwende partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van verklarende partijen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Door gebruik te maken van bestaande vertrouwensnetwerken kan gebouwd worden op een basisniveau van vertrouwen die deze netwerken garanderen.">
   <properties
       key="Implicaties"
       value="1. Vertrouwende partijen zoeken of er relevante bestaande vertrouwensnetwerken zijn waar zij bij aan kunnen sluiten."/>

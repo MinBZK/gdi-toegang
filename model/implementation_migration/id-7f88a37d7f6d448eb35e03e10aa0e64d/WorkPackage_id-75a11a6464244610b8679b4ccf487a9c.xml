@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DigiD geschikt maken voor inloggen zonder BSN"
+    id="id-75a11a6464244610b8679b4ccf487a9c"
+    documentation="DigiD zou geschikt moeten worden gemaakt voor diensten die geen BSN nodig hebben. Op dit moment zijn hiervoor geen betrouwbare authenticatiemiddelen beschikbaar."/>

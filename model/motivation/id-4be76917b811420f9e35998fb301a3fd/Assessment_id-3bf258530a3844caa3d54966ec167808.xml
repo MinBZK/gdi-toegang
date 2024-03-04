@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="PKI-overheidscertificaten nodig voor authenticatie van systemen"
+    id="id-3bf258530a3844caa3d54966ec167808"
+    documentation="Voor toegang van systemen tot andere systemen moet gebruik worden gemaakt van PKI-overheidscertificaten, die moeten worden aangeschaft, geïnstalleerd en periodiek moeten worden vernieuwd. Tot leidt tot allerlei beheerkosten en lasten bij overheidsorganisaties. PKI-overheidscertificaten zijn ook duurder dan normale certificaten."/>

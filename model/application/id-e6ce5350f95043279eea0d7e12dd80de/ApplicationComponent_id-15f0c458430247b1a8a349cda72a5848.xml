@@ -1,7 +1,10 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="KvK"
-    id="id-15f0c458430247b1a8a349cda72a5848">
+    id="id-15f0c458430247b1a8a349cda72a5848"
+    documentation="Het Handelsregister van de Kamer van Koophandel waarin alle rechtspersonen en ondernemingen in Nederland zijn geregistreerd.">
+  <properties
+      key="exclude"/>
   <profiles
       href="folder.xml#id-bab9074d446642cd95786422c8deba50"/>
 </archimate:ApplicationComponent>
