@@ -1,24 +1,30 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Vertrouwen wordt gebouwd op gekwalificeerde verifieerbare verklaringen van vertrouwde partijen"
+    name="1. Vertrouwen wordt gebouwd op verifieerbare verklaringen van vertrouwde partijen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Toegang wordt alleen verleend door vertrouwende partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van verklarende partijen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Gekwalificeerde verklaringen voldoen ook aan de eisen die de Europese Commissie stelt en hebben daarbij de voorkeur. .Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Door gebruik te maken van bestaande vertrouwensnetwerken kan gebouwd worden op een basisniveau van vertrouwen die deze netwerken garanderen.">
+    documentation="Toegang wordt alleen verleend door vertrouwende partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van verklarende partijen die zij kennen en vertrouwen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Gekwalificeerde verklaringen voldoen ook aan de eisen die de Europese Commissie stelt en hebben daarbij de voorkeur. Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Vertrouwen in partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of bekendheid bij een trusted list provider. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.">
   <properties
       key="Implicaties"
-      value="1. Vertrouwende partijen zoeken of er relevante bestaande vertrouwensnetwerken zijn waar zij bij aan kunnen sluiten."/>
+      value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of trusted list providers."/>
   <properties
       key="Implicaties"
-      value="2. Vertrouwende partijen kunnen ervoor kiezen om bij meerdere vertrouwensnetwerken aan te sluiten als dat relevant is voor hun diversiteit aan diensten en samenwerkingspartijen."/>
+      value="2. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende betrouwbare verklarende partijen zijn die kunnen verklaren over digitale identiteiten, hun eigenschappen en bevoegdheden."/>
   <properties
       key="Implicaties"
-      value="3. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende betrouwbare verklarende partijen zijn die kunnen verklaren over digitale identiteiten, hun eigenschappen en bevoegdheden."/>
+      value="3. De gebruiker kent de vertrouwende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en heeft daar vertrouwen in."/>
+      value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="5. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de actualiteit ervan en of deze gekwalificeerd is."/>
+      value="5. De vertrouwende partij kent de gebruiker en vertouwt deze doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="6. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
+      value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de vertrouwende partij bewijs dat deze verklaring hoort bij de wallet en niet gekopieerd is."/>
+  <properties
+      key="Implicaties"
+      value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de actualiteit en of deze gekwalificeerd is."/>
+  <properties
+      key="Implicaties"
+      value="8. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
 </archimate:Principle>
