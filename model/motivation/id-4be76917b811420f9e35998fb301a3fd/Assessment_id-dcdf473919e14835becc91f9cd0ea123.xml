@@ -1,5 +1,5 @@
 <archimate:Assessment
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Certificaten niet bruikbaar voor UUM&amp;DS"
+    name="Certificaten niet breed bruikbaar"
     id="id-dcdf473919e14835becc91f9cd0ea123"
-    documentation="Certificaten geregistreerd in Nederland en gebruikt voor het zaken doen met de Douane kunnen middels services niet ontsloten worden naar het Uniform User Management &amp; Digital Signature (UUM&amp;DS) systeem voor Europese toegangs- en ondertekenservices. De oorzaak is dat in Nederland de mogelijkheid ontbreekt voor een bedrijf om op basis van een certificaat ten behoeve van toegang of een digitale handtekening vast te leggen.&#xD;&#xA;&#xD;&#xA;@Het probleem is onvoldoende duidelijk, mede doordat de laatste zin is ook niet correct is@"/>
+    documentation="Certificaten geregistreerd in Nederland kunnen niet overheidsbreed en internationaal gebruikt worden voor toegangs- en ondertekenservices. "/>

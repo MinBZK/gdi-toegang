@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Autorisatie o.b.v. gebruiksvoorwaarden van gegevens"
+    id="id-fc732b8a0f0244939d9ab4216b8d065c"
+    documentation="Een belangrijk deel van de autorisatie die nodig is om toegang te kunnen krijgen tot gegevens zou infrastructureel moeten worden ondersteund. Daarbij gaat het vooral om het geautomatiseerd toetsen of afnemers voldoen aan criteria zoals gedefinieerd in de gebruiksvoorwaarden van datasets en gegevensdiensten.n Standaarden zoals XACML en ODRL kunnen hierin ondersteunen."/>
