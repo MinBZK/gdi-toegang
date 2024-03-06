@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Certificaten worden gedeeld met derden"
+    id="id-a4763a1bfff84929bfaa0c3ed15da3a0"
+    documentation="Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Om deze rolverdeling te laten werken moeten certificaten van overheidsorganisaties worden gedeeld met dit soort derde partijen. Dit is niet een veilige en efficiënte manier om andere partijen te machtigen namens overheidsorganisaties."/>

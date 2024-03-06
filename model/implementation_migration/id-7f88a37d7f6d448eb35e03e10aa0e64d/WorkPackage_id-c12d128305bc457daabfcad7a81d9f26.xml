@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standaardiseren signing en encryptie van API's"
+    id="id-c12d128305bc457daabfcad7a81d9f26"
+    documentation="Er is behoefte aan standaardisering van signing en encryptie van API's. Het resultaat daarvan moet onderdeel zijn van het Digikoppeling profiel voor API's."/>
