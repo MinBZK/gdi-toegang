@@ -1,5 +1,5 @@
 <archimate:Assessment
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Certificaten niet breed bruikbaar"
+    name="Certificaten niet internationaal bruikbaar"
     id="id-dcdf473919e14835becc91f9cd0ea123"
-    documentation="Certificaten geregistreerd in Nederland kunnen niet overheidsbreed en internationaal gebruikt worden voor toegangs- en ondertekenservices. "/>
+    documentation="In Nederland is gekozen voor de systematiek van PKI-overheidscertificaten. Hierdoor kunnen Nederlandse certificaten niet direct internationaal gebruikt worden en andersom. "/>
