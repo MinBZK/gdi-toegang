@@ -153,7 +153,7 @@
         <property key="elementType" value="driverBeleid"/>
       </element>
       <element xsi:type="archimate:Representation" name="Referentie-architectuur" id="id-78b449aaa3e5492da0ec6d38975e9e8c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor gegevensuitwisseling. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein gegevensuitwisseling. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p></documentation>
+        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor toegang. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein toegang. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Veranderinitiatieven" id="id-7a3c760780f84b49aae60cc45cbeb885" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>De domeinarchitectuur beschrijft veranderinitiatieven die worden voorgesteld omdat ze voortvloeien uit zaken in de architectuur. Het zijn in eerste instantie alleen voorstellen en ze zijn ook nog niet voorzien van informatie over kosten en baten. Ze zijn vooral input voor portfoliomanagement en programmering, in het kader waarvan kosten en baten kunnen worden uitgewerkt.&lt;/p></documentation>
@@ -171,7 +171,7 @@
 &lt;p>Dit document beschrijft de domeinarchitectuur voor toegang, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke werkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze zijn ondersteund door bureau MIDO van het ministerie van BZK. Het beschrijft de ontwikkelingen en wet- en regelgeving en vertaalt deze naar een visie en kaders voor de inrichting van toegang tot overheidsorganisaties. Het document is vooral gericht op enterprise-, informatie- en security-architecten bij overheidsorganisaties. Het document is een doorontwikkeling van de eerdere domeinarchitecturen voor identificatie &amp; authenticatie en machtigen &amp; vertegenwoordigen maar kent een andere structuur en opzet. Zo is er voor gekozen om de architectuur zoveel mogelijk in de modelleertaal ArchiMate uit te werken en de details ervan alleen on-line beschikbaar te stellen. Dit document is daarmee een samenvatting en verwijzing naar details die on-line te vinden zijn. De architectuur wordt on-line ook doorontwikkeld en beheerd in &lt;a href=&quot;https://github.com/minbzk/gdi-toegang&quot;>GitHub&lt;/a>, waardoor de meest actuele versie daar te vinden is. Daar zijn ook bestanden te vinden die direct kunnen worden ingelezen in het modelleertool Archi.&#xD;
 &lt;/p>&#xD;
 &lt;p>Deze domeinarchitectuur heeft een relatie met de andere domeinarchitecturen, de Architectuur Digitale Overheid en NORA. Met name de domeinarchitectuur gegevensuitwisseling is sterk gerelateerd aan deze domeinarchitectuur, omdat het uitwisselen van gegevens in veel gevallen om toegang vraagt. Er is bewust voor gekozen om geen delen uit de domeinarchitectuur gegevensuitwisseling in te kopiëren in deze architectuur, zodat er één duidelijke bron van informatie over gegevensuitwisseling is. De consequentie hiervan is dat lezers wordt gevraagd om de &lt;a href=&quot;https://github.com/minbzk/gdi-gegevensuitwisseling&quot;>domeinarchitectuur gegevensuitwisseling&lt;/a> ook te lezen om een volledig beeld van toegang te krijgen. Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor kun je de domeinarchitectuur zien als een doorvertaling en concretisering van deze overkoepelende architecturen.&lt;/p>&#xD;
-&lt;p>De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein toegang. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld.&#xD;
+&lt;p>De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein toegang. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld. De architectuur moet vooral worden gezien als een beschrijving van best-practices. Ze geven richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt.&#xD;
 &lt;/p>&#xD;
 &lt;p>&lt;b>Relatie met andere initiatieven&lt;/b>&lt;/p>&#xD;
 &lt;p>Er zijn allerlei andere intiatieven die zijn gerelateerd aan toegang. Het belangrijkste programma dat er op dit moment loopt is het programma/stelsel toegang. In het kader van dit intiatief is een doelarchitectuur toegang opgesteld die met name inzicht geeft in de impact van de eerste tranche van de Wet digitale overheid. Er is afgestemd dit programma om ervoor te zorgen dat er geen conflicten en overlap ontstaat. Deze domeinarchitectuur kijkt met name breder en verder dan de doelarchitectuur toegang.&lt;/p>&#xD;
@@ -182,7 +182,7 @@
 Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zijn georganiseerd. In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor toegang. De functies beschrijven vooral activiteiten op organisatieniveau, maar ze zijn ook te zien als functies van informatiesystemen. Organisaties zullen ervoor moeten worden dat deze bedrijfsfuncties worden uitgevoerd door mensen en/of informatiesystemen. Daarbij kunnen ze ervoor kiezen om ze door andere organisaties te laten uitvoeren zoals aanbieders of andere soorten intermediars of dienstverleners. Op landelijk niveau zijn er ook generieke voorzieningen beschikbaar die invulling geven aan een aantal van deze functies. De lijst van functies kan gebruikt worden om inzicht te geven in de huidige en gewenste inrichting van organisatie, processen en informatiesystemen. In de domeinarchitectuur zijn ze gekoppeld aan de capabilities, architectuurprincipes, bedrijfsobjecten, voorzieningen en standaarden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/id-3b66eec68cbc4ed8a552deca4e788391/images/id-e1cf58e0b07f4907bdce34ba561b9a18.png&quot;>&#xD;
+&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/functiemodel.svg&quot;>&#xD;
 &lt;/p></documentation>
         <property key="elementType" value="business-function"/>
       </element>
@@ -201,7 +201,7 @@ Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zi
 Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel. Het geeft een overzicht van de belangrijkste begrippen die leiden tot gegevens die organisaties moeten vastleggen. Het is ook bruikbaar als checklist om verantwoordelijkheden van organisaties, mensen, processen en informatiesystemen toe te wijzen. In de domeinarchitectuur zijn ze gekoppeld aan de bedrijfsfuncties en standaarden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/id-3b66eec68cbc4ed8a552deca4e788391/images/id-d43a21de1f8f4320a22ee4a1a46d660b.png&quot;>&#xD;
+&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/bedrijfsobjectenmodel.svg&quot;>&#xD;
 &lt;/p></documentation>
         <property key="elementType" value="business-object"/>
       </element>
@@ -633,7 +633,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     </folder>
     <folder name="Knelpunten" id="id-4be76917b811420f9e35998fb301a3fd">
       <element xsi:type="archimate:Assessment" name="DigiD machtigen is lastig toegankelijk voor minder digitaal vaardigen" id="id-13b5b97506004f0b82089095a6c5dae4">
-        <documentation>Mensen die minder digitaal vaardig zijn vinden het lastig om DigiD machtigen aan te vragen. Ze kunnen wel via andere kanalen een machtiging aanvragen, maar de betrouwbaarheid van die andere kanalen is lager. Daarnaast zijn er ook nog geen regels vastgesteld waar betrouwbare machtigingen aan moeten voldoen die niet via een digitaal proces zijn geregistreerd. </documentation>
+        <documentation>Mensen die minder digitaal vaardig zijn vinden het lastig om DigiD machtigen aan te vragen. Ze kunnen wel via andere kanalen een machtiging aanvragen, maar de betrouwbaarheid van die andere kanalen is lager. Daarnaast zijn er ook nog geen regels vastgesteld waar betrouwbare machtigingen aan moeten voldoen die niet via een digitaal proces zijn geregistreerd. Informatiepunten Digitale Overheid (IDO’s) bij bibliotheken zijn een voorbeeld van een alternatief kanaal. Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat IDO-medewerkers maar tot op bepaalde hoogte kunnen helpen, omdat ze beperkte mogelijkheden en bevoegdheden hebben. Ze mogen geen DigiD aanvragen voor klanten omdat in de wet is bepaald dat je alleen voor jezelf een DigiD mag aanvragen, en niet voor anderen.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Vertegenwoordigen werkt nog niet voor iedereen" id="id-26a67ab67a2345c59d5176c597443a38">
         <documentation>Professionele vertegenwoordigers van nabestaanden kunnen niet digitaal gemachtigd worden. Er zou ook een koppelvlak moeten zijn om via systemen nabestaanden te kunnen machtigen. Professionele dienstverleners zoals bewindvoerders kunnen ook nog niet als vertegenwoordiger optreden. Dat geldt ook voor ouders van minderjarige kinderen, curatoren, bewindvoerders, mentoren van volwassenen en niet-Nederlanders die buiten Nederland wonen, maar een band met de Nederlandse overheid hebben (zoals grensarbeiders). </documentation>
@@ -644,8 +644,18 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       <element xsi:type="archimate:Assessment" name="Restgroepen worden niet goed ondersteund" id="id-388da3df069946eb8fcc9f6b801b1882">
         <documentation>Er zijn allerlei groepen burgers en bedrijven die niet worden bediend met DigiD, eHerkenning en PKI-overheid omdat ze niet in de onderliggende registers geregistreerd staan en omdat de betreffende afsprakenstelsels hier geen oplossing voor bieden. Het gaat bijvoorbeeld om burgers zonder EER paspoort, ambassades en buitenlandse bedrijven die niet in het handelsregister zijn opgenomen. Overheidsorganisaties die deze restgroepen wel moeten bedienen zijn verantwoordelijk om zelf hiervoor een registratie te voeren en een authenticatiemiddel in te richten die voldoet aan de eisen in de Wdo en/of eIDAS. Er is inmiddels wel een tijdelijk register voor restgroepen in het bedrijvendomein, maar deze is alleen beschikbaar voor diensten van de Belastingdienst en alleen beschikbaar voor eHerkenning.</documentation>
       </element>
+      <element xsi:type="archimate:Assessment" name="Geen eIDAS hoog authenticatiemiddel" id="id-38976dc3957b427a9f7cb363b11e8792">
+        <documentation>We kunnen op dit moment nog geen eIDAS hoog authenticatiemiddel bieden aan burgers en organisaties (m.u.v. de zorgsector, die hiervoor de UZI-pas beschikbaar heeft) en voldoen daarmee als Nederland nog niet aan de eIDAS verordening. Hierdoor is het ook niet mogelijk om met DigiD of eHerkenning middelen digitale handtekeningen te zetten die gelijkwaardig zijn aan natte handtekeningen. Hiervoor moeten commerciële middelen worden aangeschaft.</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="IT-architectuur van DigiD en eHerkenning onvoldoende" id="id-3b7e8c741963447f8e98beb5612cbaf9">
+        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt er geen actuele, eenduidige en volledige beschrijving is van de huidige IT-architectuur. Bij DigiD constateerden ze dat er geen samenvattend uniform vastgesteld beeld is van het IT-landschap. Er zijn verschillende visuele weergaven aangeleverd door organisaties zoals BZK, Logius en Capgemini. Deze weergaven verschilden steeds weer wat van elkaar. Voor eHerkenning werd niet duidelijk hoe componenten zich tot elkaar verhouden. De beschikbare rapportages zijn niet altijd een-op-een te matchen&#xD;
+met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sinds 2018 niet meer zijn geactualiseerd. Dit brengt het volgende risico met zich mee. Het wijzigen van IT-onderdelen kan invloed hebben op aanpalende IT-onderdelen. Als niet bekend is welke dit zijn, kan dit gevolgen hebben voor de uiteindelijke IT-dienstverlening.</documentation>
+      </element>
       <element xsi:type="archimate:Assessment" name="PKI-overheidscertificaten nodig voor authenticatie van systemen" id="id-3bf258530a3844caa3d54966ec167808">
         <documentation>Voor toegang van systemen tot andere systemen moet gebruik worden gemaakt van PKI-overheidscertificaten, die moeten worden aangeschaft, geïnstalleerd en periodiek worden vernieuwd. Dit leidt tot allerlei beheerkosten en lasten bij overheidsorganisaties. PKI-overheidscertificaten zijn ook duurder dan normale certificaten.</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="Geen centraal onderzoek en meldpunt fraude" id="id-4e650de32bdf49b7b7c3ffc0727251bb">
+        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat er voor eHerkenning geen overkoepelende organisatie bestaat die fraudegevallen oppakt en dat er ook geen centraal fraudemeldpunt is. Het melden van en reageren op specifieke signalen en meldingen ligt decentraal: bij de organisaties zelf, bij de leverancier en/of dienstverlener. Hierdoor ontbreekt er een goed kwalitatief en kwantitatief beeld. Dit heeft als risico dat zaken langs elkaar heen lopen en fraude minder effectief wordt voorkomen dan wanneer dit beeld er wel zou zijn.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Toegang inrichten kost veel inspanning" id="id-5cdac91d400e44a487d0c446d834abc0">
         <documentation>Het kost veel inspanning om authenticatie en autorisatie tot diensten goed in te richten. Naast het realiseren van functionaliteit voor autorisatie moeten er vaak netwerktechnisch ook allerlei zaken ingeregeld worden zoals het configureren van firewalls. Een deel van dit soort zaken kunnen meer generiek worden opgelost. Dit wordt relevanter als de hoeveelheid API's groeit, mede als er allerlei gegevensdiensten bij komen. </documentation>
@@ -655,6 +665,9 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
       <element xsi:type="archimate:Assessment" name="Gebruikers moeten vaak opnieuw inloggen" id="id-7af2fa9c66e94ac397595f5206032775">
         <documentation>Alhoewel de technische mogelijkheden beschikbaar zijn, blijkt toch dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Zo vragen veel van de portalen binnen de Belastingdienst ook om opnieuw in te loggen. Dit is gebruiksonvriendelijk. Ook als gebruikers naar portalen van andere overheden gaan dan zouden ze eigenlijk opnieuw mogen inloggen.</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="DigiD ondersteunt geen pseudoniemen voor DigiD midden en substantieel" id="id-7bc5e268a3694784b635db97849438dd">
+        <documentation>DigiD is op dit moment niet in staat om een pseudoniem van een gebruiker op te leveren op DigiD betrouwbaarheidsniveaus midden en substantieel, waardoor het inzetgebied beperkt is op deze niveaus tot diensten waarvoor er een grondslag is voor verwerking van het BSN. Voor diensten waarvoor anoniem gebruik voldoende is kan DigiD dus ook niet worden gebruikt. Dit voldoet niet aan de eIDAS verordening.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="eHerkenning middelen kosten geld" id="id-85281b5bc24243a1a48172926e06f276">
         <documentation>Om gebruik te kunnen maken van eHerkenning moet een eHerkenning middel worden aangeschaft, wat tot jaarlijkse kosten leidt per medewerker. Dat geldt inmiddels ook voor diensten die in het verleden nog gratis waren, zoals het doen van een aangifte loonbelasting. Voor sommige bedrijven zijn de bijbehorende kosten substantieel en/of staan niet in verhouding tot het doen van een aangifte. Een ander aandachspunt is dat ook voor het kunnen machtigen in eHerkenning een authenticatiemiddel nodig is en dus kosten moeten worden gemaakt.</documentation>
@@ -670,6 +683,9 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
       <element xsi:type="archimate:Assessment" name="Machtigen nog niet breed geïmplementeerd" id="id-a7c21d4ffac342acac28cc8c5f206960">
         <documentation>Uit het rapport &quot;DigiD helpt niet mee&quot; van de nationale ombudsman blijkt dat veel overheidsorganisaties nog niet zijn aangesloten op DigiD machtigen.</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="DigiD en eHerkenning is lastig toegankelijk voor minder digitaal vaardigen" id="id-c81088e8b4eb4a3f980a8a00fca853e3">
+        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat DigiD en eHerkenning authenticatiemiddelen niet optimaal werken voor minder digitaal vaardigen. Dit komt met name doordat zij worden gedwongen om gebruik te gaan maken van smartphone apps (SMS wordt uitgefaseerd), terwijl zij veelal geen smartphone hebben of onvoldoende vaardig zijn om deze ten volle te kunnen gebruiken. </documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Certificaten niet internationaal bruikbaar" id="id-dcdf473919e14835becc91f9cd0ea123">
         <documentation>In Nederland is gekozen voor de systematiek van PKI-overheidscertificaten. Hierdoor kunnen Nederlandse certificaten niet direct internationaal gebruikt worden en andersom. </documentation>
@@ -719,7 +735,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="URL" value="https://www.rfc-editor.org/info/rfc7519"/>
       </element>
       <element xsi:type="archimate:Constraint" name="XACML" id="id-48d09a140e6140c5a0d848e8275c2590" profiles="id-c1e2ee3553d2494d859bb0c0e1d186a7">
-        <documentation>Dit is een taal voor het uitdrukken van regels voor toegangsverlening. Het definieert de gebruikte begrippen en bevat modellen en een beschrijving van architectuurcomponenten, waarop de modellen in het thema Logische Toegang van dit document zijn gebaseerd.</documentation>
+        <documentation>Dit is een op XML gebaseerde taal voor het uitdrukken van autorisatieregels.</documentation>
         <property key="Status" value="nvt"/>
         <property key="Beheerorganisatie" value="OASIS"/>
         <property key="URL" value="https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html"/>
@@ -1872,6 +1888,21 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ce34a0fc99f34a98bee08dae1f78af97" targetConnections="id-f02b2805f30c491e937764e2eab5c9bf" archimateElement="id-fc732b8a0f0244939d9ab4216b8d065c">
           <bounds x="612" y="264" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-96a916cc8a954b838092212380beb728" archimateElement="id-c81088e8b4eb4a3f980a8a00fca853e3">
+          <bounds x="851" y="578" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-bc35275648674710a5cfe12cb77eba8e" archimateElement="id-7bc5e268a3694784b635db97849438dd">
+          <bounds x="1044" y="578" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-860ddc2925fe4a8a84fe42ac421554c7" archimateElement="id-4e650de32bdf49b7b7c3ffc0727251bb">
+          <bounds x="1236" y="674" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-91920eab59ee465bbac3fdd79ecb12c1" archimateElement="id-38976dc3957b427a9f7cb363b11e8792">
+          <bounds x="1236" y="578" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-39b36cc44530446ca934692abb397753" archimateElement="id-3b7e8c741963447f8e98beb5612cbaf9">
+          <bounds x="1044" y="674" width="174" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">
