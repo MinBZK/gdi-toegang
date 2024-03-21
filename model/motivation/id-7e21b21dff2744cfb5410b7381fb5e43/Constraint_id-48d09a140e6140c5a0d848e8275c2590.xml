@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XACML"
     id="id-48d09a140e6140c5a0d848e8275c2590"
-    documentation="Dit is een taal voor het uitdrukken van regels voor toegangsverlening. Het definieert de gebruikte begrippen en bevat modellen en een beschrijving van architectuurcomponenten, waarop de modellen in het thema Logische Toegang van dit document zijn gebaseerd.">
+    documentation="Dit is een op XML gebaseerde taal voor het uitdrukken van autorisatieregels.">
   <properties
       key="Status"
       value="nvt"/>
