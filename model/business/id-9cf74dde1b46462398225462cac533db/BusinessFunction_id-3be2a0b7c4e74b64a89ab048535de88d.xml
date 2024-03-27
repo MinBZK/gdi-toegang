@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Versleutelen identifiers"
     id="id-3be2a0b7c4e74b64a89ab048535de88d"
-    documentation="Het versleutelen van de identifier en eventuele pseudoniemen van een digitale identiteit om de privacy te beschermen."/>
+    documentation="Het encrypten van de identifier en eventuele pseudoniemen van een digitale identiteit om de privacy te beschermen."/>

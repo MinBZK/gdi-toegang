@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheren dienstverleners"
     id="id-c89765631a7f4df58760c8fc9d6acea7"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over dienstverleners."/>
+    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over dienstverleners."/>
