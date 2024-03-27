@@ -663,6 +663,9 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       <element xsi:type="archimate:Assessment" name="Digikoppeling API profiel is beperkt" id="id-61f80f9e50fb4cd9a923c0d82d612b27">
         <documentation>Er is een Digikoppeling profiel voor API's, maar deze is heel beperkt ingevuld en biedt bijvoorbeeld geen standaard voor het omgaan met signing en encryptie.</documentation>
       </element>
+      <element xsi:type="archimate:Assessment" name="DigiD hoog password reset onvriendelijk" id="id-72dd00c3b29f4f758e6f07adbb43af37">
+        <documentation>Het is niet eenvoudig om je password te resetten bij DigiD hoog; in een situatie dat iemand zijn pincode niet meer kent is de enige mogelijkheid om een nieuw identiteitsbewijs aan te vragen. Dit is een omslachtige, onvriendelijke en dure oplossing.</documentation>
+      </element>
       <element xsi:type="archimate:Assessment" name="Gebruikers moeten vaak opnieuw inloggen" id="id-7af2fa9c66e94ac397595f5206032775">
         <documentation>Alhoewel de technische mogelijkheden beschikbaar zijn, blijkt toch dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Zo vragen veel van de portalen binnen de Belastingdienst ook om opnieuw in te loggen. Dit is gebruiksonvriendelijk. Ook als gebruikers naar portalen van andere overheden gaan dan zouden ze eigenlijk opnieuw mogen inloggen.</documentation>
       </element>
@@ -1845,7 +1848,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-47a040c6b41d4414aebfea643eea2fb9" source="id-0e2abd11f4ec4c709dae3e590e415ca5" target="id-054a7dcfde00471d825e71e3e9ae4e01" archimateRelationship="id-e17b64901d414d4eae4856b17be1c5ad"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f9b5edced6fb47dfbe89bc5ab7f505b6" textPosition="1" archimateElement="id-3bf258530a3844caa3d54966ec167808">
-          <bounds x="851" y="674" width="174" height="55"/>
+          <bounds x="851" y="662" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-c1b89fb84fac41388e8d40c7d244d90b" textPosition="1" archimateElement="id-388da3df069946eb8fcc9f6b801b1882">
           <bounds x="851" y="441" width="174" height="55"/>
@@ -1896,13 +1899,16 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <bounds x="1044" y="578" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-860ddc2925fe4a8a84fe42ac421554c7" archimateElement="id-4e650de32bdf49b7b7c3ffc0727251bb">
-          <bounds x="1236" y="674" width="174" height="55"/>
+          <bounds x="1236" y="662" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-91920eab59ee465bbac3fdd79ecb12c1" archimateElement="id-38976dc3957b427a9f7cb363b11e8792">
           <bounds x="1236" y="578" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-39b36cc44530446ca934692abb397753" archimateElement="id-3b7e8c741963447f8e98beb5612cbaf9">
-          <bounds x="1044" y="674" width="174" height="55"/>
+          <bounds x="1044" y="662" width="174" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a55186dd982c421799625680bd1c8769" archimateElement="id-72dd00c3b29f4f758e6f07adbb43af37">
+          <bounds x="851" y="744" width="174" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">
