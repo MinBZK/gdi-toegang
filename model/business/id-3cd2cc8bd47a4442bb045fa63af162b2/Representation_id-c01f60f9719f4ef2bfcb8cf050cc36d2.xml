@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Standaarden"
     id="id-c01f60f9719f4ef2bfcb8cf050cc36d2"
-    documentation="&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van toegang. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie. Deze zijn aangevuld met andere standaarden die breder worden gebruikt of relevant zijn. De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan bedrijfsfuncties en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p>">
+    documentation="&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van toegang. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie, waarbij alleen de domein/sectoroverstijgende standaarden zijn overgenomen. Deze zijn aangevuld met andere standaarden die breder worden gebruikt of relevant zijn. De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan bedrijfsfuncties en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p>">
   <properties
       key="elementType"
       value="constraintStandaard"/>

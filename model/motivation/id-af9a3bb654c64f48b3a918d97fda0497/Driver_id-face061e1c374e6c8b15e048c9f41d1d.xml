@@ -1,11 +1,11 @@
-<archimate:Constraint
+<archimate:Driver
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Wet digitale overheid"
-    id="id-e3c05a29b4c149c785cc57d71372db2f"
+    id="id-face061e1c374e6c8b15e048c9f41d1d"
     documentation="De Wet digitale overheid faciliteert de implementatie van de eIDAS verordening in Nederland. Het regelt dat Nederlandse burgers en bedrijven veilig en betrouwbaar kunnen inloggen bij de (semi-)overheid. Daarmee wordt bedoeld dat burgers elektronische identificatiemiddelen (eID) krijgen met een substantiële of hoge mate van betrouwbaarheid. Deze identificatiemiddelen geven publieke dienstverleners meer zekerheid over iemands identiteit. De wet stelt daarnaast open standaarden verplicht. Hiermee implementeert Nederland de Europese richtlijn over toegankelijkheid van overheidswebsites en apps. De eerste tranche (deel) van Wdo gaat over veilig inloggen op dienstverlening bij (semi-) overheidsinstanties, en toepassing van standaarden zoals informatieveiligheidsstandaarden.">
   <properties
       key="URL"
       value="https://wetten.overheid.nl/BWBR0048156/2023-07-01"/>
   <profiles
-      href="folder.xml#id-ba7940fab70e40cabbf3f12114beee42"/>
-</archimate:Constraint>
+      href="folder.xml#id-be5c32739bc24a92b1a43011ba22ba22"/>
+</archimate:Driver>

@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="6. Autorisatie voor toegang tot diensten vindt plaats op organisatieniveau"
+    name="6. Autorisatie van overheidsmedewerkers vindt plaats op organisatieniveau"
     id="id-82d6cfa0c9a747acb3737525882b4e5d"
-    documentation="De afnemer is in de basis zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze autoriseren van eigen medewerkers. De dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemer. Er bestaat brede consensus (ook in andere landen), dat dit ongewenst is.">
+    documentation="Een overheidsorganisatie die diensten afneemt is zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze machtigen van eigen medewerkers. Een dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemende overheidsorganisatie. Er bestaat brede consensus (ook in andere landen), dat dit ongewenst is.">
   <properties
       key="Implicaties"
       value="1. Autorisatie tot een service vindt plaats op basis van de identiteit van de overheidsorganisatie waarmee de juridische afspraak tot het afnemen van de dienst is gemaakt."/>
