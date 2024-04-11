@@ -212,10 +212,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     </folder>
     <folder name="Bedrijfsfuncties" id="id-9cf74dde1b46462398225462cac533db">
       <element xsi:type="archimate:BusinessFunction" name="Beheren digitale identiteiten" id="id-079caeb56ec2440cad449a57741e2837">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) ditale identiteiten.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) ditale identiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren verticale vrijwillige machtigingen" id="id-08f7f0f5db3d4e05829d9f9328ffd643">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over verticale vrijwillige vertegenwoordigingsbevoegdheden.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over verticale vrijwillige vertegenwoordigingsbevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Vertalen van/naar europese identiteit" id="id-121061d0dfc74da48a428a108e57b9d2">
         <documentation>Het vertalen van digitale identiteiten van en naar het Europese identiteiten.</documentation>
@@ -227,7 +227,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het bepalen of een digitale identiteit geautoriseerd is voor specifieke resources binnen een dienst.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren bronnen en dienstverlening" id="id-256454e9e1434b858b4214c65b1cb3ab">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) de gezaghebbende bronnen, dienstverleners, de digitale diensten die zij leveren en verklarende diensten.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) de gezaghebbende bronnen, dienstverleners, de digitale diensten die zij leveren en verklarende diensten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Koppelen attributen aan digitale identiteit" id="id-2e4e3b531fa549b79b157b367825df17">
         <documentation>Het koppelen en ontkoppelen van attributen aan een digitale identiteit die bepaalde eigenschappen van deze digitale identiteit representeren.</documentation>
@@ -239,7 +239,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het in machineleesbare vorm beschikbaar stellen van gegevens over authenticatiemiddelen om authenticatie in doelsystemen te faciliteren. Denk daarbij met name aan het delen van publieke sleutels, waarmee de authenticiteit van private sleutels kan worden vastgesteld.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Versleutelen identifiers" id="id-3be2a0b7c4e74b64a89ab048535de88d">
-        <documentation>Het versleutelen van de identifier en eventuele pseudoniemen van een digitale identiteit om de privacy te beschermen.</documentation>
+        <documentation>Het encrypten van de identifier en eventuele pseudoniemen van een digitale identiteit om de privacy te beschermen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Inzage geven in digitale identiteiten" id="id-3ea9bbfd50ab47a1a874895944b74cca">
         <documentation>Het ontsluiten van informatie over digitale identiteiten.</documentation>
@@ -251,10 +251,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het beëindigen van de geldigheid van een authenticatiemiddel.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren digitale diensten" id="id-4a798952a1ce4c129980061149b0a6c9">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over digitale diensten.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over digitale diensten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren autorisatieregels" id="id-4c5fe57ec2ab485c9cb8bdef64d7d4d9">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities digitale identiteiten toegang hebben tot welke resources.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities digitale identiteiten toegang hebben tot welke resources.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Ontsleutelen identifiers" id="id-4ea810315dc14f11b115cef01338dca5">
         <documentation>Het terugvertalen van versleutelde identifiers en pseudoniemen naar een bruikbare vorm.</documentation>
@@ -263,7 +263,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het ervoor zorgen dat gecreëerde identiteitsverklaringen niet meer gebruikt kunnen worden om toegang te krijgen tot resources.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren machtigingen voor informatieobjecten" id="id-58cc97d400da403d9c98b6fe534962c4">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over vertegenwoordigingsbevoegdheden voor een specifieke resource zoals een zaak..</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over vertegenwoordigingsbevoegdheden voor een specifieke resource zoals een zaak..</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Vastleggen gebruik van authenticatiemiddel" id="id-6297e4b66d844a9fb8c054238841b313">
         <documentation>Het vastleggen welk authenticatiemiddel is gebruikt bij een authenticatie, zodat daar op een later moment inzicht in kan worden gegeven.</documentation>
@@ -278,10 +278,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het creëren, wijzigen en verwijderen van relaties tussen digitale identiteiten en rollen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren horizontale vrijwillige machtigingen" id="id-7f4acb54b45f4d77bbec4f16ea8d52a8">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over horizontale vrijwillige vertegenwoordigingsbevoegdheden.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over horizontale vrijwillige vertegenwoordigingsbevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren bevoegdheden" id="id-83db5a52a2914474a04a7152fa9d12e0">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) bevoegdheden.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) bevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Controleren conflicterende bevoegdheden" id="id-85f7280d5d3649bfb0b8cb60dada3eca">
         <documentation>Het controleren van en rapporteren over bevoegdheden van digitale identiteiten die met elkaar kunnen conflicteren.</documentation>
@@ -323,13 +323,13 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het bepalen of de daadwerkelijk in systemen aanwezige autorisaties overeenkomen met de gewenste autorisaties en het inzichtelijk maken van de verschillen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren vertegenwoordigingsbevoegdheden" id="id-c5998016874b4a3f9a80d62f09af3f33">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) vertegenwoordigingsbevoegdheden.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) vertegenwoordigingsbevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren dienstverleners" id="id-c89765631a7f4df58760c8fc9d6acea7">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over dienstverleners.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over dienstverleners.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren resources" id="id-cd9ce254e1e445b58e7c6e44f9d7084e">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over resources (anders dan diensten).</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over resources (anders dan diensten).</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beëindigen digitale identiteit" id="id-ce38f6729a924f6da1142b2c655efffc">
         <documentation>Het beëindigen van de geldigheid van een digitale identiteit.</documentation>
@@ -344,10 +344,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het creëren, wijzigen en verwijderen van relaties tussen van digitale identiteiten of rollen naar bevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren verklarende partijen" id="id-ed79e8b5aed54001b5024d2c02233232">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over verklarende partijen zoals authenticatiediensten, machtigingsdiensten en gezaghebbende bronnen.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over verklarende partijen zoals authenticatiediensten, machtigingsdiensten en gezaghebbende bronnen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren rollen" id="id-f14d8c808bd4443f90a2e6be30054d3e">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van gegevens over rollen.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over rollen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Notificeren over vertegenwoordigingsbevoegdheden" id="id-f5ed40da3592429082e7f978de22be46">
         <documentation>Het actief attenderen van personen over hun vertegenwoordigingsbevoegdheden of wijzigingen daarin.</documentation>
@@ -356,7 +356,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het creëren en vastleggen van een persistent pseudoniem die een digitale identiteit of een authenticatiemiddel identificeert.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren authenticatiemiddelen" id="id-fe587c1bae3c453285eccb764194ced3">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en verwijderen van (gegevens over) authenticatiemiddelen.</documentation>
+        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) authenticatiemiddelen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Exporteren digitale identiteiten" id="id-ffeb84e839934d419c4ca4ee9aa6f136">
         <documentation>Het in machineleesbare vorm beschikbaar stellen van gegevens over digitale identiteiten, zodat diensten of systemen deze kunnen gebruiken als basisgegevens voor gebruikers.</documentation>
@@ -1287,6 +1287,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:ServingRelationship" id="id-597dbf21d4ad451ea3461906ae14a0bb" source="id-796d8d20bc8947d29a2838fdb0886cfe" target="id-1e240322fbec495f9895c2f7cb22f552"/>
     <element xsi:type="archimate:ServingRelationship" id="id-5b128e1d58c94b938cac943fab1bb835" source="id-a999c3ee595a4b95b7260d9689934bcc" target="id-9492a75502d04a89a9be90b4db9975fa"/>
     <element xsi:type="archimate:ServingRelationship" id="id-5b5e2a32c7a7420284c6979f3ecc74d2" source="id-8663ac9316864f948c39dec794669f48" target="id-3be2a0b7c4e74b64a89ab048535de88d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-5cea7b8a81134b068e743594e95bce2e" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6454248dd57c4411a37c314dc18ee365" source="id-904b487b4a5941c29b3d7d0d5f9b027c" target="id-ed79e8b5aed54001b5024d2c02233232"/>
     <element xsi:type="archimate:ServingRelationship" id="id-6714c30a336641629fcf6ff9f30dbc04" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-85f7280d5d3649bfb0b8cb60dada3eca"/>
     <element xsi:type="archimate:ServingRelationship" id="id-693665959ef64b67a7689ab7ade9071e" source="id-e5b736ca0a6b41ae9d7765c0648e9944" target="id-1e240322fbec495f9895c2f7cb22f552"/>
@@ -1315,6 +1316,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:ServingRelationship" id="id-b56306842b8b49c4b2134cceea5801a5" source="id-8263de75e16b4b5189e83635d262aca6" target="id-121061d0dfc74da48a428a108e57b9d2"/>
     <element xsi:type="archimate:ServingRelationship" id="id-bafa01ae3557469eb7716bd867cdd348" source="id-06be8dd9e8c645d6bb482b05c9185e03" target="id-ce38f6729a924f6da1142b2c655efffc"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c1ff9a333d8f45da829f90a1220be0b2" source="id-d5f585bd3da84ac5a671cb97c02334c6" target="id-121061d0dfc74da48a428a108e57b9d2"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-c43b9216b0ae4892b66aca80aa684669" source="id-a999c3ee595a4b95b7260d9689934bcc" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c78c961918854ae9b2453d0056406013" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-7cf7d264e6a84c85a50d8feefc8eae67"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c9c07f1d954a4f3b9ded56b296851f30" source="id-4e14f612fda64d97ad15c9e7e10fe7d3" target="id-c01e69b3335646cd8db88ad53bd28f8b"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ca6cf7ba82a642f3af6ce101a987cf8c" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-42237e2406494a148477dd63db550522"/>
@@ -3311,7 +3313,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-312f4b6bd7bb40f694b3bc3b2c80e760" source="id-0bb928afdc2348b3868cb54b4d4c76ac" target="id-94f740e56e694c84bff492a54628726f" archimateRelationship="id-1ffb483442cb43f89e1308816fa2b75d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-31ca33a73caf4d55981e2c0cf76c6312" source="id-0bb928afdc2348b3868cb54b4d4c76ac" target="id-b994be3751a948fb89dfbbcea8b03157" archimateRelationship="id-1072bfb397fe4999944e57298ed0cef1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-689d6f20b85c4d3fbbfb48bae53294ce" source="id-0bb928afdc2348b3868cb54b4d4c76ac" target="id-bfd47713e791482db587d34489d3cb08" archimateRelationship="id-e6f5fa291faa4e47b08f99538f2f395d"/>
-          <child xsi:type="archimate:DiagramObject" id="id-b994be3751a948fb89dfbbcea8b03157" targetConnections="id-31ca33a73caf4d55981e2c0cf76c6312 id-3837a16b1c4f417dbbcb459a6db20de0" fillColor="#ffffff" textPosition="1" archimateElement="id-40c81c1087394f71aa0ad0c1775a97fb">
+          <child xsi:type="archimate:DiagramObject" id="id-b994be3751a948fb89dfbbcea8b03157" targetConnections="id-31ca33a73caf4d55981e2c0cf76c6312 id-3837a16b1c4f417dbbcb459a6db20de0 id-2034a9382a444216af9006d59977058d id-174a2036f453491ebe01af3f05d93b11" fillColor="#ffffff" textPosition="1" archimateElement="id-40c81c1087394f71aa0ad0c1775a97fb">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -3463,6 +3465,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-5eaa35e3c10a486db16f9207d3277248" lineColor="#808080" source="id-2560c45f3e8d45afa5b6b784c6213cc4" target="id-867889ed17aa4454bfe20a599ac157f8" archimateRelationship="id-4cd53299c5674b29b01d259a62fff7e7"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-95ed25aa11e74b4d85cb239fa76738f4" lineColor="#808080" source="id-2560c45f3e8d45afa5b6b784c6213cc4" target="id-441a70d086d54745a05df435e0ff8536" archimateRelationship="id-5b128e1d58c94b938cac943fab1bb835"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9138b1eb092343be96c70a36ab8ea2e5" lineColor="#808080" source="id-2560c45f3e8d45afa5b6b784c6213cc4" target="id-6e868a7b172c443091c14af5d3a6252d" archimateRelationship="id-e87370a5bc5540d198670b47402f007f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2034a9382a444216af9006d59977058d" lineColor="#808080" source="id-2560c45f3e8d45afa5b6b784c6213cc4" target="id-b994be3751a948fb89dfbbcea8b03157" archimateRelationship="id-c43b9216b0ae4892b66aca80aa684669"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d750d9d579ef45cab858b21354c5371c" textPosition="1" archimateElement="id-8263de75e16b4b5189e83635d262aca6">
           <bounds x="24" y="816" width="145" height="55"/>
@@ -3512,6 +3515,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-d563d007b1c145bd962033f7a0871e1d" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-df621a91d48c40368d902152b269aa88" archimateRelationship="id-2423c1554e3f4d12932bf4fd2ab99266"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-bdabb0ad2c1144c89779f9f136194fc7" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-441a70d086d54745a05df435e0ff8536" archimateRelationship="id-26d584de4fb049e0b1be1a437a8519ed"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-696c35ba2157490d9199c9dde40fcd2e" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-6e868a7b172c443091c14af5d3a6252d" archimateRelationship="id-4730d9de8e264a02873db8539dc8a9ae"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-174a2036f453491ebe01af3f05d93b11" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-b994be3751a948fb89dfbbcea8b03157" archimateRelationship="id-5cea7b8a81134b068e743594e95bce2e"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-97cd12eb61f748158b2e5447cb5474b2" textPosition="1" archimateElement="id-92b61d714b7f4ed6a2ffed3d71bc34be">
           <bounds x="24" y="744" width="145" height="55"/>
