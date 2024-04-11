@@ -35,4 +35,8 @@
       name="Beleid"
       id="id-0ab4e3c8b2c74d2f8de745a4906455ba"
       conceptType="Driver"/>
+  <profiles
+      name="Wetgeving"
+      id="id-be5c32739bc24a92b1a43011ba22ba22"
+      conceptType="Driver"/>
 </archimate:ArchimateModel>

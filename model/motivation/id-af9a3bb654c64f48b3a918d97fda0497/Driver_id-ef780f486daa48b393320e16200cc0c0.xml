@@ -1,11 +1,11 @@
-<archimate:Constraint
+<archimate:Driver
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Network and Information Systems (NIS) directive 2"
-    id="id-a692aa89784847fdae662c851c4796fe"
+    id="id-ef780f486daa48b393320e16200cc0c0"
     documentation="De oorspronkelijke NIS- directive regelt de beveiliging van netwerk- en informatiesystemen van aanbieders van essentiële diensten (AED’s) en van digitale dienstverleners (DSP’s), onder meer door hen te laten voldoen aan een zorg- en meldplicht. Deze AED’s dienen door de lidstaten zelf te worden aangewezen. De NIS directive 2 vervangt de NIS-directive en stelt maatregelen vast om een hoog gemeenschappelijk niveau van cyberbeveiliging in de Unie te waarborgen. Dit betekent onder meer dat lidstaten nationale nationale strategieën voor cyberbeveiliging moeten vaststellen en nationale autoriteiten, centrale contactpunten en computer security incident response teams (CSIRT’s) moeten aanwijzen. Daarnaast worden eisen gesteld aan risicobeheer, rapportage en het delen van informatie op het gebied van cyberbeveiliging.">
   <properties
       key="URL"
       value="https://data.consilium.europa.eu/doc/document/ST-14337-2021-INIT/nl/pdf"/>
   <profiles
-      href="folder.xml#id-ba7940fab70e40cabbf3f12114beee42"/>
-</archimate:Constraint>
+      href="folder.xml#id-be5c32739bc24a92b1a43011ba22ba22"/>
+</archimate:Driver>

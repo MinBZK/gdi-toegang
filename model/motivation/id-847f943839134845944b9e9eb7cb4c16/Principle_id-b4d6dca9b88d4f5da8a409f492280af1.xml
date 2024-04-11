@@ -1,0 +1,12 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7. Autorisatie van burgers vindt plaats in de gehele keten"
+    id="id-b4d6dca9b88d4f5da8a409f492280af1"
+    documentation="Het is belangrijk dat toegang tot gevoelige gegevens en functionaliteit geautoriseerd wordt. Door autorisatie van burgers in alle belangrijke componenten in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Voor autorisatie van overheidsmedewerkers geldt een andere afweging, mede omdat deze toegang niet gaat over toegang tot hun eigen persoonsgegevens.">
+  <properties
+      key="Implicaties"
+      value="1. Autorisaties in alle componenten in de keten, zijn gebaseerd op de digitale identiteit van de geauthenticeerde burger."/>
+  <properties
+      key="Implicaties"
+      value="2. De identiteitsverklaring van de geauthenticeerde burger wordt doorgegeven in de keten."/>
+</archimate:Principle>
