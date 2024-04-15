@@ -1,8 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk polymorfe pseudoniemen"
-    id="id-e25448c20ae04cfc85e54847cde73e76"
-    documentation="Het BSNk-PP zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn.">
+    name="Inzageregister"
+    id="id-e174ec2135624a169d450181d3359c6f"
+    documentation="Een registratie van de status van authenticatiemiddelen en status van de machtigingsrelatie per machtingsregister.">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

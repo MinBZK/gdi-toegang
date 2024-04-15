@@ -1,0 +1,14 @@
+<archimate:Product
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Machtigen"
+    id="id-045a4575e8744777b97e18d8e5bda6d1"
+    documentation="Een voorziening voor het verstrekken van vrijwilige machtigingen die gebruikt kunnen worden als onderdeel van DigiD.">
+  <properties
+      key="Beheerorganisatie"
+      value="Logius"/>
+  <properties
+      key="URL"
+      value="https://www.digid.nl/aanvragen-en-activeren/machtigen"/>
+  <profiles
+      href="folder.xml#id-cae440e3ddfb4d20986f23c30a163ca7"/>
+</archimate:Product>

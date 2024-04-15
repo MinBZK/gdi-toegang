@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Routeren naar authenticatiedienst"
+    name="Orkestreren inlogproces"
     id="id-87efb23dd060485693d5d93dc857dbf4"
-    documentation="Het routeren van een verzoek tot authenticatie naar een partij die de authenticatie uitvoert."/>
+    documentation="Het routeren van een verzoek tot authenticatie naar de benodigde verklarende partijen."/>

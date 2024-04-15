@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="vertegenwoordigingsbevoegdheid"
+    id="id-e9ba18a510a14bc28161bb85498c446d">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-420875d965504da3935e02241a65c925.xml#id-420875d965504da3935e02241a65c925"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-53323e6bf2be41b1a4d9a4571262a74c.xml#id-53323e6bf2be41b1a4d9a4571262a74c"/>
+</archimate:FlowRelationship>
