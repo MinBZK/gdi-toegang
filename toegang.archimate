@@ -94,7 +94,7 @@
     </folder>
     <folder name="Teksten" id="id-3cd2cc8bd47a4442bb045fa63af162b2">
       <element xsi:type="archimate:Representation" name="Architectuurprincipes" id="id-1064b8991eb64f4e8adc8f35fc1396ea" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Architectuurprincipes zijn richtinggevende uitspraken die vooral uiting geven aan een streven. Ze bestaan uit een stelling die uitting geeft aan de overtuiging die eraan ten grondslag ligt, een rationale die meer informatie geeft over de drijfveren en implicaties die de consequenties beschrijven. Architectuurprincipes moeten vooral als argument worden meegenomen in het maken van keuzes, maar zijn niet per definitie doorslaggevend. Er kunnen contextueel altijd zwaarwegender argumenten zijn, waardoor het toch logischer is om van de principes af te wijken. Deze afweging moet wel expliciet worden gemaakt en vastgelegd. De architectuurprincipes zijn in de domeinarchitectuur gekoppeld aan de relevante wet- en regelgeving waar ze invulling aan geven en aan de bedrijfsfuncties die ingericht moeten zijn om ze te implementeren.&lt;/p></documentation>
+        <documentation>&lt;p>Architectuurprincipes zijn richtinggevende uitspraken die vooral uiting geven aan een streven. Ze bestaan uit een stelling die uiting geeft aan de overtuiging die eraan ten grondslag ligt, een rationale die meer informatie geeft over de drijfveren en implicaties die de consequenties beschrijven. Architectuurprincipes moeten vooral als argument worden meegenomen in het maken van keuzes, maar zijn niet per definitie doorslaggevend. Er kunnen contextueel altijd zwaarwegender argumenten zijn, waardoor het toch logischer is om van de principes af te wijken. Deze afweging moet wel expliciet worden gemaakt en vastgelegd. De architectuurprincipes zijn in de domeinarchitectuur gekoppeld aan de relevante wet- en regelgeving waar ze invulling aan geven en aan de bedrijfsfuncties die ingericht moeten zijn om ze te implementeren.&lt;/p></documentation>
         <property key="elementType" value="principle"/>
       </element>
       <element xsi:type="archimate:Representation" name="Inhoudsopgave" id="id-2a183383b93c4065a1366d3266b50780" profiles="id-b5e689fa75694829b24cf22fd76eacee">
@@ -104,21 +104,16 @@
 &lt;tr>&lt;td>1.1&lt;/td>&lt;td>Aanleiding&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.2&lt;/td>&lt;td>Dit document&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>1.3&lt;/td>&lt;td>Relatie met andere intiatieven&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2&lt;/td>&lt;td>&lt;b>Referentie-architectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2.1&lt;/td>&lt;td>Bedrijfsfuncties&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>2.2&lt;/td>&lt;td>Bedrijfsobjecten&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3&lt;/td>&lt;td>&lt;b>Huidige situatie&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3.1&lt;/td>&lt;td>Knelpunten&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>3.2&lt;/td>&lt;td>Huidige voorzieningen&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4&lt;/td>&lt;td>&lt;b>Gewenste situatie&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.1&lt;/td>&lt;td>Ontwikkelingen&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.2&lt;/td>&lt;td>Beleid&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.3&lt;/td>&lt;td>Wet- en regelgeving&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.4&lt;/td>&lt;td>Capabilities&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.5&lt;/td>&lt;td>Architectuurvisie&lt;br>&#xD;
-&lt;tr>&lt;td>4.6&lt;/td>&lt;td>Architectuurprincipes&lt;br>&#xD;
-&lt;tr>&lt;td>4.7&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
-&lt;tr>&lt;td>4.8&lt;/td>&lt;td>Standaarden&lt;br>&#xD;
+&lt;tr>&lt;td>2&lt;/td>&lt;td>&lt;b>Veranderfactoren&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.1&lt;/td>&lt;td>Beleid&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.2&lt;/td>&lt;td>Wet- en regelgeving&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.3&lt;/td>&lt;td>Ontwikkelingen&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.4&lt;/td>&lt;td>Knelpunten&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>2.5&lt;/td>&lt;td>Capabilities&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3&lt;/td>&lt;td>&lt;b>Doelarchitectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.1&lt;/td>&lt;td>Architectuurvisie&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.2&lt;/td>&lt;td>Architectuurprincipes&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>3.3&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
 </documentation>
@@ -146,20 +141,19 @@
 &lt;p>Toegang vraagt een goede balans tussen veiligheid en gebruikersvriendelijkheid. Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen. We moeten ervoor zorgen dat de dienstverlening van de overheid wel voldoende toegankelijk blijft en geen onnodige drempels opwerpt. In dat kader is ook belangrijk dat niet iedereen over de vaardigheden beschikt die nodig zijn om gebruik maken van de digitale diensten van de overheid. Er moeten ook andere manieren zijn voor mensen om toegang te krijgen tot dienstverlening, inclusief dienstverlening voor het verkrijgen van toegang zoals machtigen.&lt;/p>&#xD;
 &lt;p>Binnen de Nederlandse overheid moeten we ook zaken efficiënt inrichten. Dat betekent dat individuele overheidsorganisaties moeten worden ontzorgd als dat mogelijk is. Zo zouden ze bijvoorbeeld niet zelf koppelingen met alle authenticatiediensten en machtigingsregisters moeten hoeven maken.&lt;/p></documentation>
       </element>
-      <element xsi:type="archimate:Representation" name="Huidige situatie" id="id-7782bd71f9c64d9abfabddab89755b5c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de huidige situatie met betrekking tot toegang. Het beschrijft de knelpunten die er in algemene zin bestaan m.b.t. toegang. Daarnaast geeft het een overzicht van de belangrijkste landelijke voorzieningen op het gebied van toegang. Dat zijn met name GDI-voorzieningen, maar er worden ook een aantal voorzieningen beschreven die geen deel uitmaken van de GDI, maar wel in brede zin relevant zijn voor overheidsorganisaties.&lt;/p></documentation>
-      </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-77f44709a232443f943f54fe68f3af8d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op toegang. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
         <property key="elementType" value="driverBeleid"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Referentie-architectuur" id="id-78b449aaa3e5492da0ec6d38975e9e8c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor toegang. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein toegang. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p></documentation>
+      <element xsi:type="archimate:Representation" name="Veranderfactoren" id="id-78b449aaa3e5492da0ec6d38975e9e8c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de veranderfactoren die richting geven aan de architectuur. Het beschrijft de belangrijkste beleid en wet- en regelgeving die van toepassing zijn, de ontwikkelingen die spelen en de knelpunten die er op dit moment bestaan. &lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Veranderinitiatieven" id="id-7a3c760780f84b49aae60cc45cbeb885" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>De domeinarchitectuur beschrijft veranderinitiatieven die worden voorgesteld omdat ze voortvloeien uit zaken in de architectuur. Het zijn in eerste instantie alleen voorstellen en ze zijn ook nog niet voorzien van informatie over kosten en baten. Ze zijn vooral input voor portfoliomanagement en programmering, in het kader waarvan kosten en baten kunnen worden uitgewerkt.&lt;/p></documentation>
         <property key="elementType" value="work-package"/>
       </element>
       <element xsi:type="archimate:Representation" name="Huidige voorzieningen" id="id-9592d4808efb4be9aa2751e0019b4771" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>De Generieke Digitale Infrastructuur bestaat uit een aantal generieke voorzieningen, die breed gebruikt kunnen worden door overheidsorganisaties. Daarnaast zijn er op het gebied van toegang ook een aantal andere generieke voorzieningen die breder binnen de overheid gebruikt kunnen worden. In deze paragraaf wordt een overzicht gegeven van de belangrijkste voorzieningen die we onder de aandacht willen brengen. Deze voorzieningen zijn gerelateerd aan de bedrijfsfuncties om inzicht te geven in hun functionaliteit. Ze zijn ook voorzien van eigenschappen die beschrijven wie verantwoordelijk is voor het beheer en waar meer informatie over de voorziening kan worden gevonden.&lt;/p></documentation>
         <property key="elementType" value="application-componentHuidige voorziening"/>
       </element>
       <element xsi:type="archimate:Representation" name="Inleiding" id="id-9704fa59cc7b4b5e9daa53f1b32ec98d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
@@ -170,8 +164,7 @@
 &lt;p>Dit document beschrijft de domeinarchitectuur voor toegang, als onderdeel van de Generieke Digitale Infrastructuur. Het is opgesteld in een interbestuurlijke werkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze zijn ondersteund door bureau MIDO van het ministerie van BZK. Het beschrijft de ontwikkelingen en wet- en regelgeving en vertaalt deze naar een visie en kaders voor de inrichting van toegang tot overheidsorganisaties. Het document is vooral gericht op enterprise-, informatie- en security-architecten bij overheidsorganisaties. Het document is een doorontwikkeling van de eerdere domeinarchitecturen voor identificatie &amp; authenticatie en machtigen &amp; vertegenwoordigen maar kent een andere structuur en opzet. Zo is ervoor gekozen om de architectuur zoveel mogelijk in de modelleertaal ArchiMate uit te werken en de details ervan alleen on-line beschikbaar te stellen. Dit document is daarmee een samenvatting en verwijzing naar details die on-line te vinden zijn. De architectuur wordt on-line ook doorontwikkeld en beheerd in &lt;a href=&quot;https://github.com/minbzk/gdi-toegang&quot;>GitHub&lt;/a>, waardoor de meest actuele versie daar te vinden is. Daar zijn ook bestanden te vinden die direct kunnen worden ingelezen in het Open Source modelleertool Archi.&#xD;
 &lt;/p>&#xD;
 &lt;p>Deze domeinarchitectuur heeft een relatie met de andere domeinarchitecturen, de Architectuur Digitale Overheid en NORA. Met name de domeinarchitectuur gegevensuitwisseling is sterk gerelateerd aan deze domeinarchitectuur, omdat het uitwisselen van gegevens in veel gevallen om toegang vraagt. Er is bewust voor gekozen om geen delen uit de domeinarchitectuur gegevensuitwisseling in te kopiëren in deze architectuur, zodat er één duidelijke bron van informatie over gegevensuitwisseling is. De consequentie hiervan is dat lezers wordt gevraagd om de &lt;a href=&quot;https://github.com/minbzk/gdi-gegevensuitwisseling&quot;>domeinarchitectuur gegevensuitwisseling&lt;/a> ook te lezen om een volledig beeld van toegang te krijgen. Deze domeinarchitectuur is nadrukkelijk afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor is de domeinarchitectuur te beschouwen als een doorvertaling en concretisering van deze overkoepelende architecturen.&lt;/p>&#xD;
-&lt;p>De architectuur is ingedeeld in drie categorieën: referentie-architectuur, huidige situatie en gewenste situatie. De referentie-architectuur geeft een (relatief) tijdloze beschrijving van het domein toegang. In de beschrijving van de huidige situatie is een beschrijving van een aantal bestaande overheidsbrede voorzieningen opgenomen alsook een beschrijving van de belangrijkste knelpunten. De beschrijving van de gewenste situatie geeft aan welke ontwikkelingen, wet- en regelgeving, beleid, architectuurprincipes en standaarden van toepassing zijn en welke veranderinitiatieven worden voorgesteld. De architectuur moet vooral worden gezien als een beschrijving van best-practices. Ze geven richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt.&#xD;
-&lt;/p>&#xD;
+&lt;p>De architectuur is ingedeeld in drie onderdelen: veranderfactoren, doelarchitectuur en bijlagen. De veranderfactoren geven richting aan de architectuur. De doelarchitectuur is de inhoud van de architectuur zelf, in de vorm van een visie en architectuurprincipes. In de bijlage zijn meer algemene modellen en beschrijvingen opgenomen van de functies, objecten, voorzieningen en standaarden die van toepassing zijn op toegang. De architectuur moet vooral worden gezien als een beschrijving van best-practices. Ze geven richting aan ontwerpkeuzes die in programma's en projecten worden gemaakt. &lt;/p>&#xD;
 &lt;p>&lt;b>Relatie met andere initiatieven&lt;/b>&lt;/p>&#xD;
 &lt;p>Er zijn allerlei andere initiatieven die zijn gerelateerd aan toegang. Het belangrijkste programma dat er op het moment van schrijven van dit document loopt is het programma/stelsel toegang. In het kader van dit intiatief is een doelarchitectuur toegang opgesteld die met name inzicht geeft in de impact van de eerste tranche van de Wet digitale overheid. Er is afgestemd dit programma om ervoor te zorgen dat er geen conflicten en overlap ontstaat. Deze domeinarchitectuur kijkt met name breder en verder dan de doelarchitectuur toegang.&lt;/p>&#xD;
 &lt;p>Andere belangrijke programma's die impact hebben op toegang zijn de programma's machtigen &amp; vertegenwoordigen en het EDI programma. De eerste realiseert vooral nieuwe functionaliteit voor machtigen en vertegenwoordigen. Het programma EDI geeft aandacht aan de implementatie van de nieuwe eIDAS 2.0 verordening en het gebruik van European Digital Identity Wallets. Er is afgestemd met deze programma's om dat wat hierover duidelijk is in de architectuur een plek te geven.&lt;/p> </documentation>
@@ -186,14 +179,15 @@ Bedrijfsfuncties zijn activiteiten die organisaties uitvoeren, los van hoe ze zi
         <property key="elementType" value="business-function"/>
       </element>
       <element xsi:type="archimate:Representation" name="Capabilities" id="id-9edaa105afef4c02bab19e78598847a7" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>Capabilities beschrijven dat wat organisaties zouden moeten kunnen. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In de architectuur is de wet- en regelgeving doorvertaald naar capabilities zodat duidelijk is wat overheidsorganisaties moeten kunnen. &lt;/p></documentation>
         <property key="elementType" value="capability"/>
       </element>
       <element xsi:type="archimate:Representation" name="Standaarden" id="id-c01f60f9719f4ef2bfcb8cf050cc36d2" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>In de domeinarchitectuur is een lijst van standaarden opgenomen die relevant zijn in het kader van toegang. De basis voor deze lijst zijn de lijsten van Forum Standaardisatie, waarbij alleen de domein/sectoroverstijgende standaarden zijn overgenomen. Deze zijn aangevuld met andere standaarden die breder worden gebruikt of relevant zijn. De standaarden zijn voorzien van een aantal standaard eigenschappen zoals de beheerorganisatie en een URL naar meer informatie. Ze zijn ook gekoppeld aan bedrijfsfuncties en bedrijfsobjecten zodat hun toepassingsgebied duidelijk is. Bij de standaarden van Forum Standaardisatie zijn ook de status en het functioneel toepassingsgebied overgenomen.&lt;/p></documentation>
         <property key="elementType" value="constraintStandaard"/>
       </element>
-      <element xsi:type="archimate:Representation" name="Gewenste situatie" id="id-e572700165f84f9783f1b3d0e3162a5c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot toegang. Het beschrijft de belangrijkste ontwikkelingen, beleid en wet- en regelgeving die van toepassing is en de capabilities die daaruit voortvloeien. Het vertaalt deze vervolgens naar een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die de meer concrete overtuigingen beschrijft. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. Het hoofdstuk sluit af met een overzicht van relevante standaarden. De basis daarvoor zijn de domeinoverstijgende standaarden op de &quot;pas toe, leg uit&quot; lijst en de lijst van aanbevolen standaarden van Forum Standaardisatie. Deze standaarden zijn aangevuld met andere gangbare en anderzijds relevante standaarden.&lt;/p></documentation>
+      <element xsi:type="archimate:Representation" name="Doelarchitectuur" id="id-e572700165f84f9783f1b3d0e3162a5c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot toegang. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die deze meer concreet maken. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Bedrijfsobjecten" id="id-ec079e908ff84941a103d1e0bc024faa" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>&#xD;
@@ -366,6 +360,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     </folder>
     <folder name="Documenten" id="id-b4606bbaac7c45d8b33d1f9eeb537942">
       <element xsi:type="archimate:Representation" name="Domeinarchitectuur toegang" id="id-5290881708d14046854ed00cf901874e" profiles="id-26aa96f7f0c547e2861d4f2c24cf8ea7"/>
+      <element xsi:type="archimate:Representation" name="Bijlagen domeinarchitectuur toegang" id="id-791bb5c9919a4cc0a039519e68700363" profiles="id-26aa96f7f0c547e2861d4f2c24cf8ea7"/>
     </folder>
     <folder name="GDI-bouwstenen" id="id-f7d133cd0c0d47ab8e77e096a324e0e2">
       <element xsi:type="archimate:Product" name="Machtigen" id="id-045a4575e8744777b97e18d8e5bda6d1" profiles="id-cae440e3ddfb4d20986f23c30a163ca7">
@@ -848,7 +843,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       </element>
     </folder>
     <folder name="Architectuurprincipes" id="id-847f943839134845944b9e9eb7cb4c16">
-      <element xsi:type="archimate:Principle" name="4. De toegangsinfrastructuur ontzorgt vertrouwende partijen" id="id-05cd71c3758c4182878ba143b870582f">
+      <element xsi:type="archimate:Principle" name="4. De Nederlandse toegangsinfrastructuur ontzorgt vertrouwende partijen" id="id-05cd71c3758c4182878ba143b870582f">
         <documentation>Gebruikers kunnen in de toekomst over meerdere authenticatiemiddelen beschikken.  Er kunnen nu ook al authenticatiemiddelen uit andere lidstaten kunnen worden gebruikt. Met de nieuwe eIDAS verordening kunnen straks ook private middelen en European Digital Identity Wallets worden gebruikt. Vertrouwende partijen zullen hoe dan ook al dit soort authenticatiemiddelen moeten ondersteunen, maar het is inefficiënt en moeilijk voor partijen om dit zelf te ondersteunen. Daarnaast zijn er allerlei machtigingsregisters die van toepassing kunnen zijn en waarmee vertrouwende partijen niet allemaal losse afspraken en verbindingen mee willen maken.</documentation>
         <property key="Implicaties" value="1. Vertrouwende partijen hebben één generiek koppelvlak waarmee zij kunnen aansluiten op de toegangsinfrastructuur, naast de mogelijkheid om ook direct verbinding te leggen met specifieke voorzieningen voor partijen die daar behoefte aan hebben."/>
         <property key="Implicaties" value="2. De toegangsinfrastructuur biedt achter het generieke koppelvlak ondersteuning voor meerdere authenticatiemiddelen en ontsluiting van alle landelijke machtingsregisters."/>
@@ -859,9 +854,10 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       <element xsi:type="archimate:Principle" name="5. Beveiliging is niet afhankelijk van individuen" id="id-4532a251a8ba490298dc08824ef4799a">
         <documentation>We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten. Mensen hebben soms ook verkeerde intenties. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk borgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden.</documentation>
         <property key="Implicaties" value="1. Er worden technische beveiligingsmaatregelen geïmplementeerd die zijn geautomatiseerd en niet zomaar door individuen kunnen worden gepasseerd."/>
-        <property key="Implicaties" value="2. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
-        <property key="Implicaties" value="3. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de verantwoordelijkheden (least priviledge)."/>
-        <property key="Implicaties" value="4. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
+        <property key="Implicaties" value="2. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar."/>
+        <property key="Implicaties" value="3. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
+        <property key="Implicaties" value="4. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de taken van de gebruiker (least priviledge)."/>
+        <property key="Implicaties" value="5. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
       </element>
       <element xsi:type="archimate:Principle" name="2. Er wordt tussen partijen alleen strikt noodzakelijke gegevens over personen uitgewisseld" id="id-77965a4ab86c43fb809656f759830dc1">
         <documentation>Dataminimalisatie is een uitgangspunt in de AVG en betekent dat de persoonsgegevens die worden gebruikt zijn beperkt tot het hoogst noodzakelijke. Dit heeft in de context van toegang vooral betrekking op de verklaringen die worden gevraagd aan verklarende partijen over de digitale identiteiten en de eigenschappen die in deze verklaringen zitten. Informatie is ook niet altijd voor alle handelingen binnen een dienst relevant. Het zou daarom niet passend zijn om specifieke verklaringen en informatie op te halen als niet zeker is dat deze ook daadwerkelijk nodig is. Voor veel diensten is het helemaal niet relevant wie de precieze persoon is, welke BSN daarbij hoort en of deze persoon uit Nederland komt of niet. Veel belangrijker is het om te weten of de gebruiker over de juiste bevoegdheden beschikt. Opsporingsdiensten hebben wel duidelijk andere informatiebehoeften en bevoegdheden. Daarnaast moet wel rekening worden gehouden met zogenaamde comfortinformatie. Dat is informatie die strikt genomen niet nodig is, maar wel belangrijk om betekenisvol informatie te presenteren naar gebruikers zoals namen van mensen en organisaties.</documentation>
@@ -874,29 +870,29 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
         <property key="Implicaties" value="7. Specifieke verklaringen die relevant zijn voor toegang (inclusief de verklaring over de precieze identiteit van iemand) worden pas opgehaald op het moment dat een gebruiker aangeeft handelingen uit te willen voeren waardoor dit nodig is."/>
         <property key="Implicaties" value="8. Opsporingsdiensten hebben de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
       </element>
-      <element xsi:type="archimate:Principle" name="6. Autorisatie van overheidsmedewerkers vindt plaats op organisatieniveau" id="id-82d6cfa0c9a747acb3737525882b4e5d">
+      <element xsi:type="archimate:Principle" name="6. Bij toegang voor overheidsmedewerkers wordt op organisatieniveau geautoriseerd" id="id-82d6cfa0c9a747acb3737525882b4e5d">
         <documentation>Een overheidsorganisatie die diensten afneemt is zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze machtigen van eigen medewerkers. Een dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemende overheidsorganisatie. Er bestaat brede consensus (ook in andere landen), dat dit ongewenst is.</documentation>
-        <property key="Implicaties" value="1. Autorisatie tot een service vindt plaats op basis van de identiteit van de overheidsorganisatie waarmee de juridische afspraak tot het afnemen van de dienst is gemaakt."/>
-        <property key="Implicaties" value="2. Autorisatie en authenticatie gebeurt bij de dienstverlener niet op een verder gedetailleerd niveau, zoals medewerker, afdeling, applicatie of wettelijke taak."/>
-        <property key="Implicaties" value="3. Afnemende organisaties definiëren zelf autorisaties van individuele medewerkers, en moeten daar controleerbaar verantwoording over afleggen."/>
-        <property key="Implicaties" value="4. Afnemerorganisatie zorgen dat verzoeken alleen worden gedaan door daartoe bevoegde medewerkers en applicaties/systemen. "/>
+        <property key="Implicaties" value="1. Afnemende organisaties definiëren zelf autorisaties van individuele medewerkers, en moeten daar controleerbaar verantwoording over afleggen."/>
+        <property key="Implicaties" value="2. Afnemende organisaties zorgen dat verzoeken alleen worden gedaan door daartoe bevoegde medewerkers en applicaties/systemen. "/>
+        <property key="Implicaties" value="3. Autorisatie door een dienstverlener vindt plaats op basis van de identiteit van de overheidsorganisatie waarmee de juridische afspraak tot het afnemen van de dienst is gemaakt."/>
+        <property key="Implicaties" value="4. Autorisatie door een dienstverlener vindt niet plaats op een verder gedetailleerd niveau dan organisatie, zoals medewerker, afdeling, applicatie of wettelijke taak."/>
         <property key="Implicaties" value="5. Een dienstverlener kan alleen maar inzage kan geven in de organisaties aan wie gegevens zijn verstrekt."/>
-        <property key="Implicaties" value="6. De naam van de medewerker bij de afnemersorganisatie kan wel als inhoudelijk gegeven worden meegegeven bij het aanroepen van een dienst."/>
+        <property key="Implicaties" value="6. De naam van de medewerker bij de afnemersorganisatie kan wel als inhoudelijk gegeven worden meegegeven bij het aanroepen van een dienst, bijvoorbeeld om te kunnen tonen op een scherm."/>
         <property key="Implicaties" value="7. Als gebruik wordt gemaakt van een intermediair die gegevens inhoudelijk bewerkt dan wordt toegang tot de intermediair verleend op het niveau van de afnemersorganisatie en toegang tot de uiteindelijke dienst op het niveau van de intermediair."/>
       </element>
-      <element xsi:type="archimate:Principle" name="7. Autorisatie van burgers vindt plaats in de gehele keten" id="id-b4d6dca9b88d4f5da8a409f492280af1">
-        <documentation>Het is belangrijk dat toegang tot gevoelige gegevens en functionaliteit geautoriseerd wordt. Door autorisatie van burgers in alle belangrijke componenten in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Voor autorisatie van overheidsmedewerkers geldt een andere afweging, mede omdat deze toegang niet gaat over toegang tot hun eigen persoonsgegevens.</documentation>
-        <property key="Implicaties" value="1. Autorisaties in alle componenten in de keten, zijn gebaseerd op de digitale identiteit van de geauthenticeerde burger."/>
+      <element xsi:type="archimate:Principle" name="7. Alle systemen in de keten autoriseren op basis van de identiteit van de burger die de interactie start" id="id-b4d6dca9b88d4f5da8a409f492280af1">
+        <documentation>Door autorisatie van burgers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Voor autorisatie van overheidsmedewerkers geldt een andere afweging, mede omdat deze toegang niet gaat over toegang tot hun eigen persoonsgegevens.</documentation>
+        <property key="Implicaties" value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de geauthenticeerde burger."/>
         <property key="Implicaties" value="2. De identiteitsverklaring van de geauthenticeerde burger wordt doorgegeven in de keten."/>
       </element>
       <element xsi:type="archimate:Principle" name="1. Vertrouwen wordt gebouwd op verifieerbare verklaringen van vertrouwde partijen" id="id-b4dce57205fe4d48b888481350c6fae1">
         <documentation>Toegang wordt alleen verleend door vertrouwende partijen als zij voldoende vertrouwen hebben. Zij krijgen dit vertrouwen door van verklarende partijen die zij kennen en vertrouwen verifieerbare verklaringen te ontvangen over de digitale identiteit, eigenschappen en bevoegdheden van deze digitale identiteit. Gekwalificeerde verklaringen voldoen ook aan de eisen die de Europese Commissie stelt en hebben daarbij de voorkeur. Deze verklaringen geven echter alleen vertrouwen als de partijen die deze verklaringen uitgeven ook vertrouwd kunnen worden. Vertrouwen in partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.</documentation>
         <property key="Implicaties" value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen."/>
-        <property key="Implicaties" value="2. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende betrouwbare verklarende partijen zijn die kunnen verklaren over digitale identiteiten, hun eigenschappen en bevoegdheden."/>
-        <property key="Implicaties" value="3. De gebruiker kent de vertrouwende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
+        <property key="Implicaties" value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
+        <property key="Implicaties" value="3. De gebruiker kent de vertrouwende partij en heeft daar vertrouwen in doordat daar bewijs voor is."/>
         <property key="Implicaties" value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
-        <property key="Implicaties" value="5. De vertrouwende partij kent de gebruiker en vertouwt deze doordat daar bewijs voor is geleverd."/>
-        <property key="Implicaties" value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de vertrouwende partij bewijs dat deze verklaring hoort bij de wallet en niet gekopieerd is."/>
+        <property key="Implicaties" value="5. De vertrouwende partij kent de gebruiker en vertrouwt deze doordat daar bewijs voor is geleverd."/>
+        <property key="Implicaties" value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de vertrouwende partij bewijs dat deze verklaring niet is aangepast of meermalig is verstuurd."/>
         <property key="Implicaties" value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de actualiteit en of deze gekwalificeerd is."/>
         <property key="Implicaties" value="8. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
       </element>
@@ -1006,8 +1002,8 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-12ec446a188b40a2a099016b2e3c9ed8" source="id-6ed7f3d944764c60a45fe6780a041a42" target="id-680a6d400c1c400d8126bb99497132ba"/>
     <element xsi:type="archimate:AssociationRelationship" name="geeft toegang tot" id="id-139400e4f6bb42c69517ad4d1aeb6de9" source="id-7a15da44f51b45d0b7b2d1449ea8def3" target="id-276320a6bad14e10a39ac2bcfcd13178"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-1515eef419ce4bcb8155eb0499b917f7" source="id-7a15da44f51b45d0b7b2d1449ea8def3" target="id-48d09a140e6140c5a0d848e8275c2590"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.2" id="id-16a9628157624307bba3bf5a4e04de4d" source="id-5290881708d14046854ed00cf901874e" target="id-77f44709a232443f943f54fe68f3af8d">
-      <property key="volgnummer" value="11"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.1" id="id-16a9628157624307bba3bf5a4e04de4d" source="id-5290881708d14046854ed00cf901874e" target="id-77f44709a232443f943f54fe68f3af8d">
+      <property key="volgnummer" value="4"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1022,10 +1018,10 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-26c7b3e689fd4833a661cca53b54a693" source="id-045a4575e8744777b97e18d8e5bda6d1" target="id-67a39e2cf1274f5c9340308f07a77152"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.6" id="id-2a6885740f0e4c1d9a8c1bd6ea05d738" source="id-5290881708d14046854ed00cf901874e" target="id-1064b8991eb64f4e8adc8f35fc1396ea">
-      <property key="volgnummer" value="15"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.2" id="id-2a6885740f0e4c1d9a8c1bd6ea05d738" source="id-5290881708d14046854ed00cf901874e" target="id-1064b8991eb64f4e8adc8f35fc1396ea">
+      <property key="volgnummer" value="11"/>
       <property key="niveau" value="2"/>
-      <property key="type" value="details"/>
+      <property key="type" value="properties"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-32656e634fd34689a234f105cf9aad60" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-775ef59e4c5d4a9aa558a4f133714c46"/>
     <element xsi:type="archimate:AssociationRelationship" name="is gekoppeld aan" id="id-34eb7f0fc6be464e80ca03b3f6348988" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-4145089decc343f1b8a35540703eb738"/>
@@ -1056,25 +1052,21 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-7612b4dcf70e4cbe9a39601b5d48f6de" source="id-a7c21d4ffac342acac28cc8c5f206960" target="id-afa728397d8b4e729ef7600df5949a9a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-772236d8434d4f8f8e4439177603af27" source="id-4d32e4b7ef9c4a85acfa2c562ad218d2" target="id-680a6d400c1c400d8126bb99497132ba"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-77691acb1c03490ba39fbeb7eaae9576" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-680a6d400c1c400d8126bb99497132ba"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.7" id="id-7811a9b72ef543ae96853109042fcbb4" source="id-5290881708d14046854ed00cf901874e" target="id-7a3c760780f84b49aae60cc45cbeb885">
-      <property key="volgnummer" value="16"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.3" id="id-7811a9b72ef543ae96853109042fcbb4" source="id-5290881708d14046854ed00cf901874e" target="id-7a3c760780f84b49aae60cc45cbeb885">
+      <property key="volgnummer" value="12"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-7987e55a0666416e9d948301dea7832b" source="id-4154a89dfdf84ffe958de98a06935941" target="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67"/>
-    <element xsi:type="archimate:AssociationRelationship" name="2.1" id="id-7fd58b0daf6b409aa81b822a2a194b4d" source="id-5290881708d14046854ed00cf901874e" target="id-99cbfb6171e24415a2d555ae897ba9d6">
-      <property key="volgnummer" value="4"/>
-      <property key="niveau" value="2"/>
-      <property key="type" value="overzicht"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" name="4.4" id="id-826442cc455f46039ec760b208747788" source="id-5290881708d14046854ed00cf901874e" target="id-9edaa105afef4c02bab19e78598847a7">
-      <property key="volgnummer" value="13"/>
-      <property key="niveau" value="2"/>
-      <property key="type" value="overzicht"/>
-    </element>
-    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-829ab003f4fe48619532582facafafd4" source="id-5290881708d14046854ed00cf901874e" target="id-7782bd71f9c64d9abfabddab89755b5c">
-      <property key="volgnummer" value="6"/>
+    <element xsi:type="archimate:AssociationRelationship" name="1" id="id-7fd58b0daf6b409aa81b822a2a194b4d" source="id-791bb5c9919a4cc0a039519e68700363" target="id-99cbfb6171e24415a2d555ae897ba9d6">
+      <property key="volgnummer" value="1"/>
       <property key="niveau" value="1"/>
+      <property key="type" value="overzicht"/>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" name="2.5" id="id-826442cc455f46039ec760b208747788" source="id-5290881708d14046854ed00cf901874e" target="id-9edaa105afef4c02bab19e78598847a7">
+      <property key="volgnummer" value="8"/>
+      <property key="niveau" value="2"/>
+      <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="wordt gerefereerd in" id="id-8990f91df1c940f99f1271f3e2cd6635" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-f51d4497b87b4751842effe518b903d5"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-89b7889dbd27459eac5e224e66f75218" source="id-71518055a4194c55844b0ed040dacbe2" target="id-3c7bfb3e7cc040a789d4021a3cba1548"/>
@@ -1092,9 +1084,9 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-9e0e814a4fc5469b92a70ca994b267e5" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-48d09a140e6140c5a0d848e8275c2590"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a267b536d24e4164a567d2b57dfb3929" source="id-7e86f18658114d58a7bac9a3d0400b55" target="id-8263de75e16b4b5189e83635d262aca6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a2a535c2d11a45879a207c059997e937" source="id-4154a89dfdf84ffe958de98a06935941" target="id-796d8d20bc8947d29a2838fdb0886cfe"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3.2" id="id-a3e2c5d67feb4d7a8d61c86731ca4ae3" source="id-5290881708d14046854ed00cf901874e" target="id-9592d4808efb4be9aa2751e0019b4771">
-      <property key="volgnummer" value="8"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-a3e2c5d67feb4d7a8d61c86731ca4ae3" source="id-791bb5c9919a4cc0a039519e68700363" target="id-9592d4808efb4be9aa2751e0019b4771">
+      <property key="volgnummer" value="3"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="wordt vertegenwoordigd in" id="id-a460ce6a84ab4b6dbc5a857e13f4ce26" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-19881848ccce47c9974cf7bc005393e8"/>
@@ -1105,8 +1097,8 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="heeft" id="id-a6632874d3c948c38f30b90ab319aa6c" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-4d32e4b7ef9c4a85acfa2c562ad218d2"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.5" id="id-a98d73890aa84bef837175216e37e4d3" source="id-5290881708d14046854ed00cf901874e" target="id-57896b8c4e854e7b92ed667986aa09ee">
-      <property key="volgnummer" value="14"/>
+    <element xsi:type="archimate:AssociationRelationship" name="3.1" id="id-a98d73890aa84bef837175216e37e4d3" source="id-5290881708d14046854ed00cf901874e" target="id-57896b8c4e854e7b92ed667986aa09ee">
+      <property key="volgnummer" value="10"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-ad900ba2abd64e3c9ba2e964ef817ccc" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-8f607c3b2daa4f6fafff09a1c39691bc"/>
@@ -1115,13 +1107,13 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-b0901035e976434e9c9134b698fa7fff" source="id-4145089decc343f1b8a35540703eb738" target="id-205a788ad148484dbbf562d894a8ef1a"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b2dc0be45cd347e6aa1d3ba139c952e8" source="id-26a67ab67a2345c59d5176c597443a38" target="id-dff8144cfd17470facd69310dc510c53"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b3c07440915248a89dbabedbcf4c1345" source="id-dcdf473919e14835becc91f9cd0ea123" target="id-82087c95385c4244a8993e31eb05b8a8"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.3" id="id-b56a7ed7b680404f8e0d93559c1e0808" source="id-5290881708d14046854ed00cf901874e" target="id-3901960cf6bc43669f04f6aa4baaf73e">
-      <property key="volgnummer" value="12"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.2" id="id-b56a7ed7b680404f8e0d93559c1e0808" source="id-5290881708d14046854ed00cf901874e" target="id-3901960cf6bc43669f04f6aa4baaf73e">
+      <property key="volgnummer" value="5"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-b9c4e6f90292419bae12389b6703514b" source="id-d766d65c0ea14ecc9e01f99938d0b61b" target="id-17927bda4f344c499bfe987a64ee99b4"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3.1" id="id-ba50784c918f4947b55b46ea12ccfbf6" source="id-5290881708d14046854ed00cf901874e" target="id-ec62f6503d6e4ebbbc1e8f7da58048ac">
+    <element xsi:type="archimate:AssociationRelationship" name="2.4" id="id-ba50784c918f4947b55b46ea12ccfbf6" source="id-5290881708d14046854ed00cf901874e" target="id-ec62f6503d6e4ebbbc1e8f7da58048ac">
       <property key="volgnummer" value="7"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
@@ -1132,9 +1124,9 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-bf4e9b50736d4747a081e61a5fad330b" source="id-3154a0a622914f4f9b5afc86fee4346e" target="id-9e529c1639ee4c7e915ab3a586f9e415"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c1935c1c38934058a53a75766a4b0947" source="id-d47b52c30ccc4794a9de3b781eb20811" target="id-205a788ad148484dbbf562d894a8ef1a"/>
     <element xsi:type="archimate:AssociationRelationship" name="is specifiek soort" id="id-c1d376140f8f4c0e848a501929674b39" source="id-4d32e4b7ef9c4a85acfa2c562ad218d2" target="id-7417b19f5c21447d8bf281baf4315b20"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.8" id="id-c4f11611cc614ba5b9dc5d93c320ea20" source="id-5290881708d14046854ed00cf901874e" target="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
-      <property key="volgnummer" value="17"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="4" id="id-c4f11611cc614ba5b9dc5d93c320ea20" source="id-791bb5c9919a4cc0a039519e68700363" target="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
+      <property key="volgnummer" value="4"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="wordt gebruikt om te verstrekken" id="id-c9123646379e4eb0b0326b0dc1667ab1" source="id-4145089decc343f1b8a35540703eb738" target="id-f51d4497b87b4751842effe518b903d5"/>
@@ -1143,8 +1135,8 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-cded5d8d63d340158a904506746d28c2" source="id-4145089decc343f1b8a35540703eb738" target="id-51005498b71e4a7a81f126ec14e3ebb7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d51ee8ebbe764f998ab108cae747ac45" source="id-fe587c1bae3c453285eccb764194ced3" target="id-4eefdb44a0ee4526a6fbbca6143c69c1"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-d6a1d6925dff43f6bdfb0a949b7d2876" source="id-388da3df069946eb8fcc9f6b801b1882" target="id-f7bfe9749f2d4f56a5877841cac332d6"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4.1" id="id-d70a0c4fe08d42aeb0e7091bee0d96bd" source="id-5290881708d14046854ed00cf901874e" target="id-52b5d4fc77444fafaf55f7ea2df98e32">
-      <property key="volgnummer" value="10"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2.3" id="id-d70a0c4fe08d42aeb0e7091bee0d96bd" source="id-5290881708d14046854ed00cf901874e" target="id-52b5d4fc77444fafaf55f7ea2df98e32">
+      <property key="volgnummer" value="6"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1161,17 +1153,16 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:AssociationRelationship" id="id-f23d0129de464476b35db1e66560d73b" source="id-71518055a4194c55844b0ed040dacbe2" target="id-48d09a140e6140c5a0d848e8275c2590"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-f7a9e353eb4041d0b3a5751cb30f6d14" source="id-5cdac91d400e44a487d0c446d834abc0" target="id-d0f151a4be2047ecbc2019f47e419fc5"/>
     <element xsi:type="archimate:AssociationRelationship" name="bewijst" id="id-f920610ad6df4de5b46ef0782f6b9a1c" source="id-6ed7f3d944764c60a45fe6780a041a42" target="id-1cb3ac18cb83432ebe33dacfbd3d2832"/>
-    <element xsi:type="archimate:AssociationRelationship" name="2.2" id="id-f93e114a5fb24da288f3673c2947dce7" source="id-5290881708d14046854ed00cf901874e" target="id-ec079e908ff84941a103d1e0bc024faa">
-      <property key="volgnummer" value="5"/>
-      <property key="niveau" value="2"/>
+    <element xsi:type="archimate:AssociationRelationship" name="2" id="id-f93e114a5fb24da288f3673c2947dce7" source="id-791bb5c9919a4cc0a039519e68700363" target="id-ec079e908ff84941a103d1e0bc024faa">
+      <property key="volgnummer" value="2"/>
+      <property key="niveau" value="1"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-fda11692bc624d9cafba4a5c3a1531ab" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-a7f43379e5574a35aafc28219ec22422"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fdb4e93214924522ad9c7005c72a5be3" source="id-71518055a4194c55844b0ed040dacbe2" target="id-379259c7ae384725a8f3f47867cb88a7"/>
-    <element xsi:type="archimate:AssociationRelationship" name="4" id="id-fdbe6c04860b49f59fb7d1e7651922cd" source="id-5290881708d14046854ed00cf901874e" target="id-e572700165f84f9783f1b3d0e3162a5c">
+    <element xsi:type="archimate:AssociationRelationship" name="3" id="id-fdbe6c04860b49f59fb7d1e7651922cd" source="id-5290881708d14046854ed00cf901874e" target="id-e572700165f84f9783f1b3d0e3162a5c">
       <property key="volgnummer" value="9"/>
       <property key="niveau" value="1"/>
-      <property/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-0134e2f6376b401bb1ca1c16eb400d69" source="id-079caeb56ec2440cad449a57741e2837" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-0edd1cdc812c40709aeeb03cbed8931f" source="id-71518055a4194c55844b0ed040dacbe2" target="id-6542c5c440084cb8a856e2c30ecad892"/>
@@ -1774,7 +1765,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-bb2892fdd771439b87d53234148697a4" lineColor="#808080" source="id-0635612404ed4d5dbf69821cfc2bb933" target="id-d8149f0e341744569c0315a5f796713b" archimateRelationship="id-ea97f9955cd04869a298b9960d412358"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-73172669732b4feb87c1cbc10692c6fd" lineColor="#808080" source="id-0635612404ed4d5dbf69821cfc2bb933" target="id-ebf9e9577b6849c588fdc3335c572844" archimateRelationship="id-cfb224230ef743949ec547dfbad3cc7c"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-fa7e61ee51ef4aa3bad58b6ac669b496" archimateElement="id-070db4444e01499680cd7ce1a1669ccf">
+        <child xsi:type="archimate:DiagramObject" id="id-fa7e61ee51ef4aa3bad58b6ac669b496" textPosition="1" archimateElement="id-070db4444e01499680cd7ce1a1669ccf">
           <bounds x="1264" y="750" width="156" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9c049efd4c684314ae0f4c078bb427e3" lineColor="#808080" source="id-fa7e61ee51ef4aa3bad58b6ac669b496" target="id-5cb0bb598ad14f74a1a26f2f85a471e4" archimateRelationship="id-3edb4c8f8d894dcfae58655b151bab09"/>
         </child>
@@ -2908,6 +2899,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-fd53b64bcf6c4e27bca13a74d33b82eb" source="id-89199e96cdc44afbb01c9293fad96685" target="id-d7968dd1ff784948a8321e9b146c13cc" archimateRelationship="id-3d964f6d01104f3f86d739988eb935b3"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b15cd7e6330b466cb62bbeb22af6e1ab" source="id-89199e96cdc44afbb01c9293fad96685" target="id-2da3795ae27f4e5ca1e3baf3661aa182" archimateRelationship="id-1810646076a14d8283560c90f74987d5"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-03a700bd07694dc49dd8677e27cffadb" source="id-89199e96cdc44afbb01c9293fad96685" target="id-ec17a7ed8fed43c3b9f9745546ba303b" archimateRelationship="id-93e24acc372d4443891d6d4b8ae57621"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-93a2c2db0d1143f8ab6e67ad2f67b3df" source="id-89199e96cdc44afbb01c9293fad96685" target="id-134275b38c43463d9fdaf602e152303c" archimateRelationship="id-4acaa53f4ad547deb60aca014c831b09"/>
           <child xsi:type="archimate:DiagramObject" id="id-d0318d7b3d6f4c18a9a2aa15227f0d1b" targetConnections="id-e01ed1bfc17f4658bfb13116be7d6761" fillColor="#ffffff" textPosition="1" archimateElement="id-920f614c629f45e196645b1744dc91b6">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -2934,6 +2926,10 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ec17a7ed8fed43c3b9f9745546ba303b" targetConnections="id-03a700bd07694dc49dd8677e27cffadb" fillColor="#ffffff" textPosition="1" archimateElement="id-6297e4b66d844a9fb8c054238841b313">
             <bounds x="12" y="216" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-134275b38c43463d9fdaf602e152303c" targetConnections="id-93a2c2db0d1143f8ab6e67ad2f67b3df" fillColor="#ffffff" textPosition="1" archimateElement="id-8216e6a7ee624f5d9772f879da9fc81c">
+            <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3071,17 +3067,18 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-821138349df94c5987222c3f816cb825" source="id-98aef1228aaf4a6ea8f0abc3237c0494" target="id-079988a854964ca5ab972392b81ec140" archimateRelationship="id-f36e19e6c94c425db9601d7cd241ef34"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d1e3194e8d7246d1b905c32ac7febbb3" source="id-98aef1228aaf4a6ea8f0abc3237c0494" target="id-659e95e0681a4522b539c2f6eb092644" archimateRelationship="id-1bc0d0a479c44b5790f4aa1fc0a62ab4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ef17371432f24bc1a1f74a7c5ff1b03f" source="id-98aef1228aaf4a6ea8f0abc3237c0494" target="id-5d7b7de674c54fe7b9ef484907bbe43f" archimateRelationship="id-e658694b3bd84ae1b83c7e3c89c710b0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8a21f4c0992f4aca87cbc8358211ff51" source="id-98aef1228aaf4a6ea8f0abc3237c0494" target="id-e2ea7504a47c45d8819cb8e5e47a4d8f" archimateRelationship="id-f57f33ca99ad49dcbaef48afe77e929f"/>
           <child xsi:type="archimate:DiagramObject" id="id-09e62624689940a1b5052232cb95da12" targetConnections="id-eb80212d15c148deb5b1b9ed88aa27c2" fillColor="#ffffff" textPosition="1" archimateElement="id-08f7f0f5db3d4e05829d9f9328ffd643">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-5d7b7de674c54fe7b9ef484907bbe43f" targetConnections="id-ef17371432f24bc1a1f74a7c5ff1b03f" fillColor="#ffffff" textPosition="1" archimateElement="id-1e240322fbec495f9895c2f7cb22f552">
-            <bounds x="12" y="216" width="157" height="55"/>
+            <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Inzage geven in vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-659e95e0681a4522b539c2f6eb092644" targetConnections="id-d1e3194e8d7246d1b905c32ac7febbb3" fillColor="#ffffff" textPosition="1" archimateElement="id-f5ed40da3592429082e7f978de22be46">
-            <bounds x="12" y="276" width="157" height="55"/>
+            <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Notificeren over vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
@@ -3091,6 +3088,10 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-079988a854964ca5ab972392b81ec140" targetConnections="id-821138349df94c5987222c3f816cb825" fillColor="#ffffff" textPosition="1" archimateElement="id-58cc97d400da403d9c98b6fe534962c4">
             <bounds x="12" y="156" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e2ea7504a47c45d8819cb8e5e47a4d8f" targetConnections="id-8a21f4c0992f4aca87cbc8358211ff51" fillColor="#ffffff" textPosition="1" archimateElement="id-aacf5c4d48204c23922b68521c7999b2">
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3334,6 +3335,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
           <sourceConnection xsi:type="archimate:Connection" id="id-57743f2be21549799411bcd12e90b4e5" source="id-5145be578e9a4b4c8027e348ea35a199" target="id-9e8ce62374c6491faa07fea7ce121a9e" archimateRelationship="id-3d964f6d01104f3f86d739988eb935b3"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a284a3a8028b487d9057ee0203cb34d0" source="id-5145be578e9a4b4c8027e348ea35a199" target="id-2a1152ea59c8450eade4b86527612d41" archimateRelationship="id-1810646076a14d8283560c90f74987d5"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-be75361547bc4ca99db0f26a87e078bb" source="id-5145be578e9a4b4c8027e348ea35a199" target="id-2f9781e2418149d7976f4e1e308ff8cd" archimateRelationship="id-93e24acc372d4443891d6d4b8ae57621"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-84ba1574336c40238ef4418ca1c8ff11" source="id-5145be578e9a4b4c8027e348ea35a199" target="id-41eccb4f62d4408d8d271ba768feab1f" archimateRelationship="id-4acaa53f4ad547deb60aca014c831b09"/>
           <child xsi:type="archimate:DiagramObject" id="id-e3eba199051146369c800d498b416885" targetConnections="id-258e2a24c14f43cda3484129803a5fa5 id-4a2728aa79a2412c8a9868cc30fcaa7c id-91dfa6cef90b480d9a2de8a53a6a3f1b" fillColor="#ffffff" textPosition="1" archimateElement="id-920f614c629f45e196645b1744dc91b6">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
@@ -3359,11 +3361,11 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2f9781e2418149d7976f4e1e308ff8cd" targetConnections="id-be75361547bc4ca99db0f26a87e078bb id-55e3c161a67541eb9e98b151994ba507 id-f02ea6f9943746f6a1fa56481d54d4cd" fillColor="#ffffff" textPosition="1" archimateElement="id-6297e4b66d844a9fb8c054238841b313">
-            <bounds x="12" y="156" width="157" height="55"/>
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-41eccb4f62d4408d8d271ba768feab1f" targetConnections="id-5f0b48c0379b4596ac83057b157d462f id-7299422c4da2417195a61afa2e3ca68f" fillColor="#ffffff" textPosition="1" archimateElement="id-8216e6a7ee624f5d9772f879da9fc81c">
-            <bounds x="12" y="216" width="157" height="55"/>
+          <child xsi:type="archimate:DiagramObject" id="id-41eccb4f62d4408d8d271ba768feab1f" targetConnections="id-5f0b48c0379b4596ac83057b157d462f id-7299422c4da2417195a61afa2e3ca68f id-84ba1574336c40238ef4418ca1c8ff11" fillColor="#ffffff" textPosition="1" archimateElement="id-8216e6a7ee624f5d9772f879da9fc81c">
+            <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3794,16 +3796,12 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Documentstructuur" id="id-a19f7ecd3614470aab77710880939cd5">
       <child xsi:type="archimate:DiagramObject" id="id-182b24f9c5e743569dae998d3fa8028c" fillColor="#ffffff" textPosition="1" archimateElement="id-5290881708d14046854ed00cf901874e">
-        <bounds x="24" y="12" width="145" height="409"/>
+        <bounds x="24" y="12" width="145" height="289"/>
         <feature name="iconVisible" value="2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-287a49adbd0248fd813a2d04b02df3ea" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-461069e8d7ad48bf811bec8ef78856b1" archimateRelationship="id-a5bd2babf0974abd91dcd702c3dc3a97"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5f5b7e20f2d942eebf4a1a67930e92a5" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-ad956a1fc3634a4aa5b966e6f5ed6e2a" archimateRelationship="id-8b27d5bc2735484e8a201cfebc0312a5"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-026b1d3beadd45189b8877fbf521b3e7" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-69c504bd31ea4c8b96b3e113d1361aee" archimateRelationship="id-2551c519951d468caa6c85d597eb9c3b"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-366a527f7fda4347adb4fee1c63e084c" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-a2c4590e12c74c87a410d2e493139c59" archimateRelationship="id-7fd58b0daf6b409aa81b822a2a194b4d"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-25a044199ebd4a84b8fc7a3ca34cd991" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-7bc30fae22cf409190c1af83c2e4fc91" archimateRelationship="id-f93e114a5fb24da288f3673c2947dce7"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-1dcef2a0f4f2401fb9cb25e35de26286" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-aefc746da84145edab062a04f36ee0c5" archimateRelationship="id-829ab003f4fe48619532582facafafd4"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a608324e3000455aabb3437cd75b0460" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-db402ed574814bcbbe38612eef64de3d" archimateRelationship="id-ba50784c918f4947b55b46ea12ccfbf6"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-c4bf56806dc64447940a82d0b1580a50" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-3bc4b85332ba4ea28dc228e3f618fd91" archimateRelationship="id-a3e2c5d67feb4d7a8d61c86731ca4ae3"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2796607fc3d34a68b30182c5f65d3537" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-a52e655b0d144c24989e1e0f0620dd4d" archimateRelationship="id-fdbe6c04860b49f59fb7d1e7651922cd"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-64b1727281da406eb75762434bdba5d1" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-1c6a41feb5fb4117b6310a487c9c95a0" archimateRelationship="id-d70a0c4fe08d42aeb0e7091bee0d96bd"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-33fe300ac30841279ae85f3a0a7d18a7" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-8082980311e0491cba75abea59b0e6fb" archimateRelationship="id-16a9628157624307bba3bf5a4e04de4d"/>
@@ -3812,7 +3810,6 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
         <sourceConnection xsi:type="archimate:Connection" id="id-cb8da1741a2e4711b13eb0a762f938f9" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-726cc01f34d1405f863bef1ea63d14b9" archimateRelationship="id-a98d73890aa84bef837175216e37e4d3"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c5683fded87c4ddb8b18ef6ec7ef1bc5" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-bbeb9dc06ffb43d0ba476026d19186ec" archimateRelationship="id-2a6885740f0e4c1d9a8c1bd6ea05d738"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1ee2f964ccd84b6083b73b0ee5f1e902" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-2a1405962bd043578128808d2c8f3dda" archimateRelationship="id-7811a9b72ef543ae96853109042fcbb4"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-061b27eee67f47eb9213641a0416922f" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-f39a2c7bc32c4568af9d177b427301fd" archimateRelationship="id-c4f11611cc614ba5b9dc5d93c320ea20"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-461069e8d7ad48bf811bec8ef78856b1" targetConnections="id-287a49adbd0248fd813a2d04b02df3ea" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" archimateElement="id-9704fa59cc7b4b5e9daa53f1b32ec98d">
         <bounds x="228" y="36" width="217" height="25"/>
@@ -3827,15 +3824,11 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a2c4590e12c74c87a410d2e493139c59" targetConnections="id-366a527f7fda4347adb4fee1c63e084c" textAlignment="1" fillColor="#ffffff" archimateElement="id-99cbfb6171e24415a2d555ae897ba9d6">
-        <bounds x="240" y="84" width="205" height="25"/>
+        <bounds x="240" y="312" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-7bc30fae22cf409190c1af83c2e4fc91" targetConnections="id-25a044199ebd4a84b8fc7a3ca34cd991" textAlignment="1" fillColor="#ffffff" archimateElement="id-ec079e908ff84941a103d1e0bc024faa">
-        <bounds x="240" y="108" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-aefc746da84145edab062a04f36ee0c5" targetConnections="id-1dcef2a0f4f2401fb9cb25e35de26286" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" archimateElement="id-7782bd71f9c64d9abfabddab89755b5c">
-        <bounds x="228" y="132" width="217" height="25"/>
+        <bounds x="240" y="336" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-db402ed574814bcbbe38612eef64de3d" targetConnections="id-a608324e3000455aabb3437cd75b0460" textAlignment="1" fillColor="#ffffff" archimateElement="id-ec62f6503d6e4ebbbc1e8f7da58048ac">
@@ -3843,7 +3836,7 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3bc4b85332ba4ea28dc228e3f618fd91" targetConnections="id-c4bf56806dc64447940a82d0b1580a50" textAlignment="1" fillColor="#ffffff" archimateElement="id-9592d4808efb4be9aa2751e0019b4771">
-        <bounds x="240" y="180" width="205" height="25"/>
+        <bounds x="240" y="360" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a52e655b0d144c24989e1e0f0620dd4d" targetConnections="id-2796607fc3d34a68b30182c5f65d3537" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" archimateElement="id-e572700165f84f9783f1b3d0e3162a5c">
@@ -3851,36 +3844,44 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-1c6a41feb5fb4117b6310a487c9c95a0" targetConnections="id-64b1727281da406eb75762434bdba5d1" textAlignment="1" fillColor="#ffffff" archimateElement="id-52b5d4fc77444fafaf55f7ea2df98e32">
-        <bounds x="240" y="228" width="205" height="25"/>
+        <bounds x="240" y="132" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-8082980311e0491cba75abea59b0e6fb" targetConnections="id-33fe300ac30841279ae85f3a0a7d18a7" textAlignment="1" fillColor="#ffffff" archimateElement="id-77f44709a232443f943f54fe68f3af8d">
-        <bounds x="240" y="252" width="205" height="25"/>
+        <bounds x="240" y="84" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9551275016804655b3e3365bf5416870" targetConnections="id-44283213bf2a4a069880aaee8e2e1c85" textAlignment="1" fillColor="#ffffff" archimateElement="id-3901960cf6bc43669f04f6aa4baaf73e">
-        <bounds x="240" y="276" width="205" height="25"/>
+        <bounds x="240" y="108" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-ea1c4d88cc5c4a06a4c83cb7eed92d15" targetConnections="id-af2e1a74fc104498b85b753121f347ec" textAlignment="1" fillColor="#ffffff" archimateElement="id-9edaa105afef4c02bab19e78598847a7">
-        <bounds x="240" y="300" width="205" height="25"/>
+        <bounds x="240" y="180" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-bbeb9dc06ffb43d0ba476026d19186ec" targetConnections="id-c5683fded87c4ddb8b18ef6ec7ef1bc5" textAlignment="1" fillColor="#ffffff" archimateElement="id-1064b8991eb64f4e8adc8f35fc1396ea">
-        <bounds x="240" y="348" width="205" height="25"/>
+        <bounds x="240" y="252" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-726cc01f34d1405f863bef1ea63d14b9" targetConnections="id-cb8da1741a2e4711b13eb0a762f938f9" textAlignment="1" fillColor="#ffffff" archimateElement="id-57896b8c4e854e7b92ed667986aa09ee">
-        <bounds x="240" y="324" width="205" height="25"/>
+        <bounds x="240" y="228" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-2a1405962bd043578128808d2c8f3dda" targetConnections="id-1ee2f964ccd84b6083b73b0ee5f1e902" textAlignment="1" fillColor="#ffffff" archimateElement="id-7a3c760780f84b49aae60cc45cbeb885">
-        <bounds x="240" y="372" width="205" height="25"/>
+        <bounds x="240" y="276" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f39a2c7bc32c4568af9d177b427301fd" targetConnections="id-061b27eee67f47eb9213641a0416922f" textAlignment="1" fillColor="#ffffff" archimateElement="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
-        <bounds x="240" y="396" width="205" height="25"/>
+        <bounds x="240" y="384" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1a50ea7c6a7c44ea86ca00cc8d14de9a" fillColor="#ffffff" textPosition="1" archimateElement="id-791bb5c9919a4cc0a039519e68700363">
+        <bounds x="24" y="312" width="145" height="97"/>
+        <feature name="iconVisible" value="2"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-366a527f7fda4347adb4fee1c63e084c" lineColor="#c0c0c0" source="id-1a50ea7c6a7c44ea86ca00cc8d14de9a" target="id-a2c4590e12c74c87a410d2e493139c59" archimateRelationship="id-7fd58b0daf6b409aa81b822a2a194b4d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-25a044199ebd4a84b8fc7a3ca34cd991" lineColor="#c0c0c0" source="id-1a50ea7c6a7c44ea86ca00cc8d14de9a" target="id-7bc30fae22cf409190c1af83c2e4fc91" archimateRelationship="id-f93e114a5fb24da288f3673c2947dce7"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c4bf56806dc64447940a82d0b1580a50" lineColor="#c0c0c0" source="id-1a50ea7c6a7c44ea86ca00cc8d14de9a" target="id-3bc4b85332ba4ea28dc228e3f618fd91" archimateRelationship="id-a3e2c5d67feb4d7a8d61c86731ca4ae3"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-061b27eee67f47eb9213641a0416922f" lineColor="#c0c0c0" source="id-1a50ea7c6a7c44ea86ca00cc8d14de9a" target="id-f39a2c7bc32c4568af9d177b427301fd" archimateRelationship="id-c4f11611cc614ba5b9dc5d93c320ea20"/>
       </child>
     </element>
   </folder>
