@@ -1,8 +1,8 @@
 <archimate:Representation
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Referentie-architectuur"
+    name="Veranderfactoren"
     id="id-78b449aaa3e5492da0ec6d38975e9e8c"
-    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de referentie-architectuur voor toegang. Het beschrijft de bedrijfsfuncties en bedrijfsobjecten die deel uitmaken van het domein toegang. Het start met een algemene beschrijving van wat bedrijfsfuncties en bedrijfsobjecten zijn en welke invulling eraan is gegeven in de domeinarchitectuur. Vervolgens worden diagrammen en overzichten van de bedrijfsfuncties en bedrijfsobjecten beschreven.&lt;/p>">
+    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de veranderfactoren die richting geven aan de architectuur. Het beschrijft de belangrijkste beleid en wet- en regelgeving die van toepassing zijn, de ontwikkelingen die spelen en de knelpunten die er op dit moment bestaan. &lt;/p>">
   <profiles
       href="folder.xml#id-b5e689fa75694829b24cf22fd76eacee"/>
 </archimate:Representation>

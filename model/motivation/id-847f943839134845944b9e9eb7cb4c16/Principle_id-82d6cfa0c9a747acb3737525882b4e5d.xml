@@ -1,26 +1,26 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="6. Autorisatie van overheidsmedewerkers vindt plaats op organisatieniveau"
+    name="6. Bij toegang voor overheidsmedewerkers wordt op organisatieniveau geautoriseerd"
     id="id-82d6cfa0c9a747acb3737525882b4e5d"
     documentation="Een overheidsorganisatie die diensten afneemt is zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze machtigen van eigen medewerkers. Een dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemende overheidsorganisatie. Er bestaat brede consensus (ook in andere landen), dat dit ongewenst is.">
   <properties
       key="Implicaties"
-      value="1. Autorisatie tot een service vindt plaats op basis van de identiteit van de overheidsorganisatie waarmee de juridische afspraak tot het afnemen van de dienst is gemaakt."/>
+      value="1. Afnemende organisaties definiëren zelf autorisaties van individuele medewerkers, en moeten daar controleerbaar verantwoording over afleggen."/>
   <properties
       key="Implicaties"
-      value="2. Autorisatie en authenticatie gebeurt bij de dienstverlener niet op een verder gedetailleerd niveau, zoals medewerker, afdeling, applicatie of wettelijke taak."/>
+      value="2. Afnemende organisaties zorgen dat verzoeken alleen worden gedaan door daartoe bevoegde medewerkers en applicaties/systemen. "/>
   <properties
       key="Implicaties"
-      value="3. Afnemende organisaties definiëren zelf autorisaties van individuele medewerkers, en moeten daar controleerbaar verantwoording over afleggen."/>
+      value="3. Autorisatie door een dienstverlener vindt plaats op basis van de identiteit van de overheidsorganisatie waarmee de juridische afspraak tot het afnemen van de dienst is gemaakt."/>
   <properties
       key="Implicaties"
-      value="4. Afnemerorganisatie zorgen dat verzoeken alleen worden gedaan door daartoe bevoegde medewerkers en applicaties/systemen. "/>
+      value="4. Autorisatie door een dienstverlener vindt niet plaats op een verder gedetailleerd niveau dan organisatie, zoals medewerker, afdeling, applicatie of wettelijke taak."/>
   <properties
       key="Implicaties"
       value="5. Een dienstverlener kan alleen maar inzage kan geven in de organisaties aan wie gegevens zijn verstrekt."/>
   <properties
       key="Implicaties"
-      value="6. De naam van de medewerker bij de afnemersorganisatie kan wel als inhoudelijk gegeven worden meegegeven bij het aanroepen van een dienst."/>
+      value="6. De naam van de medewerker bij de afnemersorganisatie kan wel als inhoudelijk gegeven worden meegegeven bij het aanroepen van een dienst, bijvoorbeeld om te kunnen tonen op een scherm."/>
   <properties
       key="Implicaties"
       value="7. Als gebruik wordt gemaakt van een intermediair die gegevens inhoudelijk bewerkt dan wordt toegang tot de intermediair verleend op het niveau van de afnemersorganisatie en toegang tot de uiteindelijke dienst op het niveau van de intermediair."/>
