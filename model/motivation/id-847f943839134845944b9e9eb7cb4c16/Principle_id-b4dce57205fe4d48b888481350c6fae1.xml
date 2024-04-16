@@ -8,19 +8,19 @@
       value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen."/>
   <properties
       key="Implicaties"
-      value="2. Vertrouwende partijen borgen bij het ontwerp van hun diensten dat er voldoende betrouwbare verklarende partijen zijn die kunnen verklaren over digitale identiteiten, hun eigenschappen en bevoegdheden."/>
+      value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
   <properties
       key="Implicaties"
-      value="3. De gebruiker kent de vertrouwende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
+      value="3. De gebruiker kent de vertrouwende partij en heeft daar vertrouwen in doordat daar bewijs voor is."/>
   <properties
       key="Implicaties"
       value="4. De vertrouwende partij kent de partij die de verklaring afgeeft en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="5. De vertrouwende partij kent de gebruiker en vertouwt deze doordat daar bewijs voor is geleverd."/>
+      value="5. De vertrouwende partij kent de gebruiker en vertrouwt deze doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de vertrouwende partij bewijs dat deze verklaring hoort bij de wallet en niet gekopieerd is."/>
+      value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de vertrouwende partij bewijs dat deze verklaring niet is aangepast of meermalig is verstuurd."/>
   <properties
       key="Implicaties"
       value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de actualiteit en of deze gekwalificeerd is."/>

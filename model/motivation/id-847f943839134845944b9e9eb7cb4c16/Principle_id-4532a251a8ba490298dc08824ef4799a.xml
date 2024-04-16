@@ -8,11 +8,14 @@
       value="1. Er worden technische beveiligingsmaatregelen geïmplementeerd die zijn geautomatiseerd en niet zomaar door individuen kunnen worden gepasseerd."/>
   <properties
       key="Implicaties"
-      value="2. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
+      value="2. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar."/>
   <properties
       key="Implicaties"
-      value="3. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de verantwoordelijkheden (least priviledge)."/>
+      value="3. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
   <properties
       key="Implicaties"
-      value="4. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
+      value="4. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de taken van de gebruiker (least priviledge)."/>
+  <properties
+      key="Implicaties"
+      value="5. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
 </archimate:Principle>
