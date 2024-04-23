@@ -31,7 +31,7 @@
      inkscape:window-x="3206"
      inkscape:window-y="1791"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g13" />
   <defs
      id="defs1" />
   <g
@@ -41,138 +41,142 @@
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-71.546018,-64.622587)"
        id="g13">
-      <rect
-         x="285"
-         y="273"
-         width="129"
-         height="49"
-         stroke="#042433"
-         stroke-width="2"
-         stroke-miterlimit="8"
-         fill="#ffffff"
-         id="rect1" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(307.659,293)"
-         id="text1">Verklarende</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(331.292,312)"
-         id="text2">partij</text>
-      <rect
-         x="546"
-         y="273"
-         width="129"
-         height="49"
-         stroke="#042433"
-         stroke-width="2"
-         stroke-miterlimit="8"
-         fill="#ffffff"
-         id="rect2" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(576.71,303)"
-         id="text3">Gebruiker</text>
-      <rect
-         x="808"
-         y="273"
-         width="129"
-         height="49"
-         stroke="#042433"
-         stroke-width="2"
-         stroke-miterlimit="8"
-         fill="#ffffff"
-         id="rect3" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(824.191,293)"
-         id="text4">Vertrouwende</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(854.745,312)"
-         id="text5">partij</text>
-      <path
-         d="m 414.5,296.833 h 125.902 v 1.334 H 414.5 Z m 124.569,-3.333 8,4 -8,4 z"
-         id="path5" />
-      <rect
-         x="513"
-         y="409"
-         width="195"
-         height="49"
-         stroke="#042433"
-         stroke-width="2"
-         stroke-miterlimit="8"
-         fill="#ffffff"
-         id="rect5" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(560.233,429)"
-         id="text6">Registratie van</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="16px"
-         transform="translate(533.493,448)"
-         id="text7">verifieerbare gegevens</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(446.786,269)"
-         id="text8">verifieerbare</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(455.286,286)"
-         id="text9">verklaring</text>
-      <path
-         d="m 675.5,296.833 h 125.902 v 1.334 H 675.5 Z m 124.569,-3.333 8,4 -8,4 z"
-         id="path9" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(708.514,272)"
-         id="text10">verifieerbare</text>
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(712.014,289)"
-         id="text11">presentatie</text>
-      <path
-         d="M 0,-0.666667 H 112.5 V 157.592 h -1.333 V 0 l 0.666,0.666667 H 0 Z M 115.833,156.259 l -4,8 -4,-8 z"
-         transform="matrix(0,1,1,0,349.5,322.5)"
-         id="path11" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(387.913,422)"
-         id="text12">schrijven</text>
-      <path
-         d="M 0,-0.666667 H 164.926 V 105.167 h -1.333 V 0 l 0.666,0.666667 H 0 Z M 168.259,103.833 l -4,8 -4,-8 z"
-         transform="matrix(1,0,0,-1,708.5,434.334)"
-         id="path12" />
-      <text
-         font-family="Aptos, Aptos_MSFontService, sans-serif"
-         font-weight="400"
-         font-size="14px"
-         transform="translate(806.606,422)"
-         id="text13">lezen</text>
+      <g
+         transform="translate(6.3577929,3.9282252)"
+         id="g13-1">
+        <rect
+           x="285"
+           y="273"
+           width="129"
+           height="49"
+           stroke="#042433"
+           stroke-width="2"
+           stroke-miterlimit="8"
+           fill="#ffffff"
+           id="rect1" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(307.659,293)"
+           id="text1">Verklarende</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(331.292,312)"
+           id="text2">partij</text>
+        <rect
+           x="546"
+           y="273"
+           width="129"
+           height="49"
+           stroke="#042433"
+           stroke-width="2"
+           stroke-miterlimit="8"
+           fill="#ffffff"
+           id="rect2" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(584.853,303)"
+           id="text3">Houder</text>
+        <rect
+           x="808"
+           y="273"
+           width="129"
+           height="49"
+           stroke="#042433"
+           stroke-width="2"
+           stroke-miterlimit="8"
+           fill="#ffffff"
+           id="rect3" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(824.191,293)"
+           id="text4">Vertrouwende</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(854.745,312)"
+           id="text5">partij</text>
+        <path
+           d="m 414.5,296.833 h 125.902 v 1.334 H 414.5 Z m 124.569,-3.333 8,4 -8,4 z"
+           id="path5" />
+        <rect
+           x="513"
+           y="409"
+           width="195"
+           height="49"
+           stroke="#042433"
+           stroke-width="2"
+           stroke-miterlimit="8"
+           fill="#ffffff"
+           id="rect5" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(560.233,429)"
+           id="text6">Registratie van</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="16px"
+           transform="translate(533.493,448)"
+           id="text7">verifieerbare gegevens</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(446.786,269)"
+           id="text8">verifieerbare</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(455.286,286)"
+           id="text9">verklaring</text>
+        <path
+           d="m 675.5,296.833 h 125.902 v 1.334 H 675.5 Z m 124.569,-3.333 8,4 -8,4 z"
+           id="path9" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(708.514,272)"
+           id="text10">verifieerbare</text>
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(712.014,289)"
+           id="text11">presentatie</text>
+        <path
+           d="M 0,-0.666667 H 112.5 V 157.592 h -1.333 V 0 l 0.666,0.666667 H 0 Z M 115.833,156.259 l -4,8 -4,-8 z"
+           transform="matrix(0,1,1,0,349.5,322.5)"
+           id="path11" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(387.913,422)"
+           id="text12">schrijven</text>
+        <path
+           d="M 0,-0.666667 H 164.926 V 105.167 h -1.333 V 0 l 0.666,0.666667 H 0 Z M 168.259,103.833 l -4,8 -4,-8 z"
+           transform="matrix(1,0,0,-1,708.5,434.334)"
+           id="path12" />
+        <text
+           font-family="Aptos, Aptos_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(806.606,422)"
+           id="text13">lezen</text>
+      </g>
     </g>
   </g>
 </svg>
