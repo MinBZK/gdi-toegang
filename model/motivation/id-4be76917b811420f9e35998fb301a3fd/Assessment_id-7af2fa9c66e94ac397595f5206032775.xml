@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gebruikers moeten vaak opnieuw inloggen"
     id="id-7af2fa9c66e94ac397595f5206032775"
-    documentation="Alhoewel de technische mogelijkheden beschikbaar zijn, blijkt toch dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Zo vragen veel van de portalen binnen de Belastingdienst ook om opnieuw in te loggen. Dit is gebruiksonvriendelijk. Ook als gebruikers naar portalen van andere overheden gaan dan zouden ze eigenlijk opnieuw mogen inloggen."/>
+    documentation="Er blijkt dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Dit is gebruiksonvriendelijk. Er is inmiddels wel een herbevestiging in DigiD beschikbaar, waardoor volledig opnieuw inloggen in DigiD niet hoeft."/>

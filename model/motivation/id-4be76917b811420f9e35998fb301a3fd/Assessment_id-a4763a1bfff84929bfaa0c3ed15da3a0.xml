@@ -1,5 +1,5 @@
 <archimate:Assessment
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Certificaten worden gedeeld met derden"
+    name="Machtigen van systemen niet mogelijk"
     id="id-a4763a1bfff84929bfaa0c3ed15da3a0"
-    documentation="Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Om deze rolverdeling te laten werken moeten certificaten van overheidsorganisaties worden gedeeld met dit soort derde partijen. Dit is niet een veilige en efficiënte manier om andere partijen te machtigen namens overheidsorganisaties."/>
+    documentation="Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Er zijn op dit moment ook geen standaarden of voorzieningen om systemen te machtigen voor toegang tot andere systemen. Om deze reden worden nu vaak sleutels van certificaten gedeeld met dit soort derde partijen. Dit is niet veilig en inefficiënt."/>

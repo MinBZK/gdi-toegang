@@ -1,5 +1,0 @@
-<archimate:Assessment
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Toegang inrichten kost veel inspanning"
-    id="id-5cdac91d400e44a487d0c446d834abc0"
-    documentation="Het kost veel inspanning om authenticatie en autorisatie tot diensten goed in te richten. Naast het realiseren van functionaliteit voor autorisatie moeten er vaak netwerktechnisch ook allerlei zaken ingeregeld worden zoals het configureren van firewalls. Een deel van dit soort zaken kunnen meer generiek worden opgelost. Dit wordt relevanter als de hoeveelheid API's groeit, mede als er allerlei gegevensdiensten bij komen. "/>
