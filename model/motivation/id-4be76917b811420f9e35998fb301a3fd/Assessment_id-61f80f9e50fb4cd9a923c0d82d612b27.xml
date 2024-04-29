@@ -1,5 +1,0 @@
-<archimate:Assessment
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Digikoppeling API profiel is beperkt"
-    id="id-61f80f9e50fb4cd9a923c0d82d612b27"
-    documentation="Er is een Digikoppeling profiel voor API's, maar deze is heel beperkt ingevuld en biedt bijvoorbeeld geen standaard voor het omgaan met signing en encryptie."/>
