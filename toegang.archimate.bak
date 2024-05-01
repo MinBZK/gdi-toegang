@@ -3,22 +3,22 @@
   <folder name="Strategy" id="id-475adfc1ef674f5d9b13aa132b7e56e4" type="strategy">
     <folder name="Capabilities" id="id-221d6a0855da4133b962005cdf889b37">
       <element xsi:type="archimate:Capability" name="Grensoverschrijdende toegang" id="id-0bf067638dbc41d6b18c3fad03f9865f">
-        <documentation>Overheidsorganisaties kunnen burgers met Europees erkende inlogmiddelen toegang verlenen tot hun digitale diensten.</documentation>
+        <documentation>Burgers met Europees erkende inlogmiddelen toegang verlenen tot digitale diensten.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="EDI Wallet als authenticatiemiddel" id="id-1d4b9092915d4da498102683f62a5d50">
-        <documentation>Overheidsorganisaties kunnen een European Digital Identity Wallet accepteren voor het online en offline geven van toegang tot hun digitale diensten.</documentation>
+        <documentation>Een European Digital Identity Wallet accepteren voor het online en offline geven van toegang tot digitale diensten.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="Betrouwbare authenticatiemiddelen" id="id-841e130c70094babbe08885826c0cc8a">
-        <documentation>Overheidsorganisaties kunnen authenticatiemiddelen bieden met een substantiële of hoge mate van betrouwbaarheid die de door overheid op veiligheid en betrouwbaarheid zijn gecontroleerd.</documentation>
+        <documentation>Authenticatiemiddelen bieden met een substantiële of hoge mate van betrouwbaarheid die de door overheid op veiligheid en betrouwbaarheid zijn gecontroleerd.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="Dataminimalisatie" id="id-8644c99911184debb636e09e05e58610">
-        <documentation>Overheidsorganisaties kunnen de gegevens die ze verzamelen beperken tot dat wat nodig is voor het beoogde doel.</documentation>
+        <documentation>Gegevens die worden verzameld beperken tot dat wat nodig is voor het beoogde doel.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="Ondersteunen van publieke en private middelen" id="id-ce305936dfbe416dadd2fd748fa3e298">
-        <documentation>Overheidsorganisaties kunnen alle toegelaten publieke en private authenticatiemiddelen accepteren voor het geven van toegang tot hun digitale diensten.</documentation>
+        <documentation>Alle toegelaten publieke en private authenticatiemiddelen accepteren voor het geven van toegang tot digitale diensten.</documentation>
       </element>
       <element xsi:type="archimate:Capability" name="In control over cyberbeveiliging" id="id-eae8780242bb478496e912e708feeecf">
-        <documentation>Overheidsorganisaties die zijn aangewezen als essentiële dienst kunnen voldoen aan verplichtingen inzake risicobeheer, maatregelen en rapportage op het gebied van cyberbeveiliging.</documentation>
+        <documentation>Voldoen aan verplichtingen inzake risicobeheer, maatregelen en rapportage op het gebied van cyberbeveiliging.</documentation>
       </element>
     </folder>
   </folder>
@@ -129,17 +129,29 @@
       <element xsi:type="archimate:Representation" name="Architectuurvisie" id="id-57896b8c4e854e7b92ed667986aa09ee" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>Deze architectuurvisie geeft een overzicht van de belangrijkste ideeën in de domeinarchitectuur. Het kan voor een belangrijk deel worden gezien als het overkoepelende verhaal en een samenvatting en verbinding van de architectuurprincipes. Het bevat dan ook verwijzingen naar deze architectuurprincipes, waar meer over hun rationale en implicaties kan worden gelezen. Het voegt echter ook informatie toe over zaken die niet principieel van aard zijn, maar wel belangrijk om te begrijpen.&lt;/p>&#xD;
 &lt;h2>Inleiding&lt;/h2>&#xD;
-&lt;p>Het is vanuit het perspectief van beveiliging en privacy dat alleen bekende en geautoriseerde personen toegang hebben tot gegevens en functionaliteit. Voor burgers is hiervoor de landelijke voorziening DigiD beschikbaar, inclusief functionaliteit voor machtigen. Voor bedrijven en andere organisaties is er het eHekenning ingericht, waarbij marktpartijen zich kunnen aanbieder als makelaar, machtingingsregister of middelenverstrekker. Er is ook een ketenmachtigingsvoorziening beschikbaar, waarmee organisaties elkaar kunnen machtigen voor specifieke diensten. Het is inmiddels ook mogelijk om grensoverstijgend toegang te krijgen tot digitale diensten van Europese lidstaten. Alhoewel de basisvoorzieningen hiermee beschikbaar zijn, valt er aan de huidige voorzieningen nog wel veel te verbeteren. Zo zijn er allerlei vormen van &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-26a67ab67a2345c59d5176c597443a38.html&quot;>wettelijke vertegenwoordiging die nog niet worden ondersteund&lt;/a>, zijn &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-a7c21d4ffac342acac28cc8c5f206960.html&quot;>machtigen en vertegenwoordigen nog niet breed geïmplementeerd&lt;/a> bij individuele overheidsorganisaties en is er behoefte aan &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-8abc788d9ffe49ebbb0980c44d5f8b5d.html&quot;>meer uitgebreide functionaliteit voor machtigen&lt;/a>.&lt;/p>&#xD;
-&lt;p>Vanuit de wet- en regelgeving is met name de verordening &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-3d6bbaf27b0c44bf84e270f33ac5ed6a.html&quot;>&quot;Electronic Identification And Trust Services&quot; (eIDAS)&lt;/a> een belangrijke drijfveer voor verandering. In Nederland is deze vertaald naar de &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-e3c05a29b4c149c785cc57d71372db2f.html&quot;>Wet digitale overheid&lt;/a>. In dat kader worden eisen gesteld aan de betrouwbaarheid van authenticatiemiddelen, waardoor overheidsorganisaties gedwongen worden op een meer professionele manier met toegang om te gaan. Het betekent ook dat er ook private authenticatiemiddelen zullen moeten worden ondersteund. In de herziene versie van de verordening kader wordt een European Digital Identity (EDI) Wallet geïntroduceerd. Hiermee wordt het voor burgers en organisaties mogelijk om meer zelf in controle te komen van de gegevens die ze delen met dienstverleners. Dit is een belangrijke stap in de richting van Self Sovereign Identity (SSI), waarbij de gebruiker zelf centraal staat.&lt;/p>&#xD;
+&lt;p>&#xD;
+Het is belangrijk dat iedereen op een veilige en betrouwbare manier gebruik kan maken van de digitale dienstverlening van overheidsorganisaties. Dit vraagt dat de digitale identiteit van een gebruiker wordt gecontroleerd en dat wordt bepaald of deze ook namens iemand anders mag handelen. Voor burgers is hiervoor de landelijke voorziening DigiD beschikbaar, inclusief functionaliteit voor machtigen. Voor bedrijven en andere organisaties is er het eHekenning ingericht, waarbij marktpartijen zich kunnen aanbieder als makelaar, machtingingsregister of middelenverstrekker. Er is ook een ketenmachtigingsvoorziening beschikbaar, waarmee organisaties elkaar kunnen machtigen voor specifieke diensten. Het is inmiddels ook mogelijk om grensoverstijgend toegang te krijgen tot digitale diensten van Europese lidstaten. Het is de verantwoordelijkheid van (overheids)organisaties zelf om te controleren of een gebruiker ook geautoriseerd is voor een specifieke dienst, functionaliteit of set van gegevens. Vanuit de wet- en regelgeving is met name de verordening &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-3d6bbaf27b0c44bf84e270f33ac5ed6a.html&quot;>&quot;Electronic Identification And Trust Services&quot; (eIDAS)&lt;/a> een belangrijke drijfveer voor verandering. In Nederland is deze vertaald naar de &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-e3c05a29b4c149c785cc57d71372db2f.html&quot;>Wet digitale overheid&lt;/a>. In dat kader worden eisen gesteld aan de betrouwbaarheid van authenticatiemiddelen, waardoor overheidsorganisaties gedwongen worden op een meer professionele manier met toegang om te gaan. Het betekent ook dat er ook private authenticatiemiddelen zullen moeten worden ondersteund. In de herziene versie van de verordening kader wordt een European Digital Identity (EDI) Wallet geïntroduceerd. Hiermee wordt het voor burgers en organisaties mogelijk om meer zelf in controle te komen van de gegevens die ze delen met dienstverleners. Dit is een belangrijke stap in de richting van Self Sovereign Identity (SSI), waarbij de gebruiker zelf centraal staat.&#xD;
+&lt;/p>&#xD;
 &lt;h2>Vertrouwen&lt;/h2>&#xD;
-&lt;p>Een belangrijk thema in de context van toegang is vertrouwen. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die kunnen verklaren over de identiteiten van deze gebruikers en hun attributen (eigenschappen, inclusief bevoegdheden). Door gebruik te maken van &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b4dce57205fe4d48b888481350c6fae1.html&quot;>verifieerbare verklaringen&lt;/a> is het mogelijk om te controleren dat deze verklaringen kloppen en dat ze nog geldig zijn. Voor het bouwen van vertrouwen tussen partijen wordt gebruik gemaakt van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Voorbeelden van vertrouwensnetwerken zijn het netwerk van organisaties dat voldoet aan specifieke eisen in de Europese eIDAS verordening en het netwerk van organisaties dat is aangesloten bij het commerciële initiatief iShare. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie speelt vertrouwen een sleutelrol. Partijen willen alleen vertrouwelijke gegevens verstrekken als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen. Vertrouwen is afhankelijk van mensen en helaas blijkt dat mensen vertrouwen wel eens beschamen. Het is bijvoorbeeld belangrijk dat organisaties &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-4532a251a8ba490298dc08824ef4799a.html&quot;>voldoende beveiligingsmaatregelen&lt;/a> nemen om de impact van mensen met kwade bedoelingen zoveel mogelijk te beperken. Het automatiseren van maatregelen en het toepassen van een zero trust beveiligingsmodel zijn daarvoor een belangrijke basis.&lt;p>&#xD;
+&lt;p>&#xD;
+Een belangrijk thema in de context van toegang is vertrouwen. Voor veel maatschappelijke processen is het vertrouwen dat je zaken doet met de juiste organisatie of persoon cruciaal. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die kunnen verklaren over de identiteiten van deze gebruikers en hun attributen (eigenschappen, inclusief bevoegdheden). Door gebruik te maken van &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b4dce57205fe4d48b888481350c6fae1.html&quot;>verifieerbare verklaringen&lt;/a> is het mogelijk om te controleren dat deze verklaringen kloppen en dat ze nog geldig zijn. Voor het bouwen van vertrouwen tussen partijen wordt gebruik gemaakt van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Voorbeelden van vertrouwensnetwerken zijn het netwerk van organisaties dat voldoet aan specifieke eisen in de Europese eIDAS verordening en het netwerk van organisaties dat is aangesloten bij het commerciële initiatief iShare. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie speelt vertrouwen een sleutelrol. Partijen willen alleen vertrouwelijke gegevens verstrekken als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen. Vertrouwen is afhankelijk van mensen en helaas blijkt dat mensen vertrouwen wel eens beschamen. Het is bijvoorbeeld belangrijk dat organisaties &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-4532a251a8ba490298dc08824ef4799a.html&quot;>voldoende beveiligingsmaatregelen&lt;/a> nemen om de impact van mensen met kwade bedoelingen zoveel mogelijk te beperken. Het automatiseren van maatregelen en het toepassen van een zero trust beveiligingsmodel zijn daarvoor een belangrijke basis. Organisaties zullen specifiek aandacht moeten geven aan allerlei nieuwe cyberdreigingen en overheidsorganisaties worden daar door de Europese NIS2-richtlijn ook toe gedwongen. Zij hebben een zorg-, melding- en registratieplicht en vallen onder toezicht. Dit betekent bijvoorbeeld dat zij expliciet een risicobeoordeling moeten uitvoeren, gebruik moeten maken van sterke authenticatie en dat ze een plicht hebben om incidenten binnen 24 uur te melden.&#xD;
+&lt;/p>&#xD;
 &lt;p>&#xD;
 Burgers willen erop kunnen vertrouwen dat (overheids)organisaties op een zorgvuldige manier omgaan met hun persoonsgegevens. Daarbij is dataminimalisatie een concreet aandachtspunt. Organisaties zouden niet meer gegevens moeten verwerken dan wat nodig is voor hun gebruiksdoel. Als het bijvoorbeeld voldoende is om te weten dat iemand 18 jaar of ouder is, zou niet de geboortedatum moeten worden uitgewisseld. Voor toegang betekent dit bijvoorbeeld dat &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-77965a4ab86c43fb809656f759830dc1.html&quot;>de toegangsinfrastructuur niet meer gegevens uitwisselt, dan wat noodzakelijk is om toegang te verstrekken&lt;/a>. SSI is ook een belangrijke manier om de privacy van gebruikers te beschermen. Daarbij zijn gebruikers zelf maximaal in controle. Het mininaliseert de kans op misbruik van persoonsgegevens en voorkomt ook afhankelijkheid van centrale partijen. Gebruikers creëren zelf hun identiteit, verzamelen verklaringen van verklarende partijen en verstrekken ze zelf aan vertrouwende partijen. Ze kunnen ook dingen over zichzelf verklaren. Ze hebben een persoonlijke omgeving waarin zij hun verklaringen beheren, die niet toegankelijk is voor anderen. Een dienstverlener die wil controleren of een identiteit of verklaring die een gebruiker verstrekt klopt en nog geldig is kan gebruik maken van een registratie van verifieerbare gegevens. Deze registratie bevat ook gegevens over de (decentrale) identiteiten die gebruikers zelf hebben aangemaakt. Overigens kan een gebruiker ook besluiten een verklaring niet volledig door te geven aan een dienstverlener, maar alleen een subset of afgeleid gegeven (zoals dat deze ouder dan 18 jaar is). Dit heet ook wel een verifieerbare presentatie. Een gebruiker kan ook besluiten om de eigen identiteit niet kenbaar te maken naar de dienstverlener, maar alleen een specifieke verklaring. Het zorgt er dus voor dat een dienstverlener alleen beschikt over de gegevens die relevant zijn voor het doel. De verstrekker van gegevens heeft ook geen zicht op de dienstverleners aan wie de verklaringen zijn verstrekt. Er zijn al allerlei oplossingen om SSI te ondersteunen, in de vorm van personal data management oplossingen (ook wel: wallets).&lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/vc.svg&quot;>&lt;/center>&lt;/p>&#xD;
-&lt;p>In de context van de eIDAS verordening wordt een European Digital Identity Wallet voorgesteld. Het biedt een Europees gestandaardiseerde manier om verifieerbare verklaringen uit te wisselen, op basis van specifieke standaarden. De EDI-wallet is een combinatie van een authenticatiemiddel en een manier om gegevens te delen. Gebruikers kunnen zelf verifieerbare verklaringen ophalen en bepalen zelf aan wie ze deze verklaringen verstrekken. Het sluit daarmee voor een belangrijk deel aan bij de SSI visie. In tegenstelling tot de SSI visie maken gebruikers zelf geen identiteit aan, maar wordt gebruik gemaakt van de door de overheid uitgegeven identiteit die ook in andere Europese landen kan worden gebruikt. De eIDAS verordening onderkent dat er onderscheid is in gekwalificeerde en niet gekwalificeerde verklaringen. Gekwalificeerde verklaringen voldoen aan extra eisen en zijn uitgegeven door expliciet goedgekeurde partijen, waardoor ze extra zekerheden bieden. Om vertrouwen te creëren tussen partijen zijn er vertrouwensdiensten nodig die hierin kunnen ondersteunen. De eIDAS verordening beschrijft een aantal van dit soort vertrouwensdiensten. Het gaat onder meer om diensten voor het zetten van elektronische handtekeningen (door mensen), het elektronisch verzegelen van gegevens (door een organisatie), het creëren van elektronische verifieerbare verklaringen, het creëren van elektronische tijdstempels en het beschermen en bewijzen van elektronische uitwisseling van gegevens. Deze diensten worden aangeboden of ondersteund door leveranciers in de markt en zijn voor organisaties inzetbaar voor het ondersteunen van het verstrekken van toegang en het uitwisselen van gegevens. &lt;/p>&#xD;
-&lt;h2>Laagdrempeligheid en ontzorgen&lt;/h2>&#xD;
-&lt;p>Toegang vraagt een goede balans tussen veiligheid en gebruikersvriendelijkheid. Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen. We moeten ervoor zorgen dat de dienstverlening van de overheid wel voldoende toegankelijk blijft en geen onnodige drempels opwerpt. In dat kader is ook belangrijk dat niet iedereen over de vaardigheden beschikt die nodig zijn om gebruik maken van de digitale diensten van de overheid. Er moeten ook andere manieren zijn voor mensen om toegang te krijgen tot dienstverlening, inclusief dienstverlening voor het verkrijgen van toegang zoals machtigen.&lt;/p>&#xD;
-&lt;p>Binnen de Nederlandse overheid moeten we ook zaken efficiënt inrichten. Dat betekent dat individuele overheidsorganisaties moeten worden ontzorgd als dat mogelijk is. Zo zouden ze bijvoorbeeld niet zelf koppelingen met alle authenticatiediensten en machtigingsregisters moeten hoeven maken.&lt;/p></documentation>
+&lt;p>&#xD;
+In de context van de eIDAS verordening wordt een European Digital Identity Wallet voorgesteld. Het biedt een Europees gestandaardiseerde manier om verifieerbare verklaringen uit te wisselen, op basis van specifieke standaarden. De EDI-wallet is een combinatie van een authenticatiemiddel en een manier om gegevens te delen. Gebruikers kunnen zelf verifieerbare verklaringen ophalen en bepalen zelf aan wie ze deze verklaringen verstrekken. Het sluit daarmee voor een belangrijk deel aan bij de SSI visie. In tegenstelling tot de SSI visie maken gebruikers zelf geen identiteit aan, maar wordt gebruik gemaakt van de door de overheid uitgegeven identiteit die ook in andere Europese landen kan worden gebruikt. De eIDAS verordening onderkent dat er onderscheid is in gekwalificeerde en niet gekwalificeerde verklaringen. Gekwalificeerde verklaringen voldoen aan extra eisen en zijn uitgegeven door expliciet goedgekeurde partijen, waardoor ze extra zekerheden bieden. Om vertrouwen te creëren tussen partijen zijn er vertrouwensdiensten nodig die hierin kunnen ondersteunen. De eIDAS verordening beschrijft een aantal van dit soort vertrouwensdiensten. Het gaat onder meer om diensten voor het zetten van elektronische handtekeningen (door mensen), het elektronisch verzegelen van gegevens (door een organisatie), het creëren van elektronische verifieerbare verklaringen, het creëren van elektronische tijdstempels en het beschermen en bewijzen van elektronische uitwisseling van gegevens. Deze diensten worden aangeboden of ondersteund door leveranciers in de markt en zijn voor organisaties inzetbaar voor het ondersteunen van het verstrekken van toegang en het uitwisselen van gegevens.&#xD;
+&lt;/p>&#xD;
+&lt;h2>Doorontwikkeling nationale toegangsinfrastructuur&lt;/h2>&#xD;
+&lt;p>Het is duidelijk dat wet- en regelgeving een belangrijke drijfveer is voor de doorontwikkeling van de nationale toegangsinfrastructuur. Er loopt al langere tijd een initiatief voor het inrichten van een nieuw toegangsstelsel, dat ernaar streeft om toegangsinfrastructuur voor burgers en bedrijven te integreren. Het nieuwe toegangsstelsel zorgt ervoor dat burgers en bedrijveb veilig toegang hebben tot digitale dienstverlening en de beschikking hebben over betrouwbare inlogmiddelen om namens henzelf of namens een ander op het juiste betrouwbaarheidsniveau in te kunnen loggen bij organisaties met een publieke taak. Op basis van de verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening. In de toekomst zullen er extra publieke en private authenticatiemiddelen beschikbaar komen voor burgers en bedrijven. Als gevolg van de herziening van de eIDAS verordening zullen er ID-wallets komen, die als authenticatiemiddel gebruikt kunnen worden. Het zal mogelijk worden om gebruik te maken van private authenticatiemiddelen zoals iDIN. De politiek heeft ook aangegeven dat er een publiek (gratis) zakelijk inlogmiddel beschikbaar zal worden gesteldm (motie van der Molen). Er zal voor burgers een digitale bronidentiteit komen die iedereen uniek identificeert, en die ook bruikbaar is in het bedrijvendomein. Burgers kunnen hun basisgegevens uit de digitale bron identiteit toevoegen aan de toegelaten authenticatiemiddelen. Het toegangsstelsel is via één aansluiting beschikbaar voor dienstverleners. Zij kunnen hiervoor gebruik maken van brokers die worden aangeboden door commerciële partijen, maar er kan ook een publieke routeringsvoorziening worden aangewezen.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo is het bijvoorbeeld voor &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-388da3df069946eb8fcc9f6b801b1882.html&quot;>een aantal restgroepen niet mogelijk om in te loggen met DigiD of eHerkenning&lt;/a> en is het op dit moment niet goed mogelijk om mensen &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-26a67ab67a2345c59d5176c597443a38.html&quot;>wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren en mentoren&lt;/a>. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Er is ook een behoefte om DigiD ook in te kunnen zetten voor anonieme toegang tot diensten die geen BSN verwerken. Verder is de vraag hoe in de toekomst met machtigingsregisters zou moeten worden omgegaan. Functionaliteit voor machtigen is nu verspreid over allerlei systemen, mede doordat er behoefte is aan meer specifieke machtigingsfunctionaliteit zoals het kunnen machtigen voor zaken. &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Het is belangrijk dat authenticatiemiddelen voor iedereen toegankelijk zijn. Iedereen moet mee kunnen doen in het digitale tijdperk. Mensen die minder digitaal vaardig zijn moeten ook op andere manieren toegang kunnen te krijgen tot digitale dienstverlening van de overheid, via andere kanalen. Toegang moet worden ondersteund door gebruiksvriendelijke voorzieningen en met voldoende instructies door mensen die dat nodig hebben. Het is bekend dat bestaande authenticatiemiddelen niet optimaal toegankelijk zijn voor minder digitaal vaardigen. Er is ook een goede balans nodig tussen veiligheid en gebruikersvriendelijkheid. Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen. We moeten ervoor zorgen dat de dienstverlening van de overheid voldoende toegankelijk blijft en geen onnodige drempels opwerpt. &lt;/p>&#xD;
+&lt;p>&#xD;
+Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel maakt gebruik van certificaten, met daarin unieke identificaties van organisaties middels de OIN systematiek. Het is op dit moment ook niet mogelijk om systemen te machtigen. Als gevolg hiervan verstrekken overheidsorganisaties vaak de sleutels van hun certificaten aan SaaS leveranciers, wat niet veilig is. De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma biedt hiervoor een oplossingsrichting. Het lijkt een logische stap de standaard daarom breder te omarmen. Verder is er een Nederlandse profiel voor OAuth (NL GOV Assurance profile for OAuth 2.0) waarmee op gestandaardiseerde wijze digitale identiteiten kunnen worden doorgegeven tussen systemen. Deze standaard wordt doorontwikkeld, waardoor deze ook beter zal aansluiten op de FSC standaard en ondersteuning zal bieden voor token exchange waarmee identiteiten van eindgebruikers kunnen worden doorgegeven in de keten.&lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-77f44709a232443f943f54fe68f3af8d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op toegang. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
@@ -684,69 +696,35 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
     </folder>
     <folder name="Knelpunten" id="id-4be76917b811420f9e35998fb301a3fd">
-      <element xsi:type="archimate:Assessment" name="DigiD machtigen is lastig toegankelijk voor minder digitaal vaardigen" id="id-13b5b97506004f0b82089095a6c5dae4">
-        <documentation>Mensen die minder digitaal vaardig zijn vinden het lastig om DigiD machtigen aan te vragen. Ze kunnen wel via andere kanalen een machtiging aanvragen, maar de betrouwbaarheid van die andere kanalen is lager. Daarnaast zijn er ook nog geen regels vastgesteld waar betrouwbare machtigingen aan moeten voldoen die niet via een digitaal proces zijn geregistreerd. Informatiepunten Digitale Overheid (IDO’s) bij bibliotheken zijn een voorbeeld van een alternatief kanaal. Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat IDO-medewerkers maar tot op bepaalde hoogte kunnen helpen, omdat ze beperkte mogelijkheden en bevoegdheden hebben. Ze mogen geen DigiD aanvragen voor klanten omdat in de wet is bepaald dat je alleen voor jezelf een DigiD mag aanvragen, en niet voor anderen.</documentation>
+      <element xsi:type="archimate:Assessment" name="Toegankelijkheid voor minder digitaal vaardigen" id="id-13b5b97506004f0b82089095a6c5dae4">
+        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat DigiD en eHerkenning authenticatiemiddelen niet optimaal werken voor minder digitaal vaardigen. Ook het aanvragen van DigiD machtigen blijkt lastig voor minder digitaal vaardigen. Ze kunnen wel via andere kanalen een machtiging aanvragen, maar de betrouwbaarheid van die andere kanalen is lager. </documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Vertegenwoordigen werkt nog niet voor iedereen" id="id-26a67ab67a2345c59d5176c597443a38">
         <documentation>Professionele vertegenwoordigers van nabestaanden kunnen niet digitaal gemachtigd worden. Er zou ook een koppelvlak moeten zijn om via systemen nabestaanden te kunnen machtigen. Professionele dienstverleners zoals bewindvoerders kunnen ook nog niet als vertegenwoordiger optreden. Dat geldt ook voor ouders van minderjarige kinderen, curatoren, bewindvoerders, mentoren van volwassenen en niet-Nederlanders die buiten Nederland wonen, maar een band met de Nederlandse overheid hebben (zoals grensarbeiders). </documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="Koppeling met meerdere authenticatiediensten" id="id-3154a0a622914f4f9b5afc86fee4346e">
-        <documentation>Overheidsorganisaties zijn in de Wdo verplicht om alle toegelaten publieke en private authenticatiemiddelen te accepteren voor het geven van toegang tot hun digitale diensten. Dat betekent dat zij afspraken moeten maken en koppelingen moeten realiseren met meerdere authenticatiediensten. De routeringsdienst TVS kan overheidsorganisaties hier in ontzorgen, maar kan op dit moment niet worden gebruikt door veel overheidsorganisaties. Ze kunnen wel gebruik maken van dienste van commerciële partijen.</documentation>
-      </element>
       <element xsi:type="archimate:Assessment" name="Restgroepen worden niet goed ondersteund" id="id-388da3df069946eb8fcc9f6b801b1882">
         <documentation>Er zijn allerlei groepen burgers en bedrijven die niet worden bediend met DigiD, eHerkenning en PKI-overheid omdat ze niet in de onderliggende registers geregistreerd staan en omdat de betreffende afsprakenstelsels hier geen oplossing voor bieden. Het gaat bijvoorbeeld om burgers zonder EER paspoort, ambassades en buitenlandse bedrijven die niet in het handelsregister zijn opgenomen. Overheidsorganisaties die deze restgroepen wel moeten bedienen zijn verantwoordelijk om zelf hiervoor een registratie te voeren en een authenticatiemiddel in te richten die voldoet aan de eisen in de Wdo en/of eIDAS. Er is inmiddels wel een tijdelijk register voor restgroepen in het bedrijvendomein, maar deze is alleen beschikbaar voor diensten van de Belastingdienst en alleen beschikbaar voor eHerkenning.</documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="Geen eIDAS hoog authenticatiemiddel" id="id-38976dc3957b427a9f7cb363b11e8792">
-        <documentation>We kunnen op dit moment nog geen eIDAS hoog authenticatiemiddel bieden aan burgers en organisaties (m.u.v. de zorgsector, die hiervoor de UZI-pas beschikbaar heeft) en voldoen daarmee als Nederland nog niet aan de eIDAS verordening. Hierdoor is het ook niet mogelijk om met DigiD of eHerkenning middelen digitale handtekeningen te zetten die gelijkwaardig zijn aan natte handtekeningen. Hiervoor moeten commerciële middelen worden aangeschaft.</documentation>
+      <element xsi:type="archimate:Assessment" name="Geen centraal onderzoek en meldpunt fraude voor eHerkenning" id="id-4e650de32bdf49b7b7c3ffc0727251bb">
+        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat er voor eHerkenning geen overkoepelende organisatie bestaat die fraudegevallen oppakt en dat er ook geen centraal fraudemeldpunt is. Het melden van en reageren op specifieke signalen en meldingen ligt decentraal: bij de organisaties zelf, bij de leverancier en/of dienstverlener. Hierdoor ontbreekt er een goed kwalitatief en kwantitatief beeld. Dit heeft als risico dat zaken langs elkaar heen lopen en fraude minder effectief wordt voorkomen dan wanneer dit beeld er wel zou zijn. Dit probleem wordt relevanter als er meer authenticatiediensten beschikbaar komen.</documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="IT-architectuur van DigiD en eHerkenning onvoldoende" id="id-3b7e8c741963447f8e98beb5612cbaf9">
-        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt er geen actuele, eenduidige en volledige beschrijving is van de huidige IT-architectuur. Bij DigiD constateerden ze dat er geen samenvattend uniform vastgesteld beeld is van het IT-landschap. Er zijn verschillende visuele weergaven aangeleverd door organisaties zoals BZK, Logius en Capgemini. Deze weergaven verschilden steeds weer wat van elkaar. Voor eHerkenning werd niet duidelijk hoe componenten zich tot elkaar verhouden. De beschikbare rapportages zijn niet altijd een-op-een te matchen&#xD;
-met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sinds 2018 niet meer zijn geactualiseerd. Dit brengt het volgende risico met zich mee. Het wijzigen van IT-onderdelen kan invloed hebben op aanpalende IT-onderdelen. Als niet bekend is welke dit zijn, kan dit gevolgen hebben voor de uiteindelijke IT-dienstverlening.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="PKI-overheidscertificaten nodig voor authenticatie van systemen" id="id-3bf258530a3844caa3d54966ec167808">
-        <documentation>Voor toegang van systemen tot andere systemen moet gebruik worden gemaakt van PKI-overheidscertificaten, die moeten worden aangeschaft, geïnstalleerd en periodiek worden vernieuwd. Dit leidt tot allerlei beheerkosten en lasten bij overheidsorganisaties. PKI-overheidscertificaten zijn ook duurder dan normale certificaten.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Geen centraal onderzoek en meldpunt fraude" id="id-4e650de32bdf49b7b7c3ffc0727251bb">
-        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat er voor eHerkenning geen overkoepelende organisatie bestaat die fraudegevallen oppakt en dat er ook geen centraal fraudemeldpunt is. Het melden van en reageren op specifieke signalen en meldingen ligt decentraal: bij de organisaties zelf, bij de leverancier en/of dienstverlener. Hierdoor ontbreekt er een goed kwalitatief en kwantitatief beeld. Dit heeft als risico dat zaken langs elkaar heen lopen en fraude minder effectief wordt voorkomen dan wanneer dit beeld er wel zou zijn.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Toegang inrichten kost veel inspanning" id="id-5cdac91d400e44a487d0c446d834abc0">
-        <documentation>Het kost veel inspanning om authenticatie en autorisatie tot diensten goed in te richten. Naast het realiseren van functionaliteit voor autorisatie moeten er vaak netwerktechnisch ook allerlei zaken ingeregeld worden zoals het configureren van firewalls. Een deel van dit soort zaken kunnen meer generiek worden opgelost. Dit wordt relevanter als de hoeveelheid API's groeit, mede als er allerlei gegevensdiensten bij komen. </documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Digikoppeling API profiel is beperkt" id="id-61f80f9e50fb4cd9a923c0d82d612b27">
-        <documentation>Er is een Digikoppeling profiel voor API's, maar deze is heel beperkt ingevuld en biedt bijvoorbeeld geen standaard voor het omgaan met signing en encryptie.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="DigiD hoog password reset onvriendelijk" id="id-72dd00c3b29f4f758e6f07adbb43af37">
-        <documentation>Het is niet eenvoudig om je password te resetten bij DigiD hoog; in een situatie dat iemand zijn pincode niet meer kent is de enige mogelijkheid om een nieuw identiteitsbewijs aan te vragen. Dit is een omslachtige, onvriendelijke en dure oplossing.</documentation>
+      <element xsi:type="archimate:Assessment" name="DigiD hoog pincode reset is gebruikersonvriendelijk" id="id-72dd00c3b29f4f758e6f07adbb43af37">
+        <documentation>Het is niet eenvoudig om je pincode te resetten bij DigiD hoog; in een situatie dat iemand zijn pincode niet meer kent is de enige mogelijkheid om een nieuw identiteitsbewijs aan te vragen.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Gebruikers moeten vaak opnieuw inloggen" id="id-7af2fa9c66e94ac397595f5206032775">
-        <documentation>Alhoewel de technische mogelijkheden beschikbaar zijn, blijkt toch dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Zo vragen veel van de portalen binnen de Belastingdienst ook om opnieuw in te loggen. Dit is gebruiksonvriendelijk. Ook als gebruikers naar portalen van andere overheden gaan dan zouden ze eigenlijk opnieuw mogen inloggen.</documentation>
+        <documentation>Er blijkt dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Dit is gebruiksonvriendelijk. Er is inmiddels wel een herbevestiging in DigiD beschikbaar, waardoor volledig opnieuw inloggen in DigiD niet hoeft.</documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="DigiD ondersteunt geen pseudoniemen voor DigiD midden en substantieel" id="id-7bc5e268a3694784b635db97849438dd">
-        <documentation>DigiD is op dit moment niet in staat om een pseudoniem van een gebruiker op te leveren op DigiD betrouwbaarheidsniveaus midden en substantieel, waardoor het inzetgebied beperkt is op deze niveaus tot diensten waarvoor er een grondslag is voor verwerking van het BSN. Voor diensten waarvoor anoniem gebruik voldoende is kan DigiD dus ook niet worden gebruikt. Dit voldoet niet aan de eIDAS verordening.</documentation>
+      <element xsi:type="archimate:Assessment" name="DigiD niet voor anoniem inloggen" id="id-a4046d419300443da3ec983b6a64884b">
+        <documentation>Er is wettelijk bepaald dat DigiD alleen gebruikt mag worden voor diensten waarvoor BSN gebruikt moet worden. Dat beperkt het inzetgebied van DigiD.</documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="eHerkenning middelen kosten geld" id="id-85281b5bc24243a1a48172926e06f276">
-        <documentation>Om gebruik te kunnen maken van eHerkenning moet een eHerkenning middel worden aangeschaft, wat tot jaarlijkse kosten leidt per medewerker. Dat geldt inmiddels ook voor diensten die in het verleden nog gratis waren, zoals het doen van een aangifte loonbelasting. Voor sommige bedrijven zijn de bijbehorende kosten substantieel en/of staan niet in verhouding tot het doen van een aangifte. Een ander aandachspunt is dat ook voor het kunnen machtigen in eHerkenning een authenticatiemiddel nodig is en dus kosten moeten worden gemaakt.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Beperkte machtigingsfunctionaliteit" id="id-8abc788d9ffe49ebbb0980c44d5f8b5d">
-        <documentation>Er is op dit moment beperkte machtigingsfunctionaliteit aanwezig in DigiD machtigen en eHerkenning machtigen en ketenmachtigen. Zo is het bijvoorbeeld niet mogelijk om te machtigen voor zaken of voor specifieke deelgebieden. Daarnaast is het niet mogelijk om een machtiging met/op een bepaald betrouwbaarheidsniveau te geven. Er zijn op dit moment ook geen standaarden of voorzieningen om systemen te machtigen voor toegang tot andere systemen. Mede om deze redenen zijn er ook machtigingsfunctionaliteiten in allerlei specifieke portalen en systemen gerealiseerd. Dit is overheidsbreed niet een kostenefficiënte oplossing.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Toegang zonder BSN niet mogelijk" id="id-a4046d419300443da3ec983b6a64884b">
-        <documentation>DigiD mag alleen gebruikt worden voor diensten waarvoor BSN gebruikt moet worden. Dat sluit het gebruik van DigiD uit voor allerlei diensten die ook zonder BSN gebruikt kunnen worden. Hierdoor zijn er geen betrouwbare middelen beschikbaar voor het geven van toegang tot dit soort diensten.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Certificaten worden gedeeld met derden" id="id-a4763a1bfff84929bfaa0c3ed15da3a0">
-        <documentation>Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Om deze rolverdeling te laten werken moeten certificaten van overheidsorganisaties worden gedeeld met dit soort derde partijen. Dit is niet een veilige en efficiënte manier om andere partijen te machtigen namens overheidsorganisaties.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="Machtigen nog niet breed geïmplementeerd" id="id-a7c21d4ffac342acac28cc8c5f206960">
-        <documentation>Uit het rapport &quot;DigiD helpt niet mee&quot; van de nationale ombudsman blijkt dat veel overheidsorganisaties nog niet zijn aangesloten op DigiD machtigen.</documentation>
-      </element>
-      <element xsi:type="archimate:Assessment" name="DigiD en eHerkenning is lastig toegankelijk voor minder digitaal vaardigen" id="id-c81088e8b4eb4a3f980a8a00fca853e3">
-        <documentation>Het rapport &quot;Digitale identiteit vraagt veel van DigiD en eHerkenning&quot; van de Algemene Rekenkamer uit 2023 stelt dat DigiD en eHerkenning authenticatiemiddelen niet optimaal werken voor minder digitaal vaardigen. Dit komt met name doordat zij worden gedwongen om gebruik te gaan maken van smartphone apps (SMS wordt uitgefaseerd), terwijl zij veelal geen smartphone hebben of onvoldoende vaardig zijn om deze ten volle te kunnen gebruiken. </documentation>
+      <element xsi:type="archimate:Assessment" name="Machtigen van systemen niet mogelijk" id="id-a4763a1bfff84929bfaa0c3ed15da3a0">
+        <documentation>Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Er zijn op dit moment ook geen standaarden of voorzieningen om systemen te machtigen voor toegang tot andere systemen. Om deze reden worden nu vaak sleutels van certificaten gedeeld met dit soort derde partijen. Dit is niet veilig en inefficiënt.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Certificaten niet internationaal bruikbaar" id="id-dcdf473919e14835becc91f9cd0ea123">
-        <documentation>In Nederland is gekozen voor de systematiek van PKI-overheidscertificaten. Hierdoor kunnen Nederlandse certificaten niet direct internationaal gebruikt worden en andersom. </documentation>
+        <documentation>Nederlandse PKI-overheidscertificaten kunnen niet direct internationaal gebruikt worden en andersom. </documentation>
       </element>
-      <element xsi:type="archimate:Assessment" name="Meerdere machtigingsregisters" id="id-dcf64f87176748e19a4fbbcc16dd4f08">
-        <documentation>Er is op dit moment sprake van een groot aantal plaatsen waar vrijwillige machtigingen verstrekt kunnen worden. Naast DigiD machtigen en de machtigingsvoorzieningen die eHerkenning biedt zijn er ook in allerlei andere systemen functionaliteiten voor machtigingen gerealiseerd zoals bijvoorbeeld in Digipoort. Dit zorgt er voor dat de beheerslast onnodig hoog is, dat overheidsorganisaties op meerdere machtigingsregisters moeten aansluiten en dat gebruikers op allerlei plaatsen machtigingen moeten verstrekken of ontvangen, waardoor ze het overzicht verliezen. De machtigingsfunctionaliteit in Digipoort was bedoeld als tijdelijk en is niet goed geïmplementeerd, zeker niet voor inkomende berichten.</documentation>
+      <element xsi:type="archimate:Assessment" name="Machtigingen verspreid over meerdere systemen" id="id-dcf64f87176748e19a4fbbcc16dd4f08">
+        <documentation>Er is op dit moment sprake van een groot aantal plaatsen waar vrijwillige machtigingen verstrekt kunnen worden. Naast DigiD machtigen en de machtigingsvoorzieningen van eHerkenning zijn er ook in allerlei andere systemen functionaliteiten voor machtigingen gerealiseerd zoals bijvoorbeeld in Digipoort. Dit komt deels doordat er beperkte machtigingsfunctionaliteit aanwezig is in DigiD machtigen en eHerkenning (keten)machtigen. Zo is het bijvoorbeeld niet mogelijk om te machtigen voor zaken. Daarnaast is het betrouwbaarheidsniveau waarmee de machtigingen zijn geregistreerd niet vastgelegd bij de machtiging. Hierdoor moeten overheidsorganisaties op meerdere machtigingsregisters aansluiten en gebruikers op allerlei plaatsen machtigingen verstrekken of ontvangen, waardoor ze het overzicht verliezen. De machtigingsfunctionaliteit in Digipoort was bedoeld als tijdelijk en is niet goed geïmplementeerd, zeker niet voor inkomende berichten.</documentation>
       </element>
     </folder>
     <folder name="Standaarden" id="id-7e21b21dff2744cfb5410b7381fb5e43">
@@ -946,35 +924,16 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
   </folder>
   <folder name="Implementation &amp; Migration" id="id-056b2170b61b42afaed5f90b1ff5a5f6" type="implementation_migration">
     <folder name="Veranderinitiatieven" id="id-7f88a37d7f6d448eb35e03e10aa0e64d">
-      <element xsi:type="archimate:WorkPackage" name="Machtigen aan de balie" id="id-0cde635010214166bfaa256db9f58bfe">
-        <documentation>Het is gewenst om het mogelijk te maken dat mensen aan de balie een machtiging kunnen aanmaken.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Generieke voorziening voor vrijwillig machtigen van organisaties" id="id-61dc33c76ec94288b37d10018c2e8caa">
-        <documentation>Het is wenselijk om te onderzoeken of er een generieke machtigingsvoorzienig voor organisaties kan worden ingericht waarin alle veelvoorkomende vormen van vrijwillig machtiging kunnen worden ondersteund, inclusief zaakmachtigen. Een dergelijke voorziening zorgt ervoor dat het machtigingslandschap sterk kan worden vereenvoudigd. Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen die gesteld worden aan een dergelijke generieke machtigingsvoorziening en zicht moeten geven op kosten en (financiële) baten.</documentation>
+      <element xsi:type="archimate:WorkPackage" name="Onderzoek vrijwillig machtigen van organisaties" id="id-61dc33c76ec94288b37d10018c2e8caa">
+        <documentation>Het is wenselijk om te onderzoeken hoe met vrijwillig machtigen van organisaties in de toekomst zou moeten worden omgegaan. Is het wenselijk om eHerkenning machtigen uit te breiden met alle veelvoorkomende vormen van vrijwillig machtigen? Mogelijk kan dit ook met de EDI wallet worden ondersteund. Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen of een centrale oplossing wenselijk is.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="DigiD geschikt maken voor inloggen zonder BSN" id="id-75a11a6464244610b8679b4ccf487a9c">
         <documentation>DigiD zou geschikt moeten worden gemaakt voor diensten die geen BSN nodig hebben. Op dit moment zijn hiervoor geen betrouwbare authenticatiemiddelen beschikbaar.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Register met certificaten voor Europese toegang" id="id-82087c95385c4244a8993e31eb05b8a8">
-        <documentation>Er zou een basisregister moeten komen met certificaten van natuurlijke personen en niet natuurlijke personen dat gebruikt kan worden door diverse nationale en internationale toegangs- en ondertekendiensten.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="TVS accepteren als GDI-voorziening" id="id-9e529c1639ee4c7e915ab3a586f9e415">
-        <documentation>TVS kan overheidsorganisaties ontzorgen in het aansluiten op de diversiteit aan inlogmiddelen die ondersteund moet worden. Door TVS onderdeel te maken van de Generieke Digitale Infrastructuur worden belangrijke drempels voor het breed gebruik van TVS weggenomen.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Publiek zakelijk inlogmiddel" id="id-af0cf3ea648f48739df811b8c6289063">
-        <documentation>Het is gewenst om een gratis inlogmiddel beschikbaar te stellen voor toegang voor organisaties, die breed kan worden ingezet.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="DigiD machtigen breed implementeren" id="id-afa728397d8b4e729ef7600df5949a9a">
-        <documentation>De implementatiegraad van DigiD machtigen valt tegen. Er is centrale aansturing gewenst om verdere implementatie aan te jagen en te ondersteunen.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Eénmalig inloggen mogelijk maken bij individuele overheidsorganisaties" id="id-c048c8b43c71465d857b5285f8b621b7">
-        <documentation>Individuele overheidsorganisaties moeten ervoor zorgen dat de beschikbare technische mogelijkheden om éénmalig inloggen te ondersteunen goed worden geïmplementeerd. Binnen DigiD en eHerkenning zijn hiervoor standaard mechanismen aanwezig. Hiervoor is mogelijk een coördinerende activiteit nodig.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="DigiD substantieel ondersteunen voor restgroepen" id="id-c0de7aa4ef7742738f889c4de0e4cd08">
-        <documentation>Op dit moment kunnen burgers zonder EER paspoort geen gebruik maken van DigiD substantieel of hoog. Hierdoor hebben ze geen toegang tot een belangrijk deel van de digitale dienstverlening van de overheid. </documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Standaardiseren signing en encryptie van API's" id="id-c12d128305bc457daabfcad7a81d9f26">
-        <documentation>Er is behoefte aan standaardisering van signing en encryptie van API's. Het resultaat daarvan moet onderdeel zijn van het Digikoppeling profiel voor API's.</documentation>
+        <documentation>Er zou een basisregister moeten komen met certificaten van natuurlijke personen en niet natuurlijke personen dat gebruikt kan worden door diverse nationale en internationale toegangs- en ondertekendiensten.&#xD;
+&#xD;
+Sheila: Dat lijkt mij een hele dure oplossing die moeilijk te realiseren is. Zie ook eIDAS2 verordening. NP en NNP’s krijgen een wallet met daarin een digitale handtekening, en een PID (identiteit) op niveau hoog waarmee men zich kan identificeren, gegevens kan delen, en documenten kan ondertekenen in de EU bij publieke en private dienstverleners. </documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Implementatie van de FSC standaard" id="id-d0f151a4be2047ecbc2019f47e419fc5">
         <documentation>De FSC standaard biedt standaard mogelijkheden voor veelvoorkomende uitdagingen bij het delen van gegevens tussen organisaties en het verstrekken van toegang. Er ligt een voorstel om Digikoppeling als basis te gebruiken voor het Digikoppeling API profiel. Als dit voorstel wordt goedgekeurd dan zal aandacht moeten worden gegeven aan de brede implementatie van deze standaard bij overheidsorganisaties.</documentation>
@@ -984,9 +943,6 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       </element>
       <element xsi:type="archimate:WorkPackage" name="Entiteitenregister inrichten en aansluiten" id="id-f7bfe9749f2d4f56a5877841cac332d6">
         <documentation>Er zijn allerlei restgroepen die niet door eHerkenning worden ondersteund, met name doordat ze niet zijn ingeschreven in het handelsregister. Er is al eerder onderzoek gedaan naar de mogelijke inrichting van een entiteitenregister. Er moet nog uitvoering gegeven worden aan dit voorstel. eHerkenning zou dan ook dat entiteitenregister als bron moeten gebruiken. Ook moet het mogelijk gemaakt worden dat PKI-overheidscertificaten naar deze entiteiten kunnen verwijzen. </documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Autorisatie o.b.v. gebruiksvoorwaarden van gegevens" id="id-fc732b8a0f0244939d9ab4216b8d065c">
-        <documentation>Een belangrijk deel van de autorisatie die nodig is om toegang te kunnen krijgen tot gegevens zou infrastructureel moeten worden ondersteund. Daarbij gaat het vooral om het geautomatiseerd toetsen of afnemers voldoen aan criteria zoals gedefinieerd in de gebruiksvoorwaarden van datasets en gegevensdiensten.n Standaarden zoals XACML en ODRL kunnen hierin ondersteunen.</documentation>
       </element>
     </folder>
   </folder>
@@ -1277,30 +1233,18 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-ff4395d9b5564e4fbd5c76d894c8d5fb" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-0ac4e91461404e2fa27f7d550a99e7fb" source="id-82087c95385c4244a8993e31eb05b8a8" target="id-dcdf473919e14835becc91f9cd0ea123"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-0fb1b966c9d348c18c5a42eec892c729" source="id-61dc33c76ec94288b37d10018c2e8caa" target="id-dcf64f87176748e19a4fbbcc16dd4f08"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-159e964e3d87442f8e25367b9942778c" source="id-9e529c1639ee4c7e915ab3a586f9e415" target="id-3154a0a622914f4f9b5afc86fee4346e"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-1ea7ed4e2c984f93a241051dd1887f9c" source="id-f7bfe9749f2d4f56a5877841cac332d6" target="id-388da3df069946eb8fcc9f6b801b1882"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-20fd62f9ab97428795b7ecdfecbfcecf" source="id-d0f151a4be2047ecbc2019f47e419fc5" target="id-5cdac91d400e44a487d0c446d834abc0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-33f25ab09869475e9f4aa515060ab520" source="id-dff8144cfd17470facd69310dc510c53" target="id-26a67ab67a2345c59d5176c597443a38"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-350c781438eb4dbf9d832833a34abcf1" source="id-c0de7aa4ef7742738f889c4de0e4cd08" target="id-388da3df069946eb8fcc9f6b801b1882"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-434e9ae308f6498d9bf6c7b8a5d654dd" source="id-eae8780242bb478496e912e708feeecf" target="id-ef780f486daa48b393320e16200cc0c0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-4936f3ee01544a3dac6e7ad43a628bee" source="id-d0f151a4be2047ecbc2019f47e419fc5" target="id-a4763a1bfff84929bfaa0c3ed15da3a0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-667fbc888d29448797a11c2b595c0fef" source="id-8644c99911184debb636e09e05e58610" target="id-46a216053b3f487fa0bedd3b3077a975"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-6d5d9099e6204c9eb191a525d6af0e78" source="id-75a11a6464244610b8679b4ccf487a9c" target="id-a4046d419300443da3ec983b6a64884b"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-8ae126b6f12c4f0ab3b6b8193b984ef3" source="id-05cd71c3758c4182878ba143b870582f" target="id-bcbd31af7e4b447e850fe34a90693650"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-925214a4787642b79b0c890690308a72" source="id-c12d128305bc457daabfcad7a81d9f26" target="id-61f80f9e50fb4cd9a923c0d82d612b27"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-a2a3e32ac131406e95bda7bb18761e63" source="id-d0f151a4be2047ecbc2019f47e419fc5" target="id-8abc788d9ffe49ebbb0980c44d5f8b5d"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-a89a2f132ec24dd9b15ebdb8ee613513" source="id-afa728397d8b4e729ef7600df5949a9a" target="id-a7c21d4ffac342acac28cc8c5f206960"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ad7c695c441742a1bb2865c20b16dc3a" source="id-1d4b9092915d4da498102683f62a5d50" target="id-bcbd31af7e4b447e850fe34a90693650"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-b7749de9d76b40a2b55f54c63fb97a93" source="id-c048c8b43c71465d857b5285f8b621b7" target="id-7af2fa9c66e94ac397595f5206032775"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-b9b1697025124dd6b6ebe5049b480134" source="id-d0f151a4be2047ecbc2019f47e419fc5" target="id-61f80f9e50fb4cd9a923c0d82d612b27"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-c02bdf415e984aeaa53ad045cff90ce1" source="id-841e130c70094babbe08885826c0cc8a" target="id-face061e1c374e6c8b15e048c9f41d1d"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ce90df90d8fe431aaec41b37b603fe7f" source="id-77965a4ab86c43fb809656f759830dc1" target="id-46a216053b3f487fa0bedd3b3077a975"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-d88ace5cc22c4adcaebc22e92919aac2" source="id-af0cf3ea648f48739df811b8c6289063" target="id-85281b5bc24243a1a48172926e06f276"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-d8bc3619288e4eb59ee6b33b3e349e8f" source="id-fc732b8a0f0244939d9ab4216b8d065c" target="id-5cdac91d400e44a487d0c446d834abc0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-d9ba50f285ac4c299c901c1aa59f2eef" source="id-0bf067638dbc41d6b18c3fad03f9865f" target="id-bcbd31af7e4b447e850fe34a90693650"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-df38720a5b774f84af6c5a0a0d3bdf03" source="id-b4dce57205fe4d48b888481350c6fae1" target="id-bcbd31af7e4b447e850fe34a90693650"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-e701dfd15aa340ed92b6e2ac8db0a5d2" source="id-0cde635010214166bfaa256db9f58bfe" target="id-13b5b97506004f0b82089095a6c5dae4"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-e9668b0a1e2f4c179bb00ecfd2e4c600" source="id-61dc33c76ec94288b37d10018c2e8caa" target="id-8abc788d9ffe49ebbb0980c44d5f8b5d"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ee540dfe05b24fbdb7f87fba89aeb394" source="id-ce305936dfbe416dadd2fd748fa3e298" target="id-face061e1c374e6c8b15e048c9f41d1d"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-032aa22802de4b188d393fd4c5f9be40" source="id-fe587c1bae3c453285eccb764194ced3" target="id-841e130c70094babbe08885826c0cc8a"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-184eef1c82be4414b88e8141832282a8" source="id-2e4e3b531fa549b79b157b367825df17" target="id-b4dce57205fe4d48b888481350c6fae1"/>
@@ -1933,127 +1877,58 @@ met specifieke componenten. Voor BSNk PP geldt dat de IT-architectuurplaten sind
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven gekoppeld aan knelpunten" id="id-c535327b8e144674afbd41117a90a47e">
         <child xsi:type="archimate:DiagramObject" id="id-d4d823f64c704a24af004f3e89119b1a" textPosition="1" archimateElement="id-75a11a6464244610b8679b4ccf487a9c">
-          <bounds x="1224" y="12" width="174" height="55"/>
+          <bounds x="408" y="360" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f9e2f4e60bd0455bbedcc35e8140b342" source="id-d4d823f64c704a24af004f3e89119b1a" target="id-834b0d8b63ce4c84bdf92de31ba2b8ed" archimateRelationship="id-6d5d9099e6204c9eb191a525d6af0e78"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-da4221b5c3564ce98735e21b33b1c7f6" textPosition="1" archimateElement="id-c0de7aa4ef7742738f889c4de0e4cd08">
-          <bounds x="1224" y="495" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-3a35b96f641645e0bc0e5b1f9dfcba2d" source="id-da4221b5c3564ce98735e21b33b1c7f6" target="id-c1b89fb84fac41388e8d40c7d244d90b" archimateRelationship="id-350c781438eb4dbf9d832833a34abcf1"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-5381448f2a8e41929377de6334d1a507" textPosition="1" archimateElement="id-c048c8b43c71465d857b5285f8b621b7">
-          <bounds x="608" y="12" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-8ced5948843d4dda996a1372c92242de" source="id-5381448f2a8e41929377de6334d1a507" target="id-49ae1316fec741b4ae48e18e5d716927" archimateRelationship="id-b7749de9d76b40a2b55f54c63fb97a93"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-a2eaf536915247cc877e05bbd7ba0099" textPosition="1" archimateElement="id-f7bfe9749f2d4f56a5877841cac332d6">
-          <bounds x="1224" y="392" width="174" height="55"/>
+          <bounds x="408" y="192" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d976ed1ad12144ddb51c6a7edce93b2a" source="id-a2eaf536915247cc877e05bbd7ba0099" target="id-c1b89fb84fac41388e8d40c7d244d90b" archimateRelationship="id-1ea7ed4e2c984f93a241051dd1887f9c"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-054a7dcfde00471d825e71e3e9ae4e01" textPosition="1" archimateElement="id-61dc33c76ec94288b37d10018c2e8caa">
-          <bounds x="612" y="408" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-85d6bcf0819942be90cccc6bee0c0515" source="id-054a7dcfde00471d825e71e3e9ae4e01" target="id-e36dfb3d9e3e4f4a9acfd29411440d1b" archimateRelationship="id-e9668b0a1e2f4c179bb00ecfd2e4c600"/>
+          <bounds x="408" y="24" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f08ed21dc64944a384d80ff537ddbeff" source="id-054a7dcfde00471d825e71e3e9ae4e01" target="id-0e2abd11f4ec4c709dae3e590e415ca5" archimateRelationship="id-0fb1b966c9d348c18c5a42eec892c729"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-52c13b03a65c4b25927cdf07f79d7a59" textPosition="1" archimateElement="id-0cde635010214166bfaa256db9f58bfe">
-          <bounds x="1224" y="204" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-aa54ec66663f431da026b3314f2c5a2e" source="id-52c13b03a65c4b25927cdf07f79d7a59" target="id-bfa771fb46ef47f0b0d8b2f69ac9428b" archimateRelationship="id-e701dfd15aa340ed92b6e2ac8db0a5d2"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-218c6fe2688f4e5d86acda452fb7570e" textPosition="1" archimateElement="id-dff8144cfd17470facd69310dc510c53">
-          <bounds x="608" y="716" width="174" height="55"/>
+          <bounds x="408" y="276" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b32817fe0eea4d0ab1cb601e684bc34c" source="id-218c6fe2688f4e5d86acda452fb7570e" target="id-40f5e5f8178045729e0eade5ca717720" archimateRelationship="id-33f25ab09869475e9f4aa515060ab520"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-801075ea482d4937ab6d561f395b65bc" textPosition="1" archimateElement="id-82087c95385c4244a8993e31eb05b8a8">
-          <bounds x="1224" y="108" width="174" height="55"/>
+          <bounds x="408" y="450" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-048fc5211124411987264a78d1e115a4" source="id-801075ea482d4937ab6d561f395b65bc" target="id-da4f9a1183d941f491e2c47947d28f2a" archimateRelationship="id-0ac4e91461404e2fa27f7d550a99e7fb"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-4bacca0a85bb470cbbe38e76296b8148" textPosition="1" archimateElement="id-9e529c1639ee4c7e915ab3a586f9e415">
-          <bounds x="1224" y="300" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-0cbb91a85ad44c91b1967973a62ff354" source="id-4bacca0a85bb470cbbe38e76296b8148" target="id-febe51d61d3d4c61a756f973aa18e783" archimateRelationship="id-159e964e3d87442f8e25367b9942778c"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-e36dfb3d9e3e4f4a9acfd29411440d1b" targetConnections="id-06362f1233a9438bb0556d2b8daed75e id-85d6bcf0819942be90cccc6bee0c0515" textPosition="1" archimateElement="id-8abc788d9ffe49ebbb0980c44d5f8b5d">
-          <bounds x="235" y="365" width="174" height="55"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-da4f9a1183d941f491e2c47947d28f2a" targetConnections="id-048fc5211124411987264a78d1e115a4" textPosition="1" archimateElement="id-dcdf473919e14835becc91f9cd0ea123">
-          <bounds x="859" y="108" width="174" height="55"/>
+          <bounds x="31" y="450" width="174" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-bfa771fb46ef47f0b0d8b2f69ac9428b" targetConnections="id-aa54ec66663f431da026b3314f2c5a2e" textPosition="1" archimateElement="id-13b5b97506004f0b82089095a6c5dae4">
-          <bounds x="858" y="204" width="174" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-bfa771fb46ef47f0b0d8b2f69ac9428b" textPosition="1" archimateElement="id-13b5b97506004f0b82089095a6c5dae4">
+          <bounds x="636" y="24" width="174" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-38f66fb085f5412b824284a20c75d4e2" targetConnections="id-65b0963e7e0643ae8780382157cb1be1" textPosition="1" archimateElement="id-85281b5bc24243a1a48172926e06f276">
-          <bounds x="235" y="629" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-49ae1316fec741b4ae48e18e5d716927" targetConnections="id-8ced5948843d4dda996a1372c92242de" textPosition="1" archimateElement="id-7af2fa9c66e94ac397595f5206032775">
-          <bounds x="235" y="12" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-febe51d61d3d4c61a756f973aa18e783" targetConnections="id-0cbb91a85ad44c91b1967973a62ff354" textPosition="1" archimateElement="id-3154a0a622914f4f9b5afc86fee4346e">
-          <bounds x="858" y="300" width="174" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-49ae1316fec741b4ae48e18e5d716927" textPosition="1" archimateElement="id-7af2fa9c66e94ac397595f5206032775">
+          <bounds x="841" y="24" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-40f5e5f8178045729e0eade5ca717720" targetConnections="id-b32817fe0eea4d0ab1cb601e684bc34c" textPosition="1" archimateElement="id-26a67ab67a2345c59d5176c597443a38">
-          <bounds x="235" y="716" width="174" height="55"/>
+          <bounds x="31" y="276" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0e2abd11f4ec4c709dae3e590e415ca5" targetConnections="id-f08ed21dc64944a384d80ff537ddbeff" textPosition="1" archimateElement="id-dcf64f87176748e19a4fbbcc16dd4f08">
-          <bounds x="235" y="456" width="174" height="55"/>
+          <bounds x="31" y="24" width="174" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-f9b5edced6fb47dfbe89bc5ab7f505b6" textPosition="1" archimateElement="id-3bf258530a3844caa3d54966ec167808">
-          <bounds x="851" y="662" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-c1b89fb84fac41388e8d40c7d244d90b" targetConnections="id-d976ed1ad12144ddb51c6a7edce93b2a id-3a35b96f641645e0bc0e5b1f9dfcba2d" textPosition="1" archimateElement="id-388da3df069946eb8fcc9f6b801b1882">
-          <bounds x="851" y="441" width="174" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-c1b89fb84fac41388e8d40c7d244d90b" targetConnections="id-d976ed1ad12144ddb51c6a7edce93b2a" textPosition="1" archimateElement="id-388da3df069946eb8fcc9f6b801b1882">
+          <bounds x="31" y="192" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-834b0d8b63ce4c84bdf92de31ba2b8ed" targetConnections="id-f9e2f4e60bd0455bbedcc35e8140b342" textPosition="1" archimateElement="id-a4046d419300443da3ec983b6a64884b">
-          <bounds x="859" y="12" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-d939c65844184387a06204a7d27297a1" textPosition="1" archimateElement="id-af0cf3ea648f48739df811b8c6289063">
-          <bounds x="608" y="632" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-65b0963e7e0643ae8780382157cb1be1" source="id-d939c65844184387a06204a7d27297a1" target="id-38f66fb085f5412b824284a20c75d4e2" archimateRelationship="id-d88ace5cc22c4adcaebc22e92919aac2"/>
+          <bounds x="31" y="360" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-6fb58cb845874a0f97688b65748c09f1" textPosition="1" archimateElement="id-d0f151a4be2047ecbc2019f47e419fc5">
-          <bounds x="612" y="168" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-722b297039fb493e8da66af0b705d95a" source="id-6fb58cb845874a0f97688b65748c09f1" target="id-c9870fbbc28d420a87c609384919baa3" archimateRelationship="id-b9b1697025124dd6b6ebe5049b480134"/>
+          <bounds x="408" y="105" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9f9bdd7174dc41fa95e0f4cfb5168329" source="id-6fb58cb845874a0f97688b65748c09f1" target="id-a9fc4941ae324ea48cb8932f436e3043" archimateRelationship="id-4936f3ee01544a3dac6e7ad43a628bee"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-e90362654c3d4d4fa970e48703d1b4e0" source="id-6fb58cb845874a0f97688b65748c09f1" target="id-a8553a94bb7c4d9ba5e39d6701ab3e7a" archimateRelationship="id-20fd62f9ab97428795b7ecdfecbfcecf"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-06362f1233a9438bb0556d2b8daed75e" source="id-6fb58cb845874a0f97688b65748c09f1" target="id-e36dfb3d9e3e4f4a9acfd29411440d1b" archimateRelationship="id-a2a3e32ac131406e95bda7bb18761e63"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-b60773d660534f8da57573d99b7fa696" targetConnections="id-7465458418404884bb74964d8def0852" textPosition="1" archimateElement="id-a7c21d4ffac342acac28cc8c5f206960">
-          <bounds x="235" y="542" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-b7cb166b83664638944e9111081af712" textPosition="1" archimateElement="id-afa728397d8b4e729ef7600df5949a9a">
-          <bounds x="612" y="540" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-7465458418404884bb74964d8def0852" source="id-b7cb166b83664638944e9111081af712" target="id-b60773d660534f8da57573d99b7fa696" archimateRelationship="id-a89a2f132ec24dd9b15ebdb8ee613513"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a9fc4941ae324ea48cb8932f436e3043" targetConnections="id-9f9bdd7174dc41fa95e0f4cfb5168329" textPosition="1" archimateElement="id-a4763a1bfff84929bfaa0c3ed15da3a0">
-          <bounds x="235" y="174" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-c9870fbbc28d420a87c609384919baa3" targetConnections="id-7176309fa9064c4391116d2c7f18fa48 id-722b297039fb493e8da66af0b705d95a" textPosition="1" archimateElement="id-61f80f9e50fb4cd9a923c0d82d612b27">
-          <bounds x="235" y="96" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-f916cfe030254afd9a82e48dfed3e187" textPosition="1" archimateElement="id-c12d128305bc457daabfcad7a81d9f26">
-          <bounds x="612" y="84" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-7176309fa9064c4391116d2c7f18fa48" source="id-f916cfe030254afd9a82e48dfed3e187" target="id-c9870fbbc28d420a87c609384919baa3" archimateRelationship="id-925214a4787642b79b0c890690308a72"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-a8553a94bb7c4d9ba5e39d6701ab3e7a" targetConnections="id-e90362654c3d4d4fa970e48703d1b4e0 id-6a2008c568d54f659ed7bfc9ed08b113" textPosition="1" archimateElement="id-5cdac91d400e44a487d0c446d834abc0">
-          <bounds x="235" y="264" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-ce34a0fc99f34a98bee08dae1f78af97" archimateElement="id-fc732b8a0f0244939d9ab4216b8d065c">
-          <bounds x="612" y="264" width="174" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-6a2008c568d54f659ed7bfc9ed08b113" source="id-ce34a0fc99f34a98bee08dae1f78af97" target="id-a8553a94bb7c4d9ba5e39d6701ab3e7a" archimateRelationship="id-d8bc3619288e4eb59ee6b33b3e349e8f"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-96a916cc8a954b838092212380beb728" archimateElement="id-c81088e8b4eb4a3f980a8a00fca853e3">
-          <bounds x="851" y="578" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-bc35275648674710a5cfe12cb77eba8e" archimateElement="id-7bc5e268a3694784b635db97849438dd">
-          <bounds x="1044" y="578" width="174" height="55"/>
+          <bounds x="31" y="105" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-860ddc2925fe4a8a84fe42ac421554c7" archimateElement="id-4e650de32bdf49b7b7c3ffc0727251bb">
-          <bounds x="1236" y="662" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-91920eab59ee465bbac3fdd79ecb12c1" archimateElement="id-38976dc3957b427a9f7cb363b11e8792">
-          <bounds x="1236" y="578" width="174" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-39b36cc44530446ca934692abb397753" archimateElement="id-3b7e8c741963447f8e98beb5612cbaf9">
-          <bounds x="1044" y="662" width="174" height="55"/>
+          <bounds x="841" y="108" width="174" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a55186dd982c421799625680bd1c8769" archimateElement="id-72dd00c3b29f4f758e6f07adbb43af37">
-          <bounds x="851" y="744" width="174" height="55"/>
+          <bounds x="637" y="108" width="174" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">
