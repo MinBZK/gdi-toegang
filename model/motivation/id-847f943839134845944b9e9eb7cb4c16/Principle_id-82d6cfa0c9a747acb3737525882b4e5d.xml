@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="6. Bij toegang voor overheidsmedewerkers wordt op organisatieniveau geautoriseerd"
     id="id-82d6cfa0c9a747acb3737525882b4e5d"
-    documentation="Een overheidsorganisatie die diensten afneemt is zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze machtigen van eigen medewerkers. Een dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemende overheidsorganisatie. Er bestaat brede consensus (ook in andere landen), dat dit ongewenst is.">
+    documentation="Een overheidsorganisatie die diensten afneemt is zelf verantwoordelijk voor de eigen informatiebeveiliging, en daarmee voor het op de juiste wijze machtigen van eigen medewerkers. Een dienstverlener wil ook liever niets weten over de individuele medewerkers van deze afnemende overheidsorganisatie. Dat zou alleen maar tot een overbodige administratielast leiden.">
   <properties
       key="Implicaties"
       value="1. Afnemende organisaties definiëren zelf autorisaties van individuele medewerkers, en moeten daar controleerbaar verantwoording over afleggen."/>
@@ -17,7 +17,7 @@
       value="4. Autorisatie door een dienstverlener vindt niet plaats op een verder gedetailleerd niveau dan organisatie, zoals medewerker, afdeling, applicatie of wettelijke taak."/>
   <properties
       key="Implicaties"
-      value="5. Een dienstverlener kan alleen maar inzage kan geven in de organisaties aan wie gegevens zijn verstrekt."/>
+      value="5. Een dienstverlener kan alleen maar inzage geven in de organisaties aan wie gegevens zijn verstrekt."/>
   <properties
       key="Implicaties"
       value="6. De naam van de medewerker bij de afnemersorganisatie kan wel als inhoudelijk gegeven worden meegegeven bij het aanroepen van een dienst, bijvoorbeeld om te kunnen tonen op een scherm."/>
