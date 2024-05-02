@@ -56,260 +56,156 @@
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-71.546018,-64.622587)"
        id="g13">
-      <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="M 289.67903,280.12194 V 329.0794 H 418.95232 V 280.12194 Z"
-         id="path2" />
-      <path
-         style="fill:none;stroke:#042433;stroke-width:1.9999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-         clip-path="url(#clipEmfPath1)"
-         d="M 7.9995845,18.239053 H 137.27287 V 67.19651 H 7.9995845 Z"
-         id="path3"
-         transform="translate(281.67945,261.88289)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="312.85028"
-         y="300.10165"
-         id="text4"><tspan
-           sodipodi:role="line"
-           x="312.85028"
-           y="300.10165"
-           id="tspan4"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan3">Verklarende </tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="336.52905"
-         y="319.30066"
-         id="text6"><tspan
-           sodipodi:role="line"
-           x="336.52905"
-           y="319.30066"
-           id="tspan6"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan5">partij</tspan></tspan></text>
-      <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="M 551.42544,280.12194 V 329.0794 H 680.53869 V 280.12194 Z"
-         id="path6" />
-      <path
-         style="fill:none;stroke:#042433;stroke-width:1.9999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-         d="M 551.42544,280.12194 H 680.53869 V 329.0794 H 551.42544 Z"
-         id="path7" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="581.92065"
-         y="309.70114"
-         id="text8"><tspan
-           sodipodi:role="line"
-           x="581.92065"
-           y="309.70114"
-           id="tspan8"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan7">Gebruiker</tspan></tspan></text>
-      <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="m 813.17189,280.12194 v 48.95746 h 129.1133 v -48.95746 z"
-         id="path8" />
-      <path
-         style="fill:none;stroke:#042433;stroke-width:1.9999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-         clip-path="url(#clipEmfPath1)"
-         d="m 531.49239,18.239053 h 129.1133 V 67.19651 h -129.1133 z"
-         id="path9"
-         transform="translate(281.67945,261.88289)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="829.39563"
-         y="300.10165"
-         id="text10"><tspan
-           sodipodi:role="line"
-           x="829.39563"
-           y="300.10165"
-           id="tspan10"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan9">Vertrouwende </tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="859.95398"
-         y="319.30066"
-         id="text12"><tspan
-           sodipodi:role="line"
-           x="859.95398"
-           y="319.30066"
-           id="tspan12"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan11">partij</tspan></tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.00999948px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 418.87232,303.86071 h 125.90346 v 1.32993 H 418.87232 Z m 124.56353,-3.33982 7.99959,3.99979 -7.99959,3.99979 z"
-         id="path12" />
-      <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="m 518.62714,416.43486 v 49.11745 h 194.86985 v -49.11745 z"
-         id="path13" />
-      <path
-         style="fill:none;stroke:#042433;stroke-width:1.9999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-         clip-path="url(#clipEmfPath1)"
-         d="m 236.94769,154.55197 h 194.86988 v 49.11745 H 236.94769 Z"
-         id="path14"
-         transform="translate(281.67945,261.88289)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="565.32477"
-         y="436.46677"
-         id="text15"><tspan
-           sodipodi:role="line"
-           x="565.32477"
-           y="436.46677"
-           id="tspan15"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan14">Registratie van </tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="538.92615"
-         y="455.66574"
-         id="text17"><tspan
-           sodipodi:role="line"
-           x="538.92615"
-           y="455.66574"
-           id="tspan17"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:16px;font-family:Aptos;fill:#000000"
-             id="tspan16">verifieerbare gegevens</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="451.83038"
-         y="276.1528"
-         id="text19"><tspan
-           sodipodi:role="line"
-           x="451.83038"
-           y="276.1528"
-           id="tspan19"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan18">verifieerbare</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="460.30994"
-         y="292.95193"
-         id="text21"><tspan
-           sodipodi:role="line"
-           x="460.30994"
-           y="292.95193"
-           id="tspan21"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan20">verklaring</tspan></tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.019999px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 680.45879,303.86071 h 125.9134 v 1.33993 h -125.9134 z m 124.5735,-3.33982 7.9996,3.99979 -7.9996,3.99979 z"
-         id="path21" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="713.54468"
-         y="279.14267"
-         id="text23"><tspan
-           sodipodi:role="line"
-           x="713.54468"
-           y="279.14267"
-           id="tspan23"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan22">verifieerbare</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="717.06445"
-         y="295.9418"
-         id="text25"><tspan
-           sodipodi:role="line"
-           x="717.06445"
-           y="295.9418"
-           id="tspan25"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan24">presentatie</tspan></tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.00999948px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 353.57572,328.99941 V 441.49356 H 511.8275 v -1.32993 H 354.23568 l 0.66997,0.66997 V 328.99941 Z m 156.91185,115.83398 7.99958,-3.99979 -7.99958,-3.9998 z"
-         id="path25" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="392.84625"
-         y="428.83206"
-         id="text27"><tspan
-           sodipodi:role="line"
-           x="392.84625"
-           y="428.83206"
-           id="tspan27"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan26">schrijven</tspan></tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.019999px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 713.41699,441.49356 h 164.9315 v -105.8145 h -1.34 V 440.8336 l 0.66,-0.65997 h -164.2515 z m 168.2513,-104.49457 -3.9998,-7.99958 -3.9998,7.99958 z"
-         id="path27" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="811.5509"
-         y="428.83206"
-         id="text29"><tspan
-           sodipodi:role="line"
-           x="811.5509"
-           y="428.83206"
-           id="tspan29"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan28">lezen</tspan></tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.019999px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 615.32209,328.99941 v 80.63581 h 1.34 v -80.63581 z m -3.3398,79.29588 3.9998,7.99958 3.9998,-7.99958 z"
-         id="path29" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-         x="550.93408"
-         y="372.77585"
-         id="text31"><tspan
-           sodipodi:role="line"
-           x="550.93408"
-           y="372.77585"
-           id="tspan31"><tspan
-             dx="0"
-             dy="0"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-size:14.0625px;font-family:Aptos;fill:#000000"
-             id="tspan30">identiteit</tspan></tspan></text>
+      <g
+         transform="translate(-11.420396,-38.570426)"
+         id="g14">
+        <rect
+           x="298.5"
+           y="311.5"
+           width="129"
+           height="49"
+           stroke="#223f59"
+           stroke-width="2.66667"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           fill="#ffffff"
+           id="rect1" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(320.152,333)"
+           id="text1">Verklarende</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(343.819,350)"
+           id="text2">partij</text>
+        <rect
+           x="560.5"
+           y="311.5"
+           width="129"
+           height="49"
+           stroke="#223f59"
+           stroke-width="2.66667"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           fill="#ffffff"
+           id="rect2" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(589.547,341)"
+           id="text3">Gebruiker</text>
+        <rect
+           x="821.5"
+           y="311.5"
+           width="129"
+           height="49"
+           stroke="#223f59"
+           stroke-width="2.66667"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           fill="#ffffff"
+           id="rect3" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(836.691,333)"
+           id="text4">Vertrouwende</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(867.278,350)"
+           id="text5">partij</text>
+        <path
+           d="m 427.5,335 h 125.902 v 1 H 427.5 Z m 124.569,-3.5 8,4 -8,4 z"
+           id="path5" />
+        <rect
+           x="527.5"
+           y="447.5"
+           width="195"
+           height="49"
+           stroke="#223f59"
+           stroke-width="2.66667"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           fill="#ffffff"
+           id="rect5" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(571.213,469)"
+           id="text6">Registratie van</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="14px"
+           transform="translate(543.547,486)"
+           id="text7">verifieerbare gegevens</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(459.563,311)"
+           id="text8">verifieerbare</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(467.563,325)"
+           id="text9">verklaring</text>
+        <path
+           d="m 689.5,335 h 125.902 v 1 H 689.5 Z m 124.569,-3.5 8,4 -8,4 z"
+           id="path9" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(721.291,314)"
+           id="text10">verifieerbare</text>
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(725.704,328)"
+           id="text11">presentatie</text>
+        <path
+           d="m 0,-0.5 h 111.833 c 0.277,0 0.5,0.223858 0.5,0.5 v 157.592 h -1 V 0 l 0.5,0.5 H 0 Z m 115.833,156.759 -4,8 -4,-8 z"
+           transform="matrix(0,1,1,0,362.5,360.5)"
+           id="path11" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(400.939,461)"
+           id="text12">schrijven</text>
+        <path
+           d="m 0,-0.5 h 164.259 c 0.276,0 0.5,0.223858 0.5,0.5 v 105.167 h -1 V 0 l 0.5,0.5 H 0 Z m 168.259,104.333 -4,8 -4,-8 z"
+           transform="matrix(1,0,0,-1,722.5,472.334)"
+           id="path12" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(820.132,461)"
+           id="text13">lezen</text>
+        <path
+           d="M 0.5,-6.01336e-7 0.500097,80.628 h -1 L -0.5,6.01336e-7 Z M 4.0001,79.2947 l -3.999995013,8 -4.000004987,-8 z"
+           transform="matrix(-1,0,0,1,624.5,360.5)"
+           id="path13" />
+        <text
+           font-family="Verdana, Verdana_MSFontService, sans-serif"
+           font-weight="400"
+           font-size="12px"
+           transform="translate(559.302,405)"
+           id="text14">identiteit</text>
+      </g>
     </g>
   </g>
 </svg>
