@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoek vrijwillig machtigen van organisaties"
+    name="Onderzoek toekomstige inrichting van machtigen"
     id="id-61dc33c76ec94288b37d10018c2e8caa"
-    documentation="Het is wenselijk om te onderzoeken hoe met vrijwillig machtigen van organisaties in de toekomst zou moeten worden omgegaan. Is het wenselijk om eHerkenning machtigen uit te breiden met alle veelvoorkomende vormen van vrijwillig machtigen? Mogelijk kan dit ook met de EDI wallet worden ondersteund. Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen of een centrale oplossing wenselijk is."/>
+    documentation="Het is wenselijk om te onderzoeken hoe met (vrijwillig) machtigen in de toekomst zou moeten worden omgegaan. Is het wenselijk om eHerkenning en/of DigiD machtigen uit te breiden met alle veelvoorkomende vormen van machtigen? Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen of een centrale of federatieve oplossing wenselijk is. Mogelijk kan dit ook met de EDI wallet worden ondersteund."/>

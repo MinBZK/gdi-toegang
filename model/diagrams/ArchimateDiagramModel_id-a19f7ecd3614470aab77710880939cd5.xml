@@ -480,13 +480,42 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-c4f11611cc614ba5b9dc5d93c320ea20.xml#id-c4f11611cc614ba5b9dc5d93c320ea20"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c483245cf49e477c8e2b8e1ed021b469"
+        lineColor="#c0c0c0"
+        source="id-1a50ea7c6a7c44ea86ca00cc8d14de9a"
+        target="id-b04701b6a70c448385a623e7f8631f4f">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-9e0ceccb2f5648a289ceea6506fc5265.xml#id-9e0ceccb2f5648a289ceea6506fc5265"/>
+    </sourceConnections>
     <bounds
         x="24"
         y="312"
         width="145"
-        height="97"/>
+        height="121"/>
     <archimateElement
         xsi:type="archimate:Representation"
         href="Representation_id-791bb5c9919a4cc0a039519e68700363.xml#id-791bb5c9919a4cc0a039519e68700363"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b04701b6a70c448385a623e7f8631f4f"
+      targetConnections="id-c483245cf49e477c8e2b8e1ed021b469"
+      textAlignment="1"
+      fillColor="#ffffff"
+      textPosition="1">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <bounds
+        x="240"
+        y="408"
+        width="205"
+        height="25"/>
+    <archimateElement
+        xsi:type="archimate:Representation"
+        href="Representation_id-2ce199487e094f099863995e07a7e605.xml#id-2ce199487e094f099863995e07a7e605"/>
   </children>
 </archimate:ArchimateDiagramModel>
