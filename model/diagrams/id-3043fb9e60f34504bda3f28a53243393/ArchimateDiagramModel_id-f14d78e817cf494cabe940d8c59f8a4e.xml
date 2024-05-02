@@ -40,7 +40,7 @@
         x="396"
         y="12"
         width="181"
-        height="493"/>
+        height="385"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cf9d7175ce484d46afc97b9a920f8c76"
@@ -188,9 +188,9 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="516"
+        y="408"
         width="565"
-        height="313"/>
+        height="193"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3844bb15fec848d0b6b41cd1d2d21f59"
@@ -367,7 +367,7 @@
         x="588"
         y="12"
         width="181"
-        height="493"/>
+        height="385"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-83db5a52a2914474a04a7152fa9d12e0.xml#id-83db5a52a2914474a04a7152fa9d12e0"/>
@@ -380,9 +380,9 @@
         value="2"/>
     <bounds
         x="780"
-        y="516"
+        y="408"
         width="180"
-        height="313"/>
+        height="193"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-89cae607ed114aa9b258920260a4499c.xml#id-89cae607ed114aa9b258920260a4499c"/>
@@ -406,7 +406,7 @@
         x="204"
         y="12"
         width="181"
-        height="493"/>
+        height="385"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-002ad762124a4ef6924462af0ce60285"
@@ -437,9 +437,9 @@
         value="2"/>
     <bounds
         x="589"
-        y="516"
+        y="408"
         width="180"
-        height="313"/>
+        height="193"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-b750feb34d9c40588f9443c33145b59e.xml#id-b750feb34d9c40588f9443c33145b59e"/>
@@ -472,7 +472,7 @@
         x="780"
         y="12"
         width="181"
-        height="493"/>
+        height="385"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-c5998016874b4a3f9a80d62f09af3f33.xml#id-c5998016874b4a3f9a80d62f09af3f33"/>
@@ -529,7 +529,7 @@
         x="12"
         y="132"
         width="181"
-        height="373"/>
+        height="265"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-36e35231922e4cef9641497267eb7640"
