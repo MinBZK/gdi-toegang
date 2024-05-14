@@ -1,12 +1,13 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="machtiging"
-    id="id-de8f02c80d5744ea84db9883add41991">
+    name="machtigingrelatie"
+    id="id-0d6e34583cbd438e92297afab556821b"
+    documentation="de relatie met een machtigingsregister">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-796d8d20bc8947d29a2838fdb0886cfe.xml#id-796d8d20bc8947d29a2838fdb0886cfe"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-92b61d714b7f4ed6a2ffed3d71bc34be.xml#id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
+      href="ApplicationComponent_id-e174ec2135624a169d450181d3359c6f.xml#id-e174ec2135624a169d450181d3359c6f"/>
 </archimate:FlowRelationship>

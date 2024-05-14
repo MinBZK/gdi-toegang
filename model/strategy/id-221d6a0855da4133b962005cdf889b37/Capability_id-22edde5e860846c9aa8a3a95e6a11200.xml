@@ -1,5 +1,5 @@
-<archimate:BusinessFunction
+<archimate:Capability
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Managen fraude"
-    id="id-40c81c1087394f71aa0ad0c1775a97fb"
+    name="Identiteitsfraude bestrijden"
+    id="id-22edde5e860846c9aa8a3a95e6a11200"
     documentation="Het voorkomen, detecteren, opvolgen en herstellen van fraude met authenticatiemiddelen."/>

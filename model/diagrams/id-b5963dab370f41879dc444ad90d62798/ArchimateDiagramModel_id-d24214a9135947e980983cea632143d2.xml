@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Functiemodel met bedrijfsobjecten"
+    name="Bedrijfsfunctiemodel met bedrijfsobjecten"
     id="id-d24214a9135947e980983cea632143d2">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
