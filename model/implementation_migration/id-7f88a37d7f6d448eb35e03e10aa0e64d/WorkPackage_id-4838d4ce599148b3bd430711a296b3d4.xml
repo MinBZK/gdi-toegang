@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Migratie van SAML naar OpenID Connect"
+    id="id-4838d4ce599148b3bd430711a296b3d4"
+    documentation="De positie van de SAML standaard zoals ondersteund door DigiD en eHerkenning is in de markt inmiddels ingenomen door OpenID Connect. Er zou dan ook een migratie naar OpenID Connect ingezet moeten worden."/>

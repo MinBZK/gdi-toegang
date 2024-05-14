@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Dienstverleners verlenen toegang tot digitale diensten als zij voldoende vertrouwen hebben"
+    name="2. Dienstverleners verlenen toegang tot digitale diensten als zij voldoende vertrouwen hebben"
     id="id-b4dce57205fe4d48b888481350c6fae1"
     documentation="Zij krijgen dit vertrouwen als zij van vertrouwde verklarende partijen (zoals authenticatie- en machtigingsdiensten) verifieerbare verklaringen ontvangen over de digitale identiteit en bevoegdheid van de gebruiker. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.">
   <properties

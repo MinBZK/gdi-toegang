@@ -79,8 +79,13 @@
         target="id-91dd2b61dad94cfe95b808a82a5039ef">
       <bendpoints
           startX="-24"
-          startY="-147"
+          startY="-159"
           endX="216"
+          endY="-3"/>
+      <bendpoints
+          startX="-144"
+          startY="-159"
+          endX="96"
           endY="-3"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
@@ -115,11 +120,6 @@
         id="id-fda118a8415f49ab8fba04088b97f7e8"
         source="id-89da747fc64748089cf8d1ee7d3483fa"
         target="id-f39f69dd804f4bc386a8578ae06f348e">
-      <bendpoints
-          startX="240"
-          startY="9"
-          endX="-242"
-          endY="13"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-e3156b5f9b1d4fd39002ff53bd4f50a0.xml#id-e3156b5f9b1d4fd39002ff53bd4f50a0"/>
@@ -147,12 +147,15 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-5fcfec9580ee4583933a8182b65534e1"
         source="id-89da747fc64748089cf8d1ee7d3483fa"
-        target="id-f39f69dd804f4bc386a8578ae06f348e">
+        target="id-72276c4a1cb54174b07fef6ba9030687">
       <bendpoints
-          startX="252"
-          startY="-15"
-          endX="-230"
-          endY="-11"/>
+          startY="-207"
+          endX="-732"
+          endY="-51"/>
+      <bendpoints
+          startX="732"
+          startY="-207"
+          endY="-51"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-1dfa61114d554b759470091272b56b39.xml#id-1dfa61114d554b759470091272b56b39"/>
@@ -161,17 +164,17 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c366a9f8d4d4489d80bbc2b027e6fc58"
         source="id-89da747fc64748089cf8d1ee7d3483fa"
-        target="id-3b7e87e89d0a47e788d6de4de1348233">
+        target="id-16dd1133505a447aa7629012b90daee4">
       <bendpoints
-          startX="36"
-          startY="-87"
-          endX="-446"
-          endY="73"/>
+          startX="24"
+          startY="-159"
+          endX="-216"
+          endY="-3"/>
       <bendpoints
-          startX="456"
-          startY="-87"
-          endX="-26"
-          endY="73"/>
+          startX="156"
+          startY="-159"
+          endX="-84"
+          endY="-3"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-a460ce6a84ab4b6dbc5a857e13f4ce26.xml#id-a460ce6a84ab4b6dbc5a857e13f4ce26"/>
@@ -357,7 +360,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-72276c4a1cb54174b07fef6ba9030687"
-      targetConnections="id-deaf9d6fc91545f197732396b2bcf987 id-d1acab40f30a429a94ef8879ab1c73a2"
+      targetConnections="id-deaf9d6fc91545f197732396b2bcf987 id-d1acab40f30a429a94ef8879ab1c73a2 id-5fcfec9580ee4583933a8182b65534e1"
       fillColor="#ffffff"
       textPosition="1">
     <features
@@ -436,6 +439,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-16dd1133505a447aa7629012b90daee4"
+      targetConnections="id-c366a9f8d4d4489d80bbc2b027e6fc58"
       fillColor="#ffffff"
       textPosition="1">
     <features
@@ -462,7 +466,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-3b7e87e89d0a47e788d6de4de1348233"
-      targetConnections="id-23c2684862d54097b6f8905d814a3cb8 id-25e57f97849144ce930abb73b7d7a90c id-c366a9f8d4d4489d80bbc2b027e6fc58"
+      targetConnections="id-23c2684862d54097b6f8905d814a3cb8 id-25e57f97849144ce930abb73b7d7a90c"
       fillColor="#ffffff"
       textPosition="1">
     <features
@@ -704,7 +708,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f39f69dd804f4bc386a8578ae06f348e"
-      targetConnections="id-fda118a8415f49ab8fba04088b97f7e8 id-78d9a79acb0646f0881d8f718ce84386 id-586b250a401b4398996c7841b05f72d9 id-5fcfec9580ee4583933a8182b65534e1"
+      targetConnections="id-fda118a8415f49ab8fba04088b97f7e8 id-78d9a79acb0646f0881d8f718ce84386 id-586b250a401b4398996c7841b05f72d9"
       fillColor="#ffffff"
       textPosition="1">
     <features
