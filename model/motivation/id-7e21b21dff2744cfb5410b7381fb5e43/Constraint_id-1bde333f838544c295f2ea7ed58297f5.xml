@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FSC"
+    id="id-1bde333f838544c295f2ea7ed58297f5"
+    documentation="De Federated Service Connectivity (FSC) standaard beschrijft hoe organisaties kunnen interacteren op een uniforme en geautomatiseerde wijze. De standaard is ontwikkeld in de context van de Common Ground visie.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="VNG"/>
+  <properties
+      key="URL"
+      value="https://commonground.gitlab.io/standards/fsc/"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>

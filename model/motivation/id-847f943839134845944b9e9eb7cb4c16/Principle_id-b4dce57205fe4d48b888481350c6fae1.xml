@@ -1,29 +1,29 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="2. Dienstverleners verlenen toegang tot digitale diensten als zij voldoende vertrouwen hebben"
+    name="2. Toegang is gebaseerd op vertrouwen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Zij krijgen dit vertrouwen als zij van vertrouwde verklarende partijen (zoals authenticatie- en machtigingsdiensten) verifieerbare verklaringen ontvangen over de digitale identiteit en bevoegdheid van de gebruiker. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.">
+    documentation="Vertrouwende partijen krijgen vertrouwen als zij van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen over de digitale identiteit en bevoegdheid van de gebruiker. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.">
   <properties
       key="Implicaties"
-      value="1. Dienstverleners sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen."/>
+      value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen"/>
   <properties
       key="Implicaties"
-      value="2. Dienstverleners borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
+      value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
   <properties
       key="Implicaties"
-      value="3. De gebruiker kent de dienstverlener en heeft daar vertrouwen in doordat daar bewijs voor is (typisch in de vorm van een webcertificaat)."/>
+      value="3. De gebruiker kent de identiteit van de dienstverlener en kan de authenticiteit ervan controleren. "/>
   <properties
       key="Implicaties"
-      value="4. De dienstverlener kent de verklarende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
+      value="4. De vertrouwende partij kent de verklarende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
       value="5. De dienstverlener kent de gebruiker en vertrouwt deze doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="6. Als een verifieerbare verklaring afkomstig is uit een wallet dan heeft de dienstverlener bewijs dat deze verklaring niet is aangepast of meermalig is verstuurd."/>
+      value="6. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
   <properties
       key="Implicaties"
-      value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de actualiteit en of deze gekwalificeerd is."/>
+      value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
   <properties
       key="Implicaties"
       value="8. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>

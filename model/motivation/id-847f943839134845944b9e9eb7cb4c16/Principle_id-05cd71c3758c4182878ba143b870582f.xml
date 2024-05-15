@@ -1,21 +1,18 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="4. De Nederlandse toegangsinfrastructuur ontzorgt dienstverleners"
+    name="4. De Nederlandse toegangsinfrastructuur ontzorgt dienstverleners met afspraken, standaarden en voorzieningen"
     id="id-05cd71c3758c4182878ba143b870582f"
-    documentation="De Wet digitale overheid geeft de mogelijkheid dat er in de toekomst meer authenticatiemidellen kunnen worden gebruikt. Met de nieuwe eIDAS verordening kunnen straks ook European Digital Identity Wallets worden gebruikt. Daarnaast zijn er allerlei machtigingsdiensten die van toepassing kunnen zijn. Het is inefficiënt voor dienstverleners als zij op al deze authenticatiemiddelen en machtigingsdiensten individueel moeten aansluiten. De wet stelt dat er een routeringsvoorziening beschikbaar kan worden gesteld voor het toegankelijk ontsluiten van authenticatiemiddelen richtig dienstverleners.">
+    documentation="Er kunnen meer authenticatiemiddelen worden toegelaten. Met de nieuwe eIDAS verordening kunnen straks ook European Digital Identity Wallets worden gebruikt. Daarnaast zijn er allerlei machtigingsdiensten die van toepassing kunnen zijn. Het is inefficiënt voor dienstverleners als ieder voor zich met alle authenticatie- en machtigingsdiensten individuele afspraken en koppelingen moeten maken en beheren. De GDI is een verzameling afspraken, standaarden en voorzieningen, waarbij afspraken de voorkeur hebben boven standaarden boven voorzieningen.">
   <properties
       key="Implicaties"
-      value="1. Dienstverleners hebben één generiek koppelvlak waarmee zij kunnen aansluiten op de toegangsinfrastructuur, naast de mogelijkheid om ook direct verbinding te leggen met specifieke voorzieningen voor partijen die daar behoefte aan hebben."/>
+      value="1. Er zijn overheidsbrede afspraken en standaarden (koppelvlakspecificaties) waarmee snel kan worden aangesloten op authenticatie- en machtigingsdiensten."/>
   <properties
       key="Implicaties"
-      value="2. De toegangsinfrastructuur biedt achter het generieke koppelvlak ondersteuning voor meerdere authenticatiemiddelen en ontsluiting van alle landelijke machtingsregisters."/>
+      value="2. Authenticatiediensten en machtigingsdiensten conformeren zich aan de overheidsbrede afspraken en standaarden."/>
   <properties
       key="Implicaties"
-      value="3. De toegangsinfrastructuur kan voor een voorgedefinieerde set van attributen relevante verklaringen bij bronregisters ophalen en meeleveren met de identiteitsverklaring naar vertrouwende partijen (al dan niet via een wallet)."/>
+      value="3. Er zijn voorzieningen die het dienstverleners eenvoudiger maken om aan te sluiten op de toegangsinfrastructuur."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur ondersteunt toegang via alle relevante kanalen, inclusief geautomatiseerde toegang tot systemen (API’s)."/>
-  <properties
-      key="Implicaties"
-      value="5. Dienstverleners worden niet gedwongen commerciële diensten af te nemen om meerdere authenticatiemiddelen en machtigingsregisters te ondersteunen."/>
+      value="4. De toegangsinfrastructuur levert een dienst waarmee voor een voorgedefinieerde set van attributen relevante verklaringen bij bronregisters kunnen worden opgehaald."/>
 </archimate:Principle>
