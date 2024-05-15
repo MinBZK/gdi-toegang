@@ -55,11 +55,13 @@
 &lt;h3&gt;PKIoverheid en Digikoppeling&lt;/h3&gt;
 &lt;p&gt;
 Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel maakt gebruik van certificaten, met daarin unieke identificaties van organisaties middels de OIN systematiek. Deze OIN systematiek leunt voor een belangrijk deel op bestaande registraties zoals het Handelsregister. Het is echter ook mogelijk om een OIN aan te vragen, voor restgroepen die niet in het Handelsregister geregistreerd staan. Het gebruik van PKIoverheid vraagt specifieke aandacht voor het periodiek aanvragen en installeren van certificaten.
+&lt;/p&gt;
+&lt;p&gt;
 De Digikoppeling standaard richt zich specifiek op beveiligde uitwisseling van gegevens. Onderdeel daarvan zijn afspraken over hoe wordt omgegaan met authenticatie bij gegevensuitwisseling. Daarbij vooral wordt verwezen naar het gebruik van PKIoverheid certificaten en het tweezijdig gebruik van TLS. Dat betekent dat zowel het zendende systeem als het ontvangende systeem moet beschikken over een PKIoverheid certificaat. 
 &lt;/p&gt;
 &lt;h3&gt;OpenID Connect en OAuth&lt;/h3&gt;
 &lt;p&gt;
-De combinatie OpenID Connect en OAuth wordt tegenwoordig veel gebruikt om namens een gebruiker een ander systeem te benaderen. OpenID Connect is een protocol dat specifiek gericht is op authenticatie en gezien kan worden als een extensie van OAuth. OAuth is een protocol voor autorisatie en specifiek gericht op het autoriseren van het systeem waarmee een gebruiker interacteert, om namens die gebruiker gegevens van die gebruiker op te halen bij een ander systeem. Er zijn Nederlandse profielen opgesteld voor OpenID Connect en OAuth: en NL GOV Assurance profile voor OpenID Connect en NL GOV Assurance profile for OAuth 2.0.
+De combinatie OpenID Connect en OAuth wordt tegenwoordig veel gebruikt om namens een gebruiker een ander systeem te benaderen. OpenID Connect is een protocol dat specifiek gericht is op authenticatie en gezien kan worden als een extensie van OAuth. OAuth is een protocol voor autorisatie en specifiek gericht op het autoriseren van het systeem waarmee een gebruiker interacteert, om namens die gebruiker gegevens van die gebruiker op te halen bij een ander systeem. Er zijn Nederlandse profielen opgesteld voor OpenID Connect en OAuth: NL GOV Assurance profile voor OpenID Connect en NL GOV Assurance profile for OAuth 2.0. Beiden staan op de "pas toe, leg uit" lijst van Forum Standaardisatie.
 &lt;/p&gt;
 &lt;p&gt;
 Het gebruik van OpenID Connect en OAuth werkt ongeveer als volgt. Een gebruiker voert gebruikersnaam en wachtwoord in en deze worden gecontroleerd bij een OpenID Connect Provider. Na succesvolle met OpenID Connect ontstaan er drie tokens: een ID-token dat een beschrijving geeft van de ingelogde gebruiker, een access token dat gezien kan worden als de authenticatieverklaring en een refresh token dat gebruikt kan worden om het access token te vernieuwen als het is verlopen. De tokens worden door het systeem dat ze heeft verkregen doorgegeven aan het systeem dat wordt aangeroepen. Deze heeft daarmee toegang tot gegevens over de digitale identiteit van de eindgebruiker en weet dat persoonsgegevens die daarbij horen kunnen worden geleverd aan het aanroepende systeem.
@@ -67,7 +69,7 @@ Het gebruik van OpenID Connect en OAuth werkt ongeveer als volgt. Een gebruiker 
 &lt;p&gt;
 Op dit moment ondersteunen DigiD en eHerkenning nog geen OpenID Connect, maar de SAML standaard. Dat betekent dat het gebruik van OpenID Connect en OAuth vooralsnog alleen gebruikt kan worden in scenario&#8217;s waarin geen DigiD of eHerkenning wordt gebruikt of waarin er een tussenliggende OpenID Connect Provider is ingericht die de SAML tokens vertaalt naar OpenID Connect tokens. Denk daarbij bijvoorbeeld aan scenario&#8217;s om toegang te geven aan medewerkers voor het gebruik van systemen van de organisatie van deze medewerker.
 &lt;/p&gt;
-&lt;h3&gt;Federated Service Connectivity&lt;h3&gt;
+&lt;h3&gt;Federated Service Connectivity&lt;/h3&gt;
 &lt;p&gt;
 De Federated Service Connectivity (FSC) standaard is ontwikkeld in de context van het Common Ground programma voor gemeenten. Het standaardiseert de werking van het NLX component, een tussenliggend component dat het gebruik van API&#8217;s vereenvoudigt. De standaard wordt inmiddels ondersteund door verschillende leveranciers en is gepositioneerd als een brede standaard die door alle overheidsorganisaties kan worden gebruikt. Het is voorgesteld als onderdeel van het Digikoppeling profiel voor REST API&#8217;s, maar kan in bredere zin worden gebruikt voor gegevensuitwisseling tussen systemen over HTTP.
 &lt;/p&gt;
