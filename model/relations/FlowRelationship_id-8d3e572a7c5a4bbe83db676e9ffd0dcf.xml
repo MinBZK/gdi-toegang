@@ -1,12 +1,13 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="status authenticatiemiddel"
-    id="id-a81bb7d882a44caba710b0902446d3db">
+    name="activatie"
+    id="id-8d3e572a7c5a4bbe83db676e9ffd0dcf"
+    documentation="BSN, naam en geboortedatum gaat naar BSNk-activatie en PI/PP gaat terug">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-93a1371d1b704ef9b0d88e433f3ab319.xml#id-93a1371d1b704ef9b0d88e433f3ab319"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-e174ec2135624a169d450181d3359c6f.xml#id-e174ec2135624a169d450181d3359c6f"/>
+      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
 </archimate:FlowRelationship>

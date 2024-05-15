@@ -1,7 +1,7 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk-activatie"
-    id="id-e25448c20ae04cfc85e54847cde73e76">
+    name="BSNk-transformatie"
+    id="id-01049568026845549513722ef5e8079b">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

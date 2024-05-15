@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="sleutel"
+    name="BSNk sleutel"
     id="id-0a9c45b76fa545d1897913ff4e453778">
   <source
       xsi:type="archimate:ApplicationComponent"

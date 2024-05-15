@@ -1,6 +1,6 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="eHerkenning middelenverstrekker"
+    name="eHerkenning authenticatiedienst"
     id="id-93a1371d1b704ef9b0d88e433f3ab319"
     documentation="Een rol binnen het eHerkenning stelsel die de verantwoordelijkheid heeft voor het uitgeven van middelen conform de eisen van het gespecificeerde betrouwbaarheidsniveau.">
   <properties

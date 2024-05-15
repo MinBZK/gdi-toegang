@@ -1,12 +1,11 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="activatie"
-    id="id-e343c1f460b24dbe9062e465143c9166">
+    id="id-76aa8287523f417686168135b54f9902">
   <source
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+      href="ApplicationComponent_id-7a16034297c64f98ac840c5d6897d749.xml#id-7a16034297c64f98ac840c5d6897d749"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-e174ec2135624a169d450181d3359c6f.xml#id-e174ec2135624a169d450181d3359c6f"/>
+      href="ApplicationComponent_id-796d8d20bc8947d29a2838fdb0886cfe.xml#id-796d8d20bc8947d29a2838fdb0886cfe"/>
 </archimate:FlowRelationship>

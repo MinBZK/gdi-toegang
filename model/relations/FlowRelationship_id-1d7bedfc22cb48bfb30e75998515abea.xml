@@ -1,12 +1,11 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="KvK uittreksel"
-    id="id-568a63a028f14942a34f2bd30e386aed"
-    documentation="KvK nummer, vestigingsnummer, RSIN, wettelijke vertegenwoordiging">
+    name="dienstverlener, dienst"
+    id="id-1d7bedfc22cb48bfb30e75998515abea">
   <source
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-15f0c458430247b1a8a349cda72a5848.xml#id-15f0c458430247b1a8a349cda72a5848"/>
+      href="ApplicationComponent_id-a59ea169cbdf49d8bcc1cf14a6eee959.xml#id-a59ea169cbdf49d8bcc1cf14a6eee959"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-796d8d20bc8947d29a2838fdb0886cfe.xml#id-796d8d20bc8947d29a2838fdb0886cfe"/>

@@ -1,12 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk sleutel"
-    id="id-3f794ddeb9f240f580e8cff9fc046678"
-    documentation="ondersteuning t.b.v. decryptie (BSNk-Decryptie)">
+    name="dienstverlener, dienst"
+    id="id-e9286eb8cd1b4277af21412a38b12ea2"
+    documentation="voor dienstencatalogus en aansluiten">
   <source
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-5730a811d02540318bd5939dbf387d8a.xml#id-5730a811d02540318bd5939dbf387d8a"/>
+      href="ApplicationComponent_id-baa0a1a458e54436813047815a6a1ac6.xml#id-baa0a1a458e54436813047815a6a1ac6"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-92b61d714b7f4ed6a2ffed3d71bc34be.xml#id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
