@@ -25,6 +25,7 @@ Doelarchitectuur:
 * Architectuurvisie: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-57896b8c4e854e7b92ed667986aa09ee.html">beschrijving</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-toegang/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principesdetails.html">details</a>
 * Gewenste voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningendetails.html">details</a>
+* Verdieping op thema: systeem naar systeem toegang: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-7af4783895fc4fb6b4cb8e96e8708e85.html">beschrijving</a>
 * Veranderinitiatieven: <a href="https://minbzk.github.io/gdi-toegang/content/views/veranderinitiatieven.html">overzicht</a>
 
 Bijlagen:
