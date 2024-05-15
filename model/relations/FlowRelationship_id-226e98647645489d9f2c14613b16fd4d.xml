@@ -1,0 +1,13 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="activatie"
+    id="id-226e98647645489d9f2c14613b16fd4d"
+    documentation="BSN gaat naar BSNk-activatie en PI/PP gaat terug">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-a999c3ee595a4b95b7260d9689934bcc.xml#id-a999c3ee595a4b95b7260d9689934bcc"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+</archimate:FlowRelationship>

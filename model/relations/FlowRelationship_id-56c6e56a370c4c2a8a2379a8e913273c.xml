@@ -1,13 +1,13 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSN"
-    id="id-020edbe7ab824ff9a7953fe685fd57ea"
-    documentation="op basis van persoonsgegevens">
+    name="persoon"
+    id="id-56c6e56a370c4c2a8a2379a8e913273c"
+    documentation="op basis van BSN">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-06be8dd9e8c645d6bb482b05c9185e03.xml#id-06be8dd9e8c645d6bb482b05c9185e03"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-0298e208c5304d6cb188fa4ae8c25a1d.xml#id-0298e208c5304d6cb188fa4ae8c25a1d"/>
+      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
 </archimate:FlowRelationship>

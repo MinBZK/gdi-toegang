@@ -2,12 +2,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BSNk sleutel"
-    id="id-3f794ddeb9f240f580e8cff9fc046678"
-    documentation="ondersteuning t.b.v. decryptie (BSNk-Decryptie)">
+    id="id-70b8813b355740ebbc9b84652ee3fcac">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-5730a811d02540318bd5939dbf387d8a.xml#id-5730a811d02540318bd5939dbf387d8a"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-92b61d714b7f4ed6a2ffed3d71bc34be.xml#id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
+      href="ApplicationComponent_id-01049568026845549513722ef5e8079b.xml#id-01049568026845549513722ef5e8079b"/>
 </archimate:FlowRelationship>

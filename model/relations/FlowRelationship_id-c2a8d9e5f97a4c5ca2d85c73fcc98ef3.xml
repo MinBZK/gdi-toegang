@@ -1,11 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="PP, VP, sleutel"
-    id="id-a5d456bc4ef646779eed4d5252ed2bdf">
+    name="VI/VP@DV"
+    id="id-c2a8d9e5f97a4c5ca2d85c73fcc98ef3"
+    documentation="op basis van input van PI/PP en dienstverlener">
   <source
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_id-e25448c20ae04cfc85e54847cde73e76.xml#id-e25448c20ae04cfc85e54847cde73e76"/>
+      href="ApplicationComponent_id-01049568026845549513722ef5e8079b.xml#id-01049568026845549513722ef5e8079b"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_id-8263de75e16b4b5189e83635d262aca6.xml#id-8263de75e16b4b5189e83635d262aca6"/>
