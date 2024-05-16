@@ -1,7 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk-activatie"
-    id="id-e25448c20ae04cfc85e54847cde73e76">
+    name="BSNk-Activatie"
+    id="id-e25448c20ae04cfc85e54847cde73e76"
+    documentation="Een voorziening die een polymorfe identiteit (PI) en polymorf pseudoniem (PP) bepaalt op basis van persoonsgegevens.">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>
