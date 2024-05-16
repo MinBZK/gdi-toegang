@@ -1,8 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk-sleutelbeheer"
+    name="BSNk-Sleutelbeheer"
     id="id-5730a811d02540318bd5939dbf387d8a"
-    documentation="Het BSNk-PP zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn.">
+    documentation="Een voorziening die de sleutels beheert en verstrekt die gebruikt kunnen worden om een versleutelde identiteit (VI) en versleuteld pseudoniem (VP) terug te vertalen naar een polymorfe identiteit (PI) en polymorf pseudoniem (PP).">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

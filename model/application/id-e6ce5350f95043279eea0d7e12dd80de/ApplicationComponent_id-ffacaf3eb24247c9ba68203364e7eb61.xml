@@ -1,6 +1,6 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk Decryptie"
+    name="BSNk-Decryptie"
     id="id-ffacaf3eb24247c9ba68203364e7eb61"
     documentation="Een voorziening die zorgt voor het omzetten van een VI/VP naar een BSN respectievelijk pseudoniem van een gebruiker. ">
   <properties

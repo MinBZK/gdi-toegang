@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Huidige situatie (alles voorafgaand aan authenticatieverzoek)"
+    name="Huidige situatie (voorafgaand aan authenticatieverzoek)"
     id="id-2b1d983a65074a28add60f6875fb9f2b">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -132,9 +132,9 @@
         target="id-e6db99490fe145c2acd1e3083a45b5ce">
       <bendpoints
           startX="-180"
-          startY="3"
+          startY="-21"
           endX="180"
-          endY="-9"/>
+          endY="-21"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-0a9c45b76fa545d1897913ff4e453778.xml#id-0a9c45b76fa545d1897913ff4e453778"/>
@@ -533,9 +533,8 @@
           endX="-733"
           endY="81"/>
       <bendpoints
-          startX="720"
+          startX="732"
           startY="81"
-          endX="-12"
           endY="81"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
@@ -627,19 +626,19 @@
         source="id-8fc215e718374fe6bb24cbf408298bcb"
         target="id-f1a8bd1cb84842a692bf10ed96a5f62d">
       <bendpoints
-          startX="47"
-          startY="-99"
-          endX="708"
-          endY="-561"/>
+          startX="96"
+          startY="-21"
+          endX="756"
+          endY="-477"/>
       <bendpoints
-          startX="263"
-          startY="-99"
-          endX="924"
-          endY="-561"/>
+          startX="240"
+          startY="-21"
+          endX="900"
+          endY="-477"/>
       <bendpoints
-          startX="263"
-          startY="381"
-          endX="924"
+          startX="240"
+          startY="375"
+          endX="900"
           endY="-81"/>
       <bendpoints
           startX="-625"
@@ -656,10 +655,10 @@
         source="id-8fc215e718374fe6bb24cbf408298bcb"
         target="id-304fd74a5ee84e1c8a858d3c6c77edab">
       <bendpoints
-          startX="107"
-          startY="9"
+          startX="108"
+          startY="15"
           endX="768"
-          endY="-153"/>
+          endY="-141"/>
       <bendpoints
           startX="107"
           startY="249"
@@ -679,10 +678,10 @@
         source="id-8fc215e718374fe6bb24cbf408298bcb"
         target="id-76a020bcfa6347219e1d8d8f8a430f3e">
       <bendpoints
-          startX="179"
-          startY="-15"
+          startX="180"
+          startY="3"
           endX="840"
-          endY="-639"/>
+          endY="-615"/>
       <bendpoints
           startX="179"
           startY="549"
@@ -829,12 +828,13 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c7ca8b746b1341b19a9a54ce49a60107"
-      targetConnections="id-d2253d84c30043a8bd0bbcc98a1b3a1f">
+      targetConnections="id-d2253d84c30043a8bd0bbcc98a1b3a1f"
+      textPosition="1">
     <bounds
-        x="1477"
-        y="156"
-        width="120"
-        height="55"/>
+        x="1464"
+        y="144"
+        width="145"
+        height="67"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-01049568026845549513722ef5e8079b.xml#id-01049568026845549513722ef5e8079b"/>

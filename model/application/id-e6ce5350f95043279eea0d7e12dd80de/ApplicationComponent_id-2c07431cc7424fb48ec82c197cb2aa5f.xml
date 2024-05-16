@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PROBAS"
     id="id-2c07431cc7424fb48ec82c197cb2aa5f"
-    documentation="Protocollaire basisadministratie.">
+    documentation="De protocollaire basisadministratie die gegevens beheert over ambassades.">
   <properties
       key="Beheerorganisatie"
       value="Belastingdienst"/>

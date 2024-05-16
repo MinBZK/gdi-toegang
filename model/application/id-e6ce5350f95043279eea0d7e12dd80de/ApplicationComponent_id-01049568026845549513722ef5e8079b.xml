@@ -1,7 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="BSNk-transformatie"
-    id="id-01049568026845549513722ef5e8079b">
+    name="BSNk-Transformatie"
+    id="id-01049568026845549513722ef5e8079b"
+    documentation="Een voorziening die een geactiveerde polymorfe identiteit (PI) en polymorf pseudoniem (PP) vertaalt naar een versleutelde identiteit (VI) en versleuteld pseudoniem (VP).">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>
