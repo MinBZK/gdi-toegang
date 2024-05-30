@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ASN.1"
     id="id-02e2306f876145499ae002ebe38d89eb"
-    documentation="Abstract syntax notation one (ASN.1) wordt veel gebruikt voor het beschrijven van X.509 certificaten en toepassing daarvan. Voorbeeld van een toepassing is RSA public key voor beveiliging van het transactieverkeer in de elektronische handel. Hiernaast deze standaard een syntax om data in telecommunicatie en computer netwerken te representeren, te coderen, over te brengen en te decoderen.">
+    documentation="Abstract syntax notation one (ASN.1) een standaard interfacebeschrijvingstaal voor het definiëren van datastructuren die op een platformonafhankelijke manier kunnen worden geserialiseerd.">
   <properties
       key="Status"
       value="Aanbevolen"/>

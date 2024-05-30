@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Schaalbaarheid van dienstencatalogi"
+    id="id-de89877b42424eac8bc8eddc8462d007"
+    documentation="De huidige toegangsinfrastructuur is gebaseerd op toegang tot diensten niet op onderdelen daarbinnen. Deze diensten zijn echter niet gestandaardiseerd over organisaties, waardoor er een grote hoeveelheid van soortgelijke diensten in de dienstencatalogi staan, wat tot grote administratieve lasten, onderhoudslasten en doorlooptijden levert. Dit maakt het lastig schaalbaar. Daarbij komt dat meer fijnmaziger vormen van machtiging in de huidige inrichting alleen kan door hier extra diensten voor te definiëren, wat het probleem vergroot."/>

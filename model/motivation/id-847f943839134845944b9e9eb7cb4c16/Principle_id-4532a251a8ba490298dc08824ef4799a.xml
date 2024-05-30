@@ -1,21 +1,21 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="5. Beveiliging is niet afhankelijk van individuen"
+    name="7. Er zijn borgen om misbruik door overheden te voorkomen"
     id="id-4532a251a8ba490298dc08824ef4799a"
-    documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten. Mensen hebben soms ook verkeerde intenties. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk borgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden.">
+    documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten. Mensen hebben soms ook verkeerde intenties. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk borgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden. De fundamentele rechten en vrijheden van individuen moeten worden bewaakt. De NIS2 richtlijn beschrijft ook een aantal maatregelen die een  hiervoor een basis kunnen bieden, zoals de verplichting tot het aanwijzen van een toezichthoudende autoriteit. In Nederland is hiervoor de Rijksinspectie Digitale Infrastructuur (RDI) aangewezen.">
   <properties
       key="Implicaties"
-      value="1. Er worden technische beveiligingsmaatregelen geïmplementeerd die zijn geautomatiseerd en niet zomaar door individuen kunnen worden gepasseerd."/>
+      value="1. Er wordt bij de ontwikkeling van wet- en regelgeving bewust nagedacht over welke gegevens door de overheid moeten worden beheerd en/of mogen worden gedeeld, rekening houdend met beveiligings- en privacyrisico’s, alsook met de fundamentele rechten en vrijheden van individuen."/>
   <properties
       key="Implicaties"
-      value="2. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar."/>
+      value="2. Er worden geen privacy hotspots gecreëerd in systemen van individuele (overheids)organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
   <properties
       key="Implicaties"
-      value="3. Er wordt een zero trust beveiligingsmodel gehanteerd waarbij gebruikers en apparaten, zowel binnen als buiten het netwerk, worden behandeld als niet-vertrouwd en voortdurend worden geauthenticeerd en geautoriseerd op basis van factoren zoals apparaatstatus, netwerklocatie, tijd en gedrag."/>
+      value="3. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar."/>
   <properties
       key="Implicaties"
-      value="4. Toegang tot diensten en informatie-objecten wordt beperkt tot alleen dat wat nodig is voor de taken van de gebruiker (least priviledge)."/>
+      value="4. Burgers en organisaties hebben regie op hun eigen gegevens (zie principe in domeinarchitectuur gegevensuitwisseling)."/>
   <properties
       key="Implicaties"
-      value="5. Er worden geen privacy hotspots gecreëerd in systemen van individuele organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
+      value="5. Burgers en organisaties hebben inzicht in wie toegang heeft gekregen tot gegevens over henzelf en op basis van welk authenticatiemiddel, welke vertegenwoordigingsbevoegdheden en welke autorisatieregels."/>
 </archimate:Principle>

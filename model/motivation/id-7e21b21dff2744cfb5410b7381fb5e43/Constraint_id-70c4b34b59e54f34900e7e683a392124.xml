@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="JAdES"
+    id="id-70c4b34b59e54f34900e7e683a392124"
+    documentation="JAdES is een standaard voor het zetten van elektronische handtekeningen voor elektronische berichten in het JSON formaat.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="ETSI"/>
+  <properties
+      key="URL"
+      value="https://www.etsi.org/deliver/etsi_ts/119100_119199/11918201/01.01.01_60/ts_11918201v010101p.pdf"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>

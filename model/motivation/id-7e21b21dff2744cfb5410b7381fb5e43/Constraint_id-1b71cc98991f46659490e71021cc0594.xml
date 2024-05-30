@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="NL GOV Assurance profile for OAuth 2.0"
     id="id-1b71cc98991f46659490e71021cc0594"
-    documentation="NL GOV Assurance profile for OAuth 2.0 legt bindende afspraken vast over het gebruik van de de standaard OAuth 2.0 bij de Nederlandse overheid. In combinatie met onderliggende standaard OAuth 2.0 zorgt NL GOV Assurance profile for OAuth 2.0 ervoor dat de autorisatie van gebruikers van REST APIs van de overheid op een uniforme en eenduidige plaatsvindt.">
+    documentation="NL GOV Assurance profile for OAuth 2.0 legt bindende afspraken vast over het gebruik van de standaard OAuth 2.0 bij de Nederlandse overheid. ">
   <properties
       key="Status"
       value="Verplicht"/>

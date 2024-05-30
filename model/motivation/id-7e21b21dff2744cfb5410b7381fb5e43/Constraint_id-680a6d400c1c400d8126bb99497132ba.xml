@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="SCIM"
     id="id-680a6d400c1c400d8126bb99497132ba"
-    documentation="SCIM zorgt ervoor dat identiteitsinformatie van gebruikers systeemoverstijgend op de juiste plek aanwezig is. Hierdoor kunnen gegevens die niet meer in systemen horen te staan, omdat een gebruiker bijvoorbeeld niet langer in dat systeem hoeft te zijn opgenomen, worden verwijderd. Doordat dit geautomatiseerd gebeurt is relatief weinig inspanning nodig om de gewenste toevoeging of verwijdering van gegevens te realiseren. Deze standaard is gericht op het reduceren van kosten en complexiteit en het voorbouwen op bestaande protocollen. SCIM heeft als doel om gebruikers snel, goedkoop en eenvoudig in, uit en tussen clouddiensten te brengen.">
+    documentation="System for Cross-domain Identity Management (SCIM) zorgt ervoor dat identiteitsinformatie van gebruikers systeemoverstijgend op de juiste plek aanwezig is.">
   <properties
       key="Status"
       value="Aanbevolen"/>

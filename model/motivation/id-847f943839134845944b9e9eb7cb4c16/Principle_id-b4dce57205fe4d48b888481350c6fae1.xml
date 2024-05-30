@@ -1,30 +1,27 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="2. Toegang is gebaseerd op het creëren van noodzakelijk vertrouwen"
+    name="2. Toegang is gebaseerd op verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Vertrouwende partijen krijgen vertrouwen in de authenticiteit van de digitale identiteit en de bevoegdheden van deze digitale identiteit als zij hierover van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.">
+    documentation="Vertrouwende partijen krijgen vertrouwen in de authenticiteit van de digitale identiteit en de bevoegdheden van deze digitale identiteit als zij hierover van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
   <properties
       key="Implicaties"
-      value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen."/>
+      value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het vertrekken van toegang."/>
   <properties
       key="Implicaties"
       value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
   <properties
       key="Implicaties"
-      value="3. De gebruiker kent de identiteit van de dienstverlener en kan de authenticiteit ervan controleren. "/>
+      value="3. De vertrouwende partij kent de verklarende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
   <properties
       key="Implicaties"
-      value="4. De vertrouwende partij kent de verklarende partij en heeft daar vertrouwen in doordat daar bewijs voor is geleverd."/>
+      value="4. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
   <properties
       key="Implicaties"
-      value="5. De dienstverlener kent de gebruiker en vertrouwt deze doordat daar bewijs voor is geleverd."/>
+      value="5. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
   <properties
       key="Implicaties"
-      value="6. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
+      value="6. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
   <properties
       key="Implicaties"
-      value="7. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
-  <properties
-      key="Implicaties"
-      value="8. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
+      value="7. Bij toegang namens een organisatie is er een verifieerbare verklaring die de vertegenwoordigingsbevoegdheid bevat voor het vertegenwoordigen van de organisatie."/>
 </archimate:Principle>

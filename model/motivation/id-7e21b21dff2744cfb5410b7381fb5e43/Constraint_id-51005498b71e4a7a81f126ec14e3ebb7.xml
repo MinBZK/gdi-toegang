@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="FIDO"
     id="id-51005498b71e4a7a81f126ec14e3ebb7"
-    documentation="Een verzameling normen voor het ondersteunen van wachtwoordloze authenticatie. FIDO ondersteunt een volledig scala aan authenticatietechnologieën, waaronder biometrie, zoals vingerafdruk- en irisscanners, stem- en gezichtsherkenning, naast bestaande oplossingen en communicatiestandaarden zoals Trusted Platform Modules (TPM), USB security tokens, embedded Secure Elements (eSE), smartcards en near-field communication (NFC).">
+    documentation="Een verzameling normen voor het ondersteunen van wachtwoordloze authenticatie. ">
   <properties
       key="Status"
       value="In behandeling"/>
