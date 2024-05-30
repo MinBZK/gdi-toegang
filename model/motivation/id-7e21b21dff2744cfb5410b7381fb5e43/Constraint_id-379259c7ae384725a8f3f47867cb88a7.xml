@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="OAuth"
     id="id-379259c7ae384725a8f3f47867cb88a7"
-    documentation="Wanneer een gebruiker zich met succes authentiseert bij een webapplicatie met een OAuth 2.0-service, geeft de OAuth 2.0-service een token uit voor dit gebruikersaccount zodat de vertrouwende partijen de authenticatie op hun systemen kunnen accepteren. Door de verspreiding van API's die ontwikkelaars in staat stellen applicaties te maken die compatibel zijn met webgebaseerde platforms, is OAuth populair geworden als autorisatieprotocol en wordt het steeds vaker aangetroffen in bedrijfsweb- en desktoptoepassingen om gebruikersaccounts voor verschillende doeleinden toegang te geven tot applicaties.  ">
+    documentation="OAuth is een standaard voor het autoriseren van systemen op basis van machtigingen van gebruikers. ">
   <properties
       key="Status"
       value="Aanbevolen"/>

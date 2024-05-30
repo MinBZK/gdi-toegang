@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="NL GOV Assurance Profile for OIDC"
     id="id-6fda41fd347642f1851530495831c74b"
-    documentation="Het NL GOV Assurance profile for OIDC 1.0 geeft door dienstverleners aangeboden diensten de mogelijkheid om de identiteit van een eindgebruiker te controleren gebaseerd op verschillende authenticatieservices (zoals DigiD), waarbij profielinformatie van de eindgebruiker volgens een gestandaardiseerde wijze beschikbaar wordt gesteld aan de daarvoor geautoriseerde diensten.">
+    documentation="Het NL GOV Assurance profile for OIDC 1.0 legt bindende afspraken vast over het gebruik van de standaard OpenID Connect bij de Nederlandse overheid.">
   <properties
       key="Status"
       value="In behandeling"/>

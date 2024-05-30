@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="SD-JWT VC"
     id="id-a7f43379e5574a35aafc28219ec22422"
-    documentation="SD-JWT-based Verifiable Credentials (SD-JWT VC) is een specificatie die het mogelijk maakt om verifieerbare verklaringen op basis van de SD-JWT standaard te beschrijven en deze ook in JWS JSON te serializeren.">
+    documentation="SD-JWT-based Verifiable Credentials (SD-JWT VC) is een specificatie die het mogelijk maakt om verifieerbare verklaringen op basis van de SD-JWT standaard te beschrijven en deze ook in JWS JSON te serialiseren.">
   <properties
       key="Status"
       value="nvt"/>

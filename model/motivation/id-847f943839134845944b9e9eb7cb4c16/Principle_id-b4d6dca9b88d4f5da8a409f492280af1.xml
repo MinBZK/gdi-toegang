@@ -1,12 +1,12 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="7. Alle systemen in de keten autoriseren op basis van de identiteit van de burger die de interactie start"
+    name="8. Systemen in de keten autoriseren op basis van de digitale identiteit en de bevoegdheden van de gebruiker die de interactie start"
     id="id-b4d6dca9b88d4f5da8a409f492280af1"
-    documentation="Door autorisatie van burgers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Voor autorisatie van overheidsmedewerkers geldt een andere afweging, mede omdat deze toegang niet gaat over toegang tot hun eigen persoonsgegevens.">
+    documentation="Door autorisatie van gebruikers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Tegelijkertijd kunnen overheidsorganisaties een wettelijke basis hebben om gegevens van gebruikers te delen, zonder daar toestemming van een gebruiker voor te krijgen.">
   <properties
       key="Implicaties"
-      value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de geauthenticeerde burger."/>
+      value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de gebruiker."/>
   <properties
       key="Implicaties"
-      value="2. De identiteitsverklaring van de geauthenticeerde burger wordt doorgegeven in de keten."/>
+      value="2. Relevante (delen van) de identiteitsverklaring en bevoegdheidsverklaringen van de gebruiker worden als verifieerbare presentaties doorgegeven in de keten."/>
 </archimate:Principle>
