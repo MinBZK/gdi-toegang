@@ -122,13 +122,14 @@
         <documentation>&lt;p>Deze bijlage relateert de architectuurprincipes zoals beschreven in deze domeinarchitectuur aan de uitgangspunten in de Architectuur Digitale Overheid 2030 en de principes en implicaties in NORA. Het levert daarmee een verdere onderbouwing en verdieping van de architectuurprincipes.&lt;/p>&#xD;
 &lt;table class=&quot;table table-striped&quot;>&lt;tbody>&#xD;
 &lt;tr>&lt;td>&lt;b>Architectuurprincipe&lt;/b>&lt;/td>&lt;td>&lt;b>Uitgangspunt in Architectuur Digitale Overheid 2030&lt;/b>&lt;/td>&lt;td>&lt;b>Principe of implicatie in NORA&lt;/b>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4dce57205fe4d48b888481350c6fae1.html&quot;>1. Dienstverleners verlenen toegang tot digitale diensten als zij voldoende vertrouwen hebben&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's.&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-77965a4ab86c43fb809656f759830dc1.html&quot;>2. Er wordt tussen partijen alleen strikt noodzakelijke gegevens over personen uitgewisseld&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Overheden mogen alleen persoonsgegevens verwerken als het niet anders kan. Dus: als zij zonder deze gegevens hun doel niet kunt bereiken.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Pas doelbinding toe&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>3. Toegang tot diensten en gegevens is zo laagdrempelig als mogelijk voor het gevraagde betrouwbaarheidsniveau&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Kanalen dienen – waar nodig – ook via machtigen en vertegenwoordigen toegankelijk te zijn.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verplaats je in de gebruiker&lt;/li>&lt;li>Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk&lt;/li>&lt;li>Maak toegang tot applicaties en gegevens afhankelijk van authenticatieniveau&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-05cd71c3758c4182878ba143b870582f.html&quot;>4. De Nederlandse toegangsinfrastructuur ontzorgt dienstverleners&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Bied één contactpunt (Single point of contact)&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-4532a251a8ba490298dc08824ef4799a.html&quot;>5. Beveiliging is niet afhankelijk van individuen&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Zero Trust is in toenemende mate een uitgangspunt voor het afschermen en modereren van infrastructuur en de toegang tot informatie. [...]&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verifieer altijd&lt;/li>&lt;li>Hanteer het zero-trust model&lt;/li>&lt;li>Verleen alleen strikt noodzakelijke toegangsrechten&lt;/li>&lt;li>Beheers risico's voortdurend&lt;/li>&lt;li>Borg de vertrouwelijkheid van gegevens in maatregelen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-82d6cfa0c9a747acb3737525882b4e5d.html&quot;>6. Bij toegang voor overheidsmedewerkers wordt op organisatieniveau geautoriseerd&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4d6dca9b88d4f5da8a409f492280af1.html&quot;>7. Alle systemen in de keten autoriseren op basis van de identiteit van de burger die de interactie start&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-8149432665a347bba7f3d97a5f506193.html&quot;>1. Iedereen die daar recht op heeft krijgt toegang tot digitale diensten&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Gebruikersvriendelijk, begrijpelijk, transparant en toegankelijk voor iedereen&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verplaats je in de gebruiker&lt;/li>&lt;li>Maak de dienst toegankelijk voor alle gebruikers&lt;/li>&lt;li>Maak de dienst toegankelijk voor anderstaligen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4dce57205fe4d48b888481350c6fae1.html&quot;>2. Toegang is gebaseerd op het creëren van noodzakelijk vertrouwen&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's.&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-77965a4ab86c43fb809656f759830dc1.html&quot;>3. Er wordt tussen partijen alleen strikt noodzakelijke gegevens over personen uitgewisseld&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Overheden mogen alleen persoonsgegevens verwerken als het niet anders kan. Dus: als zij zonder deze gegevens hun doel niet kunt bereiken.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Pas doelbinding toe&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>4. Toegang tot diensten en gegevens is zo laagdrempelig als mogelijk voor het gevraagde betrouwbaarheidsniveau&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Kanalen dienen – waar nodig – ook via machtigen en vertegenwoordigen toegankelijk te zijn.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verplaats je in de gebruiker&lt;/li>&lt;li>Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk&lt;/li>&lt;li>Maak toegang tot applicaties en gegevens afhankelijk van authenticatieniveau&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-05cd71c3758c4182878ba143b870582f.html&quot;>5. De Nederlandse toegangsinfrastructuur ontzorgt dienstverleners&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Bied één contactpunt (Single point of contact)&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-4532a251a8ba490298dc08824ef4799a.html&quot;>6. Beveiliging is niet afhankelijk van individuen&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Zero Trust is in toenemende mate een uitgangspunt voor het afschermen en modereren van infrastructuur en de toegang tot informatie. [...]&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verifieer altijd&lt;/li>&lt;li>Hanteer het zero-trust model&lt;/li>&lt;li>Verleen alleen strikt noodzakelijke toegangsrechten&lt;/li>&lt;li>Beheers risico's voortdurend&lt;/li>&lt;li>Borg de vertrouwelijkheid van gegevens in maatregelen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-82d6cfa0c9a747acb3737525882b4e5d.html&quot;>7. Bij toegang voor overheidsmedewerkers wordt op organisatieniveau geautoriseerd&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4d6dca9b88d4f5da8a409f492280af1.html&quot;>8. Alle systemen in de keten autoriseren op basis van de identiteit van de burger die de interactie start&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;/td>&lt;/tr>&#xD;
 &lt;/table>&#xD;
 &lt;/p>&#xD;
 </documentation>
@@ -158,16 +159,15 @@ Burgers willen erop kunnen vertrouwen dat (overheids)organisaties op een zorgvul
 In de context van de eIDAS verordening wordt een European Digital Identity Wallet voorgesteld. Het biedt een Europees gestandaardiseerde manier om verifieerbare verklaringen uit te wisselen, op basis van specifieke standaarden. De EDI-wallet is een combinatie van een authenticatiemiddel en een manier om gegevens te delen. Gebruikers kunnen zelf verifieerbare verklaringen ophalen en bepalen zelf aan wie ze deze verklaringen verstrekken. Het sluit daarmee voor een belangrijk deel aan bij de SSI visie. In tegenstelling tot de SSI visie maken gebruikers zelf geen identiteit aan, maar wordt gebruik gemaakt van de door de overheid uitgegeven identiteit die ook in andere Europese landen kan worden gebruikt. De eIDAS verordening onderkent dat er onderscheid is in gekwalificeerde en niet gekwalificeerde verklaringen. Gekwalificeerde verklaringen voldoen aan extra eisen en zijn uitgegeven door expliciet goedgekeurde partijen, waardoor ze extra zekerheden bieden. Om vertrouwen te creëren tussen partijen zijn er vertrouwensdiensten nodig die hierin kunnen ondersteunen. De eIDAS verordening beschrijft een aantal van dit soort vertrouwensdiensten. Het gaat onder meer om diensten voor het zetten van elektronische handtekeningen (door mensen), het elektronisch verzegelen van gegevens (door een organisatie), het creëren van elektronische verifieerbare verklaringen, het creëren van elektronische tijdstempels en het beschermen en bewijzen van elektronische uitwisseling van gegevens. Deze diensten worden aangeboden of ondersteund door leveranciers in de markt en zijn voor organisaties inzetbaar voor het ondersteunen van het verstrekken van toegang en het uitwisselen van gegevens.&#xD;
 &lt;/p>&#xD;
 &lt;h2>Doorontwikkeling nationale toegangsinfrastructuur&lt;/h2>&#xD;
-&lt;p>Het is duidelijk dat wet- en regelgeving een belangrijke drijfveer is voor de doorontwikkeling van de nationale toegangsinfrastructuur. Er loopt al langere tijd een initiatief voor het inrichten van een nieuw toegangsstelsel, dat ernaar streeft om toegangsinfrastructuur voor burgers en bedrijven te integreren. Het zorgt ervoor dat burgers en bedrijven veilig toegang hebben tot digitale dienstverlening en de beschikking hebben over betrouwbare inlogmiddelen om namens henzelf of namens een ander op het juiste betrouwbaarheidsniveau in te kunnen loggen bij organisaties. Op basis van de eIDAS verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening. In de toekomst zullen er extra publieke en private authenticatiemiddelen beschikbaar komen voor burgers en bedrijven. Als gevolg van de herziening van de eIDAS verordening zullen er ID-wallets komen, die als authenticatiemiddel gebruikt kunnen worden. Het zal mogelijk worden om gebruik te maken van private authenticatiemiddelen zoals iDIN. De politiek heeft ook aangegeven dat er een publiek (gratis) zakelijk inlogmiddel beschikbaar zal worden gesteld (motie van der Molen). Er zal voor burgers een digitale bronidentiteit komen die iedereen uniek identificeert, en die ook bruikbaar is in het bedrijvendomein. Burgers kunnen hun basisgegevens uit de digitale bronidentiteit toevoegen aan de toegelaten authenticatiemiddelen. De nationale toegangsinfrastructuur &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-05cd71c3758c4182878ba143b870582f.html&quot;>ontzorgt dienstverleners&lt;/a> waardoor ze niet zelf inviduele afspraken hoeven te maken met authenticatiediensten en machtigingsdiensten.&#xD;
+&lt;p>Het is duidelijk dat wet- en regelgeving een belangrijke drijfveer is voor de doorontwikkeling van de nationale toegangsinfrastructuur. Er loopt al langere tijd een initiatief voor het inrichten van een nieuw toegangsstelsel, dat ernaar streeft om toegangsinfrastructuur voor burgers en bedrijven te integreren. Het zorgt ervoor dat burgers en bedrijven veilig toegang hebben tot digitale dienstverlening en de beschikking hebben over betrouwbare inlogmiddelen om namens henzelf of namens een ander op het juiste betrouwbaarheidsniveau in te kunnen loggen bij organisaties. Op basis van de eIDAS verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening. In de toekomst zullen er extra publieke en private authenticatiemiddelen beschikbaar komen voor burgers en bedrijven. Als gevolg van de herziening van de eIDAS verordening zullen er ID-wallets komen, die als authenticatiemiddel gebruikt kunnen worden. Het zal mogelijk worden om gebruik te maken van private authenticatiemiddelen zoals iDIN. De politiek heeft ook aangegeven dat er een publiek (gratis) zakelijk inlogmiddel beschikbaar zal worden gesteld (motie van der Molen). Er zal voor burgers een digitale bronidentiteit komen die iedereen uniek identificeert, en die ook bruikbaar is in het bedrijvendomein. Burgers kunnen hun basisgegevens uit de digitale bronidentiteit toevoegen aan de toegelaten authenticatiemiddelen. De nationale toegangsinfrastructuur &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-05cd71c3758c4182878ba143b870582f.html&quot;>ontzorgt dienstverleners&lt;/a> met afspraken, standaarden en voorzieningen.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo is het bijvoorbeeld voor &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-388da3df069946eb8fcc9f6b801b1882.html&quot;>een aantal restgroepen niet mogelijk om in te loggen met DigiD of eHerkenning&lt;/a>. Het is daarom nodig om gezaghebbende bronnen aan te wijzen voor deze restgroepen en deze voor breder gebruik beschikbaar te stellen. Het is het op dit moment ook niet goed mogelijk om mensen &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-26a67ab67a2345c59d5176c597443a38.html&quot;>wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren en mentoren&lt;/a>. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Er is ook een behoefte aan een authenticatiemiddel voor anonieme toegang tot diensten die geen BSN verwerken. Verder is de vraag hoe in de toekomst met machtigingsregisters zou moeten worden omgegaan. Functionaliteit voor machtigen is nu verspreid over allerlei systemen, mede doordat er behoefte is aan meer specifieke machtigingsfunctionaliteit zoals het kunnen machtigen voor zaken. &#xD;
+Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo is het bijvoorbeeld voor &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-388da3df069946eb8fcc9f6b801b1882.html&quot;>een aantal restgroepen niet mogelijk om in te loggen met DigiD of eHerkenning&lt;/a>. Het is daarom nodig om gezaghebbende bronnen aan te wijzen voor deze restgroepen en deze voor breder gebruik beschikbaar te stellen. Het is het op dit moment ook niet goed mogelijk om mensen &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-26a67ab67a2345c59d5176c597443a38.html&quot;>wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren en mentoren&lt;/a>. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Er is ook een behoefte aan een authenticatiemiddel voor anonieme toegang tot diensten die geen BSN verwerken. Verder is de vraag hoe in de toekomst met machtigingsregisters zou moeten worden omgegaan. Functionaliteit voor machtigen is nu verspreid over allerlei systemen, mede doordat er behoefte is aan meer specifieke machtigingsfunctionaliteit zoals het kunnen machtigen voor zaken. De nieuwe EDI wallet kan hier mogelijk ook een rol in spelen.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Het is belangrijk dat authenticatiemiddelen voor iedereen toegankelijk zijn. Iedereen moet mee kunnen doen in het digitale tijdperk. Mensen die minder digitaal vaardig zijn moeten ook op andere manieren toegang kunnen te krijgen tot digitale dienstverlening van de overheid, via andere kanalen. Toegang moet worden ondersteund door gebruiksvriendelijke voorzieningen en met voldoende instructies door mensen die dat nodig hebben. Het is bekend dat bestaande authenticatiemiddelen niet optimaal toegankelijk zijn voor minder digitaal vaardigen. Er is ook een goede balans nodig tussen veiligheid en gebruikersvriendelijkheid. &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen&lt;/a>. We moeten ervoor zorgen dat de dienstverlening van de overheid voldoende toegankelijk blijft en geen onnodige drempels opwerpt. &lt;/p>&#xD;
+Het is belangrijk dat de toegangsinfrastructuur &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-8149432665a347bba7f3d97a5f506193.html&quot;>voor iedereen toegankelijk&lt;/a> is. Iedereen moet mee kunnen doen in het digitale tijdperk. De toegangsinfrastructuur moet digitoegankelijk zijn zodat mensen met een functiebeperking er ook gebruik van kunnen maken. Mensen die minder digitaal vaardig zijn moeten ook op andere manieren toegang kunnen te krijgen tot digitale dienstverlening van de overheid, via andere kanalen. Toegang moet worden ondersteund door gebruiksvriendelijke voorzieningen en met voldoende instructies door mensen die dat nodig hebben. Het is bekend dat bestaande authenticatiemiddelen niet optimaal toegankelijk zijn voor minder digitaal vaardigen. Er is ook een goede balans nodig tussen veiligheid en gebruikersvriendelijkheid. &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen&lt;/a>. We moeten ervoor zorgen dat de dienstverlening van de overheid voldoende toegankelijk blijft en geen onnodige drempels opwerpt. &lt;/p>&#xD;
 &lt;p>&#xD;
-Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel maakt gebruik van certificaten, met daarin unieke identificaties van organisaties middels de OIN systematiek. Deze certificaten zijn niet internationaal bruikbaar en andersom zijn internationale certificaten niet bruikbaar in Nederland. We denken daarom dat het verstandig is om te onderzoeken of niet kan worden aangesloten bij Europese certificaatafspraken en bijbehorende standaarden zoals ze in de context van de eIDAS verordening zijn gedefinieerd.&lt;/p>&#xD;
-&lt;p>Het is op dit moment niet mogelijk om systemen te machtigen. Als gevolg hiervan verstrekken overheidsorganisaties vaak de sleutels van hun certificaten aan SaaS leveranciers, wat niet veilig is. De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma biedt hiervoor een oplossingsrichting. Het lijkt een logische stap de standaard daarom breder te omarmen. Verder zijn er een aantal API-gebaseerde standaarden beschikbaar gerelateerd aan toegang zoals het Nederlandse profiel voor OAuth (NL GOV Assurance profile for OAuth 2.0) waarmee op gestandaardiseerde wijze digitale identiteiten kunnen worden doorgegeven tussen systemen. Deze standaard wordt doorontwikkeld, waardoor deze ook beter zal aansluiten op de FSC standaard en ondersteuning zal bieden voor token exchange waarmee identiteiten van eindgebruikers kunnen worden doorgegeven in de keten.&lt;/p></documentation>
+Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Deze certificaten zijn niet internationaal bruikbaar en andersom zijn internationale certificaten niet bruikbaar in Nederland. We denken daarom dat het verstandig is om te onderzoeken of niet kan worden aangesloten bij Europese certificaatafspraken en bijbehorende standaarden zoals ze in de context van de eIDAS verordening zijn gedefinieerd. Het is op dit moment niet mogelijk om systemen te machtigen. Als gevolg hiervan verstrekken overheidsorganisaties vaak de sleutels van hun certificaten aan SaaS leveranciers, wat niet veilig is. De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma biedt hiervoor een oplossing. Er is als gevolg van de Europese datastrategie ook aandacht voor gegevensruimtes, waarvoor inmiddels ook een aantal afsprakenstelsels en voorzieningen beschikbaar zijn. Deze bieden ook oplossingen voor toegang tussen systemen, waarbij data soevereiniteit het uitgangspunt is. &lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Beleid" id="id-77f44709a232443f943f54fe68f3af8d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>De domeinarchitectuur beschrijft een aantal belangrijke beleidsdocumenten die invloed hebben op toegang. Overheidsorganisaties zouden zich bewust moeten zijn van dit beleid en dit mee moeten nemen in hun eigen beleidsvorming.&lt;/p></documentation>
@@ -191,7 +191,7 @@ De Digikoppeling standaard richt zich specifiek op beveiligde uitwisseling van g
 &lt;/p>&#xD;
 &lt;h3>OpenID Connect en OAuth&lt;/h3>&#xD;
 &lt;p>&#xD;
-De combinatie OpenID Connect en OAuth wordt tegenwoordig veel gebruikt om namens een gebruiker een ander systeem te benaderen. OpenID Connect is een protocol dat specifiek gericht is op authenticatie en gezien kan worden als een extensie van OAuth. OAuth is een protocol voor autorisatie en specifiek gericht op het autoriseren van het systeem waarmee een gebruiker interacteert, om namens die gebruiker gegevens van die gebruiker op te halen bij een ander systeem. Er zijn Nederlandse profielen opgesteld voor OpenID Connect en OAuth: NL GOV Assurance profile voor OpenID Connect en NL GOV Assurance profile for OAuth 2.0. Beiden staan op de &quot;pas toe, leg uit&quot; lijst van Forum Standaardisatie.&#xD;
+De combinatie OpenID Connect en OAuth wordt tegenwoordig veel gebruikt om namens een gebruiker een ander systeem te benaderen. OpenID Connect is een protocol dat specifiek gericht is op authenticatie en gezien kan worden als een extensie van OAuth. OAuth is een protocol voor autorisatie en specifiek gericht op het autoriseren van het systeem waarmee een gebruiker interacteert, om namens die gebruiker gegevens van die gebruiker op te halen bij een ander systeem. Er zijn Nederlandse profielen opgesteld voor OpenID Connect en OAuth: NL GOV Assurance profile voor OpenID Connect en NL GOV Assurance profile for OAuth 2.0. Beiden staan op de &quot;pas toe, leg uit&quot; lijst van Forum Standaardisatie. Het OAuth profiel wordt op dit moment doorontwikkeld, waardoor het beter zal aansluiten op de FSC standaard (zie verderop) en ondersteuning zal bieden voor token exchange waarmee identiteiten van eindgebruikers kunnen worden doorgegeven in de keten.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Het gebruik van OpenID Connect en OAuth werkt ongeveer als volgt. Een gebruiker voert gebruikersnaam en wachtwoord in en deze worden gecontroleerd bij een OpenID Connect Provider. Na succesvolle met OpenID Connect ontstaan er drie tokens: een ID-token dat een beschrijving geeft van de ingelogde gebruiker, een access token dat gezien kan worden als de authenticatieverklaring en een refresh token dat gebruikt kan worden om het access token te vernieuwen als het is verlopen. De tokens worden door het systeem dat ze heeft verkregen doorgegeven aan het systeem dat wordt aangeroepen. Deze heeft daarmee toegang tot gegevens over de digitale identiteit van de eindgebruiker en weet dat persoonsgegevens die daarbij horen kunnen worden geleverd aan het aanroepende systeem.&#xD;
@@ -204,10 +204,10 @@ Op dit moment ondersteunen DigiD en eHerkenning nog geen OpenID Connect, maar de
 De Federated Service Connectivity (FSC) standaard is ontwikkeld in de context van het Common Ground programma voor gemeenten. Het standaardiseert de werking van het NLX component, een tussenliggend component dat het gebruik van API’s vereenvoudigt. De standaard wordt inmiddels ondersteund door verschillende leveranciers en is gepositioneerd als een brede standaard die door alle overheidsorganisaties kan worden gebruikt. Het is voorgesteld als onderdeel van het Digikoppeling profiel voor REST API’s, maar kan in bredere zin worden gebruikt voor gegevensuitwisseling tussen systemen over HTTP.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door deze te registreren in een directory. Systemen die bekend zijn in de directory kunnen vervolgens aanroepen doen naar andere systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend component bij het zendende systeem (outway) en een tussenliggend component bij het ontvangende systeem (outway). In deze tussenliggende componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Vanuit het perspectief van toegang is met name relevant dat het mogelijk is om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er sleutels van certificaten aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is.&lt;/p>&#xD;
+De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door deze te registreren in een directory. Systemen die bekend zijn in de directory kunnen vervolgens aanroepen doen naar andere systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend component bij het zendende systeem (outway) en een tussenliggend component bij het ontvangende systeem (inway). In deze tussenliggende componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Vanuit het perspectief van toegang is met name relevant dat het mogelijk is om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er sleutels van certificaten aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is.&lt;/p>&#xD;
 &lt;h3>Gegevensruimtes&lt;/h3>&#xD;
 &lt;p>&#xD;
-Gedreven vanuit de Europese datastrategie is er veel aandacht voor gegevensruimtes (data spaces). Dit zijn afsprakenstelsels en tevens vertrouwensnetwerken waarbinnen gegevens tussen systemen kunnen worden uitgewisseld. Er zijn verschillende partijen die hierop zijn ingesprongen en die oplossingen bieden om deze gegevensruimten te ondersteunen. De International Data Spaces Association heeft een referentie-architectuur ontwikkeld (IDS RAM), die ook wordt ondersteund door generieke softwarecomponenten en een uitwisselprotocol. Daarnaast zijn er andere initiatieven zoals iShare en GAIA-X die specificaties en/of oplossing bieden. Een uitgebreider overzicht van dit soort initiatieven is beschikbaar in de verkenning die Geonovum heeft uitgevoerd. &#xD;
+Gedreven vanuit de Europese datastrategie is er veel aandacht voor gegevensruimtes (data spaces). Dit zijn afsprakenstelsels en tevens vertrouwensnetwerken waarbinnen gegevens tussen systemen kunnen worden uitgewisseld. Er zijn verschillende partijen die hierop zijn ingesprongen en die oplossingen bieden om deze gegevensruimtes te ondersteunen. De International Data Spaces Association heeft een referentie-architectuur ontwikkeld (IDS RAM), die ook wordt ondersteund door generieke softwarecomponenten en een uitwisselprotocol. Daarnaast zijn er andere initiatieven zoals iShare en GAIA-X die specificaties en/of oplossing bieden. Een &lt;a href=&quot;https://docs.geostandaarden.nl/eu/VerkenningDataspaces/&quot;>uitgebreider overzicht&lt;/a> van dit soort initiatieven is beschikbaar in de verkenning die Geonovum heeft uitgevoerd. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Een gemeenschappelijk vertrekpunt bij al deze initiatieven is datasoevereiniteit, wat betekent dat gegevenseigenaren zelf willen kunnen beslissen over het beschikbaar stellen van hun gegevens. Als gevolg daarvan bieden ze allemaal gemeenschappelijke diensten voor toegang, waarbij vooral gebruik wordt gemaakt van (profielen op) internationale standaarden. Uitgangspunt daarbij is dat voorwaarden en regels van data-aanbieders zowel mogelijk geautomatiseerd worden gecontroleerd als een afnemer om gegevens vraagt. Een aantal initiatieven biedt daarbij ondersteuning voor policy based access control, waarbij voorwaarden zoveel mogelijk in machineleesbare vorm als autorisatieregels zijn beschreven zodat ze geautomatiseerd kunnen worden getoetst. In onderstaande figuur is de essentie van policy bases access control beschreven aan de hand van de begrippen i de veelgebruikte XACML standaard.&#xD;
@@ -226,7 +226,13 @@ De European Digital Identity Wallet zal in de toekomst ook gebruikt kunnen worde
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Huidige voorzieningen" id="id-9592d4808efb4be9aa2751e0019b4771" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>De Generieke Digitale Infrastructuur bestaat uit een aantal generieke voorzieningen, die breed gebruikt kunnen worden door overheidsorganisaties. Daarnaast zijn er op het gebied van toegang ook een aantal andere generieke voorzieningen die breder binnen de overheid gebruikt kunnen worden. In deze paragraaf wordt een overzicht gegeven van de belangrijkste voorzieningen die we onder de aandacht willen brengen. Deze voorzieningen zijn gerelateerd aan de bedrijfsfuncties om inzicht te geven in hun functionaliteit. Ze zijn ook voorzien van eigenschappen die beschrijven wie verantwoordelijk is voor het beheer en waar meer informatie over de voorziening kan worden gevonden.&lt;/p></documentation>
+        <documentation>&lt;p>De Generieke Digitale Infrastructuur bestaat uit een aantal generieke voorzieningen, die breed gebruikt kunnen worden door overheidsorganisaties. In deze paragraaf wordt een overzicht gegeven van de belangrijkste voorzieningen met betrekking tot toegang die we onder de aandacht willen brengen. Deze voorzieningen zijn gerelateerd aan de bedrijfsfuncties om inzicht te geven in hun functionaliteit. Ze zijn ook voorzien van eigenschappen die beschrijven wie verantwoordelijk is voor het beheer en waar meer informatie over de voorziening kan worden gevonden. In de volgende diagrammen wordt een overzicht gegeven van de voorzieningen en hun samenhang. De eerste laat zien welke gegevensstromen met name relevant zijn voorafgaand aan een specifiek authenticatieverzoek. Het diagram erna laat met name zien wat er gebeurt tijdens het uitvoeren van een authenticatieverzoek. Er zijn bepaalde gegevensstromen die niet zo eenvoudig in één van deze twee categorieën in te delen zijn, bijvoorbeeld omdat ze in beide situaties afhankelijk van de omstandigheden kunnen plaatsvinden. Die zijn dan in het meest logische diagram geplaatst.&lt;/p>&#xD;
+&lt;h3>Gegevensstromen voorafgaand aan een authenticatieverzoek&lt;/h3>&#xD;
+&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/huidig1.svg&quot;>&lt;/center>&lt;/p>&#xD;
+&lt;h3>Gegevensstromen tijdens een authenticatieverzoek&lt;/h3>&#xD;
+&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/huidig2.svg&quot;>&lt;/center>&lt;/p>&#xD;
+&#xD;
+</documentation>
         <property key="elementType" value="application-componentHuidige voorziening"/>
       </element>
       <element xsi:type="archimate:Representation" name="Inleiding" id="id-9704fa59cc7b4b5e9daa53f1b32ec98d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
@@ -272,7 +278,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="elementType" value="business-object"/>
       </element>
       <element xsi:type="archimate:Representation" name="Knelpunten" id="id-ec62f6503d6e4ebbbc1e8f7da58048ac" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Knelpunten zijn aandachtspunten en risico's die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten zijn samengevat en opgenomen in de architectuur.&lt;/p></documentation>
+        <documentation>&lt;p>Knelpunten zijn aandachtspunten en risico's die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten.&lt;/p></documentation>
         <property key="elementType" value="assessment"/>
       </element>
     </folder>
@@ -598,7 +604,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
     </folder>
     <folder name="Huidige situatie" id="id-e6ce5350f95043279eea0d7e12dd80de">
-      <element xsi:type="archimate:ApplicationComponent" name="BSNk-transformatie" id="id-01049568026845549513722ef5e8079b" profiles="id-bab9074d446642cd95786422c8deba50">
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk-Transformatie" id="id-01049568026845549513722ef5e8079b" profiles="id-bab9074d446642cd95786422c8deba50">
+        <documentation>Een voorziening die een geactiveerde polymorfe identiteit (PI) en polymorf pseudoniem (PP) vertaalt naar een versleutelde identiteit (VI) en versleuteld pseudoniem (VP).</documentation>
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
       </element>
@@ -625,7 +632,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/centrale-oin-raadpleegvoorziening"/>
       </element>
       <element xsi:type="archimate:ApplicationComponent" name="PROBAS" id="id-2c07431cc7424fb48ec82c197cb2aa5f" profiles="id-bab9074d446642cd95786422c8deba50">
-        <documentation>Protocollaire basisadministratie.</documentation>
+        <documentation>De protocollaire basisadministratie die gegevens beheert over ambassades.</documentation>
         <property key="Beheerorganisatie" value="Belastingdienst"/>
       </element>
       <element xsi:type="archimate:ApplicationComponent" name="Register wettelijke vertegenwoordiging rechtspraak" id="id-420875d965504da3935e02241a65c925" profiles="id-bab9074d446642cd95786422c8deba50">
@@ -646,8 +653,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/diensten/digid/hoe-werkt-de-bevoegdheidsverklaringsdienst"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BSNk-sleutelbeheer" id="id-5730a811d02540318bd5939dbf387d8a" profiles="id-bab9074d446642cd95786422c8deba50">
-        <documentation>Het BSNk-PP zorgt voor de koppeling van een authenticatiemiddel aan het BSN en het genereren van de pseudoniemen die in het stelsel nodig zijn.</documentation>
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk-Sleutelbeheer" id="id-5730a811d02540318bd5939dbf387d8a" profiles="id-bab9074d446642cd95786422c8deba50">
+        <documentation>Een voorziening die de sleutels beheert en verstrekt die gebruikt kunnen worden om een versleutelde identiteit (VI) en versleuteld pseudoniem (VP) terug te vertalen naar een polymorfe identiteit (PI) en polymorf pseudoniem (PP).</documentation>
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
       </element>
@@ -716,7 +723,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BSNk-activatie" id="id-e25448c20ae04cfc85e54847cde73e76" profiles="id-bab9074d446642cd95786422c8deba50">
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk-Activatie" id="id-e25448c20ae04cfc85e54847cde73e76" profiles="id-bab9074d446642cd95786422c8deba50">
+        <documentation>Een voorziening die een polymorfe identiteit (PI) en polymorf pseudoniem (PP) bepaalt op basis van persoonsgegevens.</documentation>
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
       </element>
@@ -729,7 +737,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/digid/handleiding-aansluiten-op-combiconnect"/>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" name="BSNk Decryptie" id="id-ffacaf3eb24247c9ba68203364e7eb61" profiles="id-bab9074d446642cd95786422c8deba50">
+      <element xsi:type="archimate:ApplicationComponent" name="BSNk-Decryptie" id="id-ffacaf3eb24247c9ba68203364e7eb61" profiles="id-bab9074d446642cd95786422c8deba50">
         <documentation>Een voorziening die zorgt voor het omzetten van een VI/VP naar een BSN respectievelijk pseudoniem van een gebruiker. </documentation>
         <property key="Beheerorganisatie" value="Logius"/>
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
@@ -969,8 +977,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <property key="Implicaties" value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de geauthenticeerde burger."/>
         <property key="Implicaties" value="2. De identiteitsverklaring van de geauthenticeerde burger wordt doorgegeven in de keten."/>
       </element>
-      <element xsi:type="archimate:Principle" name="2. Toegang is gebaseerd op vertrouwen" id="id-b4dce57205fe4d48b888481350c6fae1">
-        <documentation>Vertrouwende partijen krijgen vertrouwen als zij van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen over de digitale identiteit en bevoegdheid van de gebruiker. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.</documentation>
+      <element xsi:type="archimate:Principle" name="2. Toegang is gebaseerd op het creëren van noodzakelijk vertrouwen" id="id-b4dce57205fe4d48b888481350c6fae1">
+        <documentation>Vertrouwende partijen krijgen vertrouwen in de authenticiteit van de digitale identiteit en de bevoegdheden van deze digitale identiteit als zij hierover van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Vertrouwen in verklarende partijen wordt verkregen door bijvoorbeeld een certificaat, het lidmaatschap van een vertrouwensnetwerk en/of registratie bij een lijst van vertrouwde partijen. Het Architecture and Reference Framework (ARF) dat is opgesteld in het kader van de nieuwe eIDAS verordening heeft dit soort vertrouwensaspecten in meer detail beschreven voor de European Digital Identity Wallet.</documentation>
         <property key="Implicaties" value="1. Vertrouwende partijen sluiten aan bij voor hen relevante vertrouwensnetwerken en/of lijsten van vertrouwde partijen."/>
         <property key="Implicaties" value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
         <property key="Implicaties" value="3. De gebruiker kent de identiteit van de dienstverlener en kan de authenticiteit ervan controleren. "/>
@@ -1022,8 +1030,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       <element xsi:type="archimate:WorkPackage" name="Onderzoek aansluiting bij Europese certificaatstandaarden" id="id-82087c95385c4244a8993e31eb05b8a8">
         <documentation>We zouden als Nederland maximaal moeten aansluiten bij internationale standaarden en afspraken. Voor certificaten zijn er standaarden en afspraken in de context van eIDAS waarop aangesloten kan worden (QWAC’s en QESeals). Daarnaast ontstaat er in deze context de mogelijkheid om de EDI wallet te gebruiken voor gegevensuitwisseling tussen organisaties. De vraag is in hoeverre het PKIoverheid stelsel nog nodig en wenselijk is in deze nieuwe eIDAS context. Daarbij is het onderscheid tussen natuurlijk personen en niet-natuurlijk personen belangrijk.</documentation>
       </element>
-      <element xsi:type="archimate:WorkPackage" name="Implementatie van de FSC standaard" id="id-d0f151a4be2047ecbc2019f47e419fc5">
-        <documentation>De FSC standaard biedt standaard mogelijkheden voor veelvoorkomende uitdagingen bij het delen van gegevens tussen organisaties, met name het verstrekken van machtigingen voor systeem-systeem koppelingen. Er ligt een voorstel om Digikoppeling als basis te gebruiken voor het Digikoppeling API profiel. Als dit voorstel wordt goedgekeurd dan zal aandacht moeten worden gegeven aan de brede implementatie van deze standaard bij overheidsorganisaties.</documentation>
+      <element xsi:type="archimate:WorkPackage" name="FSC standaardiseren" id="id-d0f151a4be2047ecbc2019f47e419fc5">
+        <documentation>De Federated Service Connectivity (FSC) standaard biedt standaard mogelijkheden voor veelvoorkomende uitdagingen bij het veilig en betrouwbaar delen van gegevens tussen organisaties. Het is daarmee een belangrijke basis voor gegevensuitwisseling. Het zou als voorstel moeten worden ingediend bij Forum Standaardisatie zodat deze overheidsbreed aanbevolen of verplicht wordt.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Vertegenwoordigen bewindvoerders, curatoren en mentoren" id="id-d9b8e51c53c74a589f8dadf156c1786c">
         <documentation>Bewindvoerders, curatoren en mentoren zouden als vertegenwoordiger moeten kunnen optreden. De gezaghebbende bron voor beschermingsbewind is het WvR register van de Raad voor de Rechtspraak. Een aansluiting op dit register reeds gerealiseerd, maar deze moet nog wel door de toegangsinfrastructuur breed toegankelijk worden gemaakt.</documentation>
@@ -1437,6 +1445,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:ServingRelationship" id="id-181d26b7b05d4ef5946b7cc3f3d3f98a" source="id-06be8dd9e8c645d6bb482b05c9185e03" target="id-d99f5610425448249b780d45cd71af5f"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1acaa86c0aac4f909c817e70715146cc" source="id-7d3b09e815e44c8fb2c3339286d2b41c" target="id-fe587c1bae3c453285eccb764194ced3"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1b62df67e8d2436a94c19933050aaf53" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-920f614c629f45e196645b1744dc91b6"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-1b9ac63d64f745c99c72dbfb0481110b" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-3ea9bbfd50ab47a1a874895944b74cca"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1f2fb2a0ce164aad9b76e1c45a2e14d4" source="id-1fd5545c30a54234a4ced6b1392d9d93" target="id-3be2a0b7c4e74b64a89ab048535de88d"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1f88059bbed64fe2bf3666a7e5807416" source="id-045a4575e8744777b97e18d8e5bda6d1" target="id-c5998016874b4a3f9a80d62f09af3f33"/>
     <element xsi:type="archimate:ServingRelationship" id="id-1fd1f1e3c6e24a9aaed72274030a3151" source="id-1fd5545c30a54234a4ced6b1392d9d93" target="id-52aa4858c63d46faa3fa7c4b92716e53"/>
@@ -1444,8 +1453,10 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:ServingRelationship" id="id-2149c32ba8e34eadbadd758198727e94" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-4ea810315dc14f11b115cef01338dca5"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2423c1554e3f4d12932bf4fd2ab99266" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-2e4e3b531fa549b79b157b367825df17"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2432b8a2275741b6ab5dc230e2170d06" source="id-7d3b09e815e44c8fb2c3339286d2b41c" target="id-71518055a4194c55844b0ed040dacbe2"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-259c78739b214a62a3e83d0b3cde8d1d" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-ce38f6729a924f6da1142b2c655efffc"/>
     <element xsi:type="archimate:ServingRelationship" id="id-26d584de4fb049e0b1be1a437a8519ed" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-9492a75502d04a89a9be90b4db9975fa"/>
     <element xsi:type="archimate:ServingRelationship" id="id-27bbc04699994e3aa55b4c52671caeeb" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-281c740e869d4d5885f718b94dbd1798" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-2e4e3b531fa549b79b157b367825df17"/>
     <element xsi:type="archimate:ServingRelationship" id="id-2da63b58fe134a6c916bf3dc76fef31a" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-6297e4b66d844a9fb8c054238841b313"/>
     <element xsi:type="archimate:ServingRelationship" id="id-33d14e659bad4fc5b531417b7357171f" source="id-15f0c458430247b1a8a349cda72a5848" target="id-3ea9bbfd50ab47a1a874895944b74cca"/>
     <element xsi:type="archimate:ServingRelationship" id="id-3447ac2620024d4a9090915e7a8278c9" source="id-e5b736ca0a6b41ae9d7765c0648e9944" target="id-7f4acb54b45f4d77bbec4f16ea8d52a8"/>
@@ -1496,12 +1507,14 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:ServingRelationship" id="id-7daf651fed9b4fa5b4fbfc017df59540" source="id-dc5c0503f1eb4cbeb6997d399ab5ccda" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
     <element xsi:type="archimate:ServingRelationship" id="id-84b64e726ec64881b87ee227fcd937a9" source="id-dc5c0503f1eb4cbeb6997d399ab5ccda" target="id-4a798952a1ce4c129980061149b0a6c9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-86b61782d2f442209d47bfe3e04184bc" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-3099a3491bf542f084b6b3defa72ef68"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-8892f3af1f1c4bc285444aa1776231b7" source="id-e25448c20ae04cfc85e54847cde73e76" target="id-3be2a0b7c4e74b64a89ab048535de88d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-8892f3af1f1c4bc285444aa1776231b7" source="id-01049568026845549513722ef5e8079b" target="id-3be2a0b7c4e74b64a89ab048535de88d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-88c2eaba541a4d2bbb0701c90d2e2605" source="id-15f0c458430247b1a8a349cda72a5848" target="id-aacf5c4d48204c23922b68521c7999b2"/>
     <element xsi:type="archimate:ServingRelationship" id="id-8a9807a0b8cc417d99ff802a5a0508ab" source="id-e25448c20ae04cfc85e54847cde73e76" target="id-fa4be6b66e8d4eb68c946f1f59cad1b1"/>
     <element xsi:type="archimate:ServingRelationship" id="id-8aada1849f394f24a6f08be97f0e7ee9" source="id-a999c3ee595a4b95b7260d9689934bcc" target="id-9fbbb392461f46a0b24c5cdc58a01ee8"/>
     <element xsi:type="archimate:ServingRelationship" id="id-8ad669dae1954b5db42e2e2fc9e785e4" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-c07b09ed9fcd46d98cd4efd9700d2c4c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-91cca1a44d974479b119cf27d839e999" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-c07b09ed9fcd46d98cd4efd9700d2c4c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-96fb1756102e4df69f1183933d6621bf" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-f14d8c808bd4443f90a2e6be30054d3e"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-97fd1a1a3c0f40678ed5afacf60f4bcb" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-d99f5610425448249b780d45cd71af5f"/>
     <element xsi:type="archimate:ServingRelationship" id="id-989578af90a441738775f2d28e8aeb0b" source="id-796d8d20bc8947d29a2838fdb0886cfe" target="id-7f4acb54b45f4d77bbec4f16ea8d52a8"/>
     <element xsi:type="archimate:ServingRelationship" id="id-9a7dbe6190e64bf38aeea7f8bfe9e407" source="id-4f74f314b75c46acb11bf9987f66fae2" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
     <element xsi:type="archimate:ServingRelationship" id="id-9b638655d4574ecdbdfceeb5898488ac" source="id-904b487b4a5941c29b3d7d0d5f9b027c" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
@@ -1510,6 +1523,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:ServingRelationship" id="id-a75f951947a04d179fed33a205a89c3d" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-4c5fe57ec2ab485c9cb8bdef64d7d4d9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-a7fe5a7a6f9f4335a7b832d9a622a402" source="id-ffacaf3eb24247c9ba68203364e7eb61" target="id-4ea810315dc14f11b115cef01338dca5"/>
     <element xsi:type="archimate:ServingRelationship" id="id-adae64fc0a6047aab750ca33a1713eb2" source="id-a999c3ee595a4b95b7260d9689934bcc" target="id-bbb53fd3512e4e3e84c8e3059b832164"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-b0f458f53a2545db9cf2b33d9b3ff969" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:ServingRelationship" id="id-b37f33a2402f48209d3b03e21b4ecfe7" source="id-15f0c458430247b1a8a349cda72a5848" target="id-ffeb84e839934d419c4ca4ee9aa6f136"/>
     <element xsi:type="archimate:ServingRelationship" id="id-b55325286cc84716b5d2facd5ba7db37" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-8addb4bcb26c46019bd5ad035a87d236"/>
     <element xsi:type="archimate:ServingRelationship" id="id-b56306842b8b49c4b2134cceea5801a5" source="id-8263de75e16b4b5189e83635d262aca6" target="id-121061d0dfc74da48a428a108e57b9d2"/>
@@ -1519,6 +1533,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
     <element xsi:type="archimate:ServingRelationship" id="id-c365415fd38849db905410b5b3bca8bc" source="id-f4548c8759f248f9a3ff3195c0b256c3" target="id-4a798952a1ce4c129980061149b0a6c9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c43b9216b0ae4892b66aca80aa684669" source="id-a999c3ee595a4b95b7260d9689934bcc" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c78c961918854ae9b2453d0056406013" source="id-b666322db6e64dd98a41a38e9aeb9119" target="id-7cf7d264e6a84c85a50d8feefc8eae67"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-c863941baa414b76b4e3f5498b9e1e16" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-aacf5c4d48204c23922b68521c7999b2"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ca4f7facd8464cc88fa2cfed8539f462" source="id-7d3b09e815e44c8fb2c3339286d2b41c" target="id-89cae607ed114aa9b258920260a4499c"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ca6cf7ba82a642f3af6ce101a987cf8c" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-42237e2406494a148477dd63db550522"/>
     <element xsi:type="archimate:ServingRelationship" id="id-cb9750a821a6444dae3d32b55f7c7863" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-3099a3491bf542f084b6b3defa72ef68"/>
@@ -1549,6 +1564,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       <documentation>alleen voor eIDAS uitgaand</documentation>
     </element>
     <element xsi:type="archimate:ServingRelationship" id="id-ec5a741b59ff43e5a1581c37000ba41f" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-2284caddd8094fd3b974678a31502f9f"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-ef2bf3a18fe04388b79bfe2a491a91d0" source="id-2c07431cc7424fb48ec82c197cb2aa5f" target="id-ffeb84e839934d419c4ca4ee9aa6f136"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f057e4c59a3a4adebeb9692af34a046e" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-9fbbb392461f46a0b24c5cdc58a01ee8"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f089dd9be5f14613a5bfff4f9f1d6a32" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-7cf7d264e6a84c85a50d8feefc8eae67"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f1ad0bbeb0c540d498649c3b507b7e36" source="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
@@ -2371,6 +2387,9 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <child xsi:type="archimate:DiagramObject" id="id-194bd4241bed42e5b58c984725cb3b13" archimateElement="id-d9b8e51c53c74a589f8dadf156c1786c">
           <bounds x="408" y="360" width="174" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7a2a7a7bb9734ae6a9e0ddc9112d026e" source="id-194bd4241bed42e5b58c984725cb3b13" target="id-40f5e5f8178045729e0eade5ca717720" archimateRelationship="id-3efa315c98cc417bbae45f52eba42b0d"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4c82859bf19d4f4aac3e7088deae37a1" textPosition="1" archimateElement="id-4838d4ce599148b3bd430711a296b3d4">
+          <bounds x="408" y="624" width="174" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Bedrijfsobjectenmodel gerelateerd aan standaarden" id="id-e67cde05be064ebbb5aa4749ff49f512">
@@ -3538,7 +3557,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
       </element>
     </folder>
     <folder name="Huidige situatie" id="id-bc9d41d41e384d6286e4f732a80047dd">
-      <element xsi:type="archimate:ArchimateDiagramModel" name="Huidige situatie (alles voorafgaand aan authenticatieverzoek)" id="id-2b1d983a65074a28add60f6875fb9f2b">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Huidige situatie (voorafgaand aan authenticatieverzoek)" id="id-2b1d983a65074a28add60f6875fb9f2b">
         <child xsi:type="archimate:DiagramObject" id="id-0dee503251844a7caff8a81f3411d80c" targetConnections="id-815cd57441be471d9d8e840ab2642bdd id-29f4afa986f04ca6bbc11c50580ec4a1" textPosition="1" archimateElement="id-a999c3ee595a4b95b7260d9689934bcc">
           <bounds x="1128" y="60" width="145" height="67"/>
         </child>
@@ -3567,7 +3586,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <child xsi:type="archimate:DiagramObject" id="id-c4ce46d19b4544c494c41acba445dea0" targetConnections="id-23369d99e52e45b7840ae1ea47a16769 id-e5acfd09a9364f639bd062dd24b48261 id-ccfb5a926aa64cefa9ef084b903ba235 id-bd9047f75f39492d925ebf345502e0fa id-3d85d96999094a528d8ed4ddcd5390d6" textPosition="1" archimateElement="id-92b61d714b7f4ed6a2ffed3d71bc34be">
           <bounds x="396" y="528" width="145" height="67"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1aa9c00b17374d9c9a9d336fe4816bc9" source="id-c4ce46d19b4544c494c41acba445dea0" target="id-e6db99490fe145c2acd1e3083a45b5ce" archimateRelationship="id-0a9c45b76fa545d1897913ff4e453778">
-            <bendpoint startX="-180" startY="3" endX="180" endY="-9"/>
+            <bendpoint startX="-180" startY="-21" endX="180" endY="-21"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-76a020bcfa6347219e1d8d8f8a430f3e" targetConnections="id-94b15259c54740e3897703249616a3f2 id-c3dd2e274d734a35bcfda9a224692304 id-091059e2d61f47f18207a950a55d53dc id-defc85a6167640b49f2041d89f861180 id-36a38ba720c14d6492552c6d820f7f17 id-15fb23d52dea4753a484bfe4b9bf94d2" textPosition="1" archimateElement="id-796d8d20bc8947d29a2838fdb0886cfe">
@@ -3652,7 +3671,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-e5acfd09a9364f639bd062dd24b48261" source="id-c42ce156f19f4b2bac3c59379f0ef52d" target="id-c4ce46d19b4544c494c41acba445dea0" archimateRelationship="id-c46879624fc94a63aed9270380c64680"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-091059e2d61f47f18207a950a55d53dc" source="id-c42ce156f19f4b2bac3c59379f0ef52d" target="id-76a020bcfa6347219e1d8d8f8a430f3e" archimateRelationship="id-1d7bedfc22cb48bfb30e75998515abea">
             <bendpoint startY="81" endX="-733" endY="81"/>
-            <bendpoint startX="720" startY="81" endX="-12" endY="81"/>
+            <bendpoint startX="732" startY="81" endY="81"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-61eff44224e049ed8d977af93b29fee7" source="id-c42ce156f19f4b2bac3c59379f0ef52d" target="id-304fd74a5ee84e1c8a858d3c6c77edab" archimateRelationship="id-fd2c654508cd444798ffa9a6d22a2323">
             <bendpoint startX="-132" startY="-3" endX="-864" endY="459"/>
@@ -3672,18 +3691,18 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
         <child xsi:type="archimate:DiagramObject" id="id-8fc215e718374fe6bb24cbf408298bcb" textPosition="1" archimateElement="id-7a16034297c64f98ac840c5d6897d749">
           <bounds x="1788" y="72" width="145" height="67"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a49abf29028b469db90ab0da8a09bc24" source="id-8fc215e718374fe6bb24cbf408298bcb" target="id-f1a8bd1cb84842a692bf10ed96a5f62d" archimateRelationship="id-49c79bba5bf44ca89bd93cf3d10acae2">
-            <bendpoint startX="47" startY="-99" endX="708" endY="-561"/>
-            <bendpoint startX="263" startY="-99" endX="924" endY="-561"/>
-            <bendpoint startX="263" startY="381" endX="924" endY="-81"/>
+            <bendpoint startX="96" startY="-21" endX="756" endY="-477"/>
+            <bendpoint startX="240" startY="-21" endX="900" endY="-477"/>
+            <bendpoint startX="240" startY="375" endX="900" endY="-81"/>
             <bendpoint startX="-625" startY="382" endX="35" endY="-80"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-88469b45707d4c6c8b5006191dbada62" source="id-8fc215e718374fe6bb24cbf408298bcb" target="id-304fd74a5ee84e1c8a858d3c6c77edab" archimateRelationship="id-e33db97702504fa79481c3fd8b315035">
-            <bendpoint startX="107" startY="9" endX="768" endY="-153"/>
+            <bendpoint startX="108" startY="15" endX="768" endY="-141"/>
             <bendpoint startX="107" startY="249" endX="768" endY="87"/>
             <bendpoint startX="-661" startY="249" endY="87"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-94b15259c54740e3897703249616a3f2" source="id-8fc215e718374fe6bb24cbf408298bcb" target="id-76a020bcfa6347219e1d8d8f8a430f3e" archimateRelationship="id-76aa8287523f417686168135b54f9902">
-            <bendpoint startX="179" startY="-15" endX="840" endY="-639"/>
+            <bendpoint startX="180" startY="3" endX="840" endY="-615"/>
             <bendpoint startX="179" startY="549" endX="840" endY="-75"/>
             <bendpoint startX="-661" startY="549" endY="-75"/>
           </sourceConnection>
@@ -3713,8 +3732,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bendpoint startX="-192" startY="-273" endX="143" endY="33"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-c7ca8b746b1341b19a9a54ce49a60107" targetConnections="id-d2253d84c30043a8bd0bbcc98a1b3a1f" archimateElement="id-01049568026845549513722ef5e8079b">
-          <bounds x="1477" y="156" width="120" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-c7ca8b746b1341b19a9a54ce49a60107" targetConnections="id-d2253d84c30043a8bd0bbcc98a1b3a1f" textPosition="1" archimateElement="id-01049568026845549513722ef5e8079b">
+          <bounds x="1464" y="144" width="145" height="67"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Huidige situatie (tijdens authenticatieverzoek)" id="id-6b127e72ba554982a8ade48d06e2286c">
@@ -3763,8 +3782,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bendpoint startX="228" startY="-284" endX="-132" endY="16"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-3d4309a523d3403195cab62bdda8be58" source="id-1c40dabba2f743f2908aa95f02063746" target="id-4ef25696e5d54f239d4d27867e63f0ac" archimateRelationship="id-ee6b60bb2ef847d0bc6c3006128c180f">
-            <bendpoint startX="-24" startY="-693" endX="-1117" endY="-225"/>
-            <bendpoint startX="1068" startY="-693" endX="-25" endY="-225"/>
+            <bendpoint startX="-36" startY="-549" endX="-1128" endY="-81"/>
+            <bendpoint startX="1056" startY="-549" endX="-36" endY="-81"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4cca636ba1ea44068d31967d2489d875" targetConnections="id-5984cfcba7ed48229c7e2fbe4954a9c8 id-d0ab8f1c05e8439d9f1ddba2d943a9fb id-69f519807e784572be0f16d71e66a0c2" textPosition="1" archimateElement="id-92b61d714b7f4ed6a2ffed3d71bc34be">
@@ -3843,8 +3862,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-dd906859717c4c0ca3252c6c98e4e6ec" source="id-1294ec8cb94b4dfabc3a5b12d779b4f1" target="id-af386a4788fc4ae7af82391e9f000f7a" archimateRelationship="id-810c30cfad2b4fb09bb8d73791ffd375">
             <bendpoint startX="180" startY="-20" endX="-480" endY="-20"/>
-            <bendpoint startX="180" startY="-225" endX="-480" endY="-225"/>
-            <bendpoint startX="635" startY="-225" endX="-25" endY="-225"/>
+            <bendpoint startX="180" startY="-129" endX="-480" endY="-129"/>
+            <bendpoint startX="672" startY="-129" endX="12" endY="-129"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-66c8602ebf654bd587023b8a887370f9" source="id-1294ec8cb94b4dfabc3a5b12d779b4f1" target="id-c96a3bdaaa3f4f90808a8de9a1ff8034" archimateRelationship="id-a129483bb1e54dc9ae028f5cbe3d0359"/>
         </child>
@@ -3856,8 +3875,8 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <bounds x="1788" y="384" width="145" height="67"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f3b08c07093e4967b18693d4af64c0b2" source="id-742a592658ca47fe8731e97efcb1b6b1" target="id-4ef25696e5d54f239d4d27867e63f0ac" archimateRelationship="id-aafe0deae9b94b15968725d002064ee3">
             <bendpoint startX="132" startY="3" endX="792" endY="327"/>
-            <bendpoint startX="131" startY="-429" endX="791" endY="-105"/>
-            <bendpoint startX="-613" startY="-429" endX="47" endY="-105"/>
+            <bendpoint startX="132" startY="-405" endX="792" endY="-81"/>
+            <bendpoint startX="-624" startY="-405" endX="36" endY="-81"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-d972c9d28bae4d0a932486327d09cbb6" source="id-742a592658ca47fe8731e97efcb1b6b1" target="id-8191e92cf3884c2fbda6df4bfad9d566" archimateRelationship="id-e4b07a22cbaa4a2c8c875da9ba63cfca">
             <feature name="labelExpression" value="vertegenwoordigings-&#xD;&#xA;bevoegdheid"/>
@@ -3940,7 +3959,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-8177951ba11c4789aee4f72ee924332f" targetConnections="id-4e9f926b8a3f4962b38dc374b302c53b id-f1ca4c306ab44a598cf8d88302429269 id-3eab03e3640d4494bd1803de33eaaef3 id-d70b2e1e5df0462a90a7647da3abad0d id-a61996b0b9664934b4b4c7f8de09d746" fillColor="#ffffff" textPosition="1" archimateElement="id-3be2a0b7c4e74b64a89ab048535de88d">
+          <child xsi:type="archimate:DiagramObject" id="id-8177951ba11c4789aee4f72ee924332f" targetConnections="id-4e9f926b8a3f4962b38dc374b302c53b id-3eab03e3640d4494bd1803de33eaaef3 id-d70b2e1e5df0462a90a7647da3abad0d id-a61996b0b9664934b4b4c7f8de09d746 id-f1ca4c306ab44a598cf8d88302429269" fillColor="#ffffff" textPosition="1" archimateElement="id-3be2a0b7c4e74b64a89ab048535de88d">
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -4060,27 +4079,27 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-b30765a3b56f4354b9d1cc924d6f44eb" source="id-fe60cdb96f954960a63307c52de897d2" target="id-d9f0ecaedb004ed3802175ab0b642fa0" archimateRelationship="id-9c6bf9e5bb1740409d6c460f142c2cfd"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-20518b86421f4db0a0dcc4b0fd9ead17" source="id-fe60cdb96f954960a63307c52de897d2" target="id-5dd5e58f24b94281833e6d8f3154eab0" archimateRelationship="id-2d8735e534854320a338a4bac0bc188a"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-16e866105cd1411c8048aa3af045057c" source="id-fe60cdb96f954960a63307c52de897d2" target="id-621132dd681f4acc95efe25de59b6d01" archimateRelationship="id-15f5c6ccf98e4267842a8d74bb4b80a1"/>
-          <child xsi:type="archimate:DiagramObject" id="id-be79f7fc9d4f43d0819b77a965f872a3" targetConnections="id-733f2d1b5f3348ddad1c457ed453f682 id-d6d09cecfcde473a98c85a89a0b2ec34 id-57f3225526964917a7b8e5bc6416ce97" fillColor="#ffffff" textPosition="1" archimateElement="id-87d20390ad9b43eea623acd8193d0428">
+          <child xsi:type="archimate:DiagramObject" id="id-be79f7fc9d4f43d0819b77a965f872a3" targetConnections="id-733f2d1b5f3348ddad1c457ed453f682 id-d6d09cecfcde473a98c85a89a0b2ec34 id-57f3225526964917a7b8e5bc6416ce97 id-11483709a296435c8ac2c7d2f29da90f" fillColor="#ffffff" textPosition="1" archimateElement="id-87d20390ad9b43eea623acd8193d0428">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-841c6bea473d4af292021bedd835e0ab" targetConnections="id-f4df92d8e6f54de680d8040d0f96b9a7 id-bddaf128f2a94906b68a569ea73abe1a id-42c8b7bffa7c49e4b86596472685f5cb" fillColor="#ffffff" textPosition="1" archimateElement="id-d99f5610425448249b780d45cd71af5f">
+          <child xsi:type="archimate:DiagramObject" id="id-841c6bea473d4af292021bedd835e0ab" targetConnections="id-f4df92d8e6f54de680d8040d0f96b9a7 id-bddaf128f2a94906b68a569ea73abe1a id-42c8b7bffa7c49e4b86596472685f5cb id-a870e7fb606a4898ae988057e8be56bc" fillColor="#ffffff" textPosition="1" archimateElement="id-d99f5610425448249b780d45cd71af5f">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-5dd5e58f24b94281833e6d8f3154eab0" targetConnections="id-20518b86421f4db0a0dcc4b0fd9ead17 id-fe57fe9a1f9747dda3368949673479c5 id-ed145ba3233f4971af01ca7b18b485a3" fillColor="#ffffff" textPosition="1" archimateElement="id-ce38f6729a924f6da1142b2c655efffc">
+          <child xsi:type="archimate:DiagramObject" id="id-5dd5e58f24b94281833e6d8f3154eab0" targetConnections="id-20518b86421f4db0a0dcc4b0fd9ead17 id-fe57fe9a1f9747dda3368949673479c5 id-ed145ba3233f4971af01ca7b18b485a3 id-be16dc30f4c440acbe70cd6220d27dec" fillColor="#ffffff" textPosition="1" archimateElement="id-ce38f6729a924f6da1142b2c655efffc">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-d9f0ecaedb004ed3802175ab0b642fa0" targetConnections="id-b30765a3b56f4354b9d1cc924d6f44eb id-9cb15af5d924435bbfd7e0dc927b94e8 id-5a1babf735c14a03a1e99733c50131b0" fillColor="#ffffff" textPosition="1" archimateElement="id-ffeb84e839934d419c4ca4ee9aa6f136">
+          <child xsi:type="archimate:DiagramObject" id="id-d9f0ecaedb004ed3802175ab0b642fa0" targetConnections="id-b30765a3b56f4354b9d1cc924d6f44eb id-9cb15af5d924435bbfd7e0dc927b94e8 id-5a1babf735c14a03a1e99733c50131b0 id-7897456ed58e4a7cb2946f221e7f1771" fillColor="#ffffff" textPosition="1" archimateElement="id-ffeb84e839934d419c4ca4ee9aa6f136">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-621132dd681f4acc95efe25de59b6d01" targetConnections="id-16e866105cd1411c8048aa3af045057c id-5dffb952c06e434a8f24fb8403c1be84 id-2f2f0b55f8384371a5acbfee4f72a247" fillColor="#ffffff" textPosition="1" archimateElement="id-3ea9bbfd50ab47a1a874895944b74cca">
+          <child xsi:type="archimate:DiagramObject" id="id-621132dd681f4acc95efe25de59b6d01" targetConnections="id-16e866105cd1411c8048aa3af045057c id-5dffb952c06e434a8f24fb8403c1be84 id-2f2f0b55f8384371a5acbfee4f72a247 id-5a21005d545149e981cca06ce208ad07" fillColor="#ffffff" textPosition="1" archimateElement="id-3ea9bbfd50ab47a1a874895944b74cca">
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-df621a91d48c40368d902152b269aa88" targetConnections="id-018a941c5f72435abf6bd551f4d6553d id-7ea8023ed3d44d79a1ced2844c061b6f id-e4d1b494b1a648da84a4a3099caccb87 id-d563d007b1c145bd962033f7a0871e1d id-5c3dd4ea90034083a8e0c23a3d60f92c" fillColor="#ffffff" textPosition="1" archimateElement="id-2e4e3b531fa549b79b157b367825df17">
+          <child xsi:type="archimate:DiagramObject" id="id-df621a91d48c40368d902152b269aa88" targetConnections="id-018a941c5f72435abf6bd551f4d6553d id-7ea8023ed3d44d79a1ced2844c061b6f id-e4d1b494b1a648da84a4a3099caccb87 id-d563d007b1c145bd962033f7a0871e1d id-5c3dd4ea90034083a8e0c23a3d60f92c id-c32ac2eada604b36a35cc986dfb9e5c9" fillColor="#ffffff" textPosition="1" archimateElement="id-2e4e3b531fa549b79b157b367825df17">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -4150,7 +4169,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a4aa61e396614224ab0a13b1d3259864" targetConnections="id-b2c7c02d0a77448691ab2d361c816bfe id-4870e515b15e472e90d729e8d3cf6de9 id-2812d779f7ae4fd5a0333df3fbaff66c" fillColor="#ffffff" textPosition="1" archimateElement="id-aacf5c4d48204c23922b68521c7999b2">
+          <child xsi:type="archimate:DiagramObject" id="id-a4aa61e396614224ab0a13b1d3259864" targetConnections="id-b2c7c02d0a77448691ab2d361c816bfe id-4870e515b15e472e90d729e8d3cf6de9 id-2812d779f7ae4fd5a0333df3fbaff66c id-962ddb5fec8a44358764c5632d988a3c id-4ad047665fd4429cbb0a202f914411c4" fillColor="#ffffff" textPosition="1" archimateElement="id-aacf5c4d48204c23922b68521c7999b2">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -4161,10 +4180,10 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-5f0b48c0379b4596ac83057b157d462f" lineColor="#808080" source="id-68bbf3b871774601a4f995455c1367ff" target="id-41eccb4f62d4408d8d271ba768feab1f" archimateRelationship="id-121d5cc6f1894d7f86152237d0d2fc36"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-aef3380ff75c4ca1a58767a805ee33d9" textPosition="1" archimateElement="id-650355fdbfa444e68ba4c49d13eb3613">
-          <bounds x="1320" y="144" width="145" height="55"/>
+          <bounds x="1320" y="864" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f796458d7685401c898c690e5311f524" textPosition="1" archimateElement="id-53323e6bf2be41b1a4d9a4571262a74c">
-          <bounds x="1320" y="75" width="145" height="55"/>
+          <bounds x="1320" y="792" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0eb4d9930fe94fa387d9c80144dbed31" textPosition="1" archimateElement="id-baa0a1a458e54436813047815a6a1ac6">
           <bounds x="1320" y="636" width="145" height="55"/>
@@ -4237,7 +4256,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-7299422c4da2417195a61afa2e3ca68f" lineColor="#808080" source="id-4c69f8feea57499c883d2c0521453fe0" target="id-41eccb4f62d4408d8d271ba768feab1f" archimateRelationship="id-5706d54f33fc474fa076ff6db9ef07e4"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-c4c3fd48501047d9ad0455a86270ca0d" archimateElement="id-93a1371d1b704ef9b0d88e433f3ab319">
-          <bounds x="936" y="21" width="145" height="55"/>
+          <bounds x="1092" y="21" width="145" height="55"/>
           <feature name="labelExpression" value="eHerkenning&#xD;&#xA;middelen&#xD;&#xA;verstrekker"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-91dfa6cef90b480d9a2de8a53a6a3f1b" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-e3eba199051146369c800d498b416885" archimateRelationship="id-1b62df67e8d2436a94c19933050aaf53"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-c8e789cf5db0498191a2039278f1fd3a" lineColor="#808080" source="id-c4c3fd48501047d9ad0455a86270ca0d" target="id-867889ed17aa4454bfe20a599ac157f8" archimateRelationship="id-ca6cf7ba82a642f3af6ce101a987cf8c"/>
@@ -4279,15 +4298,13 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-5a1babf735c14a03a1e99733c50131b0" lineColor="#808080" source="id-4e004b2f987e4182bcc15f2396fbf508" target="id-d9f0ecaedb004ed3802175ab0b642fa0" archimateRelationship="id-b37f33a2402f48209d3b03e21b4ecfe7"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-42c8b7bffa7c49e4b86596472685f5cb" lineColor="#808080" source="id-4e004b2f987e4182bcc15f2396fbf508" target="id-841c6bea473d4af292021bedd835e0ab" archimateRelationship="id-d5a4e2ef1a494cc787f189de1a70a6a7"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ed145ba3233f4971af01ca7b18b485a3" lineColor="#808080" source="id-4e004b2f987e4182bcc15f2396fbf508" target="id-5dd5e58f24b94281833e6d8f3154eab0" archimateRelationship="id-cfddf568eefa4af3abe14caedf6950d1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4ad047665fd4429cbb0a202f914411c4" fontColor="#000000" lineColor="#808080" source="id-4e004b2f987e4182bcc15f2396fbf508" target="id-a4aa61e396614224ab0a13b1d3259864" archimateRelationship="id-88c2eaba541a4d2bbb0701c90d2e2605"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-39aca6ad1968418e81ae4b15c85cce7e" textPosition="1" archimateElement="id-2b79a5d9125346ee970a03e2f88c0fda">
           <bounds x="24" y="132" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-40936296221048669083a17a35d5057f" textPosition="1" archimateElement="id-e25448c20ae04cfc85e54847cde73e76">
           <bounds x="576" y="21" width="145" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-f1ca4c306ab44a598cf8d88302429269" lineColor="#808080" source="id-40936296221048669083a17a35d5057f" target="id-8177951ba11c4789aee4f72ee924332f" archimateRelationship="id-8892f3af1f1c4bc285444aa1776231b7">
-            <bendpoint startX="60" startY="156" endX="-30" endY="-159"/>
-          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-d9bff14499364ce8bb3b4d0bfcea1c37" lineColor="#808080" source="id-40936296221048669083a17a35d5057f" target="id-1cfc0ef914a84b019e02acf5fe4f3c8e" archimateRelationship="id-8a9807a0b8cc417d99ff802a5a0508ab">
             <bendpoint startX="-16" startY="84" endX="-18" endY="-170"/>
             <bendpoint startX="-16" startY="132" endX="-18" endY="-122"/>
@@ -4301,7 +4318,7 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
           <sourceConnection xsi:type="archimate:Connection" id="id-53ab9cf5d54b49e5855b51f453568690" lineColor="#808080" source="id-357c01b33d22411585345c91211a3c53" target="id-2a1152ea59c8450eade4b86527612d41" archimateRelationship="id-a7fe5a7a6f9f4335a7b832d9a622a402"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-69fd1b9e36994982bcc1227ad5821793" textPosition="1" archimateElement="id-e174ec2135624a169d450181d3359c6f">
-          <bounds x="756" y="21" width="145" height="55"/>
+          <bounds x="912" y="21" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-612afac043074f2cb192a8ab782aafbb" lineColor="#808080" source="id-69fd1b9e36994982bcc1227ad5821793" target="id-441a70d086d54745a05df435e0ff8536" archimateRelationship="id-d41bb473bbe14fbca2a7086242ca88fa"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e9bcd4dca73243e8b881460f78d42895" lineColor="#808080" source="id-69fd1b9e36994982bcc1227ad5821793" target="id-1835c5903c6345e2b1c7fb1493198795" archimateRelationship="id-9fed0bb3b3ef4a089416b445706280a4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-29714dda694a4b98a7e9fcfb93d1ced0" lineColor="#808080" source="id-69fd1b9e36994982bcc1227ad5821793" target="id-266e4b59cc144c61a5818f249da2c49f" archimateRelationship="id-5f447751c9d24a24b4b6f8117bcac93e">
@@ -4344,6 +4361,25 @@ Een machtigingsdienst voorziet op verzoek van een wettelijk vertegenwoordiger va
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9d0e6232d59843a3b8a737e135ca8955" textPosition="1" archimateElement="id-01049568026845549513722ef5e8079b">
+          <bounds x="744" y="21" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f1ca4c306ab44a598cf8d88302429269" lineColor="#808080" source="id-9d0e6232d59843a3b8a737e135ca8955" target="id-8177951ba11c4789aee4f72ee924332f" archimateRelationship="id-8892f3af1f1c4bc285444aa1776231b7">
+            <bendpoint startX="60" startY="156" endX="-30" endY="-159"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cb6e179c9bf54e9aaa336a4957d99fed" textPosition="1" archimateElement="id-5730a811d02540318bd5939dbf387d8a">
+          <bounds x="1320" y="720" width="145" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0c34a3bdaab442968065e5194eb2298e" textPosition="1" archimateElement="id-2c07431cc7424fb48ec82c197cb2aa5f">
+          <bounds x="1320" y="21" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-11483709a296435c8ac2c7d2f29da90f" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-be79f7fc9d4f43d0819b77a965f872a3" archimateRelationship="id-b0f458f53a2545db9cf2b33d9b3ff969"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c32ac2eada604b36a35cc986dfb9e5c9" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-df621a91d48c40368d902152b269aa88" archimateRelationship="id-281c740e869d4d5885f718b94dbd1798"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5a21005d545149e981cca06ce208ad07" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-621132dd681f4acc95efe25de59b6d01" archimateRelationship="id-1b9ac63d64f745c99c72dbfb0481110b"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7897456ed58e4a7cb2946f221e7f1771" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-d9f0ecaedb004ed3802175ab0b642fa0" archimateRelationship="id-ef2bf3a18fe04388b79bfe2a491a91d0"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a870e7fb606a4898ae988057e8be56bc" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-841c6bea473d4af292021bedd835e0ab" archimateRelationship="id-97fd1a1a3c0f40678ed5afacf60f4bcb"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-be16dc30f4c440acbe70cd6220d27dec" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-5dd5e58f24b94281833e6d8f3154eab0" archimateRelationship="id-259c78739b214a62a3e83d0b3cde8d1d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-962ddb5fec8a44358764c5632d988a3c" lineColor="#808080" source="id-0c34a3bdaab442968065e5194eb2298e" target="id-a4aa61e396614224ab0a13b1d3259864" archimateRelationship="id-c863941baa414b76b4e3f5498b9e1e16"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="GDI-bouwstenen" id="id-e6355ea071ae42c1aba41f8a5a319d8e">

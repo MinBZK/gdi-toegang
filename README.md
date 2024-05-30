@@ -32,6 +32,7 @@ Bijlagen:
 * Functies: <a href="https://minbzk.github.io/gdi-toegang/?view=id-e1cf58e0b07f4907bdce34ba561b9a18">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsfuncties.html">overzicht</a>
 * Bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-efc531031d114860a309f6eeacdad289">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/bedrijfsobjecten.html">overzicht</a>
 * Relatie tussen functies en bedrijfsobjecten: <a href="https://minbzk.github.io/gdi-toegang/?view=id-d24214a9135947e980983cea632143d2">diagram</a>
+* Rollen: <a href="https://minbzk.github.io/gdi-toegang/content/views/rollen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/rollendetails.html">details</a>
 * Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningendetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-toegang/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaardendetails.html">details</a>
 * Begrippen: <a href="https://www.noraonline.nl/wiki/Begrippen_IAM">overzicht</a>
