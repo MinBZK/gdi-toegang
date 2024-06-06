@@ -1,8 +1,8 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="7. Er zijn borgen om misbruik door overheden te voorkomen"
+    name="7. Er zijn waarborgen om misbruik door overheden te voorkomen"
     id="id-4532a251a8ba490298dc08824ef4799a"
-    documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten. Mensen hebben soms ook verkeerde intenties. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk borgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden. De fundamentele rechten en vrijheden van individuen moeten worden bewaakt. De NIS2 richtlijn beschrijft ook een aantal maatregelen die een  hiervoor een basis kunnen bieden, zoals de verplichting tot het aanwijzen van een toezichthoudende autoriteit. In Nederland is hiervoor de Rijksinspectie Digitale Infrastructuur (RDI) aangewezen.">
+    documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten en hebben soms verkeerde intenties. De impact van beslissingen van de overheid op het leven van mensen kan echter heel groot zijn. Ervaring uit het verleden leert dat veel beveiligingsaanvallen van binnenuit organisaties komen. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Rusland en China zijn voorbeelden van landen waarvoor dit prominent geldt, maar er zijn ook allerlei andere landen waar mensen aan de macht komen die er andere waarden op na houden. Beveiliging zou dus ook zoveel mogelijk waarborgen moeten inbouwen om te beschermen tegen individuele machtshebbers die grenzen willen overschrijden. De fundamentele rechten en vrijheden van individuen moeten worden bewaakt. De NIS2 richtlijn beschrijft ook een aantal maatregelen die een  hiervoor een basis kunnen bieden, zoals de verplichting tot het aanwijzen van een toezichthoudende autoriteit. In Nederland is hiervoor de Rijksinspectie Digitale Infrastructuur (RDI) aangewezen.">
   <properties
       key="Implicaties"
       value="1. Er wordt bij de ontwikkeling van wet- en regelgeving bewust nagedacht over welke gegevens door de overheid moeten worden beheerd en/of mogen worden gedeeld, rekening houdend met beveiligings- en privacyrisico’s, alsook met de fundamentele rechten en vrijheden van individuen."/>
@@ -11,7 +11,7 @@
       value="2. Er worden geen privacy hotspots gecreëerd in systemen van individuele (overheids)organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
   <properties
       key="Implicaties"
-      value="3. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar."/>
+      value="3. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar door de toezichthoudende autoriteit.."/>
   <properties
       key="Implicaties"
       value="4. Burgers en organisaties hebben regie op hun eigen gegevens (zie principe in domeinarchitectuur gegevensuitwisseling)."/>

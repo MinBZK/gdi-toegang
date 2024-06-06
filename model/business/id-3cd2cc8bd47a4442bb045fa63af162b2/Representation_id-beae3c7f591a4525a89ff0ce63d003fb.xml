@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Rollen"
     id="id-beae3c7f591a4525a89ff0ce63d003fb"
-    documentation="Rollen zijn een clustering van verantwoordelijkheden, taken en bevoegheden. De architectuur benoemt de belangrijkste rollen in de context van toegang en verbindt ze aan de bedrijfsfuncties om de belangrijkste verantwoordelijkheden duidelijk te maken.">
+    documentation="Rollen zijn een clustering van verantwoordelijkheden, taken en bevoegheden. De architectuur benoemt de belangrijkste rollen in de context van toegang en verbindt ze aan de functies om de belangrijkste verantwoordelijkheden duidelijk te maken.">
   <properties
       key="elementType"
       value="business-role"/>

@@ -1,11 +1,11 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="3. Er wordt tussen partijen alleen strikt noodzakelijke gegevens uitgewisseld"
+    name="3. Partijen wisselen alleen strikt noodzakelijke gegevens uit"
     id="id-77965a4ab86c43fb809656f759830dc1"
     documentation="Dataminimalisatie is een uitgangspunt in de AVG en betekent dat de persoonsgegevens die worden gebruikt zijn beperkt tot het hoogst noodzakelijke. In meer algemene zin is het verstandig om niet meer gegevens uit te wisselen dan nodig is. Dit heeft in de context van toegang vooral betrekking op de verklaringen die worden gevraagd aan verklarende partijen over de digitale identiteiten en de eigenschappen die in deze verklaringen zitten. Informatie is ook niet altijd voor alle handelingen binnen een dienst relevant. Het zou daarom niet passend zijn om specifieke verklaringen en informatie op te halen als niet zeker is dat deze ook daadwerkelijk nodig is. Voor veel diensten is het helemaal niet relevant wie de precieze persoon is, welke BSN daarbij hoort en of deze persoon uit Nederland komt of niet. Voor deze diensten volstaat een pseudoniem. Veel belangrijker is het om te weten of de gebruiker over de juiste bevoegdheden beschikt. Opsporingsdiensten hebben wel duidelijk andere informatiebehoeften en bevoegdheden. Daarnaast moet wel rekening worden gehouden met zogenaamde comfortinformatie. Dat is informatie die strikt genomen niet nodig is, maar wel belangrijk om betekenisvol informatie te presenteren naar gebruikers zoals namen van mensen en organisaties.">
   <properties
       key="Implicaties"
-      value="1. Het is duidelijk wat de wettelijke grondslag is van de gegevensuitwisseling."/>
+      value="1. Het is duidelijk wat de wettelijke grondslag en doelbinding is van de gegevensuitwisseling."/>
   <properties
       key="Implicaties"
       value="2. Dienstverleners registreren in de toegangsinfrastructuur welke attributen van entiteiten noodzakelijk zijn om de dienst uit te kunnen voeren."/>
@@ -14,10 +14,10 @@
       value="3. Gebruikers hebben voorafgaand aan hun handelen inzicht in de dienst gevraagde attributen (persoonsgegevens) en kunnen zelf besluiten of ze deze willen laten verwerken."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur borgt dat alleen de vooraf voor toegang geregistreerde attributen worden verstrekt."/>
+      value="4. De toegangsinfrastructuur borgt dat alleen attributen worden verstrekt die eerder zijn geregistreerd door dienstverleners en waarvoor gebruikers voorafgaand aan hun handelen akkoord op hebben gegeven."/>
   <properties
       key="Implicaties"
-      value="5. Verstrekkers van (voor toegang relevante) attributen weten niet voor welke dienst deze worden gebruikt."/>
+      value="5. Verklarende partijen van (voor toegang relevante) attributen weten niet voor welke dienst deze verklaringen worden gebruikt."/>
   <properties
       key="Implicaties"
       value="6. Afhankelijk van het betrouwbaarheidsniveau van de dienst kunnen gebruikers anoniem, met een pseudoniem of met een bekende identiteit toegang krijgen tot de dienst."/>
@@ -26,8 +26,5 @@
       value="7. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
   <properties
       key="Implicaties"
-      value="8. Specifieke verklaringen die relevant zijn voor toegang (inclusief de verklaring over de precieze identiteit van iemand) worden pas opgehaald op het moment dat een gebruiker aangeeft handelingen uit te willen voeren waardoor dit nodig is."/>
-  <properties
-      key="Implicaties"
-      value="9. Bevoegde autoriteiten hebben vanuit toezicht en handhaving de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
+      value="8. Bevoegde autoriteiten hebben vanuit toezicht en handhaving de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
 </archimate:Principle>

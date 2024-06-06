@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Authenticeren"
     id="id-71518055a4194c55844b0ed040dacbe2"
-    documentation="Het bepalen of er voldoende bewijs is dat iemand een digitale identiteit heeft en het creëren, controleren, vertalen en vernietigen van daarbij behorende tokens."/>
+    documentation="Het bepalen of er voldoende vertrouwen is dat iemand een digitale identiteit heeft en het creëren, controleren, vertalen en vernietigen van daarbij behorende identiteitsverklaringen."/>

@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheren authenticatiemiddelen"
     id="id-fe587c1bae3c453285eccb764194ced3"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) authenticatiemiddelen."/>
+    documentation="Het verstrekken en intrekken van authenticatiemiddelen en het administreren van de daarvoor benodigde gegevens."/>
