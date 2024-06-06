@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheren bevoegdheden"
     id="id-83db5a52a2914474a04a7152fa9d12e0"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) bevoegdheden."/>
+    documentation="Het toekennen en intrekken van bevoegdheden en het administreren van de daarvoor benodigde gegevens."/>

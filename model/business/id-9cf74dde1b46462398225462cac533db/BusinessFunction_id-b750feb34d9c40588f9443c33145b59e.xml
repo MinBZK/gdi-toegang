@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Autoriseren"
     id="id-b750feb34d9c40588f9443c33145b59e"
-    documentation="Het bepalen of een digitale identiteit geautoriseerd is voor diensten en daaronder liggende functies en gegevens en beschikken over de noodzakelijke vertegenwoordigingsbevoegdheden."/>
+    documentation="Het bepalen op basis van autorisatieregels bepalen of een digitale identiteit beschikt over de bevoegdheden voor toegang tot diensten of informatieobjecten."/>

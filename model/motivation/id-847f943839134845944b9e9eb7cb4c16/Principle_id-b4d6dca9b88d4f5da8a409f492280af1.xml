@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="8. Systemen in de keten autoriseren op basis van de digitale identiteit en de bevoegdheden van de gebruiker die de interactie start"
     id="id-b4d6dca9b88d4f5da8a409f492280af1"
-    documentation="Door autorisatie van gebruikers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Tegelijkertijd kunnen overheidsorganisaties een wettelijke basis hebben om gegevens van gebruikers te delen, zonder daar toestemming van een gebruiker voor te krijgen.">
+    documentation="Door autorisatie van gebruikers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke digitale identiteit (bijvoorbeeld een systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Tegelijkertijd kunnen overheidsorganisaties een wettelijke basis hebben om gegevens van gebruikers te delen, zonder dat de gebruiker daar expliciet toestemming voor geeft.">
   <properties
       key="Implicaties"
       value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de gebruiker."/>
