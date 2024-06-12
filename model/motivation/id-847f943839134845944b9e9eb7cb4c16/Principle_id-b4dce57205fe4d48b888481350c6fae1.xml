@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2. Toegang is gebaseerd op verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Vertrouwende partijen krijgen vertrouwen in de authenticiteit van de digitale identiteit en de bevoegdheden van deze digitale identiteit als zij hierover van vertrouwde verklarende partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
+    documentation="Vertrouwende partijen krijgen vertrouwen in de een digitale identiteit als zij hierover van vertrouwde partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
   <properties
       key="Implicaties"
       value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het vertrekken van toegang."/>
