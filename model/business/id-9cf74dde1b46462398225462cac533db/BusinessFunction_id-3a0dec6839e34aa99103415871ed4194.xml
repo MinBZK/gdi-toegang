@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Provisioning authenticatiemiddelen"
+    name="Provisioning identificatiemiddelen"
     id="id-3a0dec6839e34aa99103415871ed4194"
-    documentation="Het in machineleesbare vorm beschikbaar stellen van gegevens over authenticatiemiddelen om authenticatie in doelsystemen te faciliteren. Denk daarbij met name aan het delen van publieke sleutels, waarmee de authenticiteit van private sleutels kan worden vastgesteld."/>
+    documentation="Het in machineleesbare vorm beschikbaar stellen van gegevens over identifcatiemiddelen om authenticatie in doelsystemen te faciliteren. Denk daarbij met name aan het delen van publieke sleutels, waarmee de authenticiteit van private sleutels kan worden vastgesteld."/>

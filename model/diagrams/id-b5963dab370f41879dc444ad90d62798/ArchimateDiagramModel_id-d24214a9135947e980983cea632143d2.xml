@@ -487,7 +487,7 @@
         x="12"
         y="12"
         width="169"
-        height="337"/>
+        height="205"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-95b5c3ca062940e085c50e6eb1f6c24c"
@@ -698,5 +698,20 @@
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-c5998016874b4a3f9a80d62f09af3f33.xml#id-c5998016874b4a3f9a80d62f09af3f33"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7072a2f7e3ac447eb89dc1253a12a4fb">
+    <features
+        name="iconVisible"
+        value="2"/>
+    <bounds
+        x="12"
+        y="228"
+        width="169"
+        height="121"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-715ea15b4b9146498e9e88e3cee41494.xml#id-715ea15b4b9146498e9e88e3cee41494"/>
   </children>
 </archimate:ArchimateDiagramModel>

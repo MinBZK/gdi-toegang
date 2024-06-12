@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Inzage geven in authenticatiemiddelen"
+    name="Inzage geven in identificatiemiddelen"
     id="id-bbb53fd3512e4e3e84c8e3059b832164"
-    documentation="Het ontsluiten van informatie over authenticatiemiddelen en hun gebruik."/>
+    documentation="Het ontsluiten van informatie over identificatiemiddelen en hun gebruik."/>

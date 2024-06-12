@@ -1,5 +1,0 @@
-<archimate:Assessment
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Machtigen van systemen niet mogelijk"
-    id="id-a4763a1bfff84929bfaa0c3ed15da3a0"
-    documentation="Overheidsorganisaties maken veel gebruik van SaaS diensten en andere leveranciers die namens hen gegevens uitwisselen. Er zijn op dit moment ook geen standaarden of voorzieningen om systemen te machtigen voor toegang tot andere systemen. Om deze reden worden nu vaak sleutels van certificaten gedeeld met dit soort derde partijen. Dit is niet veilig en inefficiënt."/>

@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Uitloggen"
     id="id-52aa4858c63d46faa3fa7c4b92716e53"
-    documentation="Het ervoor zorgen dat gecreëerde identiteitsverklaringen niet meer gebruikt kunnen worden om toegang te krijgen tot resources."/>
+    documentation="Het ervoor zorgen dat gecreëerde authenticatieverklaringen niet meer gebruikt kunnen worden om toegang te krijgen tot resources."/>

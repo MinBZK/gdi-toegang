@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adaptieve toegangscontrole"
     id="id-7f4dc8e8532147a7bcaa8b5846799154"
-    documentation="Bij adaptieve toegangscontrole kan er dynamisch rekening worden gehouden met veranderende risicoprofielen en gebruikersgedrag. Ongebruikelijke gebruikspatronen kunnen daarbij aanleiding zijn om toegang te weigeren. Zo is toegang vanuit een ander land en/of vanaf een ander apparaat verdacht en kan dat reden zijn om de toegang te weigeren, de gebruiker om aanvullende authenticatiemiddelen te vragen en/of de toegang expliciet te signaleren aan een beheerder. Er kan ook dynamisch worden bepaald of aanvullende authenticatiemiddelen nodig zijn als gegevens met een hoger beveiligingsrisico worden benaderd.">
+    documentation="Bij adaptieve toegangscontrole kan er dynamisch rekening worden gehouden met veranderende risicoprofielen en gebruikersgedrag. Ongebruikelijke gebruikspatronen kunnen daarbij aanleiding zijn om toegang te weigeren. Zo is toegang vanuit een ander land en/of vanaf een ander apparaat verdacht en kan dat reden zijn om de toegang te weigeren, de gebruiker om aanvullende identificatiemiddelen te vragen en/of de toegang expliciet te signaleren aan een beheerder. Er kan ook dynamisch worden bepaald of aanvullende identificatiemiddelen nodig zijn als gegevens met een hoger beveiligingsrisico worden benaderd.">
   <profiles
       href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
 </archimate:Driver>

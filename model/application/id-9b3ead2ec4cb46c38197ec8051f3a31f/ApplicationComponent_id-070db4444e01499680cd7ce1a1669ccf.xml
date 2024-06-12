@@ -1,9 +1,0 @@
-<archimate:ApplicationComponent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Centrale misbruikbestrijdiging"
-    id="id-070db4444e01499680cd7ce1a1669ccf"
-    documentation="Er is sprake van centrale misbruikbestrijding. Het doel is het bestrijden van ‘grootschalig’ misbruik met identificatiemiddelen. Centrale misbruikbestrijding is niet voor bestrijding van misbruik met individuele identificatiemiddelen. Centrale misbruikbestrijding is om misbruik aan te pakken die decentraal niet aangepakt kan worden. Hiervoor is het nodig om stelselbrede monitoring in te richten, omdat elke partij (gebruiker, dienstverlener, deelnemer, centrale team) een deel van de informatie heeft. Niemand weet alles.">
-  <properties/>
-  <profiles
-      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
-</archimate:ApplicationComponent>
