@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Knelpunten"
     id="id-ec62f6503d6e4ebbbc1e8f7da58048ac"
-    documentation="&lt;p>Knelpunten zijn aandachtspunten en risico's die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten.&lt;/p>">
+    documentation="&lt;p>Knelpunten zijn aandachtspunten en risico's die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten. De volgende figuur plot de knelpunten op de meest passende functie in het bedrijfsfunctiemodel.&lt;/p>&#xD;&#xA;&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/knelpunten.svg&quot;>&lt;/center>&lt;/p>&#xD;&#xA;">
   <properties
       key="elementType"
       value="assessment"/>

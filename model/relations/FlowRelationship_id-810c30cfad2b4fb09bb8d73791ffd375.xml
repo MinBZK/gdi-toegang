@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="status authenticatiemiddel"
+    name="status identificatiemiddel"
     id="id-810c30cfad2b4fb09bb8d73791ffd375">
   <source
       xsi:type="archimate:ApplicationComponent"

@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Inzageregister"
     id="id-e174ec2135624a169d450181d3359c6f"
-    documentation="Een registratie van de status van authenticatiemiddelen en status van de machtigingsrelatie per machtingsregister.">
+    documentation="Een registratie van de status van identificatiemiddelen en status van de machtigingsrelatie per machtingsregister.">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

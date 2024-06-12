@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheren verklarende partijen"
     id="id-ed79e8b5aed54001b5024d2c02233232"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over verklarende partijen zoals authenticatiediensten, machtigingsdiensten en gezaghebbende bronnen."/>
+    documentation="Het toelaten van verklarende partijen zoals authenticatiediensten, machtigingsdiensten en gezaghebbende bronnen tot een toegangsinfrastructuur en het administreren van de daarvoor noodzakelijke gegevens."/>

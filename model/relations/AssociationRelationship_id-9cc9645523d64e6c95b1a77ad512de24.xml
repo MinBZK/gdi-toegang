@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="creëert"
-    id="id-9cc9645523d64e6c95b1a77ad512de24">
+    id="id-9cc9645523d64e6c95b1a77ad512de24"
+    directed="true">
   <source
       xsi:type="archimate:BusinessObject"
       href="BusinessObject_id-9f8c3a76be074fb791acb27cd1335fbb.xml#id-9f8c3a76be074fb791acb27cd1335fbb"/>

@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="DigiD alleen voor gebruik met BSN"
     id="id-a4046d419300443da3ec983b6a64884b"
-    documentation="Er is wettelijk bepaald dat DigiD alleen gebruikt mag worden voor diensten waarvoor BSN gebruikt moet worden. Dat beperkt het inzetgebied van DigiD. Er is bij verschillende overheidsorganisaties behoefte aan een betrouwbaar authenticatiemiddel dan ook inloggen mogelijk maakt voor diensten waarvoor het BSN niet verwerkt mag worden."/>
+    documentation="Er is wettelijk bepaald dat DigiD alleen gebruikt mag worden voor diensten waarvoor BSN gebruikt moet worden. Dat beperkt het inzetgebied van DigiD. Er is bij verschillende overheidsorganisaties behoefte aan een betrouwbaar identificatiemiddel dan ook inloggen mogelijk maakt voor diensten waarvoor het BSN niet verwerkt mag worden."/>

@@ -11,7 +11,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="312"
+        x="456"
         y="12"
         width="133"
         height="181"/>
@@ -43,7 +43,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="456"
+        x="600"
         y="12"
         width="133"
         height="181"/>
@@ -59,7 +59,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="456"
+        x="600"
         y="204"
         width="277"
         height="85"/>
@@ -75,7 +75,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="168"
+        x="312"
         y="12"
         width="133"
         height="181"/>
@@ -93,7 +93,7 @@
     <bounds
         x="312"
         y="204"
-        width="133"
+        width="277"
         height="85"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -110,7 +110,7 @@
         x="24"
         y="12"
         width="133"
-        height="85"/>
+        height="181"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-256454e9e1434b858b4214c65b1cb3ab.xml#id-256454e9e1434b858b4214c65b1cb3ab"/>
@@ -126,7 +126,7 @@
         name="labelExpression"
         value="Beheren vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
     <bounds
-        x="600"
+        x="744"
         y="12"
         width="133"
         height="181"/>
@@ -142,10 +142,10 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="24"
-        y="108"
+        x="168"
+        y="12"
         width="133"
-        height="85"/>
+        height="181"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-715ea15b4b9146498e9e88e3cee41494.xml#id-715ea15b4b9146498e9e88e3cee41494"/>

@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoeken authenticatiemiddel zonder BSN"
+    name="Onderzoeken identificatiemiddel zonder BSN"
     id="id-75a11a6464244610b8679b4ccf487a9c"
-    documentation="Er zou een betrouwbaar authenticatiemiddel moeten zijn die het mogelijk maakt om zonder BSN in te loggen. Er zijn situaties waarin de dienstverlener deze BSN niet mag verwerken. Voor het nieuwe stelsel toegang zullen in ieder geval ook private gebruik willen kunnen maken van publieke middelen. Dat zou een uitbreiding van DigiD kunnen zijn (met toepassing van polymorfe pseudonimisering), maar het kan ook een ander authenticatiemiddel zijn zoals de EDI wallet. Het bepalen van de oplossingsrichting vraagt nader onderzoek."/>
+    documentation="Er zou een betrouwbaar identificatiemiddel moeten zijn die het mogelijk maakt om zonder BSN in te loggen. Er zijn situaties waarin de dienstverlener deze BSN niet mag verwerken. Voor het nieuwe stelsel toegang zullen in ieder geval ook private gebruik willen kunnen maken van publieke middelen. Dat zou een uitbreiding van DigiD kunnen zijn (met toepassing van polymorfe pseudonimisering), maar het kan ook een ander identificatiemiddel zijn zoals de EDI wallet. Het bepalen van de oplossingsrichting vraagt nader onderzoek."/>

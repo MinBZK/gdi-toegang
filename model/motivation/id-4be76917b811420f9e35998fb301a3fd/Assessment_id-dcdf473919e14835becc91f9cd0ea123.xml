@@ -1,5 +1,5 @@
 <archimate:Assessment
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Certificaten niet internationaal bruikbaar"
+    name="Buitenlandse certificaten niet bruikbaar als identificatiemiddel"
     id="id-dcdf473919e14835becc91f9cd0ea123"
-    documentation="Nederlandse PKI-overheidscertificaten kunnen niet direct internationaal gebruikt worden en andersom. Buitenlandse certificaten kunnen in Nederland niet als authenticatiemiddel gebruikt worden omdat er geen OIN in staat."/>
+    documentation="Buitenlandse PKI certificaten kunnen in Nederland niet als identificatiemiddel gebruikt worden omdat er geen OIN in staat."/>
