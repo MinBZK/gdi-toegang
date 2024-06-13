@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gebruikers moeten vaak opnieuw inloggen"
     id="id-7af2fa9c66e94ac397595f5206032775"
-    documentation="Er blijkt dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Dit is gebruiksonvriendelijk. Er is inmiddels wel een herbevestiging in DigiD beschikbaar, waardoor volledig opnieuw inloggen in DigiD niet hoeft."/>
+    documentation="Er blijkt dat veel portalen expliciet vragen om in te loggen als de gebruiker even daarvoor ook is al is ingelogd. Dit is gebruiksonvriendelijk. DigiD ondersteunde single sign-on maar dit is destijds om beveiligingsredenen niet meer toegestaan. Er is inmiddels wel een herbevestiging in DigiD beschikbaar, waardoor volledig opnieuw inloggen in DigiD niet hoeft."/>

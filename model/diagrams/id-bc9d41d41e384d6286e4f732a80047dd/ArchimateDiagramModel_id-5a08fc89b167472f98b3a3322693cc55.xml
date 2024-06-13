@@ -13,25 +13,7 @@
         x="336"
         y="12"
         width="181"
-        height="339"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-44167dd2eea44e4b837762a5226457d7"
-        font="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="264"
-          width="157"
-          height="61"/>
-      <archimateElement
-          xsi:type="archimate:Assessment"
-          href="Assessment_id-72dd00c3b29f4f758e6f07adbb43af37.xml#id-72dd00c3b29f4f758e6f07adbb43af37"/>
-    </children>
+        height="265"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ad39f89f67c449399b4269337e731976"
@@ -98,7 +80,7 @@
         value="2"/>
     <bounds
         x="24"
-        y="362"
+        y="288"
         width="493"
         height="97"/>
     <children
@@ -151,7 +133,7 @@
         x="528"
         y="12"
         width="109"
-        height="339"/>
+        height="265"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-83db5a52a2914474a04a7152fa9d12e0.xml#id-83db5a52a2914474a04a7152fa9d12e0"/>
@@ -164,7 +146,7 @@
         value="2"/>
     <bounds
         x="648"
-        y="362"
+        y="288"
         width="181"
         height="97"/>
     <children
@@ -199,7 +181,7 @@
         x="144"
         y="12"
         width="181"
-        height="339"/>
+        height="265"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6fc752c77d284ac6be8556f0fd590fc1"
@@ -230,7 +212,7 @@
         value="2"/>
     <bounds
         x="528"
-        y="362"
+        y="288"
         width="109"
         height="97"/>
     <archimateElement
@@ -247,7 +229,7 @@
         x="24"
         y="12"
         width="109"
-        height="171"/>
+        height="133"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-256454e9e1434b858b4214c65b1cb3ab.xml#id-256454e9e1434b858b4214c65b1cb3ab"/>
@@ -265,7 +247,7 @@
         x="648"
         y="12"
         width="181"
-        height="339"/>
+        height="265"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-06057ca685cf47c3b9384a4cbaef9aa0"
@@ -332,9 +314,9 @@
         value="2"/>
     <bounds
         x="24"
-        y="194"
+        y="156"
         width="109"
-        height="157"/>
+        height="121"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-715ea15b4b9146498e9e88e3cee41494.xml#id-715ea15b4b9146498e9e88e3cee41494"/>

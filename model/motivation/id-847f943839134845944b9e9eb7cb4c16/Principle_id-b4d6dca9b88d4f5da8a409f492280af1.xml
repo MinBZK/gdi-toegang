@@ -8,5 +8,5 @@
       value="1. Autorisaties in alle systemen in de keten, zijn gebaseerd op de digitale identiteit van de gebruiker."/>
   <properties
       key="Implicaties"
-      value="2. Relevante (delen van) de authenticatieverklaring en bevoegdheidsverklaringen van de gebruiker worden als verifieerbare presentaties doorgegeven in de keten."/>
+      value="2. Relevante (delen van) de authenticatieverklaring en bevoegdheidsverklaringen van de gebruiker worden doorgegeven in de keten."/>
 </archimate:Principle>

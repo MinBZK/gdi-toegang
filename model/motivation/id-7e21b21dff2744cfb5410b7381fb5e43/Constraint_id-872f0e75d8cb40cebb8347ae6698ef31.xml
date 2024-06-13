@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DID"
+    id="id-872f0e75d8cb40cebb8347ae6698ef31"
+    documentation="Decentralised identifiers (DIDs) maken het mogelijk om decentraal digitale identiteiten te creëren.">
+  <properties
+      key="Status"
+      value="nvt"/>
+  <properties
+      key="Beheerorganisatie"
+      value="W3C"/>
+  <properties
+      key="URL"
+      value="https://w3c.github.io/did-core/"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>
