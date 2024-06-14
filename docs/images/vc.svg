@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="181mm"
-   height="63mm"
-   viewBox="0 0 181 63"
+   width="250mm"
+   height="77mm"
+   viewBox="0 0 250 77"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.69219276"
-     inkscape:cx="396.56584"
+     inkscape:cx="397.28818"
      inkscape:cy="476.02347"
      inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g13" />
   <defs
@@ -38,7 +38,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipEmfPath1">
       <path
-         d="M 7.0396344,-3.0398421 L 661.72563,-3.0398421 L 661.72563,207.9892 L 7.0396344,207.9892 z"
+         d="M 7.0396344,-3.0398421 H 661.72563 V 207.9892 H 7.0396344 Z"
          id="path1" />
     </clipPath>
     <pattern
@@ -57,13 +57,13 @@
        transform="matrix(0.26458333,0,0,0.26458333,-71.546018,-64.622587)"
        id="g13">
       <g
-         transform="translate(-11.420396,-38.570426)"
-         id="g14">
+         transform="translate(106.87696,-25.691851)"
+         id="g13-2">
         <rect
-           x="298.5"
-           y="311.5"
-           width="129"
-           height="49"
+           x="185.5"
+           y="291.5"
+           width="180"
+           height="68"
            stroke="#223f59"
            stroke-width="2.66667"
            stroke-linejoin="round"
@@ -73,20 +73,20 @@
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(320.152,333)"
+           font-size="19px"
+           transform="translate(219.198,322)"
            id="text1">Verklarende</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(343.819,350)"
+           font-size="19px"
+           transform="translate(250.405,344)"
            id="text2">partij</text>
         <rect
-           x="560.5"
-           y="311.5"
-           width="129"
-           height="49"
+           x="550.5"
+           y="291.5"
+           width="180"
+           height="68"
            stroke="#223f59"
            stroke-width="2.66667"
            stroke-linejoin="round"
@@ -96,14 +96,14 @@
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(589.547,341)"
+           font-size="19px"
+           transform="translate(593.84,333)"
            id="text3">Gebruiker</text>
         <rect
-           x="821.5"
-           y="311.5"
-           width="129"
-           height="49"
+           x="915.5"
+           y="291.5"
+           width="180"
+           height="68"
            stroke="#223f59"
            stroke-width="2.66667"
            stroke-linejoin="round"
@@ -113,23 +113,23 @@
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(836.691,333)"
+           font-size="19px"
+           transform="translate(939.299,322)"
            id="text4">Vertrouwende</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(867.278,350)"
+           font-size="19px"
+           transform="translate(979.759,344)"
            id="text5">partij</text>
         <path
-           d="m 427.5,335 h 125.902 v 1 H 427.5 Z m 124.569,-3.5 8,4 -8,4 z"
+           d="m 365.5,325 h 178.046 v 1 H 365.5 Z m 176.713,-3.5 8,4 -8,4 z"
            id="path5" />
         <rect
-           x="527.5"
-           y="447.5"
-           width="195"
-           height="49"
+           x="504.5"
+           y="481.5"
+           width="272"
+           height="68"
            stroke="#223f59"
            stroke-width="2.66667"
            stroke-linejoin="round"
@@ -139,72 +139,60 @@
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(571.213,469)"
+           font-size="19px"
+           transform="translate(569.91,512)"
            id="text6">Registratie van</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="14px"
-           transform="translate(543.547,486)"
+           font-size="19px"
+           transform="translate(532.583,534)"
            id="text7">verifieerbare gegevens</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="12px"
-           transform="translate(459.563,311)"
+           font-size="15px"
+           transform="translate(417.48,296)"
            id="text8">verifieerbare</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="12px"
-           transform="translate(467.563,325)"
+           font-size="15px"
+           transform="translate(427.226,313)"
            id="text9">verklaring</text>
         <path
-           d="m 689.5,335 h 125.902 v 1 H 689.5 Z m 124.569,-3.5 8,4 -8,4 z"
+           d="m 730.5,325 h 178.046 v 1 H 730.5 Z m 176.713,-3.5 8,4 -8,4 z"
            id="path9" />
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="12px"
-           transform="translate(721.291,314)"
+           font-size="15px"
+           transform="translate(782.155,300)"
            id="text10">verifieerbare</text>
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="12px"
-           transform="translate(725.704,328)"
+           font-size="15px"
+           transform="translate(787.402,317)"
            id="text11">presentatie</text>
         <path
-           d="m 0,-0.5 h 111.833 c 0.277,0 0.5,0.223858 0.5,0.5 v 157.592 h -1 V 0 l 0.5,0.5 H 0 Z m 115.833,156.759 -4,8 -4,-8 z"
-           transform="matrix(0,1,1,0,362.5,360.5)"
+           d="M 6.66642,-0.5 H 155.822 c 0.276,0 0.5,0.223858 0.5,0.5 v 228.868 h -1 V 0 l 0.5,0.5 H 6.66642 Z M 8,4 0,0 8,-4 Z"
+           transform="matrix(0,1,1,0,275.5,359.5)"
            id="path11" />
-        <text
-           font-family="Verdana, Verdana_MSFontService, sans-serif"
-           font-weight="400"
-           font-size="12px"
-           transform="translate(400.939,461)"
-           id="text12">schrijven</text>
         <path
-           d="m 0,-0.5 h 164.259 c 0.276,0 0.5,0.223858 0.5,0.5 v 105.167 h -1 V 0 l 0.5,0.5 H 0 Z m 168.259,104.333 -4,8 -4,-8 z"
-           transform="matrix(1,0,0,-1,722.5,472.334)"
+           d="m 0,-0.5 h 228.869 c 0.276,0 0.5,0.223858 0.5,0.5 v 149.156 h -1 V 0 l 0.5,0.5 H 0 Z m 232.869,148.322 -4,8 -4,-8 z"
+           transform="matrix(1,0,0,-1,776.5,515.322)"
            id="path12" />
-        <text
-           font-family="Verdana, Verdana_MSFontService, sans-serif"
-           font-weight="400"
-           font-size="12px"
-           transform="translate(820.132,461)"
-           id="text13">lezen</text>
         <path
-           d="M 0.5,-6.01336e-7 0.500097,80.628 h -1 L -0.5,6.01336e-7 Z M 4.0001,79.2947 l -3.999995013,8 -4.000004987,-8 z"
-           transform="matrix(-1,0,0,1,624.5,360.5)"
+           d="M 0.5,-4.31579e-7 0.500099,114.964 h -1 L -0.5,4.31579e-7 Z M 4.0001,113.631 l -3.999995013,8 -4.000004987,-8 z"
+           transform="matrix(-1,0,0,1,640.5,359.5)"
            id="path13" />
         <text
            font-family="Verdana, Verdana_MSFontService, sans-serif"
            font-weight="400"
-           font-size="12px"
-           transform="translate(559.302,405)"
-           id="text14">identiteit</text>
+           font-size="15px"
+           transform="translate(554.278,425)"
+           id="text13">identiteit</text>
       </g>
     </g>
   </g>
