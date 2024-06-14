@@ -5,7 +5,7 @@
     documentation="Vertrouwende partijen krijgen vertrouwen in de een digitale identiteit als zij hierover van vertrouwde partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
   <properties
       key="Implicaties"
-      value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het vertrekken van toegang."/>
+      value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
   <properties
       key="Implicaties"
       value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
