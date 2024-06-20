@@ -2,7 +2,7 @@
 Dit is de GitHub repository van de MIDO/GDI werkgroep toegang. Deze werkgroep is verantwoordelijk voor de (door)ontwikkeling van de domeinarchitectuur toegang. De nieuwe versie van deze architectuur wordt ontwikkeld in de vorm van een ArchiMate architectuurmodel, die te vinden is in deze repository. 
 
 Het architectuurmodel is beschikbaar in verschillende vormen:
-1. In de vorm van <a href="gegevensuitwisseling.archimate">een bestand</a> voor het modelleertool Archi;
+1. In de vorm van <a href="toegang.archimate">een bestand</a> voor het modelleertool Archi;
 2. Als bestanden die kunnen worden ingelezen met de coArchi plugin van Archi;
 3. Als <a href="https://minbzk.github.io/gdi-toegang">website</a> in de vorm van een HTML report uit Archi;
 4. In pagina's en overzichten die met een script zijn geëxporteerd uit Archi om er op een vriendelijke manier doorheen te navigeren, inclusief <a href="https://minbzk.github.io/gdi-toegang/content/views/Domeinarchitectuur%20toegang.html">een pagina met een samenvatting van de belangrijkste onderdelen.</a> 
