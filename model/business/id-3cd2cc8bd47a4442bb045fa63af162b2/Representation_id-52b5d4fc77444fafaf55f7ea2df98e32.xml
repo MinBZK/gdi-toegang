@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Ontwikkelingen"
     id="id-52b5d4fc77444fafaf55f7ea2df98e32"
-    documentation="&lt;p>In deze architectuur beschrijven we een aantal belangrijke (vooral technische) ontwikkelingen op het gebied van toegang. Deze impact van deze ontwikkelingen is meegenomen in de beschrijving van de architectuur.&lt;/p>">
+    documentation="&lt;p>In deze architectuur beschrijven we een aantal belangrijke (vooral technische) ontwikkelingen op het gebied van toegang. De impact van deze ontwikkelingen is meegenomen in de beschrijving van de architectuur.&lt;/p>">
   <properties
       key="elementType"
       value="driverOntwikkeling"/>

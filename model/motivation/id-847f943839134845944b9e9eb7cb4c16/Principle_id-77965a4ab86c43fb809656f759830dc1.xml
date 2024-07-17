@@ -17,7 +17,7 @@
       value="4. De toegangsinfrastructuur borgt dat alleen attributen worden verstrekt die eerder zijn geregistreerd door dienstverleners en waarvoor gebruikers voorafgaand aan hun handelen akkoord op hebben gegeven."/>
   <properties
       key="Implicaties"
-      value="5. Verklarende partijen van (voor toegang relevante) attributen weten niet voor welke dienst deze verklaringen worden gebruikt."/>
+      value="5. Verstrekkers van (voor toegang relevante) attributen weten niet voor welke dienst deze verklaringen worden gebruikt."/>
   <properties
       key="Implicaties"
       value="6. Afhankelijk van het betrouwbaarheidsniveau van de dienst kunnen gebruikers anoniem, met een pseudoniem of met een bekende identiteit toegang krijgen tot de dienst."/>
@@ -26,5 +26,8 @@
       value="7. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
   <properties
       key="Implicaties"
-      value="8. Bevoegde autoriteiten hebben vanuit toezicht en handhaving de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
+      value="8. Bij het gebruik van pseudoniemen, wordt per dienstverlener een apart pseudoniem gebruikt, zodat dienstverleners gezamenlijk geen 'profiel' van een persoon kunnen maken op basis van één pseudoniem."/>
+  <properties
+      key="Implicaties"
+      value="9. Bevoegde autoriteiten hebben vanuit toezicht en handhaving de mogelijkheid om pseudoniemen te herleiden naar een natuurlijk persoon of organisatie."/>
 </archimate:Principle>

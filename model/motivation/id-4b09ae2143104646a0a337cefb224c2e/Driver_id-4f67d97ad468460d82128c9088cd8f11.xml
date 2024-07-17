@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cyberaanvallen"
+    id="id-4f67d97ad468460d82128c9088cd8f11"
+    documentation="Er zijn toenemende aanvallen op computersystemen. Het doel van deze aanvallen is om deze computersystemen, netwerken of apparaten te verstoren, toegang te krijgen tot gegevens of deze te beschadigen. Deze aanvallen kunnen variëren van eenvoudige phishing-pogingen tot geavanceerde aanvallen door georganiseerde criminele groepen of zelfs door staten gesponsorde actoren. Het doel kan zijn om geheimen te verkrijgen om er militair, politiek of economisch voordeel uit te halen.">
+  <profiles
+      href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
+</archimate:Driver>
