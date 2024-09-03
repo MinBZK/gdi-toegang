@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Beveiligingsrisico’s bij brokers"
+    id="id-9e52332306d7404a9bc5432da3040f4b"
+    documentation="Dienstverleners gebruiken soms brokers om zich te laten ontzorgen in het verlenen van toegang. Privacy en beveiliging termineren typisch bij deze brokers, waardoor er risico’s met betrekking tot privacy en informatiebeveiliging ontstaan. Er worden bij grote brokers mogelijk ook hotspots gecreëerd. Dit past ook niet in een zero trust architectuur."/>

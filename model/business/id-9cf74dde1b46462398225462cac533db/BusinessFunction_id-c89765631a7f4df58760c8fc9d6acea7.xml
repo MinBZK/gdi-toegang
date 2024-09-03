@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beheren dienstverleners"
+    name="Aansluiten partij"
     id="id-c89765631a7f4df58760c8fc9d6acea7"
-    documentation="Het toelaten van dienstverleners die vertrouwende partij zijn in de context van toegang tot een toegangsinfrastructuur en het administreren van de daarvoor nodige gegevens."/>
+    documentation="Het toelaten van een dienstverlener, verklarende partij of gebruikersorganisatie tot de toegangsinfrastructuur en het toetsen of deze kan voldoen aan de bijbehorende afspraken."/>
