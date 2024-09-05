@@ -11,13 +11,13 @@
       value="2. Dienstverleners registreren in de toegangsinfrastructuur welke attributen van entiteiten noodzakelijk zijn om de dienst uit te kunnen voeren."/>
   <properties
       key="Implicaties"
-      value="3. Gebruikers hebben voorafgaand aan hun handelen inzicht in de dienst gevraagde attributen (persoonsgegevens) en kunnen zelf besluiten of ze deze willen laten verwerken."/>
+      value="3. De attributen die dienstverleners vragen zijn strikt noodzakelijk voor de doelbinding."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur borgt dat alleen attributen worden verstrekt die eerder zijn geregistreerd door dienstverleners en waarvoor gebruikers voorafgaand aan hun handelen akkoord op hebben gegeven."/>
+      value="4. Gebruikers hebben voorafgaand aan hun handelen inzicht in de dienst gevraagde attributen (persoonsgegevens), die zijn gebaseerd op de wettelijke grondslag en doelbinding."/>
   <properties
       key="Implicaties"
-      value="5. Verstrekkers van (voor toegang relevante) attributen weten niet voor welke dienst deze verklaringen worden gebruikt."/>
+      value="5. De toegangsinfrastructuur borgt dat alleen attributen worden verstrekt die eerder zijn geregistreerd door dienstverleners en waar gebruikers voorafgaand aan hun handelen inzicht in hebben kunnen krijgen."/>
   <properties
       key="Implicaties"
       value="6. Afhankelijk van het betrouwbaarheidsniveau van de dienst kunnen gebruikers anoniem, met een pseudoniem of met een bekende identiteit toegang krijgen tot de dienst."/>

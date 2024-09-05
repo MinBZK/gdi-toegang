@@ -124,7 +124,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-750309761a77459c9f410b30977c7187"
+      id="id-09cb6f824279485fb0049d115d44d182"
       fillColor="#ffffff"
       textPosition="1">
     <features
@@ -137,6 +137,6 @@
         height="55"/>
     <archimateElement
         xsi:type="archimate:Principle"
-        href="Principle_id-eaf013562885445e9b0263d9289a8800.xml#id-eaf013562885445e9b0263d9289a8800"/>
+        href="Principle_id-b304c80b029c48498a32d80d14337ea3.xml#id-b304c80b029c48498a32d80d14337ea3"/>
   </children>
 </archimate:ArchimateDiagramModel>

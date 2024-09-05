@@ -8,19 +8,19 @@
       value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
   <properties
       key="Implicaties"
-      value="2. Vertrouwende partijen borgen dat er voor hun dienstverlening voldoende verklarende partijen zijn om hun vertrouwen op te baseren."/>
+      value="2. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
   <properties
       key="Implicaties"
-      value="3. De vertrouwende partij kent de verklarende partij en heeft daar vertrouwen in doordat daar bewijs voor is."/>
+      value="3. Een verklaring wordt alleen vertrouwd als deze valide, integer, authentiek en geldig is. "/>
   <properties
       key="Implicaties"
-      value="4. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
+      value="4. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
   <properties
       key="Implicaties"
-      value="5. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
+      value="5. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
   <properties
       key="Implicaties"
-      value="6. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
+      value="6. Gebruikers kunnen ook dingen over zichzelf verklaren en deze beschikbaar stellen als verifieerbare verklaring."/>
   <properties
       key="Implicaties"
       value="7. Bij toegang namens een organisatie is er een verifieerbare verklaring die de vertegenwoordigingsbevoegdheid bevat voor het vertegenwoordigen van de organisatie."/>
