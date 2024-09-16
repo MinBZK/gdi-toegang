@@ -14,6 +14,8 @@ Bij de verschillende onderdelen van de architectuur wordt verwezen naar beschrij
 # Architectuur
 Inleiding: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-9704fa59cc7b4b5e9daa53f1b32ec98d.html">beschrijving</a>.
 
+Kernbegrippen: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-62a0afc676e04f8280ed2271dd61cd44.html">beschrijving</a>.
+
 Veranderfactoren:
 * Ontwikkelingen: <a href="https://minbzk.github.io/gdi-toegang/content/views/ontwikkelingen.html">overzicht</a>
 * Beleid: <a href="https://minbzk.github.io/gdi-toegang/content/views/beleid.html">overzicht</a>
