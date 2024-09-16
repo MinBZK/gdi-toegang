@@ -8,7 +8,7 @@
       value="1. Het is duidelijk wat de wettelijke grondslag en doelbinding is van de gegevensuitwisseling."/>
   <properties
       key="Implicaties"
-      value="2. Dienstverleners registreren in de toegangsinfrastructuur welke attributen van entiteiten noodzakelijk zijn om de dienst uit te kunnen voeren."/>
+      value="2. In de toegangsinfrastructuur wordt geregistreerd welke (voor toegang relevante) attributen van entiteiten noodzakelijk zijn om een dienst uit te kunnen voeren."/>
   <properties
       key="Implicaties"
       value="3. De attributen die dienstverleners vragen zijn strikt noodzakelijk voor de doelbinding."/>
@@ -17,7 +17,7 @@
       value="4. Gebruikers hebben voorafgaand aan hun handelen inzicht in de dienst gevraagde attributen (persoonsgegevens), die zijn gebaseerd op de wettelijke grondslag en doelbinding."/>
   <properties
       key="Implicaties"
-      value="5. De toegangsinfrastructuur borgt dat alleen attributen worden verstrekt die eerder zijn geregistreerd door dienstverleners en waar gebruikers voorafgaand aan hun handelen inzicht in hebben kunnen krijgen."/>
+      value="5. De toegangsinfrastructuur verstrekt alleen de attributen die eerder zijn geregistreerd bij de dienst."/>
   <properties
       key="Implicaties"
       value="6. Afhankelijk van het betrouwbaarheidsniveau van de dienst kunnen gebruikers anoniem, met een pseudoniem of met een bekende identiteit toegang krijgen tot de dienst."/>

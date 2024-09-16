@@ -50,24 +50,6 @@
           xsi:type="archimate:Assessment"
           href="Assessment_id-a4046d419300443da3ec983b6a64884b.xml#id-a4046d419300443da3ec983b6a64884b"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c60c12963f90467b8acd983dd8913465"
-        font="1|Segoe UI|10.2|0|WINDOWS|1|-17|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
-        fillColor="#ffffff"
-        textPosition="1">
-      <features
-          name="iconVisible"
-          value="2"/>
-      <bounds
-          x="12"
-          y="168"
-          width="217"
-          height="49"/>
-      <archimateElement
-          xsi:type="archimate:Assessment"
-          href="Assessment_id-b703a0d08ddc47b49c759d13c544d53c.xml#id-b703a0d08ddc47b49c759d13c544d53c"/>
-    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-fe587c1bae3c453285eccb764194ced3.xml#id-fe587c1bae3c453285eccb764194ced3"/>
@@ -79,9 +61,9 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="108"
+        x="228"
         y="264"
-        width="613"
+        width="493"
         height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -93,7 +75,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="384"
+          x="264"
           y="24"
           width="217"
           height="49"/>
@@ -145,7 +127,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="852"
+        x="-24"
         y="264"
         width="241"
         height="85"/>
@@ -213,7 +195,7 @@
     <bounds
         x="732"
         y="264"
-        width="109"
+        width="361"
         height="85"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -226,9 +208,9 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="108"
+        x="-24"
         y="22"
-        width="109"
+        width="241"
         height="147"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -313,9 +295,9 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="108"
+        x="-24"
         y="180"
-        width="109"
+        width="241"
         height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"

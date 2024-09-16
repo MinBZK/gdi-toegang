@@ -27,7 +27,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="24"
+        x="312"
         y="204"
         width="277"
         height="85"/>
@@ -59,7 +59,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="600"
+        x="24"
         y="204"
         width="277"
         height="85"/>
@@ -91,7 +91,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="312"
+        x="600"
         y="204"
         width="277"
         height="85"/>

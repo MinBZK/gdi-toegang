@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Controleren grofmazige bevoegdheid"
+    name="Autoriseren voor dienst"
     id="id-3099a3491bf542f084b6b3defa72ef68"
-    documentation="Het bepalen of een digitale identiteit geautoriseerd is voor grofmazige resources."/>
+    documentation="Het bepalen of een identiteit geautoriseerd is voor toegang tot een dienst."/>

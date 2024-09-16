@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Beheren bevoegdheden"
+    name="Beheren eigen bevoegdheden"
     id="id-83db5a52a2914474a04a7152fa9d12e0"
-    documentation="Het toekennen en intrekken van bevoegdheden en het administreren van de daarvoor benodigde gegevens."/>
+    documentation="Het toekennen en intrekken van bevoegdheden (anders dan vertegenwoordigingsbevoegdheden) en het administreren van de daarvoor benodigde gegevens."/>

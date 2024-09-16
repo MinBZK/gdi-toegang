@@ -178,7 +178,7 @@
           href="AssociationRelationship_id-89b7889dbd27459eac5e224e66f75218.xml#id-89b7889dbd27459eac5e224e66f75218"/>
     </sourceConnections>
     <bounds
-        x="10"
+        x="119"
         y="408"
         width="565"
         height="181"/>
@@ -352,7 +352,7 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="778"
+        x="12"
         y="408"
         width="97"
         height="181"/>
@@ -454,7 +454,7 @@
           href="AssociationRelationship_id-f641b338a93e474fbd8a9df14b66cdd1.xml#id-f641b338a93e474fbd8a9df14b66cdd1"/>
     </sourceConnections>
     <bounds
-        x="588"
+        x="697"
         y="408"
         width="179"
         height="181"/>
