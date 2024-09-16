@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="6. Toegang is beperkt tot wat noodzakelijk is"
     id="id-b304c80b029c48498a32d80d14337ea3"
-    documentation="Het beperken van toegang tot alleen de diensten en gegevens die strikt noodzakelijk zijn voor het uitvoeren van de activiteiten van een entiteit verhoogt de veiligheid. Het aanvalsoppervlak wordt geminimaliseerd, de potentiële schade bij een beveiligingsbreuk wordt beperkt en schade door onbedoelde acties wordt zoveel mogelijk voorkomen. Het vereenvoudigt ook het beheer van bevoegdheden en voorkomt een wildgroei van bevoegdheden. Het stimuleert ook het veiligheidsbewustzijn.">
+    documentation="Het beperken van toegang tot alleen de diensten en gegevens die strikt noodzakelijk zijn voor het uitvoeren van de activiteiten van een entiteit verhoogt de veiligheid en is een kernaspect van zero-trust. Het aanvalsoppervlak wordt geminimaliseerd, de potentiële schade bij een beveiligingsbreuk wordt beperkt en schade door onbedoelde acties wordt zoveel mogelijk voorkomen. Het vereenvoudigt ook het beheer van bevoegdheden en voorkomt een wildgroei van bevoegdheden. Het stimuleert ook het veiligheidsbewustzijn.">
   <properties
       key="Implicaties"
       value="1. Dienstverleners definiëren bevoegdheden voor hun diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken."/>
@@ -11,7 +11,7 @@
       value="2. Machtigingen kunnen worden beperkt tot bevoegdheden die precies voldoende zijn voor een vertegenwoordiger."/>
   <properties
       key="Implicaties"
-      value="3. Entiteiten krijgen op basis van hun verifieerbare verklaringen alleen toegang tot functionaliteiten en gegevens die passen bij de aangeleverde verklaring."/>
+      value="3. Entiteiten krijgen op basis van hun verifieerbare verklaringen alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaring."/>
   <properties
       key="Implicaties"
       value="4. Organisaties hebben processen waarbij de rollen en bevoegheden van medewerkers regelmatig worden geevalueerd en aangepast, zoals bij doorstroom en uitstroom."/>

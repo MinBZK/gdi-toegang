@@ -1,5 +1,0 @@
-<archimate:Assessment
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Toegang tot systemen alleen binnen overheid"
-    id="id-b703a0d08ddc47b49c759d13c544d53c"
-    documentation="De manier waarop toegang tussen systemen is ingericht is afhankelijk van het gebruik van PKIoverheid certificaten met daarin OIN's voor het identificeren van organisaties. Ook het Nederlandse OAuth profiel gaat hier vanuit. Dit sluit het overgrote deel van de private organisaties buiten en blokkeert uitwisseling van vertrouwelijke gegevens tussen overheden en private organisaties."/>

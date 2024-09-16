@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Vastleggen gebruik authenticatiemiddel"
+    name="Vastleggen gebruik identificatiemiddel"
     id="id-6297e4b66d844a9fb8c054238841b313"
-    documentation="Het vastleggen welk authenticatiemiddel is gebruikt bij een authenticatie, zodat daar op een later moment inzicht in kan worden gegeven."/>
+    documentation="Het vastleggen welk identificatiemiddel is gebruikt bij een authenticatie, zodat daar op een later moment inzicht in kan worden gegeven."/>

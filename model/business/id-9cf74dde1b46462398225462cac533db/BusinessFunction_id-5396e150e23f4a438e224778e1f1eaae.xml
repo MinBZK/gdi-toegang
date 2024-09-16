@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Autoriseren voor functionaliteit"
+    id="id-5396e150e23f4a438e224778e1f1eaae"
+    documentation="Het bepalen of een identiteit geautoriseerd is voor toegang tot specifieke functionaliteit."/>

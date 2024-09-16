@@ -14,5 +14,5 @@
       value="3. Er zijn voorzieningen die het dienstverleners eenvoudiger maken om aan te sluiten op de toegangsinfrastructuur."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur levert een dienst waarmee voor een voorgedefinieerde set van attributen, relevante verklaringen bij bronregisters kunnen worden opgehaald."/>
+      value="4. De toegangsinfrastructuur levert een dienst waarmee voor een voorgedefinieerde set van veelvoorkomende (voor toegang relevante) attributen, relevante verklaringen bij bronregisters kunnen worden opgehaald."/>
 </archimate:Principle>

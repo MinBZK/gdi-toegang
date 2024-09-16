@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Koppelen attributen aan digitale identiteit"
+    name="Koppelen attributen aan identiteit"
     id="id-2e4e3b531fa549b79b157b367825df17"
-    documentation="Het koppelen en ontkoppelen van attributen aan een digitale identiteit die bepaalde eigenschappen van deze digitale identiteit representeren."/>
+    documentation="Het koppelen en ontkoppelen van attributen aan een identiteit die bepaalde eigenschappen van deze identiteit representeren."/>

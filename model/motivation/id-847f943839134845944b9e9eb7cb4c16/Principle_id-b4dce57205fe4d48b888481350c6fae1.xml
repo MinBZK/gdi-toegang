@@ -2,16 +2,16 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2. Toegang is gebaseerd op verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Vertrouwende partijen krijgen vertrouwen in de een digitale identiteit als zij hierover van vertrouwde partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
+    documentation="Dienstverleners zijn vertrouwende partijen en krijgen vertrouwen in de een digitale identiteit als zij hierover van vertrouwde partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
   <properties
       key="Implicaties"
-      value="1. Vertrouwende partijen gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
+      value="1. Dienstverleners gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
   <properties
       key="Implicaties"
       value="2. Er is bewijs dat een verifieerbare verklaring hoort bij de gebruiker (of vertegenwoordigde)."/>
   <properties
       key="Implicaties"
-      value="3. Een verklaring wordt alleen vertrouwd als deze valide, integer, authentiek en geldig is. "/>
+      value="3. Een verklaring wordt alleen vertrouwd als deze valide, integer, authentiek en geldig is (bepaalde toepassingen staan wel een bepaalde overschrijding van de geldigheidstermijn toe).  "/>
   <properties
       key="Implicaties"
       value="4. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
@@ -24,4 +24,7 @@
   <properties
       key="Implicaties"
       value="7. Bij toegang namens een organisatie is er een verifieerbare verklaring die de vertegenwoordigingsbevoegdheid bevat voor het vertegenwoordigen van de organisatie."/>
+  <properties
+      key="Implicaties"
+      value="8. Verklaringen kunnen ook weer worden ingetrokken en partijen moeten daarom de geldigheid van verklaringen kunnen verifiëren."/>
 </archimate:Principle>

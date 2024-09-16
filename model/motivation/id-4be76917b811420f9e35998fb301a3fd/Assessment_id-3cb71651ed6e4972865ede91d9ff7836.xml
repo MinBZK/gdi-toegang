@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gebruik verouderde standaarden"
+    id="id-3cb71651ed6e4972865ede91d9ff7836"
+    documentation="De toegangsinfrastructuur is voor een belangrijk deel gebaseerd op de SAML standaard, die inmiddels verouderd is. Meer recente standaarden zoals OAuth en OIDC worden niet of nauwelijks ondersteund."/>
