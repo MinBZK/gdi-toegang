@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Autoriseren"
     id="id-b750feb34d9c40588f9443c33145b59e"
-    documentation="Het bepalen op basis van autorisatieregels bepalen of een identiteit beschikt over de bevoegdheden voor toegang tot diensten, gegevens of functionaliteiten."/>
+    documentation="Het op basis van autorisatieregels bepalen of een identiteit beschikt over de benodigde bevoegdheden voor toegang tot resources."/>

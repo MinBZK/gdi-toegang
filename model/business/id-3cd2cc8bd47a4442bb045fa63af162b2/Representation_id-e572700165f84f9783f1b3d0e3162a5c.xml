@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Gewenste situatie"
     id="id-e572700165f84f9783f1b3d0e3162a5c"
-    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot toegang. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie en de architectuurprincipes die deze meer concreet maken. Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p>">
+    documentation="&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot toegang. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie. Vervolgens worden architectuurprincipes beschreven die deze meer concreet maken.  Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p>">
   <profiles
       href="folder.xml#id-b5e689fa75694829b24cf22fd76eacee"/>
 </archimate:Representation>

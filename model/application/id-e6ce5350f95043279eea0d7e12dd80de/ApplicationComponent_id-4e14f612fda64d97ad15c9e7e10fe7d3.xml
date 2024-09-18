@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Bevoegdheidsverklaringsdienst"
     id="id-4e14f612fda64d97ad15c9e7e10fe7d3"
-    documentation="Een voorziening die bevoegdheidsverklaringen opstelt voor een reeds geauthenticeerde digitale identiteit op basis van gezagsverklaringen en bewindsverklaringen.">
+    documentation="Een voorziening die bevoegdheidsverklaringen opstelt voor een reeds geauthenticeerde identiteit op basis van gezagsverklaringen en bewindsverklaringen.">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>
