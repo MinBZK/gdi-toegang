@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="118mm"
+   height="109mm"
+   viewBox="0 0 118 109"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="xacml.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0449705"
+     inkscape:cx="396.6619"
+     inkscape:cy="561.25984"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-111.70571,-53.762846)"
+       id="g24">
+      <path
+         d="m 573.5,552.833 c 0,5.707 -24.4,10.334 -54.5,10.334 -30.099,0 -54.5,-4.627 -54.5,-10.334"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path1" />
+      <path
+         d="m 464.5,552.833 c 0,-5.707 24.401,-10.333 54.5,-10.333 30.1,0 54.5,4.626 54.5,10.333 v 41.334 c 0,5.707 -24.4,10.333 -54.5,10.333 -30.099,0 -54.5,-4.626 -54.5,-10.333 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path2" />
+      <path
+         d="m 598.5,218.667 c 0,-4.511 3.656,-8.167 8.167,-8.167 h 75.666 c 4.511,0 8.167,3.656 8.167,8.167 v 32.666 c 0,4.511 -3.656,8.167 -8.167,8.167 h -75.666 c -4.511,0 -8.167,-3.656 -8.167,-8.167 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path3" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(624.133,243)"
+         id="text3">PEP</text>
+      <path
+         d="m 720.5,455.667 c 0,-4.511 3.656,-8.167 8.167,-8.167 h 75.666 c 4.511,0 8.167,3.656 8.167,8.167 v 32.666 c 0,4.511 -3.656,8.167 -8.167,8.167 h -75.666 c -4.511,0 -8.167,-3.656 -8.167,-8.167 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path4" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(748.453,480)"
+         id="text4">PIP</text>
+      <path
+         d="m 491.5,235 h 99.867 v 1 H 491.5 Z m 98.534,-3.5 8,4 -8,4 z"
+         id="path5" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(511.696,228)"
+         id="text5">verzoek</text>
+      <path
+         d="m 598.5,337.5 c 0,-4.418 3.582,-8 8,-8 h 76 c 4.418,0 8,3.582 8,8 v 32 c 0,4.418 -3.582,8 -8,8 h -76 c -4.418,0 -8,-3.582 -8,-8 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(622.633,361)"
+         id="text6">PDP</text>
+      <path
+         d="m 473.5,455.667 c 0,-4.511 3.656,-8.167 8.167,-8.167 h 75.666 c 4.511,0 8.167,3.656 8.167,8.167 v 32.666 c 0,4.511 -3.656,8.167 -8.167,8.167 h -75.666 c -4.511,0 -8.167,-3.656 -8.167,-8.167 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path7" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(498.812,480)"
+         id="text7">PAP</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(483.24,578)"
+         id="text8">autorisatie</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(554.573,578)"
+         id="text9">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(501.573,594)"
+         id="text10">regels</text>
+      <path
+         d="m 519,535.317 v -32.15 h 1 v 32.15 z m 4.5,-1.333 -4,8 -4,-8 z m -8,-29.484 4,-8 4,8 z"
+         id="path10" />
+      <path
+         d="M 519,447.765 V 353.5 c 0,-0.276 0.224,-0.5 0.5,-0.5 h 72.225 v 1 H 519.5 l 0.5,-0.5 v 94.265 z m 71.392,-98.265 8,4 -8,4 z"
+         id="path11" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(429.982,392)"
+         id="text11">autorisatie</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(501.316,392)"
+         id="text12">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(448.316,408)"
+         id="text13">regels</text>
+      <path
+         d="m 630,259.5 v 63.269 h -1 V 259.5 Z m 3.5,61.935 -4,8 -4,-8 z"
+         id="path13" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(551.744,301)"
+         id="text14">verzoek</text>
+      <path
+         d="m 818.5,552.833 c 0,5.707 -24.4,10.334 -54.5,10.334 -30.099,0 -54.5,-4.627 -54.5,-10.334"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path14" />
+      <path
+         d="m 709.5,552.833 c 0,-5.707 24.401,-10.333 54.5,-10.333 30.1,0 54.5,4.626 54.5,10.333 v 41.334 c 0,5.707 -24.4,10.333 -54.5,10.333 -30.099,0 -54.5,-4.626 -54.5,-10.333 z"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path15" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(730.216,578)"
+         id="text15">identiteits</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(797.049,578)"
+         id="text16">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(734.636,594)"
+         id="text17">gegevens</text>
+      <path
+         d="M 0.5,-1.15411e-6 0.50009,38.8173 h -1 L -0.5,1.15411e-6 Z M 4.00009,37.484 l -3.999985013,8 -4.000014987,-8 z"
+         transform="matrix(1,0,0,-1,763.5,541.984)"
+         id="path17" />
+      <path
+         d="m 0,-0.5 h 94.2648 c 0.2761,0 0.5,0.223858 0.5,0.5 v 69.298 h -1 V 0 l 0.5,0.5 H 0 Z m 98.2648,68.4646 -4,8 -4,-8 z"
+         transform="matrix(0,-1,-1,0,766.465,447.765)"
+         id="path18" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(783.474,392)"
+         id="text18">identiteits</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(850.307,392)"
+         id="text19">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(787.894,408)"
+         id="text20">gegevens</text>
+      <path
+         d="m 665.037,329.487 -0.034,-64.32 h 1 l 0.034,64.32 z m -3.533,-62.985 3.996,-8.002 4.004,7.998 z"
+         id="path20" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(684.26,286)"
+         id="text21">autorisatie</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(755.593,286)"
+         id="text22">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(679.76,302)"
+         id="text23">beslissing en</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="13px"
+         transform="translate(675.427,318)"
+         id="text24">verplichtingen</text>
+    </g>
+  </g>
+</svg>
