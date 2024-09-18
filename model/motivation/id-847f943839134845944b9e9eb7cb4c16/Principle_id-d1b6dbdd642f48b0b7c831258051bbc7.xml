@@ -17,8 +17,8 @@
       value="4. Er wordt een aanvullende (step-up) authenticatie uitgevoerd als een gebruiker een handeling wil uitvoeren die een hoger betrouwbaarheidsniveau vraagt dan waarmee deze initieel is ingelogd."/>
   <properties
       key="Implicaties"
-      value="5. Het liefst kun je iemand per direct digitaal machtigen namens jezelf voor specifieke handelingen, zonder daarvoor allerlei procedures te doorlopen."/>
+      value="5. Het is mogelijk om iemand per direct digitaal te machtigen, zonder daarvoor allerlei procedures te doorlopen."/>
   <properties
       key="Implicaties"
-      value="6. Het zou een standaard optie moeten zijn om iemand te vertegenwoordigen bij het inloggen, en deze vertegenwoordiging zou transparant moeten zijn voor een dienstverlener."/>
+      value="6. Het is een standaard optie om iemand te vertegenwoordigen bij het inloggen, en dit is transparant voor een dienstverlener."/>
 </archimate:Principle>

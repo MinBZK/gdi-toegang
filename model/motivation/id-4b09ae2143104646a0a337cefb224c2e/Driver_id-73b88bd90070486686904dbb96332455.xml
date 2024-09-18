@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Wachtwoordloos inloggen"
     id="id-73b88bd90070486686904dbb96332455"
-    documentation="Bij wachtwoordloos inloggen wordt in plaats van een wachtwoord een andere combinatie van authenticatiefactoren gebruikt. Dat is typisch een combinatie van een publieke identificatie (gebruikersnaam, telefoonnummer, emailadres, etc) en een geregistreerd apparaat of token, maar er kunnen ook andere authenticatiefactoren worden ingezet zoals biometrie. Hierdoor hoeven gebruikers dus geen wachtwoord meer te gebruiken. Het gebruik van wachtwoorden is in het verleden vaker bekritiseerd, onder meer omdat mensen wachtwoorden hergebruiken, mensen geneigd zijn ze te vergeten, ze periodiek aangepast moeten worden en ze hierdoor op minder veilige manieren worden vastgelegd. Wachtwoordloze inlogmethoden maken typisch gebruik van public-key cryptografie. ">
+    documentation="Bij wachtwoordloos inloggen wordt in plaats van een wachtwoord een andere combinatie van authenticatiefactoren gebruikt. Denk aan bijvoorbeeld een geregistreerd SMS, email, apparaat of token en mogelijk ook biometrie. Hierdoor hoeven gebruikers dus geen wachtwoord meer te gebruiken. Het gebruik van wachtwoorden is in het verleden vaker bekritiseerd, onder meer omdat mensen wachtwoorden hergebruiken, mensen geneigd zijn ze te vergeten, ze periodiek aangepast moeten worden en ze hierdoor op minder veilige manieren worden vastgelegd. Wachtwoordloze inlogmethoden maken typisch gebruik van public-key cryptografie. ">
   <profiles
       href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
 </archimate:Driver>

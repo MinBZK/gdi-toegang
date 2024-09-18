@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Capability's"
     id="id-9edaa105afef4c02bab19e78598847a7"
-    documentation="&lt;p>Capability's beschrijven dat wat organisaties zouden moeten kunnen. Het zijn vermogens waar organisaties over moeten beschikken. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In deze architectuur zijn de capability's een abstracte beschrijving van wat belangrijk is voor organisaties om invulling te geven aan gegevensuitwisseling. De capability “vertrouwen creëren” is specifiek gericht op organisaties die vertrouwensdiensten leveren, de overige capability’s zijn breder relevant voor organisaties.&lt;/p>">
+    documentation="&lt;p>Capability's beschrijven dat wat organisaties zouden moeten kunnen. Het zijn vermogens waar organisaties over moeten beschikken. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In deze architectuur zijn de capability's een abstracte beschrijving van wat belangrijk is voor organisaties om invulling te geven aan toegang. De capability “vertrouwen creëren” is specifiek gericht op organisaties die vertrouwensdiensten leveren, de overige capability’s zijn breder relevant voor organisaties.&lt;/p>">
   <properties
       key="elementType"
       value="capability"/>
