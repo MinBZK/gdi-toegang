@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Kernbegrippen</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Kernbegrippen</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Representation"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Representation" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+							<br>
+							<b class="i18n-specialization"></b>
+								Tekst
+						<div class="convertlinks documentation" style="white-space:pre-wrap">&lt;p&gt;Dit hoofdstuk is bedoeld om de belangrijkste terminologie zoals gebruikt in dit document te verduidelijken. Een is een samenvatting en meer toegankelijke beschrijving van informatie die ook aanwezig is in de begrippenlijst, het functiemodel, het bedrijfsobjectmodel en de rollen. Voor een meer uitgebreide lijst van begrippen wordt dan ook naar de bijlage verwezen.&lt;/p&gt;
+&lt;h2&gt;2.1 Algemeen&lt;/h2&gt;
+&lt;p&gt;
+Dit document gaat over het verstrekken van toegang aan mensen, organisaties en systemen. Dat noemen we in dit document &lt;b&gt;entiteiten&lt;/b&gt;. Deze entiteiten krijgen toegang met een bepaalde &lt;b&gt;identiteit&lt;/b&gt;. Dat zijn eigenschappen die relevant zijn in de context van een specifiek domein van gebruik. Praktisch worden deze uitgewisseld in de vorm van &lt;b&gt;identiteitsgegevens&lt;/b&gt;. Dit soort gegevens over entiteiten heten in de context van toegang ook wel &lt;b&gt;attributen&lt;/b&gt;. Deze gegevens worden verkregen uit &lt;b&gt;gezaghebbende bronnen&lt;/b&gt;. Dat zijn bronnen waarvan kan worden verwacht dat deze nauwkeurige gegevens bieden.
+&lt;/p&gt;
+&lt;p&gt;
+Entiteiten krijgen toegang door gebruik te maken van een &lt;b&gt;identiteitsmiddel&lt;/b&gt; en dat ze gebruiken om zichzelf mee te authenticeren (en dat daarom ook wel een authenticatiemiddel wordt genoemd). Een dergelijke identiteitsmiddel vraagt een vorm van bewijs van een gebruiker, zoals een wachtwoord en geeft vervolgens een &lt;b&gt;authenticatieverklaring&lt;/b&gt; waarmee toegang kan worden gegeven. Een authenticatieverklaring is een specifiek soort &lt;b&gt;verifieerbare verklaring&lt;/b&gt;. Dat zijn verklaringen over identiteiten, die vergezeld van een bewijs waarmee hun authenticiteit, validiteit en geldigheid kan worden geverifieerd.
+&lt;/p&gt;
+&lt;p&gt;
+Toegang wordt verstrekt tot &lt;b&gt;resources&lt;/b&gt;: &lt;b&gt;diensten&lt;/b&gt; en de daaronder liggende gegevens en functionaliteiten. Welke diensten, gegevens en functionaliteiten toegang toe wordt verstrekt wordt bepaald door de &lt;b&gt;bevoegdheden&lt;/b&gt; die aan een identiteit zijn gekoppeld. Entiteiten kunnen ook bevoegdheden krijgen doordat ze van iemand anders een &lt;b&gt;machtiging&lt;/b&gt; hebben gekregen of omdat een door een &lt;b&gt;wettelijke vertegenwoordiging&lt;/b&gt; formeel namens iemand anders mogen optreden. Dit leidt tot vertegenwoordigingsbevoegdheden, die net als bevoegdheden in meer algemene zin worden gebruikt om te bepalen of een entiteit toegang kan krijgen.
+&lt;/p&gt;
+&lt;p&gt;
+Het controleren van de bevoegdheden van een identiteit heet &lt;b&gt;autoriseren&lt;/b&gt;. Daarbij wordt gebruik gemaakt van &lt;b&gt;autorisatieregels&lt;/b&gt; die beschrijven waaraan moet worden voldaan om toegang te verkrijgen. Dit soort regels gebruiken de attributen uit verifieerbare verklaringen, maar kunnen ook naar contextuele eigenschappen kijken zoals de tijdstip, de plaats en het apparaat dat gebruikt wordt om toegang te krijgen. Uiteindelijk leidt dit tot een &lt;b&gt;autorisatiebeslissing&lt;/b&gt; die aangeeft of wel of geen toegang wordt verstrekt.
+&lt;h2&gt;2.2 Rollen&lt;/h2&gt;
+&lt;p&gt;
+Toegang gaat voor een belangrijk deel over het uitwisselen van verifieerbare verklaringen. Aan de ene kant zijn er partijen die verklaringen kunnen verstrekken. Dat noemen we dan ook &lt;b&gt;verklarende partijen&lt;/b&gt;. Denk daarbij aan &lt;b&gt;authenticatiediensten&lt;/b&gt; die kunnen verklaren of een entiteit succesvol is geauthenticeerd of aan &lt;b&gt;machtigingsdiensten&lt;/b&gt; die kunnen verklaren of een entiteit iemand anders mag vertegenwoordigen. Overigens kunnen entiteiten ook dingen over zichzelf verklaren, en zijn zij dus in potentie ook een verklarende partij. 
+&lt;/p&gt;
+&lt;p&gt;
+Aan de andere kant zijn er &lt;b&gt;vertrouwende partijen&lt;/b&gt;. Dat zijn typisch dienstverleners die diensten aanbieden waartoe toegang moet worden verstrekt aan entiteiten. Zij moeten kunnen vertrouwen op de verifieerbare verklaringen van verklarende partijen.
+&lt;/p&gt;
+&lt;p&gt;
+Om dit geheel te laten werken zijn er ook andere rollen nodig. Zo zijn er ook &lt;b&gt;middelenuitgevers&lt;/b&gt; nodig die ervoor zorgen dat er erkende &lt;b&gt;identificatiemiddelen&lt;/b&gt; kunnen worden uitgegeven. Er wordt ook gebruik gemaakt van &lt;b&gt;leveranciers van vertrouwensdiensten&lt;/b&gt;, die bijvoorbeeld verifieerbare verklaringen kunnen maken of certificaten kunnen uitgeven die verklarende partijen kunnen verstrekken.
+&lt;p&gt;
+&lt;h2&gt;2.3 Functies&lt;/h2&gt;
+&lt;p&gt;
+In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor toegang. In deze paragraaf beschrijven we de hoofdfuncties, die activiteiten op organisatieniveau beschrijven (het zijn bedrijfsfuncties). Deze functies worden gebruikt om andere zaken op te plotten en aan te relateren. Figuur 1 geeft een overzicht van deze functies. In de bijlage zijn ook de meer gedetailleerde functies beschreven. 
+&lt;/p&gt;
+&lt;p&gt;
+Het is door organisaties zelf te bepalen aan welke partijen en afdelingen zij de functies in hun context toekennen. Er zijn wel een aantal functies specifiek gekoppeld aan rollen zoals beschreven in deze domeinarchitectuur. Zo hoort de hoofdfunctie "Beheren identificatiemiddelen" bij de rol middelenuitgever, de hoofdfunctie "authenticeren" bij de rol authenticatiedienst en de rol &#8220;beheren vertegenwoordigingsbevoegdheden&#8221; bij de rol machtigingsdienst. Het beheren van eigen bevoegdheden en het autoriseren zijn verantwoordelijkheden die bij vertrouwende partijen zelf ligt. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src="https://minbzk.github.io/gdi-toegang/images/functiemodel_hoofdlijnen.svg"&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organiseren toegang: Het organisatorisch inregelen van afspraken voor toegang.&lt;/li&gt;
+&lt;li&gt;Cre&#235;ren vertrouwen: Het cre&#235;ren van vertrouwen in de identiteit van natuurlijke en niet-natuurlijke personen en gegevens middels cryptografische technieken.&lt;/li&gt;
+&lt;li&gt;Beheren identiteiten: Het cre&#235;ren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) identiteiten.&lt;/li&gt;
+&lt;li&gt;Beheren identificatiemiddelen: Het verstrekken en intrekken van identificatiemiddelen en het administreren van de daarvoor benodigde gegevens.&lt;/li&gt;
+&lt;li&gt;Beheren eigen bevoegdheden: Het toekennen en intrekken van bevoegdheden (anders dan vertegenwoordigingsbevoegdheden) en het administreren van de daarvoor benodigde gegevens.&lt;/li&gt;
+&lt;li&gt;Beheren vertegenwoordigingsbevoegdheden: Het toekennen en intrekken van vertegenwoordigingsbevoegheden en het administreren van de daarvoor benodigde gegevens.&lt;/li&gt;
+&lt;li&gt;Auditing en monitoring: Het vastleggen van relevante gebeurtenissen rondom toegang en het uitvoeren van controlerende activiteiten om misbruik of fraude vast te stellen.&lt;/li&gt;
+&lt;li&gt;Authenticeren: Het bepalen of er voldoende vertrouwen is dat iemand een digitale identiteit heeft en het cre&#235;ren, controleren, vertalen en vernietigen van daarbij behorende authenticatieverklaringen.&lt;/li&gt;
+&lt;li&gt;Autoriseren: Het bepalen op basis van autorisatieregels bepalen of een digitale identiteit beschikt over de bevoegdheden voor toegang tot diensten of informatieobjecten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+
+
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-a19f7ecd3614470aab77710880939cd5">
+																	<td><a href="../views/id-a19f7ecd3614470aab77710880939cd5.html" target="view" title="Documentstructuur"> Documentstructuur </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-16fe4e7688684209997b386965fe025d.html" target="element" title="2">2</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-5290881708d14046854ed00cf901874e.html" target="element"> Domeinarchitectuur toegang</a></td>
+											<td><a href="../elements/id-62a0afc676e04f8280ed2271dd61cd44.html" target="element"> Kernbegrippen</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
