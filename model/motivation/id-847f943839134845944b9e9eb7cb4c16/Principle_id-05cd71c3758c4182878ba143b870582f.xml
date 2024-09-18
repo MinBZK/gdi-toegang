@@ -1,18 +1,21 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="4. De toegangsinfrastructuur ontzorgt dienstverleners met afspraken, standaarden en voorzieningen"
+    name="4. De toegangsinfrastructuur ontzorgt partijen"
     id="id-05cd71c3758c4182878ba143b870582f"
-    documentation="Er kunnen meer identificatiemiddelen worden toegelaten. Met de herziene eIDAS verordening kunnen straks ook European Digital Identity Wallets worden gebruikt. Daarnaast zijn er allerlei machtigingsdiensten die van toepassing kunnen zijn. Het is inefficiënt voor dienstverleners als ieder voor zich met alle authenticatie- en machtigingsdiensten individuele afspraken en koppelingen moeten maken en beheren. De GDI is een verzameling afspraken, standaarden en voorzieningen, waarbij afspraken de voorkeur hebben boven standaarden boven voorzieningen.">
+    documentation="De toegangsinfrastructuur is in ontwikkeling en evolueert. Er kunnen meer bijvoorbeeld nieuwe identificatiemiddelen worden toegelaten. Met de herziene eIDAS verordening kunnen straks ook European Digital Identity Wallets worden gebruikt. Daarnaast zijn er allerlei machtigingsdiensten die van toepassing kunnen zijn. Het is inefficiënt voor dienstverleners als ieder voor zich met alle authenticatie- en machtigingsdiensten individuele afspraken en koppelingen moeten maken en beheren. Het is voor bronhouders inefficiënt als zij zelf alles moeten inrichten voor het verstrekken van verifieerbare verklaringen. De GDI is een verzameling afspraken, standaarden en voorzieningen, waarbij afspraken de voorkeur hebben boven standaarden boven voorzieningen.">
   <properties
       key="Implicaties"
-      value="1. Er zijn overheidsbrede afspraken en standaarden (koppelvlakspecificaties) waarmee snel kan worden aangesloten op authenticatie- en machtigingsdiensten."/>
+      value="1. Er zijn afspraken, standaarden en voorzieningen die het partijen eenvoudiger maken om aan te sluiten op de toegangsinfrastructuur."/>
   <properties
       key="Implicaties"
-      value="2. Authenticatiediensten en machtigingsdiensten conformeren zich aan de overheidsbrede afspraken en standaarden."/>
+      value="2. Voorzieningen worden zoveel mogelijk optioneel gemaakt, zodat partijen ook zelf kunnen besluiten om eigen inrichtingskeuzes te maken."/>
   <properties
       key="Implicaties"
-      value="3. Er zijn voorzieningen die het dienstverleners eenvoudiger maken om aan te sluiten op de toegangsinfrastructuur."/>
+      value="3. De toegangsinfrastructuur ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur levert een dienst waarmee voor een voorgedefinieerde set van veelvoorkomende (voor toegang relevante) attributen, relevante verklaringen bij bronregisters kunnen worden opgehaald."/>
+      value="4. De toegangsinfrastructuur ontzorgt bronhouders in het verstrekken van verifieerbare verklaringen voor veelvoorkomende (voor toegang relevante) attributen."/>
+  <properties
+      key="Implicaties"
+      value="5. De toegangsinfrastructuur hanteert voor de uitwisseling van voor toegang relevante attributen dezelfde afspraken en standaarden als de infrastructuur voor gegevensuitwisseling."/>
 </archimate:Principle>
