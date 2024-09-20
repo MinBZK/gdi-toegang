@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoek aansluiting bij Europese certificaatstandaarden"
+    name="Onderzoek ondersteuning buitenlandse certificaten"
     id="id-82087c95385c4244a8993e31eb05b8a8"
-    documentation="We moeten als Nederland maximaal aansluiten bij internationale standaarden en afspraken. Dit creëert mogelijk een oplossing voor de huidige problemen met de uitwisseling van vertrouwelijke gegevens met andere landen op basis van PKI-overheid. Voor certificaten zijn er standaarden en afspraken in de context van eIDAS waarop aangesloten moet worden. Daarnaast ontstaat er in deze context de mogelijkheid om de EDI wallet te gebruiken voor gegevensuitwisseling tussen organisaties. Het onderzoek moet ook inzicht geven in de relatie tussen PKIoverheid en de europese afspraken en standaarden. Daarnaast is het onderscheid tussen natuurlijk personen en niet-natuurlijk personen belangrijk."/>
+    documentation="Het is op dit moment niet zomaar mogelijk om PKI certificaten van buitenlandse leveranciers te accepteren in voorzieningen in Nederland. Er is onderzoek nodig om te bepalen hoe dit opgelost kan worden. Een mogelijke oplossingsrichting is het aansluiten van het Tijdelijk Register Restgroepen op PKIoverheid, maar er zijn ook andere oplossingsrichtingen denkbaar."/>
