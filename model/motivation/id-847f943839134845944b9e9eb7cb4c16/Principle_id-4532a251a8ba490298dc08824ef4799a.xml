@@ -5,10 +5,10 @@
     documentation="We gaan er vaak standaard vanuit dat we de overheid kunnen vertrouwen. In de realiteit bestaat de overheid vooral uit mensen en mensen maken fouten en hebben soms verkeerde intenties. De impact van beslissingen van de overheid op het leven van mensen kan echter heel groot zijn. Daarnaast komen we er ook steeds meer achter dat bepaalde machtshebbers andere morele waarden hanteren waardoor de belangen van individuen eenvoudig opzij kunnen worden geschoven. Er zouden daarom waarborgen moeten zijn ingebouwd om te beschermen tegen (medewerkers van) overheidsorganisaties die grenzen willen overschrijden. De fundamentele rechten en vrijheden van individuen moeten worden bewaakt. De NIS2 richtlijn beschrijft ook een aantal maatregelen die een  hiervoor een basis kunnen bieden, zoals de verplichting tot het aanwijzen van een toezichthoudende autoriteit. In Nederland is hiervoor de Rijksinspectie Digitale Infrastructuur (RDI) aangewezen.">
   <properties
       key="Implicaties"
-      value="1. Er wordt bij de ontwikkeling van wet- en regelgeving bewust nagedacht over welke gegevens door de overheid moeten worden beheerd en/of mogen worden gedeeld, rekening houdend met beveiligings- en privacyrisico’s, alsook met de fundamentele rechten en vrijheden van individuen."/>
+      value="1. Er wordt bij de uitwerking van maatschappelijke vraagstukken bewust nagedacht over welke gegevens door de overheid moeten worden beheerd en/of mogen worden gedeeld, rekening houdend met beveiligings- en privacyrisico’s, alsook met de fundamentele rechten en vrijheden van individuen."/>
   <properties
       key="Implicaties"
-      value="2. Er worden geen privacy hotspots gecreëerd in systemen van individuele (overheids)organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
+      value="2. Er worden geen privacy hotspots (plaatsen met veel persoonsgegevens) gecreëerd in systemen van individuele (overheids)organisaties als dat kan worden voorkomen door bijvoorbeeld pseudonimisering."/>
   <properties
       key="Implicaties"
       value="3. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar door de toezichthoudende autoriteit.."/>

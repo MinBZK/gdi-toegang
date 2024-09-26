@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gegevensruimtes"
+    id="id-e969f8df00c541f58240787b2f36182b"
+    documentation="Gedreven vanuit de Europese datastrategie is er veel aandacht voor gegevensruimtes (data spaces). Er moet een Europese gegevensruimte komen, een interne markt voor data, waar zowel overheidsorganisaties als bedrijven gebruik van kunnen maken. Binnen deze Europese gegevensruimte ziet de Europese Commissie 14 gemeenschappelijke gegevensruimtes ontstaan voor specifieke sectoren. De precieze inrichting van veel van deze gegevensruimtes is nog onduidelijk. Kernaspecten van gegevensruimtes zijn data souvereiniteit en vertrouwen, wat vraagt om beveiligde toegang tot gegevens.">
+  <profiles
+      href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
+</archimate:Driver>
