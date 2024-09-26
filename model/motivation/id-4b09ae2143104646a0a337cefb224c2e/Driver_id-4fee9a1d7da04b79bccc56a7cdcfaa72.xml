@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Quantum computing"
+    id="id-4fee9a1d7da04b79bccc56a7cdcfaa72"
+    documentation="Een quantumcomputer is een nieuw soort computer, met een fundamenteel andere werking dan die van een klassieke computer. Zo zal een quantumcomputer veel sneller zijn in het oplossen van bepaalde problemen. De komst van quantumcomputers kan grote gevolgen hebben voor organisaties die werken met versleutelde gegevens. Met een quantumcomputer wordt het mogelijk gegevens te ontsleutelen die beveiligd zijn met de meestgebruikte vormen van cryptografie. Gegevens die op dit moment nog voldoende beveiligd zijn, zijn dat na de komst van quantumcomputers niet meer. De gevolgen zijn echter nog groter: er kunnen nu al versleutelde gegevens worden onderschept, zodat ze in de toekomst met een quantumcomputer ontsleuteld kunnen worden.  ">
+  <profiles
+      href="folder.xml#id-b1251fd984bf4caca18b0cfe11e36a03"/>
+</archimate:Driver>

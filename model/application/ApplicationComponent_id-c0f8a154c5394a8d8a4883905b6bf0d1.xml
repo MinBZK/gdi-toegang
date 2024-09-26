@@ -1,8 +1,8 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="eHerkenning authenticatiedienst"
-    id="id-93a1371d1b704ef9b0d88e433f3ab319"
-    documentation="Een rol binnen het eHerkenning stelsel die de verantwoordelijkheid heeft voor het authenticeren van entiteiten of hun vertegenwoordigers. ">
+    name="eHerkenning middelenuitgever"
+    id="id-c0f8a154c5394a8d8a4883905b6bf0d1"
+    documentation="Een rol binnen het eHerkenning stelsel die de verantwoordelijkheid heeft voor het uitgeven van middelen conform de eisen van het gespecificeerde betrouwbaarheidsniveau.">
   <properties
       key="Beheerorganisatie"
       value="Logius"/>

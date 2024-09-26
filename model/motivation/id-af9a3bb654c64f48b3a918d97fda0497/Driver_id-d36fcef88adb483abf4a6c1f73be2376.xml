@@ -1,0 +1,11 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eIDAS 1.0"
+    id="id-d36fcef88adb483abf4a6c1f73be2376"
+    documentation="eIDAS staat voor ‘Electronic Identification And Trust Services’. Met eIDAS verordening hebben de Europese lidstaten afspraken gemaakt om dezelfde begrippen, betrouwbaarheidsniveaus en onderlinge digitale infrastructuur te gebruiken. Een onderdeel van de verordening is het grensoverschrijdend gebruik van Europees erkende identificatiemiddelen. Dit kan alleen met een betrouwbare online identiteitscheck aan de voordeur. Hierdoor wordt het makkelijker en veiliger om binnen Europa online zaken te regelen. Concreet betekent dit dat burgers en organisaties die de beschikking hebben over een erkend identificatiemiddel dezelfde zaken moeten kunnen regelen als alle andere burgers en organisaties in een lidstaat. Levert een dienstverlener digitale toegang, dan wordt deze daarom verplicht, niet alleen Nederlandse, maar ook Europees erkende identificatiemiddelen toegang te verlenen.">
+  <properties
+      key="URL"
+      value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex:32014R0910"/>
+  <profiles
+      href="folder.xml#id-be5c32739bc24a92b1a43011ba22ba22"/>
+</archimate:Driver>

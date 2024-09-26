@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2. Toegang is gebaseerd op verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Dienstverleners zijn vertrouwende partijen en krijgen vertrouwen in de een identiteit als zij hierover van vertrouwde partijen verifieerbare verklaringen ontvangen. Verklarende partijen zijn bijvoorbeeld authenticatie- en machtigingsdiensten en aanbieders van gegevens uit gezaghebbende bronnen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
+    documentation="Dienstverleners kunnen vertrouwen op een identiteit als zij hierover verifieerbare verklaringen ontvangen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
   <properties
       key="Implicaties"
       value="1. Dienstverleners gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
@@ -17,7 +17,7 @@
       value="4. De mate van vertrouwen in een verklaring is gebaseerd op onder meer het betrouwbaarheidsniveau, de geldigheid, de verstrekker, de actualiteit en of deze gekwalificeerd is."/>
   <properties
       key="Implicaties"
-      value="5. Er kunnen verklaringen bij verschillende verklarende partijen worden opgehaald om voldoende vertrouwen te krijgen."/>
+      value="5. Dienstverleners kunnen verklaringen bij verschillende verklarende partijen ophalen om voldoende vertrouwen te krijgen."/>
   <properties
       key="Implicaties"
       value="6. Gebruikers kunnen ook dingen over zichzelf verklaren en deze beschikbaar stellen als verifieerbare verklaring."/>

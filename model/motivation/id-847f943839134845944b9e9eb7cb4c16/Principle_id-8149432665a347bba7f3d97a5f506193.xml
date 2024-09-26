@@ -1,11 +1,11 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Iedereen die daar recht op heeft krijgt toegang tot diensten"
+    name="1. Iedereen kan toegang krijgen tot diensten"
     id="id-8149432665a347bba7f3d97a5f506193"
-    documentation="Dienstverlening moet voor iedereen toegankelijk zijn en dat betekent dat er ook toegang tot alle diensten verzorgd moet worden. Er mogen geen maatregelen worden genomen die ertoe leiden dat bepaalde groepen of individuen worden gediscrimineerd of uitgesloten. Er is specifieke aandacht nodig voor mensen met een functiebeperking of minder digitaal vaardigen. Het is ook duidelijk dat niet alle diensten voor iedereen relevant zijn. De focus van de toegangsinfrastructuur ligt op toegang tot digitale publieke diensten, maar faciliteert mogelijk ook toegang tot niet-digitale diensten.">
+    documentation="Dienstverlening moet voor iedereen toegankelijk zijn en dat betekent dat er ook toegang tot alle diensten verzorgd moet worden. Er mogen geen maatregelen worden genomen die ertoe leiden dat bepaalde groepen of individuen worden gediscrimineerd of uitgesloten. Er is specifieke aandacht nodig voor mensen met een functiebeperking of minder digitaal vaardigen. De focus van de toegangsinfrastructuur ligt op toegang tot digitale publieke diensten, maar faciliteert mogelijk ook toegang tot niet-digitale diensten.">
   <properties
       key="Implicaties"
-      value="1. Er is bij verantwoordelijken voor de toegangsinfrastructuur zicht op alle groepen van mensen en organisaties die toegang zouden moeten hebben tot diensten."/>
+      value="1. Er is bij verantwoordelijken voor de toegangsinfrastructuur zicht op alle groepen van mensen en organisaties die toegang zouden moeten hebben tot een dienst."/>
   <properties
       key="Implicaties"
       value="2. Er zijn voor alle doelgroepen gezaghebbende bronnen waarin hun digitale identiteiten worden beheerd en deze registers zijn aangesloten op de toegangsinfrastructuur."/>
@@ -14,8 +14,11 @@
       value="3. De toegangsinfrastructuur legt geen beperkingen op die bepaalde groepen onnodig uitsluiten of benadelen."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur is digitoegankelijk, zodat ook mensen met een functiebeperking er gebruik van kunnen maken."/>
+      value="4. De toegangsinfrastructuur voldoet aan de eisen van DigiToegankelijk, zodat ook mensen met een functiebeperking er gebruik van kunnen maken."/>
   <properties
       key="Implicaties"
-      value="5. Er zijn voor minder digitaal vaardigen alternatieve kanalen waar zij gebruik van kunnen maken."/>
+      value="5. Er wordt in de toegangsinfrastructuur expliciet rekening gehouden met minder digitaal vaardigen."/>
+  <properties
+      key="Implicaties"
+      value="6. Diensten zijn ook via niet-digitale kanalen beschikbaar."/>
 </archimate:Principle>

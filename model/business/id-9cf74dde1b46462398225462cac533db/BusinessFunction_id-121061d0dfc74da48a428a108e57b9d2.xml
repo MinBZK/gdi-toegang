@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Vertalen identiteiten"
+    name="Vertalen identiteit"
     id="id-121061d0dfc74da48a428a108e57b9d2"
-    documentation="Het vertalen van identiteiten van en naar andere identiteiten, zoals van landspecifieke identifiers naar eIDAS Unique Identifiers en vice versa."/>
+    documentation="Het vertalen van een identiteit van en naar een andere identiteit, zoals van een landspecifieke identifier naar een eIDAS Unique Identifier en vice versa."/>
