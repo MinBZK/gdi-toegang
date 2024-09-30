@@ -24,13 +24,13 @@
   <folder name="Business" id="id-18d3d3102a5d46808f48412c7c38fcc7" type="business">
     <folder name="Bedrijfsobjecten" id="id-1ca7f5222bf94a9ba45bfebd9ff8d6e4">
       <element xsi:type="archimate:BusinessObject" name="Autorisatiebeslissing" id="id-0e6a68545b2d470d841b82aa5e05d4a5">
-        <documentation>Het resultaat van de beslissing of een entiteit op grond van een authenticatieverklaring en eventuele bevoegdheidsverklaringen toegang krijgt tot een resource.</documentation>
+        <documentation>Het resultaat van het evalueren van autorisatieregels.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Horizontale machtiging" id="id-145f9d6a34d947bda142eefaaf08c5ed">
         <documentation>Een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. </documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Verticale machtiging" id="id-19372d5882b8419692ad1594ab96eb7f">
-        <documentation>Een machtiging waarbij er een hiërarchische relatie bestaat binnen een niet-natuurlijk persoon. Een natuurlijk persoon binnen een organisatie (b.v. een accountant binnen een accountantskantoor) voert binnen die organisatie taken uit en doet zaken met andere organisaties.</documentation>
+        <documentation>Een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Vertegenwoordigingsbevoegdheid" id="id-19881848ccce47c9974cf7bc005393e8">
         <documentation>Een machtiging of wettelijke vertegenwoordiging.</documentation>
@@ -42,13 +42,13 @@
         <documentation>Wettelijke of bij gerechtelijke uitspraak geregelde overdracht van rechten en plichten als gevolg van handelingsonbekwaamheid of handelingsonbevoegdheid, waarbij zowel de bevoegdheden als de verantwoordelijkheden van een belanghebbende worden overgedragen naar de vertegenwoordiger.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Resource" id="id-276320a6bad14e10a39ac2bcfcd13178">
-        <documentation>Een dienst, gegevens of functionaliteit waartoe een entiteit toegang zou kunnen krijgen.</documentation>
+        <documentation>Een dienst, gegevens of functionaliteit waartoe een identiteit toegang zou kunnen krijgen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Identificatiemiddel" id="id-4145089decc343f1b8a35540703eb738">
         <documentation>Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken en gebruikt wordt voor de authenticatie van entiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Rol" id="id-4d32e4b7ef9c4a85acfa2c562ad218d2">
-        <documentation>Een set van taken, bevoegdheden en verantwoordelijkheden van een entiteit.</documentation>
+        <documentation>Een set van taken, bevoegdheden en verantwoordelijkheden die door een identiteit ingevuld kan worden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Entiteit" id="id-532a8fb36d024c0da03b4890db4de4d8">
         <documentation>Een object dat gedrag kan vertonen.</documentation>
@@ -60,10 +60,10 @@
         <documentation>De definitie van een categorie van attributen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Autorisatieregel" id="id-7a15da44f51b45d0b7b2d1449ea8def3">
-        <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een entiteit daadwerkelijke toegang krijgt tot een resource.</documentation>
+        <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot een resource.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Machtiging" id="id-906f182647604ffc90107fdb1c8d46de">
-        <documentation>Een herroepbare bevoegdheid die een vertegenwoordigde verleent aan een andere partij (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten. (bron: GDI-architectuur I&amp;A)</documentation>
+        <documentation>Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Identiteit" id="id-9e14841bf7a34845a4465fb9aa96cc53">
         <documentation>een verzameling van kenmerkende eigenschappen van een entiteit binnen een domein.</documentation>
@@ -135,7 +135,7 @@
 &lt;table class=&quot;table table-striped&quot;>&lt;tbody>&#xD;
 &lt;tr>&lt;td>&lt;b>Architectuurprincipe&lt;/b>&lt;/td>&lt;td>&lt;b>Uitgangspunt in Architectuur Digitale Overheid 2030&lt;/b>&lt;/td>&lt;td>&lt;b>Principe of implicatie in NORA&lt;/b>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-8149432665a347bba7f3d97a5f506193.html&quot;>1. Iedereen kan toegang krijgen tot diensten&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Gebruikersvriendelijk, begrijpelijk, transparant en toegankelijk voor iedereen&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verplaats je in de gebruiker&lt;/li>&lt;li>Maak de dienst toegankelijk voor alle gebruikers&lt;/li>&lt;li>Maak de dienst toegankelijk voor anderstaligen&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4dce57205fe4d48b888481350c6fae1.html&quot;>2. Toegang is gebaseerd op verifieerbare verklaringen&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Maak stelselafspraken om te komen tot één generiek digitaal stelsel voor identificatie en authenticatie of sluit aan bij een bestaand kanaaloverstijgend stelsel met afspraken over betrouwbaarheidsniveau's.&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-b4dce57205fe4d48b888481350c6fae1.html&quot;>2. Toegang is gebaseerd op verifieerbare verklaringen&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Maak stelselafspraken over identificatie en authenticatie&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-77965a4ab86c43fb809656f759830dc1.html&quot;>3. Partijen wisselen alleen strikt noodzakelijke gegevens uit&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Overheden mogen alleen persoonsgegevens verwerken als het niet anders kan. Dus: als zij zonder deze gegevens hun doel niet kunt bereiken.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Pas doelbinding toe&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-05cd71c3758c4182878ba143b870582f.html&quot;>4. De Nederlandse toegangsinfrastructuur ontzorgt dienstverleners&lt;/a>&lt;/td>&lt;td>&lt;/td>&lt;td>&lt;ul>&lt;li>Bied één contactpunt (Single point of contact)&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>&lt;a href=&quot;..\elements\id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>5. Toegang tot diensten en gegevens is zo laagdrempelig als mogelijk voor het gevraagde betrouwbaarheidsniveau&lt;/a>&lt;/td>&lt;td>&lt;ul>&lt;li>Kanalen dienen – waar nodig – ook via machtigen en vertegenwoordigen toegankelijk te zijn.&lt;/li>&lt;/ul>&lt;/td>&lt;td>&lt;ul>&lt;li>Verplaats je in de gebruiker&lt;/li>&lt;li>Maak beveiligingsmaatregelen zo gebruiksvriendelijk mogelijk&lt;/li>&lt;li>Maak toegang tot applicaties en gegevens afhankelijk van authenticatieniveau&lt;/li>&lt;/ul>&lt;/td>&lt;/tr>&#xD;
@@ -1143,26 +1143,26 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
       <element xsi:type="archimate:WorkPackage" name="Onderzoek toekomstige inrichting van machtigen" id="id-61dc33c76ec94288b37d10018c2e8caa">
         <documentation>Het is wenselijk om te onderzoeken hoe met (vrijwillig) machtigen in de toekomst zou moeten worden omgegaan. Er zijn allerlei behoeften aan meer uitgebreide en fijnmaziger vormen van machtigen die nu niet worden ondersteund, zoals het machtigen voor een zaak. Is het wenselijk om eHerkenning en/of DigiD machtigen uit te breiden met alle veelvoorkomende vormen van machtigen? Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen wat centraal en wat decentraal vastgelegd zou moeten worden. Er moet expliciet rekening worden gehouden met de relatie met de EDI-wallet. Deze zal ook vertegenwoordiging en machtigen moeten ondersteunen voor burgers die andere burgers of bedrijven vertegenwoordigen.</documentation>
       </element>
+      <element xsi:type="archimate:WorkPackage" name="Inrichten centraal onderzoek en meldpunt fraude voor eHerkenning" id="id-68e94bf51db2445295e270b9d86e825e">
+        <documentation>Het is wenselijk om één centraal onderzoek- en meldpunt fraude voor eHerkenning in te richten om een goed kwalitatief en kwantitatief beeld te creëren.</documentation>
+      </element>
       <element xsi:type="archimate:WorkPackage" name="Onderzoeken identificatiemiddel zonder BSN" id="id-75a11a6464244610b8679b4ccf487a9c">
         <documentation>Er zou een betrouwbaar identificatiemiddel moeten zijn die het mogelijk maakt om zonder BSN in te loggen. Er zijn situaties waarin de dienstverlener deze BSN niet mag verwerken. Voor het nieuwe stelsel toegang zullen in ieder geval ook private partijen gebruik willen kunnen maken van publieke middelen. Dat zou een uitbreiding van DigiD kunnen zijn (met toepassing van pseudonimisering). Het kan ook zijn dat hier alleen de EDI wallet voor wordt gepositioneerd, waarmee het ook mogelijk wordt om met een pseudoniem in te loggen. Het bepalen van de oplossingsrichting vraagt nader onderzoek.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Onderzoek ondersteuning buitenlandse certificaten" id="id-82087c95385c4244a8993e31eb05b8a8">
         <documentation>Het is op dit moment niet zomaar mogelijk om PKI certificaten van buitenlandse leveranciers te accepteren in voorzieningen in Nederland. Er is onderzoek nodig om te bepalen hoe dit opgelost kan worden. Een mogelijke oplossingsrichting is het aansluiten van het Tijdelijk Register Restgroepen op PKIoverheid, maar er zijn ook andere oplossingsrichtingen denkbaar.</documentation>
       </element>
+      <element xsi:type="archimate:WorkPackage" name="Uniformeren gebruikservaring" id="id-8c6dd6da80894426a9b31dc0a78d3503">
+        <documentation>Er dient een standaard gebruikservaring te worden uitgewerkt en deze dient geïmplementeerd te worden in alle authenticatiediensten.</documentation>
+      </element>
       <element xsi:type="archimate:WorkPackage" name="Vertegenwoordigen bewindvoerders, curatoren, mentoren en ouderlijk gezag" id="id-d9b8e51c53c74a589f8dadf156c1786c">
         <documentation>Bewindvoerders, curatoren, mentoren en mensen die ouderlijk gezag hebben zouden als vertegenwoordiger moeten kunnen optreden. De gezaghebbende bron voor beschermingsbewind is het WvR register van de Raad voor de Rechtspraak. Een aansluiting op dit register is reeds gerealiseerd, maar deze moet nog wel door de toegangsinfrastructuur breed toegankelijk worden gemaakt.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Restgroepen ondersteunen" id="id-f7bfe9749f2d4f56a5877841cac332d6">
-        <documentation>Er zijn allerlei organisatie-restgroepen die niet door eHerkenning worden ondersteund, met name doordat ze niet zijn ingeschreven in het Handelsregister. Er is een entiteitenregister voorzien waarin deze restgroepen kunnen worden beheerd. Tegelijkertijd is het niet per definitie nodig en haalbaar dat er één register komt. Er kunnen ook bestaande registers worden aangewezen en ontsloten. Dit zou expliciet moeten worden onderzocht.</documentation>
-      </element>
-      <element xsi:type="archimate:WorkPackage" name="Inrichten centraal onderzoek en meldpunt fraude voor eHerkenning" id="id-68e94bf51db2445295e270b9d86e825e">
-        <documentation>Het is wenselijk om één centraal onderzoek- en meldpunt fraude voor eHerkenning in te richten om een goed kwalitatief en kwantitatief beeld te creëren.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Verbeteren toegankelijkheid voor minder digitaal vaardigen" id="id-e963551e7c424e6e84ca1748475a7eb8">
         <documentation>De toegankelijkheid van DigiD en eHerkenning is niet optimaal voor minder digitaal vaardigen. Er is een onderzoek nodig om te bepalen welke verbeteringen nodig zijn en de aanbevelingen uit dat onderzoek moeten worden geïmplementeerd.</documentation>
       </element>
-      <element xsi:type="archimate:WorkPackage" name="Uniformeren gebruikservaring" id="id-8c6dd6da80894426a9b31dc0a78d3503">
-        <documentation>Er dient een standaard gebruikservaring te worden uitgewerkt en deze dient geïmplementeerd te worden in alle authenticatiediensten.</documentation>
+      <element xsi:type="archimate:WorkPackage" name="Restgroepen ondersteunen" id="id-f7bfe9749f2d4f56a5877841cac332d6">
+        <documentation>Er zijn allerlei organisatie-restgroepen die niet door eHerkenning worden ondersteund, met name doordat ze niet zijn ingeschreven in het Handelsregister. Er is een entiteitenregister voorzien waarin deze restgroepen kunnen worden beheerd. Tegelijkertijd is het niet per definitie nodig en haalbaar dat er één register komt. Er kunnen ook bestaande registers worden aangewezen en ontsloten. Dit zou expliciet moeten worden onderzocht.</documentation>
       </element>
     </folder>
   </folder>
@@ -1553,11 +1553,14 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:InfluenceRelationship" id="id-3b3a5692d05c4b8dac2d45e9138a1720" source="id-f7bfe9749f2d4f56a5877841cac332d6" target="id-26a67ab67a2345c59d5176c597443a38"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-3efa315c98cc417bbae45f52eba42b0d" source="id-d9b8e51c53c74a589f8dadf156c1786c" target="id-26a67ab67a2345c59d5176c597443a38"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-422f62cd38e8492fa95bf2d57e82bd30" source="id-4751ff0f92c04cec9018b13305d1f476" target="id-de89877b42424eac8bc8eddc8462d007"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-4bc3a2f09cd047c8b1fd05c50de35990" source="id-68e94bf51db2445295e270b9d86e825e" target="id-4e650de32bdf49b7b7c3ffc0727251bb"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-544c951fbc4741c9a77b6926dcd1fba3" source="id-e963551e7c424e6e84ca1748475a7eb8" target="id-13b5b97506004f0b82089095a6c5dae4"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-6b397bbe07d84ea7947c9218bd1e72ab" source="id-4532a251a8ba490298dc08824ef4799a" target="id-ef780f486daa48b393320e16200cc0c0"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-6d5d9099e6204c9eb191a525d6af0e78" source="id-75a11a6464244610b8679b4ccf487a9c" target="id-a4046d419300443da3ec983b6a64884b"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-7b981009c08543cca7ddb15672cf3da7" source="id-05cd71c3758c4182878ba143b870582f" target="id-face061e1c374e6c8b15e048c9f41d1d"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-8ae126b6f12c4f0ab3b6b8193b984ef3" source="id-05cd71c3758c4182878ba143b870582f" target="id-d36fcef88adb483abf4a6c1f73be2376"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-bf661ae959e54bd3bf38fae8d37f4719" source="id-4838d4ce599148b3bd430711a296b3d4" target="id-3cb71651ed6e4972865ede91d9ff7836"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-c562c89fa90d4d0f9fc92484c9859630" source="id-8c6dd6da80894426a9b31dc0a78d3503" target="id-516315a21d3943c48d3859fd7c28308e"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ce90df90d8fe431aaec41b37b603fe7f" source="id-77965a4ab86c43fb809656f759830dc1" target="id-46a216053b3f487fa0bedd3b3077a975"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-df38720a5b774f84af6c5a0a0d3bdf03" source="id-b4dce57205fe4d48b888481350c6fae1" target="id-bcbd31af7e4b447e850fe34a90693650"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-f128220572384499aaecae01e1881fd8" source="id-b304c80b029c48498a32d80d14337ea3" target="id-46a216053b3f487fa0bedd3b3077a975"/>
@@ -1677,9 +1680,6 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:SpecializationRelationship" id="id-c5d1883a035f40eab74e9b53ab3ec66d" source="id-64294694c5484d4693e67a05359d6a12" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-e757b928f60e417ca5b502d23c2c57eb" source="id-19372d5882b8419692ad1594ab96eb7f" target="id-906f182647604ffc90107fdb1c8d46de"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-ed80f8cf6cb8463cbbf6375cda827f3e" source="id-f51d4497b87b4751842effe518b903d5" target="id-a6805c3d0daa4690a04d2f2251c65cc0"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-4bc3a2f09cd047c8b1fd05c50de35990" source="id-68e94bf51db2445295e270b9d86e825e" target="id-4e650de32bdf49b7b7c3ffc0727251bb"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-544c951fbc4741c9a77b6926dcd1fba3" source="id-e963551e7c424e6e84ca1748475a7eb8" target="id-13b5b97506004f0b82089095a6c5dae4"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-c562c89fa90d4d0f9fc92484c9859630" source="id-8c6dd6da80894426a9b31dc0a78d3503" target="id-516315a21d3943c48d3859fd7c28308e"/>
   </folder>
   <folder name="Views" id="id-69c46f923b47425d8baae04e076ba7b0" type="diagrams">
     <folder name="Gewenste situatie" id="id-3043fb9e60f34504bda3f28a53243393">
