@@ -13,7 +13,7 @@
         x="480"
         y="22"
         width="241"
-        height="231"/>
+        height="303"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-eea7673665fa4e4e9fef06b460e7db72"
@@ -62,9 +62,9 @@
         value="2"/>
     <bounds
         x="228"
-        y="264"
-        width="493"
-        height="85"/>
+        y="336"
+        width="697"
+        height="145"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b00c8566d997414498368676d79d6b81"
@@ -75,7 +75,7 @@
           name="iconVisible"
           value="2"/>
       <bounds
-          x="264"
+          x="240"
           y="24"
           width="217"
           height="49"/>
@@ -101,6 +101,60 @@
           xsi:type="archimate:Assessment"
           href="Assessment_id-13b5b97506004f0b82089095a6c5dae4.xml#id-13b5b97506004f0b82089095a6c5dae4"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0e6e4016247247a18e4859c58ca9e1a9"
+        font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="84"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-9e52332306d7404a9bc5432da3040f4b.xml#id-9e52332306d7404a9bc5432da3040f4b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8a0bc80af69947dc8e9cdef02b908ce5"
+        font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="240"
+          y="81"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-3cb71651ed6e4972865ede91d9ff7836.xml#id-3cb71651ed6e4972865ede91d9ff7836"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-430342877f6b468e86877a0a606caf9e"
+        font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="468"
+          y="21"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-516315a21d3943c48d3859fd7c28308e.xml#id-516315a21d3943c48d3859fd7c28308e"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-71518055a4194c55844b0ed040dacbe2.xml#id-71518055a4194c55844b0ed040dacbe2"/>
@@ -115,7 +169,7 @@
         x="732"
         y="22"
         width="109"
-        height="231"/>
+        height="303"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-83db5a52a2914474a04a7152fa9d12e0.xml#id-83db5a52a2914474a04a7152fa9d12e0"/>
@@ -128,9 +182,9 @@
         value="2"/>
     <bounds
         x="-24"
-        y="264"
+        y="336"
         width="241"
-        height="85"/>
+        height="145"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ac66df76c50b46eb8dd505d2d0bc2834"
@@ -163,7 +217,7 @@
         x="228"
         y="22"
         width="241"
-        height="231"/>
+        height="303"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f80012346c7f4a1d87854f8e383ba35f"
@@ -193,10 +247,10 @@
         name="iconVisible"
         value="2"/>
     <bounds
-        x="732"
-        y="264"
-        width="361"
-        height="85"/>
+        x="936"
+        y="336"
+        width="157"
+        height="145"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-b750feb34d9c40588f9443c33145b59e.xml#id-b750feb34d9c40588f9443c33145b59e"/>
@@ -229,7 +283,7 @@
         x="852"
         y="22"
         width="241"
-        height="231"/>
+        height="303"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d9f48a6eb7834aaf912c571bff24efbe"
@@ -284,6 +338,24 @@
           xsi:type="archimate:Assessment"
           href="Assessment_id-26a67ab67a2345c59d5176c597443a38.xml#id-26a67ab67a2345c59d5176c597443a38"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-294449eb416748e5b29a75792b1e039d"
+        font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="232"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-dad9b4f7711e46a8a1a71c87b71caeec.xml#id-dad9b4f7711e46a8a1a71c87b71caeec"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-c5998016874b4a3f9a80d62f09af3f33.xml#id-c5998016874b4a3f9a80d62f09af3f33"/>
@@ -298,7 +370,7 @@
         x="-24"
         y="180"
         width="241"
-        height="73"/>
+        height="145"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-715ea15b4b9146498e9e88e3cee41494.xml#id-715ea15b4b9146498e9e88e3cee41494"/>

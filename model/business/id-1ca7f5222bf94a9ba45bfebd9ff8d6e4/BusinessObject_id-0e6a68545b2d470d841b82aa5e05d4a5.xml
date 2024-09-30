@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Autorisatiebeslissing"
     id="id-0e6a68545b2d470d841b82aa5e05d4a5"
-    documentation="Het resultaat van de beslissing of een entiteit op grond van een authenticatieverklaring en eventuele bevoegdheidsverklaringen toegang krijgt tot een resource."/>
+    documentation="Het resultaat van het evalueren van autorisatieregels."/>
