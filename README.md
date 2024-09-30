@@ -42,4 +42,3 @@ Bijlagen:
 
 Documenten:
 * Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-toegang/content/views/Domeinarchitectuur%20toegang.html">samenvatting</a>
-* Bijlagen in één pagina: <a href="https://minbzk.github.io/gdi-toegang/content/views/Bijlagen%20domeinarchitectuur%20toegang.html">bijlagen</a>
