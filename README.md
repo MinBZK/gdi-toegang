@@ -23,7 +23,7 @@ Veranderfactoren:
 * Knelpunten: <a href="https://minbzk.github.io/gdi-toegang/content/views/knelpunten.html">overzicht</a>
 * Capabilities: <a href="https://minbzk.github.io/gdi-toegang/?view=id-0b1de22ff1b248798b095a178cf065f8">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilities.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/capabilitiesdetails.html">details</a>
 
-Doelarchitectuur:
+Gewenste situatie:
 * Architectuurvisie: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-57896b8c4e854e7b92ed667986aa09ee.html">beschrijving</a>
 * Architectuurprincipes: <a href="https://minbzk.github.io/gdi-toegang/?view=id-4e701366fd844120b700c114068bc91e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principes.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/principesdetails.html">details</a>
 * Gewenste voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/gewenste%20voorzieningendetails.html">details</a>
