@@ -1,6 +1,6 @@
 <archimate:Principle
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="3. Partijen wisselen alleen strikt noodzakelijke gegevens uit"
+    name="3. Organisaties wisselen alleen strikt noodzakelijke gegevens uit"
     id="id-77965a4ab86c43fb809656f759830dc1"
     documentation="Dataminimalisatie is een uitgangspunt in de AVG en betekent dat de persoonsgegevens die worden gebruikt zijn beperkt tot het hoogst noodzakelijke. Dit heeft in de context van toegang vooral betrekking op de verklaringen die worden gevraagd aan verklarende partijen over de identiteiten en de eigenschappen die in deze verklaringen zitten. Informatie is ook niet altijd voor alle handelingen binnen een dienst relevant. Het zou daarom niet passend zijn om specifieke verklaringen en informatie op te halen als niet zeker is dat deze ook daadwerkelijk nodig is. Voor veel diensten is het helemaal niet relevant wie de precieze persoon is, welke BSN daarbij hoort en of deze persoon uit Nederland komt of niet. Voor deze diensten volstaat een pseudoniem. Veel belangrijker is het om te weten of de gebruiker over de juiste bevoegdheden beschikt. Opsporingsdiensten hebben wel duidelijk andere informatiebehoeften en bevoegdheden. Daarnaast kan het nodig zijn om comfortinformatie uit te wisselen. Dat is informatie die strikt genomen niet nodig is, maar wel belangrijk is om betekenisvol informatie te presenteren naar gebruikers in een gebruikersinterface zoals namen van mensen en organisaties.">
   <properties
@@ -14,7 +14,7 @@
       value="3. De attributen die dienstverleners vragen zijn strikt noodzakelijk voor de doelbinding."/>
   <properties
       key="Implicaties"
-      value="4. Gebruikers hebben voorafgaand aan hun handelen inzicht in de voor de dienst gevraagde attributen."/>
+      value="4. Gebruikers hebben voorafgaand aan hun handelen inzicht in de voor de dienst gevraagde attributen (en kunnen besluiten een dienst niet af te nemen)."/>
   <properties
       key="Implicaties"
       value="5. De toegangsinfrastructuur verstrekt alleen de attributen die eerder zijn geregistreerd bij de dienst."/>
@@ -23,7 +23,7 @@
       value="6. Afhankelijk van het betrouwbaarheidsniveau van de dienst kunnen gebruikers anoniem, met een pseudoniem of met een bekende identiteit toegang krijgen tot de dienst."/>
   <properties
       key="Implicaties"
-      value="7. Als kan worden volstaan met een verklaring (zero knowledge proof) dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
+      value="7. Als kan worden volstaan met het resultaat van het toepassen van een regel dan worden niet de onderliggende gegevens opgehaald; om te weten of iemand volwassen is hoef je niet zijn geboortedatum te kennen."/>
   <properties
       key="Implicaties"
       value="8. Bij het gebruik van pseudoniemen, wordt per dienstverlener een apart pseudoniem gebruikt, zodat dienstverleners gezamenlijk geen 'profiel' van een persoon kunnen maken op basis van één pseudoniem."/>

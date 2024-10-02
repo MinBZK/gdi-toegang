@@ -1,5 +1,5 @@
 <archimate:Assessment
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Schaalbaarheid van dienstencatalogi"
+    name="Schaalbaarheid en fijnmazigheid van dienstencatalogi"
     id="id-de89877b42424eac8bc8eddc8462d007"
     documentation="De huidige toegangsinfrastructuur is gebaseerd op toegang tot diensten. Deze diensten zijn echter niet gestandaardiseerd over organisaties, waardoor er een grote hoeveelheid van soortgelijke diensten in de dienstencatalogi staan, wat een grote administratieve lasten, onderhoudslasten en doorlooptijden levert. Dit maakt het lastig schaalbaar. Daarbij komt dat er behoefte is aan meer fijnmaziger vormen van machtiging om ervoor te zorgen dat alleen strikt noodzakelijke toegang wordt verstrekt. De enige manier om hier in de huidige voorzieningen mee om te gaan is door hier extra diensten voor te definiëren, wat tot een explosie aan diensten leidt. Het is niet mogelijk om diensten gelaagd te definiëren."/>

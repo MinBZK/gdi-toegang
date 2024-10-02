@@ -13,7 +13,7 @@
         x="348"
         y="22"
         width="181"
-        height="411"/>
+        height="279"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3af7aa1657454fd6b5a59db9b38d96d8"
@@ -60,7 +60,7 @@
         value="2"/>
     <bounds
         x="348"
-        y="444"
+        y="312"
         width="397"
         height="157"/>
     <children
@@ -128,7 +128,7 @@
         x="540"
         y="22"
         width="109"
-        height="411"/>
+        height="279"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-83db5a52a2914474a04a7152fa9d12e0.xml#id-83db5a52a2914474a04a7152fa9d12e0"/>
@@ -141,7 +141,7 @@
         value="2"/>
     <bounds
         x="36"
-        y="444"
+        y="312"
         width="301"
         height="157"/>
     <children
@@ -175,7 +175,7 @@
         x="156"
         y="22"
         width="181"
-        height="411"/>
+        height="279"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a2f09362fb2b4158b5e523454434409b"
@@ -205,7 +205,7 @@
         value="2"/>
     <bounds
         x="756"
-        y="444"
+        y="312"
         width="85"
         height="157"/>
     <archimateElement
@@ -240,7 +240,7 @@
         x="660"
         y="22"
         width="181"
-        height="411"/>
+        height="279"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-13a30d838f434393a672c4f34003f938"
@@ -251,7 +251,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="192"
+          y="132"
           width="157"
           height="61"/>
       <archimateElement
@@ -285,7 +285,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="336"
+          y="204"
           width="157"
           height="61"/>
       <archimateElement
@@ -306,7 +306,7 @@
         x="36"
         y="204"
         width="109"
-        height="229"/>
+        height="97"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-715ea15b4b9146498e9e88e3cee41494.xml#id-715ea15b4b9146498e9e88e3cee41494"/>

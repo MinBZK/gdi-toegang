@@ -8,17 +8,17 @@
       value="1. Er is bij verantwoordelijken voor de toegangsinfrastructuur zicht op alle groepen van mensen en organisaties die toegang zouden moeten hebben tot een dienst."/>
   <properties
       key="Implicaties"
-      value="2. Er zijn voor alle doelgroepen gezaghebbende bronnen waarin hun digitale identiteiten worden beheerd en deze registers zijn aangesloten op de toegangsinfrastructuur."/>
+      value="2. Er zijn voor alle doelgroepen gezaghebbende bronnen waarin hun identiteitsgegevens worden beheerd en deze registers zijn aangesloten op de toegangsinfrastructuur."/>
   <properties
       key="Implicaties"
       value="3. De toegangsinfrastructuur legt geen beperkingen op die bepaalde groepen onnodig uitsluiten of benadelen."/>
   <properties
       key="Implicaties"
-      value="4. De toegangsinfrastructuur voldoet aan de eisen van de Digitoegankelijk standaard die verplicht is via de Wdo, zodat ook mensen met een functiebeperking er gebruik van kunnen maken."/>
+      value="4. De toegangsinfrastructuur voldoet aan de eisen van de Digitoegankelijk standaard (die verplicht is via de Wdo), zodat ook mensen met een functiebeperking er zoveel mogelijk gebruik van kunnen maken."/>
   <properties
       key="Implicaties"
       value="5. Er wordt in de toegangsinfrastructuur expliciet rekening gehouden met minder digitaal vaardigen."/>
   <properties
       key="Implicaties"
-      value="6. Diensten zijn ook via niet-digitale kanalen beschikbaar."/>
+      value="6. Diensten zijn ook via niet-digitale kanalen beschikbaar, inclusief bijbehorende toegangsvoorzieningen."/>
 </archimate:Principle>

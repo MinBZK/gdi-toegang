@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2. Toegang is gebaseerd op verifieerbare verklaringen"
     id="id-b4dce57205fe4d48b888481350c6fae1"
-    documentation="Dienstverleners kunnen vertrouwen op een identiteit als zij hierover verifieerbare verklaringen ontvangen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort. Zo zijn organisaties zelf verantwoordelijk voor het toekennen van bevoegdheden aan medewerkers en kunnen deze prima als verifieerbare verklaringen beschikbaar worden gesteld.">
+    documentation="Dienstverleners kunnen vertrouwen op een identiteit als zij hierover verifieerbare verklaringen ontvangen. Door het gebruik van verifieerbare verklaringen is ook minder relevant of bevoegdheden centraal worden geadministreerd. Het verdient de voorkeur om administratie te laten daar waar het hoort.">
   <properties
       key="Implicaties"
       value="1. Dienstverleners gebruiken verifieerbare verklaringen voor het verlenen van toegang."/>
