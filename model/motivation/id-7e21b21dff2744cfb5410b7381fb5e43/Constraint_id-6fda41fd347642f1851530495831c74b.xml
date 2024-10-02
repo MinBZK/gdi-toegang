@@ -5,7 +5,7 @@
     documentation="OpenID.NLGov legt bindende afspraken vast over het gebruik van de standaard OpenID Connect bij de Nederlandse overheid.">
   <properties
       key="Status"
-      value="In behandeling"/>
+      value="Verplicht"/>
   <properties
       key="Functioneel toepassingsgebied"
       value="Het NL GOV OpenID Connect profiel moet worden toegepast bij het beschikbaar stellen en het gebruik van federatieve authenticatiediensten, inclusief vertegenwoordiging- en attribuutverstrekking."/>

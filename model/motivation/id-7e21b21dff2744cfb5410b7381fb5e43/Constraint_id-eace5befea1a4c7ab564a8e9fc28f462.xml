@@ -1,0 +1,17 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ACME"
+    id="id-eace5befea1a4c7ab564a8e9fc28f462"
+    documentation="Het Automatic Certificate Management Environment (ACME) is een protocol voor het geautomatiseerd uitgeven en vernieuwen van beveiligingscertificaten. ">
+  <properties
+      key="Status"
+      value="geen"/>
+  <properties
+      key="Beheerorganisatie"
+      value="Internet Engineering Task Force"/>
+  <properties
+      key="URL"
+      value="https://www.rfc-editor.org/rfc/rfc8555"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>

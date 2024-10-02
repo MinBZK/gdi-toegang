@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Migratie van SAML naar OpenID Connect"
     id="id-4838d4ce599148b3bd430711a296b3d4"
-    documentation="De positie van de SAML standaard zoals ondersteund door DigiD en eHerkenning is in de markt inmiddels ingenomen door OpenID Connect. Er zou dan ook een migratie naar OpenID Connect ingezet moeten worden."/>
+    documentation="De positie van de SAML standaard zoals ondersteund door DigiD en eHerkenning is in de markt inmiddels ingenomen door OpenID Connect. Het OBDO heeft besloten dat er een transitie naar OpenID Connect (OpenID.NLGov) ingezet moet worden. Aanbieders van identity diensten zullen daarom komende periode zowel OpenID.Gov als SAML moeten ondersteunen. Dienstverleners kunnen dan kiezen of voor het OpenID.NLGov of SAML koppelvlak. Uiteindelijk zal de SAML standaard moeten worden uitgefaseerd."/>

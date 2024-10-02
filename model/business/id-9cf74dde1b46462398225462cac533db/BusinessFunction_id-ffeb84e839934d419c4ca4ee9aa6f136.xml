@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Provisioning identiteiten"
+    name="Verstrekken identiteitsgegevens"
     id="id-ffeb84e839934d419c4ca4ee9aa6f136"
-    documentation="Het in machineleesbare vorm beschikbaar stellen van gegevens over identiteiten, zodat diensten of systemen deze kunnen gebruiken."/>
+    documentation="Het beschikbaar stellen van identiteitsgegevens."/>

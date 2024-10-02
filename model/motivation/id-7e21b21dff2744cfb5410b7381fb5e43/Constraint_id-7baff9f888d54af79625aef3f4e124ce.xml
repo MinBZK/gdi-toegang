@@ -1,0 +1,20 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authenticatie-standaarden"
+    id="id-7baff9f888d54af79625aef3f4e124ce"
+    documentation="Deze registratie vervangt de afzonderlijke registraties van SAML, NL GOV AP OIDC en OIDC op de lijst open standaarden. Deze gecombineerde verplichting zet een transitie in gang met afbouw van SAML en opbouw naar OpenID.NLGov.">
+  <properties
+      key="Status"
+      value="Verplicht"/>
+  <properties
+      key="Functioneel toepassingsgebied"
+      value="Authenticatie-standaarden (OpenID.NLGov en SAML) moeten worden toegepast door aanbieders van identitydiensten, onder wie identity providers en identity brokers/gateways, op hun externe koppelvlak aan serviceproviders (d.w.z. overheden met digitale diensten) voor federatieve toegang en voor de uitwisseling van attributen, waaronder identiteitsgegevens, zodat serviceproviders de keuze hebben tussen beide standaarden."/>
+  <properties
+      key="Beheerorganisatie"
+      value="Logius, OASIS"/>
+  <properties
+      key="URL"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/authenticatie-standaarden"/>
+  <profiles
+      href="folder.xml#id-c1e2ee3553d2494d859bb0c0e1d186a7"/>
+</archimate:Constraint>
