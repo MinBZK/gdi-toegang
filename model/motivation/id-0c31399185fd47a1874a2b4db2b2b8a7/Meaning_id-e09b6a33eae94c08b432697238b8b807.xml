@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="dienst"
+    id="id-e09b6a33eae94c08b432697238b8b807"
+    documentation="Een geheel van handelingen die een dienstverlener beschikbaar stelt.">
+  <properties
+      key="Toelichting"
+      value="Een dienst ontsluit gegevens en functionaliteit."/>
+</archimate:Meaning>

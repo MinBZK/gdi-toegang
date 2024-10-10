@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="entiteit"
+    id="id-af549567dc354a888dff1cf13dad4fea"
+    documentation="Een object dat gedrag kan vertonen.">
+  <properties
+      key="Toelichting"
+      value="In de context van toegang zijn dit mensen, organisaties, applicaties of apparaten."/>
+</archimate:Meaning>

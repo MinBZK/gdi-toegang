@@ -1,5 +1,5 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Attribuut"
+    name="Identiteitsgegeven"
     id="id-d766d65c0ea14ecc9e01f99938d0b61b"
-    documentation="Een enkelvoudig of samengesteld informatie-element dat onderdeel is van een identiteit; de digitale representatie van een eigenschap van een entiteit. "/>
+    documentation="Een gegeven dat een kenmerk van een identiteit representeert."/>

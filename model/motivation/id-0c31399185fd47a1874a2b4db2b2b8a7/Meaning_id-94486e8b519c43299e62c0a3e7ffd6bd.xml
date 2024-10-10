@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="machtiging"
+    id="id-94486e8b519c43299e62c0a3e7ffd6bd"
+    documentation="Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.">
+  <properties
+      key="Toelichting"
+      value="Een wettelijke vertegenwoordiging is conform deze definitie dus geen machtiging. Er wordt ook wel onderscheid gemaakt tussen verticale machtingen en horizontale machtigingen. Een verticale machtiging  is een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen. Een horizontale machtiging is een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. "/>
+  <properties
+      key="Alternatieve term"
+      value="vrijwillige machtiging"/>
+</archimate:Meaning>

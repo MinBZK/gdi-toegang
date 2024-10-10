@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Dienstverlener"
     id="id-c266e0540ad64714932a780fe9e74037"
-    documentation="De partij die volgens afspraken diensten levert aan een klant."/>
+    documentation="Een entiteit die een dienst levert."/>

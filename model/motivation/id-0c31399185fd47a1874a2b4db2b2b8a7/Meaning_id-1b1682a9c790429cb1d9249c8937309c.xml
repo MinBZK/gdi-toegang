@@ -1,0 +1,15 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="attribuutsoort"
+    id="id-1b1682a9c790429cb1d9249c8937309c"
+    documentation="De definitie van een categorie van attributen.">
+  <properties
+      key="Alternatieve term"
+      value="attribuut"/>
+  <properties
+      key="Toelichting"
+      value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in Attribuutsoort naam."/>
+  <properties
+      key="Heeft bron"
+      value="MIM 1.2"/>
+</archimate:Meaning>

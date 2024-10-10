@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="verifieerbare verklaring"
+    id="id-2921659765024c06b709103b4b7103ac"
+    documentation="Een verzameling van identiteitsgegevens, vergezeld van een bewijs dat deze afkomstig zijn van een specifieke verklarende partij.">
+  <properties
+      key="Toelichting"
+      value="Met een verifieerbare verklaring kan de validiteit, integriteit, authenticiteit en geldigheid van identiteitsgegevens worden gecontroleerd. "/>
+</archimate:Meaning>

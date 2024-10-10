@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="betrouwbaarheidsniveau"
+    id="id-9876bf23c0454b23a0d6ba038f463ebe"
+    documentation="De mate van zekerheid waarmee identiteitsgegevens, identificatiemiddelen en/of bevoegdheden zijn vastgesteld.">
+  <properties
+      key="Toelichting"
+      value="In de Regeling betrouwbaarheidsniveaus wordt onderscheid gemaakt tussen de betrouwbaarheidsniveaus laag, substantieel en hoog."/>
+</archimate:Meaning>

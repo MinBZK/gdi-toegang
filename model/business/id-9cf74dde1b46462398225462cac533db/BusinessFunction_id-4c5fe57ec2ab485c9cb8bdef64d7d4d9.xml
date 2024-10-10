@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beheren autorisatieregels"
     id="id-4c5fe57ec2ab485c9cb8bdef64d7d4d9"
-    documentation="Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities identiteiten toegang hebben tot welke resources."/>
+    documentation="Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities identiteiten toegang hebben tot welke resources."/>

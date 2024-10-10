@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="identifier"
+    id="id-023d2d82ff1043048397e6953e44ee11"
+    documentation="Een identiteitsgegeven die een entiteit uniek identificeert.">
+  <properties
+      key="Toelichting"
+      value="Er kunnen ook andere gegevens die gezamenlijk gebruikt kunnen worden om een entiteit te identificeren. Dit noemen we geen identifiers. Er hoeft geen identifier onderdeel te zijn van de verzameling identiteitsgegevens bij een identiteit. "/>
+</archimate:Meaning>

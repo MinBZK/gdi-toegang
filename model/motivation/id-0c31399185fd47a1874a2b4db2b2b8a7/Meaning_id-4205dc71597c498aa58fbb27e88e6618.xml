@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="identiteitsgegeven"
+    id="id-4205dc71597c498aa58fbb27e88e6618"
+    documentation="Een gegeven dat een kenmerk van een identiteit representeert.">
+  <properties
+      key="Alternatieve term"
+      value="attribuut"/>
+  <properties
+      key="Toelichting"
+      value="Bij één identiteit hoort een verzameling  identiteitsgegevens."/>
+</archimate:Meaning>
