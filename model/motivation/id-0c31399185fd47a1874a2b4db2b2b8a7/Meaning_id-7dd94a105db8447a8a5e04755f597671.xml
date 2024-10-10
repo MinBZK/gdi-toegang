@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bevoegdheid"
+    id="id-7dd94a105db8447a8a5e04755f597671"
+    documentation="Het bezitten van toestemming om gebruik te maken van een resource.">
+  <properties
+      key="Alternatieve term"
+      value="autorisatie"/>
+  <properties
+      key="Toelichting"
+      value="Een bevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
+</archimate:Meaning>

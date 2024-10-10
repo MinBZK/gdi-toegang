@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="identificatiemiddel"
+    id="id-99ac832bcfb74dcdb56005bdf42637a4"
+    documentation="Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken en gebruikt wordt voor de authenticatie van entiteiten.">
+  <properties
+      key="Alternatieve term"
+      value="Authenticatiemiddel"/>
+</archimate:Meaning>

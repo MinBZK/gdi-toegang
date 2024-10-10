@@ -11,7 +11,7 @@
       value="2"/>
   <properties
       key="type"
-      value="overzicht"/>
+      value="properties"/>
   <source
       xsi:type="archimate:Representation"
       href="Representation_id-5290881708d14046854ed00cf901874e.xml#id-5290881708d14046854ed00cf901874e"/>

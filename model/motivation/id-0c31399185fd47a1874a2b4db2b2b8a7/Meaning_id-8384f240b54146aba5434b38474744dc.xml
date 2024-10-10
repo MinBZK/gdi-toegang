@@ -1,0 +1,12 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="autorisatieregel"
+    id="id-8384f240b54146aba5434b38474744dc"
+    documentation="Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot die resource.">
+  <properties
+      key="Alternatieve term"
+      value="policy"/>
+  <properties
+      key="Toelichting"
+      value="Een autorisatiebeslissing bepaalt of een identiteit toegang krijgt tot een resource."/>
+</archimate:Meaning>

@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="authenticatiefactor"
+    id="id-4651231a10104d6bb2f88a9f62bbc9ca"
+    documentation="Iets dat iemand heeft, weet of is en waarmee bewijs kan worden geleverd van de identiteit.">
+  <properties
+      key="Toelichting"
+      value="Bij een identificatiemiddel kunnen meerdere authenticatiefactoren horen."/>
+</archimate:Meaning>

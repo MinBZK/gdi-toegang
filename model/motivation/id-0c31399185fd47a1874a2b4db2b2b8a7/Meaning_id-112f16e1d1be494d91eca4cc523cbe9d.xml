@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="authenticatieverklaring"
+    id="id-112f16e1d1be494d91eca4cc523cbe9d"
+    documentation="Een verifeerbare verklaring over de uitkomst van een authenticatie.">
+  <properties
+      key="Alternatieve term"
+      value="token"/>
+</archimate:Meaning>
