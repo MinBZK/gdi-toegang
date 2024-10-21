@@ -37,7 +37,7 @@ Bijlagen:
 * Rollen: <a href="https://minbzk.github.io/gdi-toegang/content/views/rollen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/rollendetails.html">details</a>
 * Huidige voorzieningen: <a href="https://minbzk.github.io/gdi-toegang/?view=id-6b127e72ba554982a8ade48d06e2286c">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/huidige%20voorzieningendetails.html">details</a>
 * Standaarden: <a href="https://minbzk.github.io/gdi-toegang/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaardendetails.html">details</a>
-* Begrippen: <a href="https://www.noraonline.nl/wiki/Begrippen_IAM">overzicht</a>
+* Begrippen: <a href="https://minbzk.github.io/gdi-toegang/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/begrippendetails.html">details</a>
 * Relatie van architectuurprincipes met ADO en NORA: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-2ce199487e094f099863995e07a7e605.html">overzicht</a>
 
 Documenten:
