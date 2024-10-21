@@ -143,6 +143,23 @@
           xsi:type="archimate:WorkPackage"
           href="WorkPackage_id-8c6dd6da80894426a9b31dc0a78d3503.xml#id-8c6dd6da80894426a9b31dc0a78d3503"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-a175516dd3634a41b4dae8e114ecb8c7"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="240"
+          y="84"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:WorkPackage"
+          href="WorkPackage_id-1d2e7ff3e6c0407fabf7b321503c3df7.xml#id-1d2e7ff3e6c0407fabf7b321503c3df7"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-71518055a4194c55844b0ed040dacbe2.xml#id-71518055a4194c55844b0ed040dacbe2"/>
@@ -268,7 +285,7 @@
       </sourceConnections>
       <bounds
           x="12"
-          y="168"
+          y="108"
           width="217"
           height="49"/>
       <archimateElement
@@ -311,12 +328,46 @@
           value="2"/>
       <bounds
           x="12"
-          y="288"
+          y="228"
           width="217"
           height="49"/>
       <archimateElement
           xsi:type="archimate:WorkPackage"
           href="WorkPackage_id-4751ff0f92c04cec9018b13305d1f476.xml#id-4751ff0f92c04cec9018b13305d1f476"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-a7abf0b267b64637979f09be1e0c65a9"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="168"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:WorkPackage"
+          href="WorkPackage_id-aaece110abfd4dd19e66daa9338ce3a9.xml#id-aaece110abfd4dd19e66daa9338ce3a9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-3c281a797d83470b9d9b4399b1c8b241"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="288"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:WorkPackage"
+          href="WorkPackage_id-3acc4865ed1c41eba8b0d7025c1cfb93.xml#id-3acc4865ed1c41eba8b0d7025c1cfb93"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"

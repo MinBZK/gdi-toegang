@@ -2,4 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="rol"
     id="id-86eaea3a13414d5b9923238e2ae2d52d"
-    documentation="Een set van taken, bevoegdheden en verantwoordelijkheden die door een identiteit ingevuld kan worden."/>
+    documentation="Een set van taken, bevoegdheden en verantwoordelijkheden die door een identiteit ingevuld kan worden.">
+  <properties
+      key="Alternatieve term"
+      value="profiel"/>
+  <properties
+      key="Toelichting"
+      value="De voorkeursterm in de NORA begrippenlijst is “profiel”, maar dat is geen gangbare term in de context van toegang."/>
+</archimate:Meaning>

@@ -460,7 +460,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="156"
+          y="96"
           width="157"
           height="55"/>
       <archimateElement
@@ -478,7 +478,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="336"
+          y="276"
           width="157"
           height="55"/>
       <archimateElement
@@ -514,7 +514,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="216"
+          y="156"
           width="157"
           height="55"/>
       <archimateElement
@@ -532,7 +532,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="276"
+          y="216"
           width="157"
           height="55"/>
       <archimateElement
@@ -550,7 +550,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="396"
+          y="336"
           width="157"
           height="55"/>
       <archimateElement
@@ -1153,7 +1153,7 @@
           value="Inzage geven in vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
       <bounds
           x="12"
-          y="276"
+          y="156"
           width="157"
           height="55"/>
       <archimateElement
@@ -1174,7 +1174,7 @@
           value="Notificeren over vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
       <bounds
           x="12"
-          y="336"
+          y="216"
           width="157"
           height="55"/>
       <archimateElement
@@ -1210,7 +1210,7 @@
           value="2"/>
       <bounds
           x="12"
-          y="216"
+          y="96"
           width="157"
           height="55"/>
       <archimateElement
@@ -1230,7 +1230,7 @@
           value="Creëren vertegenwoordigings-&#xD;&#xA;bevoegdheidsverklaring"/>
       <bounds
           x="12"
-          y="396"
+          y="276"
           width="157"
           height="55"/>
       <archimateElement
