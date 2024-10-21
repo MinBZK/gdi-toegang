@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eenmalig inloggen"
+    id="id-1d2e7ff3e6c0407fabf7b321503c3df7"
+    documentation="Dienstverleners moeten ervoor zorgen dat het aantal keren dat gebruikers moeten inloggen wordt geminimaliseerd. Binnen hun eigen dienstverlening zou dat in principe mogelijk moeten zijn. Over dienstverleners heen zou dat met herbevestiging kunnen werken, wat onderdeel is van DigiD."/>

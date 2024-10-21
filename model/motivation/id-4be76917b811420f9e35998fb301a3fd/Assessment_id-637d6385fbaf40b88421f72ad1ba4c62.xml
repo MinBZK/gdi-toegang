@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Geen betrouwbaarheidsniveau bij DigiD machtigen"
+    id="id-637d6385fbaf40b88421f72ad1ba4c62"
+    documentation="DigiD machtigen weet niet of een gebruiker inlogt met een middel op laag, substantieel of hoog en legt dat dus ook niet vast. Hierdoor is het strikt genomen ook niet mogelijk om een vertegenwoordiger een hoger betrouwbaarheidsniveau dan laag te geven bij authenticatie. De keten is immers zo sterk als de zwakste schakel. Dit bied een sterke beperking van het inzetgebied van DigiD machtigen en levert in de praktijk beveiligingsrisico's op als dienstverleners zich dit niet beseffen."/>

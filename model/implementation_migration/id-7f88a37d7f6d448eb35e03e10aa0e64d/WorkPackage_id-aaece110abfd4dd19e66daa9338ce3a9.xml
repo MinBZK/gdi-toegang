@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Betrouwbaarheidsniveau vastleggen in DigiD machtigen"
+    id="id-aaece110abfd4dd19e66daa9338ce3a9"
+    documentation="Het is nodig om het betrouwbaarheidsniveau van de identiteit waarmee een machtiging is afgegeven wordt vastgelegd bij DigiD machtigen. Daarbij is het ook nodig om het betrouwbaarheidsniveau waarmee een machtiging eerder is vastgelegd op te kunnen hogen naar substantieel (en hoog). Dit heeft impact op bestaande dienstverleners en de impact hiervan moet worden bepaald en afgestemd."/>

@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="systeem"
     id="id-09ecddb7e64f4168bab93670f10d0c62"
-    documentation="Een applicatie of een apparaat."/>
+    documentation="Een applicatie of een apparaat.">
+  <properties
+      key="Toelichting"
+      value="In de NORA begrippenlijst wordt hier een hele algemene definitie van gegeven: “Een samenhangend en geïntegreerd geheel van componenten die elkaar wederzijds beïnvloeden”. In de context van toegang hebben we het echter specifiek over applicaties of apparaten.  "/>
+</archimate:Meaning>
