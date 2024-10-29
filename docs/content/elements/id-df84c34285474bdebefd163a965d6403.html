@@ -1,11 +1,11 @@
 <html class="frame"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><title>Streefbeeld</title><script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><link type="text/css" rel="stylesheet" href="../../css/model.css"><script type="text/javascript" src="../../js/frame2.js"></script></head><body><style>p,ul,ol {font-size: 14px;}h1 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 150%;font-weight:bold;}h2 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 120%;font-weight:bold;}h3 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 110%;font-weight:bold;}li {list-style: disc;}</style><div class="panel panel-default root-panel"><div class="panel-heading root-panel-heading"><b>Streefbeeld</b></div><div class="panel-body root-panel-body"><p>Dit hoofdstuk geeft een schets van de architectuur waar naar gestreefd wordt. Het beschrijft de onderdelen in dit streefbeeld en de wijze waarop deze zouden moeten samenwerken.</p>
 <h3>Schets</h3>
 <p>
-De volgende figuur geeft een schets van het streefbeeld. Daarbij is een abstractieniveau gezocht waarbij de verdeling van verantwoordelijkheden het best kan worden weergegeven. Hierdoor zijn de onderdelen van de figuur deels rollen en deels voorzieningen. Tussen de onderdelen zijn de belangrijkste gegevensstromen weergegeven. Alleen de belangrijkste onderdelen zijn opgenomen in het streefbeeld. Dat zijn de onderdelen waar de architectuur expliciet eisen aan stelt. Zo zegt de architectuur bijvoorbeeld niets over de eIDAS vertrouwensdiensten, omdat de eIDAS verordening deze al voldoende eisen aan stelt.
+De volgende figuur geeft een schets van het streefbeeld. Daarbij is een abstractieniveau gezocht waarbij de verdeling van verantwoordelijkheden het best kan worden weergegeven. Hierdoor zijn de onderdelen van de figuur deels rollen en deels voorzieningen. Tussen de onderdelen zijn de belangrijkste gegevensstromen weergegeven. Alleen de belangrijkste onderdelen zijn opgenomen in het streefbeeld. Dat zijn de onderdelen waar de architectuur expliciet eisen aan stelt. 
 </p>
 <p><center><img src="https://minbzk.github.io/gdi-toegang/images/streefbeeld.svg"></center></p>
 <p> 
-In de volgende paragrafen worden de verschillende onderdelen van het streefbeeld verder beschreven. Bij elk onderdeel worden eisen beschreven die worden gesteld. Sommige onderdelen zijn enkelvoudig aanwezig, van andere onderdelen kunnen meerdere instanties zijn. Dat is beschreven per onderdeel.
+In de volgende paragrafen worden de verschillende onderdelen van het streefbeeld verder beschreven. Bij elk onderdeel worden eisen beschreven die worden gesteld. Die eisen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige onderdelen zijn enkelvoudig aanwezig, van andere onderdelen kunnen meerdere instanties zijn. Dat is beschreven per onderdeel.
 </p>
 <h4>Aanbieder van identiteitsgegevens</h4>
 <p>
@@ -48,7 +48,8 @@ Een broker die het inlogproces orkestreert:
 <ul>
 <li>	biedt gebruikers een klantreis die voldoet aan de afspraken voor het inlogproces;</li>
 <li>maakt het standaard mogelijk om iemand te vertegenwoordigen bij het inloggen;</li>
-<li>ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen.</li>
+<li>ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen;</li>
+<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov.</li>
 </ul>
 </p>
 <h4>Dienstencatalogus</h4>
@@ -69,7 +70,9 @@ Een broker die het inlogproces orkestreert:
 <p>Een dienstverlener:
 <ul>
 <li>biedt diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken;</li>
+<li>bepaalt voor elke dienst een noodzakelijk betrouwbaarheidsniveau;</li>
 <li>eist geen hoger betrouwbaarheidsniveau dan wat nodig is voor het verkrijgen van toegang tot een dienst; </li>
+<li>	accepteert alle erkende publieke en private identificatiemidellen;</li>
 <li>registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toeganginfrastructuur;</li>
 <li>maakt duidelijk welke wettelijke grondslag en doelbinding ten grondslag liggen aan de attributen die worden gevraagd;</li>
 <li>vraagt niet meer attributen dan wat strikt noodzakelijk is voor het leveren van een dienst;</li>

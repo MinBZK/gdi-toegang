@@ -26,17 +26,11 @@
       <element xsi:type="archimate:BusinessObject" name="Autorisatiebeslissing" id="id-0e6a68545b2d470d841b82aa5e05d4a5">
         <documentation>Het resultaat van het evalueren van autorisatieregels.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" name="Horizontale machtiging" id="id-145f9d6a34d947bda142eefaaf08c5ed">
-        <documentation>Een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. </documentation>
-      </element>
-      <element xsi:type="archimate:BusinessObject" name="Verticale machtiging" id="id-19372d5882b8419692ad1594ab96eb7f">
-        <documentation>Een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen.</documentation>
-      </element>
-      <element xsi:type="archimate:BusinessObject" name="Vertegenwoordigingsbevoegdheid" id="id-19881848ccce47c9974cf7bc005393e8">
+      <element xsi:type="archimate:BusinessObject" name="vertegenwoordigingsbevoegdheid" id="id-19881848ccce47c9974cf7bc005393e8">
         <documentation>Een machtiging of wettelijke vertegenwoordiging.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Bevoegdheidsverklaring" id="id-1cb3ac18cb83432ebe33dacfbd3d2832">
-        <documentation>Een bewijs dat de geauthenticeerde identiteit een bepaalde bevoegdheid heeft.</documentation>
+        <documentation>Een verifieerbare verklaring dat een identiteit een bepaalde bevoegdheid heeft.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Wettelijke vertegenwoordiging" id="id-1e41484c18bb4fdba146f33bee3f1979">
         <documentation>Wettelijke of bij gerechtelijke uitspraak geregelde overdracht van rechten en plichten als gevolg van handelingsonbekwaamheid of handelingsonbevoegdheid, waarbij zowel de bevoegdheden als de verantwoordelijkheden van een belanghebbende worden overgedragen naar de vertegenwoordiger.</documentation>
@@ -54,40 +48,38 @@
         <documentation>Een object dat gedrag kan vertonen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Bevoegdheid" id="id-6ed7f3d944764c60a45fe6780a041a42">
-        <documentation>Het bezitten van toestemming om een handeling te mogen verrichten.</documentation>
+        <documentation>Het bezitten van toestemming om gebruik te maken van een resource.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Attribuutsoort" id="id-7417b19f5c21447d8bf281baf4315b20">
         <documentation>De definitie van een categorie van attributen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Autorisatieregel" id="id-7a15da44f51b45d0b7b2d1449ea8def3">
-        <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot een resource.</documentation>
+        <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot die resource.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Machtiging" id="id-906f182647604ffc90107fdb1c8d46de">
         <documentation>Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.</documentation>
+        <property key="Alternatieve term" value="Vrijwillige machtiging"/>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Identiteit" id="id-9e14841bf7a34845a4465fb9aa96cc53">
-        <documentation>een verzameling van kenmerkende eigenschappen van een entiteit binnen een domein.</documentation>
+        <documentation>Een verzameling van kenmerkende eigenschappen van een object.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Verklarende partij" id="id-9f8c3a76be074fb791acb27cd1335fbb">
         <documentation>Een organisatie die verifieerbare verklaringen uitgeeft.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Verifieerbare verklaring" id="id-a6805c3d0daa4690a04d2f2251c65cc0">
-        <documentation>Een verzameling van attributen, vergezeld van een bewijs dat deze afkomstig zijn van een specifieke verklarende partij.</documentation>
+        <documentation>Een verzameling van identiteitsgegevens, vergezeld van een bewijs dat deze afkomstig zijn van een specifieke verklarende partij.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Dienstverlener" id="id-c266e0540ad64714932a780fe9e74037">
-        <documentation>De partij die volgens afspraken diensten levert aan een klant.</documentation>
+        <documentation>Een entiteit die een dienst levert.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Dienst" id="id-d128055e2a98447ea02185273849dac9">
-        <documentation>Een handeling of geheel van handelingen die men als ondergeschikte ten behoeve van iemand verricht.</documentation>
+        <documentation>Een geheel van handelingen die een dienstverlener beschikbaar stelt.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessObject" name="Authenticatiefactor" id="id-d47b52c30ccc4794a9de3b781eb20811">
-        <documentation>Iets dat iemand heeft, weet of is en waarmee bewijs kan worden geleverd van de identiteit.</documentation>
-      </element>
-      <element xsi:type="archimate:BusinessObject" name="Attribuut" id="id-d766d65c0ea14ecc9e01f99938d0b61b">
-        <documentation>Een enkelvoudig of samengesteld informatie-element dat onderdeel is van een identiteit; de digitale representatie van een eigenschap van een entiteit. </documentation>
+      <element xsi:type="archimate:BusinessObject" name="Identiteitsgegeven" id="id-d766d65c0ea14ecc9e01f99938d0b61b">
+        <documentation>Een gegeven dat een kenmerk van een identiteit representeert.</documentation>
       </element>
       <element xsi:type="archimate:BusinessObject" name="Authenticatieverklaring" id="id-f51d4497b87b4751842effe518b903d5">
-        <documentation>Uitkomst van een authenticatie die is uitgevoerd door een onafhankelijke partij.</documentation>
+        <documentation>Een verifeerbare verklaring over de uitkomst van een authenticatie.</documentation>
       </element>
     </folder>
     <folder name="Teksten" id="id-3cd2cc8bd47a4442bb045fa63af162b2">
@@ -121,7 +113,7 @@
 &lt;tr>&lt;td>4.4&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
 &lt;tr>&lt;td>5&lt;/td>&lt;td>&lt;b>Doelarchitectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>5.1&lt;/td>&lt;td>Functies&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>5.2&lt;/td>&lt;td>Bedrijfsobjecten&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>5.2&lt;/td>&lt;td>Bedrijfsobjecten en begrippen&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>5.3&lt;/td>&lt;td>Rollen&lt;br>&#xD;
 &lt;tr>&lt;td>5.4&lt;/td>&lt;td>Huidige voorzieningen&lt;br>&#xD;
 &lt;tr>&lt;td>5.5&lt;/td>&lt;td>Standaarden&lt;br>&#xD;
@@ -196,12 +188,15 @@ Het gebruik van verifieerbare verklaringen in de context van SSI en als gevolg v
 &lt;p>Het is duidelijk dat wet- en regelgeving een belangrijke drijfveer is voor de doorontwikkeling van de nationale toegangsinfrastructuur. Er loopt al langere tijd een initiatief voor het inrichten van een nieuw toegangsstelsel om de Wdo te ondersteunen. Het integreert de huidige toegangsinfrastructuren (stelsels) voor burgers en bedrijven en zorgt voor de beschikbaarheid van identificatiemiddelen op hogere betrouwbaarheidsniveaus. Op basis van de eIDAS verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening. In de toekomst zullen er extra publieke en private identificatiemiddelen beschikbaar komen voor burgers en bedrijven. Als gevolg van de herziening van de eIDAS verordening zullen er ID-wallets komen, die als identificatiemiddel gebruikt kunnen worden. De politiek heeft ook aangegeven dat er een publiek (gratis) zakelijk identificatiemiddel beschikbaar zal worden gesteld (&lt;a href=&quot;https://zoek.officielebekendmakingen.nl/kst-35570-VII-16.html&quot;>motie van der Molen&lt;/a>). &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo zouden een aantal groepen die op dit moment niet overheidsbreed identificeerbaar zijn omdat ze niet in landelijke registraties staan (ook wel: restgroepen) beter ondersteund moeten worden. Daarnaast is het op dit moment ook niet mogelijk om mensen digitaal wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren, mentoren en mensen die ouderlijk gezag hebben. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Bij het inloggen moet dan ook standaard met vertegenwoordiging rekening worden gehouden. Gebruikers die inloggen hebben naast hun eigen bevoegdheden mogelijk ook bevoegdheden die horen bij de partijen die ze wettelijk vertegenwoordigen. &#xD;
+Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo zouden een aantal groepen die op dit moment niet overheidsbreed identificeerbaar zijn omdat ze niet in landelijke registraties staan (ook wel: restgroepen) beter ondersteund moeten worden. Daarnaast is het op dit moment ook niet mogelijk om mensen digitaal wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren, mentoren en mensen die ouderlijk gezag hebben. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Bij het inloggen moet dan ook standaard met machtigen en wettelijke vertegenwoordiging rekening worden gehouden. Gebruikers die inloggen hebben naast hun eigen bevoegdheden mogelijk ook bevoegdheden die horen bij de partijen die ze vertegenwoordigen. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel is afgestemd op Europese en wereldwijde afspraken en standaarden.  De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma, biedt waardevolle mogelijkheden voor toegang zoals het kunnen machtigen van partijen voor het geautomatiseerd uitwisselen van gegevens. Er is in de Europese datastrategie ook aandacht voor gegevensruimtes, waarvoor inmiddels ook een aantal afsprakenstelsels en voorzieningen beschikbaar zijn. Deze bieden ook oplossingen voor toegang tussen systemen, waarbij datasoevereiniteit het uitgangspunt is.  In de context daarvan ontstaat meer aandacht voor Policy Based Access Control, waarbij meer fijnmazig, contextueel en adaptief toegang kan worden verstrekt. Het is ook in bredere zin relevanter aan het worden, bijvoorbeeld om autorisatieregels los van applicaties te kunnen beheren. Het is ook een kernaspect van zero-trust architecturen en daarmee een maatregel om de beveiliging te verhogen. &lt;/p>&#xD;
 &lt;p>&#xD;
-De volgende figuur geeft een schets van de informatievoorziening in de gewenste situatie. De blokken met gestreepte omlijning zijn nieuw of vragen wijziging. Een beschrijving van de bestaande voorzieningen is opgenomen in de bijlagen (paragraaf 5.4). Er zal een entiteitenregister zijn waarin restgroepen worden vastgelegd en die het huidige Tijdelijke Register Restgroepen vervangt. Mogelijk kunnen er daarnaast nog specifieke registers nodig zijn voor restgroepen die te specifiek van aard zijn om in het restgroepen register vast te leggen. De DigiD en eHerkenning machtigingsregisters zullen worden herijkt, verrijkt en alle generieke vormen van machtiging ondersteunen. Machtigingen die te specifiek zijn om in deze generieke voorzieningen te worden vastgelegd zullen in een specifiek machtigingsregister worden vastgelegd. Er zou voor toegang een gestandaardiseerde lijst van diensten van overheden moeten zijn. Dit zou gebaseerd kunnen zijn op de Uniforme Productennamenlijst (UPL). Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontstaan. Naast de EDI wallet kunnen ook private middelen worden toegelaten. Er zal ook een publiek zakelijk identificatiemiddel zakelijk komen. Hiervoor wordt op dit moment een dienst ontwikkeld, die strikt genomen geen identificatiemiddel is maar een combinatie van DigiD en een verklaring uit het Handelsregister. Vanuit stelsel toegang is de intentie om de huidige bevoegdhedenverklaringsdienst te vervangen. Het zal zich doorontwikkelen tot een punt waar vertegenwoordigingsbevoegdheden integraal beschikbaar zijn. Het is aan dienstverleners zelf om te bepalen in hoeverre ze gebruik willen maken van routerings- en vertalingsdiensten. Uiteindelijk kunnen uit alle getekende lagen verifieerbare verklaringen komen die gebruikt kunnen worden door dienstverleners om te bepalen welke identiteit handelt, namens wie en met welke bevoegdheden.&#xD;
+De volgende figuur geeft een schets van de informatievoorziening in de gewenste situatie. De blokken met gestreepte omlijning zijn nieuw of vragen wijziging. Een beschrijving van de bestaande voorzieningen is opgenomen in de bijlagen (paragraaf 5.4). De toegangsinfrastructuur zal gebruik maken van een aantal generieke bronnen, maar zal zelf ook een aantal eigen bronregistraties bevatten. Er zal een entiteitenregister zijn waarin restgroepen worden vastgelegd en die het huidige Tijdelijke Register Restgroepen vervangt. Mogelijk kunnen er daarnaast nog specifieke registers nodig zijn voor restgroepen die te specifiek van aard zijn om in het restgroepen register vast te leggen. De DigiD en eHerkenning machtigingsregisters zullen alle generieke vormen van machtiging ondersteunen. Machtigingen die te specifiek zijn om in deze generieke voorzieningen te worden vastgelegd zullen in een specifiek machtigingsregister worden vastgelegd. Er zal voor toegang een gestandaardiseerde lijst van diensten van overheden zijn, gebaseerd op de Uniforme Productennamenlijst (UPL). &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontstaan. Naast de EDI wallet kunnen ook private middelen worden toegelaten. Er zal ook een publiek zakelijk identificatiemiddel zakelijk zijn. Hiervoor wordt op dit moment een dienst ontwikkeld, die strikt genomen geen identificatiemiddel is maar een combinatie van DigiD en een verklaring uit het Handelsregister. Vanuit stelsel toegang is de intentie om de huidige bevoegdhedenverklaringsdienst te vervangen. Het zal zich doorontwikkelen tot een punt waar bevoegdheden voor het wettelijk of vrijwillig vertegenwoordigen van burgers integraal beschikbaar zijn. Het is aan dienstverleners zelf om te bepalen in hoeverre ze gebruik willen maken van routerings- en vertalingsdiensten. Uiteindelijk kunnen uit alle getekende lagen verifieerbare verklaringen komen die gebruikt kunnen worden door dienstverleners om te bepalen welke identiteit handelt, namens wie en met welke bevoegdheden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/gewenste_situatie.png&quot;>&lt;/center>&lt;/p>&#xD;
 </documentation>
@@ -210,16 +205,16 @@ De volgende figuur geeft een schets van de informatievoorziening in de gewenste 
         <documentation>&lt;p>Dit hoofdstuk is bedoeld om de belangrijkste terminologie zoals gebruikt in dit document te verduidelijken. Een is een samenvatting en meer toegankelijke beschrijving van informatie die ook aanwezig is in de begrippenlijst, het functiemodel, het bedrijfsobjectmodel en de rollen. Voor een meer uitgebreide lijst van begrippen wordt dan ook naar de bijlage verwezen.&lt;/p>&#xD;
 &lt;h2>2.1 Algemeen&lt;/h2>&#xD;
 &lt;p>&#xD;
-Dit document gaat over het verstrekken van toegang aan mensen, organisaties en systemen. Dat noemen we in dit document &lt;b>entiteiten&lt;/b>. Deze entiteiten krijgen toegang met een bepaalde &lt;b>identiteit&lt;/b>. Dat zijn eigenschappen die kenmerkend zijn in de context van een specifiek domein van gebruik. Praktisch worden deze uitgewisseld in de vorm van &lt;b>identiteitsgegevens&lt;/b>. Dit soort gegevens over entiteiten heten in de context van toegang ook wel &lt;b>attributen&lt;/b>. Deze gegevens worden verkregen uit &lt;b>gezaghebbende bronnen&lt;/b>. Dat zijn bronnen waarvan kan worden verwacht dat deze nauwkeurige gegevens bieden.&#xD;
+Dit document gaat over het verstrekken van toegang aan mensen, organisaties, applicaties en apparaten. Dat noemen we in dit document &lt;b>entiteiten&lt;/b>. Een entiteit krijgt toegang met een bepaalde &lt;b>identiteit&lt;/b>. Dat is een verzameling van eigenschappen die kenmerkend zijn voor een entiteit. Entiteiten hebben in een specifieke gebruikscontext een specifieke identiteit (ook wel: deelidentiteit), waarin alleen de eigenschappen zitten die in die context relevant zijn. Praktisch worden eigenschappen uitgewisseld in de vorm van &lt;b>identiteitsgegevens&lt;/b>. Dit soort gegevens over entiteiten heten in de context van toegang ook wel &lt;b>attributen&lt;/b>. Deze gegevens worden verkregen uit &lt;b>gezaghebbende bronnen&lt;/b>. Dat zijn bronnen waarvan kan worden verwacht dat deze nauwkeurige gegevens bieden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Entiteiten krijgen toegang door gebruik te maken van een &lt;b>identiteitsmiddel&lt;/b> en dat ze gebruiken om zichzelf mee te authenticeren (en dat daarom ook wel een authenticatiemiddel wordt genoemd). Een dergelijke identiteitsmiddel vraagt een vorm van bewijs van een gebruiker, zoals een wachtwoord en geeft vervolgens een &lt;b>authenticatieverklaring&lt;/b> waarmee toegang kan worden gegeven. Een authenticatieverklaring is een specifiek soort &lt;b>verifieerbare verklaring&lt;/b>. Dat zijn verklaringen over identiteiten, die vergezeld van een bewijs waarmee hun validiteit, integriteit, authenticiteit en geldigheid kan worden geverifieerd. In de eIDAS verordening wordt hiervoor de term elektronische attestering van attributen gebruikt. Verifieerbare verklaringen kunnen gebruikt worden om allerlei gegevens uit te wisselen. In de context van het domein toegang zijn verklaringen belangrijk die iets zeggen over attributen die worden gebruikt om te bepalen of iemand toegang krijgt.&#xD;
+Entiteiten krijgen toegang door gebruik te maken van een &lt;b>identiteitsmiddel&lt;/b> en dat ze gebruiken om zichzelf mee te authenticeren (en dat daarom ook wel een authenticatiemiddel wordt genoemd). Een dergelijke identiteitsmiddel vraagt een vorm van bewijs van een gebruiker, zoals een wachtwoord en geeft vervolgens een &lt;b>authenticatieverklaring&lt;/b> waarmee toegang kan worden gegeven. Een authenticatieverklaring is een specifiek soort &lt;b>verifieerbare verklaring&lt;/b>. Dat zijn verklaringen over identiteiten, die vergezeld van een bewijs waarmee hun validiteit, integriteit, authenticiteit en geldigheid kan worden geverifieerd. Verifieerbare verklaringen kunnen gebruikt worden om allerlei gegevens uit te wisselen. In de context van het domein toegang zijn verklaringen belangrijk die iets zeggen over attributen die worden gebruikt om te bepalen of iemand toegang krijgt.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Toegang wordt verstrekt tot &lt;b>resources&lt;/b>: &lt;b>diensten&lt;/b> en de daaronder liggende gegevens en functionaliteiten. Welke diensten, gegevens en functionaliteiten toegang toe wordt verstrekt wordt bepaald door de &lt;b>bevoegdheden&lt;/b> (ook wel: autorisaties) die aan een identiteit zijn gekoppeld. Entiteiten kunnen ook bevoegdheden krijgen doordat ze van iemand anders een &lt;b>machtiging&lt;/b> hebben gekregen of omdat een door een &lt;b>wettelijke vertegenwoordiging&lt;/b> formeel namens iemand anders mogen optreden. Dit leidt tot vertegenwoordigingsbevoegdheden, die net als bevoegdheden in meer algemene zin worden gebruikt om te bepalen of een entiteit toegang kan krijgen. Merk op dat we de term “machtiging” in dit document alleen gebruiken voor vrijwillig verstrekte vertegenwoordigingsbevoegdheden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Het controleren van de bevoegdheden van een identiteit heet &lt;b>autoriseren&lt;/b>. Daarbij wordt gebruik gemaakt van &lt;b>autorisatieregels&lt;/b> die beschrijven waaraan moet worden voldaan om toegang te verkrijgen. Dit soort regels gebruiken de attributen uit verifieerbare verklaringen, maar kunnen ook naar contextuele eigenschappen kijken zoals de tijdstip, de plaats en het apparaat dat gebruikt wordt om toegang te krijgen. Uiteindelijk leidt dit tot een &lt;b>autorisatiebeslissing&lt;/b> die aangeeft of wel of geen toegang wordt verstrekt.&#xD;
+Het controleren van de bevoegdheden van een identiteit heet &lt;b>autoriseren&lt;/b>. Daarbij wordt gebruik gemaakt van &lt;b>autorisatieregels&lt;/b> die beschrijven waaraan moet worden voldaan om toegang te verkrijgen. Dit soort regels gebruiken de identiteitsgegevens uit verifieerbare verklaringen, maar kunnen ook naar contextuele eigenschappen kijken zoals de tijdstip, de plaats en het apparaat dat gebruikt wordt om toegang te krijgen. Uiteindelijk leidt dit tot een &lt;b>autorisatiebeslissing&lt;/b> die aangeeft of wel of geen toegang wordt verstrekt.&#xD;
 &lt;h2>2.2 Rollen&lt;/h2>&#xD;
 &lt;p>&#xD;
 Toegang gaat voor een belangrijk deel over het uitwisselen van verifieerbare verklaringen. Aan de ene kant zijn er partijen die verklaringen kunnen verstrekken. Dat noemen we dan ook &lt;b>verklarende partijen&lt;/b>. Denk daarbij aan &lt;b>authenticatiediensten&lt;/b> die kunnen verklaren of een entiteit succesvol is geauthenticeerd of aan &lt;b>machtigingsdiensten&lt;/b> die kunnen verklaren of een entiteit iemand anders mag vertegenwoordigen. Daarnaast zijn er aanbieders van gegevens uit gezaghebbende bronnen die deze beschikbaar kunnen stellen in de vorm van verifieerbare verklaren. Overigens kunnen entiteiten ook dingen over zichzelf verklaren, en zijn zij dus in potentie ook een verklarende partij. &#xD;
@@ -304,7 +299,7 @@ Op dit moment ondersteunen DigiD en eHerkenning nog geen OpenID Connect, maar de
 De Federated Service Connectivity (FSC) standaard is ontwikkeld in de context van het Common Ground programma voor gemeenten. Het standaardiseert de werking van tussenliggende componenten dat het gebruik van API’s vereenvoudigt. De standaard wordt inmiddels ondersteund door verschillende leveranciers en is gepositioneerd als een brede standaard die door alle overheidsorganisaties kan worden gebruikt. Het is voorgesteld als onderdeel van het Digikoppeling profiel voor REST API’s, maar kan in bredere zin worden gebruikt voor gegevensuitwisseling tussen systemen over HTTP.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door het creëren van contracten tussen partijen. De API's die worden aangeboden en de bijbehorende contracten worden geregistreerd in een directory, waarvan er meerdere kunnen zijn. In een directory kunnen API's worden gezocht en op basis daarvan kunnen ze worden aangeroepen door systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend componenten bij het zendende systeem (outway) en een tussenliggend component bij het ontvangende systeem (inway). In deze componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Daarnaast zijn er manager componenten die vooral verantwoordelijk zijn voor de contractafhandeling. Vanuit het perspectief van toegang is met name relevant dat het mogelijk is om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er certificaten aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is. FSC gaat zelf ook uit van het gebruik van certificaten, waarbij voor de communicatie over organisatiegrenzen gebruik moet worden gemaakt van PKIoverheid certificaten. Het gaat ervan uit dat er een eenduidig vertrouwensraamwerk van certificaten bestaat.&lt;/p>&#xD;
+De kern van de FSC standaard is dat het een vertrouwensnetwerk kan creëren tussen systemen door het creëren van contracten tussen partijen. De API's die worden aangeboden en de bijbehorende contracten worden geregistreerd in een directory, waarvan er meerdere kunnen zijn. In een directory kunnen API's worden gezocht en op basis daarvan kunnen ze worden aangeroepen door systemen, waarbij het resulterende berichtenverkeer verloopt over tussenliggende FSC componenten. Er is een tussenliggend componenten bij het zendende systeem (outway) en een tussenliggend component bij het ontvangende systeem (inway). In deze componenten kan ook extra functionaliteit worden aangeroepen, zoals het loggen van de berichten. Hiervoor wordt een transactie-identificatie gegenereerd, die bij elkaar behorende berichten kan correleren. Daarnaast zijn er manager componenten die vooral verantwoordelijk zijn voor de contractafhandeling. Vanuit het perspectief van toegang is met name relevant dat het mogelijk is om machtigingen tussen systemen toe te kennen. Hierdoor kan een systeem van een derde partij (bijvoorbeeld een SaaS leverancier) een machtiging ontvangen om namens een overheidsorganisatie gebruik te maken van een ander systeem. Dit voorkomt dat er certificaten en/of sleutels aan deze derde partij moeten worden verstrekt, wat vanuit beveiligingsperspectief onwenselijk is. FSC gaat zelf ook uit van het gebruik van certificaten, waarbij voor de communicatie over organisatiegrenzen gebruik moet worden gemaakt van PKIoverheid certificaten. Het gaat ervan uit dat er een eenduidig vertrouwensraamwerk van certificaten bestaat.&lt;/p>&#xD;
 &lt;p>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/fsc.svg&quot;>&lt;/p>&#xD;
 &lt;h3>Gegevensruimtes&lt;/h3>&#xD;
 &lt;p>&#xD;
@@ -356,7 +351,7 @@ Ook reeds bestaande (nationale) voorzieningen zijn van belang voor het stelsel. 
         <documentation>&lt;h2>1.1 Aanleiding&lt;/h2>&#xD;
 &lt;p>De overheid digitaliseert en dat roept vragen op over hoe overheidsorganisaties hun processen, gegevens en systemen moeten inrichten. De Generieke Digitale Infrastructuur (GDI) ondersteunt de digitale overheid met afspraken, standaarden en voorzieningen. In de governancestructuur van het Meerjarenprogramma Infrastructuur Digitale Overheid (MIDO) werken overheidsorganisaties samen aan de doorontwikkeling van de digitale overheid en de GDI. Er is vanuit deze governance een &lt;a href=&quot;https://pgdi.nl/files/view/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf&quot;>meerjarenvisie&lt;/a> en een &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> opgesteld die op hoofdlijnen beschrijft hoe de digitale overheid zich de komende jaren zou moeten doorontwikkelen. De Architectuur Digitale Overheid wordt nader uitgewerkt in vier domeinarchitecturen op het gebied van interactie, toegang, gegevensuitwisseling en infrastructuur.&lt;/p>&#xD;
 Domein toegang gaat over beveiligde toegang tot diensten, gegevens en functionaliteit. Deze gegevens en functionaliteit worden richting gebruikers ontsloten in de context van het domein interactie. Gegevensuitwisseling is het domein dat gaat over het uitwisselen van gegevens tussen de informatiesystemen van overheidsorganisaties en met andere organisaties. Domein infrastructuur ondersteunt de andere domeinen met infrastructurele voorzieningen, zowel software- als hardwarematig.&lt;/p>&#xD;
-&lt;p>Het domein toegang omvat alles dat nodig is om mensen, organisaties en systemen op een veilige en rechtmatige manier toegang te geven. Dit vraagt om het nemen van maatregelen, die voor een belangrijk deel ook relevant zijn in het kader van informatiebeveiliging. Domein toegang is grotendeels synoniem met wat ook wel &quot;identity &amp; access management&quot; wordt genoemd. Dit is iets dat zowel binnen organisaties als over organisatiegrenzen heen aandacht vraagt. In de context van de GDI gaat het over toegang tot digitale publieke diensten. Dit staat los van hoe organisaties hun eigen medewerkers toegang verlenen, alhoewel het ook gebruikt kan worden om medewerkers van overheidsorganisaties toegang te geven tot digitale publieke diensten van andere overheidsorganisaties.&lt;/p>&#xD;
+&lt;p>Het domein toegang omvat alles dat nodig is om mensen, organisaties, applicaties en apparaten op een veilige en rechtmatige manier toegang te geven. Dit vraagt om het nemen van maatregelen, die voor een belangrijk deel ook relevant zijn in het kader van informatiebeveiliging. Domein toegang is grotendeels synoniem met wat ook wel &quot;identity &amp; access management&quot; wordt genoemd. Dit is iets dat zowel binnen organisaties als over organisatiegrenzen heen aandacht vraagt. In de context van de GDI gaat het over toegang tot digitale publieke diensten. Dit staat los van hoe organisaties hun eigen medewerkers toegang verlenen, alhoewel het ook gebruikt kan worden om medewerkers van overheidsorganisaties toegang te geven tot digitale publieke diensten van andere overheidsorganisaties.&lt;/p>&#xD;
 &lt;p>De toegangsinfrastructuur is de verzameling van gemeenschappelijke afspraken, standaarden en voorzieningen die nodig zijn om toegang te faciliteren. Er zijn meerdere toegangsinfrastructuren, zoals het Afsprakenstelsel Elektronische Toegangsdiensten (behorende bij eHerkenning), het nieuwe stelsel toegang en het EDI-stelsel NL (dat tevens een infrastructuur voor gegevensuitwisseling is). Landelijke voorzieningen zoals DigiD en eHerkenning zijn belangrijke onderwerpen van gesprek, maar het toegangslandschap is tevens aan het veranderen. Zo zullen er in de toekomst ook private middelen worden toegelaten om toegang te verkrijgen tot overheidsdiensten. Daarnaast worden er in het kader van de herziene eIDAS verordening European Digital Identity Wallets geïntroduceerd die ook als identificatiemiddel kunnen worden ingezet. In meer algemene zin hebben ontwikkelingen zoals Self Sovereign Identity grote impact op hoe idealiter met toegang wordt omgegaan.&lt;/p>&#xD;
 &lt;h2>Dit document&lt;/h2>&#xD;
 &lt;p>Dit document beschrijft de domeinarchitectuur voor toegang, als onderdeel van de GDI. Het gaat vooral in op toegang tot publieke digitale diensten, alhoewel een deel van de principes en modellen ook gebruikt kunnen worden voor toegang binnen overheidsorganisaties. Het betreft de huidige en gewenste afspraken, standaarden en voorzieningen voor toegang in de GDI. Het document is opgesteld in een interbestuurlijke architectuurwerkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze werkgroep is ondersteund door bureau MIDO van het ministerie van BZK. Het document beschrijft relevant beleid, wet- &amp; regelgeving en ontwikkelingen, en vertaalt deze naar een visie en richting voor de inrichting van toegang tot digitale publieke diensten. De architectuur geeft richting aan ontwerpkeuzes die worden gemaakt bij het doorontwikkelen van de GDI of bij het aansluiten op de GDI. Het speelt een formele rol in de kaderstelling, toezicht en monitoring van programma’s en projecten die gefinancierd worden vanuit de MIDO governancestructuur.&lt;/p>&#xD;
@@ -430,14 +425,18 @@ In deze domeinarchitectuur hebben we functies benoemd die in het algemeen releva
       <element xsi:type="archimate:Representation" name="Gewenste situatie" id="id-e572700165f84f9783f1b3d0e3162a5c" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de gewenste situatie met betrekking tot toegang. Het start met een architectuurvisie die een overkoepelende beschrijving geeft van de gewenste situatie. Vervolgens worden architectuurprincipes beschreven die deze meer concreet maken.  Op basis hiervan worden veranderinitiatieven voorgesteld, die aangeven welke nieuwe afspraken, standaarden of voorzieningen of wijzigingen daarin wenselijk zijn. &lt;/p></documentation>
       </element>
-      <element xsi:type="archimate:Representation" name="Bedrijfsobjecten" id="id-ec079e908ff84941a103d1e0bc024faa" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+      <element xsi:type="archimate:Representation" name="Bedrijfsobjecten en begrippen" id="id-ec079e908ff84941a103d1e0bc024faa" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>&#xD;
 Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastgelegd. Een model van bedrijfsobjecten is te zien als een hoog niveau gegevensmodel. Het geeft een overzicht van de belangrijkste begrippen die leiden tot gegevens die organisaties moeten vastleggen. Het is ook bruikbaar als checklist om verantwoordelijkheden van organisaties, mensen, processen en informatiesystemen toe te wijzen. In de domeinarchitectuur zijn ze gekoppeld aan de functies en standaarden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 &lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/bedrijfsobjectenmodel.svg&quot;>&#xD;
-&lt;/p></documentation>
-        <property key="elementType" value="business-object"/>
+&lt;/p>&#xD;
+&lt;p>&#xD;
+De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de bredere lijst van begrippen zoals gebruikt in dit document. Deze begrippenlijst is waar mogelijk afgestemd met de algemene NORA begrippenlijst, die nog in ontwikkeling is. Soms is ervoor gekozen een iets meer specifieke betekenis te hanteren om de rol van het begrip in de context van toegang duidelijker te maken.&#xD;
+&lt;/p>&#xD;
+</documentation>
+        <property key="elementType" value="meaning"/>
       </element>
       <element xsi:type="archimate:Representation" name="Knelpunten" id="id-ec62f6503d6e4ebbbc1e8f7da58048ac" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten en dat ze niet voor alle overheidsorganisaties in gelijke mate geldt of van toepassing is. Een deel van deze knelpunten heeft betrekking op de toegangsinfrastructuur, maar nadere analyse is nodig of dat daadwerkelijk het geval is. De volgende figuur plot de knelpunten op de meest passende functie in het bedrijfsfunctiemodel.&lt;/p>&#xD;
@@ -447,35 +446,41 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
       </element>
     </folder>
     <folder name="Rollen" id="id-5bc281f1925b46e7841f1d216e37a79e">
+      <element xsi:type="archimate:BusinessRole" name="Bronhouder" id="id-0bd68e9ba1e244aeaa10f633eb302c0e">
+        <documentation>Een rol die verantwoordelijk is voor het inwinnen, beheren en het verbeteren van de kwaliteit van gegevens.</documentation>
+      </element>
       <element xsi:type="archimate:BusinessRole" name="Vertrouwende partij" id="id-34ae37bf77034fd991d6de0c776dc643">
-        <documentation>Een partij die vertrouwt op verifieerbare verklaringen van een verklarende partij.</documentation>
+        <documentation>Een rol die vertrouwt op verifieerbare verklaringen van een verklarende partij.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Dienstverlener" id="id-43ff9aa71f9d42f6b923887431c90bfc">
-        <documentation>De partij die volgens afspraken diensten levert aan een klant.</documentation>
+        <documentation>Een rol die volgens afspraken diensten levert aan een klant.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Verlener van vertrouwensdiensten" id="id-64294694c5484d4693e67a05359d6a12">
         <documentation>Een natuurlijke persoon of niet-natuurlijke persoon die een of meer vertrouwensdiensten verleent als een gekwalificeerde of als een niet-gekwalificeerde verlener van vertrouwensdiensten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Machtigingsdienst" id="id-716262df16c04d2eab3f45cf6f107af5">
-        <documentation>Een partij die ten behoeve van toegang tot dienstverlening een elektronische verklaring afgeeft waaruit blijkt dat een natuurlijke persoon, onderneming of rechtspersoon optreedt namens een andere natuurlijke persoon of niet-natuurlijke persoon.</documentation>
+        <documentation>Een rol die ten behoeve van toegang tot dienstverlening een elektronische verklaring afgeeft waaruit blijkt dat een natuurlijke persoon, onderneming of rechtspersoon optreedt namens een andere natuurlijke persoon of niet-natuurlijke persoon.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessRole" name="Gezaghebbende bron" id="id-79b3bab1e77f4d378bcae1c53739e71c">
-        <documentation>Een partij die gegevens beheert over identiteiten en formeel is erkend als bron hiervoor binnen de toegangsinfrastructuur.</documentation>
+      <element xsi:type="archimate:BusinessRole" name="Aanbieder" id="id-7704adc1f92441d0b314f1d05a716b04">
+        <documentation>Een rol die verantwoordelijk is voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Verklarende partij" id="id-8d2556e7d06240a9b05e03cff58fe696">
-        <documentation>Een partij die verklaart over de identiteit, bevoegdheden andere voor toegang relevante eigenschappen van een entiteit.</documentation>
+        <documentation>Een rol die verklaart over de identiteit, bevoegdheden andere voor toegang relevante eigenschappen van een entiteit.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Authenticatiedienst" id="id-9675a33d1c104ef4960db2634f60d9ac">
-        <documentation>Een partij die op basis van een identificatiemiddel een authenticatieverklaring afgeeft (bron: Wet digitale overheid).</documentation>
+        <documentation>Een rol die op basis van een identificatiemiddel een authenticatieverklaring afgeeft (bron: Wet digitale overheid).</documentation>
         <property key="Toelichting" value="Een authenticatieverklaring is wat in de domeinarchitectuur een identiteitsverklaring heet."/>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Middelenuitgever" id="id-9eb924f84a7e479d95a5ea99984a277e">
-        <documentation>Een partij die zorg draagt voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</documentation>
+        <documentation>Een rol die zorg draagt voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" name="Regisseur toegangsinfrastructuur" id="id-b388d510985b436b936e59ead4860ec5">
+        <documentation>Een rol die verantwoordelijk is voor het inrichten en besturen van een toegangsinfrastructuur.</documentation>
       </element>
     </folder>
     <folder name="Functies" id="id-9cf74dde1b46462398225462cac533db">
       <element xsi:type="archimate:BusinessFunction" name="Beheren identiteiten" id="id-079caeb56ec2440cad449a57741e2837">
-        <documentation>Het vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van (gegevens over) identiteiten.</documentation>
+        <documentation>Het vastleggen, verstrekken, wijzigen en (logisch) verwijderen van (gegevens over) identiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Elektronisch ondertekenen" id="id-10a0a2782ace495b9bf996fc485bd031">
         <documentation>Het creëren, verifiëren en valideren van een bewijs dat bepaalde gegevens afkomstig zijn van een specifiek natuurlijk persoon.</documentation>
@@ -484,7 +489,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het vertalen van een identiteit van en naar een andere identiteit, zoals van een landspecifieke identifier naar een eIDAS Unique Identifier en vice versa.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Inzage geven in vertegenwoordigingsbevoegdheden" id="id-1e240322fbec495f9895c2f7cb22f552">
-        <documentation>Het ontsluiten van informatie over wettelijke vertegenwoordigingen, inclusief het gebruik.</documentation>
+        <documentation>Het ontsluiten van informatie over machtigingen en wettelijke vertegenwoordigingen, inclusief het gebruik.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Evalueren en bijstellen toegangsinfrastructuur" id="id-20a30272b6464b84ae24506f19a31d74">
         <documentation>Het bepalen in welke mate een toegangsinfrastructuur werkt en voldoende waarde oplevert en het aanpassen van afspraken, standaarden en voorzieningen aan nieuwe inzichten.</documentation>
@@ -511,16 +516,16 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren gegevens over diensten" id="id-4a798952a1ce4c129980061149b0a6c9">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over diensten.</documentation>
+        <documentation>Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over diensten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren autorisatieregels" id="id-4c5fe57ec2ab485c9cb8bdef64d7d4d9">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities identiteiten toegang hebben tot welke resources.</documentation>
+        <documentation>Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over autorisatieregels, die aangeven onder welke condities identiteiten toegang hebben tot welke resources.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Ontsleutelen identiteit" id="id-4ea810315dc14f11b115cef01338dca5">
         <documentation>Het terugvertalen van een versleutelde identiteit of pseudoniem van een identiteit naar een bruikbare vorm.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Creëren vertegenwoordigingsbevoegdheidsverklaring" id="id-522b1467667646ccb017e52455f0af44">
-        <documentation>Het creëren van een bewijs dat een identiteit behorende bij een bepaalde vertegenwoordiger een bepaalde vertegenwoordigingsbevoegdheid heeft.</documentation>
+        <documentation>Het creëren en intrekken van een bewijs dat een identiteit behorende bij een bepaalde vertegenwoordiger een bepaalde vertegenwoordigingsbevoegdheid heeft.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Uitloggen" id="id-52aa4858c63d46faa3fa7c4b92716e53">
         <documentation>Het ervoor zorgen dat gecreëerde authenticatieverklaringen niet meer gebruikt kunnen worden om toegang te krijgen tot resources.</documentation>
@@ -556,13 +561,13 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het creëren, wijzigen en verwijderen van relaties tussen identiteiten en rollen en het beheren van de daarvoor noodzakelijke gegevens over rollen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren machtigingen" id="id-7f4acb54b45f4d77bbec4f16ea8d52a8">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over machtigingen.</documentation>
+        <documentation>Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over machtigingen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Creëren bevoegdheidsverklaring" id="id-8216e6a7ee624f5d9772f879da9fc81c">
-        <documentation>Het creëren van een bewijs dat een identiteit een bepaalde bevoegdheid heeft.</documentation>
+        <documentation>Het creëren en intrekken van een bewijs dat een identiteit een bepaalde bevoegdheid heeft.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren eigen bevoegdheden" id="id-83db5a52a2914474a04a7152fa9d12e0">
-        <documentation>Het toekennen en intrekken van bevoegdheden (anders dan vertegenwoordigingsbevoegdheden) en het administreren van de daarvoor benodigde gegevens.</documentation>
+        <documentation>Het toekennen en intrekken van bevoegdheden (anders dan vertegenwoordigingsbevoegdheden) en de daarvoor randvoorwaardelijke activiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Controleren conflicterende bevoegdheden" id="id-85f7280d5d3649bfb0b8cb60dada3eca">
         <documentation>Het controleren van en rapporteren over bevoegdheden van identiteiten die met elkaar kunnen conflicteren.</documentation>
@@ -570,7 +575,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
       <element xsi:type="archimate:BusinessFunction" name="Vastleggen identiteitsgegevens" id="id-87d20390ad9b43eea623acd8193d0428">
         <documentation>Het vastleggen van gegevens die horen bij een identiteit.</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="Orkestreren inlogproces" id="id-87efb23dd060485693d5d93dc857dbf4">
+      <element xsi:type="archimate:BusinessFunction" name="Orkestreren inloggen" id="id-87efb23dd060485693d5d93dc857dbf4">
         <documentation>Het ontvangen en routeren van een verzoek tot authenticatie naar de benodigde verklarende partijen en het verstrekken van een authenticatieverklaring.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Auditing, monitoring en fraudebestrijding" id="id-89cae607ed114aa9b258920260a4499c">
@@ -595,7 +600,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het ontsluiten van informatie over bevoegdheden, inclusief de koppeling met diensten, dienstverleners, resources en identiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren wettelijke vertegenwoordiging" id="id-aacf5c4d48204c23922b68521c7999b2">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over wettelijke vertegenwoordigingsbevoegdheden.</documentation>
+        <documentation>Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over wettelijke vertegenwoordigingsbevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Autoriseren" id="id-b750feb34d9c40588f9443c33145b59e">
         <documentation>Het op basis van autorisatieregels bepalen of een identiteit beschikt over de benodigde bevoegdheden voor toegang tot resources.</documentation>
@@ -607,13 +612,13 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het bepalen of de daadwerkelijk in systemen aanwezige autorisaties overeenkomen met de gewenste autorisaties en het inzichtelijk maken van de verschillen.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren vertegenwoordigingsbevoegdheden" id="id-c5998016874b4a3f9a80d62f09af3f33">
-        <documentation>Het toekennen en intrekken van vertegenwoordigingsbevoegheden en het administreren van de daarvoor benodigde gegevens.</documentation>
+        <documentation>Het toekennen en intrekken van vertegenwoordigingsbevoegheden en de daarvoor randvoorwaardelijke activiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Aansluiten partij" id="id-c89765631a7f4df58760c8fc9d6acea7">
         <documentation>Het toelaten van een dienstverlener, verklarende partij of gebruikersorganisatie tot de toegangsinfrastructuurm, het toetsen of deze kan voldoen aan de bijbehorende afspraken en het intrekken van een eerdere toelating.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren resources" id="id-cd9ce254e1e445b58e7c6e44f9d7084e">
-        <documentation>Het creëren, vastleggen, beschikbaarstellen, wijzigen en (logisch) verwijderen van gegevens over gegevens en functionaliteiten waartoe toegang kan worden verstrekt als resource.</documentation>
+        <documentation>Het creëren, vastleggen, verstrekken, wijzigen en (logisch) verwijderen van gegevens over gegevens en functionaliteiten waartoe toegang kan worden verstrekt als resource.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Wijzigen en beëindigen identificatiemiddel" id="id-d763571d80f54f8892724832e27eed3e">
         <documentation>Het wijzigen van gegevens behorend bij een identificatiemiddel, inclusief het blokkeren en het beëindigen van de geldigheid van een identificatiemiddel.</documentation>
@@ -628,13 +633,13 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Het creëren, wijzigen en verwijderen van relaties van identiteiten of rollen naar bevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Informeren over vertegenwoordigingsbevoegdheden" id="id-f5ed40da3592429082e7f978de22be46">
-        <documentation>Het actief attenderen van personen over hun vertegenwoordigingsbevoegdheden of wijzigingen daarin.</documentation>
+        <documentation>Het actief attenderen van belanghebbenden en vertegenwoordigers over (wijzigingen in) vertegenwoordigingsbevoegdheden, en het gebruik van vertegenwoordigingsbevoegdheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Creëren pseudoniem" id="id-fa4be6b66e8d4eb68c946f1f59cad1b1">
         <documentation>Het creëren en vastleggen van een pseudoniem die een natuurlijk persoon identificeert.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Beheren identificatiemiddelen" id="id-fe587c1bae3c453285eccb764194ced3">
-        <documentation>Het verstrekken en intrekken van identificatiemiddelen en het administreren van de daarvoor benodigde gegevens.</documentation>
+        <documentation>Het verstrekken en intrekken van identificatiemiddelen en de daarvoor randvoorwaardelijke activiteiten.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="Verstrekken identiteitsgegevens" id="id-ffeb84e839934d419c4ca4ee9aa6f136">
         <documentation>Het beschikbaar stellen van identiteitsgegevens.</documentation>
@@ -820,6 +825,106 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
   </folder>
   <folder name="Technology &amp; Physical" id="id-711ae3fdde524c9e8ef2de0fd83c1210" type="technology"/>
   <folder name="Motivation" id="id-7b596cfefc5f4aa8bbc0200e6532363b" type="motivation">
+    <folder name="Begrippen" id="id-0c31399185fd47a1874a2b4db2b2b8a7">
+      <element xsi:type="archimate:Meaning" name="identifier" id="id-023d2d82ff1043048397e6953e44ee11">
+        <documentation>Een identiteitsgegeven die een entiteit uniek identificeert.</documentation>
+        <property key="Toelichting" value="Er kunnen ook andere gegevens die gezamenlijk gebruikt kunnen worden om een entiteit te identificeren. Dit noemen we geen identifiers. Er hoeft geen identifier onderdeel te zijn van de verzameling identiteitsgegevens bij een identiteit. "/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="systeem" id="id-09ecddb7e64f4168bab93670f10d0c62">
+        <documentation>Een applicatie of een apparaat.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="authenticatieverklaring" id="id-112f16e1d1be494d91eca4cc523cbe9d">
+        <documentation>Een verifeerbare verklaring over de uitkomst van een authenticatie.</documentation>
+        <property key="Alternatieve term" value="token"/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="attribuutsoort" id="id-1b1682a9c790429cb1d9249c8937309c">
+        <documentation>De definitie van een categorie van attributen.</documentation>
+        <property key="Alternatieve term" value="attribuut"/>
+        <property key="Toelichting" value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in Attribuutsoort naam."/>
+        <property key="Heeft bron" value="MIM 1.2"/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="bron" id="id-2907d87dc7dc43ce9a574e9bf64d8f5a">
+        <documentation>Een registratie die is aangewezen als de plaats waarin gegevens worden beheerd.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="verifieerbare verklaring" id="id-2921659765024c06b709103b4b7103ac">
+        <documentation>Een verzameling van identiteitsgegevens, vergezeld van een bewijs dat deze afkomstig zijn van een specifieke verklarende partij.</documentation>
+        <property key="Toelichting" value="Met een verifieerbare verklaring kan de validiteit, integriteit, authenticiteit en geldigheid van identiteitsgegevens worden gecontroleerd. "/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="gegeven" id="id-2ef6fa9f9a484655b172ec089ca3ba10">
+        <documentation>Een vastgelegde waarneming of bewering over een eigenschap van een object.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="wettelijke vertegenwoordiging" id="id-2fc3d5017ff045428ee685d1ff9f4568">
+        <documentation>Wettelijke of bij gerechtelijke uitspraak geregelde overdracht van rechten en plichten als gevolg van handelingsonbekwaamheid of handelingsonbevoegdheid, waarbij zowel de bevoegdheden als de verantwoordelijkheden van een belanghebbende worden overgedragen naar de vertegenwoordiger.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="identiteit" id="id-340553e9700148fc8ee5e5fdc4ec6666">
+        <documentation>Een verzameling van kenmerkende eigenschappen van een object.</documentation>
+        <property key="Toelichting" value="In de context van toegang gaat het vooral over entiteiten. Entiteiten kunnem meerdere identiteiten hebben. In een specifieke gebruikscontext zijn er een beperkt aantal kenmerken relevant. Deze deelverzameling wordt ook wel een deelidentiteit genoemd. "/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="identiteitsgegeven" id="id-4205dc71597c498aa58fbb27e88e6618">
+        <documentation>Een gegeven dat een kenmerk van een identiteit representeert.</documentation>
+        <property key="Alternatieve term" value="attribuut"/>
+        <property key="Toelichting" value="Bij één identiteit hoort een verzameling  identiteitsgegevens."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="resource" id="id-46189bffc4ee4415866e4aed587e4525">
+        <documentation>Een dienst, gegevens of functionaliteit waartoe een identiteit toegang zou kunnen krijgen.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="authenticatiefactor" id="id-4651231a10104d6bb2f88a9f62bbc9ca">
+        <documentation>Iets dat iemand heeft, weet of is en waarmee bewijs kan worden geleverd van de identiteit.</documentation>
+        <property key="Toelichting" value="Bij een identificatiemiddel kunnen meerdere authenticatiefactoren horen."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="verklarende partij" id="id-57bdc898a64f416ca94a4bf48ded34e7">
+        <documentation>Een organisatie die verifieerbare verklaringen uitgeeft.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="autorisatiebeslissing" id="id-6f26ddf570614f77870d13c91e0976cc">
+        <documentation>Het resultaat van het evalueren van autorisatieregels.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="gezaghebbende bron" id="id-734bc7c31fd94a9eb0853433a87d5d8a">
+        <documentation>Een bron waarin identiteitsgegevens worden beheerd en formeel is erkend als bron hiervoor binnen de toegangsinfrastructuur.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="bevoegdheid" id="id-7dd94a105db8447a8a5e04755f597671">
+        <documentation>Het bezitten van toestemming om gebruik te maken van een resource.</documentation>
+        <property key="Alternatieve term" value="autorisatie"/>
+        <property key="Toelichting" value="Een bevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="autorisatieregel" id="id-8384f240b54146aba5434b38474744dc">
+        <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot die resource.</documentation>
+        <property key="Alternatieve term" value="policy"/>
+        <property key="Toelichting" value="Een autorisatiebeslissing bepaalt of een identiteit toegang krijgt tot een resource."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="rol" id="id-86eaea3a13414d5b9923238e2ae2d52d">
+        <documentation>Een set van taken, bevoegdheden en verantwoordelijkheden die door een identiteit ingevuld kan worden.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="machtiging" id="id-94486e8b519c43299e62c0a3e7ffd6bd">
+        <documentation>Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.</documentation>
+        <property key="Toelichting" value="Een wettelijke vertegenwoordiging is conform deze definitie dus geen machtiging. Er wordt ook wel onderscheid gemaakt tussen verticale machtingen en horizontale machtigingen. Een verticale machtiging  is een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen. Een horizontale machtiging is een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. "/>
+        <property key="Alternatieve term" value="vrijwillige machtiging"/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="betrouwbaarheidsniveau" id="id-9876bf23c0454b23a0d6ba038f463ebe">
+        <documentation>De mate van zekerheid waarmee identiteitsgegevens, identificatiemiddelen en/of bevoegdheden zijn vastgesteld.</documentation>
+        <property key="Toelichting" value="In de Regeling betrouwbaarheidsniveaus wordt onderscheid gemaakt tussen de betrouwbaarheidsniveaus laag, substantieel en hoog."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="identificatiemiddel" id="id-99ac832bcfb74dcdb56005bdf42637a4">
+        <documentation>Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken en gebruikt wordt voor de authenticatie van entiteiten.</documentation>
+        <property key="Alternatieve term" value="Authenticatiemiddel"/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="entiteit" id="id-af549567dc354a888dff1cf13dad4fea">
+        <documentation>Een object dat gedrag kan vertonen.</documentation>
+        <property key="Toelichting" value="In de context van toegang zijn dit mensen, organisaties, applicaties of apparaten."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="vertegenwoordigingsbevoegdheid" id="id-c37ef2d778434c5f83d948d53ca66075">
+        <documentation>Een machtiging of wettelijke vertegenwoordiging.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="bevoegdheidsverklaring" id="id-de18697e51b44852831f19f3bd025ffe">
+        <documentation>Een verifieerbare verklaring dat een identiteit een bepaalde bevoegdheid heeft.</documentation>
+      </element>
+      <element xsi:type="archimate:Meaning" name="dienst" id="id-e09b6a33eae94c08b432697238b8b807">
+        <documentation>Een geheel van handelingen die een dienstverlener beschikbaar stelt.</documentation>
+        <property key="Toelichting" value="Een dienst ontsluit gegevens en functionaliteit."/>
+      </element>
+      <element xsi:type="archimate:Meaning" name="dienstverlener" id="id-f49b61ac86ad4852b01c7ef0e8e3d258">
+        <documentation>Een entiteit die een dienst levert.</documentation>
+      </element>
+    </folder>
     <folder name="Beleid" id="id-20393f7b71804bb5abc176f62092307d">
       <element xsi:type="archimate:Driver" name="Werkagenda Waardengedreven Digitaliseren" id="id-381c214867254a289d1b1d06c91697b9" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
         <documentation>Als we willen dat digitale technologie vóór onze samenleving blijft werken, als we kansen willen benutten en risico’s willen mitigeren, dan moet digitalisering waardengedreven en mensgericht zijn vormgegeven en moeten we als samenleving, bedrijfsleven en overheid samen optrekken. Het kabinet Rutte-IV heeft hier werk van gemaakt, onder meer door een eerste coördinerend bewindspersoon voor Digitalisering aan te stellen die met haar collega-bewindspersonen deze waardengedreven digitalisering verder vormgeeft. Op 4 november 2022 is de Werkagenda Waardengedreven Digitaliseren aan de Tweede Kamer aangeboden. De Werkagenda is een uitwerking van elementen uit de brief Hoofdlijnen Beleid Digitalisering met concrete doelen en acties. Hij omvat 5 sporen: meedoen, vertrouwen en regie in de digitale samenleving, een goede digitale overheid en het versterken van de digitale samenleving in het Caribisch deel van het Koninkrijk.</documentation>
@@ -1093,6 +1198,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="Implicaties" value="4. De toegangsinfrastructuur voldoet aan de eisen van de Digitoegankelijk standaard (die verplicht is via de Wdo), zodat ook mensen met een functiebeperking er zoveel mogelijk gebruik van kunnen maken."/>
         <property key="Implicaties" value="5. Er wordt in de toegangsinfrastructuur expliciet rekening gehouden met minder digitaal vaardigen."/>
         <property key="Implicaties" value="6. Diensten zijn ook via niet-digitale kanalen beschikbaar, inclusief bijbehorende toegangsvoorzieningen."/>
+        <property key="Implicaties" value="7. Mensen en organisaties hebben het recht om zich te laten vertegenwoordigen (conform Awb)."/>
       </element>
       <element xsi:type="archimate:Principle" name="6. Toegang is beperkt tot wat noodzakelijk is" id="id-b304c80b029c48498a32d80d14337ea3">
         <documentation>Het beperken van toegang tot alleen de diensten en gegevens die strikt noodzakelijk zijn voor het uitvoeren van de activiteiten van een entiteit verhoogt de veiligheid en is een kernaspect van zero-trust. Het aanvalsoppervlak wordt geminimaliseerd, de potentiële schade bij een beveiligingsbreuk wordt beperkt en schade door onbedoelde acties wordt zoveel mogelijk voorkomen. Het vereenvoudigt ook het beheer van bevoegdheden en voorkomt een wildgroei van bevoegdheden. Het stimuleert ook het veiligheidsbewustzijn.</documentation>
@@ -1100,7 +1206,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="Implicaties" value="2. Machtigingen worden beperkt tot bevoegdheden die precies voldoende zijn voor een vertegenwoordiger."/>
         <property key="Implicaties" value="3. Entiteiten krijgen op basis van hun verifieerbare verklaringen alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaring."/>
         <property key="Implicaties" value="4. Organisaties hebben processen waarbij de rollen en (vertegenwoordigings)bevoegheden van medewerkers regelmatig worden geevalueerd en aangepast, zoals bij doorstroom en uitstroom."/>
-        <property key="Implicaties" value="5. Organisaties geven hun certificaten niet af aan derde partijen, die daar vervolgens bevoegdheden mee krijgen die ze kunnen misbruiken, maar verstrekken hen alleen een machtiging."/>
+        <property key="Implicaties" value="5. Organisaties geven hun certificaten em/of sleutels niet af aan derde partijen, die daar vervolgens bevoegdheden mee krijgen die ze kunnen misbruiken, maar verstrekken hen alleen een machtiging."/>
       </element>
       <element xsi:type="archimate:Principle" name="8. Systemen in de keten autoriseren op basis van de identiteit en de bevoegdheden van de gebruiker die de interactie start" id="id-b4d6dca9b88d4f5da8a409f492280af1">
         <documentation>Door autorisatie van gebruikers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke  identiteit (bijvoorbeeld een systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Tegelijkertijd kunnen overheidsorganisaties een wettelijke basis hebben om gegevens van gebruikers te delen, zonder dat de gebruiker daar expliciet toestemming voor geeft. In die gevallen is het propageren van de identiteit van de gebruiker niet relevant.</documentation>
@@ -1124,8 +1230,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <property key="Implicaties" value="2. Gebruikers hoeven maar één keer in te loggen (mogelijk wel met herbevestiging) voor een bepaald betrouwbaarheidsniveau om gebruik te maken van verschillende diensten die voldoende hebben aan dit niveau."/>
         <property key="Implicaties" value="3. Dienstverleners eisen geen hoger betrouwbaarheidsniveau dan wat nodig is voor het verkrijgen van toegang tot een dienst (ondanks dat dit wettelijk is toegestaan)."/>
         <property key="Implicaties" value="4. Er wordt een aanvullende (step-up) authenticatie uitgevoerd als een gebruiker een handeling wil uitvoeren die een hoger betrouwbaarheidsniveau vraagt dan waarmee deze initieel is ingelogd."/>
-        <property key="Implicaties" value="5. Het is mogelijk om iemand per direct digitaal te machtigen, zonder daarvoor allerlei procedures te doorlopen."/>
-        <property key="Implicaties" value="6. Het is een standaard optie om iemand te vertegenwoordigen bij het inloggen, en dit is transparant voor een dienstverlener."/>
+        <property key="Implicaties" value="5. Het is een standaard optie om iemand te vertegenwoordigen bij het inloggen, en dit is transparant voor een dienstverlener."/>
       </element>
     </folder>
     <folder name="Wet- en regelgeving" id="id-af9a3bb654c64f48b3a918d97fda0497">
@@ -1157,10 +1262,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <documentation>Er moet worden onderzocht of de dienstencatalogi van DigiD en eHerkening kunnen worden vereenvoudigd door gebruik te maken van een meer gestandaardiseerde lijst van diensten en wellicht gecombineerd kunnen worden in één overheidsdienstencatalogus. Het gebruik van de Uniforme Productnamenlijst ligt daarbij voor de hand. Daarbij zou tevens moeten worden onderzocht in hoeverre een gelaagdheid van diensten mogelijk is om meer fijnmazig machtigen en autoriseren te ondersteunen.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Migratie van SAML naar OpenID Connect" id="id-4838d4ce599148b3bd430711a296b3d4">
-        <documentation>De positie van de SAML standaard zoals ondersteund door DigiD en eHerkenning is in de markt inmiddels ingenomen door OpenID Connect. Het OBDO heeft besloten dat er een transitie naar OpenID Connect (OpenID.NLGov) ingezet moet worden. Aanbieders van identity diensten zullen daarom komende periode zowel OpenID.Gov als SAML moeten ondersteunen. Dienstverleners kunnen dan kiezen of voor het OpenID.NLGov of SAML koppelvlak. Uiteindelijk zal de SAML standaard moeten worden uitgefaseerd.</documentation>
+        <documentation>De positie van de SAML standaard zoals ondersteund door DigiD en eHerkenning is in de markt inmiddels ingenomen door OpenID Connect. Het OBDO heeft besloten dat er een transitie naar OpenID Connect (OpenID.NLGov) ingezet moet worden. Aanbieders van identity diensten zullen daarom komende periode zowel OpenID.Gov als SAML moeten ondersteunen. Uiteindelijk zal de SAML standaard moeten worden uitgefaseerd.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Onderzoek toekomstige inrichting van machtigen" id="id-61dc33c76ec94288b37d10018c2e8caa">
-        <documentation>Het is wenselijk om te onderzoeken hoe met machtigen in de toekomst zou moeten worden omgegaan. Er zijn allerlei behoeften aan meer uitgebreide en fijnmaziger vormen van machtigen die nu niet worden ondersteund, zoals het machtigen voor een zaak of een informatie-object. Is het wenselijk om eHerkenning en/of DigiD machtigen uit te breiden met alle veelvoorkomende vormen van machtigen? Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen wat centraal en wat decentraal vastgelegd zou moeten worden. Er moet expliciet rekening worden gehouden met de relatie met de EDI-wallet. Deze zal ook vertegenwoordiging en machtigen moeten ondersteunen voor burgers die andere burgers of bedrijven vertegenwoordigen.</documentation>
+        <documentation>Het is wenselijk om te onderzoeken hoe met machtigen in de toekomst zou moeten worden omgegaan. Er zijn allerlei behoeften aan meer uitgebreide en fijnmaziger vormen van machtigen die nu niet worden ondersteund, zoals het machtigen voor een zaak of een informatie-object. Is het wenselijk om eHerkenning en/of DigiD machtigen uit te breiden met alle veelvoorkomende vormen van machtigen? Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen wat centraal en wat decentraal vastgelegd zou moeten worden. Gebruikers willen hun machtigingen op één plaats kunnen inzien en genotificeerd worden bij wijzigingen. Er moet expliciet rekening worden gehouden met de relatie met de EDI-wallet. Deze zal ook vertegenwoordiging en machtigen moeten ondersteunen voor burgers die andere burgers of bedrijven vertegenwoordigen.</documentation>
       </element>
       <element xsi:type="archimate:WorkPackage" name="Inrichten centraal onderzoek en meldpunt fraude voor eHerkenning" id="id-68e94bf51db2445295e270b9d86e825e">
         <documentation>Het is wenselijk om één centraal onderzoek- en meldpunt fraude voor eHerkenning in te richten om een goed kwalitatief en kwantitatief beeld te creëren.</documentation>
@@ -1194,13 +1299,10 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:AccessRelationship" id="id-2f20e54a1de8402dac146628ec3620fa" source="id-83db5a52a2914474a04a7152fa9d12e0" target="id-7a15da44f51b45d0b7b2d1449ea8def3"/>
     <element xsi:type="archimate:AccessRelationship" id="id-35586cbad43d4488855a6933e636ba75" source="id-83db5a52a2914474a04a7152fa9d12e0" target="id-6ed7f3d944764c60a45fe6780a041a42"/>
     <element xsi:type="archimate:AccessRelationship" id="id-379144268a894ce09139a2eec3479419" source="id-83db5a52a2914474a04a7152fa9d12e0" target="id-4d32e4b7ef9c4a85acfa2c562ad218d2"/>
-    <element xsi:type="archimate:AccessRelationship" id="id-3a799bd701e84cc493106b6148de2256" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-145f9d6a34d947bda142eefaaf08c5ed"/>
     <element xsi:type="archimate:AccessRelationship" id="id-3e24201fed5b46e79f575fdffd2840ba" source="id-71518055a4194c55844b0ed040dacbe2" target="id-a6805c3d0daa4690a04d2f2251c65cc0"/>
     <element xsi:type="archimate:AccessRelationship" id="id-4f18921b124243188e48c51f93da33ec" source="id-079caeb56ec2440cad449a57741e2837" target="id-9e14841bf7a34845a4465fb9aa96cc53"/>
-    <element xsi:type="archimate:AccessRelationship" id="id-5978e14b3d0549e18db614f777c6780d" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-19372d5882b8419692ad1594ab96eb7f"/>
     <element xsi:type="archimate:AccessRelationship" id="id-76269fec3fef4d1e9a76caa25cb8a588" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-906f182647604ffc90107fdb1c8d46de"/>
     <element xsi:type="archimate:AccessRelationship" id="id-8957c5ed61d64db183a7c10a47802c1d" source="id-b750feb34d9c40588f9443c33145b59e" target="id-0e6a68545b2d470d841b82aa5e05d4a5"/>
-    <element xsi:type="archimate:AccessRelationship" id="id-9fae12ee0a604c949b543a000fd6324b" source="id-fe587c1bae3c453285eccb764194ced3" target="id-d47b52c30ccc4794a9de3b781eb20811"/>
     <element xsi:type="archimate:AccessRelationship" id="id-a533c57b04114d43a39c2285f94ea9a3" source="id-256454e9e1434b858b4214c65b1cb3ab" target="id-9f8c3a76be074fb791acb27cd1335fbb"/>
     <element xsi:type="archimate:AccessRelationship" id="id-b1c18d6edd1a41b6b5e2d7b449c18a24" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-19881848ccce47c9974cf7bc005393e8"/>
     <element xsi:type="archimate:AccessRelationship" id="id-b33aa9da8f914116bb21bc6f7ebdb9a9" source="id-83db5a52a2914474a04a7152fa9d12e0" target="id-7417b19f5c21447d8bf281baf4315b20"/>
@@ -1210,24 +1312,31 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:AggregationRelationship" id="id-04de149692a04fc7b8895aa998afd097" source="id-7baff9f888d54af79625aef3f4e124ce" target="id-17927bda4f344c499bfe987a64ee99b4"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-4c986fceb4ee4496804b28482b510d69" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-d766d65c0ea14ecc9e01f99938d0b61b"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-5645e85d7dbb4a48883dad42c7ca42ce" source="id-7baff9f888d54af79625aef3f4e124ce" target="id-aa33f5b4b12c4874a986941b75acbae2"/>
-    <element xsi:type="archimate:AggregationRelationship" id="id-652bd36d1ef040069b64e11475afa0d9" source="id-4145089decc343f1b8a35540703eb738" target="id-d47b52c30ccc4794a9de3b781eb20811"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-894bcb5440e945c5b047962c5170f864" source="id-c266e0540ad64714932a780fe9e74037" target="id-d128055e2a98447ea02185273849dac9"/>
     <element xsi:type="archimate:AggregationRelationship" id="id-a8d503440abc4c0fa47e3b6f487d4fa5" source="id-7baff9f888d54af79625aef3f4e124ce" target="id-6fda41fd347642f1851530495831c74b"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-0716d566b2b245878fea6642c08f4138" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-4ea810315dc14f11b115cef01338dca5"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-0c10a7dd9a2f4561a46f287e60dcbef1" source="id-b388d510985b436b936e59ead4860ec5" target="id-20a30272b6464b84ae24506f19a31d74"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-0e9ae6acbd06400a9038bc91cf18354c" source="id-b388d510985b436b936e59ead4860ec5" target="id-96ff8c5d886f4013b003c77ee8907044"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-15d7a7776fe74c17bf699b17cffea031" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-b750feb34d9c40588f9443c33145b59e"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-19aa874952fb42f19562f3dcd7c1318a" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-3603b196da15461c9a8ea2f2f1d41fb6" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-c5998016874b4a3f9a80d62f09af3f33"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-3b4cdd789dc04e9da08f1ef259923734" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-d99f5610425448249b780d45cd71af5f"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-3fb5ddf549d545a88ffb7e612c7c0a5f" source="id-b388d510985b436b936e59ead4860ec5" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-5a43cb4189f241ad939577ff285839ce" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-8216e6a7ee624f5d9772f879da9fc81c"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-68341a9f0b974b6d9bd5905653065e3f" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-89cae607ed114aa9b258920260a4499c"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-70d195986f384db1a943de0a7fdf2475" source="id-9eb924f84a7e479d95a5ea99984a277e" target="id-fe587c1bae3c453285eccb764194ced3"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-8d9cfe71da7f4fc4a7ec88f5701ad354" source="id-b388d510985b436b936e59ead4860ec5" target="id-55c7b8c858794843993b05b87c34fe1d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-925a3c4f42f7491ca4657354e15cd417" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-94573268a2504a3bba4b01c3c0a03664" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-920f614c629f45e196645b1744dc91b6"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a75ec0311bcc4586b9a4a9cc8954bd35" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-83db5a52a2914474a04a7152fa9d12e0"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-b202e2ead5f641808c878c6fe6046b61" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-52aa4858c63d46faa3fa7c4b92716e53"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c3860ae5c94145eb8c807025d3ed2f6b" source="id-64294694c5484d4693e67a05359d6a12" target="id-715ea15b4b9146498e9e88e3cee41494"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-c3b3ad88333740b19b0b649b5002c599" source="id-b388d510985b436b936e59ead4860ec5" target="id-4a798952a1ce4c129980061149b0a6c9"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c6c705a0851e4322be73a91125e2880a" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-6542c5c440084cb8a856e2c30ecad892"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-cdc65d818e8f42549e93d79e8981788b" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-6297e4b66d844a9fb8c054238841b313"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-d906db388d854ef3a63213844cd030cc" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-121061d0dfc74da48a428a108e57b9d2"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-e545af769d55487c8febea197fdda5aa" source="id-79b3bab1e77f4d378bcae1c53739e71c" target="id-079caeb56ec2440cad449a57741e2837"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-e545af769d55487c8febea197fdda5aa" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-ffeb84e839934d419c4ca4ee9aa6f136"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-f059e4afd8554d2d840e09511769c425" source="id-b388d510985b436b936e59ead4860ec5" target="id-5bfb606ab33b47a2967d91a3e1f9fa36"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-fa2abf1853f7481abd581552f402241b" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-9fbbb392461f46a0b24c5cdc58a01ee8"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0ca9f166c73f481fb33c0cf1199054b1" source="id-1cb3ac18cb83432ebe33dacfbd3d2832" target="id-48d09a140e6140c5a0d848e8275c2590"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-12ec446a188b40a2a099016b2e3c9ed8" source="id-6ed7f3d944764c60a45fe6780a041a42" target="id-680a6d400c1c400d8126bb99497132ba"/>
@@ -1377,7 +1486,6 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
-    <element xsi:type="archimate:AssociationRelationship" id="id-c1935c1c38934058a53a75766a4b0947" source="id-d47b52c30ccc4794a9de3b781eb20811" target="id-205a788ad148484dbbf562d894a8ef1a"/>
     <element xsi:type="archimate:AssociationRelationship" name="wordt vastgelegd in" id="id-c1d376140f8f4c0e848a501929674b39" source="id-4d32e4b7ef9c4a85acfa2c562ad218d2" target="id-7417b19f5c21447d8bf281baf4315b20" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c2315582b9394b90a94d9ac98f6fa2d7" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-f9da9684596a40cd91f4a8ec2cf0d73c"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.5" id="id-c4f11611cc614ba5b9dc5d93c320ea20" source="id-5290881708d14046854ed00cf901874e" target="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
@@ -1418,7 +1526,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:AssociationRelationship" name="5.2" id="id-f93e114a5fb24da288f3673c2947dce7" source="id-5290881708d14046854ed00cf901874e" target="id-ec079e908ff84941a103d1e0bc024faa">
       <property key="volgnummer" value="17"/>
       <property key="niveau" value="2"/>
-      <property key="type" value="overzicht"/>
+      <property key="type" value="properties"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-fda11692bc624d9cafba4a5c3a1531ab" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-a7f43379e5574a35aafc28219ec22422"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fdb4e93214924522ad9c7005c72a5be3" source="id-71518055a4194c55844b0ed040dacbe2" target="id-379259c7ae384725a8f3f47867cb88a7"/>
@@ -1689,18 +1797,15 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <element xsi:type="archimate:ServingRelationship" id="id-fb720949b60a4e0585cebb7f26b53740" source="id-c0f8a154c5394a8d8a4883905b6bf0d1" target="id-3be2a0b7c4e74b64a89ab048535de88d">
       <documentation>alleen voor eIDAS uitgaand</documentation>
     </element>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-4851f79415cb41f1855c7d72f053b786" source="id-79b3bab1e77f4d378bcae1c53739e71c" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-6f07d7d2c14f43e981c75fa732747f0c" source="id-145f9d6a34d947bda142eefaaf08c5ed" target="id-906f182647604ffc90107fdb1c8d46de"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-4851f79415cb41f1855c7d72f053b786" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-8438805240c14be194a84e3c5e35fde7" source="id-19881848ccce47c9974cf7bc005393e8" target="id-6ed7f3d944764c60a45fe6780a041a42"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-9295c6a9238a4f4dab134feb5e3971d5" source="id-1cb3ac18cb83432ebe33dacfbd3d2832" target="id-a6805c3d0daa4690a04d2f2251c65cc0"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-a03a9aef1cf744ca86d73bb8319389e1" source="id-906f182647604ffc90107fdb1c8d46de" target="id-19881848ccce47c9974cf7bc005393e8"/>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-a57f89bfa8354148a9eac106874787bc" source="id-f51d4497b87b4751842effe518b903d5" target="id-d47b52c30ccc4794a9de3b781eb20811"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-a60676cf36344c7d9ba602054322bbab" source="id-1e41484c18bb4fdba146f33bee3f1979" target="id-19881848ccce47c9974cf7bc005393e8"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-a78df8eae04c423898fe432205da7d82" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-34ae37bf77034fd991d6de0c776dc643"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-b73a84bafdeb464182124bc87f30652f" source="id-d128055e2a98447ea02185273849dac9" target="id-276320a6bad14e10a39ac2bcfcd13178"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-b8e7f50fe1db4f589690fe8a898f7f25" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-c5d1883a035f40eab74e9b53ab3ec66d" source="id-64294694c5484d4693e67a05359d6a12" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-e757b928f60e417ca5b502d23c2c57eb" source="id-19372d5882b8419692ad1594ab96eb7f" target="id-906f182647604ffc90107fdb1c8d46de"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-ed80f8cf6cb8463cbbf6375cda827f3e" source="id-f51d4497b87b4751842effe518b903d5" target="id-a6805c3d0daa4690a04d2f2251c65cc0"/>
   </folder>
   <folder name="Views" id="id-69c46f923b47425d8baae04e076ba7b0" type="diagrams">
@@ -2616,27 +2721,16 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <bendpoint startX="-192" startY="657" endX="-192" endY="57"/>
             <bendpoint startY="657" endY="57"/>
           </sourceConnection>
-          <sourceConnection xsi:type="archimate:Connection" id="id-d7ca2d01570241feba13e668b2a14962" source="id-85c2837f1fe747499268ba9b618b3372" target="id-021daeb7a57141789ef15d885f5e93f2" archimateRelationship="id-652bd36d1ef040069b64e11475afa0d9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1e182f46af044515a82113b9dedc2733" source="id-85c2837f1fe747499268ba9b618b3372" target="id-474a750b0eab4bce9fdaa06eb70e745e" archimateRelationship="id-b0901035e976434e9c9134b698fa7fff"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e7e897de43c948bf9b784dfebd0e60bc" source="id-85c2837f1fe747499268ba9b618b3372" target="id-2327ee7248244f0bb0b65e98bab9cdb7" archimateRelationship="id-34eb7f0fc6be464e80ca03b3f6348988">
             <bendpoint startX="-24" startY="-147" endX="216" endY="-3"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-45350c76e3f0488fa66d370e0fa47565" targetConnections="id-bb96c6d23db648a2bf9bbdeb8f7f1b3b id-26ab697b057642e3802fe399a345cf67 id-804ea430ff304451b116514d6dc870ac" fillColor="#ffffff" textPosition="1" archimateElement="id-906f182647604ffc90107fdb1c8d46de">
+        <child xsi:type="archimate:DiagramObject" id="id-45350c76e3f0488fa66d370e0fa47565" targetConnections="id-804ea430ff304451b116514d6dc870ac" fillColor="#ffffff" textPosition="1" archimateElement="id-906f182647604ffc90107fdb1c8d46de">
           <bounds x="1078" y="34" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-eff9a39312804eeda472df76884dd7f1" source="id-45350c76e3f0488fa66d370e0fa47565" target="id-90f4046b04a54b89b72d98bcf753161b" archimateRelationship="id-a03a9aef1cf744ca86d73bb8319389e1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d52db4ca64da4422991e26cfdca9770b" source="id-45350c76e3f0488fa66d370e0fa47565" target="id-6135bfaedc074b7c9094820a25c25737" archimateRelationship="id-c54522f26f9544e7bfbb59e972e5e7d5"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-24fc44ef0772405498b0b426f5b7b299" fillColor="#ffffff" textPosition="1" archimateElement="id-145f9d6a34d947bda142eefaaf08c5ed">
-          <bounds x="1078" y="190" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-bb96c6d23db648a2bf9bbdeb8f7f1b3b" source="id-24fc44ef0772405498b0b426f5b7b299" target="id-45350c76e3f0488fa66d370e0fa47565" archimateRelationship="id-6f07d7d2c14f43e981c75fa732747f0c"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-20828cf5e3a145cea20712bf400c1d65" fillColor="#ffffff" textPosition="1" archimateElement="id-19372d5882b8419692ad1594ab96eb7f">
-          <bounds x="1318" y="34" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-26ab697b057642e3802fe399a345cf67" source="id-20828cf5e3a145cea20712bf400c1d65" target="id-45350c76e3f0488fa66d370e0fa47565" archimateRelationship="id-e757b928f60e417ca5b502d23c2c57eb"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-478c02c688644f29abf881947da47681" targetConnections="id-58898f95e612417b81077018601e829d" fillColor="#ffffff" textPosition="1" archimateElement="id-1e41484c18bb4fdba146f33bee3f1979">
           <bounds x="586" y="34" width="120" height="55"/>
@@ -2652,10 +2746,6 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <bounds x="106" y="634" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-90aa2e6fd66849228a05a2d6706487ae" source="id-ac05d09b50e040258fa639d9c4909f56" target="id-0f57a373a2c844879634ff89e69e739c" archimateRelationship="id-ed80f8cf6cb8463cbbf6375cda827f3e"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-9b4d2033f7584630bed0a2c57d2d2651" source="id-ac05d09b50e040258fa639d9c4909f56" target="id-021daeb7a57141789ef15d885f5e93f2" archimateRelationship="id-a57f89bfa8354148a9eac106874787bc">
-            <bendpoint startX="-168" startY="9" endX="-168" endY="456"/>
-            <bendpoint startX="-168" startY="-447" endX="-168"/>
-          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-31f75c64289f496bafa1c123501760f2" source="id-ac05d09b50e040258fa639d9c4909f56" target="id-75a7ba28f656417bbfcaf5e485342e64" archimateRelationship="id-3fc15bba5e0642b6b3709509c0f4c50b"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-db19bf41300c469b978db54511980c07" source="id-ac05d09b50e040258fa639d9c4909f56" target="id-2327ee7248244f0bb0b65e98bab9cdb7" archimateRelationship="id-8990f91df1c940f99f1271f3e2cd6635">
             <bendpoint startX="122" startY="11" endX="-118" endY="455"/>
@@ -2725,11 +2815,6 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-36018d5033d6449fbc79482bbd59fd15" source="id-fd26769ca591413caca0f3f0369a94d8" target="id-0f57a373a2c844879634ff89e69e739c" archimateRelationship="id-9cc9645523d64e6c95b1a77ad512de24"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-021daeb7a57141789ef15d885f5e93f2" targetConnections="id-d7ca2d01570241feba13e668b2a14962 id-9b4d2033f7584630bed0a2c57d2d2651" fillColor="#ffffff" textPosition="1" archimateElement="id-d47b52c30ccc4794a9de3b781eb20811">
-          <bounds x="106" y="187" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-7c7e4f06d99041d8a3ef4d333f1b8139" source="id-021daeb7a57141789ef15d885f5e93f2" target="id-474a750b0eab4bce9fdaa06eb70e745e" archimateRelationship="id-c1935c1c38934058a53a75766a4b0947"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-caa0dfa757044da583e4fa4af118ce72" targetConnections="id-99a7cb7342b3409482c839e5ac135da0 id-b63c1f93b3b34000be36dc0b8feb11ac" archimateElement="id-3c7bfb3e7cc040a789d4021a3cba1548">
           <bounds x="1904" y="113" width="120" height="55"/>
         </child>
@@ -2748,7 +2833,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
         <child xsi:type="archimate:DiagramObject" id="id-a39133c2ef5d42bb857673ac6f8b97ec" targetConnections="id-6657043db6df41fb971f73c4065ae0c0 id-965275dd714d482fb5fe6c22601ec439" archimateElement="id-a7f43379e5574a35aafc28219ec22422">
           <bounds x="1604" y="513" width="120" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-474a750b0eab4bce9fdaa06eb70e745e" targetConnections="id-7c7e4f06d99041d8a3ef4d333f1b8139 id-1e182f46af044515a82113b9dedc2733" archimateElement="id-205a788ad148484dbbf562d894a8ef1a">
+        <child xsi:type="archimate:DiagramObject" id="id-474a750b0eab4bce9fdaa06eb70e745e" targetConnections="id-1e182f46af044515a82113b9dedc2733" archimateElement="id-205a788ad148484dbbf562d894a8ef1a">
           <bounds x="1604" y="36" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-67bbebc45196455fbcdd340e3876d404" targetConnections="id-632a995460ab41a1bbf20e76e01ae10d id-573af339c7da4910849125334bc4b746" archimateElement="id-775ef59e4c5d4a9aa558a4f133714c46">
@@ -2937,7 +3022,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     <folder name="Referentie-architectuur" id="id-b5963dab370f41879dc444ad90d62798">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Rollen en verantwoordelijkheden" id="id-95ac19da61da4880ae11cd3bd2a82ff2">
         <child xsi:type="archimate:DiagramObject" id="id-799e5278cab741728f31f0df35845135" targetConnections="id-d6acd1dc77024542a7dc002e04b9f976" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
-          <bounds x="815" y="312" width="181" height="529"/>
+          <bounds x="864" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a19afa0819b14dd883450dc98ff5e2d3" source="id-799e5278cab741728f31f0df35845135" target="id-1b1c911a578941a3a68e9f160977e603" archimateRelationship="id-d9fa97ef0863450492971b1b7c01fe86"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3924f750c97644849771aeba47dfdd6a" source="id-799e5278cab741728f31f0df35845135" target="id-b046585a0abc4056950229a5f36d2ed4" archimateRelationship="id-67bd3ee72dde466f85f1d6a8fd8c7f00"/>
@@ -2966,12 +3051,12 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-58c6b2a00dfd49b0ba74e8297650685b" targetConnections="id-c3e7c03ffcff4275bd63aead6c808ec7" fillColor="#ffffff" textPosition="1" archimateElement="id-d763571d80f54f8892724832e27eed3e">
-            <bounds x="12" y="396" width="157" height="55"/>
+            <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-03032fa3a35a46ed8cfb4a491923a3fb" archimateElement="id-71518055a4194c55844b0ed040dacbe2">
-          <bounds x="623" y="852" width="372" height="288"/>
+          <bounds x="672" y="792" width="372" height="288"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ddafb2ceb5f74642b1ce1971441d0962" source="id-03032fa3a35a46ed8cfb4a491923a3fb" target="id-16d8f10457f04e65ba3728d491664873" archimateRelationship="id-93e24acc372d4443891d6d4b8ae57621"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-08cd1c8611b649568c75164242a22f55" source="id-03032fa3a35a46ed8cfb4a491923a3fb" target="id-fe517c4549ea465ba0ac62da0d5ce6a6" archimateRelationship="id-3d964f6d01104f3f86d739988eb935b3"/>
@@ -2989,32 +3074,28 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9e67af7d242f492ba828a49e2a912957" targetConnections="id-f3c4dd14e9f942ac93070c48b7782c99 id-ec124e62c3f9475bbfb89c12ca79e03a" fillColor="#ffffff" textPosition="1" archimateElement="id-52aa4858c63d46faa3fa7c4b92716e53">
-            <bounds x="204" y="216" width="157" height="55"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-7bfd91fb59204824baa84363f9ee076d" targetConnections="id-0a096eea8d914d7bb49f5706fd685bb7 id-cda4a6ac2b514de49c3d4d3d001b65f8" fillColor="#ffffff" textPosition="1" archimateElement="id-6542c5c440084cb8a856e2c30ecad892">
             <bounds x="204" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-fec4ab34ac8947db8c9ef1e0e20d0b1b" targetConnections="id-6ff59cac809443a1b7fc2c5158c76a8d id-3ba7c2e0e3af42c48e2a4072bc12536e" fillColor="#ffffff" textPosition="1" archimateElement="id-121061d0dfc74da48a428a108e57b9d2">
+          <child xsi:type="archimate:DiagramObject" id="id-7bfd91fb59204824baa84363f9ee076d" targetConnections="id-0a096eea8d914d7bb49f5706fd685bb7 id-cda4a6ac2b514de49c3d4d3d001b65f8" fillColor="#ffffff" textPosition="1" archimateElement="id-6542c5c440084cb8a856e2c30ecad892">
             <bounds x="204" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-edb6177b86b84d79a4dfdafd5f20233c" targetConnections="id-be945404248e4e26be2d9c46b9af29b1 id-963944477ec94ae19f71456991cfecba" fillColor="#ffffff" textPosition="1" archimateElement="id-4ea810315dc14f11b115cef01338dca5">
+          <child xsi:type="archimate:DiagramObject" id="id-fec4ab34ac8947db8c9ef1e0e20d0b1b" targetConnections="id-6ff59cac809443a1b7fc2c5158c76a8d id-3ba7c2e0e3af42c48e2a4072bc12536e" fillColor="#ffffff" textPosition="1" archimateElement="id-121061d0dfc74da48a428a108e57b9d2">
             <bounds x="204" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-16d8f10457f04e65ba3728d491664873" targetConnections="id-ddafb2ceb5f74642b1ce1971441d0962 id-daa59038a0334287bf7bb80995bcef6e" fillColor="#ffffff" textPosition="1" archimateElement="id-6297e4b66d844a9fb8c054238841b313">
+          <child xsi:type="archimate:DiagramObject" id="id-edb6177b86b84d79a4dfdafd5f20233c" targetConnections="id-be945404248e4e26be2d9c46b9af29b1 id-963944477ec94ae19f71456991cfecba" fillColor="#ffffff" textPosition="1" archimateElement="id-4ea810315dc14f11b115cef01338dca5">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-8ae10ca95ffc43efb2d44664812e054f" targetConnections="id-4874c0557bff4d599d901ba42615e659" fillColor="#ffffff" textPosition="1" archimateElement="id-8216e6a7ee624f5d9772f879da9fc81c">
+          <child xsi:type="archimate:DiagramObject" id="id-16d8f10457f04e65ba3728d491664873" targetConnections="id-ddafb2ceb5f74642b1ce1971441d0962 id-daa59038a0334287bf7bb80995bcef6e" fillColor="#ffffff" textPosition="1" archimateElement="id-6297e4b66d844a9fb8c054238841b313">
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-bf5782a1a2a1450cac11e1cd6855d776" targetConnections="id-d0fd0c89e014438abc2abe2e07f89c74" archimateElement="id-83db5a52a2914474a04a7152fa9d12e0">
-          <bounds x="1007" y="312" width="181" height="529"/>
+          <bounds x="1056" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d84dc91f75a84d62a542907b227169a4" source="id-bf5782a1a2a1450cac11e1cd6855d776" target="id-001e8641bd504c45aebc5341f8a4c465" archimateRelationship="id-a57c80761ecd432ea78eca41124d6437"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b65da5c9a0f74c70aa9645be5bd4749c" source="id-bf5782a1a2a1450cac11e1cd6855d776" target="id-752f42a603654d89b6b43ff93078bcb9" archimateRelationship="id-7e6b422e0912460d8a8792bfcfdf1673"/>
@@ -3023,11 +3104,11 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-87a433d9f58b4863a56978a5c17af2ec" source="id-bf5782a1a2a1450cac11e1cd6855d776" target="id-afc863f50e594c3180b30c553fdf813b" archimateRelationship="id-a13fd5549383417cb505d565901d7666"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-192947f6bb0c406e88415f872ad6989a" source="id-bf5782a1a2a1450cac11e1cd6855d776" target="id-37b33f4409cd4043acd441cd327df340" archimateRelationship="id-bed9ff4a5d134b2b92e7aaee958032d1"/>
           <child xsi:type="archimate:DiagramObject" id="id-2d5982ed2e2d4e71b3a951ec5783c2ac" targetConnections="id-3c97722aa4774a5baa701c3714f7553f" fillColor="#ffffff" textPosition="1" archimateElement="id-4c5fe57ec2ab485c9cb8bdef64d7d4d9">
-            <bounds x="12" y="156" width="157" height="55"/>
+            <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-752f42a603654d89b6b43ff93078bcb9" targetConnections="id-b65da5c9a0f74c70aa9645be5bd4749c" fillColor="#ffffff" textPosition="1" archimateElement="id-a6d25074ed4746d78e7b3002de2175dc">
-            <bounds x="12" y="336" width="157" height="55"/>
+            <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9360f8a21c2d4735bc086a87181a2024" targetConnections="id-16b6e5772eb047348c5cf21ee7d30ac3" fillColor="#ffffff" textPosition="1" archimateElement="id-cd9ce254e1e445b58e7c6e44f9d7084e">
@@ -3035,20 +3116,20 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-001e8641bd504c45aebc5341f8a4c465" targetConnections="id-d84dc91f75a84d62a542907b227169a4" fillColor="#ffffff" textPosition="1" archimateElement="id-7cf7d264e6a84c85a50d8feefc8eae67">
-            <bounds x="12" y="216" width="157" height="55"/>
+            <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-afc863f50e594c3180b30c553fdf813b" targetConnections="id-87a433d9f58b4863a56978a5c17af2ec" fillColor="#ffffff" textPosition="1" archimateElement="id-dfa93a7f2bf64bcf8dd828eb7f754b4e">
-            <bounds x="12" y="276" width="157" height="55"/>
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-37b33f4409cd4043acd441cd327df340" targetConnections="id-192947f6bb0c406e88415f872ad6989a id-e7c2e3690230413e9685946c0e02d25b" fillColor="#ffffff" textPosition="1" archimateElement="id-8216e6a7ee624f5d9772f879da9fc81c">
-            <bounds x="12" y="456" width="157" height="55"/>
+            <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-4cb7f931f25b4ce2b690b8eaf97e3376" targetConnections="id-b608d90bff79420981d2463c27883a6b" archimateElement="id-89cae607ed114aa9b258920260a4499c">
-          <bounds x="239" y="852" width="372" height="288"/>
+          <bounds x="288" y="792" width="372" height="288"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f356b0cd4e6e42a9a757f478f6c3c605" source="id-4cb7f931f25b4ce2b690b8eaf97e3376" target="id-680717f0763844e48b0a4e8338be037b" archimateRelationship="id-e6f5fa291faa4e47b08f99538f2f395d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-c0e323eba8744e9a9278bf38e04ee923" source="id-4cb7f931f25b4ce2b690b8eaf97e3376" target="id-97949ff6c1994788a4e81457f7d722e9" archimateRelationship="id-8ad2d6a55fd34967aa10ea23e0da02c6"/>
@@ -3071,41 +3152,51 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-a533c800c52e425ea683c9f501ce3903" targetConnections="id-e90481728c28473eba8d86d2b9e22557" archimateElement="id-079caeb56ec2440cad449a57741e2837">
-          <bounds x="623" y="312" width="181" height="529"/>
+        <child xsi:type="archimate:DiagramObject" id="id-a533c800c52e425ea683c9f501ce3903" archimateElement="id-079caeb56ec2440cad449a57741e2837">
+          <bounds x="672" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-5ab910b9525b4edaa48b04d545ddf695" source="id-a533c800c52e425ea683c9f501ce3903" target="id-43d760a42c8c4eda88aa6af80989f763" archimateRelationship="id-ca6224394cdc4a4288597f7dc86ed38c"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a0bd0fd2f2954488b362a2c870a7ecee" source="id-a533c800c52e425ea683c9f501ce3903" target="id-df920d189e2a4cfdac58c6acdc54d8d4" archimateRelationship="id-0134e2f6376b401bb1ca1c16eb400d69"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-57c7216527b54b2b8e5ed3dc313c97b9" source="id-a533c800c52e425ea683c9f501ce3903" target="id-f941aeb2ff734850bc37efecce534a37" archimateRelationship="id-9c6bf9e5bb1740409d6c460f142c2cfd"/>
-          <child xsi:type="archimate:DiagramObject" id="id-df920d189e2a4cfdac58c6acdc54d8d4" targetConnections="id-a0bd0fd2f2954488b362a2c870a7ecee" fillColor="#ffffff" textPosition="1" archimateElement="id-87d20390ad9b43eea623acd8193d0428">
+          <sourceConnection xsi:type="archimate:Connection" id="id-ee28cbca0c954fdcb7e7b55190178f68" source="id-a533c800c52e425ea683c9f501ce3903" target="id-96c91d7f4f99427c8e3194eee5676976" archimateRelationship="id-0595efb8664846d8b7a9d584c3d649f8"/>
+          <child xsi:type="archimate:DiagramObject" id="id-df920d189e2a4cfdac58c6acdc54d8d4" targetConnections="id-a0bd0fd2f2954488b362a2c870a7ecee id-4b78f6a8e87344a58616b1d3939eb255" fillColor="#ffffff" textPosition="1" archimateElement="id-87d20390ad9b43eea623acd8193d0428">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-43d760a42c8c4eda88aa6af80989f763" targetConnections="id-5ab910b9525b4edaa48b04d545ddf695" fillColor="#ffffff" textPosition="1" archimateElement="id-d99f5610425448249b780d45cd71af5f">
-            <bounds x="12" y="276" width="157" height="55"/>
+          <child xsi:type="archimate:DiagramObject" id="id-43d760a42c8c4eda88aa6af80989f763" targetConnections="id-5ab910b9525b4edaa48b04d545ddf695 id-dd2427d2e8db42df90db399d6131ee85" fillColor="#ffffff" textPosition="1" archimateElement="id-d99f5610425448249b780d45cd71af5f">
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f941aeb2ff734850bc37efecce534a37" targetConnections="id-57c7216527b54b2b8e5ed3dc313c97b9" fillColor="#ffffff" textPosition="1" archimateElement="id-ffeb84e839934d419c4ca4ee9aa6f136">
-            <bounds x="12" y="216" width="157" height="55"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f941aeb2ff734850bc37efecce534a37" targetConnections="id-57c7216527b54b2b8e5ed3dc313c97b9 id-e90481728c28473eba8d86d2b9e22557" fillColor="#ffffff" textPosition="1" archimateElement="id-ffeb84e839934d419c4ca4ee9aa6f136">
+            <bounds x="12" y="156" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-96c91d7f4f99427c8e3194eee5676976" targetConnections="id-ee28cbca0c954fdcb7e7b55190178f68" fillColor="#ffffff" textPosition="1" archimateElement="id-2980fa7cd93e40608ccf46e879fea5e0">
+            <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7625531222b34a9ea81a1ac9bff26147" targetConnections="id-41c57be16ea047948817e64dce747499" archimateElement="id-b750feb34d9c40588f9443c33145b59e">
-          <bounds x="1007" y="852" width="372" height="288"/>
+          <bounds x="1056" y="792" width="372" height="288"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-65182ccf5b1548c4a176adcd58e874b0" source="id-7625531222b34a9ea81a1ac9bff26147" target="id-78e4860eabe94e0493e4cf13722f5318" archimateRelationship="id-c177f6ba183945ef824fb837b45eaee1"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-47af9fa5bf8f4b7b9ecc9c61004ebdca" source="id-7625531222b34a9ea81a1ac9bff26147" target="id-03e8cbad6db74d44bc94ac8deaffd924" archimateRelationship="id-95105b56a81f4aa4b796b7fcc007701b"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-76166e9619be44f1bb5b48dbc22b91f7" source="id-7625531222b34a9ea81a1ac9bff26147" target="id-6ff57a0768004bed8c4d133d439047db" archimateRelationship="id-aeaeac9b7a6f456681d5f0e58deafe1d"/>
           <child xsi:type="archimate:DiagramObject" id="id-03e8cbad6db74d44bc94ac8deaffd924" targetConnections="id-47af9fa5bf8f4b7b9ecc9c61004ebdca" fillColor="#ffffff" textPosition="1" archimateElement="id-3099a3491bf542f084b6b3defa72ef68">
-            <bounds x="12" y="36" width="157" height="55"/>
+            <bounds x="96" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-78e4860eabe94e0493e4cf13722f5318" targetConnections="id-65182ccf5b1548c4a176adcd58e874b0" fillColor="#ffffff" textPosition="1" archimateElement="id-2284caddd8094fd3b974678a31502f9f">
-            <bounds x="204" y="36" width="157" height="55"/>
+            <bounds x="12" y="96" width="157" height="55"/>
+            <feature name="iconVisible" value="2"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-6ff57a0768004bed8c4d133d439047db" targetConnections="id-76166e9619be44f1bb5b48dbc22b91f7" fillColor="#ffffff" textPosition="1" archimateElement="id-5396e150e23f4a438e224778e1f1eaae">
+            <bounds x="204" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-78a4b6bb91744e59a9723f9ac9834f74" archimateElement="id-256454e9e1434b858b4214c65b1cb3ab">
-          <bounds x="239" y="312" width="181" height="529"/>
+          <bounds x="288" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a66f35faf7004519bc781d2b7db4c241" source="id-78a4b6bb91744e59a9723f9ac9834f74" target="id-a0b0cf491e9e48e3b3a5baf848c41914" archimateRelationship="id-31e2a9ed164a4c0d8268bf172d92e0fd"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8796a05101164afb8cd76f87eebc6321" source="id-78a4b6bb91744e59a9723f9ac9834f74" target="id-ab8d598389e34c819fe539985208e65a" archimateRelationship="id-12111efbd22a4c5f9127143f7b74bb9e"/>
@@ -3114,23 +3205,23 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-1e0981f30d334072a9693dc397499227" source="id-78a4b6bb91744e59a9723f9ac9834f74" target="id-df5bbed9d01440f2a13abead0e85f760" archimateRelationship="id-bc28b3afd44e401096275885dcdbeb95"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e355f3799f05473d82b2a79f32f0ba1f" source="id-78a4b6bb91744e59a9723f9ac9834f74" target="id-61f77e446f6342128350d035cc19894d" archimateRelationship="id-d7d1b1bb696546b0b9f9df2f8f7bca95"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-aa87bfa46e09424597974f1a40ac3510" source="id-78a4b6bb91744e59a9723f9ac9834f74" target="id-4cb683f104e440f39e0932569ff37f78" archimateRelationship="id-a2e50ce89a764bdd9694cecb48431157"/>
-          <child xsi:type="archimate:DiagramObject" id="id-ab8d598389e34c819fe539985208e65a" targetConnections="id-8796a05101164afb8cd76f87eebc6321" fillColor="#ffffff" textPosition="1" archimateElement="id-c89765631a7f4df58760c8fc9d6acea7">
+          <child xsi:type="archimate:DiagramObject" id="id-ab8d598389e34c819fe539985208e65a" targetConnections="id-8796a05101164afb8cd76f87eebc6321 id-fa95701b25a0494c8b3f620d29f08552" fillColor="#ffffff" textPosition="1" archimateElement="id-c89765631a7f4df58760c8fc9d6acea7">
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-a0b0cf491e9e48e3b3a5baf848c41914" targetConnections="id-a66f35faf7004519bc781d2b7db4c241" fillColor="#ffffff" textPosition="1" archimateElement="id-4a798952a1ce4c129980061149b0a6c9">
+          <child xsi:type="archimate:DiagramObject" id="id-a0b0cf491e9e48e3b3a5baf848c41914" targetConnections="id-a66f35faf7004519bc781d2b7db4c241 id-14e0db12f924488bb01390f064d5f539" fillColor="#ffffff" textPosition="1" archimateElement="id-4a798952a1ce4c129980061149b0a6c9">
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b2c8e6c19999481884b877279be66cae" targetConnections="id-f7c4b6d417bf480b809a908a908163a6" fillColor="#ffffff" textPosition="1" archimateElement="id-55c7b8c858794843993b05b87c34fe1d">
+          <child xsi:type="archimate:DiagramObject" id="id-b2c8e6c19999481884b877279be66cae" targetConnections="id-f7c4b6d417bf480b809a908a908163a6 id-822b9e0490d34a2e95e343e8ebf182a1" fillColor="#ffffff" textPosition="1" archimateElement="id-55c7b8c858794843993b05b87c34fe1d">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-1d1a65fba5294ed7ad0277a34f71c912" targetConnections="id-1991b497481d46a1abfcd97f4f353351" fillColor="#ffffff" textPosition="1" archimateElement="id-5bfb606ab33b47a2967d91a3e1f9fa36">
+          <child xsi:type="archimate:DiagramObject" id="id-1d1a65fba5294ed7ad0277a34f71c912" targetConnections="id-1991b497481d46a1abfcd97f4f353351 id-ca11970920654378942ddcff6ebe235d" fillColor="#ffffff" textPosition="1" archimateElement="id-5bfb606ab33b47a2967d91a3e1f9fa36">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-df5bbed9d01440f2a13abead0e85f760" targetConnections="id-1e0981f30d334072a9693dc397499227" fillColor="#ffffff" textPosition="1" archimateElement="id-20a30272b6464b84ae24506f19a31d74">
+          <child xsi:type="archimate:DiagramObject" id="id-df5bbed9d01440f2a13abead0e85f760" targetConnections="id-1e0981f30d334072a9693dc397499227 id-2f2f3b053d5940e7868043769d3938e9" fillColor="#ffffff" textPosition="1" archimateElement="id-20a30272b6464b84ae24506f19a31d74">
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -3138,13 +3229,13 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <bounds x="12" y="396" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-4cb683f104e440f39e0932569ff37f78" targetConnections="id-aa87bfa46e09424597974f1a40ac3510" fillColor="#ffffff" textPosition="1" archimateElement="id-96ff8c5d886f4013b003c77ee8907044">
+          <child xsi:type="archimate:DiagramObject" id="id-4cb683f104e440f39e0932569ff37f78" targetConnections="id-aa87bfa46e09424597974f1a40ac3510 id-2bc5400d3b48466ba42d3e9c66006a42" fillColor="#ffffff" textPosition="1" archimateElement="id-96ff8c5d886f4013b003c77ee8907044">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-b510ffbbae9843a9a8b1b2feea1e3f56" targetConnections="id-a363fff1a0d04cf49e44759423efe685" archimateElement="id-c5998016874b4a3f9a80d62f09af3f33">
-          <bounds x="1199" y="312" width="181" height="529"/>
+          <bounds x="1248" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <feature name="labelExpression" value="Beheren vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e5c4f9b642a640b1ad2cbf7b717a3d8b" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-d88a3eb52c904a489bc4286031f9f22c" archimateRelationship="id-f57f33ca99ad49dcbaef48afe77e929f"/>
@@ -3153,12 +3244,12 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-ba4cd2aba0674bbbae729346950549e0" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-c395b9ebd71f4ccd854dfef3e76532f3" archimateRelationship="id-177a7c713d7d463b814111384568ca54"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-53d254bc9bb64de6a125571ce28d9573" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-117f6d9e881f4541b1908cc942bb2b95" archimateRelationship="id-c5d898fc2757476c935fb5c218be22c5"/>
           <child xsi:type="archimate:DiagramObject" id="id-5b574266453e4c9e994eef93a0a0ac19" targetConnections="id-ce3632b0cb7d49cebcddfcf2e832f3cf" fillColor="#ffffff" textPosition="1" archimateElement="id-1e240322fbec495f9895c2f7cb22f552">
-            <bounds x="12" y="276" width="157" height="55"/>
+            <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Inzage geven in vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-82a8bb444bb64f9082ee48a37f2fff03" targetConnections="id-d223783856604bfab901f2c676f037db" fillColor="#ffffff" textPosition="1" archimateElement="id-f5ed40da3592429082e7f978de22be46">
-            <bounds x="12" y="336" width="157" height="55"/>
+            <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Notificeren over vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
@@ -3167,17 +3258,17 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d88a3eb52c904a489bc4286031f9f22c" targetConnections="id-e5c4f9b642a640b1ad2cbf7b717a3d8b" fillColor="#ffffff" textPosition="1" archimateElement="id-aacf5c4d48204c23922b68521c7999b2">
-            <bounds x="12" y="216" width="157" height="55"/>
+            <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-117f6d9e881f4541b1908cc942bb2b95" targetConnections="id-53d254bc9bb64de6a125571ce28d9573" fillColor="#ffffff" archimateElement="id-522b1467667646ccb017e52455f0af44">
-            <bounds x="12" y="396" width="157" height="55"/>
+            <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Creëren vertegenwoordigings-&#xD;&#xA;bevoegdheidsverklaring"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a80f92c2414f4996b5f133b65babf1c5" targetConnections="id-70786da40f93485eac169fb89f23f1dd" archimateElement="id-715ea15b4b9146498e9e88e3cee41494">
-          <bounds x="431" y="312" width="181" height="529"/>
+          <bounds x="480" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ea716eb75d70408d96f5282d285cb7bc" source="id-a80f92c2414f4996b5f133b65babf1c5" target="id-37533a6fb5b24887a99259b1767bc358" archimateRelationship="id-484c6fa0a27b4fc78cc8355c54185ee9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1ffac34fcf954eba82ce5f56a6a83f86" source="id-a80f92c2414f4996b5f133b65babf1c5" target="id-b66400d05d234f80be2c2a6a77a1393d" archimateRelationship="id-b5fa2a30b5774534a22c3a5e3d24a4b4"/>
@@ -3201,7 +3292,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3f99ad34e3214531962aa49aa66b57fb" textPosition="1" archimateElement="id-9675a33d1c104ef4960db2634f60d9ac">
-          <bounds x="24" y="756" width="145" height="55"/>
+          <bounds x="73" y="756" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-40f0f132793c4b79b160350b576bcc89" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-c0cb8281bb4843a2880f19110fc58d6d" archimateRelationship="id-fa2abf1853f7481abd581552f402241b"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4557d2650d2f47dc9dee9975cc139402" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-4e050c49ed4441f0aa3e5f6b4015311a" archimateRelationship="id-19aa874952fb42f19562f3dcd7c1318a"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-824afed26a2749a9ae42417e9a9c2b28" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-f7a22e2b1add48deb213bdb9f7de38c1" archimateRelationship="id-94573268a2504a3bba4b01c3c0a03664"/>
@@ -3212,7 +3303,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-ec124e62c3f9475bbfb89c12ca79e03a" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-9e67af7d242f492ba828a49e2a912957" archimateRelationship="id-b202e2ead5f641808c878c6fe6046b61"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-310f62d4fdb148318533b470dac21250" textPosition="1" archimateElement="id-43ff9aa71f9d42f6b923887431c90bfc">
-          <bounds x="1017" y="168" width="145" height="55"/>
+          <bounds x="1066" y="168" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-41c57be16ea047948817e64dce747499" source="id-310f62d4fdb148318533b470dac21250" target="id-7625531222b34a9ea81a1ac9bff26147" archimateRelationship="id-15d7a7776fe74c17bf699b17cffea031">
             <bendpoint startX="-34" startY="321" endX="150" endY="-480"/>
           </sourceConnection>
@@ -3222,34 +3313,49 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <bendpoint startX="38" startY="345" endX="-66" endY="-456"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-27b8d9e0e6ca4f0e990ef7c68b9cea86" textPosition="1" archimateElement="id-79b3bab1e77f4d378bcae1c53739e71c">
-          <bounds x="640" y="168" width="145" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-e90481728c28473eba8d86d2b9e22557" source="id-27b8d9e0e6ca4f0e990ef7c68b9cea86" target="id-a533c800c52e425ea683c9f501ce3903" archimateRelationship="id-e545af769d55487c8febea197fdda5aa"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-e5775baa57dc4526b480ec8ab9caa147" source="id-27b8d9e0e6ca4f0e990ef7c68b9cea86" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-4851f79415cb41f1855c7d72f053b786"/>
-        </child>
         <child xsi:type="archimate:DiagramObject" id="id-1c6f4cace15843ab8d8ec8099f78249e" textPosition="1" archimateElement="id-716262df16c04d2eab3f45cf6f107af5">
-          <bounds x="1209" y="168" width="145" height="55"/>
+          <bounds x="1258" y="168" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a363fff1a0d04cf49e44759423efe685" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-b510ffbbae9843a9a8b1b2feea1e3f56" archimateRelationship="id-3603b196da15461c9a8ea2f2f1d41fb6"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-4874c0557bff4d599d901ba42615e659" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-8ae10ca95ffc43efb2d44664812e054f" archimateRelationship="id-5a43cb4189f241ad939577ff285839ce"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6416d73624e144dda2f4dbd02d47b28a" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-b8e7f50fe1db4f589690fe8a898f7f25"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e7c2e3690230413e9685946c0e02d25b" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-37b33f4409cd4043acd441cd327df340" archimateRelationship="id-5a43cb4189f241ad939577ff285839ce"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8ae3a5f4b1754364ad5e2a884e1d8051" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
-          <bounds x="831" y="168" width="145" height="55"/>
+          <bounds x="880" y="168" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-d6acd1dc77024542a7dc002e04b9f976" source="id-8ae3a5f4b1754364ad5e2a884e1d8051" target="id-799e5278cab741728f31f0df35845135" archimateRelationship="id-70d195986f384db1a943de0a7fdf2475"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-a1e76cc2eb1447df941db158044044dc" targetConnections="id-e5775baa57dc4526b480ec8ab9caa147 id-6416d73624e144dda2f4dbd02d47b28a id-3ec87117774f4ea68a7a64607a34892d" textPosition="1" archimateElement="id-8d2556e7d06240a9b05e03cff58fe696">
-          <bounds x="832" y="36" width="145" height="55"/>
+        <child xsi:type="archimate:DiagramObject" id="id-a1e76cc2eb1447df941db158044044dc" targetConnections="id-6416d73624e144dda2f4dbd02d47b28a id-3ec87117774f4ea68a7a64607a34892d id-e5775baa57dc4526b480ec8ab9caa147" textPosition="1" archimateElement="id-8d2556e7d06240a9b05e03cff58fe696">
+          <bounds x="881" y="36" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9d6a31d8fb564a0b945e7363262e71c5" targetConnections="id-e9080f16664b43cf823ec0646eb4e304" textPosition="1" archimateElement="id-34ae37bf77034fd991d6de0c776dc643">
-          <bounds x="1017" y="36" width="145" height="55"/>
+          <bounds x="1066" y="36" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-aa970cb785f44d929e2eef32a674e184" textPosition="1" archimateElement="id-64294694c5484d4693e67a05359d6a12">
-          <bounds x="24" y="648" width="145" height="55"/>
+          <bounds x="73" y="648" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3ec87117774f4ea68a7a64607a34892d" source="id-aa970cb785f44d929e2eef32a674e184" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-c5d1883a035f40eab74e9b53ab3ec66d">
-            <bendpoint startY="-615" endX="-605" endY="-3"/>
+            <bendpoint startX="-108" startY="9" endX="-916" endY="621"/>
+            <bendpoint startX="-109" startY="-603" endX="-917" endY="9"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-70786da40f93485eac169fb89f23f1dd" source="id-aa970cb785f44d929e2eef32a674e184" target="id-a80f92c2414f4996b5f133b65babf1c5" archimateRelationship="id-c3860ae5c94145eb8c807025d3ed2f6b"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2095d21be71a4d9ca8fe9cfc204ec6ed" archimateElement="id-b388d510985b436b936e59ead4860ec5">
+          <bounds x="73" y="348" width="145" height="55"/>
+          <feature name="labelExpression" value="Regisseur&#xD;&#xA;toegangs&#xD;&#xA;infrastructuur"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-822b9e0490d34a2e95e343e8ebf182a1" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-b2c8e6c19999481884b877279be66cae" archimateRelationship="id-8d9cfe71da7f4fc4a7ec88f5701ad354"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-fa95701b25a0494c8b3f620d29f08552" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-ab8d598389e34c819fe539985208e65a" archimateRelationship="id-3fb5ddf549d545a88ffb7e612c7c0a5f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-14e0db12f924488bb01390f064d5f539" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-a0b0cf491e9e48e3b3a5baf848c41914" archimateRelationship="id-c3b3ad88333740b19b0b649b5002c599"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ca11970920654378942ddcff6ebe235d" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-1d1a65fba5294ed7ad0277a34f71c912" archimateRelationship="id-f059e4afd8554d2d840e09511769c425"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2f2f3b053d5940e7868043769d3938e9" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-df5bbed9d01440f2a13abead0e85f760" archimateRelationship="id-0c10a7dd9a2f4561a46f287e60dcbef1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2bc5400d3b48466ba42d3e9c66006a42" source="id-2095d21be71a4d9ca8fe9cfc204ec6ed" target="id-4cb683f104e440f39e0932569ff37f78" archimateRelationship="id-0e9ae6acbd06400a9038bc91cf18354c"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0a36b1d307694fc2b833a9bd2bba40e6" textPosition="1" archimateElement="id-7704adc1f92441d0b314f1d05a716b04">
+          <bounds x="703" y="168" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e5775baa57dc4526b480ec8ab9caa147" source="id-0a36b1d307694fc2b833a9bd2bba40e6" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-4851f79415cb41f1855c7d72f053b786"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e90481728c28473eba8d86d2b9e22557" source="id-0a36b1d307694fc2b833a9bd2bba40e6" target="id-f941aeb2ff734850bc37efecce534a37" archimateRelationship="id-e545af769d55487c8febea197fdda5aa"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d70ca8de8105456cbeee88510e301902" textPosition="1" archimateElement="id-0bd68e9ba1e244aeaa10f633eb302c0e">
+          <bounds x="504" y="168" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4b78f6a8e87344a58616b1d3939eb255" source="id-d70ca8de8105456cbeee88510e301902" target="id-df920d189e2a4cfdac58c6acdc54d8d4" archimateRelationship="id-925a3c4f42f7491ca4657354e15cd417"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-dd2427d2e8db42df90db399d6131ee85" source="id-d70ca8de8105456cbeee88510e301902" target="id-43d760a42c8c4eda88aa6af80989f763" archimateRelationship="id-3b4cdd789dc04e9da08f1ef259923734"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Functiemodel op hoofdlijnen" id="id-c57f7936bed3451a91e3728d97e753cd">
@@ -3296,13 +3402,8 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <bounds x="372" y="12" width="169" height="337"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7261d54694764f14aa1fda4e08773f62" source="id-458a7bcbcf9742b0aa259293590af04a" target="id-7e5b0dd598e845cba274f47bcf82aaba" archimateRelationship="id-14655b6d80a44429b8de4d45d1d2a252"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-8e0a2e9e6ded44308da03fe119d78dac" source="id-458a7bcbcf9742b0aa259293590af04a" target="id-3e80149e094a4048a1d7000293470f44" archimateRelationship="id-9fae12ee0a604c949b543a000fd6324b"/>
           <child xsi:type="archimate:DiagramObject" id="id-7e5b0dd598e845cba274f47bcf82aaba" targetConnections="id-7261d54694764f14aa1fda4e08773f62" fillColor="#ffffff" textPosition="1" archimateElement="id-4145089decc343f1b8a35540703eb738">
             <bounds x="24" y="48" width="120" height="37"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-3e80149e094a4048a1d7000293470f44" targetConnections="id-8e0a2e9e6ded44308da03fe119d78dac" fillColor="#ffffff" textPosition="1" archimateElement="id-d47b52c30ccc4794a9de3b781eb20811">
-            <bounds x="24" y="96" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3336,7 +3437,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-363ad86f937a4f1bb8d00977027ad05e" source="id-36ecaa4c63eb41fd93e91db4c33a4525" target="id-4eeb895f50584c51807b65ea53db4fcc" archimateRelationship="id-b33aa9da8f914116bb21bc6f7ebdb9a9"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9b3d31f1abff423cb3789db6d660d638" source="id-36ecaa4c63eb41fd93e91db4c33a4525" target="id-6b6d85aa427f4e8e9df860781b024114" archimateRelationship="id-35586cbad43d4488855a6933e636ba75"/>
           <child xsi:type="archimate:DiagramObject" id="id-93eac627e7ae4a3fbf35d77d06be4879" targetConnections="id-0fe2a76a21884ae59f8027481a650ecf" fillColor="#ffffff" textPosition="1" archimateElement="id-7a15da44f51b45d0b7b2d1449ea8def3">
-            <bounds x="24" y="288" width="120" height="37"/>
+            <bounds x="24" y="240" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-35080080331c446188109bb433af3758" targetConnections="id-128a7fe3ecec4f25804445d7a5024203" fillColor="#ffffff" textPosition="1" archimateElement="id-276320a6bad14e10a39ac2bcfcd13178">
@@ -3344,15 +3445,15 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a98dd34a6e99462fa24415ba6c36b2c1" targetConnections="id-691b46d92bda4ed0a2ee400eeabea98b" fillColor="#ffffff" textPosition="1" archimateElement="id-4d32e4b7ef9c4a85acfa2c562ad218d2">
-            <bounds x="24" y="144" width="120" height="37"/>
+            <bounds x="24" y="96" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-4eeb895f50584c51807b65ea53db4fcc" targetConnections="id-363ad86f937a4f1bb8d00977027ad05e" fillColor="#ffffff" textPosition="1" archimateElement="id-7417b19f5c21447d8bf281baf4315b20">
-            <bounds x="24" y="192" width="120" height="37"/>
+            <bounds x="24" y="144" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-6b6d85aa427f4e8e9df860781b024114" targetConnections="id-9b3d31f1abff423cb3789db6d660d638" fillColor="#ffffff" textPosition="1" archimateElement="id-6ed7f3d944764c60a45fe6780a041a42">
-            <bounds x="24" y="240" width="120" height="37"/>
+            <bounds x="24" y="192" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
@@ -3401,25 +3502,15 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <bounds x="732" y="12" width="169" height="337"/>
           <feature name="iconVisible" value="2"/>
           <feature name="labelExpression" value="Beheren vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-fc9cb5f9c45a4887a370e68aa28023bc" source="id-20e0801544c0407e9f257b2875e751c3" target="id-36128d7c2e8d48fcba3e4d6e5de5eb71" archimateRelationship="id-3a799bd701e84cc493106b6148de2256"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e4c60d3240b4408a9d54d455e6020419" source="id-20e0801544c0407e9f257b2875e751c3" target="id-a9d5b4fff36f4ea9a5ae50140324a1b6" archimateRelationship="id-76269fec3fef4d1e9a76caa25cb8a588"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a1479864757743b4b96f342f85a72cd6" source="id-20e0801544c0407e9f257b2875e751c3" target="id-2590b54f85124e72a30bd49e7faea991" archimateRelationship="id-b1c18d6edd1a41b6b5e2d7b449c18a24"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-a88dd4fee1f14cbcadacbf3a40d05e4d" source="id-20e0801544c0407e9f257b2875e751c3" target="id-34e70e44f9c247d6aae6b0ccb91eab13" archimateRelationship="id-5978e14b3d0549e18db614f777c6780d"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f88a18109ba24549a419d98879b6f231" source="id-20e0801544c0407e9f257b2875e751c3" target="id-eeb8eaf400fa49a98148658f0221d7ab" archimateRelationship="id-185f2fe2fb554197962c1ce87f32c7c4"/>
-          <child xsi:type="archimate:DiagramObject" id="id-36128d7c2e8d48fcba3e4d6e5de5eb71" targetConnections="id-fc9cb5f9c45a4887a370e68aa28023bc" fillColor="#ffffff" textPosition="1" archimateElement="id-145f9d6a34d947bda142eefaaf08c5ed">
-            <bounds x="24" y="144" width="120" height="37"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="id-a9d5b4fff36f4ea9a5ae50140324a1b6" targetConnections="id-e4c60d3240b4408a9d54d455e6020419" fillColor="#ffffff" textPosition="1" archimateElement="id-906f182647604ffc90107fdb1c8d46de">
             <bounds x="24" y="96" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-2590b54f85124e72a30bd49e7faea991" targetConnections="id-a1479864757743b4b96f342f85a72cd6" fillColor="#ffffff" textPosition="1" archimateElement="id-19881848ccce47c9974cf7bc005393e8">
             <bounds x="24" y="48" width="120" height="37"/>
-            <feature name="iconVisible" value="2"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-34e70e44f9c247d6aae6b0ccb91eab13" targetConnections="id-a88dd4fee1f14cbcadacbf3a40d05e4d" fillColor="#ffffff" textPosition="1" archimateElement="id-19372d5882b8419692ad1594ab96eb7f">
-            <bounds x="24" y="192" width="120" height="37"/>
             <feature name="iconVisible" value="2"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-eeb8eaf400fa49a98148658f0221d7ab" targetConnections="id-f88a18109ba24549a419d98879b6f231" fillColor="#ffffff" textPosition="1" archimateElement="id-1e41484c18bb4fdba146f33bee3f1979">
@@ -3444,7 +3535,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-89da747fc64748089cf8d1ee7d3483fa" targetConnections="id-917b4f137d3e4384ae51301eddb2f82a id-a9819413447b4d8984678d5cc1e322bd id-a3fbe00c557044c98bdf6f40ec10b248" fillColor="#ffffff" textPosition="1" archimateElement="id-9e14841bf7a34845a4465fb9aa96cc53">
-          <bounds x="348" y="252" width="120" height="55"/>
+          <bounds x="348" y="248" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-344b4f081fef404c86aeaa2690a8c5a7" source="id-89da747fc64748089cf8d1ee7d3483fa" target="id-0faf685e7f27459082c5b42df1a369e5" archimateRelationship="id-4c986fceb4ee4496804b28482b510d69"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-fda118a8415f49ab8fba04088b97f7e8" source="id-89da747fc64748089cf8d1ee7d3483fa" target="id-f39f69dd804f4bc386a8578ae06f348e" archimateRelationship="id-e3156b5f9b1d4fd39002ff53bd4f50a0">
@@ -3488,33 +3579,19 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <sourceConnection xsi:type="archimate:Connection" id="id-81e6c33b2e674bdab80840d7b8133c58" source="id-9cf24f628ce14322a7a045993fdb87d2" target="id-b30522b174cd4b1ebd873c6f7c6062d3" archimateRelationship="id-894bcb5440e945c5b047962c5170f864"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-91dd2b61dad94cfe95b808a82a5039ef" fillColor="#ffffff" textPosition="1" archimateElement="id-4145089decc343f1b8a35540703eb738">
-          <bounds x="108" y="96" width="120" height="55"/>
+          <bounds x="108" y="248" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2cda06c6c6174d7594aa908e651f6578" textPosition="2" source="id-91dd2b61dad94cfe95b808a82a5039ef" target="id-b4efcfb0325b487ca7f45f3c66b8923c" archimateRelationship="id-c9123646379e4eb0b0326b0dc1667ab1">
-            <bendpoint startX="-192" startY="-3" endX="-192" endY="-591"/>
-            <bendpoint startX="-192" startY="657" endX="-192" endY="57"/>
-            <bendpoint startY="657" endY="57"/>
+            <bendpoint startX="-192" startY="1" endX="-192" endY="-447"/>
+            <bendpoint startX="-192" startY="457" endX="-192" endY="9"/>
+            <bendpoint startX="-108" startY="457" endX="-108" endY="9"/>
           </sourceConnection>
-          <sourceConnection xsi:type="archimate:Connection" id="id-6aade5474ff045e19132b552667575b1" source="id-91dd2b61dad94cfe95b808a82a5039ef" target="id-1868754d6c76477293ff6c018b25dd6c" archimateRelationship="id-652bd36d1ef040069b64e11475afa0d9"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-917b4f137d3e4384ae51301eddb2f82a" source="id-91dd2b61dad94cfe95b808a82a5039ef" target="id-89da747fc64748089cf8d1ee7d3483fa" archimateRelationship="id-34eb7f0fc6be464e80ca03b3f6348988">
-            <bendpoint startX="120" startY="-3" endX="-120" endY="-159"/>
-            <bendpoint startX="120" startY="153" endX="-120" endY="-3"/>
-          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-917b4f137d3e4384ae51301eddb2f82a" source="id-91dd2b61dad94cfe95b808a82a5039ef" target="id-89da747fc64748089cf8d1ee7d3483fa" archimateRelationship="id-34eb7f0fc6be464e80ca03b3f6348988"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-72276c4a1cb54174b07fef6ba9030687" targetConnections="id-deaf9d6fc91545f197732396b2bcf987 id-d1acab40f30a429a94ef8879ab1c73a2 id-5fcfec9580ee4583933a8182b65534e1" fillColor="#ffffff" textPosition="1" archimateElement="id-906f182647604ffc90107fdb1c8d46de">
+        <child xsi:type="archimate:DiagramObject" id="id-72276c4a1cb54174b07fef6ba9030687" targetConnections="id-5fcfec9580ee4583933a8182b65534e1" fillColor="#ffffff" textPosition="1" archimateElement="id-906f182647604ffc90107fdb1c8d46de">
           <bounds x="1080" y="96" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-23c2684862d54097b6f8905d814a3cb8" source="id-72276c4a1cb54174b07fef6ba9030687" target="id-3b7e87e89d0a47e788d6de4de1348233" archimateRelationship="id-a03a9aef1cf744ca86d73bb8319389e1"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-79de907067984e26b46bfee98ebb942b" fillColor="#ffffff" textPosition="1" archimateElement="id-145f9d6a34d947bda142eefaaf08c5ed">
-          <bounds x="1080" y="252" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-deaf9d6fc91545f197732396b2bcf987" source="id-79de907067984e26b46bfee98ebb942b" target="id-72276c4a1cb54174b07fef6ba9030687" archimateRelationship="id-6f07d7d2c14f43e981c75fa732747f0c"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-0acea2cec6234509b13ddf4fd7b10de8" fillColor="#ffffff" textPosition="1" archimateElement="id-19372d5882b8419692ad1594ab96eb7f">
-          <bounds x="1320" y="96" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-d1acab40f30a429a94ef8879ab1c73a2" source="id-0acea2cec6234509b13ddf4fd7b10de8" target="id-72276c4a1cb54174b07fef6ba9030687" archimateRelationship="id-e757b928f60e417ca5b502d23c2c57eb"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-16dd1133505a447aa7629012b90daee4" targetConnections="id-c366a9f8d4d4489d80bbc2b027e6fc58" fillColor="#ffffff" textPosition="1" archimateElement="id-1e41484c18bb4fdba146f33bee3f1979">
           <bounds x="588" y="96" width="120" height="55"/>
@@ -3531,16 +3608,11 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <feature name="iconVisible" value="2"/>
           <feature name="labelExpression" value="Authenticatie&#xD;&#xA;verklaring"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-bba3a5b25da440b4a95705ccd9ab1679" source="id-b4efcfb0325b487ca7f45f3c66b8923c" target="id-c48f5a396f214f0796fac5a8287e596d" archimateRelationship="id-ed80f8cf6cb8463cbbf6375cda827f3e"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-f09fa0d594034d1caa5416ed63a4b439" source="id-b4efcfb0325b487ca7f45f3c66b8923c" target="id-1868754d6c76477293ff6c018b25dd6c" archimateRelationship="id-a57f89bfa8354148a9eac106874787bc">
-            <bendpoint startX="-168" startY="9" endX="-168" endY="456"/>
-            <bendpoint startX="-168" startY="-447" endX="-168"/>
-          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-a9819413447b4d8984678d5cc1e322bd" source="id-b4efcfb0325b487ca7f45f3c66b8923c" target="id-89da747fc64748089cf8d1ee7d3483fa" archimateRelationship="id-8990f91df1c940f99f1271f3e2cd6635">
             <bendpoint startX="-108" startY="-15" endX="-348" endY="429"/>
             <bendpoint startX="-108" startY="-75" endX="-348" endY="369"/>
-            <bendpoint startX="-108" startY="-351" endX="-348" endY="93"/>
-            <bendpoint startX="72" startY="-351" endX="-168" endY="93"/>
-            <bendpoint startX="216" startY="-351" endX="-24" endY="93"/>
+            <bendpoint startX="-108" startY="-375" endX="-348" endY="69"/>
+            <bendpoint startX="216" startY="-375" endX="-24" endY="69"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-73d120556ba440378292ea1eca437fcb" targetConnections="id-3932575eaf3e4c508930eb7c4b1779a7" fillColor="#ffffff" textPosition="1" archimateElement="id-1cb3ac18cb83432ebe33dacfbd3d2832">
@@ -3560,7 +3632,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <bounds x="588" y="404" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-586b250a401b4398996c7841b05f72d9" source="id-3428481445524533b067f6445615d9b3" target="id-f39f69dd804f4bc386a8578ae06f348e" archimateRelationship="id-adea7c1dc45041bcab9dcdebc6fe522a">
-            <bendpoint startX="24" startY="-83" endX="-216" endY="73"/>
+            <bendpoint startX="204" startY="1" endX="-36" endY="157"/>
             <bendpoint startX="204" startY="-83" endX="-36" endY="73"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-f1cc09578032496fb6ea55600b312cfe" source="id-3428481445524533b067f6445615d9b3" target="id-ab7e1bf24e6d4dd1891618d488dbefc2" archimateRelationship="id-c1d376140f8f4c0e848a501929674b39"/>
@@ -3596,10 +3668,6 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
           <bounds x="108" y="396" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ebe6e283f2624feea9cecfce37edcbbb" source="id-573fc234be63483d9a89e425244b4ee8" target="id-c48f5a396f214f0796fac5a8287e596d" archimateRelationship="id-9cc9645523d64e6c95b1a77ad512de24"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-1868754d6c76477293ff6c018b25dd6c" targetConnections="id-6aade5474ff045e19132b552667575b1 id-f09fa0d594034d1caa5416ed63a4b439" fillColor="#ffffff" textPosition="1" archimateElement="id-d47b52c30ccc4794a9de3b781eb20811">
-          <bounds x="108" y="249" width="120" height="55"/>
-          <feature name="iconVisible" value="2"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-635b0cf5d2bb4d4faef8f4819c1ac430" fillColor="#ffffff" textPosition="1" archimateElement="id-532a8fb36d024c0da03b4890db4de4d8">
           <bounds x="348" y="96" width="120" height="55"/>
@@ -4963,7 +5031,7 @@ Bedrijfsobjecten zijn dingen in de werkelijkheid waarover gegevens worden vastge
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Documentstructuur" id="id-a19f7ecd3614470aab77710880939cd5">
       <child xsi:type="archimate:DiagramObject" id="id-182b24f9c5e743569dae998d3fa8028c" fillColor="#ffffff" textPosition="1" archimateElement="id-5290881708d14046854ed00cf901874e">
-        <bounds x="24" y="12" width="145" height="505"/>
+        <bounds x="24" y="12" width="145" height="529"/>
         <feature name="iconVisible" value="2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-287a49adbd0248fd813a2d04b02df3ea" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-461069e8d7ad48bf811bec8ef78856b1" archimateRelationship="id-a5bd2babf0974abd91dcd702c3dc3a97"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5f5b7e20f2d942eebf4a1a67930e92a5" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-ad956a1fc3634a4aa5b966e6f5ed6e2a" archimateRelationship="id-8b27d5bc2735484e8a201cfebc0312a5"/>
