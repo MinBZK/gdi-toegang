@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Centrale misbruikbestrijding"
+    id="id-cd4216b658324e39925728e61320ae4c"
+    documentation="Een rol die verantwoordelijk is voor het detecteren van fraude en misbruik met meerdere identificatiemiddelen of bij meerdere dienstverleners."/>

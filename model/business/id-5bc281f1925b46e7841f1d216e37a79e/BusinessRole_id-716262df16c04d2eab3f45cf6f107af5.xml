@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Machtigingsdienst"
     id="id-716262df16c04d2eab3f45cf6f107af5"
-    documentation="Een rol die ten behoeve van toegang tot dienstverlening een elektronische verklaring afgeeft waaruit blijkt dat een natuurlijke persoon, onderneming of rechtspersoon optreedt namens een andere natuurlijke persoon of niet-natuurlijke persoon."/>
+    documentation="Een rol die machtigingen kan vastleggen en op basis daarvan bevoegdheidsverklaringen kan afgeven. "/>

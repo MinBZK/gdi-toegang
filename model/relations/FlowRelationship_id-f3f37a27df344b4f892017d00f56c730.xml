@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="machtiging"
+    id="id-f3f37a27df344b4f892017d00f56c730">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_id-716262df16c04d2eab3f45cf6f107af5.xml#id-716262df16c04d2eab3f45cf6f107af5"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-7202f8ec02f644fb805e68388799f37f.xml#id-7202f8ec02f644fb805e68388799f37f"/>
+</archimate:FlowRelationship>
