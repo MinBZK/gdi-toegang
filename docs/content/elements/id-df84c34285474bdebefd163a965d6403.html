@@ -1,0 +1,122 @@
+<html class="frame"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><title>Streefbeeld</title><script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><link type="text/css" rel="stylesheet" href="../../css/model.css"><script type="text/javascript" src="../../js/frame2.js"></script></head><body><style>p,ul,ol {font-size: 14px;}h1 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 150%;font-weight:bold;}h2 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 120%;font-weight:bold;}h3 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 110%;font-weight:bold;}li {list-style: disc;}</style><div class="panel panel-default root-panel"><div class="panel-heading root-panel-heading"><b>Streefbeeld</b></div><div class="panel-body root-panel-body"><p>Dit hoofdstuk geeft een schets van de architectuur waar naar gestreefd wordt. Het beschrijft de onderdelen in dit streefbeeld en de wijze waarop deze zouden moeten samenwerken.</p>
+<h3>Schets</h3>
+<p>
+De volgende figuur geeft een schets van het streefbeeld. Daarbij is een abstractieniveau gezocht waarbij de verdeling van verantwoordelijkheden het best kan worden weergegeven. Hierdoor zijn de onderdelen van de figuur deels rollen en deels voorzieningen. Tussen de onderdelen zijn de belangrijkste gegevensstromen weergegeven. Alleen de belangrijkste onderdelen zijn opgenomen in het streefbeeld. Dat zijn de onderdelen waar de architectuur expliciet eisen aan stelt. Zo zegt de architectuur bijvoorbeeld niets over de eIDAS vertrouwensdiensten, omdat de eIDAS verordening deze al voldoende eisen aan stelt.
+</p>
+<p><center><img src="https://minbzk.github.io/gdi-toegang/images/streefbeeld.svg"></center></p>
+<p> 
+In de volgende paragrafen worden de verschillende onderdelen van het streefbeeld verder beschreven. Bij elk onderdeel worden eisen beschreven die worden gesteld. Sommige onderdelen zijn enkelvoudig aanwezig, van andere onderdelen kunnen meerdere instanties zijn. Dat is beschreven per onderdeel.
+</p>
+<h4>Aanbieder van identiteitsgegevens</h4>
+<p>
+Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers. In de context van toegang zijn dat identiteitsgegevens.
+</p>
+<p>Voorbeelden: RvIG, KvK, RDW.</p>
+<p>
+Een aanbieder van identiteitsgegevens:
+<ul>
+<li>	biedt identiteitsgegevens aan in de vorm van verifieerbare verklaringen;</li>
+<li>	kan verifieerbare verklaringen aanbieden die voldoen aan de standaarden voor de EDI wallet (OpenID for Verifiable Credentials en NEN-ISO/IEC 18013-5).</li>
+</ul>
+</p>
+<h4>Authenticatiedienst</h4>
+<p>Een authenticatiedienst geeft authenticatieverklaringen af op basis van een identificatiemiddel.</p>
+<p>Voorbeelden: DigiD, eHerkenning authenticatiedienst.</p>
+<p>
+Een authenticatiedienst:
+<ul>
+<li>registreert authenticatieverzoeken en hun resultaat in een auditlog;</li>
+<li>registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;</li>
+<li>stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding;</li>
+<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov;</li>
+<li>ondersteunt het uitloggen van entiteiten met een bepaalde identiteit;</li>
+<li>is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen.</li>
+</ul>
+</p>
+<h4>Broker</h4>
+<p>Een broker biedt de diensten van een verzameling van verklarende partijen als één geïntegreerde dienst aan.</p>
+<p>Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt.</p>
+<p>
+Een broker:
+<ul>
+<li>	kan het inlogproces richting een eindgebruiker orkestreren;</li>
+<li>kan vertalingen uitvoeren op verifieerbare verklaringen;</li>
+<li>kan gebruik maken van andere brokers;</li>
+</ul>
+<p>
+Een broker die het inlogproces orkestreert:
+<ul>
+<li>	biedt gebruikers een klantreis die voldoet aan de afspraken voor het inlogproces;</li>
+<li>maakt het standaard mogelijk om iemand te vertegenwoordigen bij het inloggen;</li>
+<li>ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen.</li>
+</ul>
+</p>
+<h4>Dienstencatalogus</h4>
+<p>De dienstencatalogus is een voorziening die diensten registreert waartoe entiteiten met een bepaalde identiteit toegang kunnen krijgen en/of een machtiging toe kunnen verstrekken, alsook welke dienstverleners deze diensten verlenen. </p>
+<p>Voorbeelden: dienstencatalogus voor burgers, dienstencatalogus voor medewerkers van organisaties.</p>
+<p>Een dienstencatalogus:
+<ul>
+<li>is onafhankelijk van de authenticatiedienst en machtigingsdienst;</li>
+<li>is specifiek voor toegang voor burgers of toegang voor medewerkers van organisaties;</li>
+<li>ondersteunt het clusteren van diensten tot grotere eenheden van toegang;</li>
+<li>ondersteunt het opsplitsen van diensten in kleinere eenheden van toegang;</li>
+<li>classificeert de diensten conform de Uniforme Productnamenlijst.</li>
+</ul>
+</p>
+<h4>Dienstverlener</h4>
+<p>Een dienstverlener levert volgens afspraken diensten aan een klant. Een dienstverlener is een vertrouwende partij.</p>
+<p>Voorbeelden: rijksoverheden, uitvoeringsorganisaties, gemeenten, provincies, waterschappen.</p>
+<p>Een dienstverlener:
+<ul>
+<li>biedt diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken;</li>
+<li>eist geen hoger betrouwbaarheidsniveau dan wat nodig is voor het verkrijgen van toegang tot een dienst; </li>
+<li>registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toeganginfrastructuur;</li>
+<li>maakt duidelijk welke wettelijke grondslag en doelbinding ten grondslag liggen aan de attributen die worden gevraagd;</li>
+<li>vraagt niet meer attributen dan wat strikt noodzakelijk is voor het leveren van een dienst;</li>
+<li>geeft gebruikers voorafgaand aan hun handelen inzich in de voor een dienst gevraagde attributen;</li>
+<li>kan zelf kiezen of deze gebruik maakt van een broker of verifieerbare verklaringen direct haalt bij een authenticatiedienst, machtigingsdienst of andere aanbieder van identiteitsgegevens;</li>
+<li>controleert of verifieerbare verklaringen valide, integer, authentiek en geldig zijn;</li>
+<li>kan omgaan met gebruikers die andere entiteiten vertegenwoordigen;</li>
+<li>minimaliseert het aantal keer dat gebruikers wordt gevraagd om in te loggen;</li>
+<li>is zelf verantwoordelijk voor het autoriseren van entiteiten met een bepaalde identiteit;</li>
+<li>biedt alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaringen en bijbehorende attributen;</li>
+<li>baseert autorisaties in achterliggende systemen op de identiteit van de gebruiker;</li>
+<li>registreert gevoelige verwerkingen die een entiteit uitvoert in een auditlog.</li>
+</ul>
+</p>
+<h4>Inzageregister</h4>
+<p>Het inzageregister is een generieke voorziening die gebruikers in staat stelt om inzage te krijgen in al hun identificatiemiddelen, machtigingen waar ze bij zijn betrokken en de toegang die op basis hiervan is verschaft.</p>
+<p>Het inzageregister:
+<ul>
+<li>registreert activaties en wijzigingen van identificatiemiddelen, machtigingen (en wijzigingen erin), metagegevens over afgegeven authenticatie- en bevoegdheidsverklaringen;</li>
+<li>gebruikt pseudoniemen om de privay van persoonsgegevens te waarborgen;</li>
+<li>biedt gebruikers (via MijnOverheid.nl) inzage in deze gegevens.</li>
+</ul>
+</p>
+<h4>Machtigingsdienst</h4>
+<p>Een machtigingsdienst kan machtigingen vastleggen en op basis daarvan bevoegdheids-verklaringen afgeven.</p>
+<p>Voorbeelden: DigiD machtigen, eHerkenning machtigingsdienst.</p>
+<p>Een machtigingsdienst:
+<ul>
+<li>registreert metagegevens over machtigingen, wijzigingen daarin en bevoegdheidsverklaringen die deze afgeeft in een inzageregister;</li>
+<li>registreert het betrouwbaarheidsniveau waarop een machtiging is afgegeven;</li>
+<li>maakt het mogelijk om het betrouwbaarheidsniveau van een machtiging op te hogen;</li>
+<li>notificeert vertegenwoordigden en vertegenwoordigers over wijzigingen in machtigingen;</li>
+<li>stuurt metagegevens over afgegeven bevoegdheidsverklaringen door naar centrale misbruikbestrijding;</li>
+<li>kan een generieke machtigingsdienst zijn of een specifieke machtigingsdienst.</li>
+</ul>
+</p>
+<p>Een generieke machtigingsdienst:
+<ul>
+<li>	ondersteunt alle veelvoorkomende vormen van machtiging.</li>
+</ul>
+</p>
+<h4>Middelenuitgever</h4>
+<p>Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</p>
+<p>Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever.</p>
+<p>Een middelenuitgever:
+<ul>
+<li>registreert het uitgeven en intrekken van identificatiemiddelen in een inzageregister;</li>
+<li>ondersteunt het intrekken van een identificatiemiddel.</li>
+</ul>
+</p><p style="font-size:5px;text-align:right">id-df84c34285474bdebefd163a965d6403</p></div></div></body></html>
