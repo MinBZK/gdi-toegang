@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="autorisatieregel"
     id="id-8384f240b54146aba5434b38474744dc"
-    documentation="Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een identiteit toegang krijgt tot die resource.">
+    documentation="Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een entiteit met een bepaalde identiteit toegang krijgt tot die resource.">
   <properties
       key="Alternatieve term"
       value="policy"/>
