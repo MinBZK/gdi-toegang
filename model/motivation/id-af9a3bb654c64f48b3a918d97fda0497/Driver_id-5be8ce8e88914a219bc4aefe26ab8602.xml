@@ -1,0 +1,8 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wet bevordering digitale weerbaarheid bedrijven"
+    id="id-5be8ce8e88914a219bc4aefe26ab8602"
+    documentation="Deze wet staat ook wel bekend als de Cyberbeveiligingswet en is de Nederlandse implementatie van de NIS2-directive. Deze is op 1 oktober 2024 in werking getreden.">
+  <profiles
+      href="folder.xml#id-be5c32739bc24a92b1a43011ba22ba22"/>
+</archimate:Driver>

@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Buitenlandse certificaten niet bruikbaar voor authenticatie"
     id="id-dcdf473919e14835becc91f9cd0ea123"
-    documentation="PKI certificaten van buitenlandse leveranciers van (gekwalificeerde) certificaten kunnen in Nederland niet zomaar voor authenticatie gebruikt worden, ondermeer omdat er geen OIN in staat. Een OIN wordt vooralsnog alleen aan Nederlandse rechtspersonen toegekend. Daarmee sluiten Nederlandse voorzieningen het gebruik van dit soort certificaten standaard uit."/>
+    documentation="PKI certificaten van buitenlandse leveranciers van (gekwalificeerde) certificaten kunnen in Nederland niet zomaar voor authenticatie gebruikt worden, ondermeer omdat er geen OIN in staat. Een OIN wordt vooralsnog alleen aan Nederlandse rechtspersonen toegekend. Daarmee sluiten Nederlandse voorzieningen het gebruik van dit soort certificaten standaard uit. Formeel moeten we als Nederland gekwalificeerde certificaten uit andere Europese lidstaten accepteren. Het ontbreekt echter in Europa aan voldoende afspraken over organisatie-identificaties om dit praktisch uit te kunnen voeren."/>

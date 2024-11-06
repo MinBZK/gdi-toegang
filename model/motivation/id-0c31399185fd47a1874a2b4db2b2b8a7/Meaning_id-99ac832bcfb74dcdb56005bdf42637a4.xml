@@ -2,8 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="identificatiemiddel"
     id="id-99ac832bcfb74dcdb56005bdf42637a4"
-    documentation="Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken en gebruikt wordt voor de authenticatie van entiteiten met een bepaalde identiteit.">
+    documentation="Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken.">
   <properties
-      key="Alternatieve term"
-      value="Authenticatiemiddel"/>
+      key="Toelichting"
+      value="Veel identificatiemiddelen zijn ook authenticatiemiddelen (kunnen gebruikt worden voor authenticatie), maar niet per definitie. Zo is een buitenlands paspoort wel een identificatiemiddel, maar kun je deze in Nederland niet als authenticatiemiddel gebruiken. Er zijn ook authenticatiemiddellen die geen identificatiemiddel zijn. Denk bijvoorbeeld aan een toegangspas voor bezoekers of een one-time password generator. In eIDAS wordt de term “elektronisch identificatiemiddel” gebruikt, waarbij ze vooral authenticatiemiddel bedoelen omdat ze stellen dat deze bedoeld is voor authenticatie."/>
 </archimate:Meaning>

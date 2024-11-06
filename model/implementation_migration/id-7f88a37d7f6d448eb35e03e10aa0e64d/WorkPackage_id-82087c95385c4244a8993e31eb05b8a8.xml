@@ -2,4 +2,4 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onderzoek ondersteuning buitenlandse certificaten"
     id="id-82087c95385c4244a8993e31eb05b8a8"
-    documentation="Het is op dit moment niet zomaar mogelijk om PKI certificaten van buitenlandse leveranciers te accepteren in voorzieningen in Nederland. Er is onderzoek nodig om te bepalen hoe dit opgelost kan worden. Een mogelijke oplossingsrichting is het aansluiten van het Tijdelijk Register Restgroepen (en uiteindelijk het entiteitenregister) op PKIoverheid, maar er zijn ook andere oplossingsrichtingen denkbaar."/>
+    documentation="Het is op dit moment niet zomaar mogelijk om PKI certificaten van buitenlandse leveranciers te accepteren in voorzieningen in Nederland. Er is onderzoek nodig om te bepalen hoe dit opgelost kan worden. We zullen in de toekomst Europees gekwalificeerde certificaten moeten kunnen ondersteunen."/>

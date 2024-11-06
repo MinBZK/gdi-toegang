@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Versleutelen identiteit"
+    name="Versleutelen pseudoniem"
     id="id-3be2a0b7c4e74b64a89ab048535de88d"
-    documentation="Het encrypten van de identiteit en/of een pseudoniemen van een identiteit om de privacy of vertrouwelijkheid te beschermen."/>
+    documentation="Het encrypten van een pseudoniem in de context van een identifcatiemiddel om de privacy of vertrouwelijkheid te beschermen."/>

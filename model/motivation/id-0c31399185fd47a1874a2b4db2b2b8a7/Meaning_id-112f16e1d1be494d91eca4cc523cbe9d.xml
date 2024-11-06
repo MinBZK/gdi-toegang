@@ -6,4 +6,7 @@
   <properties
       key="Alternatieve term"
       value="token"/>
+  <properties
+      key="Toelichting"
+      value="In een authenticatie wordt de identiteit van een entiteit vastgesteld. Een authenticatieverklaring verklaart daarmee dat de geautenticeerde entiteit een bepaalde identiteit heeft."/>
 </archimate:Meaning>

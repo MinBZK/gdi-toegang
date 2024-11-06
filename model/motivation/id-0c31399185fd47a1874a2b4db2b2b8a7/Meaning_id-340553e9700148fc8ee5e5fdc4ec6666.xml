@@ -5,5 +5,5 @@
     documentation="Een verzameling van kenmerkende eigenschappen van een object.">
   <properties
       key="Toelichting"
-      value="In de context van toegang gaat het vooral over entiteiten. Entiteiten kunnen meerdere identiteiten hebben. In een specifieke gebruikscontext zijn er een beperkt aantal kenmerken relevant. Deze deelverzameling wordt ook wel een deelidentiteit genoemd. "/>
+      value="In de context van toegang gaat het vooral over entiteiten. Entiteiten kunnen meerdere identiteiten hebben. In een specifieke gebruikscontext zijn er een beperkt aantal kenmerken relevant. Deze deelverzameling wordt ook wel een deelidentiteit genoemd. De term bronidentiteit wordt ook wel gebruikt als een verzameling eigenschappen waarvan de bijbehorende identiteitsgegevens worden beheerd in één of meer gezaghebbende bronnen. Met de term digitale identiteit wordt typisch een identifier bedoeld en dat is strikt genomen geen identiteit confor de hier gegeven definitie."/>
 </archimate:Meaning>

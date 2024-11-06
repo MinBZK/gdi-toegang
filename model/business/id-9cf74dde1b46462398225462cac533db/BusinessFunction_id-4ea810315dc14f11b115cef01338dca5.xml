@@ -1,5 +1,5 @@
 <archimate:BusinessFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Ontsleutelen identiteit"
+    name="Ontsleutelen pseudoniem"
     id="id-4ea810315dc14f11b115cef01338dca5"
-    documentation="Het terugvertalen van een versleutelde identiteit of pseudoniem van een identiteit naar een bruikbare vorm."/>
+    documentation="Het terugvertalen van een versleuteld pseudoniem naar het pseudoniem waar het op gebaseerd is."/>
