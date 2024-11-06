@@ -39,6 +39,7 @@ Bijlagen:
 * Standaarden: <a href="https://minbzk.github.io/gdi-toegang/?view=id-f14d78e817cf494cabe940d8c59f8a4e">diagram</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaarden.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/standaardendetails.html">details</a>
 * Begrippen: <a href="https://minbzk.github.io/gdi-toegang/content/views/begrippen.html">overzicht</a>, <a href="https://minbzk.github.io/gdi-toegang/content/views/begrippendetails.html">details</a>
 * Relatie van architectuurprincipes met ADO en NORA: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-2ce199487e094f099863995e07a7e605.html">overzicht</a>
+* Betrokkenen: <a href="https://minbzk.github.io/gdi-toegang/content/elements/id-db058829d6194cd59fd9d78182fb6933.html">beschrijving</a>
 
 Documenten:
 * Samenvatting van de belangrijkste onderdelen in één pagina: <a href="https://minbzk.github.io/gdi-toegang/content/views/Domeinarchitectuur%20toegang.html">samenvatting</a>
