@@ -18,7 +18,4 @@
   <properties
       key="Implicaties"
       value="5. Burgers en organisaties hebben inzicht in wie toegang heeft gekregen tot gegevens over henzelf en op basis van welk identificatiemiddel, welke vertegenwoordigingsbevoegdheden en welke autorisatieregels."/>
-  <properties
-      key="Implicaties"
-      value="6. De broncode van publieke identificatiemiddelen wordt publiek beschikbaar gesteld."/>
 </archimate:Principle>

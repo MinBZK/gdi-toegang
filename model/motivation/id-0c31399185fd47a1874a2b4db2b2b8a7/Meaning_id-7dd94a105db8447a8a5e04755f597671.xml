@@ -8,5 +8,5 @@
       value="autorisatie"/>
   <properties
       key="Toelichting"
-      value="In de context van toegang gaat het vooral over het bezitten van toestemming om gebruik te maken van een resource. Een Bevoegdheidbevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
+      value="In de context van toegang gaat het vooral over het bezitten van toestemming om gebruik te maken van een resource. Een bevoegdheid kan aan een organisatie of een natuurlijke persoon worden toegekend. Een bevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
 </archimate:Meaning>
