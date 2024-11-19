@@ -105,11 +105,10 @@
 &lt;tr>&lt;td>3.2&lt;/td>&lt;td>Wet- en regelgeving&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.3&lt;/td>&lt;td>Ontwikkelingen&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.4&lt;/td>&lt;td>Knelpunten&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.5&lt;/td>&lt;td>Capability's&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4&lt;/td>&lt;td>&lt;b>Doelarchitectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.1&lt;/td>&lt;td>Architectuurvisie&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.2&lt;/td>&lt;td>Architectuurprincipes&lt;/td>&lt;/tr>&#xD;
-&lt;tr>&lt;td>4.3&lt;/td>&lt;td>Streefbeeld&lt;/td>&lt;/tr>&#xD;
+&lt;tr>&lt;td>4.3&lt;/td>&lt;td>Verdieping thema rolverdeling&lt;/td>&lt;/tr>&#xD;
 &lt;tr>&lt;td>4.4&lt;/td>&lt;td>Verdieping thema systeem naar systeem toegang&lt;br>&#xD;
 &lt;tr>&lt;td>4.5&lt;/td>&lt;td>Veranderinitiatieven&lt;br>&#xD;
 &lt;tr>&lt;td>5&lt;/td>&lt;td>&lt;b>Doelarchitectuur&lt;/b>&lt;/td>&lt;/tr>&#xD;
@@ -140,7 +139,7 @@
 </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Wet- en regelgeving" id="id-3901960cf6bc43669f04f6aa4baaf73e" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>De domeinarchitectuur beschrijft de belangrijkste wet- en regelgeving die van toepassing is op toegang. Dat betreft met name nieuwe wet- en regelgeving vanuit Europa, inclusief de Nederlandse invulling daarvan, gegeven dat dit een belangrijke bron voor verandering is voor toegang. De wet- en regelgeving is in de architectuur doorvertaald naar capability's die beschrijven wat overheidsorganisaties zouden moeten kunnen om deze te implementeren. Het is ook expliciet gekoppeld aan de architectuurprincipes die een belangrijke bijdrage leveren aan het implementeren  van deze wet- en regelgeving. Er heeft nadrukkelijk geen detailanalyse van de wet- en regelgeving plaatsgevonden. Daarmee kan er ook geen garantie worden gegeven dat het volgen van deze architectuur automatisch leidt tot het voldoen aan de wet- en regelgeving.&lt;/p></documentation>
+        <documentation>&lt;p>De domeinarchitectuur beschrijft de belangrijkste wet- en regelgeving die van toepassing is op toegang. Dat betreft met name nieuwe wet- en regelgeving vanuit Europa, inclusief de Nederlandse invulling daarvan, gegeven dat dit een belangrijke bron voor verandering is voor toegang. De wet- en regelgeving is in de architectuur gekoppeld aan de architectuurprincipes die een belangrijke bijdrage leveren aan het implementeren  van deze wet- en regelgeving. Er heeft nadrukkelijk geen detailanalyse van de wet- en regelgeving plaatsgevonden. Daarmee kan er ook geen garantie worden gegeven dat het volgen van deze architectuur automatisch leidt tot het voldoen aan de wet- en regelgeving.&lt;/p></documentation>
         <property key="elementType" value="driverWetgeving"/>
       </element>
       <element xsi:type="archimate:Representation" name="Bijlagen" id="id-4ae1e3c208314746b2825716ed62a606" profiles="id-b5e689fa75694829b24cf22fd76eacee"/>
@@ -152,11 +151,11 @@
         <documentation>&lt;p>Deze architectuurvisie geeft een overzicht van de belangrijkste overtuigingen in de domeinarchitectuur. Het kan voor een belangrijk deel worden gezien als het overkoepelende verhaal en een samenvatting en verbinding van de architectuurprincipes. Het bevat dan ook verwijzingen naar deze architectuurprincipes, waar meer over hun rationale en implicaties kan worden gelezen. &lt;/p>&#xD;
 &lt;h2>Inleiding&lt;/h2>&#xD;
 &lt;p>&#xD;
-Het is belangrijk dat iedereen op een veilige en betrouwbare manier gebruik kan maken van publieke diensten. Dit vraagt dat de  identiteit van een gebruiker wordt vastgesteld en dat zonodig wordt bepaald of deze ook namens iemand anders mag handelen. Voor burgers is hiervoor de landelijke voorziening DigiD beschikbaar en wordt ook machtigen ondersteund. Voor bedrijven en andere organisaties is het eHerkenning (Afsprakenstelsel Elektronische Toegangsdiensten) ingericht, waarbij marktpartijen zich kunnen aanbieden als makelaar, machtigingsregister en/of middelenverstrekker. Er is ook een ketenmachtiging mogelijk, waarmee organisaties elkaar kunnen machtigen voor specifieke diensten. Het is ook mogelijk om grensoverstijgend toegang te krijgen tot digitale diensten van Europese lidstaten. Wet- en regelgeving is een belangrijke drijfveer voor verandering. Dat gaat met name over de herziene verordening &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-3d6bbaf27b0c44bf84e270f33ac5ed6a.html&quot;>&quot;Electronic Identification And Trust Services&quot; (eIDAS)&lt;/a>, de &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-face061e1c374e6c8b15e048c9f41d1d.html&quot;>Wet digitale overheid (Wdo)&lt;/a> en de bijbehorende Regeling Betrouwbaarheidsniveaus.&#xD;
+Het is belangrijk dat iedereen op een veilige en betrouwbare manier gebruik kan maken van publieke diensten. Dit vraagt dat de  identiteit van een gebruiker wordt vastgesteld en dat zonodig wordt bepaald of deze ook namens iemand anders mag handelen. Voor burgers is hiervoor de landelijke voorziening DigiD beschikbaar en wordt ook machtigen ondersteund. Voor bedrijven en andere organisaties is het eHerkenning (Afsprakenstelsel Elektronische Toegangsdiensten) ingericht, waarbij marktpartijen zich kunnen aanbieden als makelaar, machtigingsregister, authenticatiedienst en/of middelenverstrekker. Het is ook mogelijk om grensoverstijgend toegang te krijgen tot digitale diensten van Europese lidstaten. Wet- en regelgeving is een belangrijke drijfveer voor verandering. Dat gaat met name over de herziene verordening &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-3d6bbaf27b0c44bf84e270f33ac5ed6a.html&quot;>&quot;Electronic Identification And Trust Services&quot; (eIDAS)&lt;/a>, de &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-face061e1c374e6c8b15e048c9f41d1d.html&quot;>Wet digitale overheid (Wdo)&lt;/a> en de bijbehorende Regeling Betrouwbaarheidsniveaus.&#xD;
 &lt;/p>&#xD;
 &lt;h2>Vertrouwen&lt;/h2>&#xD;
 &lt;p>&#xD;
-Een belangrijk thema in de context van toegang is vertrouwen. Voor veel maatschappelijke processen is het vertrouwen dat je zaken doet met de juiste organisatie of persoon cruciaal. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die verklaringen kunnen afgeven over de identiteiten van deze gebruikers. Door &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b4dce57205fe4d48b888481350c6fae1.html&quot;>gebruik te maken van verifieerbare verklaringen&lt;/a> is het mogelijk om te controleren dat deze attributen valide, integer, authentiek en geldig zijn. Voor het bouwen van vertrouwen kunnen partijen gebruik maken van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Het doel van de herziene eIDAS verordening is om EU-breed vertrouwen te creëren en daarmee de condities voor een veilige digitale ruimte, voor zowel burgers als bedrijven. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie speelt vertrouwen een sleutelrol. Partijen bepalen zelf aan wie zij hun gegevens willen verstrekken en zijn daar alleen toe bereid als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen.&lt;/p>&#xD;
+Een belangrijk thema in de context van toegang is vertrouwen. Voor veel maatschappelijke processen is het vertrouwen dat je zaken doet met de juiste organisatie of persoon cruciaal. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die verklaringen kunnen afgeven over de identiteiten van deze gebruikers. Door &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b4dce57205fe4d48b888481350c6fae1.html&quot;>gebruik te maken van verifieerbare verklaringen&lt;/a> is het mogelijk om te controleren dat attributen behorende bij de identiteit valide, integer, authentiek en geldig zijn. Voor het bouwen van vertrouwen kunnen partijen gebruik maken van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Het doel van de herziene eIDAS verordening is om EU-breed vertrouwen te creëren en daarmee de condities voor een veilige digitale ruimte, voor zowel burgers als bedrijven. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie speelt vertrouwen een sleutelrol. Partijen bepalen zelf aan wie zij hun gegevens willen verstrekken en zijn daar alleen toe bereid als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen.&lt;/p>&#xD;
 &lt;p>&#xD;
 Burgers willen erop kunnen vertrouwen dat organisaties op een zorgvuldige manier omgaan met hun persoonsgegevens. Daarbij is dataminimalisatie een concreet aandachtspunt. Organisaties zouden niet meer gegevens moeten verwerken dan wat nodig is voor hun gebruiksdoel. Als het bijvoorbeeld voldoende is om te weten dat iemand 18 jaar of ouder is, zou niet de geboortedatum moeten worden uitgewisseld maar volstaat een ja/nee antwoord. Op basis van het antwoord kan bijvoorbeeld toegang tot een dienst worden geweigerd. Het experiment besluit BRP (2024) sorteert hier op voor door uitwisseling van informatieproducten in plaats van alle (onderliggende) gegevens mogelijk te maken. Voor toegang betekent dit bijvoorbeeld dat &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-77965a4ab86c43fb809656f759830dc1.html&quot;>de toegangsinfrastructuur niet meer gegevens uitwisselt, dan wat noodzakelijk is om toegang te verstrekken&lt;/a>. Een andere manier om bij het publiek vertrouwen te creëren in de toegangsinfrastructuur is door van delen ervan de broncode publiek beschikbaar te stellen.&#xD;
 &lt;/p>&#xD;
@@ -193,13 +192,13 @@ Het gebruik van verifieerbare verklaringen in de context van SSI en als gevolg v
 Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo zouden een aantal groepen die op dit moment niet overheidsbreed identificeerbaar zijn omdat ze niet in landelijke registraties staan (ook wel: restgroepen) beter ondersteund moeten worden. Daarnaast is het op dit moment ook niet mogelijk om mensen digitaal wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren, mentoren en mensen die ouderlijk gezag hebben. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Bij het inloggen moet dan ook standaard met machtigen en wettelijke vertegenwoordiging rekening worden gehouden. Gebruikers die inloggen hebben naast hun eigen bevoegdheden mogelijk ook bevoegdheden die horen bij de partijen die ze vertegenwoordigen. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel is afgestemd op Europese en wereldwijde afspraken en standaarden.  De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma, biedt waardevolle mogelijkheden voor toegang zoals het kunnen machtigen van partijen voor het geautomatiseerd uitwisselen van gegevens. Er is in de Europese datastrategie ook aandacht voor gegevensruimtes, waarvoor inmiddels ook een aantal afsprakenstelsels en voorzieningen beschikbaar zijn. Deze bieden ook oplossingen voor toegang tussen systemen, waarbij datasoevereiniteit het uitgangspunt is.  In de context daarvan ontstaat meer aandacht voor Policy Based Access Control, waarbij meer fijnmazig, contextueel en adaptief toegang kan worden verstrekt. Het is ook in bredere zin relevanter aan het worden, bijvoorbeeld om autorisatieregels los van applicaties te kunnen beheren. Het is ook een kernaspect van zero-trust architecturen en daarmee een maatregel om de beveiliging te verhogen. &lt;/p>&#xD;
+Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel is afgestemd op Europese en wereldwijde afspraken en standaarden. De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma, biedt waardevolle mogelijkheden voor toegang zoals het kunnen autoriseren en machtigen van partijen voor het geautomatiseerd uitwisselen van gegevens. Er is in de Europese datastrategie ook aandacht voor gegevensruimtes, waarvoor inmiddels ook een aantal afsprakenstelsels en voorzieningen beschikbaar zijn. Deze bieden ook oplossingen voor toegang tussen systemen, waarbij datasoevereiniteit het uitgangspunt is.  In de context daarvan ontstaat meer aandacht voor Policy Based Access Control, waarbij meer fijnmazig, contextueel en adaptief toegang kan worden verstrekt. Het is ook in bredere zin relevanter aan het worden, bijvoorbeeld om autorisatieregels los van applicaties te kunnen beheren. Het is ook een kernaspect van zero-trust architecturen en daarmee een maatregel om de beveiliging te verhogen. &lt;/p>&#xD;
 &lt;h2>Schets van gewenste informatievoorziening&lt;/h2>&#xD;
 &lt;p>&#xD;
 De volgende figuur geeft een schets van de informatievoorziening in de gewenste situatie. De blokken met gestreepte omlijning zijn nieuw of vragen wijziging. Een beschrijving van de bestaande voorzieningen is opgenomen in de bijlagen (paragraaf 5.4). De toegangsinfrastructuur zal gebruik maken van een aantal generieke bronnen, maar zal zelf ook een aantal eigen bronregistraties bevatten. Er zal een entiteitenregister zijn waarin restgroepen worden vastgelegd en die het huidige Tijdelijke Register Restgroepen vervangt. Mogelijk kunnen er daarnaast nog specifieke registers nodig zijn voor restgroepen die te specifiek van aard zijn om in het restgroepen register vast te leggen. De DigiD en eHerkenning machtigingsregisters zullen alle generieke vormen van machtiging ondersteunen. Machtigingen die te specifiek zijn om in deze generieke voorzieningen te worden vastgelegd zullen in een specifiek machtigingsregister worden vastgelegd. Er zal een meer gestandaardiseerde catalogus van overheidsdiensten nodig zijn, gebaseerd op de Uniforme Productennamenlijst (UPL). &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontstaan. Naast de EDI wallet kunnen ook private middelen worden toegelaten. Er zal ook een publiek zakelijk identificatiemiddel zakelijk zijn. Hiervoor wordt op dit moment een dienst ontwikkeld, die strikt genomen geen identificatiemiddel is maar een combinatie van DigiD en een verklaring uit het Handelsregister. Er zullen brokers beschikbaar moeten zijn die ervoor zorgen dat dienstverleners kunnen worden ontlast in het ontsluiten van authenticatiediensten, machtingsdiensten en andere bronnen van identiteitsgegevens. Er zullen namelijk verifieerbare verklaringen van allerlei partijen komen om te kunnen bepalen welke identiteit handelt, namens wie en met welke bevoegdheden.&#xD;
+Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontstaan. Naast de EDI wallet kunnen ook private middelen worden toegelaten. Er zal ook een publiek zakelijk identificatiemiddel zakelijk zijn, die in ieder geval bij de Belastingdienst kan worden gebruikt. Hiervoor wordt op dit moment een dienst ontwikkeld, die strikt genomen geen identificatiemiddel is maar een combinatie van DigiD en een verklaring uit het Handelsregister. Er zullen brokers beschikbaar moeten zijn die ervoor zorgen dat dienstverleners kunnen worden ontlast in het ontsluiten van authenticatiediensten, machtingsdiensten en andere bronnen van identiteitsgegevens. Er zullen namelijk verifieerbare verklaringen van allerlei partijen komen om te kunnen bepalen welke identiteit handelt, namens wie en met welke bevoegdheden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/gewenste_situatie.png&quot;>&lt;/center>&lt;/p>&#xD;
 </documentation>
@@ -211,7 +210,7 @@ Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontsta
 Dit document gaat over het verstrekken van toegang aan mensen, organisaties, applicaties en apparaten. Dat noemen we in dit document &lt;b>entiteiten&lt;/b>. Een entiteit krijgt toegang met een bepaalde &lt;b>identiteit&lt;/b>. Dat is een verzameling van eigenschappen die kenmerkend zijn voor een entiteit. Entiteiten hebben in een specifieke gebruikscontext een specifieke identiteit (ook wel: deelidentiteit), waarin alleen de eigenschappen zitten die in die context relevant zijn. Praktisch worden eigenschappen uitgewisseld in de vorm van &lt;b>identiteitsgegevens&lt;/b>. Dit soort gegevens over entiteiten heten in de context van toegang ook wel &lt;b>attributen&lt;/b>. Deze gegevens worden verkregen uit &lt;b>gezaghebbende bronnen&lt;/b>. Dat zijn bronnen waarvan kan worden verwacht dat deze nauwkeurige gegevens bieden.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Entiteiten krijgen toegang door gebruik te maken van een &lt;b>identificatiemiddel&lt;/b> om mee te authenticeren. Daarmee is het identificatiemiddel een authenticatiemiddel, omdat het gebruikt wordt ten behoeve van authenticatie.  Een dergelijke identiteitsmiddel vraagt een vorm van bewijs van een gebruiker, zoals een wachtwoord en geeft vervolgens een &lt;b>authenticatieverklaring&lt;/b> waarmee toegang kan worden gegeven. Een authenticatieverklaring is een specifiek soort &lt;b>verifieerbare verklaring&lt;/b>. Dat zijn verklaringen over identiteiten, die vergezeld van een bewijs waarmee hun validiteit, integriteit, authenticiteit en geldigheid kan worden geverifieerd. Verifieerbare verklaringen kunnen gebruikt worden om allerlei gegevens uit te wisselen. In de context van het domein toegang zijn verklaringen belangrijk die iets zeggen over attributen die worden gebruikt om te bepalen of iemand toegang krijgt.&#xD;
+Entiteiten krijgen toegang door gebruik te maken van een &lt;b>identificatiemiddel&lt;/b> om mee te authenticeren. Daarmee is het identificatiemiddel een authenticatiemiddel. Een dergelijk identiteitsmiddel vraagt een vorm van bewijs van een gebruiker, zoals een wachtwoord en geeft vervolgens een &lt;b>authenticatieverklaring&lt;/b> waarmee toegang kan worden gegeven. Een authenticatieverklaring is een specifiek soort &lt;b>verifieerbare verklaring&lt;/b>. Dat zijn verklaringen over identiteiten, die vergezeld van een bewijs waarmee hun validiteit, integriteit, authenticiteit en geldigheid kan worden geverifieerd. Verifieerbare verklaringen kunnen gebruikt worden om allerlei gegevens uit te wisselen. In de context van het domein toegang zijn verklaringen belangrijk die iets zeggen over attributen die worden gebruikt om te bepalen of iemand toegang krijgt.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Toegang wordt verstrekt tot &lt;b>resources&lt;/b>: &lt;b>diensten&lt;/b> en de daaronder liggende gegevens en functionaliteiten. Welke diensten, gegevens en functionaliteiten toegang toe wordt verstrekt wordt bepaald door de &lt;b>bevoegdheden&lt;/b> (ook wel: autorisaties) die aan een identiteit zijn gekoppeld. Entiteiten kunnen ook bevoegdheden krijgen doordat ze van iemand anders een &lt;b>machtiging&lt;/b> hebben gekregen of omdat een door een &lt;b>wettelijke vertegenwoordiging&lt;/b> formeel namens iemand anders mogen optreden. Dit leidt tot vertegenwoordigingsbevoegdheden, die net als bevoegdheden in meer algemene zin worden gebruikt om te bepalen of een entiteit toegang kan krijgen. Merk op dat we de term “machtiging” in dit document alleen gebruiken voor vrijwillig verstrekte vertegenwoordigingsbevoegdheden.&#xD;
@@ -265,7 +264,7 @@ Het is door organisaties zelf te bepalen aan welke partijen en afdelingen zij de
         <documentation>&lt;p>Dit hoofdstuk geeft een overzicht van de veranderfactoren die richting geven aan de architectuur. Het beschrijft de belangrijkste beleid en wet- en regelgeving die van toepassing zijn, de ontwikkelingen die spelen en de knelpunten die er op dit moment bestaan. &lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Veranderinitiatieven" id="id-7a3c760780f84b49aae60cc45cbeb885" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>De domeinarchitectuur beschrijft veranderinitiatieven die worden voorgesteld omdat ze nodig zijn om ervoor te zorgen dat de digitale overheid kan voldoen aan de beschreven architectuur. Het zijn in eerste instantie alleen voorstellen en ze zijn ook nog niet voorzien van informatie over kosten en baten. Ze zijn vooral input voor nog op te stellen vernieuwingsvoorstellen, in het kader waarvan kosten en baten kunnen worden uitgewerkt. Er is ook bewust voor gekozen om niet alle initiatieven die al deel uitmaken van lopende programma’s of projecten te benoemen, omdat dat weinig meerwaarde heeft. De volgende figuur plot de voorgestelde veranderinitiatieven op de meest passende functie in het functiemodel. De figuur die daarop volgt laat zien hoe de veranderinitiatieven gekoppeld zijn aan de eerder beschreven knelpunten.&lt;/p>&#xD;
+        <documentation>&lt;p>De domeinarchitectuur beschrijft veranderinitiatieven die worden voorgesteld omdat ze nodig zijn om ervoor te zorgen dat de digitale overheid kan voldoen aan de beschreven architectuur. Het zijn in eerste instantie alleen voorstellen en ze zijn ook nog niet voorzien van informatie over kosten en baten. Ze zijn vooral input voor nog op te stellen vernieuwingsvoorstellen, in het kader waarvan kosten en baten kunnen worden uitgewerkt. Er is ook bewust voor gekozen om niet alle initiatieven die al deel uitmaken van lopende programma’s of projecten te benoemen, omdat dat weinig meerwaarde heeft. Een deel van de voorgestelde initiatieven loopt reeds, zoals die m.b.t. vertegenwoordigen en meervoudig inloggen. De volgende figuur plot de voorgestelde veranderinitiatieven op de meest passende functie in het functiemodel. De figuur die daarop volgt laat zien hoe de veranderinitiatieven gekoppeld zijn aan de eerder beschreven knelpunten.&lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/veranderinitiatieven.svg&quot;>&lt;/center>&lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/veranderinitiatieven_knelpunten.svg&quot;>&lt;/center>&lt;/p></documentation>
         <property key="elementType" value="work-package"/>
@@ -359,8 +358,12 @@ Domein toegang gaat over beveiligde toegang tot diensten, gegevens en functional
 &lt;p>Het domein toegang omvat alles dat nodig is om mensen, organisaties, applicaties en apparaten op een veilige en rechtmatige manier toegang te geven. Dit vraagt om het nemen van maatregelen, die voor een belangrijk deel ook relevant zijn in het kader van informatiebeveiliging. Domein toegang is grotendeels synoniem met wat ook wel &quot;identity &amp; access management&quot; wordt genoemd. Dit is iets dat zowel binnen organisaties als over organisatiegrenzen heen aandacht vraagt. In de context van de GDI gaat het over toegang tot digitale publieke diensten. Dit staat los van hoe organisaties hun eigen medewerkers toegang verlenen, alhoewel het ook gebruikt kan worden om medewerkers van overheidsorganisaties toegang te geven tot digitale publieke diensten van andere overheidsorganisaties.&lt;/p>&#xD;
 &lt;p>De toegangsinfrastructuur is de verzameling van gemeenschappelijke afspraken, standaarden en voorzieningen die nodig zijn om toegang te faciliteren. Er zijn meerdere toegangsinfrastructuren, zoals het Afsprakenstelsel Elektronische Toegangsdiensten (behorende bij eHerkenning), het nieuwe stelsel toegang en het EDI-stelsel NL (dat tevens een infrastructuur voor gegevensuitwisseling is). Landelijke voorzieningen zoals DigiD en eHerkenning zijn belangrijke onderwerpen van gesprek, maar het toegangslandschap is tevens aan het veranderen. Zo zullen er in de toekomst ook private middelen worden toegelaten om toegang te verkrijgen tot overheidsdiensten. Daarnaast worden er in het kader van de herziene eIDAS verordening European Digital Identity Wallets geïntroduceerd die ook als identificatiemiddel kunnen worden ingezet. In meer algemene zin hebben ontwikkelingen zoals Self Sovereign Identity grote impact op hoe idealiter met toegang wordt omgegaan.&lt;/p>&#xD;
 &lt;h2>Dit document&lt;/h2>&#xD;
-&lt;p>Dit document beschrijft de domeinarchitectuur voor toegang, als onderdeel van de GDI. Het gaat vooral in op toegang tot publieke digitale diensten, alhoewel een deel van de principes en modellen ook gebruikt kunnen worden voor toegang binnen overheidsorganisaties. Het betreft de huidige en gewenste afspraken, standaarden en voorzieningen voor toegang in de GDI. Het document is opgesteld in een interbestuurlijke architectuurwerkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze werkgroep is ondersteund door bureau MIDO van het ministerie van BZK. Het document beschrijft relevant beleid, wet- &amp; regelgeving en ontwikkelingen, en vertaalt deze naar een visie en richting voor de inrichting van toegang tot digitale publieke diensten. De architectuur geeft richting aan ontwerpkeuzes die worden gemaakt bij het doorontwikkelen van de GDI of bij het aansluiten op de GDI. Het speelt een formele rol in de kaderstelling, toezicht en monitoring van programma’s en projecten die gefinancierd worden vanuit de MIDO governancestructuur.&lt;/p>&#xD;
-&lt;p>Het document is vooral gericht op enterprise-, informatie- en security-architecten bij overheidsorganisaties en op architecten die werken aan de vernieuwing van de toegangsinfrastructuur. Daarnaast kan het ook interessant zijn voor informatie-analisten, ontwerpers en product owners om te gebruiken als basis voor requirements en ontwerp.  Het document is een doorontwikkeling van de eerdere domeinarchitecturen voor identificatie &amp; authenticatie en machtigen &amp; vertegenwoordigen maar kent een andere structuur en opzet. De voorgaande documenten komen met dit document te vervallen.&lt;/p>&#xD;
+&lt;p>Dit document beschrijft de domeinarchitectuur voor toegang, als onderdeel van de GDI. Het gaat vooral in op toegang tot publieke digitale diensten, alhoewel een deel van de principes en modellen ook gebruikt kunnen worden voor toegang binnen overheidsorganisaties. Het betreft de huidige en gewenste afspraken, standaarden en voorzieningen voor toegang in de GDI. Het document is opgesteld in een interbestuurlijke architectuurwerkgroep met vertegenwoordigers van verschillende overheidsorganisaties. Deze werkgroep is ondersteund door bureau MIDO van het ministerie van BZK. Het document beschrijft relevant beleid, wet- &amp; regelgeving en ontwikkelingen, en vertaalt deze naar een visie en richting voor de inrichting van toegang tot digitale publieke diensten. &lt;/p>&#xD;
+&lt;p>&#xD;
+Deze architectuur geeft richting aan ontwerpkeuzes die worden gemaakt bij het doorontwikkelen van de GDI of bij het aansluiten op de GDI. Het is input voor programmering en kan gebruikt worden om nieuwe programma’s en projecten te definiëren en initiëren. Het speelt een formele rol in de kaderstelling, toezicht en monitoring van programma’s en projecten die gefinancierd worden vanuit de MIDO governancestructuur. Het kan in de MIDO governancestructuur worden gebruikt om afwijkingen van de gewenste situatie te signaleren in programma’s en projecten. Het document is ook in meer algemene zin te gebruiken door overheidsorganisaties. Het bevat meer algemene kennis over wat er van overheidsorganisaties wordt verwacht met betrekking tot toegang. Daarnaast is het voor een belangrijk deel ook toe te passen als referentiekader voor de inrichting van toegang binnen individuele overheidsorganisties.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Het document is vooral gericht op enterprise-, informatie- en security-architecten bij overheidsorganisaties en op architecten die werken aan de vernieuwing van de toegangsinfrastructuur. Daarnaast kan het ook interessant zijn voor informatie-analisten, ontwerpers en product owners om te gebruiken als basis voor requirements en ontwerp.  Het document is een doorontwikkeling van de eerdere domeinarchitecturen voor identificatie &amp; authenticatie en machtigen &amp; vertegenwoordigen maar kent een andere structuur en opzet. De voorgaande documenten komen met dit document te vervallen.&lt;/p>&#xD;
 &lt;p>Er is voor gekozen om de architectuur in de modelleertaal ArchiMate uit te werken en de details ervan alleen &lt;a href=&quot;https://github.com/minbzk/gdi-toegang&quot;>online&lt;/a> beschikbaar te stellen. Dit document is daarmee een samenvatting en verwijzing naar details die online te vinden zijn. Het bevat dan ook allerlei links die toegang geven tot meer informatie. De architectuur wordt online ook doorontwikkeld en beheerd in &lt;a href=&quot;https://github.com/minbzk/gdi-toegang&quot;>GitHub&lt;/a>, waardoor de meest actuele versie daar te vinden is. Daar zijn ook bestanden te vinden die direct kunnen worden ingelezen in het Open Source modelleertool Archi.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
@@ -373,9 +376,9 @@ De architectuur is ingedeeld in vijf onderdelen: &#xD;
 &lt;p>&#xD;
 &lt;ul>&#xD;
 &lt;li>De &lt;b>kernbegrippen&lt;/b> zijn de kern van de taal zoals deze gehanteerd wordt in dit document en de bijbehorende tekst is een samenvatting van zaken die zijn beschreven in de bijlagen. &lt;/li>&#xD;
-&lt;li>De &lt;b>veranderfactoren&lt;/b> geven richting aan de architectuur, en bestaan uit beleid, wet- en regelgeving, ontwikkelingen, knelpunten en capability’s. &lt;/li>&#xD;
+&lt;li>De &lt;b>veranderfactoren&lt;/b> geven richting aan de architectuur, en bestaan uit beleid, wet- en regelgeving, ontwikkelingen en knelpunten.&lt;/li>&#xD;
 &lt;li>De &lt;b>gewenste situatie&lt;/b> beschrijft een architectuurvisie, architectuurprincipes, een streefbeeld en voorgestelde veranderinitiatieven. De architectuurprincipes zijn de overtuigingen die het hart van de architectuur vormen en die als richtinggevende uitspraken zijn opgeschreven.&lt;/p>&#xD;
-&lt;li>De &lt;b>verdieping&lt;/b> beschrijft een uitwerking van de architectuurvisie en architectuurprincipes op het gebied van toegang tussen systemen. Het is vooral bedoeld als uitleg en geeft aanvullende inzichten en handreikingen. &lt;/li>&#xD;
+&lt;li>De &lt;b>verdieping&lt;/b> beschrijft een uitwerking van de architectuurvisie en architectuurprincipes op de voorgestelde rolverdeling en op het gebied van toegang tussen systemen. Het is vooral bedoeld als uitleg en geeft aanvullende inzichten en handreikingen. &lt;/li>&#xD;
 &lt;li>	In de &lt;b>bijlagen&lt;/b> zijn meer algemene modellen en beschrijvingen opgenomen van de functies, objecten, voorzieningen, standaarden en begrippen die van toepassing zijn op toegang. Het beschrijft ook de relatie van de architectuurprincipes met de Architectuur Digitale Overheid en NORA en de betrokkenen bij de totstandkoming van dit document. &#xD;
 &lt;/ul>&#xD;
 &lt;h2>1.4 Relatie met andere architecturen&lt;/h2>&#xD;
@@ -406,16 +409,12 @@ Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado
       </element>
       <element xsi:type="archimate:Representation" name="Functies" id="id-99cbfb6171e24415a2d555ae897ba9d6" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>&#xD;
-In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor toegang. De functies beschrijven vooral activiteiten op organisatieniveau (bedrijfsfuncties), maar ze zijn ook te zien als functies van informatiesystemen (applicatiefuncties). Het onderscheid is op dit niveau lastig te maken, mede doordat het afhankelijk is van de mate waarin activiteiten zijn geautomatiseerd. Organisaties zullen zelf moeten bepalen in hoeverre deze functies worden uitgevoerd door mensen en/of informatiesystemen. Daarbij kunnen ze ervoor kiezen om ze door andere organisaties te laten uitvoeren zoals aanbieders of andere soorten intermediairs of dienstverleners. Op landelijk niveau zijn er ook generieke voorzieningen beschikbaar die invulling geven aan een aantal van deze functies. We hebben ervoor gekozen om bij een aantal functies de hoofdactiviteit als naam van de functie te gebruiken, maar de volledige lading van deze functies is dus eigenlijk breder en is beschreven in de definitie ervan. De lijst van functies kan gebruikt worden om inzicht te geven in de huidige en gewenste inrichting van organisatie, processen en informatiesystemen. In de domeinarchitectuur zijn ze gekoppeld aan de capability’s, architectuurprincipes, bedrijfsobjecten, rollen, voorzieningen en standaarden. &#xD;
+In deze domeinarchitectuur hebben we functies benoemd die in het algemeen relevant zijn voor toegang. De functies beschrijven vooral activiteiten op organisatieniveau (bedrijfsfuncties), maar ze zijn ook te zien als functies van informatiesystemen (applicatiefuncties). Het onderscheid is op dit niveau lastig te maken, mede doordat het afhankelijk is van de mate waarin activiteiten zijn geautomatiseerd. Organisaties zullen zelf moeten bepalen in hoeverre deze functies worden uitgevoerd door mensen en/of informatiesystemen. Daarbij kunnen ze ervoor kiezen om ze door andere organisaties te laten uitvoeren zoals aanbieders of andere soorten intermediairs of dienstverleners. Op landelijk niveau zijn er ook generieke voorzieningen beschikbaar die invulling geven aan een aantal van deze functies. We hebben ervoor gekozen om bij een aantal functies de hoofdactiviteit als naam van de functie te gebruiken, maar de volledige lading van deze functies is dus eigenlijk breder en is beschreven in de definitie ervan. De lijst van functies kan gebruikt worden om inzicht te geven in de huidige en gewenste inrichting van organisatie, processen en informatiesystemen. In de domeinarchitectuur zijn ze gekoppeld aan de architectuurprincipes, bedrijfsobjecten, rollen, voorzieningen en standaarden. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 &lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/functiemodel.svg&quot;>&#xD;
 &lt;/p></documentation>
         <property key="elementType" value="business-function"/>
-      </element>
-      <element xsi:type="archimate:Representation" name="Capability's" id="id-9edaa105afef4c02bab19e78598847a7" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Capability's beschrijven dat wat organisaties zouden moeten kunnen. Het zijn vermogens waar organisaties over moeten beschikken. Om invulling te geven aan een capability zijn mensen, processen en middelen nodig. In deze architectuur zijn de capability's een abstracte beschrijving van wat belangrijk is voor organisaties om invulling te geven aan toegang. De capability “vertrouwen creëren” is specifiek gericht op organisaties die vertrouwensdiensten leveren, de overige capability’s zijn breder relevant voor organisaties.&lt;/p></documentation>
-        <property key="elementType" value="capability"/>
       </element>
       <element xsi:type="archimate:Representation" name="Rollen" id="id-beae3c7f591a4525a89ff0ce63d003fb" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>Rollen zijn een clustering van taken, bevoegheden en verantwoordelijkheden. De architectuur benoemt de belangrijkste rollen in de context van toegang en verbindt ze aan de functies om de belangrijkste verantwoordelijkheden duidelijk te maken.&lt;p></documentation>
@@ -463,19 +462,25 @@ De volgende organisaties hebben reviewcommentaar geleverd op een concept versie 
 &lt;/ul>&#xD;
 &lt;/p></documentation>
       </element>
-      <element xsi:type="archimate:Representation" name="Streefbeeld" id="id-df84c34285474bdebefd163a965d6403" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Dit hoofdstuk geeft een schets van de architectuur waar naar gestreefd wordt. Het beschrijft de onderdelen in dit streefbeeld en de wijze waarop deze zouden moeten samenwerken.&lt;/p>&#xD;
-&lt;h3>Schets&lt;/h3>&#xD;
+      <element xsi:type="archimate:Representation" name="Verdieping: rolverdeling" id="id-df84c34285474bdebefd163a965d6403" profiles="id-b5e689fa75694829b24cf22fd76eacee">
+        <documentation>&lt;p>Dit hoofdstuk beschrijft de belangrijkste rollen, hun verantwoordelijkheden en onderlinge samenhang. Het geeft ook richtlijnen voor deze rollen.&lt;/p>&#xD;
+&lt;h3>Overzicht&lt;/h3>&#xD;
 &lt;p>&#xD;
-De volgende figuur geeft een schets van het streefbeeld. Daarbij is een abstractieniveau gezocht waarbij de verdeling van verantwoordelijkheden het best kan worden weergegeven. Hierdoor zijn de onderdelen van de figuur deels rollen en deels voorzieningen. Tussen de onderdelen zijn de belangrijkste gegevensstromen weergegeven. Alleen de belangrijkste onderdelen zijn opgenomen in het streefbeeld. Dat zijn de onderdelen waar de architectuur expliciet eisen aan stelt. &#xD;
+De volgende figuur geeft een overzicht van de kernrollen en hun samenhang. Tussen de rollen zijn de belangrijkste gegevensstromen weergegeven. Alleen de kernrollen zijn opgenomen in de figuur. Zo zijn bijvoorbeeld de regisseur van de toegangsinfrastructuur, verleners van vertrouwensdiensten, de toezichthouder en centrale misbruikbestrijding niet opgenomen. Een volledige lijst van rollen is opgenomen in de bijlagen.&#xD;
 &lt;/p>&#xD;
-&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/streefbeeld.svg&quot;>&lt;/center>&lt;/p>&#xD;
+&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/kernrollen.svg&quot;>&lt;/center>&lt;/p>&#xD;
 &lt;p> &#xD;
-In de volgende paragrafen worden de verschillende onderdelen van het streefbeeld verder beschreven. Bij elk onderdeel worden eisen beschreven die worden gesteld. Die eisen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige onderdelen zijn enkelvoudig aanwezig, van andere onderdelen kunnen meerdere instanties zijn. Dat is beschreven per onderdeel.&#xD;
+In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke role worden richtlijnen beschreven die worden gesteld. Deze richtlijnen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige rollen zijn enkelvoudig aanwezig, van andere rollen kunnen meerdere instanties zijn. Dat is beschreven per rol.&#xD;
 &lt;/p>&#xD;
 &lt;h4>Aanbieder van identiteitsgegevens&lt;/h4>&#xD;
 &lt;p>&#xD;
-Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers. In de context van toegang zijn dat identiteitsgegevens.&#xD;
+Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers. In de context van toegang zijn dat identiteitsgegevens. Een aanbieder van identiteitsgegevens is een verlener van vertrouwensdiensten, omdat deze ook in staat moet zijn om verifieerbare verklaringen te kunnen leveren.&#xD;
+&lt;/p>&#xD;
+&lt;p>Functies:&#xD;
+&lt;ul>&#xD;
+&lt;li>Elektronisch verklaren;&lt;/li>&#xD;
+&lt;li>Verstrekken identiteitsgegevens.&lt;/li>&#xD;
+&lt;/ul>&#xD;
 &lt;/p>&#xD;
 &lt;p>Voorbeelden: RvIG, KvK, RDW.&lt;/p>&#xD;
 &lt;p>&#xD;
@@ -488,9 +493,21 @@ Een aanbieder van identiteitsgegevens:&#xD;
 &lt;h4>Authenticatiedienst&lt;/h4>&#xD;
 &lt;p>Een authenticatiedienst geeft authenticatieverklaringen af op basis van een identificatiemiddel.&lt;/p>&#xD;
 &lt;p>Voorbeelden: DigiD, eHerkenning authenticatiedienst.&lt;/p>&#xD;
+&lt;p>Functies:&#xD;
+&lt;ul>&#xD;
+&lt;li>Bestrijden fraude en misbruik;&lt;/li>&#xD;
+&lt;li>Ontsleutelen pseudoniem;&lt;/li>&#xD;
+&lt;li>	Uitloggen;&lt;/li>&#xD;
+&lt;li>Uitvoeren authenticatie;&lt;/li>&#xD;
+&lt;li>Vastleggen gebruik identificatiemiddel;&lt;/li>&#xD;
+&lt;li>Vertalen authenticatieverklaring;&lt;/li>&#xD;
+&lt;li>Vertalen identifier.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
 &lt;p>&#xD;
 Een authenticatiedienst:&#xD;
 &lt;ul>&#xD;
+&lt;li>controleert bij een authenticatieverzoek de authenticiteit en geldigheid van het gebruikte identificatiemiddel bij de verantwoordelijke middelenuitgever;&lt;/li>&#xD;
 &lt;li>registreert authenticatieverzoeken en hun resultaat in een auditlog;&lt;/li>&#xD;
 &lt;li>registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;&lt;/li>&#xD;
 &lt;li>stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding;&lt;/li>&#xD;
@@ -502,12 +519,19 @@ Een authenticatiedienst:&#xD;
 &lt;h4>Broker&lt;/h4>&#xD;
 &lt;p>Een broker biedt de diensten van een verzameling van verklarende partijen als één geïntegreerde dienst aan.&lt;/p>&#xD;
 &lt;p>Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt.&lt;/p>&#xD;
+&lt;p>Functies:&#xD;
+&lt;ul>&#xD;
+&lt;li>Orkestreren login;&lt;/li>&#xD;
+&lt;li>Vertalen authenticatieverklaring;&lt;/li>&#xD;
+&lt;li>Vertalen identifier.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
 &lt;p>&#xD;
 Een broker:&#xD;
 &lt;ul>&#xD;
 &lt;li>	kan het inlogproces richting een eindgebruiker orkestreren;&lt;/li>&#xD;
 &lt;li>kan vertalingen uitvoeren op verifieerbare verklaringen;&lt;/li>&#xD;
-&lt;li>kan gebruik maken van andere brokers;&lt;/li>&#xD;
+&lt;li>kan gebruik maken van andere brokers.&lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
 Een broker die het inlogproces orkestreert:&#xD;
@@ -518,21 +542,15 @@ Een broker die het inlogproces orkestreert:&#xD;
 &lt;li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov.&lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;/p>&#xD;
-&lt;h4>Dienstencatalogus&lt;/h4>&#xD;
-&lt;p>De dienstencatalogus is een voorziening die diensten registreert waartoe entiteiten met een bepaalde identiteit toegang kunnen krijgen en/of een machtiging toe kunnen verstrekken, alsook welke dienstverleners deze diensten verlenen. &lt;/p>&#xD;
-&lt;p>Voorbeelden: dienstencatalogus voor burgers, dienstencatalogus voor medewerkers van organisaties.&lt;/p>&#xD;
-&lt;p>Een dienstencatalogus:&#xD;
-&lt;ul>&#xD;
-&lt;li>is onafhankelijk van de authenticatiedienst en machtigingsdienst;&lt;/li>&#xD;
-&lt;li>is specifiek voor toegang voor burgers of toegang voor medewerkers van organisaties;&lt;/li>&#xD;
-&lt;li>ondersteunt het clusteren van diensten tot grotere eenheden van toegang;&lt;/li>&#xD;
-&lt;li>ondersteunt het opsplitsen van diensten in kleinere eenheden van toegang;&lt;/li>&#xD;
-&lt;li>classificeert de diensten conform de Uniforme Productnamenlijst.&lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;/p>&#xD;
 &lt;h4>Dienstverlener&lt;/h4>&#xD;
 &lt;p>Een dienstverlener levert volgens afspraken diensten aan een klant. Een dienstverlener is een vertrouwende partij.&lt;/p>&#xD;
-&lt;p>Voorbeelden: rijksoverheden, uitvoeringsorganisaties, gemeenten, provincies, waterschappen.&lt;/p>&#xD;
+&lt;p>Voorbeelden: rijksoverheden, uitvoeringsorganisaties, gemeenten, provincies, waterschappen, commerciële dienstverleners.&lt;/p>&#xD;
+&lt;p>Functies:&#xD;
+&lt;li>Auditing, monitoring en misbruikbestrijding;&lt;/li>&#xD;
+&lt;li>Autoriseren;&lt;/li>&#xD;
+&lt;li>Beheren eigen bevoegdheden.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
 &lt;p>Een dienstverlener:&#xD;
 &lt;ul>&#xD;
 &lt;li>biedt diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken;&lt;/li>&#xD;
@@ -541,6 +559,7 @@ Een broker die het inlogproces orkestreert:&#xD;
 &lt;li>	accepteert alle erkende publieke en private identificatiemidellen;&lt;/li>&#xD;
 &lt;li>registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toeganginfrastructuur;&lt;/li>&#xD;
 &lt;li>maakt duidelijk welke wettelijke grondslag en doelbinding ten grondslag liggen aan de attributen die worden gevraagd;&lt;/li>&#xD;
+&lt;li>maakt duidelijk aan welke derde partijen attributen worden doorgegeven en op basis van welke wettelijke grondslag en doelbinding;&lt;/li>&#xD;
 &lt;li>vraagt niet meer attributen dan wat strikt noodzakelijk is voor het leveren van een dienst;&lt;/li>&#xD;
 &lt;li>geeft gebruikers voorafgaand aan hun handelen inzicht in de voor een dienst gevraagde attributen;&lt;/li>&#xD;
 &lt;li>kan zelf kiezen of deze gebruik maakt van een broker of verifieerbare verklaringen direct haalt bij een authenticatiedienst, machtigingsdienst of andere aanbieder van identiteitsgegevens;&lt;/li>&#xD;
@@ -551,15 +570,6 @@ Een broker die het inlogproces orkestreert:&#xD;
 &lt;li>biedt alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaringen en bijbehorende attributen;&lt;/li>&#xD;
 &lt;li>baseert autorisaties in achterliggende systemen op de identiteit van de gebruiker;&lt;/li>&#xD;
 &lt;li>registreert gevoelige verwerkingen die een entiteit uitvoert in een auditlog.&lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;/p>&#xD;
-&lt;h4>Inzageregister&lt;/h4>&#xD;
-&lt;p>Het inzageregister is een generieke voorziening die gebruikers in staat stelt om inzage te krijgen in al hun identificatiemiddelen, machtigingen waar ze bij zijn betrokken en de toegang die op basis hiervan is verschaft.&lt;/p>&#xD;
-&lt;p>Het inzageregister:&#xD;
-&lt;ul>&#xD;
-&lt;li>registreert activaties en wijzigingen van identificatiemiddelen, machtigingen (en wijzigingen erin), metagegevens over afgegeven authenticatie- en bevoegdheidsverklaringen;&lt;/li>&#xD;
-&lt;li>gebruikt pseudoniemen om de privay van persoonsgegevens te waarborgen;&lt;/li>&#xD;
-&lt;li>biedt gebruikers (via MijnOverheid.nl) inzage in deze gegevens.&lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;/p>&#xD;
 &lt;h4>Machtigingsdienst&lt;/h4>&#xD;
@@ -583,6 +593,11 @@ Een broker die het inlogproces orkestreert:&#xD;
 &lt;h4>Middelenuitgever&lt;/h4>&#xD;
 &lt;p>Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.&lt;/p>&#xD;
 &lt;p>Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever.&lt;/p>&#xD;
+&lt;b>Functies:&#xD;
+&lt;ul>&#xD;
+&lt;li>Beheren identificatiemiddelen&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;/p>&#xD;
 &lt;p>Een middelenuitgever:&#xD;
 &lt;ul>&#xD;
 &lt;li>registreert het uitgeven en intrekken van identificatiemiddelen in een inzageregister;&lt;/li>&#xD;
@@ -607,7 +622,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="elementType" value="meaning"/>
       </element>
       <element xsi:type="archimate:Representation" name="Knelpunten" id="id-ec62f6503d6e4ebbbc1e8f7da58048ac" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten en dat ze niet voor alle overheidsorganisaties in gelijke mate geldt of van toepassing is. Een deel van deze knelpunten heeft betrekking op de toegangsinfrastructuur, maar nadere analyse is nodig of dat daadwerkelijk het geval is. De volgende figuur plot de knelpunten op de meest passende functie in het bedrijfsfunctiemodel.&lt;/p>&#xD;
+        <documentation>&lt;p>Knelpunten zijn omstandigheden in de huidige situatie die ertoe leiden dat organisaties niet kunnen voldoen aan beleid of wet- en regelgeving. Er heeft in het kader van de domeinarchitectuur een globale analyse van knelpunten plaatsgevonden. De resultaten van de analyse zijn samengevat en opgenomen in de architectuur. We zijn ons bewust van het feit dat dit slechts een subset is van de volledige set van knelpunten en dat de knelpunten niet voor alle overheidsorganisaties in gelijke mate gelden of van toepassing is. Een deel van deze knelpunten heeft betrekking op de toegangsinfrastructuur, maar nadere analyse is nodig of dat daadwerkelijk het geval is. Voor een deel van deze knelpunten geldt dat ook reeds aan oplossingen wordt gewerkt, zoals de knelpunten m.b.t. vertegenwoordigen en meervoudig inloggen. De volgende figuur plot de knelpunten op de meest passende functie in het bedrijfsfunctiemodel.&lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/knelpunten.svg&quot;>&lt;/center>&lt;/p>&#xD;
 </documentation>
         <property key="elementType" value="assessment"/>
@@ -616,6 +631,9 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <folder name="Rollen" id="id-5bc281f1925b46e7841f1d216e37a79e">
       <element xsi:type="archimate:BusinessRole" name="Bronhouder" id="id-0bd68e9ba1e244aeaa10f633eb302c0e">
         <documentation>Een rol die verantwoordelijk is voor het inwinnen, beheren en het verbeteren van de kwaliteit van gegevens.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" name="Gebruiker" id="id-160cbce0ebb8400189fb751b0dbde669">
+        <documentation>Een natuurlijk persoon die gegevens en/of functionaliteit gebruikt voor het uitvoeren van werkzaamheden.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Vertrouwende partij" id="id-34ae37bf77034fd991d6de0c776dc643">
         <documentation>Een rol die vertrouwt op verifieerbare verklaringen van een verklarende partij.</documentation>
@@ -644,6 +662,9 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       </element>
       <element xsi:type="archimate:BusinessRole" name="Middelenuitgever" id="id-9eb924f84a7e479d95a5ea99984a277e">
         <documentation>Een rol die zorg draagt voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" name="Toezichthouder" id="id-a172ca968e54411981680e782674df85">
+        <documentation>Een rol die vanuit een onafhankelijke positie controleert of de toegangsinfrastructuur werkt en voldoende waarde oplevert.</documentation>
       </element>
       <element xsi:type="archimate:BusinessRole" name="Regisseur toegangsinfrastructuur" id="id-b388d510985b436b936e59ead4860ec5">
         <documentation>Een rol die verantwoordelijk is voor het inrichten en besturen van een toegangsinfrastructuur.</documentation>
@@ -1025,7 +1046,6 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       </element>
       <element xsi:type="archimate:Meaning" name="attribuutsoort" id="id-1b1682a9c790429cb1d9249c8937309c">
         <documentation>De definitie van een categorie van attributen.</documentation>
-        <property key="Alternatieve term" value="attribuut"/>
         <property key="Toelichting" value="De gegevens &quot;Jan&quot; en &quot;Katrien&quot; worden als gelijksoortig gezien en worden daarom ondergebracht in Attribuutsoort naam."/>
         <property key="Heeft bron" value="MIM 1.2"/>
       </element>
@@ -1044,7 +1064,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       </element>
       <element xsi:type="archimate:Meaning" name="identiteit" id="id-340553e9700148fc8ee5e5fdc4ec6666">
         <documentation>Een verzameling van kenmerkende eigenschappen van een object.</documentation>
-        <property key="Toelichting" value="In de context van toegang gaat het vooral over entiteiten. Entiteiten kunnen meerdere identiteiten hebben. In een specifieke gebruikscontext zijn er een beperkt aantal kenmerken relevant. Deze deelverzameling wordt ook wel een deelidentiteit genoemd. De term bronidentiteit wordt ook wel gebruikt als een verzameling eigenschappen waarvan de bijbehorende identiteitsgegevens worden beheerd in één of meer gezaghebbende bronnen. Met de term digitale identiteit wordt typisch een identifier bedoeld en dat is strikt genomen geen identiteit confor de hier gegeven definitie."/>
+        <property key="Toelichting" value="In de context van toegang gaat het vooral over entiteiten. Entiteiten kunnen meerdere identiteiten hebben. De kenmerkende eigenschappen worden gerepresenteerd in de vorm van identiteitsgegevens. In een specifieke gebruikscontext zijn er een beperkt aantal kenmerken relevant. Deze deelverzameling wordt ook wel een deelidentiteit of partiële identiteit genoemd. De term bronidentiteit wordt ook wel gebruikt als een verzameling eigenschappen waarvan de bijbehorende identiteitsgegevens worden beheerd in één of meer gezaghebbende bronnen."/>
       </element>
       <element xsi:type="archimate:Meaning" name="identiteitsgegeven" id="id-4205dc71597c498aa58fbb27e88e6618">
         <documentation>Een gegeven dat een kenmerk van een identiteit representeert.</documentation>
@@ -1071,7 +1091,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <element xsi:type="archimate:Meaning" name="bevoegdheid" id="id-7dd94a105db8447a8a5e04755f597671">
         <documentation>Het bezitten van toestemming om een handeling te mogen verrichten.</documentation>
         <property key="Alternatieve term" value="autorisatie"/>
-        <property key="Toelichting" value="In de context van toegang gaat het vooral over het bezitten van toestemming om gebruik te maken van een resource. Een Bevoegdheidbevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
+        <property key="Toelichting" value="In de context van toegang gaat het vooral over het bezitten van toestemming om gebruik te maken van een resource. Een bevoegdheid kan aan een organisatie of een natuurlijke persoon worden toegekend. Een bevoegdheid is randvoorwaardelijk voor het krijgen van toegang, maar niet voldoende."/>
       </element>
       <element xsi:type="archimate:Meaning" name="autorisatieregel" id="id-8384f240b54146aba5434b38474744dc">
         <documentation>Een regel die is gesteld voor toegang tot een resource en waaraan moet worden voldaan voordat een entiteit met een bepaalde identiteit toegang krijgt tot die resource.</documentation>
@@ -1084,7 +1104,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="Toelichting" value="De voorkeursterm in de NORA begrippenlijst is “profiel”, maar dat is geen gangbare term in de context van toegang."/>
       </element>
       <element xsi:type="archimate:Meaning" name="machtiging" id="id-94486e8b519c43299e62c0a3e7ffd6bd">
-        <documentation>Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) met een bepaalde identiteit verleent aan een andere entiteit (de vertegenwoordiger) met een bepaalde identiteit om in naam van eerstgenoemde rechtshandelingen te verrichten.</documentation>
+        <documentation>Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.</documentation>
         <property key="Toelichting" value="Een wettelijke vertegenwoordiging is conform deze definitie dus geen machtiging. Er wordt ook wel onderscheid gemaakt tussen verticale machtingen en horizontale machtigingen. Een verticale machtiging  is een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen. Een horizontale machtiging is een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. "/>
         <property key="Alternatieve term" value="vrijwillige machtiging"/>
       </element>
@@ -1094,7 +1114,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       </element>
       <element xsi:type="archimate:Meaning" name="identificatiemiddel" id="id-99ac832bcfb74dcdb56005bdf42637a4">
         <documentation>Een middel dat verifieerbare verklaringen over identiteitsgegevens kan verstrekken.</documentation>
-        <property key="Toelichting" value="Veel identificatiemiddelen zijn ook authenticatiemiddelen (kunnen gebruikt worden voor authenticatie), maar niet per definitie. Zo is een buitenlands paspoort wel een identificatiemiddel, maar kun je deze in Nederland niet als authenticatiemiddel gebruiken. Er zijn ook authenticatiemiddellen die geen identificatiemiddel zijn. Denk bijvoorbeeld aan een toegangspas voor bezoekers of een one-time password generator. In eIDAS wordt de term “elektronisch identificatiemiddel” gebruikt, waarbij ze vooral authenticatiemiddel bedoelen omdat ze stellen dat deze bedoeld is voor authenticatie."/>
+        <property key="Toelichting" value="In de domeinarchitectuur beschouwen we identificatiemiddelen als authenticatiemiddelen. Het zijn dan middelen die gebruikt worden voor authenticatie. Dit is in lijn met de eIDAS verordening die de term “elektronisch identificatiemiddel” gebruikt met een vergelijkbare betekenis. Niet alle identificatiemiddelen zijn ook authenticatiemiddelen. Zo is een buitenlands paspoort wel een identificatiemiddel, maar kun je deze in Nederland niet als authenticatiemiddel gebruiken. Er zijn ook authenticatiemiddellen die geen identificatiemiddel zijn. Denk bijvoorbeeld aan een toegangspas voor bezoekers of een one-time password generator."/>
       </element>
       <element xsi:type="archimate:Meaning" name="entiteit" id="id-af549567dc354a888dff1cf13dad4fea">
         <documentation>Een object dat gedrag kan vertonen.</documentation>
@@ -1151,7 +1171,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <documentation>Het is steeds minder duidelijk wie vertrouwd kan worden, bijvoorbeeld doordat het onderscheid tussen interne en externe medewerkers steeds minder scherp wordt en mensen steeds meer thuiswerken. In het zero trust model wordt ervan uitgegaan dat gebruikers, apparaten en het netwerk standaard niet vertrouwd kunnen worden, ook als apparaten verbonden zijn aan het lokale netwerk. Uitgangspunt is dan dat identiteiten altijd sterk worden gecontroleerd voorafgaand aan het verstrekken van toegang. Gebruikers krijgen ook alleen de minimaal noodzakelijke toegang. Het niveau van beveiliging wordt hierdoor verhoogd. Autorisatie dient plaatst te vinden op functionaliteiten en op basis van het need-to-know principle. Dit betekent dat de gebruiker alleen toegang krijgt tot tools, data en zones die daadwerkelijk noodzakelijk zijn voor het werk dat diegene doet. Daarbij wordt gebruik gemaakt van contextuele en adaptieve toegangscontrole.</documentation>
       </element>
       <element xsi:type="archimate:Driver" name="Gegevensruimtes" id="id-e969f8df00c541f58240787b2f36182b" profiles="id-b1251fd984bf4caca18b0cfe11e36a03">
-        <documentation>Gedreven vanuit de Europese datastrategie is er veel aandacht voor gegevensruimtes (data spaces). Er moet een Europese gegevensruimte komen, een interne markt voor data, waar zowel overheidsorganisaties als bedrijven gebruik van kunnen maken. Binnen deze Europese gegevensruimte ziet de Europese Commissie 14 gemeenschappelijke gegevensruimtes ontstaan voor specifieke sectoren. De precieze inrichting van veel van deze gegevensruimtes is nog onduidelijk. Kernaspecten van gegevensruimtes zijn data souvereiniteit en vertrouwen, wat vraagt om beveiligde toegang tot gegevens.</documentation>
+        <documentation>Gedreven vanuit de Europese datastrategie is er veel aandacht voor gegevensruimtes (data spaces). Er moet een Europese gegevensruimte komen, een interne markt voor data, waar zowel overheidsorganisaties als bedrijven gebruik van kunnen maken. Binnen deze Europese gegevensruimte ziet de Europese Commissie 14 gemeenschappelijke gegevensruimtes ontstaan voor specifieke sectoren. De precieze inrichting van veel van deze gegevensruimtes is nog onduidelijk. Kernaspecten van gegevensruimtes zijn data soevereiniteit en vertrouwen, wat vraagt om beveiligde toegang tot gegevens.</documentation>
       </element>
       <element xsi:type="archimate:Driver" name="Self Sovereign Identity" id="id-fc14a5ba3d0946f5af78c7eeaed0d849" profiles="id-b1251fd984bf4caca18b0cfe11e36a03">
         <documentation>Self Sovereign Identity (SSI) is een visie op identiteiten waarbij de gebruiker zelf centraal staat. Het basisprincipe is dat gebruikers zelf controle hebben over hun eigen identiteit. Identiteiten zijn dus niet gebonden aan een specifieke site of partij. Ze zijn en blijven ten alle tijden van de gebruiker en deze kan er altijd naar refereren, deze aanpassen of zelfs verbergen. Gebruikers kunnen hun identiteit voorzien van allerlei verklaringen, die deels van henzelf komen en die deels afkomstig zijn van anderen. Deze verklaringen en andersoortige gegevens die deel uitmaken van de identiteit zijn altijd eenvoudig voor gebruikers te raadplegen. Verklaringen zijn daarmee niet noodzakelijkerwijs ook aan te passen door gebruikers, maar ze zijn er altijd bewust van. Gebruikers bepalen zelf aan wie ze de verklaringen en gegevens verstrekken en er worden geen gegevens verstrekt die niet nodig zijn. Identiteiten blijven lang geldig, in ieder geval zolang de gebruiker dat wil. Ze kunnen breed gebruikt worden. Er is niet één gemeenschappelijke interpretatie van de term SSI. Er zijn vooral allerlei interpretaties die een mate van overlap vertonen. Een deel van de oplossingen zoals voorgesteld voor SSI maakt gebruik van Blockchain technologie.</documentation>
@@ -1365,7 +1385,6 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="Implicaties" value="3. Beveiligingsmaatregelen zijn vooraf toetsbaar en achteraf auditeerbaar door de toezichthoudende autoriteit.."/>
         <property key="Implicaties" value="4. Burgers en organisaties hebben regie op hun eigen gegevens (zie principe in domeinarchitectuur gegevensuitwisseling)."/>
         <property key="Implicaties" value="5. Burgers en organisaties hebben inzicht in wie toegang heeft gekregen tot gegevens over henzelf en op basis van welk identificatiemiddel, welke vertegenwoordigingsbevoegdheden en welke autorisatieregels."/>
-        <property key="Implicaties" value="6. De broncode van publieke identificatiemiddelen wordt publiek beschikbaar gesteld."/>
       </element>
       <element xsi:type="archimate:Principle" name="3. Organisaties wisselen alleen strikt noodzakelijke gegevens uit" id="id-77965a4ab86c43fb809656f759830dc1">
         <documentation>Dataminimalisatie is een uitgangspunt in de AVG en betekent dat de persoonsgegevens die worden gebruikt zijn beperkt tot het hoogst noodzakelijke. Dit heeft in de context van toegang vooral betrekking op de verklaringen die worden gevraagd aan verklarende partijen over de identiteiten en de eigenschappen die in deze verklaringen zitten. Informatie is ook niet altijd voor alle handelingen binnen een dienst relevant. Het zou daarom niet passend zijn om specifieke verklaringen en informatie op te halen als niet zeker is dat deze ook daadwerkelijk nodig is. Voor veel diensten is het helemaal niet relevant wie de precieze persoon is, welke BSN daarbij hoort en of deze persoon uit Nederland komt of niet. Voor deze diensten volstaat een pseudoniem. Veel belangrijker is het om te weten of de gebruiker over de juiste bevoegdheden beschikt. Opsporingsdiensten hebben wel duidelijk andere informatiebehoeften en bevoegdheden. Daarnaast kan het nodig zijn om comfortinformatie uit te wisselen. Dat is informatie die strikt genomen niet nodig is, maar wel belangrijk is om betekenisvol informatie te presenteren naar gebruikers in een gebruikersinterface zoals namen van mensen en organisaties.</documentation>
@@ -1395,7 +1414,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="Implicaties" value="2. Machtigingen worden beperkt tot bevoegdheden die precies voldoende zijn voor een vertegenwoordiger."/>
         <property key="Implicaties" value="3. Entiteiten krijgen op basis van hun verifieerbare verklaringen alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaringen."/>
         <property key="Implicaties" value="4. Organisaties hebben processen waarbij de rollen en (vertegenwoordigings)bevoegheden van medewerkers regelmatig worden geevalueerd en aangepast, zoals bij doorstroom en uitstroom."/>
-        <property key="Implicaties" value="5. Organisaties geven hun certificaten em/of sleutels niet af aan derde partijen, die daar vervolgens bevoegdheden mee krijgen die ze kunnen misbruiken, maar verstrekken hen alleen een machtiging."/>
+        <property key="Implicaties" value="5. Organisaties geven hun certificaten en/of sleutels niet af aan derde partijen, die daar vervolgens bevoegdheden mee krijgen die ze kunnen misbruiken, maar verstrekken hen alleen een machtiging."/>
       </element>
       <element xsi:type="archimate:Principle" name="8. Systemen in de keten autoriseren op basis van de identiteit en de bevoegdheden van de gebruiker die de interactie start" id="id-b4d6dca9b88d4f5da8a409f492280af1">
         <documentation>Door autorisatie van gebruikers in alle belangrijke systemen in de keten plaats te laten vinden worden beveiligingsrisico's geminimaliseerd. Het voorkomt dat er halverwege de keten met een generieke  identiteit (bijvoorbeeld een systeemaccount) toch ongeautoriseerd toegang kan worden verkregen tot persoonsgegevens. Tegelijkertijd kunnen overheidsorganisaties een wettelijke basis hebben om gegevens van gebruikers te delen, zonder dat de gebruiker daar expliciet toestemming voor geeft. In die gevallen is het propageren van de identiteit van de gebruiker niet relevant.</documentation>
@@ -1520,21 +1539,26 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssignmentRelationship" id="id-0e9ae6acbd06400a9038bc91cf18354c" source="id-b388d510985b436b936e59ead4860ec5" target="id-96ff8c5d886f4013b003c77ee8907044"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-15d7a7776fe74c17bf699b17cffea031" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-b750feb34d9c40588f9443c33145b59e"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-19aa874952fb42f19562f3dcd7c1318a" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-255f366d27674fbbadba62df718e78a1" source="id-64294694c5484d4693e67a05359d6a12" target="id-6542c5c440084cb8a856e2c30ecad892"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-3603b196da15461c9a8ea2f2f1d41fb6" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-c5998016874b4a3f9a80d62f09af3f33"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-255f366d27674fbbadba62df718e78a1" source="id-573203ed1c8b4c37841226848f98a089" target="id-6542c5c440084cb8a856e2c30ecad892"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-3603b196da15461c9a8ea2f2f1d41fb6" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-7f4acb54b45f4d77bbec4f16ea8d52a8"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-3b4cdd789dc04e9da08f1ef259923734" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-d99f5610425448249b780d45cd71af5f"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-3fb5ddf549d545a88ffb7e612c7c0a5f" source="id-b388d510985b436b936e59ead4860ec5" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-51fff6f5aa8b47d39c30d058ea1f108a" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-522b1467667646ccb017e52455f0af44"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-52295b9c2bdc46e6a3331c6bf0ce8be5" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-f5ed40da3592429082e7f978de22be46"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-637403162f1b4b4e952a9ea6dbee0988" source="id-cd4216b658324e39925728e61320ae4c" target="id-40c81c1087394f71aa0ad0c1775a97fb"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-68341a9f0b974b6d9bd5905653065e3f" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-89cae607ed114aa9b258920260a4499c"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-6ba4874b11994b308cd7ec8a08c02c49" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-fa4be6b66e8d4eb68c946f1f59cad1b1"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-70d195986f384db1a943de0a7fdf2475" source="id-9eb924f84a7e479d95a5ea99984a277e" target="id-fe587c1bae3c453285eccb764194ced3"/>
-    <element xsi:type="archimate:AssignmentRelationship" id="id-85810e63b99746d2847715fc742ba79f" source="id-64294694c5484d4693e67a05359d6a12" target="id-121061d0dfc74da48a428a108e57b9d2"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-7590669bd21849e98e45d91e2c694978" source="id-a172ca968e54411981680e782674df85" target="id-d9cb79ae0cd64f30a7213037af6280fe"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-85810e63b99746d2847715fc742ba79f" source="id-573203ed1c8b4c37841226848f98a089" target="id-121061d0dfc74da48a428a108e57b9d2"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-8d9cfe71da7f4fc4a7ec88f5701ad354" source="id-b388d510985b436b936e59ead4860ec5" target="id-55c7b8c858794843993b05b87c34fe1d"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-925a3c4f42f7491ca4657354e15cd417" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-94573268a2504a3bba4b01c3c0a03664" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-920f614c629f45e196645b1744dc91b6"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-95aa827ae9d244769fb25a2601ebed8d" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-6627523870a84b19817156bd7c6db45b"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a0ce846f36b543fa9c0ce6d796608743" source="id-573203ed1c8b4c37841226848f98a089" target="id-87efb23dd060485693d5d93dc857dbf4"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a75ec0311bcc4586b9a4a9cc8954bd35" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-83db5a52a2914474a04a7152fa9d12e0"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-b202e2ead5f641808c878c6fe6046b61" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-52aa4858c63d46faa3fa7c4b92716e53"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-c12ceb6d7d6a46adb4c90b90d6346cbb" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-1e240322fbec495f9895c2f7cb22f552"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c3860ae5c94145eb8c807025d3ed2f6b" source="id-64294694c5484d4693e67a05359d6a12" target="id-715ea15b4b9146498e9e88e3cee41494"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c3b3ad88333740b19b0b649b5002c599" source="id-b388d510985b436b936e59ead4860ec5" target="id-4a798952a1ce4c129980061149b0a6c9"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-c6c705a0851e4322be73a91125e2880a" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-6542c5c440084cb8a856e2c30ecad892"/>
@@ -1558,7 +1582,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="4.4" id="id-17cd51c4d13e44558be72f23e3401f5f" source="id-5290881708d14046854ed00cf901874e" target="id-7af4783895fc4fb6b4cb8e96e8708e85">
-      <property key="volgnummer" value="14"/>
+      <property key="volgnummer" value="13"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-182ddb689fd14c51a49bc4daea15f545" source="id-d766d65c0ea14ecc9e01f99938d0b61b" target="id-48d09a140e6140c5a0d848e8275c2590"/>
@@ -1574,7 +1598,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-26c7b3e689fd4833a661cca53b54a693" source="id-045a4575e8744777b97e18d8e5bda6d1" target="id-67a39e2cf1274f5c9340308f07a77152"/>
     <element xsi:type="archimate:AssociationRelationship" name="4.2" id="id-2a6885740f0e4c1d9a8c1bd6ea05d738" source="id-5290881708d14046854ed00cf901874e" target="id-1064b8991eb64f4e8adc8f35fc1396ea">
-      <property key="volgnummer" value="12"/>
+      <property key="volgnummer" value="11"/>
       <property key="niveau" value="2"/>
       <property key="type" value="properties"/>
     </element>
@@ -1590,7 +1614,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" id="id-44f76c868d5a4a0ab24f45b69c46eaec" source="id-92b61d714b7f4ed6a2ffed3d71bc34be" target="id-c89765631a7f4df58760c8fc9d6acea7"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4567805c17114812a6f0ecc06f8b5b49" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-aba62ba51df147c0922f2fadd1c343a2"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.3" id="id-4687050efd0d480e9ca037fdaa0d3682" source="id-5290881708d14046854ed00cf901874e" target="id-beae3c7f591a4525a89ff0ce63d003fb">
-      <property key="volgnummer" value="19"/>
+      <property key="volgnummer" value="18"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1613,28 +1637,23 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" id="id-772236d8434d4f8f8e4439177603af27" source="id-4d32e4b7ef9c4a85acfa2c562ad218d2" target="id-680a6d400c1c400d8126bb99497132ba"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-77691acb1c03490ba39fbeb7eaae9576" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-680a6d400c1c400d8126bb99497132ba"/>
     <element xsi:type="archimate:AssociationRelationship" name="4.5" id="id-7811a9b72ef543ae96853109042fcbb4" source="id-5290881708d14046854ed00cf901874e" target="id-7a3c760780f84b49aae60cc45cbeb885">
-      <property key="volgnummer" value="15"/>
+      <property key="volgnummer" value="14"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-7987e55a0666416e9d948301dea7832b" source="id-4154a89dfdf84ffe958de98a06935941" target="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-7d3b314f8f1e4049a7aeec9c74194071" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-1bde333f838544c295f2ea7ed58297f5"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.1" id="id-7fd58b0daf6b409aa81b822a2a194b4d" source="id-5290881708d14046854ed00cf901874e" target="id-99cbfb6171e24415a2d555ae897ba9d6">
-      <property key="volgnummer" value="17"/>
+      <property key="volgnummer" value="16"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="heeft" id="id-7ff61d796c7848d68430244c15668575" source="id-532a8fb36d024c0da03b4890db4de4d8" target="id-9e14841bf7a34845a4465fb9aa96cc53" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" name="4.3" id="id-80a0096d66ab41168d7ace75c00d3f79" source="id-5290881708d14046854ed00cf901874e" target="id-df84c34285474bdebefd163a965d6403">
-      <property key="volgnummer" value="13"/>
+      <property key="volgnummer" value="12"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-8135e8cf3ca1498b9fcf7daf7c143ac0" source="id-276320a6bad14e10a39ac2bcfcd13178" target="id-aba62ba51df147c0922f2fadd1c343a2"/>
-    <element xsi:type="archimate:AssociationRelationship" name="3.5" id="id-826442cc455f46039ec760b208747788" source="id-5290881708d14046854ed00cf901874e" target="id-9edaa105afef4c02bab19e78598847a7">
-      <property key="volgnummer" value="9"/>
-      <property key="niveau" value="2"/>
-      <property key="type" value="overzicht"/>
-    </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-8452c01c43ea4d44954d2555af1434c5" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-a7f43379e5574a35aafc28219ec22422"/>
     <element xsi:type="archimate:AssociationRelationship" name="heeft betrekking op" id="id-8990f91df1c940f99f1271f3e2cd6635" source="id-f51d4497b87b4751842effe518b903d5" target="id-9e14841bf7a34845a4465fb9aa96cc53" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-89b7889dbd27459eac5e224e66f75218" source="id-71518055a4194c55844b0ed040dacbe2" target="id-3c7bfb3e7cc040a789d4021a3cba1548"/>
@@ -1645,7 +1664,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="5" id="id-8efdc7f6ba8346d8b389d49e851c3df3" source="id-5290881708d14046854ed00cf901874e" target="id-4ae1e3c208314746b2825716ed62a606">
-      <property key="volgnummer" value="16"/>
+      <property key="volgnummer" value="15"/>
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="bewijst" id="id-941f8940d8054b30a5403e6c2110c1d1" source="id-a6805c3d0daa4690a04d2f2251c65cc0" target="id-d766d65c0ea14ecc9e01f99938d0b61b" directed="true"/>
@@ -1655,7 +1674,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" name="creëert" id="id-9cc9645523d64e6c95b1a77ad512de24" source="id-9f8c3a76be074fb791acb27cd1335fbb" target="id-a6805c3d0daa4690a04d2f2251c65cc0" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-9da842e9061747ba97b6736a10ee87b5" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-f16e5d0b4abc45fe9b1a0a5152478799"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.6" id="id-9e0ceccb2f5648a289ceea6506fc5265" source="id-5290881708d14046854ed00cf901874e" target="id-2ce199487e094f099863995e07a7e605">
-      <property key="volgnummer" value="22"/>
+      <property key="volgnummer" value="21"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-9e0e814a4fc5469b92a70ca994b267e5" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-48d09a140e6140c5a0d848e8275c2590"/>
@@ -1663,7 +1682,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" id="id-a267b536d24e4164a567d2b57dfb3929" source="id-7e86f18658114d58a7bac9a3d0400b55" target="id-8263de75e16b4b5189e83635d262aca6"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a2a535c2d11a45879a207c059997e937" source="id-4154a89dfdf84ffe958de98a06935941" target="id-796d8d20bc8947d29a2838fdb0886cfe"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.4" id="id-a3e2c5d67feb4d7a8d61c86731ca4ae3" source="id-5290881708d14046854ed00cf901874e" target="id-9592d4808efb4be9aa2751e0019b4771">
-      <property key="volgnummer" value="20"/>
+      <property key="volgnummer" value="19"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1675,7 +1694,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="heeft" id="id-a6632874d3c948c38f30b90ab319aa6c" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-4d32e4b7ef9c4a85acfa2c562ad218d2" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" name="4.1" id="id-a98d73890aa84bef837175216e37e4d3" source="id-5290881708d14046854ed00cf901874e" target="id-57896b8c4e854e7b92ed667986aa09ee">
-      <property key="volgnummer" value="11"/>
+      <property key="volgnummer" value="10"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-ad37c33e7f4d421a8cce4f2b02000915" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-b909eb52cd8f4b7fa5deb1ce698fdec7"/>
@@ -1685,7 +1704,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" id="id-b0ecbc5f4cb24d219892a9b05c2256df" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-eace5befea1a4c7ab564a8e9fc28f462"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-b1eea8de32fd45c5995a595deff6c70e" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-8f607c3b2daa4f6fafff09a1c39691bc"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.7" id="id-b3f188c6e4994e56b18264ca58fb8243" source="id-5290881708d14046854ed00cf901874e" target="id-db058829d6194cd59fd9d78182fb6933">
-      <property key="volgnummer" value="23"/>
+      <property key="volgnummer" value="22"/>
       <property key="niveau" value="2"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" name="3.2" id="id-b56a7ed7b680404f8e0d93559c1e0808" source="id-5290881708d14046854ed00cf901874e" target="id-3901960cf6bc43669f04f6aa4baaf73e">
@@ -1703,7 +1722,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" name="wordt vastgelegd in" id="id-c1d376140f8f4c0e848a501929674b39" source="id-4d32e4b7ef9c4a85acfa2c562ad218d2" target="id-7417b19f5c21447d8bf281baf4315b20" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c2315582b9394b90a94d9ac98f6fa2d7" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-f9da9684596a40cd91f4a8ec2cf0d73c"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.5" id="id-c4f11611cc614ba5b9dc5d93c320ea20" source="id-5290881708d14046854ed00cf901874e" target="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
-      <property key="volgnummer" value="21"/>
+      <property key="volgnummer" value="20"/>
       <property key="niveau" value="2"/>
       <property key="type" value="overzicht"/>
     </element>
@@ -1738,14 +1757,14 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:AssociationRelationship" id="id-f70be049b7564e8d9c2e9c938c6649b0" source="id-61dc33c76ec94288b37d10018c2e8caa" target="id-c5998016874b4a3f9a80d62f09af3f33"/>
     <element xsi:type="archimate:AssociationRelationship" name="bewijst" id="id-f920610ad6df4de5b46ef0782f6b9a1c" source="id-6ed7f3d944764c60a45fe6780a041a42" target="id-1cb3ac18cb83432ebe33dacfbd3d2832" directed="true"/>
     <element xsi:type="archimate:AssociationRelationship" name="5.2" id="id-f93e114a5fb24da288f3673c2947dce7" source="id-5290881708d14046854ed00cf901874e" target="id-ec079e908ff84941a103d1e0bc024faa">
-      <property key="volgnummer" value="18"/>
+      <property key="volgnummer" value="17"/>
       <property key="niveau" value="2"/>
       <property key="type" value="properties"/>
     </element>
     <element xsi:type="archimate:AssociationRelationship" id="id-fda11692bc624d9cafba4a5c3a1531ab" source="id-9e14841bf7a34845a4465fb9aa96cc53" target="id-a7f43379e5574a35aafc28219ec22422"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-fdb4e93214924522ad9c7005c72a5be3" source="id-71518055a4194c55844b0ed040dacbe2" target="id-379259c7ae384725a8f3f47867cb88a7"/>
     <element xsi:type="archimate:AssociationRelationship" name="4" id="id-fdbe6c04860b49f59fb7d1e7651922cd" source="id-5290881708d14046854ed00cf901874e" target="id-e572700165f84f9783f1b3d0e3162a5c">
-      <property key="volgnummer" value="10"/>
+      <property key="volgnummer" value="9"/>
       <property key="niveau" value="1"/>
     </element>
     <element xsi:type="archimate:CompositionRelationship" id="id-0134e2f6376b401bb1ca1c16eb400d69" source="id-079caeb56ec2440cad449a57741e2837" target="id-87d20390ad9b43eea623acd8193d0428"/>
@@ -1799,6 +1818,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     </element>
     <element xsi:type="archimate:FlowRelationship" name="dienst" id="id-0520e570b83141eaaff96818efec5e81" source="id-43e810d2d45042ff8bc6192d6b05c2e1" target="id-573203ed1c8b4c37841226848f98a089"/>
     <element xsi:type="archimate:FlowRelationship" name="BSNk sleutel" id="id-0a9c45b76fa545d1897913ff4e453778" source="id-92b61d714b7f4ed6a2ffed3d71bc34be" target="id-baa0a1a458e54436813047815a6a1ac6"/>
+    <element xsi:type="archimate:FlowRelationship" name="verifieerbare verklaring" id="id-0b3d296af7ff41db92a0c27e65e11e10" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-573203ed1c8b4c37841226848f98a089"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-0c94aad0effc47d891456206c646bc32" source="id-f4548c8759f248f9a3ff3195c0b256c3" target="id-a999c3ee595a4b95b7260d9689934bcc"/>
     <element xsi:type="archimate:FlowRelationship" name="identificatiemiddel" id="id-0c9548ea9a6144918d77e3a12e6e6f63" source="id-9eb924f84a7e479d95a5ea99984a277e" target="id-7202f8ec02f644fb805e68388799f37f"/>
     <element xsi:type="archimate:FlowRelationship" name="dienst" id="id-1429eccc76574287aab1a109f6b2505c" source="id-43e810d2d45042ff8bc6192d6b05c2e1" target="id-9675a33d1c104ef4960db2634f60d9ac"/>
@@ -1809,6 +1829,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <documentation>BSN gaat naar BSNk-activatie en PI/PP gaat terug</documentation>
     </element>
     <element xsi:type="archimate:FlowRelationship" name="diensverlener, dienst" id="id-2539f002f47c41959f2da3c938b39255" source="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67" target="id-93a1371d1b704ef9b0d88e433f3ab319"/>
+    <element xsi:type="archimate:FlowRelationship" name="identiteitsgegevens" id="id-256528db05da46c69cbeb23b34836196" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-9eb924f84a7e479d95a5ea99984a277e"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverklaring" id="id-25b1eb9d52294b89bb5e270dc78e32d6" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-573203ed1c8b4c37841226848f98a089"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-2b7f316003ad406daec7000753c9a06c" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda">
       <documentation>voor dienstencatalogus en aansluiten</documentation>
@@ -1842,6 +1863,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener" id="id-757f678ac3374b5f8c58a18c18ad5234" source="id-7a16034297c64f98ac840c5d6897d749" target="id-5730a811d02540318bd5939dbf387d8a"/>
     <element xsi:type="archimate:FlowRelationship" id="id-76aa8287523f417686168135b54f9902" source="id-7a16034297c64f98ac840c5d6897d749" target="id-796d8d20bc8947d29a2838fdb0886cfe"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-77bc7906a46c45bd8a5f92e935df79f1" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-f4548c8759f248f9a3ff3195c0b256c3"/>
+    <element xsi:type="archimate:FlowRelationship" name="identiteitsgegevens" id="id-78986e3280364aedb3654bbdc854b6c3" source="id-0bd68e9ba1e244aeaa10f633eb302c0e" target="id-7704adc1f92441d0b314f1d05a716b04"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-78f817f14adf4d1c81e217ddbe447a7e" source="id-1c827b9387274ffe83285328a7e60046" target="id-a999c3ee595a4b95b7260d9689934bcc"/>
     <element xsi:type="archimate:FlowRelationship" name="dienseverlener, dienst" id="id-7b98b7cba380408d8e59120fd4679643" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-1c827b9387274ffe83285328a7e60046">
       <documentation>voor dienstencatalogus</documentation>
@@ -1852,6 +1874,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="activatie" id="id-8d3e572a7c5a4bbe83db676e9ffd0dcf" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-e25448c20ae04cfc85e54847cde73e76">
       <documentation>BSN, naam en geboortedatum gaat naar BSNk-activatie en PI/PP gaat terug</documentation>
     </element>
+    <element xsi:type="archimate:FlowRelationship" name="verifieerbare verklaring" id="id-8d59db34931a471a965c62c5539bbe88" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-9675a33d1c104ef4960db2634f60d9ac"/>
     <element xsi:type="archimate:FlowRelationship" name="VI/VP@DV" id="id-92022035c5a84beea003af774428735b" source="id-01049568026845549513722ef5e8079b" target="id-93a1371d1b704ef9b0d88e433f3ab319">
       <documentation>op basis van input van PI/PP en dienstverlener</documentation>
     </element>
@@ -1888,6 +1911,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-d8caae1bf5de40ff9193627911369942" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-4e14f612fda64d97ad15c9e7e10fe7d3">
       <documentation>ten behoeve van aansluiten</documentation>
     </element>
+    <element xsi:type="archimate:FlowRelationship" name="verzoek" id="id-dc4c4371ce6c43c0987901a32dfbcdf5" source="id-160cbce0ebb8400189fb751b0dbde669" target="id-43ff9aa71f9d42f6b923887431c90bfc"/>
     <element xsi:type="archimate:FlowRelationship" name="machtiging" id="id-de8f02c80d5744ea84db9883add41991" source="id-796d8d20bc8947d29a2838fdb0886cfe" target="id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
     <element xsi:type="archimate:FlowRelationship" name="verifieerbare verklaring" id="id-e2906b8f06ad4520b218af72ef32a2c1" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-43ff9aa71f9d42f6b923887431c90bfc"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener" id="id-e33db97702504fa79481c3fd8b315035" source="id-7a16034297c64f98ac840c5d6897d749" target="id-8263de75e16b4b5189e83635d262aca6"/>
@@ -2042,6 +2066,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:SpecializationRelationship" id="id-a78df8eae04c423898fe432205da7d82" source="id-43ff9aa71f9d42f6b923887431c90bfc" target="id-34ae37bf77034fd991d6de0c776dc643"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-b73a84bafdeb464182124bc87f30652f" source="id-d128055e2a98447ea02185273849dac9" target="id-276320a6bad14e10a39ac2bcfcd13178"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-b8e7f50fe1db4f589690fe8a898f7f25" source="id-716262df16c04d2eab3f45cf6f107af5" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-bc9ba584db8447e495cdc24e260e249c" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-64294694c5484d4693e67a05359d6a12"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-c5d1883a035f40eab74e9b53ab3ec66d" source="id-64294694c5484d4693e67a05359d6a12" target="id-8d2556e7d06240a9b05e03cff58fe696"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-ed80f8cf6cb8463cbbf6375cda827f3e" source="id-f51d4497b87b4751842effe518b903d5" target="id-a6805c3d0daa4690a04d2f2251c65cc0"/>
   </folder>
@@ -2104,6 +2129,16 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bendpoint startX="242" startY="81" endX="-596" endY="-99"/>
             <bendpoint startX="806" startY="81" endX="-32" endY="-99"/>
           </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ee7f953ef4e34caf826902c46fd86d0a" source="id-c3cfe4f3de9044609671fe885850fc4c" target="id-77557ce04e4049cb914bfa267a351e26" archimateRelationship="id-0b3d296af7ff41db92a0c27e65e11e10">
+            <bendpoint startX="-10" startY="93" endX="-576" endY="-87"/>
+            <bendpoint startX="242" startY="93" endX="-324" endY="-87"/>
+            <bendpoint startX="530" startY="93" endX="-36" endY="-87"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5803dc0e95dc44b687e731272a13a4ab" source="id-c3cfe4f3de9044609671fe885850fc4c" target="id-92d1236d8ed24751afc535988380c484" archimateRelationship="id-256528db05da46c69cbeb23b34836196">
+            <bendpoint startX="-82" startY="-3" endX="-82" endY="-351"/>
+            <bendpoint startX="-82" startY="261" endX="-82" endY="-87"/>
+            <bendpoint startX="-82" startY="345" endX="-82" endY="-3"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-0bb108d4ac9c4d09bbfa5b0c95611ef3" targetConnections="id-fa7415dd00a34181aa47a09862de2048" textPosition="1" archimateElement="id-716262df16c04d2eab3f45cf6f107af5">
           <bounds x="380" y="60" width="120" height="55"/>
@@ -2114,7 +2149,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-c549c874cb544522bfb041b62ee19a0d" source="id-0bb108d4ac9c4d09bbfa5b0c95611ef3" target="id-77557ce04e4049cb914bfa267a351e26" archimateRelationship="id-57cf1c94a6574b6f8bb3da50819778f7">
             <bendpoint startX="136" startY="-3" endX="-132" endY="-183"/>
-            <bendpoint startX="244" startY="-3" endX="-24" endY="-183"/>
+            <bendpoint startX="268" startY="-3" endY="-183"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-e7af8843514643d0b76bb1a3eb5db1f7" source="id-0bb108d4ac9c4d09bbfa5b0c95611ef3" target="id-5f5853fc0e2a4febb18d516b5bf3fd31" archimateRelationship="id-f3f37a27df344b4f892017d00f56c730">
             <bendpoint startX="100" startY="9" endX="100" endY="-339"/>
@@ -2122,7 +2157,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bendpoint startX="98" startY="309" endX="96" endY="-3"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-92d1236d8ed24751afc535988380c484" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
+        <child xsi:type="archimate:DiagramObject" id="id-92d1236d8ed24751afc535988380c484" targetConnections="id-5803dc0e95dc44b687e731272a13a4ab" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
           <bounds x="82" y="408" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-f1d6938a02aa4ba6b77f7cdc4a00339c" source="id-92d1236d8ed24751afc535988380c484" target="id-a53816bc702a4c779c0ad74d3a4281f0" archimateRelationship="id-3030c2cb0810458c8bd92c507e776962"/>
@@ -2143,7 +2178,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bendpoint startX="516" startY="60" endY="57"/>
           </sourceConnection>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-77557ce04e4049cb914bfa267a351e26" targetConnections="id-2d33260b854b4fa9a1dcc83153a4cefd id-01799c1207e545789574b387a2289b1b id-c549c874cb544522bfb041b62ee19a0d" textPosition="1" archimateElement="id-573203ed1c8b4c37841226848f98a089">
+        <child xsi:type="archimate:DiagramObject" id="id-77557ce04e4049cb914bfa267a351e26" targetConnections="id-2d33260b854b4fa9a1dcc83153a4cefd id-01799c1207e545789574b387a2289b1b id-c549c874cb544522bfb041b62ee19a0d id-ee7f953ef4e34caf826902c46fd86d0a" textPosition="1" archimateElement="id-573203ed1c8b4c37841226848f98a089">
           <bounds x="648" y="240" width="120" height="55"/>
           <feature name="iconVisible" value="2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-98a6a2effb22450596e2b28d8f36bc63" source="id-77557ce04e4049cb914bfa267a351e26" target="id-f469dfb4df5d4a5798188de24a3775ce" archimateRelationship="id-4498c0fe85174730ba10851a5addfa8e">
@@ -2167,7 +2202,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bendpoint startX="-130" startY="6" endX="-696" endY="-3"/>
             <bendpoint startX="-130" startY="-234" endX="-696" endY="-243"/>
             <bendpoint startX="254" startY="-234" endX="-312" endY="-243"/>
-            <bendpoint startX="578" startY="-234" endX="12" endY="-243"/>
+            <bendpoint startX="602" startY="-234" endX="36" endY="-243"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-8ca32286c9a2434ea85b01847a331ecd" source="id-80c9f956064049fc9f57ae9d0d564372" target="id-a53816bc702a4c779c0ad74d3a4281f0" archimateRelationship="id-1429eccc76574287aab1a109f6b2505c"/>
         </child>
@@ -2473,6 +2508,67 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <bounds x="247" y="174" width="120" height="55"/>
         </child>
       </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Samenhang kernrollen" id="id-66d49892d19b4fcf80527912c39779e1">
+        <child xsi:type="archimate:DiagramObject" id="id-a9a9aeb20aa14b01bdddff96d1e7abd3" textPosition="1" archimateElement="id-7704adc1f92441d0b314f1d05a716b04">
+          <bounds x="960" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-95c5595dc63142b08dc8aee35ad0183a" source="id-a9a9aeb20aa14b01bdddff96d1e7abd3" target="id-b16e25bd49f24e1e884962bc9a7955fc" archimateRelationship="id-e2906b8f06ad4520b218af72ef32a2c1">
+            <bendpoint startX="12" startY="-96" endX="912" endY="-96"/>
+            <bendpoint startX="-876" startY="-96" endX="24" endY="-96"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-63322d588c11492e95400f82611bbed6" source="id-a9a9aeb20aa14b01bdddff96d1e7abd3" target="id-e27c6beda3bf4629a54ab3a9e17ec398" archimateRelationship="id-0b3d296af7ff41db92a0c27e65e11e10">
+            <bendpoint startX="-12" startY="-60" endX="576" endY="-60"/>
+            <bendpoint startX="-564" startY="-60" endX="24" endY="-60"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9e37536e0eab4333b5bd6838793ca0ed" source="id-a9a9aeb20aa14b01bdddff96d1e7abd3" target="id-496813d66e1a44c0828853e64db11565" archimateRelationship="id-256528db05da46c69cbeb23b34836196">
+            <bendpoint startY="156" endX="300" endY="-3"/>
+            <bendpoint startX="-144" startY="156" endX="156" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-723a02ea7d544d029eaa8614125b06d7" source="id-a9a9aeb20aa14b01bdddff96d1e7abd3" target="id-9a8b9692837244bbb468fe227b887ceb" archimateRelationship="id-8d59db34931a471a965c62c5539bbe88"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f33ae7b5dd4b430b957e287422fccc27" textPosition="1" archimateElement="id-716262df16c04d2eab3f45cf6f107af5">
+          <bounds x="660" y="60" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-501121da98664b80862dd7d43971c9ac" source="id-f33ae7b5dd4b430b957e287422fccc27" target="id-b16e25bd49f24e1e884962bc9a7955fc" archimateRelationship="id-e7e2726294a749bda1e5baa299e71ceb">
+            <bendpoint startX="-612" startY="-3" endX="-12" endY="-180"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9a6dd4505d06412b839f8aabda79e25e" source="id-f33ae7b5dd4b430b957e287422fccc27" target="id-e27c6beda3bf4629a54ab3a9e17ec398" archimateRelationship="id-57cf1c94a6574b6f8bb3da50819778f7">
+            <bendpoint startX="-324" startY="9" endX="-36" endY="-168"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-496813d66e1a44c0828853e64db11565" targetConnections="id-9e37536e0eab4333b5bd6838793ca0ed" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
+          <bounds x="660" y="408" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5cfffaf7b15b4e53bf6c2934022d8069" source="id-496813d66e1a44c0828853e64db11565" target="id-9a8b9692837244bbb468fe227b887ceb" archimateRelationship="id-3030c2cb0810458c8bd92c507e776962"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9a8b9692837244bbb468fe227b887ceb" targetConnections="id-5cfffaf7b15b4e53bf6c2934022d8069 id-723a02ea7d544d029eaa8614125b06d7" textPosition="1" archimateElement="id-9675a33d1c104ef4960db2634f60d9ac">
+          <bounds x="660" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9c33871859f046ea8f7bb5a097ec7b22" source="id-9a8b9692837244bbb468fe227b887ceb" target="id-e27c6beda3bf4629a54ab3a9e17ec398" archimateRelationship="id-25b1eb9d52294b89bb5e270dc78e32d6">
+            <feature name="labelExpression" value="authenticatie-&#xD;&#xA;verklaring"/>
+            <bendpoint startX="144" endX="-124" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-1cc43c6b7113405781f73fababeaf097" source="id-9a8b9692837244bbb468fe227b887ceb" target="id-b16e25bd49f24e1e884962bc9a7955fc" archimateRelationship="id-c0c9b297900e4d7aa9e9a765e0a3c7c0">
+            <bendpoint startX="-36" startY="60" endX="612" endY="60"/>
+            <bendpoint startX="-576" startY="60" endX="24" endY="60"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e27c6beda3bf4629a54ab3a9e17ec398" targetConnections="id-9c33871859f046ea8f7bb5a097ec7b22 id-9a6dd4505d06412b839f8aabda79e25e id-63322d588c11492e95400f82611bbed6" textPosition="1" archimateElement="id-573203ed1c8b4c37841226848f98a089">
+          <bounds x="372" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2a9a80e2764541afbe4c38ca0af0a1cc" source="id-e27c6beda3bf4629a54ab3a9e17ec398" target="id-b16e25bd49f24e1e884962bc9a7955fc" archimateRelationship="id-4498c0fe85174730ba10851a5addfa8e">
+            <feature name="labelExpression" value="authenticatie-&#xD;&#xA;verklaring en &#xD;&#xA;bevoegdheids-&#xD;&#xA;verklaring"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b16e25bd49f24e1e884962bc9a7955fc" targetConnections="id-95c5595dc63142b08dc8aee35ad0183a id-2a9a80e2764541afbe4c38ca0af0a1cc id-501121da98664b80862dd7d43971c9ac id-1cc43c6b7113405781f73fababeaf097 id-572e4ad23dfc484dbc005723e0ede4fd" textPosition="1" archimateElement="id-43ff9aa71f9d42f6b923887431c90bfc">
+          <bounds x="60" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-736c7204e798459db372b9160a7a72d8" textPosition="1" archimateElement="id-160cbce0ebb8400189fb751b0dbde669">
+          <bounds x="60" y="408" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-572e4ad23dfc484dbc005723e0ede4fd" source="id-736c7204e798459db372b9160a7a72d8" target="id-b16e25bd49f24e1e884962bc9a7955fc" archimateRelationship="id-dc4c4371ce6c43c0987901a32dfbcdf5"/>
+        </child>
+      </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven geplot op functiemodel" id="id-7158d8c170f34df984206df5a91c3916">
         <child xsi:type="archimate:DiagramObject" id="id-8c0e5a7211e8455cbb2c788c1384170a" targetConnections="id-9745ffaa175943f096c161151b2044f8 id-9ecae58bb7b645508c3608699f635e34" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
           <bounds x="408" y="22" width="241" height="351"/>
@@ -2602,6 +2698,105 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <child xsi:type="archimate:DiagramObject" id="id-09cb6f824279485fb0049d115d44d182" fillColor="#ffffff" textPosition="1" archimateElement="id-b304c80b029c48498a32d80d14337ea3">
           <bounds x="420" y="108" width="301" height="55"/>
           <feature name="iconVisible" value="2"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Schets van het streefbeeld (copy)" id="id-895b5bda9a8841eea11c94d88561e0e2">
+        <child xsi:type="archimate:DiagramObject" id="id-c70e7a3c515e43039b2d6854250a9aef" textPosition="1" archimateElement="id-7704adc1f92441d0b314f1d05a716b04">
+          <bounds x="960" y="60" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ac92c5a8df2a4818a4d71bb17ffc3350" source="id-c70e7a3c515e43039b2d6854250a9aef" target="id-e69be611a2e941ed9001a6d05aadc192" archimateRelationship="id-e2906b8f06ad4520b218af72ef32a2c1">
+            <bendpoint startX="-24" startY="51" endX="876" endY="-120"/>
+            <bendpoint startX="-876" startY="51" endX="24" endY="-120"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-dd4eef2c31a14232b214d7d642bf8dde" source="id-c70e7a3c515e43039b2d6854250a9aef" target="id-9a1e02a9d2984458b797492f2309cb51" archimateRelationship="id-0b3d296af7ff41db92a0c27e65e11e10">
+            <bendpoint startY="75" endX="588" endY="-96"/>
+            <bendpoint startX="-588" startY="75" endY="-96"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2f5fb71fce88476b9403786445f6e33c" source="id-c70e7a3c515e43039b2d6854250a9aef" target="id-d259de9cce1d42ffba3d9e07add58766" archimateRelationship="id-256528db05da46c69cbeb23b34836196">
+            <feature name="labelExpression" value="identiteits-&#xD;&#xA;gegevens"/>
+            <bendpoint startX="84" startY="-3" endX="84" endY="-351"/>
+            <bendpoint startX="84" startY="249" endX="84" endY="-99"/>
+            <bendpoint startX="84" startY="345" endX="84" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-69cbf273d91e4169a3273720f0dc4061" source="id-c70e7a3c515e43039b2d6854250a9aef" target="id-0dade3ac7515453fa3cab8a58caf42b9" archimateRelationship="id-8d59db34931a471a965c62c5539bbe88">
+            <bendpoint startX="48" startY="99" endX="348" endY="-72"/>
+            <bendpoint startX="-300" startY="99" endY="-72"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5924105a7da84577877e3f3c3512bea0" targetConnections="id-a4ea5e848e674b7baf3f2136db4cdc85" textPosition="1" archimateElement="id-716262df16c04d2eab3f45cf6f107af5">
+          <bounds x="660" y="60" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b364d81cee8348fca1a9707a73c9f9e3" source="id-5924105a7da84577877e3f3c3512bea0" target="id-e69be611a2e941ed9001a6d05aadc192" archimateRelationship="id-e7e2726294a749bda1e5baa299e71ceb">
+            <bendpoint startX="-660" startY="-15" endX="-12" endY="-192"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6c694971633740b69dff7384a3b92126" source="id-5924105a7da84577877e3f3c3512bea0" target="id-9a1e02a9d2984458b797492f2309cb51" archimateRelationship="id-57cf1c94a6574b6f8bb3da50819778f7">
+            <bendpoint startX="-324" startY="9" endX="-36" endY="-168"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e0d9ce48f07947ac92edb9b107197a03" source="id-5924105a7da84577877e3f3c3512bea0" target="id-94a96a2186d0431498634092a3fac832" archimateRelationship="id-f3f37a27df344b4f892017d00f56c730">
+            <bendpoint startX="-24" startY="-87" endX="-24" endY="-435"/>
+            <bendpoint startX="432" startY="-87" endX="432" endY="-435"/>
+            <bendpoint startX="432" startY="201" endX="432" endY="-147"/>
+            <bendpoint startX="432" startY="405" endX="432" endY="57"/>
+            <bendpoint startY="405" endY="57"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d259de9cce1d42ffba3d9e07add58766" targetConnections="id-2f5fb71fce88476b9403786445f6e33c" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
+          <bounds x="960" y="414" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-35664bc77d68476fb1bb319c784595b6" source="id-d259de9cce1d42ffba3d9e07add58766" target="id-0dade3ac7515453fa3cab8a58caf42b9" archimateRelationship="id-3030c2cb0810458c8bd92c507e776962"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ea0c369cdc344fb68ce4a4c51678267f" source="id-d259de9cce1d42ffba3d9e07add58766" target="id-94a96a2186d0431498634092a3fac832" archimateRelationship="id-0c9548ea9a6144918d77e3a12e6e6f63"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0dade3ac7515453fa3cab8a58caf42b9" targetConnections="id-c0066580a0ff42578e77548b69699410 id-35664bc77d68476fb1bb319c784595b6 id-69cbf273d91e4169a3273720f0dc4061" textPosition="1" archimateElement="id-9675a33d1c104ef4960db2634f60d9ac">
+          <bounds x="660" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-46d90b9e42ef4102bf68e532ed2d1958" source="id-0dade3ac7515453fa3cab8a58caf42b9" target="id-94a96a2186d0431498634092a3fac832" archimateRelationship="id-c622324e839c476d8c480c36483a6009">
+            <feature name="labelExpression" value="authenticatieverzoek&#xD;&#xA;en resultaat"/>
+            <bendpoint startY="96" endY="-75"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0a450de124c3445dafe3bd7daabee90a" source="id-0dade3ac7515453fa3cab8a58caf42b9" target="id-9a1e02a9d2984458b797492f2309cb51" archimateRelationship="id-25b1eb9d52294b89bb5e270dc78e32d6">
+            <feature name="labelExpression" value="authenticatie-&#xD;&#xA;verklaring"/>
+            <bendpoint startX="144" endX="-124" endY="-3"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5994b41cc9bb4d3bb6d7176a0c532d95" source="id-0dade3ac7515453fa3cab8a58caf42b9" target="id-e69be611a2e941ed9001a6d05aadc192" archimateRelationship="id-c0c9b297900e4d7aa9e9a765e0a3c7c0">
+            <bendpoint startX="-36" startY="60" endX="612" endY="60"/>
+            <bendpoint startX="-576" startY="60" endX="24" endY="60"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9a1e02a9d2984458b797492f2309cb51" targetConnections="id-73cac8558335406aba71a3dc7d147bc0 id-0a450de124c3445dafe3bd7daabee90a id-6c694971633740b69dff7384a3b92126 id-dd4eef2c31a14232b214d7d642bf8dde" textPosition="1" archimateElement="id-573203ed1c8b4c37841226848f98a089">
+          <bounds x="372" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-923b0c276508419c965b17b81b949a38" source="id-9a1e02a9d2984458b797492f2309cb51" target="id-e69be611a2e941ed9001a6d05aadc192" archimateRelationship="id-4498c0fe85174730ba10851a5addfa8e">
+            <feature name="labelExpression" value="authenticatie-&#xD;&#xA;verklaring en &#xD;&#xA;bevoegdheids-&#xD;&#xA;verklaring"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e69be611a2e941ed9001a6d05aadc192" targetConnections="id-ac92c5a8df2a4818a4d71bb17ffc3350 id-923b0c276508419c965b17b81b949a38 id-b364d81cee8348fca1a9707a73c9f9e3 id-5994b41cc9bb4d3bb6d7176a0c532d95 id-388ef2cbcf3243bf8647f2e3961d9348" textPosition="1" archimateElement="id-43ff9aa71f9d42f6b923887431c90bfc">
+          <bounds x="60" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c536d5bf1e52437ca91e588f40e0939a" textPosition="1" archimateElement="id-43e810d2d45042ff8bc6192d6b05c2e1">
+          <bounds x="960" y="237" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a4ea5e848e674b7baf3f2136db4cdc85" source="id-c536d5bf1e52437ca91e588f40e0939a" target="id-5924105a7da84577877e3f3c3512bea0" archimateRelationship="id-2e482ebfad5649639bba729711c4e027">
+            <bendpoint startX="108" endX="408" endY="177"/>
+            <bendpoint startX="108" startY="-240" endX="408" endY="-63"/>
+            <bendpoint startX="-276" startY="-240" endX="24" endY="-63"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-73cac8558335406aba71a3dc7d147bc0" source="id-c536d5bf1e52437ca91e588f40e0939a" target="id-9a1e02a9d2984458b797492f2309cb51" archimateRelationship="id-0520e570b83141eaaff96818efec5e81">
+            <bendpoint startY="-48" endX="588" endY="-48"/>
+            <bendpoint startX="-132" startY="-48" endX="456" endY="-48"/>
+            <bendpoint startX="-552" startY="-48" endX="36" endY="-48"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c0066580a0ff42578e77548b69699410" source="id-c536d5bf1e52437ca91e588f40e0939a" target="id-0dade3ac7515453fa3cab8a58caf42b9" archimateRelationship="id-1429eccc76574287aab1a109f6b2505c">
+            <bendpoint startX="-156" startY="12" endX="144" endY="12"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-94a96a2186d0431498634092a3fac832" targetConnections="id-ea0c369cdc344fb68ce4a4c51678267f id-46d90b9e42ef4102bf68e532ed2d1958 id-e0d9ce48f07947ac92edb9b107197a03" textPosition="1" archimateElement="id-7202f8ec02f644fb805e68388799f37f">
+          <bounds x="660" y="408" width="120" height="55"/>
+          <feature name="iconVisible" value="2"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-48ed9f88843c46e69774196ab37eda85" textPosition="1" archimateElement="id-160cbce0ebb8400189fb751b0dbde669">
+          <bounds x="60" y="408" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-388ef2cbcf3243bf8647f2e3961d9348" source="id-48ed9f88843c46e69774196ab37eda85" target="id-e69be611a2e941ed9001a6d05aadc192" archimateRelationship="id-dc4c4371ce6c43c0987901a32dfbcdf5"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven geplot op functiemodel (smal)" id="id-c0c8bbad71bf41afa2492c477d80c6fa">
@@ -3685,7 +3880,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bounds x="12" y="336" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-61f77e446f6342128350d035cc19894d" targetConnections="id-e355f3799f05473d82b2a79f32f0ba1f" fillColor="#ffffff" textPosition="1" archimateElement="id-d9cb79ae0cd64f30a7213037af6280fe">
+          <child xsi:type="archimate:DiagramObject" id="id-61f77e446f6342128350d035cc19894d" targetConnections="id-e355f3799f05473d82b2a79f32f0ba1f id-a0206b259e224afbb2579d161567ca09" fillColor="#ffffff" textPosition="1" archimateElement="id-d9cb79ae0cd64f30a7213037af6280fe">
             <bounds x="12" y="396" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -3694,7 +3889,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <feature name="iconVisible" value="2"/>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-b510ffbbae9843a9a8b1b2feea1e3f56" targetConnections="id-a363fff1a0d04cf49e44759423efe685" archimateElement="id-c5998016874b4a3f9a80d62f09af3f33">
+        <child xsi:type="archimate:DiagramObject" id="id-b510ffbbae9843a9a8b1b2feea1e3f56" archimateElement="id-c5998016874b4a3f9a80d62f09af3f33">
           <bounds x="1248" y="312" width="181" height="469"/>
           <feature name="iconVisible" value="2"/>
           <feature name="labelExpression" value="Beheren vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
@@ -3703,17 +3898,17 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <sourceConnection xsi:type="archimate:Connection" id="id-d223783856604bfab901f2c676f037db" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-82a8bb444bb64f9082ee48a37f2fff03" archimateRelationship="id-1bc0d0a479c44b5790f4aa1fc0a62ab4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ba4cd2aba0674bbbae729346950549e0" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-c395b9ebd71f4ccd854dfef3e76532f3" archimateRelationship="id-177a7c713d7d463b814111384568ca54"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-53d254bc9bb64de6a125571ce28d9573" source="id-b510ffbbae9843a9a8b1b2feea1e3f56" target="id-117f6d9e881f4541b1908cc942bb2b95" archimateRelationship="id-c5d898fc2757476c935fb5c218be22c5"/>
-          <child xsi:type="archimate:DiagramObject" id="id-5b574266453e4c9e994eef93a0a0ac19" targetConnections="id-ce3632b0cb7d49cebcddfcf2e832f3cf" fillColor="#ffffff" textPosition="1" archimateElement="id-1e240322fbec495f9895c2f7cb22f552">
+          <child xsi:type="archimate:DiagramObject" id="id-5b574266453e4c9e994eef93a0a0ac19" targetConnections="id-ce3632b0cb7d49cebcddfcf2e832f3cf id-b9fe9dac29d14cbc973d83b38365f7b1" fillColor="#ffffff" textPosition="1" archimateElement="id-1e240322fbec495f9895c2f7cb22f552">
             <bounds x="12" y="156" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Inzage geven in vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-82a8bb444bb64f9082ee48a37f2fff03" targetConnections="id-d223783856604bfab901f2c676f037db" fillColor="#ffffff" textPosition="1" archimateElement="id-f5ed40da3592429082e7f978de22be46">
+          <child xsi:type="archimate:DiagramObject" id="id-82a8bb444bb64f9082ee48a37f2fff03" targetConnections="id-d223783856604bfab901f2c676f037db id-0f02804d0609458c817b5bbbd4287495" fillColor="#ffffff" textPosition="1" archimateElement="id-f5ed40da3592429082e7f978de22be46">
             <bounds x="12" y="216" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Notificeren over vertegenwoordigings&#xD;&#xA;bevoegdheden"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-c395b9ebd71f4ccd854dfef3e76532f3" targetConnections="id-ba4cd2aba0674bbbae729346950549e0" fillColor="#ffffff" textPosition="1" archimateElement="id-7f4acb54b45f4d77bbec4f16ea8d52a8">
+          <child xsi:type="archimate:DiagramObject" id="id-c395b9ebd71f4ccd854dfef3e76532f3" targetConnections="id-ba4cd2aba0674bbbae729346950549e0 id-a363fff1a0d04cf49e44759423efe685" fillColor="#ffffff" textPosition="1" archimateElement="id-7f4acb54b45f4d77bbec4f16ea8d52a8">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -3721,7 +3916,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
             <bounds x="12" y="96" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-117f6d9e881f4541b1908cc942bb2b95" targetConnections="id-53d254bc9bb64de6a125571ce28d9573" fillColor="#ffffff" archimateElement="id-522b1467667646ccb017e52455f0af44">
+          <child xsi:type="archimate:DiagramObject" id="id-117f6d9e881f4541b1908cc942bb2b95" targetConnections="id-53d254bc9bb64de6a125571ce28d9573 id-c2cd52f32bc44a718659098983bcc098" fillColor="#ffffff" archimateElement="id-522b1467667646ccb017e52455f0af44">
             <bounds x="12" y="276" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
             <feature name="labelExpression" value="Creëren vertegenwoordigings-&#xD;&#xA;bevoegdheidsverklaring"/>
@@ -3734,7 +3929,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <sourceConnection xsi:type="archimate:Connection" id="id-1ffac34fcf954eba82ce5f56a6a83f86" source="id-a80f92c2414f4996b5f133b65babf1c5" target="id-b66400d05d234f80be2c2a6a77a1393d" archimateRelationship="id-b5fa2a30b5774534a22c3a5e3d24a4b4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-b0ec634d5f2a496495a9b383b06b1670" source="id-a80f92c2414f4996b5f133b65babf1c5" target="id-5153efc1f69b48108cb1f1e053954f0a" archimateRelationship="id-48095ed7b7734fd59f6593219949760f"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-15c459ad5c06417c84ceae831b9cfd23" source="id-a80f92c2414f4996b5f133b65babf1c5" target="id-7ba01b2d29b34b03b62289eee584ae04" archimateRelationship="id-eaa07da01df54c669e8d563ec0d51c9c"/>
-          <child xsi:type="archimate:DiagramObject" id="id-5153efc1f69b48108cb1f1e053954f0a" targetConnections="id-b0ec634d5f2a496495a9b383b06b1670" fillColor="#ffffff" textPosition="1" archimateElement="id-6627523870a84b19817156bd7c6db45b">
+          <child xsi:type="archimate:DiagramObject" id="id-5153efc1f69b48108cb1f1e053954f0a" targetConnections="id-b0ec634d5f2a496495a9b383b06b1670 id-bcc8ba351600478b8fc6dc235dba3d36" fillColor="#ffffff" textPosition="1" archimateElement="id-6627523870a84b19817156bd7c6db45b">
             <bounds x="12" y="36" width="157" height="55"/>
             <feature name="iconVisible" value="2"/>
           </child>
@@ -3752,7 +3947,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3f99ad34e3214531962aa49aa66b57fb" textPosition="1" archimateElement="id-9675a33d1c104ef4960db2634f60d9ac">
-          <bounds x="73" y="756" width="145" height="55"/>
+          <bounds x="72" y="792" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-40f0f132793c4b79b160350b576bcc89" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-c0cb8281bb4843a2880f19110fc58d6d" archimateRelationship="id-fa2abf1853f7481abd581552f402241b"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4557d2650d2f47dc9dee9975cc139402" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-4e050c49ed4441f0aa3e5f6b4015311a" archimateRelationship="id-19aa874952fb42f19562f3dcd7c1318a"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-824afed26a2749a9ae42417e9a9c2b28" source="id-3f99ad34e3214531962aa49aa66b57fb" target="id-f7a22e2b1add48deb213bdb9f7de38c1" archimateRelationship="id-94573268a2504a3bba4b01c3c0a03664"/>
@@ -3775,8 +3970,17 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-1c6f4cace15843ab8d8ec8099f78249e" textPosition="1" archimateElement="id-716262df16c04d2eab3f45cf6f107af5">
           <bounds x="1258" y="168" width="145" height="55"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-a363fff1a0d04cf49e44759423efe685" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-b510ffbbae9843a9a8b1b2feea1e3f56" archimateRelationship="id-3603b196da15461c9a8ea2f2f1d41fb6"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6416d73624e144dda2f4dbd02d47b28a" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-b8e7f50fe1db4f589690fe8a898f7f25"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a363fff1a0d04cf49e44759423efe685" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-c395b9ebd71f4ccd854dfef3e76532f3" archimateRelationship="id-3603b196da15461c9a8ea2f2f1d41fb6"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b9fe9dac29d14cbc973d83b38365f7b1" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-5b574266453e4c9e994eef93a0a0ac19" archimateRelationship="id-c12ceb6d7d6a46adb4c90b90d6346cbb">
+            <bendpoint startX="26" startY="153" endX="18" endY="-147"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0f02804d0609458c817b5bbbd4287495" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-82a8bb444bb64f9082ee48a37f2fff03" archimateRelationship="id-52295b9c2bdc46e6a3331c6bf0ce8be5">
+            <bendpoint startX="-22" startY="177" endX="-30" endY="-183"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c2cd52f32bc44a718659098983bcc098" source="id-1c6f4cace15843ab8d8ec8099f78249e" target="id-117f6d9e881f4541b1908cc942bb2b95" archimateRelationship="id-51fff6f5aa8b47d39c30d058ea1f108a">
+            <bendpoint startX="50" startY="213" endX="42" endY="-207"/>
+          </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8ae3a5f4b1754364ad5e2a884e1d8051" textPosition="1" archimateElement="id-9eb924f84a7e479d95a5ea99984a277e">
           <bounds x="880" y="168" width="145" height="55"/>
@@ -3789,14 +3993,12 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <bounds x="1066" y="36" width="145" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-aa970cb785f44d929e2eef32a674e184" textPosition="1" archimateElement="id-64294694c5484d4693e67a05359d6a12">
-          <bounds x="73" y="648" width="145" height="55"/>
+          <bounds x="72" y="600" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3ec87117774f4ea68a7a64607a34892d" source="id-aa970cb785f44d929e2eef32a674e184" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-c5d1883a035f40eab74e9b53ab3ec66d">
-            <bendpoint startX="-108" startY="9" endX="-916" endY="621"/>
+            <bendpoint startX="-108" startY="-3" endX="-917" endY="561"/>
             <bendpoint startX="-109" startY="-603" endX="-917" endY="9"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-70786da40f93485eac169fb89f23f1dd" source="id-aa970cb785f44d929e2eef32a674e184" target="id-a80f92c2414f4996b5f133b65babf1c5" archimateRelationship="id-c3860ae5c94145eb8c807025d3ed2f6b"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-79e526359baf425cad6c99df1ed41b26" source="id-aa970cb785f44d929e2eef32a674e184" target="id-fec4ab34ac8947db8c9ef1e0e20d0b1b" archimateRelationship="id-85810e63b99746d2847715fc742ba79f"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-fdd46ddb4a3143fd9fb0a7ee83353694" source="id-aa970cb785f44d929e2eef32a674e184" target="id-7bfd91fb59204824baa84363f9ee076d" archimateRelationship="id-255f366d27674fbbadba62df718e78a1"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2095d21be71a4d9ca8fe9cfc204ec6ed" textPosition="1" archimateElement="id-b388d510985b436b936e59ead4860ec5">
           <bounds x="73" y="348" width="145" height="55"/>
@@ -3812,6 +4014,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <bounds x="703" y="168" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e5775baa57dc4526b480ec8ab9caa147" source="id-0a36b1d307694fc2b833a9bd2bba40e6" target="id-a1e76cc2eb1447df941db158044044dc" archimateRelationship="id-4851f79415cb41f1855c7d72f053b786"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e90481728c28473eba8d86d2b9e22557" source="id-0a36b1d307694fc2b833a9bd2bba40e6" target="id-f941aeb2ff734850bc37efecce534a37" archimateRelationship="id-e545af769d55487c8febea197fdda5aa"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-bcc8ba351600478b8fc6dc235dba3d36" source="id-0a36b1d307694fc2b833a9bd2bba40e6" target="id-5153efc1f69b48108cb1f1e053954f0a" archimateRelationship="id-95aa827ae9d244769fb25a2601ebed8d"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d70ca8de8105456cbeee88510e301902" textPosition="1" archimateElement="id-0bd68e9ba1e244aeaa10f633eb302c0e">
           <bounds x="504" y="168" width="145" height="55"/>
@@ -3821,12 +4024,18 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <sourceConnection xsi:type="archimate:Connection" id="id-fe22d2a4480f47eaaa37f17b2b1b0e83" source="id-d70ca8de8105456cbeee88510e301902" target="id-96ffa98d22d849cea09395665a527be0" archimateRelationship="id-6ba4874b11994b308cd7ec8a08c02c49"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-b9735a52ac164c59b335d3c5d236eb4d" textPosition="1" archimateElement="id-573203ed1c8b4c37841226848f98a089">
-          <bounds x="72" y="492" width="145" height="55"/>
+          <bounds x="73" y="996" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ebc2be8b5fdd440b9cb61fdec4ec8b37" source="id-b9735a52ac164c59b335d3c5d236eb4d" target="id-fe517c4549ea465ba0ac62da0d5ce6a6" archimateRelationship="id-a0ce846f36b543fa9c0ce6d796608743"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-79e526359baf425cad6c99df1ed41b26" source="id-b9735a52ac164c59b335d3c5d236eb4d" target="id-fec4ab34ac8947db8c9ef1e0e20d0b1b" archimateRelationship="id-85810e63b99746d2847715fc742ba79f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-fdd46ddb4a3143fd9fb0a7ee83353694" source="id-b9735a52ac164c59b335d3c5d236eb4d" target="id-7bfd91fb59204824baa84363f9ee076d" archimateRelationship="id-255f366d27674fbbadba62df718e78a1"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-aaf6b5c1a6e449018bd01d288082f0c0" textPosition="1" archimateElement="id-cd4216b658324e39925728e61320ae4c">
           <bounds x="73" y="888" width="145" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-ee22daca6260473d8d7d6411ea79d04f" source="id-aaf6b5c1a6e449018bd01d288082f0c0" target="id-4e050c49ed4441f0aa3e5f6b4015311a" archimateRelationship="id-637403162f1b4b4e952a9ea6dbee0988"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-83c0191147664053b97b5908d33a6e1a" textPosition="1" archimateElement="id-a172ca968e54411981680e782674df85">
+          <bounds x="73" y="708" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a0206b259e224afbb2579d161567ca09" source="id-83c0191147664053b97b5908d33a6e1a" target="id-61f77e446f6342128350d035cc19894d" archimateRelationship="id-7590669bd21849e98e45d91e2c694978"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Functiemodel op hoofdlijnen" id="id-c57f7936bed3451a91e3728d97e753cd">
@@ -5506,7 +5715,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Documentstructuur" id="id-a19f7ecd3614470aab77710880939cd5">
       <child xsi:type="archimate:DiagramObject" id="id-182b24f9c5e743569dae998d3fa8028c" fillColor="#ffffff" textPosition="1" archimateElement="id-5290881708d14046854ed00cf901874e">
-        <bounds x="24" y="12" width="145" height="553"/>
+        <bounds x="24" y="12" width="145" height="529"/>
         <feature name="iconVisible" value="2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-287a49adbd0248fd813a2d04b02df3ea" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-461069e8d7ad48bf811bec8ef78856b1" archimateRelationship="id-a5bd2babf0974abd91dcd702c3dc3a97"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5f5b7e20f2d942eebf4a1a67930e92a5" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-ad956a1fc3634a4aa5b966e6f5ed6e2a" archimateRelationship="id-8b27d5bc2735484e8a201cfebc0312a5"/>
@@ -5516,7 +5725,6 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <sourceConnection xsi:type="archimate:Connection" id="id-64b1727281da406eb75762434bdba5d1" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-1c6a41feb5fb4117b6310a487c9c95a0" archimateRelationship="id-d70a0c4fe08d42aeb0e7091bee0d96bd"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-33fe300ac30841279ae85f3a0a7d18a7" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-8082980311e0491cba75abea59b0e6fb" archimateRelationship="id-16a9628157624307bba3bf5a4e04de4d"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-44283213bf2a4a069880aaee8e2e1c85" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-9551275016804655b3e3365bf5416870" archimateRelationship="id-b56a7ed7b680404f8e0d93559c1e0808"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-af2e1a74fc104498b85b753121f347ec" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-ea1c4d88cc5c4a06a4c83cb7eed92d15" archimateRelationship="id-826442cc455f46039ec760b208747788"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cb8da1741a2e4711b13eb0a762f938f9" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-726cc01f34d1405f863bef1ea63d14b9" archimateRelationship="id-a98d73890aa84bef837175216e37e4d3"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c5683fded87c4ddb8b18ef6ec7ef1bc5" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-bbeb9dc06ffb43d0ba476026d19186ec" archimateRelationship="id-2a6885740f0e4c1d9a8c1bd6ea05d738"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1ee2f964ccd84b6083b73b0ee5f1e902" lineColor="#c0c0c0" source="id-182b24f9c5e743569dae998d3fa8028c" target="id-2a1405962bd043578128808d2c8f3dda" archimateRelationship="id-7811a9b72ef543ae96853109042fcbb4"/>
@@ -5545,11 +5753,11 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a2c4590e12c74c87a410d2e493139c59" targetConnections="id-366a527f7fda4347adb4fee1c63e084c" textAlignment="1" fillColor="#ffffff" archimateElement="id-99cbfb6171e24415a2d555ae897ba9d6">
-        <bounds x="240" y="396" width="205" height="25"/>
+        <bounds x="240" y="372" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-7bc30fae22cf409190c1af83c2e4fc91" targetConnections="id-25a044199ebd4a84b8fc7a3ca34cd991" textAlignment="1" fillColor="#ffffff" archimateElement="id-ec079e908ff84941a103d1e0bc024faa">
-        <bounds x="240" y="420" width="205" height="25"/>
+        <bounds x="240" y="396" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-db402ed574814bcbbe38612eef64de3d" targetConnections="id-a608324e3000455aabb3437cd75b0460" textAlignment="1" fillColor="#ffffff" archimateElement="id-ec62f6503d6e4ebbbc1e8f7da58048ac">
@@ -5557,11 +5765,11 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3bc4b85332ba4ea28dc228e3f618fd91" targetConnections="id-c4bf56806dc64447940a82d0b1580a50" textAlignment="1" fillColor="#ffffff" archimateElement="id-9592d4808efb4be9aa2751e0019b4771">
-        <bounds x="240" y="468" width="205" height="25"/>
+        <bounds x="240" y="444" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a52e655b0d144c24989e1e0f0620dd4d" targetConnections="id-2796607fc3d34a68b30182c5f65d3537" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-15|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" archimateElement="id-e572700165f84f9783f1b3d0e3162a5c">
-        <bounds x="228" y="228" width="217" height="25"/>
+        <bounds x="228" y="204" width="217" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-1c6a41feb5fb4117b6310a487c9c95a0" targetConnections="id-64b1727281da406eb75762434bdba5d1" textAlignment="1" fillColor="#ffffff" archimateElement="id-52b5d4fc77444fafaf55f7ea2df98e32">
@@ -5576,36 +5784,32 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <bounds x="240" y="132" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-ea1c4d88cc5c4a06a4c83cb7eed92d15" targetConnections="id-af2e1a74fc104498b85b753121f347ec" textAlignment="1" fillColor="#ffffff" archimateElement="id-9edaa105afef4c02bab19e78598847a7">
-        <bounds x="240" y="204" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="id-bbeb9dc06ffb43d0ba476026d19186ec" targetConnections="id-c5683fded87c4ddb8b18ef6ec7ef1bc5" textAlignment="1" fillColor="#ffffff" archimateElement="id-1064b8991eb64f4e8adc8f35fc1396ea">
-        <bounds x="240" y="276" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-726cc01f34d1405f863bef1ea63d14b9" targetConnections="id-cb8da1741a2e4711b13eb0a762f938f9" textAlignment="1" fillColor="#ffffff" archimateElement="id-57896b8c4e854e7b92ed667986aa09ee">
         <bounds x="240" y="252" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
+      <child xsi:type="archimate:DiagramObject" id="id-726cc01f34d1405f863bef1ea63d14b9" targetConnections="id-cb8da1741a2e4711b13eb0a762f938f9" textAlignment="1" fillColor="#ffffff" archimateElement="id-57896b8c4e854e7b92ed667986aa09ee">
+        <bounds x="240" y="228" width="205" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
       <child xsi:type="archimate:DiagramObject" id="id-2a1405962bd043578128808d2c8f3dda" targetConnections="id-1ee2f964ccd84b6083b73b0ee5f1e902" textAlignment="1" fillColor="#ffffff" archimateElement="id-7a3c760780f84b49aae60cc45cbeb885">
-        <bounds x="240" y="348" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f39a2c7bc32c4568af9d177b427301fd" targetConnections="id-061b27eee67f47eb9213641a0416922f" textAlignment="1" fillColor="#ffffff" archimateElement="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
-        <bounds x="240" y="492" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b04701b6a70c448385a623e7f8631f4f" targetConnections="id-c483245cf49e477c8e2b8e1ed021b469" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-2ce199487e094f099863995e07a7e605">
-        <bounds x="240" y="516" width="205" height="25"/>
-        <feature name="iconVisible" value="2"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-567d51e475d6425eb6435d3a79ad368f" targetConnections="id-74c22c63aa844f308b84ac018bfab43e" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-7af4783895fc4fb6b4cb8e96e8708e85">
         <bounds x="240" y="324" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f39a2c7bc32c4568af9d177b427301fd" targetConnections="id-061b27eee67f47eb9213641a0416922f" textAlignment="1" fillColor="#ffffff" archimateElement="id-c01f60f9719f4ef2bfcb8cf050cc36d2">
+        <bounds x="240" y="468" width="205" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b04701b6a70c448385a623e7f8631f4f" targetConnections="id-c483245cf49e477c8e2b8e1ed021b469" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-2ce199487e094f099863995e07a7e605">
+        <bounds x="240" y="492" width="205" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-567d51e475d6425eb6435d3a79ad368f" targetConnections="id-74c22c63aa844f308b84ac018bfab43e" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-7af4783895fc4fb6b4cb8e96e8708e85">
+        <bounds x="240" y="300" width="205" height="25"/>
+        <feature name="iconVisible" value="2"/>
+      </child>
       <child xsi:type="archimate:DiagramObject" id="id-d09b80c2c9b244b2aee7e2c402ec7b1c" targetConnections="id-0f436058898b4cdc993105f917982326" textAlignment="1" fillColor="#ffffff" archimateElement="id-beae3c7f591a4525a89ff0ce63d003fb">
-        <bounds x="240" y="444" width="205" height="25"/>
+        <bounds x="240" y="420" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-aa9d4ff623734f8b955a27559d70c178" targetConnections="id-3449f01dac5c401dbdc20adcc4d33dac" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-62a0afc676e04f8280ed2271dd61cd44">
@@ -5613,15 +5817,15 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f59a8945ab9d4130a5b9ab2f19122461" targetConnections="id-44a0636d9b2f45d1bf438d4c21b7ee73" font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textAlignment="1" fillColor="#ffffff" textPosition="1" archimateElement="id-4ae1e3c208314746b2825716ed62a606">
-        <bounds x="228" y="372" width="217" height="25"/>
+        <bounds x="228" y="348" width="217" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-221b7afe26ae49138cf18754f127a67b" targetConnections="id-20e1cec811ca441c8fe7089e3e5cf8ab" textAlignment="1" fillColor="#ffffff" archimateElement="id-df84c34285474bdebefd163a965d6403">
-        <bounds x="240" y="300" width="205" height="25"/>
+        <bounds x="240" y="276" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-7a35d4ecaf194a73ae09686f9eadc2bb" targetConnections="id-4ae9b87edf7f48b0aec26144cf366fab" textAlignment="1" fillColor="#ffffff" archimateElement="id-db058829d6194cd59fd9d78182fb6933">
-        <bounds x="240" y="540" width="205" height="25"/>
+        <bounds x="240" y="516" width="205" height="25"/>
         <feature name="iconVisible" value="2"/>
       </child>
     </element>

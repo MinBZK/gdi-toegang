@@ -1,15 +1,21 @@
-<html class="frame"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><title>Streefbeeld</title><script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><link type="text/css" rel="stylesheet" href="../../css/model.css"><script type="text/javascript" src="../../js/frame2.js"></script></head><body><style>p,ul,ol {font-size: 14px;}h1 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 150%;font-weight:bold;}h2 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 120%;font-weight:bold;}h3 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 110%;font-weight:bold;}li {list-style: disc;}</style><div class="panel panel-default root-panel"><div class="panel-heading root-panel-heading"><b>Streefbeeld</b></div><div class="panel-body root-panel-body"><p>Dit hoofdstuk geeft een schets van de architectuur waar naar gestreefd wordt. Het beschrijft de onderdelen in dit streefbeeld en de wijze waarop deze zouden moeten samenwerken.</p>
-<h3>Schets</h3>
+<html class="frame"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><title>Verdieping: rolverdeling</title><script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script><link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css"><link type="text/css" rel="stylesheet" href="../../css/model.css"><script type="text/javascript" src="../../js/frame2.js"></script></head><body><style>p,ul,ol {font-size: 14px;}h1 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 150%;font-weight:bold;}h2 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 120%;font-weight:bold;}h3 {color: #000088;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 110%;font-weight:bold;}li {list-style: disc;}</style><div class="panel panel-default root-panel"><div class="panel-heading root-panel-heading"><b>Verdieping: rolverdeling</b></div><div class="panel-body root-panel-body"><p>Dit hoofdstuk beschrijft de belangrijkste rollen, hun verantwoordelijkheden en onderlinge samenhang. Het geeft ook richtlijnen voor deze rollen.</p>
+<h3>Overzicht</h3>
 <p>
-De volgende figuur geeft een schets van het streefbeeld. Daarbij is een abstractieniveau gezocht waarbij de verdeling van verantwoordelijkheden het best kan worden weergegeven. Hierdoor zijn de onderdelen van de figuur deels rollen en deels voorzieningen. Tussen de onderdelen zijn de belangrijkste gegevensstromen weergegeven. Alleen de belangrijkste onderdelen zijn opgenomen in het streefbeeld. Dat zijn de onderdelen waar de architectuur expliciet eisen aan stelt. 
+De volgende figuur geeft een overzicht van de kernrollen en hun samenhang. Tussen de rollen zijn de belangrijkste gegevensstromen weergegeven. Alleen de kernrollen zijn opgenomen in de figuur. Zo zijn bijvoorbeeld de regisseur van de toegangsinfrastructuur, verleners van vertrouwensdiensten, de toezichthouder en centrale misbruikbestrijding niet opgenomen. Een volledige lijst van rollen is opgenomen in de bijlagen.
 </p>
-<p><center><img src="https://minbzk.github.io/gdi-toegang/images/streefbeeld.svg"></center></p>
+<p><center><img src="https://minbzk.github.io/gdi-toegang/images/kernrollen.svg"></center></p>
 <p> 
-In de volgende paragrafen worden de verschillende onderdelen van het streefbeeld verder beschreven. Bij elk onderdeel worden eisen beschreven die worden gesteld. Die eisen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige onderdelen zijn enkelvoudig aanwezig, van andere onderdelen kunnen meerdere instanties zijn. Dat is beschreven per onderdeel.
+In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke rol worden richtlijnen beschreven die worden gesteld. Deze richtlijnen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige rollen zijn enkelvoudig aanwezig, van andere rollen kunnen meerdere instanties zijn. Dat is beschreven per rol.
 </p>
 <h4>Aanbieder van identiteitsgegevens</h4>
 <p>
-Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers. In de context van toegang zijn dat identiteitsgegevens.
+Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouders op een manier die aansluit bij de behoeften en het gebruik van afnemers. In de context van toegang zijn dat identiteitsgegevens. Een aanbieder van identiteitsgegevens is een verlener van vertrouwensdiensten, omdat deze ook in staat moet zijn om verifieerbare verklaringen te kunnen leveren.
+</p>
+<p>Functies:
+<ul>
+<li>Elektronisch verklaren;</li>
+<li>Verstrekken identiteitsgegevens.</li>
+</ul>
 </p>
 <p>Voorbeelden: RvIG, KvK, RDW.</p>
 <p>
@@ -22,9 +28,21 @@ Een aanbieder van identiteitsgegevens:
 <h4>Authenticatiedienst</h4>
 <p>Een authenticatiedienst geeft authenticatieverklaringen af op basis van een identificatiemiddel.</p>
 <p>Voorbeelden: DigiD, eHerkenning authenticatiedienst.</p>
+<p>Functies:
+<ul>
+<li>Bestrijden fraude en misbruik;</li>
+<li>Ontsleutelen pseudoniem;</li>
+<li>	Uitloggen;</li>
+<li>Uitvoeren authenticatie;</li>
+<li>Vastleggen gebruik identificatiemiddel;</li>
+<li>Vertalen authenticatieverklaring;</li>
+<li>Vertalen identifier.</li>
+</ul>
+</p>
 <p>
 Een authenticatiedienst:
 <ul>
+<li>controleert bij een authenticatieverzoek de authenticiteit en geldigheid van het gebruikte identificatiemiddel bij de verantwoordelijke middelenuitgever;</li>
 <li>registreert authenticatieverzoeken en hun resultaat in een auditlog;</li>
 <li>registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;</li>
 <li>stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding;</li>
@@ -36,12 +54,19 @@ Een authenticatiedienst:
 <h4>Broker</h4>
 <p>Een broker biedt de diensten van een verzameling van verklarende partijen als één geïntegreerde dienst aan.</p>
 <p>Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt.</p>
+<p>Functies:
+<ul>
+<li>Orkestreren login;</li>
+<li>Vertalen authenticatieverklaring;</li>
+<li>Vertalen identifier.</li>
+</ul>
+</p>
 <p>
 Een broker:
 <ul>
 <li>	kan het inlogproces richting een eindgebruiker orkestreren;</li>
 <li>kan vertalingen uitvoeren op verifieerbare verklaringen;</li>
-<li>kan gebruik maken van andere brokers;</li>
+<li>kan gebruik maken van andere brokers.</li>
 </ul>
 <p>
 Een broker die het inlogproces orkestreert:
@@ -52,21 +77,15 @@ Een broker die het inlogproces orkestreert:
 <li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov.</li>
 </ul>
 </p>
-<h4>Dienstencatalogus</h4>
-<p>De dienstencatalogus is een voorziening die diensten registreert waartoe entiteiten met een bepaalde identiteit toegang kunnen krijgen en/of een machtiging toe kunnen verstrekken, alsook welke dienstverleners deze diensten verlenen. </p>
-<p>Voorbeelden: dienstencatalogus voor burgers, dienstencatalogus voor medewerkers van organisaties.</p>
-<p>Een dienstencatalogus:
-<ul>
-<li>is onafhankelijk van de authenticatiedienst en machtigingsdienst;</li>
-<li>is specifiek voor toegang voor burgers of toegang voor medewerkers van organisaties;</li>
-<li>ondersteunt het clusteren van diensten tot grotere eenheden van toegang;</li>
-<li>ondersteunt het opsplitsen van diensten in kleinere eenheden van toegang;</li>
-<li>classificeert de diensten conform de Uniforme Productnamenlijst.</li>
-</ul>
-</p>
 <h4>Dienstverlener</h4>
 <p>Een dienstverlener levert volgens afspraken diensten aan een klant. Een dienstverlener is een vertrouwende partij.</p>
-<p>Voorbeelden: rijksoverheden, uitvoeringsorganisaties, gemeenten, provincies, waterschappen.</p>
+<p>Voorbeelden: rijksoverheden, uitvoeringsorganisaties, gemeenten, provincies, waterschappen, commerciële dienstverleners.</p>
+<p>Functies:
+<li>Auditing, monitoring en misbruikbestrijding;</li>
+<li>Autoriseren;</li>
+<li>Beheren eigen bevoegdheden.</li>
+</ul>
+</p>
 <p>Een dienstverlener:
 <ul>
 <li>biedt diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken;</li>
@@ -75,6 +94,7 @@ Een broker die het inlogproces orkestreert:
 <li>	accepteert alle erkende publieke en private identificatiemidellen;</li>
 <li>registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toeganginfrastructuur;</li>
 <li>maakt duidelijk welke wettelijke grondslag en doelbinding ten grondslag liggen aan de attributen die worden gevraagd;</li>
+<li>maakt duidelijk aan welke derde partijen attributen worden doorgegeven en op basis van welke wettelijke grondslag en doelbinding;</li>
 <li>vraagt niet meer attributen dan wat strikt noodzakelijk is voor het leveren van een dienst;</li>
 <li>geeft gebruikers voorafgaand aan hun handelen inzicht in de voor een dienst gevraagde attributen;</li>
 <li>kan zelf kiezen of deze gebruik maakt van een broker of verifieerbare verklaringen direct haalt bij een authenticatiedienst, machtigingsdienst of andere aanbieder van identiteitsgegevens;</li>
@@ -85,15 +105,6 @@ Een broker die het inlogproces orkestreert:
 <li>biedt alleen toegang tot diensten, functionaliteiten en gegevens die passen bij de aangeleverde verklaringen en bijbehorende attributen;</li>
 <li>baseert autorisaties in achterliggende systemen op de identiteit van de gebruiker;</li>
 <li>registreert gevoelige verwerkingen die een entiteit uitvoert in een auditlog.</li>
-</ul>
-</p>
-<h4>Inzageregister</h4>
-<p>Het inzageregister is een generieke voorziening die gebruikers in staat stelt om inzage te krijgen in al hun identificatiemiddelen, machtigingen waar ze bij zijn betrokken en de toegang die op basis hiervan is verschaft.</p>
-<p>Het inzageregister:
-<ul>
-<li>registreert activaties en wijzigingen van identificatiemiddelen, machtigingen (en wijzigingen erin), metagegevens over afgegeven authenticatie- en bevoegdheidsverklaringen;</li>
-<li>gebruikt pseudoniemen om de privay van persoonsgegevens te waarborgen;</li>
-<li>biedt gebruikers (via MijnOverheid.nl) inzage in deze gegevens.</li>
 </ul>
 </p>
 <h4>Machtigingsdienst</h4>
@@ -117,6 +128,11 @@ Een broker die het inlogproces orkestreert:
 <h4>Middelenuitgever</h4>
 <p>Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</p>
 <p>Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever.</p>
+<p>Functies:
+<ul>
+<li>Beheren identificatiemiddelen</li>
+</ul>
+</p>
 <p>Een middelenuitgever:
 <ul>
 <li>registreert het uitgeven en intrekken van identificatiemiddelen in een inzageregister;</li>
