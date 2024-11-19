@@ -1,5 +1,5 @@
 <archimate:WorkPackage
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Onderzoek toekomstige inrichting van machtigen"
+    name="Uitbreiden machtigingsmogelijkheden"
     id="id-61dc33c76ec94288b37d10018c2e8caa"
-    documentation="Het is wenselijk om te onderzoeken hoe met machtigen in de toekomst zou moeten worden omgegaan. Er zijn allerlei behoeften aan meer uitgebreide en fijnmaziger vormen van machtigen die nu niet worden ondersteund, zoals het machtigen voor een zaak of een informatie-object. Is het wenselijk om eHerkenning en/of DigiD machtigen uit te breiden met alle veelvoorkomende vormen van machtigen? Het onderzoek zou zich moeten richten op het verzamelen van de eisen en wensen en het bepalen wat centraal en wat decentraal vastgelegd zou moeten worden. Gebruikers willen hun machtigingen op één plaats kunnen inzien en genotificeerd worden bij wijzigingen. Er moet expliciet rekening worden gehouden met de relatie met de EDI-wallet. Deze zal ook vertegenwoordiging en machtigen moeten ondersteunen voor burgers die andere burgers of bedrijven vertegenwoordigen."/>
+    documentation="Er is behoefte aan meer uitgebreide en meer fijnmazige vormen van machtigen in DigiD machtigen en eHerkenning machtigen. Een eerste stap zou kunnen zijn om één niveau dieper dan dienst machtigingen te kunnen toekennen. De precieze eisen en wensen moeten nog verzameld worden. "/>

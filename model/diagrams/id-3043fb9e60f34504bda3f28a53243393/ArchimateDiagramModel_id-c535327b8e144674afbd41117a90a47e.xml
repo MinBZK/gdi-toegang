@@ -437,7 +437,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-cf346651b83042af93884ebc7bbfd9e9"
-      fillColor="#ffffff">
+      fillColor="#ffffff"
+      textPosition="1">
     <features
         name="iconVisible"
         value="2"/>
