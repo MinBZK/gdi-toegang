@@ -2,7 +2,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Machtiging"
     id="id-906f182647604ffc90107fdb1c8d46de"
-    documentation="Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.">
+    documentation="De uitdrukking van de verlening van een bevoegdheid aan een natuurlijk persoon om namens een andere natuurlijk persoon of namens een organisatie handelingen te verrichten.">
   <properties
       key="Alternatieve term"
       value="Vrijwillige machtiging"/>

@@ -2,11 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="machtiging"
     id="id-94486e8b519c43299e62c0a3e7ffd6bd"
-    documentation="Een herroepbare bevoegdheid die een entiteit (de vertegenwoordigde) verleent aan een andere entiteit (de vertegenwoordiger) om in naam van eerstgenoemde rechtshandelingen te verrichten.">
-  <properties
-      key="Toelichting"
-      value="Een wettelijke vertegenwoordiging is conform deze definitie dus geen machtiging. Er wordt ook wel onderscheid gemaakt tussen verticale machtingen en horizontale machtigingen. Een verticale machtiging  is een machtiging waarbij een natuurlijk persoon een niet-natuurlijk persoon mag vertegenwoordigen. Een horizontale machtiging is een machtiging waarbij er een vertegenwoordiging is van een persoon door een ander persoon zonder hiërarchische verhouding. "/>
+    documentation="De uitdrukking van de verlening van een bevoegdheid aan een natuurlijk persoon om namens een andere natuurlijk persoon of namens een organisatie handelingen te verrichten.">
   <properties
       key="Alternatieve term"
       value="vrijwillige machtiging"/>
+  <properties
+      key="Toelichting"
+      value="Een wettelijke vertegenwoordiging is conform deze definitie dus geen machtiging. Aan een machtiging worden geen vormeisen gesteld en kunnen dus zowel mondeling als schriftelijk zijn. Een machtiging is inherent vrijwillig en herroepbaar. Er is juridisch gezien onderscheid tussen verschillende vormen van machtiging. Bij het verrichten van publiekrechtelijke rechtshandelingen wordt gesproken over een mandaat. Bij het verrichten van privaatrechtelijke rechtshandelingen wordt gesproken over een volmacht. Bij het verrichten van feitelijke handelingen is sprake van een bestuursrechtelijke machtiging (zie Awb artikel 2.1). Er wordt ook wel onderscheid gemaakt tussen verticale machtingen en horizontale machtigingen. Een verticale machtiging is een machtiging waarbij een natuurlijk persoon een organisatie mag vertegenwoordigen. Een horizontale machtiging is een machtiging waarbij er een vertegenwoordiging is van een natuurlijk persoon door een ander natuurlijk persoon zonder hiërarchische verhouding. "/>
 </archimate:Meaning>
