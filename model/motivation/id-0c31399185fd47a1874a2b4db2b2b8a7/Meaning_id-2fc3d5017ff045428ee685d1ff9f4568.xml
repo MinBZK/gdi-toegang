@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="wettelijke vertegenwoordiging"
     id="id-2fc3d5017ff045428ee685d1ff9f4568"
-    documentation="De bevoegdheid van een natuurlijk persoon of organisatie op grond van de wet of een rechtelijke uitspraak om te handelen namens een andere natuurlijk persoon."/>
+    documentation="De bevoegdheid van een natuurlijk persoon of organisatie op grond van de wet of een rechtelijke uitspraak om te handelen namens een andere natuurlijk persoon.">
+  <properties
+      key="Toelichting"
+      value="Wettelijke vertegenwoordiging gaat onder meer over gezag (zie titel 14 van het Burgerlijk Wetboek), bewind (zie artikel 1:431, lid 1 van het Burgerlijk Wetboek), curatele (zie artikel 1:378, lid 1 van het Burgerlijk Wetboek) of mentorschap (zie artikel 1:450, lid 1 van het Burgerlijk Wetboek)."/>
+</archimate:Meaning>
