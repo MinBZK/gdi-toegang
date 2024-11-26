@@ -5,7 +5,7 @@ De volgende figuur geeft een overzicht van de kernrollen en hun samenhang. Tusse
 </p>
 <p><center><img src="https://minbzk.github.io/gdi-toegang/images/kernrollen.svg"></center></p>
 <p> 
-In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke rol worden richtlijnen beschreven die worden gesteld. Deze richtlijnen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige rollen zijn enkelvoudig aanwezig, van andere rollen kunnen meerdere instanties zijn. Dat is beschreven per rol.
+In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke rol worden functies benoemd, gebaseerd op het functiemodel. Er worden ook richtlijnen beschreven, die zijn gebaseerd op onder meer de architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Daarnaast staan er voorbeelden van partijen of voorzieningen die bij deze rol horen. Strikt genomen zijn de beheerpartijen van de voorzieningen de verantwoordelijke voor de rol, maar om redenen van herkenbaarheid staat er de naam van de voorziening.
 </p>
 <h4>Aanbieder van identiteitsgegevens</h4>
 <p>
@@ -17,7 +17,7 @@ Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouder
 <li>Verstrekken identiteitsgegevens.</li>
 </ul>
 </p>
-<p>Voorbeelden: RvIG, KvK, RDW.</p>
+<p>Voorbeelden: RvIG, KvK, RDW, QTSP.</p>
 <p>
 Een aanbieder van identiteitsgegevens:
 <ul>
@@ -30,13 +30,11 @@ Een aanbieder van identiteitsgegevens:
 <p>Voorbeelden: DigiD, eHerkenning authenticatiedienst.</p>
 <p>Functies:
 <ul>
-<li>Bestrijden fraude en misbruik;</li>
-<li>Ontsleutelen pseudoniem;</li>
-<li>	Uitloggen;</li>
 <li>Uitvoeren authenticatie;</li>
-<li>Vastleggen gebruik identificatiemiddel;</li>
-<li>Vertalen authenticatieverklaring;</li>
-<li>Vertalen identifier.</li>
+<li>Vastleggen auditlog;</li>
+<li>Vastleggen gebruik identificatiemiddel;/li>
+<li>Uitloggen;</li>
+<li>Bestrijden fraude en misbruik./li>
 </ul>
 </p>
 <p>
@@ -45,15 +43,15 @@ Een authenticatiedienst:
 <li>controleert bij een authenticatieverzoek de authenticiteit en geldigheid van het gebruikte identificatiemiddel bij de verantwoordelijke middelenuitgever;</li>
 <li>registreert authenticatieverzoeken en hun resultaat in een auditlog;</li>
 <li>registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;</li>
-<li>stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding;</li>
-<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov;</li>
+<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov (geldt niet voor EDI Wallet);</li>
 <li>ondersteunt het uitloggen van entiteiten met een bepaalde identiteit;</li>
-<li>is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen.</li>
+<li>is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen;/li>
+<li>stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding./li>
 </ul>
 </p>
 <h4>Broker</h4>
-<p>Een broker biedt de diensten van een verzameling van verklarende partijen als één geïntegreerde dienst aan.</p>
-<p>Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt.</p>
+<p>Een broker biedt één ingangspunt voor het routeren, vertalen en aggregeren van verklaringen van één of meer verklarende partijen.</p>
+<p>Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt, EDI Wallet.</p>
 <p>Functies:
 <ul>
 <li>Orkestreren login;</li>
@@ -74,7 +72,7 @@ Een broker die het inlogproces orkestreert:
 <li>	biedt gebruikers een klantreis die voldoet aan de afspraken voor het inlogproces;</li>
 <li>maakt het standaard mogelijk om iemand te vertegenwoordigen bij het inloggen;</li>
 <li>ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen;</li>
-<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov.</li>
+<li>ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov (geldt niet voor EDI Wallet).</li>
 </ul>
 </p>
 <h4>Dienstverlener</h4>
@@ -116,18 +114,11 @@ Een broker die het inlogproces orkestreert:
 <li>registreert het betrouwbaarheidsniveau waarop een machtiging is afgegeven;</li>
 <li>maakt het mogelijk om het betrouwbaarheidsniveau van een machtiging op te hogen;</li>
 <li>notificeert vertegenwoordigden en vertegenwoordigers over wijzigingen in machtigingen;</li>
-<li>stuurt metagegevens over afgegeven bevoegdheidsverklaringen door naar centrale misbruikbestrijding;</li>
-<li>kan een generieke machtigingsdienst zijn of een specifieke machtigingsdienst.</li>
+<li>stuurt metagegevens over afgegeven bevoegdheidsverklaringen door naar centrale misbruikbestrijding./li>
 </ul>
-</p>
-<p>Een generieke machtigingsdienst:
-<ul>
-<li>	ondersteunt alle veelvoorkomende vormen van machtiging.</li>
-</ul>
-</p>
 <h4>Middelenuitgever</h4>
 <p>Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.</p>
-<p>Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever.</p>
+<p>Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever, EDI Wallet aanbieder.</p>
 <p>Functies:
 <ul>
 <li>Beheren identificatiemiddelen</li>

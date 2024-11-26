@@ -58,7 +58,7 @@ De volgende figuur geeft een overzicht van de kernrollen en hun samenhang. Tusse
 &lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src="https://minbzk.github.io/gdi-toegang/images/kernrollen.svg"&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;p&gt; 
-In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke role worden richtlijnen beschreven die worden gesteld. Deze richtlijnen zijn gebaseerd op onder meer de eerder beschreven architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Sommige rollen zijn enkelvoudig aanwezig, van andere rollen kunnen meerdere instanties zijn. Dat is beschreven per rol.
+In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke rol worden functies benoemd, gebaseerd op het functiemodel. Er worden ook richtlijnen beschreven, die zijn gebaseerd op onder meer de architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Daarnaast staan er voorbeelden van partijen of voorzieningen die bij deze rol horen. Strikt genomen zijn de beheerpartijen van de voorzieningen de verantwoordelijke voor de rol, maar om redenen van herkenbaarheid staat er de naam van de voorziening.
 &lt;/p&gt;
 &lt;h4&gt;Aanbieder van identiteitsgegevens&lt;/h4&gt;
 &lt;p&gt;
@@ -70,7 +70,7 @@ Een aanbieder is verantwoordelijk voor het aanbieden van gegevens van bronhouder
 &lt;li&gt;Verstrekken identiteitsgegevens.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;p&gt;Voorbeelden: RvIG, KvK, RDW.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: RvIG, KvK, RDW, QTSP.&lt;/p&gt;
 &lt;p&gt;
 Een aanbieder van identiteitsgegevens:
 &lt;ul&gt;
@@ -83,13 +83,11 @@ Een aanbieder van identiteitsgegevens:
 &lt;p&gt;Voorbeelden: DigiD, eHerkenning authenticatiedienst.&lt;/p&gt;
 &lt;p&gt;Functies:
 &lt;ul&gt;
-&lt;li&gt;Bestrijden fraude en misbruik;&lt;/li&gt;
-&lt;li&gt;Ontsleutelen pseudoniem;&lt;/li&gt;
-&lt;li&gt;	Uitloggen;&lt;/li&gt;
 &lt;li&gt;Uitvoeren authenticatie;&lt;/li&gt;
-&lt;li&gt;Vastleggen gebruik identificatiemiddel;&lt;/li&gt;
-&lt;li&gt;Vertalen authenticatieverklaring;&lt;/li&gt;
-&lt;li&gt;Vertalen identifier.&lt;/li&gt;
+&lt;li&gt;Vastleggen auditlog;&lt;/li&gt;
+&lt;li&gt;Vastleggen gebruik identificatiemiddel;/li&gt;
+&lt;li&gt;Uitloggen;&lt;/li&gt;
+&lt;li&gt;Bestrijden fraude en misbruik./li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -98,15 +96,15 @@ Een authenticatiedienst:
 &lt;li&gt;controleert bij een authenticatieverzoek de authenticiteit en geldigheid van het gebruikte identificatiemiddel bij de verantwoordelijke middelenuitgever;&lt;/li&gt;
 &lt;li&gt;registreert authenticatieverzoeken en hun resultaat in een auditlog;&lt;/li&gt;
 &lt;li&gt;registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;&lt;/li&gt;
-&lt;li&gt;stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding;&lt;/li&gt;
-&lt;li&gt;ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov;&lt;/li&gt;
+&lt;li&gt;ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov (geldt niet voor EDI Wallet);&lt;/li&gt;
 &lt;li&gt;ondersteunt het uitloggen van entiteiten met een bepaalde identiteit;&lt;/li&gt;
-&lt;li&gt;is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen.&lt;/li&gt;
+&lt;li&gt;is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen;/li&gt;
+&lt;li&gt;stuurt metagegevens over authenticatieverzoeken en hun resultaat door naar centrale misbruikbestrijding./li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;h4&gt;Broker&lt;/h4&gt;
-&lt;p&gt;Een broker biedt de diensten van een verzameling van verklarende partijen als &#233;&#233;n ge&#239;ntegreerde dienst aan.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt.&lt;/p&gt;
+&lt;p&gt;Een broker biedt &#233;&#233;n ingangspunt voor het routeren, vertalen en aggregeren van verklaringen van &#233;&#233;n of meer verklarende partijen.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt, EDI Wallet.&lt;/p&gt;
 &lt;p&gt;Functies:
 &lt;ul&gt;
 &lt;li&gt;Orkestreren login;&lt;/li&gt;
@@ -127,7 +125,7 @@ Een broker die het inlogproces orkestreert:
 &lt;li&gt;	biedt gebruikers een klantreis die voldoet aan de afspraken voor het inlogproces;&lt;/li&gt;
 &lt;li&gt;maakt het standaard mogelijk om iemand te vertegenwoordigen bij het inloggen;&lt;/li&gt;
 &lt;li&gt;ontzorgt dienstverleners in het verkrijgen van veelvoorkomende (voor toegang relevante) attributen;&lt;/li&gt;
-&lt;li&gt;ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov.&lt;/li&gt;
+&lt;li&gt;ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov (geldt niet voor EDI Wallet).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;h4&gt;Dienstverlener&lt;/h4&gt;
@@ -169,19 +167,12 @@ Een broker die het inlogproces orkestreert:
 &lt;li&gt;registreert het betrouwbaarheidsniveau waarop een machtiging is afgegeven;&lt;/li&gt;
 &lt;li&gt;maakt het mogelijk om het betrouwbaarheidsniveau van een machtiging op te hogen;&lt;/li&gt;
 &lt;li&gt;notificeert vertegenwoordigden en vertegenwoordigers over wijzigingen in machtigingen;&lt;/li&gt;
-&lt;li&gt;stuurt metagegevens over afgegeven bevoegdheidsverklaringen door naar centrale misbruikbestrijding;&lt;/li&gt;
-&lt;li&gt;kan een generieke machtigingsdienst zijn of een specifieke machtigingsdienst.&lt;/li&gt;
+&lt;li&gt;stuurt metagegevens over afgegeven bevoegdheidsverklaringen door naar centrale misbruikbestrijding./li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
-&lt;p&gt;Een generieke machtigingsdienst:
-&lt;ul&gt;
-&lt;li&gt;	ondersteunt alle veelvoorkomende vormen van machtiging.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
 &lt;h4&gt;Middelenuitgever&lt;/h4&gt;
 &lt;p&gt;Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever.&lt;/p&gt;
-&lt;b&gt;Functies:
+&lt;p&gt;Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever, EDI Wallet aanbieder.&lt;/p&gt;
+&lt;p&gt;Functies:
 &lt;ul&gt;
 &lt;li&gt;Beheren identificatiemiddelen&lt;/li&gt;
 &lt;/ul&gt;
