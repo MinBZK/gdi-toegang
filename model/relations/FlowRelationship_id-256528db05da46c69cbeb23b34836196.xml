@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="identiteitsgegevens"
+    name="verifieerbare verklaring"
     id="id-256528db05da46c69cbeb23b34836196">
   <source
       xsi:type="archimate:BusinessRole"
