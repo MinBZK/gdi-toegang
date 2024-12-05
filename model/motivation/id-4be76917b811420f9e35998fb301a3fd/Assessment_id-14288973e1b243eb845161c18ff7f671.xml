@@ -1,0 +1,5 @@
+<archimate:Assessment
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Geen pin reset mogelijk met DigiD hoog"
+    id="id-14288973e1b243eb845161c18ff7f671"
+    documentation="Het is op dit moment niet mogelijk om een pin reset uit te voeren met DigiD hoog. Als een gebruiker zijn pincode vergeten is dat moet deze een nieuw identiteitsbewijs aanvragen. Het belang van DigiD hoog en het goed functioneren ervan is belangrijk in de context van de EDI wallet, omdat deze nodig is om de persoonsidentificatiegegevens te kunnen laden in de EDI wallet."/>

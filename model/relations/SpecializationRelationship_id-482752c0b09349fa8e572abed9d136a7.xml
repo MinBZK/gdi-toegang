@@ -1,12 +1,11 @@
-<archimate:FlowRelationship
+<archimate:SpecializationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="bevoegdheidsverklaring"
-    id="id-e7e2726294a749bda1e5baa299e71ceb">
+    id="id-482752c0b09349fa8e572abed9d136a7">
   <source
       xsi:type="archimate:BusinessRole"
       href="BusinessRole_id-716262df16c04d2eab3f45cf6f107af5.xml#id-716262df16c04d2eab3f45cf6f107af5"/>
   <target
       xsi:type="archimate:BusinessRole"
-      href="BusinessRole_id-43ff9aa71f9d42f6b923887431c90bfc.xml#id-43ff9aa71f9d42f6b923887431c90bfc"/>
-</archimate:FlowRelationship>
+      href="BusinessRole_id-7704adc1f92441d0b314f1d05a716b04.xml#id-7704adc1f92441d0b314f1d05a716b04"/>
+</archimate:SpecializationRelationship>

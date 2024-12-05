@@ -1,0 +1,5 @@
+<archimate:WorkPackage
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pin reset voor DigiD hoog"
+    id="id-35d763cff9af450db40ec7b4ac2a7e62"
+    documentation="Het is vanuit gebruiksvriendelijkheid en daarmee voor de acceptatie van de EDI wallet belangrijk dat het mogelijk wordt om de pincode van DigiD hoog te kunnen resetten."/>

@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="machtiging"
+    name="bevoegdheidsverklaring"
     id="id-57cf1c94a6574b6f8bb3da50819778f7">
   <source
       xsi:type="archimate:BusinessRole"

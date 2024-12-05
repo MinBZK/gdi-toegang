@@ -50,6 +50,23 @@
           xsi:type="archimate:Assessment"
           href="Assessment_id-a4046d419300443da3ec983b6a64884b.xml#id-a4046d419300443da3ec983b6a64884b"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-08f95ef8873c44a99bc66cf8b1655941"
+        fillColor="#ffffff"
+        textPosition="1">
+      <features
+          name="iconVisible"
+          value="2"/>
+      <bounds
+          x="12"
+          y="168"
+          width="217"
+          height="49"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-14288973e1b243eb845161c18ff7f671.xml#id-14288973e1b243eb845161c18ff7f671"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_id-fe587c1bae3c453285eccb764194ced3.xml#id-fe587c1bae3c453285eccb764194ced3"/>

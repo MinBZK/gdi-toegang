@@ -1,0 +1,9 @@
+<archimate:Meaning
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="vertrouwende partij"
+    id="id-e3d59e6fb06d402fbdfa4de81cfc76f0"
+    documentation="Een rol die vertrouwt op verifieerbare verklaringen van een verklarende partij.">
+  <properties
+      key="Toelichting"
+      value="Met een vertrouwende partij wordt meestal een dienstverlener bedoeld. In de eIDAS verordening is de definitie echter breder: “een natuurlijke of rechtspersoon die vertrouwt op elektronische identificatie, Europese portemonnees voor digitale identiteit of andere elektronische identificatiemiddelen, of op een vertrouwensdienst”."/>
+</archimate:Meaning>
