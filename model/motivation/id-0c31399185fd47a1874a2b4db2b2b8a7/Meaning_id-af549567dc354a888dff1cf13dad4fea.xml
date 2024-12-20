@@ -5,5 +5,5 @@
     documentation="Een object dat gedrag kan vertonen.">
   <properties
       key="Toelichting"
-      value="In de context van toegang zijn dit mensen, organisaties, applicaties of apparaten."/>
+      value="In de context van toegang zijn dit mensen, organisaties, applicaties of apparaten. Er wordt in het “Party-Driven Actor” model van TNO onderscheid gemaakt tussen partijen en actoren. Partijen zijn daarbij de entiteiten die doelen hebben en beslissingen nemen. Actoren zijn de actieve entiteiten die namens partijen handelen. Daarbij zijn organisaties wel een partij, maar geen actor omdat organisaties niet zelf gedrag kunnen vertonen. Applicaties of apparaten zijn wel een actor, maar geen partij omdat ze altijd namens iemand anders gedrag vertonen. "/>
 </archimate:Meaning>
