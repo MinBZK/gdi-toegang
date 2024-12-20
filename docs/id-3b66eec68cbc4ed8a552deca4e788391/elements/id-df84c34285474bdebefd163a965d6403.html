@@ -51,14 +51,33 @@
 							<br>
 							<b class="i18n-specialization"></b>
 								Tekst
-						<div class="convertlinks documentation" style="white-space:pre-wrap">&lt;p&gt;Dit hoofdstuk beschrijft de belangrijkste rollen, hun verantwoordelijkheden en onderlinge samenhang. Het geeft ook richtlijnen voor deze rollen.&lt;/p&gt;
-&lt;h3&gt;Overzicht&lt;/h3&gt;
+						<div class="convertlinks documentation" style="white-space:pre-wrap">&lt;p&gt;Dit hoofdstuk beschrijft de belangrijkste interactiepatronen die een rol spelen bij toegang en gaat vervolgens in op de belangrijkste rollen, hun verantwoordelijkheden en onderlinge samenhang. Het geeft ook richtlijnen voor deze rollen.&lt;/p&gt;
+&lt;h3&gt;Interactiepatronen&lt;/h3&gt;
 &lt;p&gt;
-De volgende figuur geeft een overzicht van de kernrollen en hun samenhang. Tussen de rollen zijn de belangrijkste gegevensstromen weergegeven. Alleen de kernrollen zijn opgenomen in de figuur. Zo zijn bijvoorbeeld de regisseur van de toegangsinfrastructuur, verleners van vertrouwensdiensten, de toezichthouder en centrale misbruikbestrijding niet opgenomen. Een volledige lijst van rollen is opgenomen in de bijlagen.
+De volgende figuur geeft een overzicht van de belangrijkste interactiepatronen die relevant zijn in het kader van toegang. Het gewenste interactiepatroon voor de toekomst is het patroon waarbij de gebruiker centraal staat omdat deze de privacy maximaal beschermt en de gebruiker maximaal zelf laat bepalen. De overige patronen zijn alleen nodig door beperkingen en keuzes in de huidige situatie.
 &lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src="https://minbzk.github.io/gdi-toegang/images/kernrollen.svg"&gt;&lt;/center&gt;&lt;/p&gt;
-&lt;p&gt; 
-In de volgende paragrafen worden de kernrollen verder beschreven (met uitzondering van de rol gebruiker). Bij elke rol worden functies benoemd, gebaseerd op het functiemodel. Er worden ook richtlijnen beschreven, die zijn gebaseerd op onder meer de architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Daarnaast staan er voorbeelden van partijen of voorzieningen die bij deze rol horen. Strikt genomen zijn de beheerpartijen van de voorzieningen de verantwoordelijke voor de rol, maar om redenen van herkenbaarheid staat er de naam van de voorziening.
+&lt;p&gt;&lt;center&gt;&lt;img src="https://minbzk.github.io/gdi-toegang/images/interactiepatronen.svg"&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h4&gt;Interactiepatroon 1: Gebruiker centraal&lt;/h4&gt;
+&lt;p&gt;
+Het interactiepatroon &#8220;gebruiker centraal&#8221; komt overeen met de rolverdeling zoals voorgesteld in de context van Self Sovereign Identity en de EDI wallet. Bij dit patroon hebben gebruikers regie op hun eigen gegevens en bepalen ze zelf welke identiteitsgegevens worden verstrekt aan dienstverleners. Aanbieders van identiteitsgegevens hebben ook geen zicht op welke dienstverleners de identiteitsgegevens gebruiken. Daarmee is privacy maximaal beschermd. De gebruiker wordt daarbij dus ondersteund door een wallet, die je kunt zien als een soort authenticatiedienst. Het werkt alleen anders dan een authenticatiedienst. De gebruiker is al eerder geauthenticeerd door aanbieders van identiteitsgegevens bij het laden van verifieerbare verklaringen in de wallet. Bij het verzoek om een dienst kan de gebruiker alle relevante verklaringen verstrekken aan een dienstverlener, inclusief een verklaring over zijn/haar identiteit. Merk op dat machtigingsdiensten ook kunnen worden gezien als een bijzondere vorm van aanbieders van identiteitsgegevens, en in die zin ook niet anders behandeld hoeven te worden.
+&lt;/p&gt;
+&lt;h4&gt;Interactiepatroon 2: Traditioneel&lt;/h4&gt;
+&lt;p&gt;
+In meer traditionele interactiepatronen speelt de authenticatiedienst een meer centrale rol. Deze wordt aangeroepen door de dienstverlener en ontvangt bewijs van de identiteit van de gebruiker, bijvoorbeeld in de vorm van een wachtwoord. Als er aanvullende identiteitsgegevens nodig zijn, die niet worden verstrekt door de authenticatiedienst, dan dient de dienstverlener deze zelf op te halen bij andere aanbieders van identiteitsgegevens. Daarmee ligt er veel complexiteit bij de dienstverlener. Daarnaast worden er hoge eisen gesteld aan de beschikbaarheid van de authenticatiedienst en aanbieders van identiteitsgegevens. Dit is het patroon dat ook de kern vormt van DigiD en eHerkenning en dat ook in de toekomst nog veel gebruikt zal worden. Een belangrijke reden daarvoor is dat er niet vanuit kan worden gegaan dat iedereen een wallet heeft, deze is immers niet verplicht. Daarnaast moeten ook andere authenticatiemiddelen kunnen worden ondersteund in de context van de Wet digitale overheid.
+&lt;/p&gt;
+&lt;h4&gt;Interactiepatroon 3: Ontzorgd door broker(s)&lt;/h4&gt;
+&lt;p&gt;
+Om dienstverleners te ontzorgen kunnen dienstverleners gebruik maken van brokers, die complexiteit afschermen doordat ze verklaringen van &#233;&#233;n of meer verklarende partijen kunnen routeren, vertalen en aggregeren. Er bestaan brokers op meerdere niveaus. Zo is een makelaar een standaard rol in de context van eHerkenning en is CombiConnect onderdeel van DigiD. Deze laatste zorgt dat verklaringen over machtigingen worden teruggegeven bij het resultaat van authenticatie met DigiD. Ook de bevoegdhedenverklaringsdienst is een broker; deze aggregeert verklaringen over wettelijke vertegenwoordigingen. Daarnaast kunnen dienstverleners ook andere brokers inzetten, zoals TVS of een commerci&#235;le broker. Dit soort brokers zijn in staat om over meerdere soorten authenticatiedienst heen te aggregeren en zorgen dus voor maximale ontzorging. Ze zouden echter niet verplicht moeten zijn voor dienstverleners. Extra schakels in een keten leiden ook tot extra risico&#8217;s m.b.t. informatiebeveiliging.
+&lt;/p&gt;
+&lt;p&gt;
+In de volgende paragrafen worden de kernrollen verder beschreven. Bij elke rol worden functies benoemd, gebaseerd op het functiemodel. Er worden ook richtlijnen beschreven, die zijn gebaseerd op onder meer de architectuurprincipes en knelpunten, alsook op van toepassing zijnde wet- en regelgeving. Daarnaast staan er voorbeelden van partijen of voorzieningen die bij deze rol horen. Strikt genomen zijn de beheerpartijen van de voorzieningen de verantwoordelijke voor de rol, maar om redenen van herkenbaarheid staat er de naam van de voorziening.
+&lt;/p&gt;
+&lt;h4&gt;Gebruiker&lt;/h4&gt;
+&lt;p&gt;
+Een  gebruiker is natuurlijk persoon die gegevens en/of functionaliteit gebruikt voor het uitvoeren van werkzaamheden.
+&lt;/p&gt;
+&lt;p&gt;
+Een gebruiker is bij meer traditionele interactiepatronen de partij die de interactie start door een verzoek te doen bij een dienstverlener en bewijs (zoals een wachtwoord) te verstrekken aan een authenticatiedienst. Bij het interactiepatroon waarbij de gebruiker centraal staat gebruikt deze gebruiker een wallet. Die wallet geeft ook invulling aan de rol authenticatiedienst en heeft daarmee ook de daarbij behorende verantwoordelijkheden. Tegelijkertijd doet de term authenticatiedienst eigenlijk geen recht aan de fundamenteel andere interactie die een wallet ondersteunt. Een wallet lijkt ook in zekere zin op een broker, omdat het in staat is om verklaringen te vertalen en te aggregeren. Tegelijkertijd doet ook die term geen recht aan wat een wallet is..
 &lt;/p&gt;
 &lt;h4&gt;Aanbieder van identiteitsgegevens&lt;/h4&gt;
 &lt;p&gt;
@@ -80,7 +99,7 @@ Een aanbieder van identiteitsgegevens:
 &lt;/p&gt;
 &lt;h4&gt;Authenticatiedienst&lt;/h4&gt;
 &lt;p&gt;Een authenticatiedienst geeft authenticatieverklaringen af op basis van een identificatiemiddel.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: DigiD, eHerkenning authenticatiedienst.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: Logius (voor DigiD), eHerkenning authenticatiedienst, EDI Wallet.&lt;/p&gt;
 &lt;p&gt;Functies:
 &lt;ul&gt;
 &lt;li&gt;Uitvoeren authenticatie;&lt;/li&gt;
@@ -95,7 +114,7 @@ Een authenticatiedienst:
 &lt;ul&gt;
 &lt;li&gt;controleert bij een authenticatieverzoek de authenticiteit en geldigheid van het gebruikte identificatiemiddel bij de verantwoordelijke middelenuitgever;&lt;/li&gt;
 &lt;li&gt;registreert authenticatieverzoeken en hun resultaat in een auditlog;&lt;/li&gt;
-&lt;li&gt;registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister;&lt;/li&gt;
+&lt;li&gt;registreert metagegevens over authenticatieverzoeken en hun resultaat in een inzageregister dat inzichtelijk is voor gebruikers;&lt;/li&gt;
 &lt;li&gt;ondersteunt de OpenID Connect standaard conform het Nederlands profiel OpenID.NLGov (geldt niet voor EDI Wallet);&lt;/li&gt;
 &lt;li&gt;ondersteunt het uitloggen van entiteiten met een bepaalde identiteit;&lt;/li&gt;
 &lt;li&gt;is verantwoordelijk voor het voorkomen, detecteren, opvolgen en herstellen van fraude met identificatiemiddelen;/li&gt;
@@ -104,7 +123,7 @@ Een authenticatiedienst:
 &lt;/p&gt;
 &lt;h4&gt;Broker&lt;/h4&gt;
 &lt;p&gt;Een broker biedt &#233;&#233;n ingangspunt voor het routeren, vertalen en aggregeren van verklaringen van &#233;&#233;n of meer verklarende partijen.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: CombiConnect, TVS, Bevoegdhedenverklaringsdienst, eHerkenning makelaar, eIDAS koppelpunt, EDI Wallet.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: Logius (voor CombiConnect, bevoegdhedenverklaringsdienst en eIDAS koppelpunt), DICTU (voor TVS), eHerkenning makelaar.&lt;/p&gt;
 &lt;p&gt;Functies:
 &lt;ul&gt;
 &lt;li&gt;Orkestreren login;&lt;/li&gt;
@@ -115,7 +134,7 @@ Een authenticatiedienst:
 &lt;p&gt;
 Een broker:
 &lt;ul&gt;
-&lt;li&gt;	kan het inlogproces richting een eindgebruiker orkestreren;&lt;/li&gt;
+&lt;li&gt;kan het inlogproces richting een eindgebruiker orkestreren;&lt;/li&gt;
 &lt;li&gt;kan vertalingen uitvoeren op verifieerbare verklaringen;&lt;/li&gt;
 &lt;li&gt;kan gebruik maken van andere brokers.&lt;/li&gt;
 &lt;/ul&gt;
@@ -142,8 +161,8 @@ Een broker die het inlogproces orkestreert:
 &lt;li&gt;biedt diensten die zijn afgestemd op de specifieke soorten gebruikers en hun specifieke taken;&lt;/li&gt;
 &lt;li&gt;bepaalt voor elke dienst een noodzakelijk betrouwbaarheidsniveau;&lt;/li&gt;
 &lt;li&gt;eist geen hoger betrouwbaarheidsniveau dan wat nodig is voor het verkrijgen van toegang tot een dienst; &lt;/li&gt;
-&lt;li&gt;	accepteert alle erkende publieke en private identificatiemidellen;&lt;/li&gt;
-&lt;li&gt;registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toeganginfrastructuur;&lt;/li&gt;
+&lt;li&gt;accepteert alle erkende publieke en private identificatiemiddelen;&lt;/li&gt;
+&lt;li&gt;registreert de attributen die nodig zijn voor het verstrekken van toegang tot een dienst in de toegangsinfrastructuur;&lt;/li&gt;
 &lt;li&gt;maakt duidelijk welke wettelijke grondslag en doelbinding ten grondslag liggen aan de attributen die worden gevraagd;&lt;/li&gt;
 &lt;li&gt;maakt duidelijk aan welke derde partijen attributen worden doorgegeven en op basis van welke wettelijke grondslag en doelbinding;&lt;/li&gt;
 &lt;li&gt;vraagt niet meer attributen dan wat strikt noodzakelijk is voor het leveren van een dienst;&lt;/li&gt;
@@ -159,11 +178,11 @@ Een broker die het inlogproces orkestreert:
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;h4&gt;Machtigingsdienst&lt;/h4&gt;
-&lt;p&gt;Een machtigingsdienst kan machtigingen vastleggen en op basis daarvan bevoegdheids-verklaringen afgeven.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: DigiD machtigen, eHerkenning machtigingsdienst.&lt;/p&gt;
+&lt;p&gt;Een machtigingsdienst kan machtigingen vastleggen en op basis daarvan bevoegdheids-verklaringen afgeven. Een machtigingsdienst kan worden gezien als een leverancier van identiteitsgegevens en zou dan ook de daarbij behorende verantwoordelijkheden moeten hebben.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: Logius (voor DigiD machtigen), eHerkenning machtigingsdienst.&lt;/p&gt;
 &lt;p&gt;Een machtigingsdienst:
 &lt;ul&gt;
-&lt;li&gt;registreert metagegevens over machtigingen, wijzigingen daarin en bevoegdheidsverklaringen die deze afgeeft in een inzageregister;&lt;/li&gt;
+&lt;li&gt;registreert metagegevens over machtigingen, wijzigingen daarin en bevoegdheidsverklaringen die deze afgeeft in een inzageregister dat inzichtelijk is voor gebruikers;&lt;/li&gt;
 &lt;li&gt;registreert het betrouwbaarheidsniveau waarop een machtiging is afgegeven;&lt;/li&gt;
 &lt;li&gt;maakt het mogelijk om het betrouwbaarheidsniveau van een machtiging op te hogen;&lt;/li&gt;
 &lt;li&gt;notificeert vertegenwoordigden en vertegenwoordigers over wijzigingen in machtigingen;&lt;/li&gt;
@@ -171,7 +190,7 @@ Een broker die het inlogproces orkestreert:
 &lt;/ul&gt;
 &lt;h4&gt;Middelenuitgever&lt;/h4&gt;
 &lt;p&gt;Een middelenuitgever draagt zorg voor de uitgifte van erkende identificatiemiddelen aan natuurlijke personen of niet-natuurlijke personen.&lt;/p&gt;
-&lt;p&gt;Voorbeelden: RvIG (paspoort), RDW (rijbewijs), DigiD, eHerkenning middelenuitgever, EDI Wallet aanbieder.&lt;/p&gt;
+&lt;p&gt;Voorbeelden: RvIG (voor paspoort), RDW (voor rijbewijs), Logius (voor DigiD), eHerkenning middelenuitgever, EDI wallet aanbieder.&lt;/p&gt;
 &lt;p&gt;Functies:
 &lt;ul&gt;
 &lt;li&gt;Beheren identificatiemiddelen&lt;/li&gt;
@@ -179,7 +198,7 @@ Een broker die het inlogproces orkestreert:
 &lt;/p&gt;
 &lt;p&gt;Een middelenuitgever:
 &lt;ul&gt;
-&lt;li&gt;registreert het uitgeven en intrekken van identificatiemiddelen in een inzageregister;&lt;/li&gt;
+&lt;li&gt;registreert het uitgeven en intrekken van identificatiemiddelen in een inzageregister dat inzichtelijk is voor gebruikers;&lt;/li&gt;
 &lt;li&gt;ondersteunt het intrekken van een identificatiemiddel.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</div>
