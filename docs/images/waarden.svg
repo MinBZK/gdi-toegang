@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="247mm"
+   height="127mm"
+   viewBox="0 0 247 127"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="waarden.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.53183923"
+     inkscape:cx="397.67657"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1536"
+     inkscape:window-height="793"
+     inkscape:window-x="914"
+     inkscape:window-y="1077"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-13.640295,-47.783396)"
+       id="g66">
+      <path
+         d="m 61,200 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,250 61,245.523 61,240 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path1" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(109.945,226)"
+         id="text1">Privacy</text>
+      <path
+         d="m 61,278 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,328 61,323.523 61,318 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path2" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(85.3612,304)"
+         id="text2">Transparantie</text>
+      <path
+         d="m 61,357 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,407 61,402.523 61,397 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path3" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(86.6111,383)"
+         id="text3">Keuzevrijheid</text>
+      <path
+         d="m 61,435 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,485 61,480.523 61,475 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path4" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(100.944,461)"
+         id="text4">Veiligheid</text>
+      <path
+         d="m 61,519 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,569 61,564.523 61,559 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path5" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(74.4443,545)"
+         id="text5">Toegankelijkheid</text>
+      <path
+         d="m 61,603 c 0,-5.523 4.4772,-10 10.0001,-10 H 202 c 5.523,0 10,4.477 10,10 v 40 c 0,5.523 -4.477,10 -10,10 H 71.0001 C 65.4772,653 61,648.523 61,643 Z"
+         fill="#eeece1"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(93.0242,620)"
+         id="text6">Gebruikers</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(173.191,620)"
+         id="text7">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(82.6109,637)"
+         id="text8">vriendelijkheid</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,201)"
+         id="text9">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,201)"
+         id="text10">Borgen van grondslag en doelbinding voor</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(579.322,201)"
+         id="text11">identiteits</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(652.322,201)"
+         id="text12">gegevens</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(727.489,201)"
+         id="text13">die worden uitgewisseld</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,218)"
+         id="text14">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,218)"
+         id="text15">Alleen strikt noodzakelijke gegevens uitwisselen; identiteit is alleen bekend als dat nodig is</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,236)"
+         id="text16">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,236)"
+         id="text17">Aanbieders van identiteitsgegevens weten liefst niet van het gebruik ervan</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,253)"
+         id="text18">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,253)"
+         id="text19">Voorkomen van privacy hotspots</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,284)"
+         id="text20">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,284)"
+         id="text21">Gebruikers hebben vooraf inzicht in gegevens die</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(631.489,284)"
+         id="text22">over henzelf</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(727.156,284)"
+         id="text23">worden</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(786.656,284)"
+         id="text24">uitgewisseld</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,301)"
+         id="text25">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,301)"
+         id="text26">Gebruikers hebben inzicht in identificatiemiddelen, verstrekte en ontvangen machtigingen en</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,319)"
+         id="text27">inlogpogingen</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,361)"
+         id="text28">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,361)"
+         id="text29">Gebruikers bepalen of ze diensten afnemen, mede op basis van de door de dienst</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,378)"
+         id="text30">gevraagde gegevens</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,396)"
+         id="text31">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,396)"
+         id="text32">Gebruikers bepalen</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(409.489,396)"
+         id="text33">welk identificatiemiddel ze willen gebruiken</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,438)"
+         id="text34">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,438)"
+         id="text35">Beveiligingsmaatregelen afgestemd op betrouwbaarheidsniveau van dienst</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,455)"
+         id="text36">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,455)"
+         id="text37">Zero</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(294.989,455)"
+         id="text38">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(301.656,455)"
+         id="text39">trust: altijd verifiëren, context</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(525.656,455)"
+         id="text40">-</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(532.322,455)"
+         id="text41">afhankelijk, adaptief en alleen toegang tot dat wat nodig is</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,473)"
+         id="text42">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,473)"
+         id="text43">Quantumveilige</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(381.989,473)"
+         id="text44">cryptografie</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,490)"
+         id="text45">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,490)"
+         id="text46">Streefbeeldafspraken</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(423.322,490)"
+         id="text47">van</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(455.322,490)"
+         id="text48">Forum</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(507.822,490)"
+         id="text49">Standaardisatie</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(628.322,490)"
+         id="text50">naleve</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(676.489,490)"
+         id="text51">n</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,518)"
+         id="text52">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,518)"
+         id="text53">Iedereen toegang geven, geen restgroepen</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,535)"
+         id="text54">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,535)"
+         id="text55">Digitoegankelijk</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(384.489,535)"
+         id="text56">voor mensen met een functiebeperking</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,553)"
+         id="text57">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,553)"
+         id="text58">Expliciet rekening houden met mensen met minder digitale vaardigheden</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,570)"
+         id="text59">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,570)"
+         id="text60">Mensen kunnen zich altijd laten vertegenwoordigen</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,609)"
+         id="text61">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,609)"
+         id="text62">Uniforme gebruikerservaring</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,626)"
+         id="text63">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,626)"
+         id="text64">Betrouwbaarheidsniveau niet hoger inschalen dan noodzakelijk</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(231.156,644)"
+         id="text65">•</text>
+      <text
+         font-family="Verdana, Verdana_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(261.156,644)"
+         id="text66">Eénmalig inloggen, waar mogelijk</text>
+    </g>
+  </g>
+</svg>
