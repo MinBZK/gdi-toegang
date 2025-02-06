@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Publiek Middel Zakelijk"
+    id="id-33310f492f524896818054ffc68f1d37"
+    documentation="Enkelvoudig zelfstandige bevoegde bestuurders kunnen met een Publiek Middel Zakelijk digitale dienstverlening afnemen bij de Belastingdienst.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Er wordt verder een Publiek Middel Zakelijk voor de Belastingdienst ontwikkeld. Hiermee kunnen enkelvoudig zelfstandige bevoegde bestuurders digitale dienstverlening afnemen bij de Belastingdienst in het portaal MijnBelastingdienst Zakelijk."/>
+</archimate:Goal>

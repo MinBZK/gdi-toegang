@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="EDI wallet"
+    id="id-5f633f9872694592bbed624852d0bdfe">
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
+</archimate:ApplicationComponent>

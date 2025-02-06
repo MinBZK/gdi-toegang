@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eHerkenning makelaar"
+    id="id-f9f6b766ac544bb4baefd834a08a4204">
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
+</archimate:ApplicationComponent>

@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eén koppelvlak voor toegang"
+    id="id-0b09d46c610447dc83754d39b4d9dd25"
+    documentation="Dienstverleners kunnen via één gestandaardiseerd koppelvlak toegang krijgen tot alle identificatiemiddelen.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Momenteel wordt gewerkt aan het Stelsel van Toegang, waarmee dienstverleners via één aansluitpunt/koppelvlak toegang krijgen tot alle inlogmiddelen."/>
+</archimate:Goal>

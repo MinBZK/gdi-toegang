@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Machtigingen voor burgers"
+    id="id-3a2ecea90df24beb94d3e32afb742a06">
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
+</archimate:ApplicationComponent>

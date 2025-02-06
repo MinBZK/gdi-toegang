@@ -1,11 +1,10 @@
 <archimate:Driver
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="GDI-Meerjarenvisie 2024-2028"
+    name="Meerjarenvisie Digitale Overheid 2025-2030"
     id="id-49e5ae32a0164a06a6702718ea02d323"
-    documentation="Deze meerjarenvisie biedt in eerste instantie inzicht en overzicht in de relevante politieke, beleidsmatige en technische ontwikkelingen, ook internationaal, en geeft op basis daarvan richting aan de doorontwikkeling van de GDI. Ook benoemt het principes en uitgangspunten die worden gehanteerd bij de stapsgewijze realisatie van de beschreven ambities. Het MIDO is daarmee de concretisering van datgene dat interbestuurlijk gezamenlijk wordt georganiseerd aan afspraken, standaarden en voorzieningen om ambities waar te maken.">
+    documentation="De Meerjarenvisie is een streefbeeld, dat we kunnen gebruiken bij dagelijkse beslissingen over onderdelen van de digitale overheid. Verder uitwerkingen vinden plaats in enerzijds de Architectuur Digitale Overheid 2030 en anderzijds in het jaarlijkse GDI-Programmeringsplan. Zo bouwen we interbestuurlijk verder aan de Digitale Overheid. Deze meerjarenvisie biedt ook het kader aan voor het deel van de digitale overheid dat we ‘generieke digitale infrastructuur’ of GDI noemen.">
   <properties
-      key="URL"
-      value="https://pgdi.nl/file/download/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf"/>
+      key="URL"/>
   <profiles
       href="folder.xml#id-0ab4e3c8b2c74d2f8de745a4906455ba"/>
 </archimate:Driver>
