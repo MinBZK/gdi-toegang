@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bevoegdheidsverklaringsdienst"
+    id="id-b402b1d5d7c84247ac6adccffccd8ab1">
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
+</archimate:ApplicationComponent>

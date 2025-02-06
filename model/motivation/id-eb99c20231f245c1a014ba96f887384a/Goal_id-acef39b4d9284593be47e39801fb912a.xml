@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Grensoverschrijdende toegang"
+    id="id-acef39b4d9284593be47e39801fb912a"
+    documentation="Burgers en ondernemers in EU-landen kunnen op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van Europese overheden in andere landen via eIDAS genotificeerde inlogmiddelen.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Via middelen als DigiD, eHerkenning en de nieuw EDI-wallets kunnen burgers en ondernemers op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van de Nederlandse en Europese overheden. Omgekeerd kunnen burgers en ondernemers van andere EU-landen via eIDAS genotificeerde inlogmiddelen en in de toekomst via gecertificeerde eDI-wallets toegang krijgen tot de Nederlandse Digitale Overheid."/>
+</archimate:Goal>

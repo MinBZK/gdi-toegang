@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Publieke en private middelen"
+    id="id-5e8c806290ee4df6adaf4768b7889f99"
+    documentation="Burgers en ondernemers kunnen zowel zowel publiek als in de toekomst ook privaat aangeboden en erkende inlogmiddelen toegang krijgen tot de dienstverlening van overheden.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Met zowel publiek als in de toekomst ook privaat aangeboden inlogmiddelen kunnen burgers en ondernemers op een veilige manier toegang krijgen tot de dienstverlening van de Europese overheden."/>
+</archimate:Goal>

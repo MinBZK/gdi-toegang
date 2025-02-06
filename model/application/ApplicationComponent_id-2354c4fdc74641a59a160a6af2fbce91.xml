@@ -1,0 +1,7 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="TVS"
+    id="id-2354c4fdc74641a59a160a6af2fbce91">
+  <profiles
+      href="folder.xml#id-c2173c4b545e4543808dcf704eb7825b"/>
+</archimate:ApplicationComponent>

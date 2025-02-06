@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Wettelijk vertegenwoordigen"
+    id="id-3ca063aa1228406ca719cb2cedd8a61d"
+    documentation="Burgers die (deels) handelingsonbekwaam zijn en niet zelfstandig mogen handelen, hebben een door de wet of door de rechter aangestelde wettelijk vertegenwoordiger.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Burgers die (deels) handelingsonbekwaam zijn en niet zelfstandig mogen handelen, zoals personen die onder bewind of curatele staan of minderjarigen, hebben een door de wet of door de rechter aangestelde wettelijk vertegenwoordiger (bewindvoerder, curator, mentor of een persoon met gezag over een minderjarige)."/>
+</archimate:Goal>

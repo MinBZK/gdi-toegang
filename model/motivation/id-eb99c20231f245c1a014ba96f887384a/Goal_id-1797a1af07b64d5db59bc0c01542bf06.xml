@@ -1,0 +1,12 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Betrouwbare toegang"
+    id="id-1797a1af07b64d5db59bc0c01542bf06"
+    documentation="Burgers en ondernemers willen op een betrouwbare manier toegang krijgen tot dienstverlening van de overheid.">
+  <properties
+      key="Bron"
+      value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+  <properties
+      key="Originele tekst"
+      value="Burgers en ondernemers willen op een eenvoudige en betrouwbare manier toegang krijgen tot de digitale overheid."/>
+</archimate:Goal>
