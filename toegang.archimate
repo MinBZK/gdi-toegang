@@ -148,60 +148,54 @@
         <property key="elementType" value="driverOntwikkeling"/>
       </element>
       <element xsi:type="archimate:Representation" name="Architectuurvisie" id="id-57896b8c4e854e7b92ed667986aa09ee" profiles="id-b5e689fa75694829b24cf22fd76eacee">
-        <documentation>&lt;p>Deze architectuurvisie geeft een overzicht van de belangrijkste overtuigingen in de domeinarchitectuur. Het kan voor een belangrijk deel worden gezien als het overkoepelende verhaal en een samenvatting en verbinding van de architectuurprincipes. Het bevat dan ook verwijzingen naar deze architectuurprincipes, waar meer over hun rationale en implicaties kan worden gelezen. &lt;/p>&#xD;
-&lt;h2>Inleiding&lt;/h2>&#xD;
+        <documentation>&lt;h3>4.1.1. Vertrouwen&lt;/h3>&#xD;
 &lt;p>&#xD;
-Het is belangrijk dat iedereen op een veilige en betrouwbare manier gebruik kan maken van publieke diensten. Dit vraagt dat de  identiteit van een gebruiker wordt vastgesteld en dat zonodig wordt bepaald of deze ook namens iemand anders mag handelen. Voor burgers is hiervoor de landelijke voorziening DigiD beschikbaar en wordt ook machtigen ondersteund. Voor bedrijven en andere organisaties is het eHerkenning (Afsprakenstelsel Elektronische Toegangsdiensten) ingericht, waarbij marktpartijen zich kunnen aanbieden als makelaar, machtigingsregister, authenticatiedienst en/of middelenverstrekker. Het is ook mogelijk om grensoverstijgend toegang te krijgen tot digitale diensten van Europese lidstaten. Wet- en regelgeving is een belangrijke drijfveer voor verandering. Dat gaat met name over de herziene verordening &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-3d6bbaf27b0c44bf84e270f33ac5ed6a.html&quot;>&quot;Electronic Identification And Trust Services&quot; (eIDAS)&lt;/a>, de &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-face061e1c374e6c8b15e048c9f41d1d.html&quot;>Wet digitale overheid (Wdo)&lt;/a> en de bijbehorende Regeling Betrouwbaarheidsniveaus.&#xD;
-&lt;/p>&#xD;
-&lt;h2>Vertrouwen&lt;/h2>&#xD;
-&lt;p>&#xD;
-Een belangrijk thema in de context van toegang is vertrouwen. Voor veel maatschappelijke processen is het vertrouwen dat je zaken doet met de juiste organisatie of persoon cruciaal. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die verklaringen kunnen afgeven over de identiteiten van deze gebruikers. Door &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b4dce57205fe4d48b888481350c6fae1.html&quot;>gebruik te maken van verifieerbare verklaringen&lt;/a> is het mogelijk om te controleren dat attributen behorende bij de identiteit valide, integer, authentiek en geldig zijn. Voor het bouwen van vertrouwen kunnen partijen gebruik maken van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Het doel van de herziene eIDAS verordening is om EU-breed vertrouwen te creëren en daarmee de condities voor een veilige digitale ruimte, voor zowel burgers als bedrijven. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie speelt vertrouwen een sleutelrol. Partijen bepalen zelf aan wie zij hun gegevens willen verstrekken en zijn daar alleen toe bereid als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen.&lt;/p>&#xD;
-&lt;p>&#xD;
-Burgers willen erop kunnen vertrouwen dat organisaties op een zorgvuldige manier omgaan met hun persoonsgegevens. Daarbij is dataminimalisatie een concreet aandachtspunt. Organisaties zouden niet meer gegevens moeten verwerken dan wat nodig is voor hun gebruiksdoel. Als het bijvoorbeeld voldoende is om te weten dat iemand 18 jaar of ouder is, zou niet de geboortedatum moeten worden uitgewisseld maar volstaat een ja/nee antwoord. Op basis van het antwoord kan bijvoorbeeld toegang tot een dienst worden geweigerd. Het experiment besluit BRP (2024) sorteert hier op voor door uitwisseling van informatieproducten in plaats van alle (onderliggende) gegevens mogelijk te maken. Voor toegang betekent dit bijvoorbeeld dat &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-77965a4ab86c43fb809656f759830dc1.html&quot;>de toegangsinfrastructuur niet meer gegevens uitwisselt, dan wat noodzakelijk is om toegang te verstrekken&lt;/a>. Een andere manier om bij het publiek vertrouwen te creëren in de toegangsinfrastructuur is door van delen ervan de broncode publiek beschikbaar te stellen.&#xD;
+Het is belangrijk dat iedereen op een veilige en betrouwbare manier gebruik kan maken van publieke diensten. Dit vraagt dat de identiteit van een gebruiker wordt vastgesteld en gecontroleerd als deze een dienst wil afnemen. Daarbij is vertrouwen een kernwoord. Voor veel maatschappelijke processen is het vertrouwen dat je zaken doet met de juiste organisatie of persoon cruciaal. Een dienstverlener wil kunnen vertrouwen op de identiteit van gebruikers; het is een vertrouwende partij. Daarvoor moet deze dienstverlener kunnen vertrouwen op partijen die verklaringen kunnen afgeven over de identiteiten van deze gebruikers. Voor het bouwen van vertrouwen kunnen partijen gebruik maken van vertrouwensnetwerken, waarin zij onderling afspraken hebben gemaakt. Burgers willen erop kunnen vertrouwen dat organisaties op een zorgvuldige manier omgaan met hun persoonsgegevens. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Self Sovereign Identity (SSI) is een visie op toegang en gegevensuitwisseling waar inspiratie voor verbetering uit kan worden gehaald Het is specifiek gericht op het beschermen van de privacy van gebruikers en het ondersteunen van autonomie. Het idee is dat gebruikers zelf meer in controle zijn en zelf bepalen wie hun persoonsgegevens mag gebruiken. Het voorkomt ook afhankelijkheid van centrale partijen. Gebruikers creëren zelf een digitale representatie van hun identiteit, verzamelen verklaringen van verklarende partijen en verstrekken ze zelf aan vertrouwende partijen. Ze kunnen ook dingen over zichzelf verklaren. Ze hebben een persoonlijke omgeving waarin zij hun verklaringen beheren, die niet toegankelijk is voor anderen. Een dienstverlener die wil controleren of de identiteitsgegevens of een verklaring die een gebruiker verstrekt kloppen en nog geldig is kan gebruik maken van een registratie van verifieerbare gegevens. Deze registratie bevat ook gegevens over de (decentrale) identiteiten die gebruikers zelf hebben aangemaakt. Overigens kan een gebruiker ook besluiten een verklaring niet volledig door te geven aan een dienstverlener, maar alleen een subset of afgeleid gegeven (zoals dat deze ouder dan 18 jaar is). Dit heet ook wel een verifieerbare presentatie. Een gebruiker hoeft ook niet per definitie de eigen identiteit kenbaar te maken naar de dienstverlener, maar alleen een specifieke verklaring. Het zorgt er dus voor dat een dienstverlener alleen beschikt over de gegevens die relevant zijn voor het doel. De volgende figuur geeft een overzicht van de rollen en gegevensstromen. De scope van SSI is nadrukkelijk breder dan toegang; veel van de verklaringen zullen over gegevens gaan die voor toegang niet relevant zijn. Er zijn al allerlei oplossingen om SSI te ondersteunen, in de vorm van personal data management oplossingen (ook wel: wallets).&lt;/p>&#xD;
+Het doel van de herziene eIDAS verordening is om EU-breed vertrouwen te creëren en daarmee de condities voor een veilige digitale ruimte, voor zowel burgers als bedrijven. Om vertrouwen te creëren tussen partijen zijn er vertrouwensdiensten nodig die hierin kunnen ondersteunen. De eIDAS verordening beschrijft deze vertrouwensdiensten. Het gaat onder meer om diensten voor het zetten van elektronische handtekeningen (door mensen), het elektronisch verzegelen van gegevens (door een organisatie), het creëren van elektronische verifieerbare verklaringen, het creëren van elektronische tijdstempels en het beschermen en bewijzen van elektronische uitwisseling van gegevens. Deze diensten worden aangeboden of ondersteund door leveranciers in de markt en zijn voor organisaties inzetbaar voor het ondersteunen van het verstrekken van toegang en het uitwisselen van gegevens.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+In meer algemene zin vraagt vertrouwen expliciete aandacht voor een aantal morele en publieke waarden. Daarbij staan gebruikers centraal. De volgende figuur geeft een overzicht van voor toegang relevante waarden en hun impact: privacy, transparantie, keuzevrijheid, veiligheid, toegankelijkheid en gebruikersvriendelijkheid. Gebruikers willen dat hun privacy is geborgd, dat ze inzicht hebben in hun gegevens en alle handelingen m.b.t. toegang en dat ze kunnen kiezen welke diensten ze wel of niet afnemen en welke identificatiemiddelen ze daarbij gebruiken. Ze verwachten dat de veiligheid van de diensten is geborgd. Tegelijkertijd verwachten ze dat deze diensten wel toegankelijk en gebruikersvriendelijk zijn. Daarmee wordt niemand buitengesloten en wordt het gebruikers niet onnodig ingewikkeld gemaakt. In de volgende paragrafen worden deze waarden en hun impact verder uitgewerkt.&#xD;
+&lt;/p>&#xD;
+&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/waarden.svg&quot;>&lt;/center>&lt;/p>&#xD;
+&#xD;
+&lt;h3>4.1.2 Privacy, transparantie en keuzevrijheid&lt;/h3>&#xD;
+&lt;p>&#xD;
+Privacy gaat over het beschermen van de persoonlijke levenssfeer. Dat kun je niet los zien van transparantie en keuzevrijheid. Toegang gaat in de basis over het uitwisselen van identiteitsgegevens. Gebruikers willen dat deze identiteitsgegevens worden beschermd, maar willen daarbij ook inzicht in welke identiteitsgegevens nodig zijn voor het afnemen van een dienst. Als zij vinden dat de gevraagde gegevens niet in verhouding staan tot de waarde die de dienst levert, dan willen zij ervoor kunnen kiezen deze dienst niet af te nemen. Belangrijke kanttekening daarbij is dat dit met name geldt voor private diensten. Publieke diensten zijn voor een groot deel wettelijk bepaald en gebruikers hebben daarbij veelal niet de luxe om te kiezen deze diensten niet af te nemen. Privacy, transparantie en keuzevrijheid zijn ook de kern van regie op gegevens. Ook in de gegevensruimtes zoals voorgesteld in de Europese datastrategie hebben genoemde waarden een belangrijke rol. Partijen bepalen zelf aan wie zij hun gegevens in een gegevensruimte willen verstrekken en zijn daar alleen toe bereid alleen als zij vertrouwen hebben in de identiteit en bevoegdheden van andere partijen. Dit wordt ook wel datasoevereiniteit genoemd. De standaarden en richtlijnen die daarbij worden voorgeschreven vanuit de eIDAS verordening en de daaruit voortvloeiende uitvoeringsverordeningen zijn daarbij sterk bepalend en hebben dus ook voor gegevensuitwisseling veel impact. De volgende paragrafen gaan in op een aantal andere aspecten en oplossingen die relevant zijn in het kader van privacy, transparantie en keuzevrijheid.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Een belangrijk aspect van privacy is dataminimalisatie. Organisaties zouden niet meer gegevens moeten verwerken dan wat nodig is voor hun gebruiksdoel (en waarvoor ook een grondslag bestaat). Als het bijvoorbeeld voldoende is om te weten dat iemand 18 jaar of ouder is, zou niet de geboortedatum moeten worden uitgewisseld maar volstaat een ja/nee antwoord. Op basis van het antwoord kan bijvoorbeeld toegang tot een dienst worden geweigerd. Het experiment besluit BRP (2024) sorteert hier op voor door uitwisseling van informatieproducten in plaats van alle (onderliggende) gegevens mogelijk te maken. Voor toegang betekent dit bijvoorbeeld dat de toegangsinfrastructuur niet meer gegevens uitwisselt, dan wat noodzakelijk is om toegang te verstrekken. Als voor het afnemen van een dienst de precieze identiteit niet bekend hoeft te zijn, dan zou deze ook niet moeten worden uitgewisseld. &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+Self Sovereign Identity (SSI) is een visie op toegang en gegevensuitwisseling waarin privacy, transparantie en keuzevrijheid bij elkaar komen en waarin dataminimalisatie een belangrijke rol speelt. Het idee is dat gebruikers zelf meer in controle zijn en zelf bepalen wie hun identiteitsgegevens mag gebruiken en welke identiteitsgegevens ze mogen gebruiken. Het voorkomt ook afhankelijkheid van centrale partijen. Gebruikers creëren zelf een digitale representatie van hun identiteit, verzamelen verklaringen van verklarende partijen en verstrekken ze zelf aan dienstverleners. Verklarende partijen hebben in deze visie ook geen inzicht in de diensten die gebruikers afnemen. Gebruikers kunnen ook dingen over zichzelf verklaren. Ze hebben een persoonlijke omgeving waarin zij hun verklaringen beheren, die niet toegankelijk is voor anderen. Een dienstverlener die wil controleren of de identiteitsgegevens of een verklaring die een gebruiker verstrekt kloppen en nog geldig is kan gebruik maken van een registratie van verifieerbare gegevens. Deze registratie bevat ook gegevens over de (decentrale) identiteiten die gebruikers zelf hebben aangemaakt. Overigens kan een gebruiker ook besluiten een verklaring niet volledig door te geven aan een dienstverlener, maar alleen een subset of afgeleid gegeven (zoals dat deze ouder dan 18 jaar is). Dit heet ook wel een verifieerbare presentatie. Het zorgt er dus voor dat een dienstverlener alleen beschikt over de gegevens die relevant zijn voor het doel. De volgende figuur geeft een overzicht van de rollen en gegevensstromen. De scope van SSI is nadrukkelijk breder dan toegang; veel van de verklaringen zullen over gegevens gaan die voor toegang niet relevant zijn. Er zijn al allerlei oplossingen om SSI te ondersteunen, in de vorm van personal data management oplossingen (ook wel: wallets).&#xD;
+&lt;/p>&#xD;
 &lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/vc.svg&quot;>&lt;/center>&lt;/p>&#xD;
 &lt;p>&#xD;
-De European Digital Identity Wallet zoals voorgesteld in de eIDAS 2.0 verordening biedt een Europees gestandaardiseerde manier om verifieerbare verklaringen uit te wisselen, op basis van specifieke standaarden. De EDI-wallet is bruikbaar als identificatiemiddel (op betrouwbaarheidsniveau hoog), maakt het mogelijk om transacties en documenten te ondertekenen en ondersteunt het delen van gegevens. Gebruikers kunnen zelf verifieerbare verklaringen ophalen en bepalen zelf aan wie ze deze verklaringen verstrekken. Hiermee wordt het voor burgers en organisaties mogelijk om meer zelf in controle te komen van de gegevens die ze delen met dienstverleners. Het sluit daarmee voor een belangrijk deel aan bij de SSI visie. In tegenstelling tot de SSI visie wordt daarbij vooral gebruik gemaakt van door de overheid uitgegeven identiteitsgegevens die ook in andere Europese lidstaten kan worden gebruikt. Het is wel mogelijk om bij het gebruik van de EDI-wallet als identificatiemiddel een pseudoniem te gebruiken. De verordening gaat ervanuit dat elke lidstaat een of meerdere digitale identity wallets erkent en deze beschikbaar stelt aan haar burgers en bedrijven. De lidstaat voorziet de digitale identity wallet(s) van identiteitsgegevens waarmee de persoon zichzelf kan identificeren en toegang kan krijgen tot zowel publieke als private diensten.&lt;/p>&#xD;
-&lt;p>&#xD;
-De eIDAS verordening onderkent dat er onderscheid is in gekwalificeerde en niet gekwalificeerde verklaringen. Gekwalificeerde verklaringen voldoen aan extra eisen en zijn uitgegeven door toegelaten vertrouwensdienstverleners die aan gestelde eisen voldoen, waardoor ze extra zekerheden bieden. Om vertrouwen te creëren tussen partijen zijn er vertrouwensdiensten nodig die hierin kunnen ondersteunen. De eIDAS verordening beschrijft deze vertrouwensdiensten. Het gaat onder meer om diensten voor het zetten van elektronische handtekeningen (door mensen), het elektronisch verzegelen van gegevens (door een organisatie), het creëren van elektronische verifieerbare verklaringen, het creëren van elektronische tijdstempels en het beschermen en bewijzen van elektronische uitwisseling van gegevens. Deze diensten worden aangeboden of ondersteund door leveranciers in de markt en zijn voor organisaties inzetbaar voor het ondersteunen van het verstrekken van toegang en het uitwisselen van gegevens. &#xD;
-&lt;/p>&#xD;
-&lt;h2>Toegankelijk en veilig&lt;/h2>&#xD;
-&lt;p>&#xD;
-Het is belangrijk dat &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-8149432665a347bba7f3d97a5f506193.html&quot;>iedereen toegang kan krijgen tot diensten&lt;/a>, waarbij toegang tot digitale diensten speciale aandacht vraagt. Iedereen moet mee kunnen doen in het digitale tijdperk. Er moet specifiek rekening worden gehouden met mensen die digitaal minder vaardig zijn of die om een andere redenen specifieke aandacht vragen. Het onderscheid tussen digitale en niet-digitale kanalen is in zekere zin ook niet zo relevant meer. Mensen willen op allerlei momenten bepaalde diensten afnemen, gebruiken het kanaal dat ze op dat moment handig vinden en schakelen op een later moment ook weer net zo makkelijk naar een ander kanaal. Toegang moet worden ondersteund door gebruiksvriendelijke voorzieningen en met voldoende instructies door mensen die dat nodig hebben. Het is bekend dat bestaande identificatiemiddelen niet optimaal toegankelijk zijn voor minder digitaal vaardigen. &#xD;
+De EDI Wallet zoals voorgesteld in de eIDAS 2.0 verordening kun je zien als een invulling van SSI. Het biedt een Europees gestandaardiseerde manier om verifieerbare verklaringen uit te wisselen, op basis van specifieke standaarden. De EDI wallet is bruikbaar als identificatiemiddel (op betrouwbaarheidsniveau hoog), maakt het mogelijk om transacties en documenten te ondertekenen en ondersteunt het delen van gegevens. Gebruikers kunnen zelf verifieerbare verklaringen ophalen en bepalen zelf aan wie ze deze verklaringen verstrekken. Hiermee wordt het voor burgers en organisaties mogelijk om meer zelf in controle te komen van de gegevens die ze delen met dienstverleners. In tegenstelling tot de SSI visie wordt vooral gebruik gemaakt van door de overheid uitgegeven identiteitsgegevens die ook in andere Europese lidstaten kunnen worden gebruikt. Het is wel mogelijk om bij het gebruik van de EDI wallet als identificatiemiddel een pseudoniem te gebruiken. De eIDAS verordening onderkent dat er onderscheid is in gekwalificeerde en niet gekwalificeerde verklaringen. Gekwalificeerde verklaringen voldoen aan extra eisen en zijn uitgegeven door toegelaten vertrouwensdienstverleners die aan gestelde eisen voldoen, waardoor ze extra zekerheden bieden. De verordening gaat ervanuit dat elke lidstaat één of meerdere EDI wallets erkent en deze beschikbaar stelt aan haar burgers en bedrijven. De lidstaat voorziet de wallet(s) van identiteitsgegevens waarmee de persoon zichzelf kan identificeren en toegang kan krijgen tot zowel publieke als private diensten. Met de EDI wallet ontstaat er een nieuw soort identificatiemiddel. Er zullen in de toekomst mogelijk ook andere publieke en private identificatiemiddelen beschikbaar komen voor burgers en bedrijven. Er zal bijvoorbeeld een publiek (gratis) zakelijk identificatiemiddel beschikbaar worden gesteld die bij de Belastingdienst kan worden gebruikt (&lt;a href=&quot;https://zoek.officielebekendmakingen.nl/kst-35570-VII-16.html&quot;>motie van der Molen&lt;/a>). Gebruikers kunnen zelf kiezen welk identificatiemiddel ze willen gebruiken, passend bij het gevraagde betrouwbaarheidsniveau.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Naast toegankelijkheid is ook veiligheid belangrijk. Er is ook een goede balans nodig tussen veiligheid en gebruikersvriendelijkheid. &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-d1b6dbdd642f48b0b7c831258051bbc7.html&quot;>Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen&lt;/a>. We moeten ervoor zorgen dat de dienstverlening van de overheid voldoende toegankelijk blijft en geen onnodige drempels opwerpt. Het vaststellen van het juiste betrouwbaarheidsniveau voor toegang tot een bepaalde dienst is daarbij essentieel. Er is een nieuwe versie van de handreiking &lt;a href=&quot;https://www.forumstandaardisatie.nl/onderwerpen/veilig-internet/betrouwbaarheidsniveaus&quot;>betrouwbaarheidsniveaus&lt;/a>, die aanvullend is op de Wdo en de Regeling betrouwbaarheidsniveaus. De EDI-wallet maakt het mogelijk om een gebruiker te authenticeren op niveau hoog.&#xD;
+In voorgaande wordt duidelijk dat verifieerbare verklaringen in de toekomst een belangrijke rol zullen krijgen in de context van SSI in algemene in en de EDI wallet in het bijzonder. Wij zien dat verifieerbare verklaringen ook los van deze ontwikkelingen waardevol zijn. Door gebruik te maken van verifieerbare verklaringen is het mogelijk om te controleren dat gegevens valide, integer, authentiek en geldig zijn. Ze zorgen voor een mate van vertrouwen in de gegevens die worden uitgewisseld. Het onderscheid tussen toegang en gegevensuitwisseling vervaagt ook door het gebruik van verifieerbare verklaringen. Verifieerbare verklaringen kunnen gaan over identiteitsgegevens die relevant zijn voor toegang, maar kunnen ook relevant zijn voor het verlenen van de diensten zelf en voor gegevensuitwisseling in meer algemene zin. Er is synergie gewenst tussen de afspraken, standaarden en voorzieningen voor gegevensuitwisseling en voor toegang. Verifieerbare verklaringen maken ook meer decentrale gegevensuitwisseling mogelijk. Dat betekent voor toegang dat identiteitsgegevens uit allerlei bronnen kunnen komen. Dat geldt ook voor machtigingen, die uiteindelijk ook gewoon identiteitsgegevens zijn. Dat betekent dat het belang van centrale machtigingsvoorzieningen afneemt. Alhoewel veelvoorkomende vormen van machtiging daarmee prima kunnen en moeten worden ondersteund, zullen er daarnaast dus vooral ook allerlei decentrale machtigingsregistraties zijn. Gebruikers willen wel hun verstrekte en ontvangen machtigingen op één plaats kunnen inzien. In meer algemene zin hebben afspraken de voorkeur boven standaarden boven voorzieningen. &#xD;
+&lt;/p>&#xD;
+&lt;h3>4.1.3	Veiligheid&lt;/h3>&#xD;
+&lt;p>&#xD;
+Gebruikers en dienstverleners moeten erop kunnen vertrouwen dat dienstverlening op een veilige manier verloopt. Organisaties moeten voldoende beveiligingsmaatregelen nemen om de impact van mensen met kwade bedoelingen zoveel mogelijk te beperken. Voor diensten moet duidelijk zijn wat het gevraagde betrouwbaarheidsniveau is, zodat ook duidelijk is welke identificatiemiddelen gebruikt kunnen worden. Ook bij het verstrekken van machtigingen is belangrijk dat het betrouwbaarheidsniveau bekend en vastgelegd is. Het vaststellen van het betrouwbaarheidsniveau van diensten is een kern van de Wdo. Er is een nieuwe versie van de handreiking &lt;a href=&quot;https://www.forumstandaardisatie.nl/onderwerpen/veilig-internet/betrouwbaarheidsniveaus&quot;>betrouwbaarheidsniveaus&lt;/a>, die aanvullend is op de Wdo en de Regeling betrouwbaarheidsniveaus. De EDI wallet maakt het mogelijk om een gebruiker te authenticeren op niveau hoog. Er zouden ook andere middelen beschikbaar moeten zijn op niveau hoog, zodat gebruikers niet gedwongen worden de EDI wallet te gebruiken. Uit onderzoek van Logius blijkt dat dit met de huidige identificatiemiddelen zou kunnen door gebruik te maken van remote identity proofing.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Organisaties moeten voldoende beveiligingsmaatregelen nemen om de impact van mensen met kwade bedoelingen zoveel mogelijk te beperken. Het toepassen van een zero-trust beveiligingsmodel is daarvoor een belangrijke basis. Zero-trust betekent dat er niet van wordt uitgegaan dat gebruikers, apparaten en het netwerk vertrouwd kunnen worden. Alle toegang tot resources wordt voortdurend geverifieerd en gevalideerd. Het betekent ook dat &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-b304c80b029c48498a32d80d14337ea3.html&quot;>toegang wordt beperkt tot dat wat strikt noodzakelijk is voor het uitvoeren van taken (least privilege)&lt;/a>. Als er sprake is van een inbraak of ander ernstig incident dan moet snel kunnen worden ingegrepen, en gecompromitteerde partijen moeten snel kunnen worden ontkoppeld van de toegangsinfrastructuur. Het is belangrijk dat organisaties de streefbeeldafspraken voor de informatieveiligheidsstandaarden van Forum Standaardisatie naleven en de verplichte standaarden uitvragen en implementeren. Er is ook specifieke aandacht nodig voor de impact van quantum computing om er voor te zorgen dat versleutelde gegevens onleesbaar blijven. Dit vraagt om post-quantum cryptografische oplossingen. Het NCSC adviseert organisaties om een actieplan op te stellen.&#xD;
+Er is toenemend aandacht voor zero-trust. De algemene standaard voor informatiebeveiliging (ISO 27002:2022) benoemt expliciet dat organisaties ‘zero trust’-beginselen behoren te overwegen. Deze algemene standaard is ook de basis voor de nieuwe Baseline Informatiebeveiliging Overheid (2.0), die ook verplicht zal worden voor overheidsorganisaties in de context van de nieuwe Cyberbeveiligingswet. Zero-trust betekent dat er niet van wordt uitgegaan dat gebruikers, apparaten en het netwerk vertrouwd kunnen worden. Alle toegang tot resources wordt voortdurend geverifieerd en gevalideerd. Contextuele en adaptieve toegangscontrole is ook een expliciet onderdeel van zero-trust. Het betekent verder ook dat toegang wordt beperkt tot dat wat strikt noodzakelijk is voor het uitvoeren van taken (least privilege). Als er sprake is van een inbraak of ander ernstig incident dan moet snel kunnen worden ingegrepen, en gecompromitteerde partijen moeten snel kunnen worden ontkoppeld van de toegangsinfrastructuur. &#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Organisaties zullen verder specifiek aandacht moeten geven aan allerlei nieuwe cyberdreigingen en een deel van de (overheids)organisaties wordt daar door de Europese NIS2-richtlijn ook toe gedwongen.  Er geldt een zorg-, melding- en registratieplicht en organisaties vallen onder toezicht. Dit betekent bijvoorbeeld dat zij expliciet een risicobeoordeling moeten uitvoeren, gebruik moeten maken van sterke authenticatie en dat ze een plicht hebben om incidenten binnen 24 uur te melden. Dit laatste vraagt om detectie en monitoring van security-relevante gebeurtenissen. Overheidsorganisaties hebben daarin een bijzondere positie omdat ze vaak als essentiële entiteiten worden beschouwd. Dit betekent dat ze een cruciale rol spelen in de continuïteit van essentiële diensten en dat een verstoring van hun netwerk- en informatiesystemen aanzienlijke gevolgen kan hebben voor de samenleving en de economie. De impact van beslissingen van de overheid op het leven van mensen kan ook heel groot zijn. Overheden kunnen net als bedrijven echter op voorhand niet zomaar vertrouwd worden. De overheid bestaat ook gewooon uit mensen is daarmee inherent gevoelig voor fouten en verkeerde intenties. Daarom zouden er &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-4532a251a8ba490298dc08824ef4799a.html&quot;>extra waarborgen voor overheidsorganisaties moeten zijn voor risico's met betrekking tot privacy en informatiebeveiliging&lt;/a>.&#xD;
-&lt;/p>&#xD;
-&lt;h2>Doorontwikkeling nationale toegangsinfrastructuur&lt;/h2>&#xD;
-&lt;p>De toegangsinfrastructuur moet partijen &lt;a href=&quot;https://minbzk.github.io/gdi-toegang/content/elements/id-05cd71c3758c4182878ba143b870582f.html&quot;>ontzorgen&lt;/a> met afspraken, standaarden en voorzieningen. Daarbij hebben afspraken de voorkeur boven standaarden boven voorzieningen. Daarnaast beweegt de GDI van centrale voorzieningen naar stelsels en standaarden, zoals beschreven in de &lt;a href=&quot;https://pgdi.nl/files/view/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf&quot;>meerjarenvisie&lt;/a>. Een goed gedefinieerd en toekomstvast koppelvlak dat door allerlei partijen kan worden ondersteund, is in veel gevallen waardevoller en flexibeler dan een centrale voorziening. Het is bijvoorbeeld niet haalbaar om alle vormen van machtiging in één centrale voorziening vast te leggen. Verifieerbare verklaringen kunnen ook vanuit decentrale bronnen worden verstrekt. De beschikbaarheid van een verifieerbare verklaring is voldoende om vertrouwen te krijgen in de validiteit, integriteit, authenticiteit en geldigheid van identiteiten, hun attributen en bevoegdheden.&#xD;
+Organisaties zullen verder specifiek aandacht moeten geven aan allerlei nieuwe cyberdreigingen en een deel van de (overheids)organisaties wordt daar door de Europese NIS2-richtlijn ook toe gedwongen. Er geldt een zorg-, melding- en registratieplicht en organisaties vallen onder toezicht. Dit betekent bijvoorbeeld dat zij expliciet een risicobeoordeling moeten uitvoeren, gebruik moeten maken van sterke authenticatie en dat ze een plicht hebben om incidenten binnen 24 uur te melden. Dit laatste vraagt om detectie en monitoring van security-relevante gebeurtenissen. Er zou ook landelijk inzicht moeten zijn mogelijke identiteitsfraude, zodat over de grenzen van authenticatiediensten heen misbruik kan worden gedetecteerd en afgehandeld. Overheidsorganisaties hebben daarin een bijzondere positie omdat ze vaak als essentiële entiteiten worden beschouwd. Dit betekent dat ze een cruciale rol spelen in de continuïteit van essentiële diensten en dat een verstoring van hun netwerk- en informatiesystemen aanzienlijke gevolgen kan hebben voor de samenleving en de economie. De impact van beslissingen van de overheid op het leven van mensen kan ook heel groot zijn. Overheden kunnen net als bedrijven echter op voorhand niet zomaar vertrouwd worden. De overheid bestaat ook gewoon uit mensen is daarmee inherent gevoelig voor fouten en verkeerde intenties. Daarom zouden er extra waarborgen voor overheidsorganisaties moeten zijn voor risico's met betrekking tot privacy en informatiebeveiliging.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Het gebruik van verifieerbare verklaringen in de context van SSI en als gevolg van de nieuwe EDI-wallets vervaagt het onderscheid tussen toegang en gegevensuitwisseling. Verifieerbare verklaringen kunnen gaan over attributen die relevant zijn voor toegang alsook voor het verlenen van de diensten zelf. De standaarden en richtlijnen die daarbij worden voorgeschreven vanuit de eIDAS verordening en de daaruit voortvloeiende uitvoeringsverordeningen zijn daarbij sterk bepalend en hebben dus ook voor gegevensuitwisseling veel impact. Er is synergie gewenst tussen de afspraken, standaarden en voorzieningen voor gegevensuitwisseling en voor toegang.&#xD;
+Het is verder belangrijk dat organisaties de streefbeeldafspraken voor de informatieveiligheidsstandaarden van Forum Standaardisatie naleven en de verplichte standaarden uitvragen en implementeren. Er is ook specifieke aandacht nodig voor de impact van quantum computing om er voor te zorgen dat versleutelde gegevens onleesbaar blijven. Dit vraagt om quantumveilige cryptografische oplossingen. Het NCSC adviseert organisaties om een actieplan op te stellen.&#xD;
 &lt;/p>&#xD;
-&lt;p>Het is duidelijk dat wet- en regelgeving een belangrijke drijfveer is voor de doorontwikkeling van de nationale toegangsinfrastructuur. Er loopt al langere tijd een initiatief voor het inrichten van een nieuw toegangsstelsel om de Wdo te ondersteunen. Het integreert de huidige toegangsinfrastructuren (stelsels) voor burgers en bedrijven en zorgt voor de beschikbaarheid van identificatiemiddelen op hogere betrouwbaarheidsniveaus. Op basis van de eIDAS verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening. In de toekomst zullen er extra publieke en private identificatiemiddelen beschikbaar komen voor burgers en bedrijven. Als gevolg van de herziening van de eIDAS verordening zullen er ID-wallets komen, die als identificatiemiddel gebruikt kunnen worden. De politiek heeft ook aangegeven dat er een publiek (gratis) zakelijk identificatiemiddel beschikbaar zal worden gesteld (&lt;a href=&quot;https://zoek.officielebekendmakingen.nl/kst-35570-VII-16.html&quot;>motie van der Molen&lt;/a>). &#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-Er zijn ook een aantal andere zaken die doorontwikkeling van de nationale toegangsinfrastructuur vragen. Zo zouden een aantal groepen die op dit moment niet overheidsbreed identificeerbaar zijn omdat ze niet in landelijke registraties staan (ook wel: restgroepen) beter ondersteund moeten worden. Daarnaast is het op dit moment ook niet mogelijk om mensen digitaal wettelijk te laten vertegenwoordigen door bewindvoerders, curatoren, mentoren en mensen die ouderlijk gezag hebben. Mensen zijn namelijk niet altijd in staat om zelf gebruik te maken van digitale diensten, of zijn mogelijk zelf niet eens bevoegd om digitale diensten te gebruiken. Bij het inloggen moet dan ook standaard met machtigen en wettelijke vertegenwoordiging rekening worden gehouden. Gebruikers die inloggen hebben naast hun eigen bevoegdheden mogelijk ook bevoegdheden die horen bij de partijen die ze vertegenwoordigen. &#xD;
+&lt;h3>4.1.4 Toegankelijkheid en gebruikersvriendelijkheid&lt;/h3>&#xD;
+Het is belangrijk dat iedereen toegang kan krijgen tot diensten, waarbij toegang tot digitale diensten speciale aandacht vraagt. Iedereen moet mee kunnen doen in het digitale tijdperk. Er moet specifiek rekening worden gehouden met mensen die digitaal minder vaardig zijn of die om een andere redenen specifieke aandacht vragen. Het onderscheid tussen digitale en niet-digitale kanalen is in zekere zin ook niet zo relevant meer. Mensen willen op allerlei momenten bepaalde diensten afnemen, gebruiken het kanaal dat ze op dat moment handig vinden en schakelen op een later moment ook weer net zo makkelijk naar een ander kanaal. Toegang moet worden ondersteund door gebruiksvriendelijke voorzieningen en met voldoende instructies door mensen die dat nodig hebben. Naast toegang voor eindgebruikers is er ook toegang tussen systemen noodzakelijk. Daarbij moeten organisaties in andere landen geautomatiseerd toegang kunnen krijgen tot Nederlandse publieke diensten en vice versa. Daarbij zou het voldoende moeten zijn om een Europees gekwalificeerd certificaat te hebben. Vergelijkbaar zouden gebruikers in andere landen ook grensoverschrijdend machtigingen moeten kunnen verstrekken.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Voor toegang van systemen tot andere systemen is het PKIoverheid afsprakenstelsel ingericht. Dit stelsel is afgestemd op Europese en wereldwijde afspraken en standaarden. De Federated Service Connectivity standaard, zoals ontwikkeld in de context van het Common Ground programma, biedt waardevolle mogelijkheden voor toegang zoals het kunnen autoriseren en machtigen van partijen voor het geautomatiseerd uitwisselen van gegevens. Er is in de Europese datastrategie ook aandacht voor gegevensruimtes, waarvoor inmiddels ook een aantal afsprakenstelsels en voorzieningen beschikbaar zijn. Deze bieden ook oplossingen voor toegang tussen systemen, waarbij datasoevereiniteit het uitgangspunt is.  In de context daarvan ontstaat meer aandacht voor Policy Based Access Control, waarbij meer fijnmazig, contextueel en adaptief toegang kan worden verstrekt. Het is ook in bredere zin relevanter aan het worden, bijvoorbeeld om autorisatieregels los van applicaties te kunnen beheren. Het is ook een kernaspect van zero-trust architecturen en daarmee een maatregel om de beveiliging te verhogen. &lt;/p>&#xD;
-&lt;h2>Schets van gewenste informatievoorziening&lt;/h2>&#xD;
-&lt;p>&#xD;
-De volgende figuur geeft een schets van de informatievoorziening in de gewenste situatie. De blokken met gestreepte omlijning zijn nieuw of vragen wijziging. Een beschrijving van de bestaande voorzieningen is opgenomen in de bijlagen (paragraaf 5.4). De toegangsinfrastructuur zal gebruik maken van een aantal generieke bronnen, maar zal zelf ook een aantal eigen bronregistraties bevatten. Er zal een entiteitenregister zijn waarin restgroepen worden vastgelegd en die het huidige Tijdelijke Register Restgroepen vervangt. Mogelijk kunnen er daarnaast nog specifieke registers nodig zijn voor restgroepen die te specifiek van aard zijn om in het restgroepen register vast te leggen. De DigiD en eHerkenning machtigingsregisters zullen alle generieke vormen van machtiging ondersteunen. Machtigingen die te specifiek zijn om in deze generieke voorzieningen te worden vastgelegd zullen in een specifiek machtigingsregister worden vastgelegd. Er zal een meer gestandaardiseerde catalogus van overheidsdiensten nodig zijn, gebaseerd op de Uniforme Productennamenlijst (UPL). &#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-Er zullen in de gewenste situatie een aantal nieuwe identificatiemiddelen ontstaan. Naast de EDI wallet kunnen ook private middelen worden toegelaten. Er zal ook een publiek zakelijk identificatiemiddel zakelijk zijn, die in ieder geval bij de Belastingdienst kan worden gebruikt. Hiervoor wordt op dit moment een dienst ontwikkeld, die strikt genomen geen identificatiemiddel is maar een combinatie van DigiD en een verklaring uit het Handelsregister. Er zullen brokers beschikbaar moeten zijn die ervoor zorgen dat dienstverleners kunnen worden ontlast in het ontsluiten van authenticatiediensten, machtingsdiensten en andere bronnen van identiteitsgegevens. Er zullen namelijk verifieerbare verklaringen van allerlei partijen komen om te kunnen bepalen welke identiteit handelt, namens wie en met welke bevoegdheden.&#xD;
-&lt;/p>&#xD;
-&lt;p>&lt;center>&lt;img src=&quot;https://minbzk.github.io/gdi-toegang/images/gewenste_situatie.png&quot;>&lt;/center>&lt;/p>&#xD;
-</documentation>
+Er is een goede balans nodig tussen veiligheid en gebruikersvriendelijkheid. Gebruikers zouden niet moeten worden lastig gevallen met beveiligingsmaatregelen die meer zekerheid creëren dan nodig is voor specifieke gevallen. We moeten ervoor zorgen dat de dienstverlening van de overheid voldoende toegankelijk blijft en geen onnodige drempels opwerpt. Het vaststellen van het juiste betrouwbaarheidsniveau voor toegang tot een bepaalde dienst is daarbij essentieel. Een te hoog betrouwbaarheidsniveau leidt bij gebruikers tot extra handelingen en extra kosten. Gebruikers moeten verder bij het inloggen zoveel mogelijk uniforme ervaring hebben. Bij het inloggen moet daarbij standaard met machtigen en wettelijke vertegenwoordiging rekening worden gehouden. Mensen moeten zich namelijk altijd kunnen laten vertegenwoordigen. Gebruikers die inloggen hebben daarmee naast hun eigen bevoegdheden ook bevoegdheden die horen bij de partijen die ze vertegenwoordigen. Gebruikers willen bij voorkeur ook maar één keer inloggen. &#xD;
+&lt;/p></documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Verdieping" id="id-5c41c1e562644d3dac34f20476569d06" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;p>Dit hoofdstuk beschrijft een verdieping op de architectuurvisie en de architectuurprincipes op de onderwerpen rolverdeling en systeem naar systeem toegang.&lt;/p></documentation>
@@ -222,7 +216,7 @@ Toegang wordt verstrekt tot &lt;b>resources&lt;/b>: &lt;b>diensten&lt;/b> en de 
 Het controleren van de bevoegdheden van een identiteit heet &lt;b>autoriseren&lt;/b>. Daarbij wordt gebruik gemaakt van &lt;b>autorisatieregels&lt;/b> die beschrijven waaraan moet worden voldaan om toegang te verkrijgen. Dit soort regels gebruiken de identiteitsgegevens uit verifieerbare verklaringen, maar kunnen ook naar contextuele eigenschappen kijken zoals de tijdstip, de plaats en het apparaat dat gebruikt wordt om toegang te krijgen. Uiteindelijk leidt dit tot een &lt;b>autorisatiebeslissing&lt;/b> die aangeeft of wel of geen toegang wordt verstrekt.&#xD;
 &lt;h2>2.2 Rollen&lt;/h2>&#xD;
 &lt;p>&#xD;
-Toegang gaat voor een belangrijk deel over het uitwisselen van verifieerbare verklaringen. Aan de ene kant zijn er partijen die verklaringen kunnen verstrekken. Dat noemen we dan ook &lt;b>verklarende partijen&lt;/b>. Denk daarbij aan &lt;b>authenticatiediensten&lt;/b> die kunnen verklaren of een entiteit succesvol is geauthenticeerd of aan &lt;b>machtigingsdiensten&lt;/b> die kunnen verklaren of een entiteit iemand anders mag vertegenwoordigen. Daarnaast zijn er &lt;b>aanbieders van identiteitsgegevens&lt;/a> uit gezaghebbende bronnen die deze beschikbaar kunnen stellen in de vorm van verifieerbare verklaren. Brokers kunnen de verklaringen van deze verklarende partijen routeren, vertalen, bundelen en als één geïntegreerde dienst beschikbaar stellen. Overigens kunnen entiteiten ook dingen over zichzelf verklaren, en zijn zij dus in potentie ook een verklarende partij. Merk op dat niet al deze rollen altijd relevant zijn. In de context van de EDI wallet spreken we niet over rollen als authenticatiedienst en broker omdat verantwoordelijkheden daarbij anders zijn belegd.&#xD;
+Toegang gaat voor een belangrijk deel over het uitwisselen van verifieerbare verklaringen. Aan de ene kant zijn er partijen die verklaringen kunnen verstrekken. Dat noemen we dan ook &lt;b>verklarende partijen&lt;/b>. Denk daarbij aan &lt;b>authenticatiediensten&lt;/b> die kunnen verklaren of een entiteit succesvol is geauthenticeerd of aan &lt;b>machtigingsdiensten&lt;/b> die kunnen verklaren of een entiteit iemand anders mag vertegenwoordigen. Daarnaast zijn er &lt;b>aanbieders van identiteitsgegevens&lt;/b> uit gezaghebbende bronnen die deze beschikbaar kunnen stellen in de vorm van verifieerbare verklaren. Brokers kunnen de verklaringen van deze verklarende partijen routeren, vertalen, bundelen en als één geïntegreerde dienst beschikbaar stellen. Overigens kunnen entiteiten ook dingen over zichzelf verklaren, en zijn zij dus in potentie ook een verklarende partij. Merk op dat niet al deze rollen altijd relevant zijn. In de context van de EDI wallet spreken we niet over rollen als authenticatiedienst en broker omdat verantwoordelijkheden daarbij anders zijn belegd.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Aan de andere kant zijn er &lt;b>vertrouwende partijen&lt;/b>. Dat zijn typisch dienstverleners die diensten aanbieden waartoe toegang moet worden verstrekt aan entiteiten. Zij moeten kunnen vertrouwen op de verifieerbare verklaringen van verklarende partijen. Merk op dat in de context van de eIDAS verordening de term ook breder wordt gebruikt.&#xD;
@@ -358,6 +352,7 @@ Ook reeds bestaande (nationale) voorzieningen zijn van belang voor het stelsel. 
       <element xsi:type="archimate:Representation" name="Inleiding" id="id-9704fa59cc7b4b5e9daa53f1b32ec98d" profiles="id-b5e689fa75694829b24cf22fd76eacee">
         <documentation>&lt;h2>1.1 Aanleiding&lt;/h2>&#xD;
 &lt;p>De overheid digitaliseert en dat roept vragen op over hoe overheidsorganisaties hun processen, gegevens en systemen moeten inrichten. De Generieke Digitale Infrastructuur (GDI) ondersteunt de digitale overheid met afspraken, standaarden en voorzieningen. In de governancestructuur van het Meerjarenprogramma Infrastructuur Digitale Overheid (MIDO) werken overheidsorganisaties samen aan de doorontwikkeling van de digitale overheid en de GDI. Er is vanuit deze governance een &lt;a href=&quot;https://pgdi.nl/files/view/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf&quot;>meerjarenvisie&lt;/a> en een &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> opgesteld die op hoofdlijnen beschrijft hoe de digitale overheid zich de komende jaren zou moeten doorontwikkelen. De Architectuur Digitale Overheid wordt nader uitgewerkt in vier domeinarchitecturen op het gebied van interactie, toegang, gegevensuitwisseling en infrastructuur.&lt;/p>&#xD;
+&lt;p>&#xD;
 Domein toegang gaat over beveiligde toegang tot diensten, gegevens en functionaliteit. Deze gegevens en functionaliteit worden richting gebruikers ontsloten in de context van het domein interactie. Gegevensuitwisseling is het domein dat gaat over het uitwisselen van gegevens tussen de informatiesystemen van overheidsorganisaties en met andere organisaties. Domein infrastructuur ondersteunt de andere domeinen met infrastructurele voorzieningen, zowel software- als hardwarematig.&lt;/p>&#xD;
 &lt;p>Het domein toegang omvat alles dat nodig is om mensen, organisaties, applicaties en apparaten op een veilige en rechtmatige manier toegang te geven. Dit vraagt om het nemen van maatregelen, die voor een belangrijk deel ook relevant zijn in het kader van informatiebeveiliging. Domein toegang is grotendeels synoniem met wat ook wel &quot;identity &amp; access management&quot; wordt genoemd. Dit is iets dat zowel binnen organisaties als over organisatiegrenzen heen aandacht vraagt. In de context van de GDI gaat het over toegang tot digitale publieke diensten. Dit staat los van hoe organisaties hun eigen medewerkers toegang verlenen, alhoewel het ook gebruikt kan worden om medewerkers van overheidsorganisaties toegang te geven tot digitale publieke diensten van andere overheidsorganisaties.&lt;/p>&#xD;
 &lt;p>De toegangsinfrastructuur is de verzameling van gemeenschappelijke afspraken, standaarden en voorzieningen die nodig zijn om toegang te faciliteren. Er zijn meerdere toegangsinfrastructuren, zoals het Afsprakenstelsel Elektronische Toegangsdiensten (behorende bij eHerkenning), het nieuwe stelsel toegang en het EDI-stelsel NL (dat tevens een infrastructuur voor gegevensuitwisseling is). Landelijke voorzieningen zoals DigiD en eHerkenning zijn belangrijke onderwerpen van gesprek, maar het toegangslandschap is tevens aan het veranderen. Zo zullen er in de toekomst ook private middelen worden toegelaten om toegang te verkrijgen tot overheidsdiensten. Daarnaast worden er in het kader van de herziene eIDAS verordening European Digital Identity Wallets geïntroduceerd die ook als identificatiemiddel kunnen worden ingezet. In meer algemene zin hebben ontwikkelingen zoals Self Sovereign Identity grote impact op hoe idealiter met toegang wordt omgegaan.&lt;/p>&#xD;
@@ -373,7 +368,7 @@ Het document is vooral gericht op enterprise-, informatie- en security-architect
 &lt;p>&#xD;
 We hebben ervoor gekozen om de terminologie in dit document af te stemmen op de begrippen van de NORA IAM werkgroep. We hebben ook actief meegewerkt aan de doorontwikkeling van laatstgenoemd begrippenkader, dat onderdeel zal gaan uitmaken van een nieuwe NORA begrippenlijst. Er is daarom ook geen begrippenlijst opgenomen in dit document. We adviseren om de NORA IAM begrippenlijst te raadplegen. De kernbegrippen zijn wel onderdeel van het bedrijfsobjectenmodel, die dus ook als een begrippenlijst gezien kan worden. &#xD;
 &lt;/p>&#xD;
-&lt;h3>1.3 Documentstructuur&lt;/h3>&#xD;
+&lt;h2>1.3 Documentstructuur&lt;/h2>&#xD;
 &lt;p>&#xD;
 De architectuur is ingedeeld in vijf onderdelen: &#xD;
 &lt;/p>&#xD;
@@ -408,7 +403,7 @@ Deze domeinarchitectuur is sterk gerelateerd aan de domeinarchitectuur gegevensu
 &lt;/p>&#xD;
 &lt;p>&#xD;
 Deze domeinarchitectuur is afgestemd op de &lt;a href =&quot;https://pgdi.nl/ado&quot;>Architectuur Digitale Overheid 2030&lt;/a> en de &lt;a href=&quot;https://www.noraonline.nl&quot;>NORA&lt;/a>. Hierdoor is de domeinarchitectuur te beschouwen als een doorvertaling en concretisering van deze overkoepelende architecturen.&lt;/p>&#xD;
-&lt;h3>1.5 Relatie met andere initiatieven&lt;/h3>&#xD;
+&lt;h2>1.5 Relatie met andere initiatieven&lt;/h2>&#xD;
 &lt;p>Er zijn andere initiatieven die zijn gerelateerd aan toegang. De belangrijkste programma’s die er op het moment van schrijven van dit document lopen zijn het programma/stelsel toegang en het programma EDI-stelsel NL. Deze domeinarchitectuur geeft context en kaders aan de architecturen die zijn of worden opgesteld in deze programma’s. Het programma/stelsel toegang heeft een “doelarchitectuur ICT-voorzieningen en werking stelsel toegang” opgesteld die met name inzicht geeft in welke ICT-voorzieningen nodig zijn voor het ondersteunen van de &lt;a href=&quot;https://wetten.overheid.nl/BWBR0048156/2023-07-01&quot;>Wet digitale overheid (Wdo)&lt;/a>. Er heeft een review plaatsgevonden op deze doelarchitectuur door de architectuurwerkgroep. Het programma EDI-stelsel NL geeft aandacht aan de implementatie van de herziene eIDAS verordening, richt hiervoor een stelsel in en geeft daarbij specifieke aandacht aan het gebruik van European Digital Identity Wallets. Er is afgestemd met dit programma om dat wat hierover duidelijk is in de architectuur een plek te geven. Er loopt ook een project Federatieve Toegangs Verlening (FTV) dat onderzoekt hoe toegang tot gegevens in de context van gegevensuitwisseling kan worden gestandaardiseerd. Daarbij wordt expliciet gekeken naar de inzet van Policy Based Access Control.&lt;/p> </documentation>
       </element>
       <element xsi:type="archimate:Representation" name="Functies" id="id-99cbfb6171e24415a2d555ae897ba9d6" profiles="id-b5e689fa75694829b24cf22fd76eacee">
@@ -641,6 +636,22 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
 </documentation>
         <property key="elementType" value="assessment"/>
       </element>
+    </folder>
+    <folder name="Diensten" id="id-57fffd86ecb9494faad3ff4a80ce6070">
+      <element xsi:type="archimate:BusinessService" name="Toekomstvast versleutelen" id="id-0a01d9bc23be4974bcd8e4fc2761d616"/>
+      <element xsi:type="archimate:BusinessService" name="Eénmalig inloggen" id="id-148af674814a4a4c954d111b5068d594"/>
+      <element xsi:type="archimate:BusinessService" name="Vastleggen en beschikbaar stellen restgroepen voor toegang" id="id-1fa5f2305753485fb67830cf4f938f6c"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden wallet" id="id-2d416b6c6f424d409dbd886850311573"/>
+      <element xsi:type="archimate:BusinessService" name="Verstrekken identiteitsgegevens als verifieerbare verklaringen" id="id-2ed6b46e84ce4feebaaea34ed67ef9e1"/>
+      <element xsi:type="archimate:BusinessService" name="Beschikbaar stellen vertegenwoordigingsrelaties voor toegang" id="id-4768c6c2cbcf465388aa4ce5100ae233"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden uniform inlogproces" id="id-55f90228ac6b4e6f904d0a2aeb3a99ac"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden rijke vormen van machtiging" id="id-5b9de2157b62436a9afb8a5cb8cf272f"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden keuze van identificatiemiddelen" id="id-6f1632f16f074055bbdaa39f344b4952"/>
+      <element xsi:type="archimate:BusinessService" name="Inzicht geven in vertegenwoordigingsbevoegdheden" id="id-716a06d005054377b938edc686c34178"/>
+      <element xsi:type="archimate:BusinessService" name="Vastleggen betrouwbaarheidsniveau bij machtigingen" id="id-821e6b0d62a74f529a2ddee47066bb57"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden grensoverschrijdende machtigingen" id="id-bc43c3b96d274eb58213bcb301bbd533"/>
+      <element xsi:type="archimate:BusinessService" name="Inzicht geven in identificatiemiddelen en hun gebruik" id="id-cf9902207c184065a7e57e8530a36e6a"/>
+      <element xsi:type="archimate:BusinessService" name="Aanbieden identificatiemiddel voor burgers zonder BSN" id="id-f7292cf598c04a19b4e7777d7f34e974"/>
     </folder>
     <folder name="Rollen" id="id-5bc281f1925b46e7841f1d216e37a79e">
       <element xsi:type="archimate:BusinessRole" name="Bronhouder" id="id-0bd68e9ba1e244aeaa10f633eb302c0e">
@@ -887,12 +898,17 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
   </folder>
   <folder name="Application" id="id-d5193e4c1cd54a91a0fdac31884b93b3" type="application">
     <folder name="Gewenste situatie" id="id-c430bd08faaf4ff09cf34436557dd161">
+      <element xsi:type="archimate:ApplicationComponent" name="DigiD authenticatiedienst" id="id-1a3340b1b06441a5965f227089d5c72b" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Machtigingen voor burgers" id="id-3a2ecea90df24beb94d3e32afb742a06" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
       <element xsi:type="archimate:ApplicationComponent" name="Dienstencatalogus" id="id-43e810d2d45042ff8bc6192d6b05c2e1" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>Een voorziening die diensten registreert waartoe entiteiten met een bepaalde identiteit toegang kunnen krijgen en/of een machtiging toe kunnen verstrekken, alsook welke dienstverleners deze diensten verlenen. </documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" name="EDI wallet" id="id-5f633f9872694592bbed624852d0bdfe" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
       <element xsi:type="archimate:ApplicationComponent" name="Inzageregister" id="id-7202f8ec02f644fb805e68388799f37f" profiles="id-c2173c4b545e4543808dcf704eb7825b">
         <documentation>Een generieke voorziening die gebruikers in staat stelt om inzage te krijgen in al hun identificatiemiddelen, machtigingen waar ze bij zijn betrokken en de toegang die op basis hiervan is verschaft.</documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning authenticatiedienst" id="id-7f0763d2d4144c4ab11d1ee47c43dd9a" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+      <element xsi:type="archimate:ApplicationComponent" name="eHerkenning machtigingsdienst" id="id-e4f68989e7a44c11920550a8916ad303" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
     </folder>
     <folder name="Huidige situatie" id="id-e6ce5350f95043279eea0d7e12dd80de">
       <element xsi:type="archimate:ApplicationComponent" name="BSNk-Transformatie" id="id-01049568026845549513722ef5e8079b" profiles="id-bab9074d446642cd95786422c8deba50">
@@ -1039,6 +1055,11 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="URL" value="https://www.logius.nl/domeinen/toegang/bsnk-pp"/>
       </element>
     </folder>
+    <element xsi:type="archimate:ApplicationComponent" name="CombiConnect" id="id-1ee0c627be724744ab319ec50c6d6936" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="TVS" id="id-2354c4fdc74641a59a160a6af2fbce91" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Commerciële broker" id="id-6f30a6321ec945ad8d55227348eba3b1" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Bevoegdheidsverklaringsdienst" id="id-b402b1d5d7c84247ac6adccffccd8ab1" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="eHerkenning makelaar" id="id-f9f6b766ac544bb4baefd834a08a4204" profiles="id-c2173c4b545e4543808dcf704eb7825b"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-711ae3fdde524c9e8ef2de0fd83c1210" type="technology"/>
   <folder name="Motivation" id="id-7b596cfefc5f4aa8bbc0200e6532363b" type="motivation">
@@ -1154,19 +1175,22 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       </element>
     </folder>
     <folder name="Beleid" id="id-20393f7b71804bb5abc176f62092307d">
-      <element xsi:type="archimate:Driver" name="Werkagenda Waardengedreven Digitaliseren" id="id-381c214867254a289d1b1d06c91697b9" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
-        <documentation>Als we willen dat digitale technologie vóór onze samenleving blijft werken, als we kansen willen benutten en risico’s willen mitigeren, dan moet digitalisering waardengedreven en mensgericht zijn vormgegeven en moeten we als samenleving, bedrijfsleven en overheid samen optrekken. Het kabinet Rutte-IV heeft hier werk van gemaakt, onder meer door een eerste coördinerend bewindspersoon voor Digitalisering aan te stellen die met haar collega-bewindspersonen deze waardengedreven digitalisering verder vormgeeft. Op 4 november 2022 is de Werkagenda Waardengedreven Digitaliseren aan de Tweede Kamer aangeboden. De Werkagenda is een uitwerking van elementen uit de brief Hoofdlijnen Beleid Digitalisering met concrete doelen en acties. Hij omvat 5 sporen: meedoen, vertrouwen en regie in de digitale samenleving, een goede digitale overheid en het versterken van de digitale samenleving in het Caribisch deel van het Koninkrijk.</documentation>
+      <element xsi:type="archimate:Driver" name="Nederlandse Digitaliseringsstrategie" id="id-381c214867254a289d1b1d06c91697b9" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
+        <documentation>Er is een nieuwe Nederlandse Digitaliseringsstrategie in ontwikkeling. De doelstelling ervan is om digitale technologie verantwoord in te zetten en goede dienstverlening te bieden aan burgers en ondernemers. Naast goede dienstverlening moet de overheid haar digitale weerbaarheid en digitale autonomie versterken. Overheidsorganisaties moeten worden versterkt door politiek-bestuurlijke aansturing, efficiëntere samenwerking, zich als één overheid op te stellen en in te zetten op digitaal vakmanschap. De strategie richt zich in het bijzonder op kunstmatige intelligentie, data en cloud.</documentation>
         <property key="URL" value="https://www.digitaleoverheid.nl/kabinetsbeleid-digitalisering/werkagenda/"/>
       </element>
-      <element xsi:type="archimate:Driver" name="GDI-Meerjarenvisie 2024-2028" id="id-49e5ae32a0164a06a6702718ea02d323" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
-        <documentation>Deze meerjarenvisie biedt in eerste instantie inzicht en overzicht in de relevante politieke, beleidsmatige en technische ontwikkelingen, ook internationaal, en geeft op basis daarvan richting aan de doorontwikkeling van de GDI. Ook benoemt het principes en uitgangspunten die worden gehanteerd bij de stapsgewijze realisatie van de beschreven ambities. Het MIDO is daarmee de concretisering van datgene dat interbestuurlijk gezamenlijk wordt georganiseerd aan afspraken, standaarden en voorzieningen om ambities waar te maken.</documentation>
-        <property key="URL" value="https://pgdi.nl/file/download/82435cdb-9861-4a46-8152-288f666dc32f/gdi-meerjarenvisie.pdf"/>
+      <element xsi:type="archimate:Driver" name="Meerjarenvisie Digitale Overheid 2025-2030" id="id-49e5ae32a0164a06a6702718ea02d323" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
+        <documentation>De Meerjarenvisie is een streefbeeld, dat we kunnen gebruiken bij dagelijkse beslissingen over onderdelen van de digitale overheid. Verder uitwerkingen vinden plaats in enerzijds de Architectuur Digitale Overheid 2030 en anderzijds in het jaarlijkse GDI-Programmeringsplan. Zo bouwen we interbestuurlijk verder aan de Digitale Overheid. Deze meerjarenvisie biedt ook het kader aan voor het deel van de digitale overheid dat we ‘generieke digitale infrastructuur’ of GDI noemen.</documentation>
+        <property key="URL"/>
+      </element>
+      <element xsi:type="archimate:Driver" name="Agenda Digitale Open Strategische Autonomie" id="id-75655b59bb01495bb588daa6adda818c" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
+        <documentation>Doordat digitale innovatie in toenemende mate plaatsvindt buiten de EU, neemt onze afhankelijkheid van derde landen voor digitale technologie toe. Afhankelijkheden in het digitale domein kunnen risico’s met zich meebrengen. De intentie van dit beleidskader is om het vermogen van de EU om als mondiale speler, in samenwerking met internationale partners, op basis van eigen inzichten en keuzes publieke belangen te borgen en weerbaar te zijn in een onderling verbonden wereld. Die belangen zijn onder meer de nationale veiligheid, het lange termijn verdienvermogen, het vinden van oplossingen voor maatschappelijke uitdagingen, en de borging van de democratische rechtsstaat en fundamentele waarden.</documentation>
       </element>
       <element xsi:type="archimate:Driver" name="I-strategie Rijk" id="id-b5e45819de4a442f9371dd52707f4e0b" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
         <documentation>In deze I-strategie 2021-2025 staan de gezamenlijke prioriteiten van de Chief Information Officers (CIO’s) van het rijk voor de informatievoorziening. Iedere prioriteit is uitgewerkt in een aantal actiepunten. De i-Strategie vestigt in het thema digitale weerbaarheid aandacht op security en privacy en de toename en impact van cyberdreigingen. Het stelt dat een proactieve aanpak nodig is om incidenten te voorkomen, gebaseerd op analyse van de belangrijkste risico's.</documentation>
       </element>
       <element xsi:type="archimate:Driver" name="Baseline Informatiebeveiliging Overheid" id="id-c69f4b4c80004dacbbd02f4f6f273229" profiles="id-0ab4e3c8b2c74d2f8de745a4906455ba">
-        <documentation>De Baseline Informatiebeveiliging Overheid (BIO) is een normenkader voor informatiebeveiliging en geeft het basisniveau voor informatiebeveiliging waar alle overheidspartijen aan moeten voldoen. Door dit eenduidige normenkader binnen de overheid, wordt een stevige basis gelegd voor de verdere optimalisering van informatiebeveiliging binnen de gehele overheid en ontstaat een gemeenschappelijke taal die bijdraagt aan veilige samenwerking in ketens binnen de overheid. De BIO is gebaseerd op de NEN-ISO/IEC 27002. </documentation>
+        <documentation>De Baseline Informatiebeveiliging Overheid (BIO) is een normenkader voor informatiebeveiliging en geeft het basisniveau voor informatiebeveiliging waar alle overheidspartijen aan moeten voldoen. Door dit eenduidige normenkader binnen de overheid, wordt een stevige basis gelegd voor de verdere optimalisering van informatiebeveiliging binnen de gehele overheid en ontstaat een gemeenschappelijke taal die bijdraagt aan veilige samenwerking in ketens binnen de overheid. De BIO is gebaseerd op de NEN-ISO/IEC 27002. In de nieuwe Cyberbeveiligingswet zal deze verplicht worden gesteld voor overheidsorganisaties.</documentation>
         <property key="URL" value="https://bio-overheid.nl/"/>
       </element>
     </folder>
@@ -1205,7 +1229,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <documentation>Het is op dit moment niet mogelijk om een pin reset uit te voeren met DigiD hoog. Als een gebruiker zijn pincode vergeten is dat moet deze een nieuw identiteitsbewijs aanvragen. Het belang van DigiD hoog en het goed functioneren ervan is belangrijk in de context van de EDI wallet, omdat deze nodig is om de persoonsidentificatiegegevens te kunnen laden in de EDI wallet.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Vertegenwoordigen werkt nog niet voor iedereen" id="id-26a67ab67a2345c59d5176c597443a38">
-        <documentation>Professionele dienstverleners zoals bewindvoerders kunnen in veel gevallen niet overal digitaal als vertegenwoordiger optreden. Dat geldt ook voor ouders van minderjarige kinderen, curatoren, bewindvoerders, mentoren van volwassenen en mensen die ouderlijk gezag hebben. Dit probleen wordt verergerd doordat steeds meer diensten om hogere betrouwbaarheidsniveaus vragen, waardoor identificatiemiddelen niet meer eenvoudig kunnen worden gedeeld met vertegenwoordigers. Het vertegenwoordigen van en door buitenlandse organisaties werkt ook niet, als deze organisaties niet in het Handelsregister zijn opgenomen.</documentation>
+        <documentation>Professionele dienstverleners zoals bewindvoerders kunnen in veel gevallen niet overal digitaal als vertegenwoordiger optreden. Dat geldt ook voor ouders van minderjarige kinderen, curatoren, bewindvoerders, mentoren van volwassenen en mensen die ouderlijk gezag hebben. Dit probleem wordt verergerd doordat steeds meer diensten om hogere betrouwbaarheidsniveaus vragen, waardoor identificatiemiddelen niet meer eenvoudig kunnen worden gedeeld met vertegenwoordigers. Het vertegenwoordigen van en door buitenlandse organisaties werkt ook niet, als deze organisaties niet in het Handelsregister zijn opgenomen.</documentation>
       </element>
       <element xsi:type="archimate:Assessment" name="Restgroepen worden niet goed ondersteund" id="id-388da3df069946eb8fcc9f6b801b1882">
         <documentation>Er zijn allerlei groepen burgers en bedrijven die niet worden bediend met DigiD, eHerkenning en PKI-overheid omdat ze niet in de onderliggende registers geregistreerd staan en omdat de betreffende afsprakenstelsels hier geen oplossing voor bieden. Het gaat bijvoorbeeld buitenlandse bedrijven die niet in het handelsregister zijn opgenomen. Daarnaast kunnen burgers zonder Nederlands identiteitsdocument hun DigiD niet op hogere betrouwbaarheidsniveaus activeren. Overheidsorganisaties kunnen restgroepen bedienen door hiervoor zelf een registratie te voeren, de wettelijke basis daarvoor te borgen, en een identificatiemiddel in te richten die voldoet aan de eisen in de Wdo en/of eIDAS. Er is inmiddels wel een tijdelijk register voor restgroepen in het bedrijvendomein, maar deze is alleen beschikbaar voor diensten van de Belastingdienst en alleen beschikbaar voor eHerkenning.</documentation>
@@ -1473,7 +1497,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="URL" value="https://eur-lex.europa.eu/eli/reg/2024/1183/oj"/>
       </element>
       <element xsi:type="archimate:Driver" name="eIDAS 1.0" id="id-d36fcef88adb483abf4a6c1f73be2376" profiles="id-be5c32739bc24a92b1a43011ba22ba22">
-        <documentation>eIDAS staat voor ‘Electronic Identification And Trust Services’. Met de eIDAS verordening hebben de Europese lidstaten afspraken gemaakt om dezelfde begrippen, betrouwbaarheidsniveaus en onderlinge digitale infrastructuur te gebruiken voor grensoverschrijdende transacties en het gebruik van vertrouwensdiensten. Een onderdeel van de verordening is het grensoverschrijdend gebruik van Europees erkende identificatiemiddelen. Dit kan alleen met een betrouwbare online identiteitscheck aan de voordeur. Hierdoor wordt het makkelijker en veiliger om binnen Europa online zaken te regelen. Concreet betekent dit dat burgers en organisaties die de beschikking hebben over een erkend identificatiemiddel dezelfde zaken moeten kunnen regelen als alle andere burgers en organisaties in een lidstaat. Levert een dienstverlener digitale toegang, dan wordt deze daarom verplicht, niet alleen Nederlandse, maar ook Europees erkende identificatiemiddelen te accepteren.</documentation>
+        <documentation>eIDAS staat voor ‘Electronic Identification And Trust Services’. Met de eIDAS verordening hebben de Europese lidstaten afspraken gemaakt om dezelfde begrippen, betrouwbaarheidsniveaus en onderlinge digitale infrastructuur te gebruiken voor grensoverschrijdende transacties en het gebruik van vertrouwensdiensten. Een onderdeel van de verordening is het grensoverschrijdend gebruik van Europees erkende identificatiemiddelen. Dit kan alleen met een betrouwbare online identiteitscheck aan de voordeur. Hierdoor wordt het makkelijker en veiliger om binnen Europa online zaken te regelen. Concreet betekent dit dat burgers en organisaties die de beschikking hebben over een erkend identificatiemiddel dezelfde zaken moeten kunnen regelen als alle andere burgers en organisaties in een lidstaat. Levert een dienstverlener digitale toegang, dan wordt deze daarom verplicht, niet alleen Nederlandse, maar ook Europees erkende identificatiemiddelen te accepteren. Op basis van de eIDAS verordening zijn eHerkenning en DigiD genotificeerd (erkend) voor grensoverschrijdende dienstverlening.</documentation>
         <property key="URL" value="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex:32014R0910"/>
       </element>
       <element xsi:type="archimate:Driver" name="Network and Information Systems (NIS) directive 2" id="id-ef780f486daa48b393320e16200cc0c0" profiles="id-be5c32739bc24a92b1a43011ba22ba22">
@@ -1481,8 +1505,55 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <property key="URL" value="https://data.consilium.europa.eu/doc/document/ST-14337-2021-INIT/nl/pdf"/>
       </element>
       <element xsi:type="archimate:Driver" name="Wet digitale overheid" id="id-face061e1c374e6c8b15e048c9f41d1d" profiles="id-be5c32739bc24a92b1a43011ba22ba22">
-        <documentation>De Wet digitale overheid faciliteert de implementatie van de initiële eIDAS verordening uit 2014 in Nederland. Het regelt dat Nederlandse burgers en bedrijven veilig en betrouwbaar kunnen inloggen bij de (semi-)overheid. Het stelt eisen aan de betrouwbaarheid van identificatiemiddelen, waardoor overheidsorganisaties gedwongen worden op een meer professionele manier met toegang om te gaan. Burgers krijgen elektronische identificatiemiddelen (eIDkrijgen met een substantiële of hoge mate van betrouwbaarheid. Er moeten ook private identificatiemiddelen kunnen worden ondersteund. De wet stelt daarnaast het toepassen van specifieke open standaarden verplicht.</documentation>
+        <documentation>De Wet digitale overheid faciliteert de implementatie van de initiële eIDAS verordening uit 2014 in Nederland. Het regelt dat Nederlandse burgers en bedrijven veilig en betrouwbaar kunnen inloggen bij de (semi-)overheid. Het stelt eisen aan de betrouwbaarheid van identificatiemiddelen, waardoor overheidsorganisaties gedwongen worden op een meer professionele manier met toegang om te gaan. Burgers krijgen elektronische identificatiemiddelen met een substantiële of hoge mate van betrouwbaarheid. Er moeten ook private identificatiemiddelen kunnen worden ondersteund. De wet stelt daarnaast het toepassen van specifieke open standaarden verplicht.</documentation>
         <property key="URL" value="https://wetten.overheid.nl/BWBR0048156/2023-07-01"/>
+      </element>
+    </folder>
+    <folder name="Doelstellingen" id="id-eb99c20231f245c1a014ba96f887384a">
+      <element xsi:type="archimate:Goal" name="Eén koppelvlak voor toegang" id="id-0b09d46c610447dc83754d39b4d9dd25">
+        <documentation>Dienstverleners kunnen via één gestandaardiseerd koppelvlak toegang krijgen tot alle identificatiemiddelen.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Momenteel wordt gewerkt aan het Stelsel van Toegang, waarmee dienstverleners via één aansluitpunt/koppelvlak toegang krijgen tot alle inlogmiddelen."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Vrijwillig machtigen" id="id-132b6606a0544ec9bb156a821fb33fef">
+        <documentation>Handelingsbekwame burgers kunnen vrijwillig iemand aanwijzen (machtigen) om zich te laten vertegenwoordigen in de interactie met publieke dienstverleners.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Handelingsbekwame burgers kunnen vrijwillig iemand aanwijzen (machtigen) om zich te laten vertegenwoordigen in de interactie met publieke dienstverleners."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Toegang via EDI-wallets" id="id-1665cc80e89d465382c563e23302de69">
+        <documentation>Burgers en ondernemers kunnen met EDI-wallets op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van overheden.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Via middelen als DigiD, eHerkenning en de nieuw EDI-wallets kunnen burgers en ondernemers op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van de Nederlandse en Europese overheden."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Betrouwbare toegang" id="id-1797a1af07b64d5db59bc0c01542bf06">
+        <documentation>Burgers en ondernemers willen op een betrouwbare manier toegang krijgen tot dienstverlening van de overheid.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Burgers en ondernemers willen op een eenvoudige en betrouwbare manier toegang krijgen tot de digitale overheid."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Eenvoudige toegang" id="id-2e93c29f10794301b14da0112a375cfc">
+        <documentation>Burgers en ondernemers willen op een eenvoudige manier toegang krijgen tot dienstverlening van de overheid.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Burgers en ondernemers willen op een eenvoudige en betrouwbare manier toegang krijgen tot de digitale overheid."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Publiek Middel Zakelijk" id="id-33310f492f524896818054ffc68f1d37">
+        <documentation>Enkelvoudig zelfstandige bevoegde bestuurders kunnen met een Publiek Middel Zakelijk digitale dienstverlening afnemen bij de Belastingdienst.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Er wordt verder een Publiek Middel Zakelijk voor de Belastingdienst ontwikkeld. Hiermee kunnen enkelvoudig zelfstandige bevoegde bestuurders digitale dienstverlening afnemen bij de Belastingdienst in het portaal MijnBelastingdienst Zakelijk."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Wettelijk vertegenwoordigen" id="id-3ca063aa1228406ca719cb2cedd8a61d">
+        <documentation>Burgers die (deels) handelingsonbekwaam zijn en niet zelfstandig mogen handelen, hebben een door de wet of door de rechter aangestelde wettelijk vertegenwoordiger.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Burgers die (deels) handelingsonbekwaam zijn en niet zelfstandig mogen handelen, zoals personen die onder bewind of curatele staan of minderjarigen, hebben een door de wet of door de rechter aangestelde wettelijk vertegenwoordiger (bewindvoerder, curator, mentor of een persoon met gezag over een minderjarige)."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Publieke en private middelen" id="id-5e8c806290ee4df6adaf4768b7889f99">
+        <documentation>Burgers en ondernemers kunnen zowel zowel publiek als in de toekomst ook privaat aangeboden en erkende inlogmiddelen toegang krijgen tot de dienstverlening van overheden.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Met zowel publiek als in de toekomst ook privaat aangeboden inlogmiddelen kunnen burgers en ondernemers op een veilige manier toegang krijgen tot de dienstverlening van de Europese overheden."/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Grensoverschrijdende toegang" id="id-acef39b4d9284593be47e39801fb912a">
+        <documentation>Burgers en ondernemers in EU-landen kunnen op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van Europese overheden in andere landen via eIDAS genotificeerde inlogmiddelen.</documentation>
+        <property key="Bron" value="Meerjarenvisie Digitale Overheid 2025-2030"/>
+        <property key="Originele tekst" value="Via middelen als DigiD, eHerkenning en de nieuw EDI-wallets kunnen burgers en ondernemers op een eenvoudige en veilige manier toegang krijgen tot de dienstverlening van de Nederlandse en Europese overheden. Omgekeerd kunnen burgers en ondernemers van andere EU-landen via eIDAS genotificeerde inlogmiddelen en in de toekomst via gecertificeerde eDI-wallets toegang krijgen tot de Nederlandse Digitale Overheid."/>
       </element>
     </folder>
   </folder>
@@ -1854,6 +1925,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="diensverlener, dienst" id="id-2539f002f47c41959f2da3c938b39255" source="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67" target="id-93a1371d1b704ef9b0d88e433f3ab319"/>
     <element xsi:type="archimate:FlowRelationship" name="verifieerbare verklaring" id="id-256528db05da46c69cbeb23b34836196" source="id-7704adc1f92441d0b314f1d05a716b04" target="id-9eb924f84a7e479d95a5ea99984a277e"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverklaring" id="id-25b1eb9d52294b89bb5e270dc78e32d6" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-573203ed1c8b4c37841226848f98a089"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-28f7708febb340ec83ee372a357d0aee" source="id-3a2ecea90df24beb94d3e32afb742a06" target="id-5f633f9872694592bbed624852d0bdfe"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-2b7f316003ad406daec7000753c9a06c" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda">
       <documentation>voor dienstencatalogus en aansluiten</documentation>
     </element>
@@ -1909,6 +1981,7 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-978137074dba41e682193bd40facec4f" source="id-dc5c0503f1eb4cbeb6997d399ab5ccda" target="id-1c827b9387274ffe83285328a7e60046"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-9b6958b005014de09b777cdbde61ac5d" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
     <element xsi:type="archimate:FlowRelationship" name="bewindsverklaring" id="id-9c9e823c8fbd49c882b2b24d3e748ab8" source="id-53323e6bf2be41b1a4d9a4571262a74c" target="id-4e14f612fda64d97ad15c9e7e10fe7d3"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-9e429d0d808248439ead70fae876f5b4" source="id-3a2ecea90df24beb94d3e32afb742a06" target="id-1ee0c627be724744ab319ec50c6d6936"/>
     <element xsi:type="archimate:FlowRelationship" name="activatie" id="id-a129483bb1e54dc9ae028f5cbe3d0359" source="id-8263de75e16b4b5189e83635d262aca6" target="id-e25448c20ae04cfc85e54847cde73e76">
       <documentation>BSN, naam en geboortedatum gaat naar BSNk-activatie en PI/PP gaat terug</documentation>
     </element>
@@ -1916,7 +1989,9 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <documentation>op basis van input van PI/PP en dienstverlener</documentation>
     </element>
     <element xsi:type="archimate:FlowRelationship" name="status identificatiemiddel" id="id-a81bb7d882a44caba710b0902446d3db" source="id-93a1371d1b704ef9b0d88e433f3ab319" target="id-e174ec2135624a169d450181d3359c6f"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-a90a9d8102ca441a880d653dfbb1f640" source="id-f9f6b766ac544bb4baefd834a08a4204" target="id-7f0763d2d4144c4ab11d1ee47c43dd9a"/>
     <element xsi:type="archimate:FlowRelationship" name="BSN" id="id-aafe0deae9b94b15968725d002064ee3" source="id-06be8dd9e8c645d6bb482b05c9185e03" target="id-a999c3ee595a4b95b7260d9689934bcc"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-ad796395a71b4270be70382efe4e21cd" source="id-e4f68989e7a44c11920550a8916ad303" target="id-5f633f9872694592bbed624852d0bdfe"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-bd96a3d92ce74ee0b051808ca1cfd7a1" source="id-92b61d714b7f4ed6a2ffed3d71bc34be" target="id-8263de75e16b4b5189e83635d262aca6"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-bd9a1854fc1a46dd99039c28bba1c068" source="id-dc5c0503f1eb4cbeb6997d399ab5ccda" target="id-92b61d714b7f4ed6a2ffed3d71bc34be">
       <documentation>ten behoeve van de dienstencatalogus</documentation>
@@ -1927,11 +2002,14 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
       <documentation>op basis van input van PI/PP en dienstverlener</documentation>
     </element>
     <element xsi:type="archimate:FlowRelationship" name="verklarende partij" id="id-c46879624fc94a63aed9270380c64680" source="id-a59ea169cbdf49d8bcc1cf14a6eee959" target="id-92b61d714b7f4ed6a2ffed3d71bc34be"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-c47d0ecf2bf441b48e5c51b037138b0d" source="id-e4f68989e7a44c11920550a8916ad303" target="id-f9f6b766ac544bb4baefd834a08a4204"/>
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek en resultaat" id="id-c622324e839c476d8c480c36483a6009" source="id-9675a33d1c104ef4960db2634f60d9ac" target="id-7202f8ec02f644fb805e68388799f37f"/>
     <element xsi:type="archimate:FlowRelationship" name="diensverlener, dienst" id="id-caec8435e45247358cf1c65d7cb0b641" source="id-d0f02da11c4f4f2bbbcf3a4a3eb0ab67" target="id-8263de75e16b4b5189e83635d262aca6"/>
     <element xsi:type="archimate:FlowRelationship" name="machtiging" id="id-ceeb865182f44c5288bb3ba6266c0c9c" source="id-67a39e2cf1274f5c9340308f07a77152" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
     <element xsi:type="archimate:FlowRelationship" name="gezagsverklaring" id="id-d4b441d6ab9547c88841da13e1b3866d" source="id-650355fdbfa444e68ba4c49d13eb3613" target="id-4e14f612fda64d97ad15c9e7e10fe7d3"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-d69f36c5971042ff84d42f0f6404bdc4" source="id-4f74f314b75c46acb11bf9987f66fae2" target="id-4e14f612fda64d97ad15c9e7e10fe7d3"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-d787108a540546c4bf5f03351d9df37f" source="id-1a3340b1b06441a5965f227089d5c72b" target="id-1ee0c627be724744ab319ec50c6d6936"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-d8c3d958ebcd4632b40d55fa67bd52e9" source="id-3a2ecea90df24beb94d3e32afb742a06" target="id-2354c4fdc74641a59a160a6af2fbce91"/>
     <element xsi:type="archimate:FlowRelationship" name="dienstverlener, dienst" id="id-d8caae1bf5de40ff9193627911369942" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-4e14f612fda64d97ad15c9e7e10fe7d3">
       <documentation>ten behoeve van aansluiten</documentation>
     </element>
@@ -1957,34 +2035,75 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
     <element xsi:type="archimate:FlowRelationship" name="authenticatieverzoek" id="id-ff4395d9b5564e4fbd5c76d894c8d5fb" source="id-baa0a1a458e54436813047815a6a1ac6" target="id-dc5c0503f1eb4cbeb6997d399ab5ccda"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-0ac4e91461404e2fa27f7d550a99e7fb" source="id-82087c95385c4244a8993e31eb05b8a8" target="id-dcdf473919e14835becc91f9cd0ea123"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-0fb1b966c9d348c18c5a42eec892c729" source="id-61dc33c76ec94288b37d10018c2e8caa" target="id-dcf64f87176748e19a4fbbcc16dd4f08"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-1178a1dace3d420b8ed0c06e0ed6c801" source="id-dcf64f87176748e19a4fbbcc16dd4f08" target="id-132b6606a0544ec9bb156a821fb33fef"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-15708ab9a0144716b9b6c4565b20e772" source="id-26a67ab67a2345c59d5176c597443a38" target="id-3ca063aa1228406ca719cb2cedd8a61d"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-163c5b2c7c244dc0a0967e78223f72ef" source="id-637d6385fbaf40b88421f72ad1ba4c62" target="id-1797a1af07b64d5db59bc0c01542bf06"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-18f8e15df06e403290a3ef3b3960185d" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-1665cc80e89d465382c563e23302de69"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-1b2bb8af6d5246a89e55573855bcac3a" source="id-dcdf473919e14835becc91f9cd0ea123" target="id-acef39b4d9284593be47e39801fb912a"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-1ea7ed4e2c984f93a241051dd1887f9c" source="id-f7bfe9749f2d4f56a5877841cac332d6" target="id-388da3df069946eb8fcc9f6b801b1882"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-1f229e61dc3e4e59a3c86ac325380f12" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-2e93c29f10794301b14da0112a375cfc"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-230afa8feb8c43809616f1c79a786abc" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-0b09d46c610447dc83754d39b4d9dd25"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-24cb93f8d14c4bdbb896a9126c637212" source="id-face061e1c374e6c8b15e048c9f41d1d" target="id-1797a1af07b64d5db59bc0c01542bf06"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-28d5fe51cd964fac9c927224c89111d4" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-1797a1af07b64d5db59bc0c01542bf06"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-2c755f0a30074b12b6637ca09cc22f3a" source="id-388da3df069946eb8fcc9f6b801b1882" target="id-2e93c29f10794301b14da0112a375cfc"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-3b3a5692d05c4b8dac2d45e9138a1720" source="id-f7bfe9749f2d4f56a5877841cac332d6" target="id-26a67ab67a2345c59d5176c597443a38"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-3efa315c98cc417bbae45f52eba42b0d" source="id-d9b8e51c53c74a589f8dadf156c1786c" target="id-26a67ab67a2345c59d5176c597443a38"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-422f62cd38e8492fa95bf2d57e82bd30" source="id-4751ff0f92c04cec9018b13305d1f476" target="id-de89877b42424eac8bc8eddc8462d007"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-496427caca544f71b6bb0234ed683cd9" source="id-face061e1c374e6c8b15e048c9f41d1d" target="id-5e8c806290ee4df6adaf4768b7889f99"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-4bc3a2f09cd047c8b1fd05c50de35990" source="id-68e94bf51db2445295e270b9d86e825e" target="id-4e650de32bdf49b7b7c3ffc0727251bb"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-544c951fbc4741c9a77b6926dcd1fba3" source="id-e963551e7c424e6e84ca1748475a7eb8" target="id-13b5b97506004f0b82089095a6c5dae4"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-591426ba84db44ce89289a054ee22142" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-5e8c806290ee4df6adaf4768b7889f99"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-6b397bbe07d84ea7947c9218bd1e72ab" source="id-4532a251a8ba490298dc08824ef4799a" target="id-ef780f486daa48b393320e16200cc0c0"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-6c0ac1b1539b41f58a7b4bafbe0175e2" source="id-13b5b97506004f0b82089095a6c5dae4" target="id-2e93c29f10794301b14da0112a375cfc"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-6d5d9099e6204c9eb191a525d6af0e78" source="id-75a11a6464244610b8679b4ccf487a9c" target="id-a4046d419300443da3ec983b6a64884b"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-75fcc391c1eb491e9ca84059d487955c" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-3ca063aa1228406ca719cb2cedd8a61d"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-7b981009c08543cca7ddb15672cf3da7" source="id-05cd71c3758c4182878ba143b870582f" target="id-face061e1c374e6c8b15e048c9f41d1d"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-7da6cd98872f4ad9a5c35e72319cd74e" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-acef39b4d9284593be47e39801fb912a"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-840c7b3da8f94fabb1837b69a7a92a67" source="id-35d763cff9af450db40ec7b4ac2a7e62" target="id-14288973e1b243eb845161c18ff7f671"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-8479bc779daa4a628a1ba4e65d3b17e5" source="id-dad9b4f7711e46a8a1a71c87b71caeec" target="id-acef39b4d9284593be47e39801fb912a"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-88d5919a9e5347e4965236c380d91ae8" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-33310f492f524896818054ffc68f1d37"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-8ae126b6f12c4f0ab3b6b8193b984ef3" source="id-05cd71c3758c4182878ba143b870582f" target="id-d36fcef88adb483abf4a6c1f73be2376"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-925d9e5cadac4fa8b99f1ef55b66f637" source="id-49e5ae32a0164a06a6702718ea02d323" target="id-132b6606a0544ec9bb156a821fb33fef"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-977842a46eca478ea05977d7d6f3b7f3" source="id-3acc4865ed1c41eba8b0d7025c1cfb93" target="id-dad9b4f7711e46a8a1a71c87b71caeec"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-98e65465edfd4911b7d9acc23a688e1c" source="id-bcbd31af7e4b447e850fe34a90693650" target="id-1665cc80e89d465382c563e23302de69"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-aebd28c61bdd48f6a427d788f85b77d6" source="id-aaece110abfd4dd19e66daa9338ce3a9" target="id-637d6385fbaf40b88421f72ad1ba4c62"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-ba8d2527e32c4df3a2a2a5ad7c43e4cf" source="id-d36fcef88adb483abf4a6c1f73be2376" target="id-face061e1c374e6c8b15e048c9f41d1d"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-bb2468e199974d5cb8d479a9f2c492b1" source="id-7af2fa9c66e94ac397595f5206032775" target="id-2e93c29f10794301b14da0112a375cfc"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-bf661ae959e54bd3bf38fae8d37f4719" source="id-4838d4ce599148b3bd430711a296b3d4" target="id-3cb71651ed6e4972865ede91d9ff7836"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-c0a3d35976734a3f9f5dd7e04550cec7" source="id-5e8c806290ee4df6adaf4768b7889f99" target="id-4e650de32bdf49b7b7c3ffc0727251bb"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-c562c89fa90d4d0f9fc92484c9859630" source="id-8c6dd6da80894426a9b31dc0a78d3503" target="id-516315a21d3943c48d3859fd7c28308e"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-ce90df90d8fe431aaec41b37b603fe7f" source="id-77965a4ab86c43fb809656f759830dc1" target="id-46a216053b3f487fa0bedd3b3077a975"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-dbd801d9015046b0a28d5902e7f114eb" source="id-dcf64f87176748e19a4fbbcc16dd4f08" target="id-2e93c29f10794301b14da0112a375cfc"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-df38720a5b774f84af6c5a0a0d3bdf03" source="id-b4dce57205fe4d48b888481350c6fae1" target="id-bcbd31af7e4b447e850fe34a90693650"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-df43216d97704de9990c88b225e87dce" source="id-516315a21d3943c48d3859fd7c28308e" target="id-2e93c29f10794301b14da0112a375cfc"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-e0bf19a047c1441f9b549035987d96de" source="id-face061e1c374e6c8b15e048c9f41d1d" target="id-0b09d46c610447dc83754d39b4d9dd25"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-ec5c5a727eed4b08a132e4330474ed20" source="id-14288973e1b243eb845161c18ff7f671" target="id-2e93c29f10794301b14da0112a375cfc"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-f128220572384499aaecae01e1881fd8" source="id-b304c80b029c48498a32d80d14337ea3" target="id-46a216053b3f487fa0bedd3b3077a975"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-f2df01643be0455ab07e0eaf1401af9f" source="id-face061e1c374e6c8b15e048c9f41d1d" target="id-acef39b4d9284593be47e39801fb912a"/>
     <element xsi:type="archimate:InfluenceRelationship" id="id-fee850f36cdb42dc846c2c3de11b0858" source="id-1d2e7ff3e6c0407fabf7b321503c3df7" target="id-7af2fa9c66e94ac397595f5206032775"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-003a30f0dd214f768ed2cfef2827a50e" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-5eeb988b69a24628b5ff0a6d03a24be3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-10a644e46d334faa89ff1190f8d77f98" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-716a06d005054377b938edc686c34178"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-226d3db9692d4b839bacc4be8284939f" source="id-9fbbb392461f46a0b24c5cdc58a01ee8" target="id-22edde5e860846c9aa8a3a95e6a11200"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-246d27f7f3fc405fa42ea2666a1f5ef4" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-821e6b0d62a74f529a2ddee47066bb57"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-2737e1248a0a4f9f8498a9f7e931c119" source="id-71518055a4194c55844b0ed040dacbe2" target="id-062e48b86e134f92ada7536886294d4b"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-286ddbb11046483bb4ae8c1dc63a8bac" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-5b9de2157b62436a9afb8a5cb8cf272f"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-2e9f2c32be5b4dd39429c25f88d62fc2" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-bc43c3b96d274eb58213bcb301bbd533"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-2fee427e652e44bdb028875cefc2539f" source="id-40c81c1087394f71aa0ad0c1775a97fb" target="id-22edde5e860846c9aa8a3a95e6a11200"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-33722712670f4f588ecb0a705b21cce4" source="id-71518055a4194c55844b0ed040dacbe2" target="id-148af674814a4a4c954d111b5068d594"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-34cb2654d4364803a53ea7fef84ec265" source="id-3be2a0b7c4e74b64a89ab048535de88d" target="id-77965a4ab86c43fb809656f759830dc1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-3a7444cde7bd4daaac932fcc5eb32272" source="id-fe587c1bae3c453285eccb764194ced3" target="id-6f1632f16f074055bbdaa39f344b4952"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-3c861e8521424fbc930507c93f338b9a" source="id-fe587c1bae3c453285eccb764194ced3" target="id-cf9902207c184065a7e57e8530a36e6a"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-5358ae3d3fad4f8db040ae3bb3a0d450" source="id-079caeb56ec2440cad449a57741e2837" target="id-2ed6b46e84ce4feebaaea34ed67ef9e1"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-782a0648b8794642a847dcb8b238ea10" source="id-715ea15b4b9146498e9e88e3cee41494" target="id-eddd27a419c54f9689d991991d8788c6"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-8871b5424ff54d8f91f353eefa2316fb" source="id-fe587c1bae3c453285eccb764194ced3" target="id-2df7f9f8018a4f68bd26df33d6116964"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-8a98d8fbd895494e81eb92430e25bc7f" source="id-b750feb34d9c40588f9443c33145b59e" target="id-062e48b86e134f92ada7536886294d4b"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-b2f411f09ffc4efc853e497e4ccdabd1" source="id-fe587c1bae3c453285eccb764194ced3" target="id-0a01d9bc23be4974bcd8e4fc2761d616"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-b9a35a56e36644b79e726d15773fd860" source="id-c5998016874b4a3f9a80d62f09af3f33" target="id-4768c6c2cbcf465388aa4ce5100ae233"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-e02407fd3a914dfe9575578fbe7dad5f" source="id-fe587c1bae3c453285eccb764194ced3" target="id-f7292cf598c04a19b4e7777d7f34e974"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-eab2d23520ef4fd582568f4426f18dd7" source="id-079caeb56ec2440cad449a57741e2837" target="id-1fa5f2305753485fb67830cf4f938f6c"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-eb215bf82a35435ba39fbee893bf791f" source="id-fa4be6b66e8d4eb68c946f1f59cad1b1" target="id-77965a4ab86c43fb809656f759830dc1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-ef28da6149cf4179bf8911ccc420cd1f" source="id-fe587c1bae3c453285eccb764194ced3" target="id-2d416b6c6f424d409dbd886850311573"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-f979fe042db24c3baacaf4f5bde51c30" source="id-71518055a4194c55844b0ed040dacbe2" target="id-55f90228ac6b4e6f904d0a2aeb3a99ac"/>
     <element xsi:type="archimate:ServingRelationship" id="id-0125bb8c19f5434d99721df9d5505538" source="id-4154a89dfdf84ffe958de98a06935941" target="id-fe587c1bae3c453285eccb764194ced3"/>
     <element xsi:type="archimate:ServingRelationship" id="id-02eaa30edeb54d6d93d6872dcffb9e31" source="id-15f0c458430247b1a8a349cda72a5848" target="id-87d20390ad9b43eea623acd8193d0428"/>
     <element xsi:type="archimate:ServingRelationship" id="id-094c4380613440dea1a848162eb57f91" source="id-4154a89dfdf84ffe958de98a06935941" target="id-256454e9e1434b858b4214c65b1cb3ab"/>
@@ -2144,6 +2263,182 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-76800c56acab4666b31bfcd78620e0c1" targetConnections="id-897739524d9e448fa6d0c4005bb8a819" archimateElement="id-d36fcef88adb483abf4a6c1f73be2376">
           <bounds x="1032" y="32" width="120" height="55"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Diensten" id="id-0fc9adeeac9943d2ae1658e39a1d41d5">
+        <child xsi:type="archimate:DiagramObject" id="id-47e2454aea29400197b0c4e53b768f56" textPosition="1" archimateElement="id-55f90228ac6b4e6f904d0a2aeb3a99ac">
+          <bounds x="287" y="301" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6992e32198604b0e8282d1c025084193" textPosition="1" archimateElement="id-1fa5f2305753485fb67830cf4f938f6c">
+          <bounds x="12" y="13" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e18a14f268c74486a487b2850b3070f8" textPosition="1" archimateElement="id-2ed6b46e84ce4feebaaea34ed67ef9e1">
+          <bounds x="12" y="83" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-169dc91871254c4abd984847edd25d4c" textPosition="1" archimateElement="id-cf9902207c184065a7e57e8530a36e6a">
+          <bounds x="288" y="228" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-070af4a1bab84e1b9ae17e6a4e9afc67" textPosition="1" archimateElement="id-0a01d9bc23be4974bcd8e4fc2761d616">
+          <bounds x="288" y="156" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4014124b93da4f509fbc53a4c8150b41" textPosition="1" archimateElement="id-2d416b6c6f424d409dbd886850311573">
+          <bounds x="288" y="84" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5ee58da08b114f9ab8420754c309ac5c" textPosition="1" archimateElement="id-6f1632f16f074055bbdaa39f344b4952">
+          <bounds x="288" y="12" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b4e2e38af68d48849f50e6d2f6bf7cfe" textPosition="1" archimateElement="id-4768c6c2cbcf465388aa4ce5100ae233">
+          <bounds x="576" y="12" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e700963f2a6a4d57b1f3b151aa4ae5a4" textPosition="1" archimateElement="id-5b9de2157b62436a9afb8a5cb8cf272f">
+          <bounds x="576" y="84" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0c58668971a742b0a31661bb005a45ec" textPosition="1" archimateElement="id-716a06d005054377b938edc686c34178">
+          <bounds x="852" y="12" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-34ca5553d4d24a4181785b3d83f3d451" archimateElement="id-bc43c3b96d274eb58213bcb301bbd533">
+          <bounds x="576" y="156" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-54103a2cbec44ae891fdbc026e78cb5b" textPosition="1" archimateElement="id-f7292cf598c04a19b4e7777d7f34e974">
+          <bounds x="576" y="301" width="216" height="56"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-9d3fd95167054d8c928b326c0b993d82" archimateElement="id-821e6b0d62a74f529a2ddee47066bb57">
+          <bounds x="576" y="228" width="216" height="56"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Doelstellingen gekoppeld aan knelpunten en veranderinitiatieven" id="id-108a1683652143e681820e66c947e47e">
+        <child xsi:type="archimate:DiagramObject" id="id-27a7a8655bef4bd98f3161849576ee15" targetConnections="id-9192fe0ed50f43d0b955820019b2bbb3 id-de69b4ad8eec4cb485b471c86943941f" textPosition="1" archimateElement="id-0b09d46c610447dc83754d39b4d9dd25">
+          <bounds x="288" y="180" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cab7635d65c940d8906c1036adafc521" targetConnections="id-54d762c864014e1cb82d1a90f308cc14" textPosition="1" archimateElement="id-2e93c29f10794301b14da0112a375cfc">
+          <bounds x="288" y="468" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ace4fecd79da40558ddde579f1bd8257" targetConnections="id-5398aa5f878548babf9ed73084a6e60b id-34baf8f96e8e4b28893aefd43f4ec477" textPosition="1" archimateElement="id-acef39b4d9284593be47e39801fb912a">
+          <bounds x="288" y="252" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b0817d42d5b841e9b0819ed364582e4b" targetConnections="id-db15159ca8244e10ac6d5cbab13d9000 id-a35a87806bc5420bb9fa257e7343b98f" textPosition="1" archimateElement="id-5e8c806290ee4df6adaf4768b7889f99">
+          <bounds x="288" y="108" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-06affe408d12443d884daae46053e40c" targetConnections="id-5272f5f9d5fa4148a2d6ad090a45cc53" textPosition="1" archimateElement="id-33310f492f524896818054ffc68f1d37">
+          <bounds x="288" y="612" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5ea1f6039031445fa80f7ab62d033099" targetConnections="id-720de87895a84c348ac28be02b1bb9b3 id-6a2cb4d6dd9345d3b6e23ee8c2979387" textPosition="1" archimateElement="id-1665cc80e89d465382c563e23302de69">
+          <bounds x="288" y="396" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4045531d8ed345b9903c83c7c7c0b880" targetConnections="id-87c1e93cea5540fda79a7ec1eb5c9ecc" textPosition="1" archimateElement="id-132b6606a0544ec9bb156a821fb33fef">
+          <bounds x="288" y="540" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f1759da6577340bc8f535b2cee8a17d5" targetConnections="id-24324a7be6374ae2a66b035af62c316c" textPosition="1" archimateElement="id-3ca063aa1228406ca719cb2cedd8a61d">
+          <bounds x="288" y="324" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7f7f821ff7b74722a6dee067d5e7aa25" archimateElement="id-49e5ae32a0164a06a6702718ea02d323">
+          <bounds x="12" y="531" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-54d762c864014e1cb82d1a90f308cc14" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-cab7635d65c940d8906c1036adafc521" archimateRelationship="id-1f229e61dc3e4e59a3c86ac325380f12"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5398aa5f878548babf9ed73084a6e60b" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-ace4fecd79da40558ddde579f1bd8257" archimateRelationship="id-7da6cd98872f4ad9a5c35e72319cd74e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-db15159ca8244e10ac6d5cbab13d9000" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-b0817d42d5b841e9b0819ed364582e4b" archimateRelationship="id-591426ba84db44ce89289a054ee22142"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-720de87895a84c348ac28be02b1bb9b3" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-5ea1f6039031445fa80f7ab62d033099" archimateRelationship="id-18f8e15df06e403290a3ef3b3960185d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-87c1e93cea5540fda79a7ec1eb5c9ecc" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-4045531d8ed345b9903c83c7c7c0b880" archimateRelationship="id-925d9e5cadac4fa8b99f1ef55b66f637"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-24324a7be6374ae2a66b035af62c316c" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-f1759da6577340bc8f535b2cee8a17d5" archimateRelationship="id-75fcc391c1eb491e9ca84059d487955c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5272f5f9d5fa4148a2d6ad090a45cc53" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-06affe408d12443d884daae46053e40c" archimateRelationship="id-88d5919a9e5347e4965236c380d91ae8"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9192fe0ed50f43d0b955820019b2bbb3" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-27a7a8655bef4bd98f3161849576ee15" archimateRelationship="id-230afa8feb8c43809616f1c79a786abc"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f112ad10c8e149b081a85f94a3c068e4" source="id-7f7f821ff7b74722a6dee067d5e7aa25" target="id-8e2cf8c9aa664fddaf784b389361a402" archimateRelationship="id-28d5fe51cd964fac9c927224c89111d4"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cb3a8866339d45da993b25105d01b71d" targetConnections="id-d2fb0f70c34c4a74b46c2b0e90b2ba39" textPosition="1" archimateElement="id-face061e1c374e6c8b15e048c9f41d1d">
+          <bounds x="12" y="132" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ebfcffcd318447b9a737c3c8b7967014" source="id-cb3a8866339d45da993b25105d01b71d" target="id-8e2cf8c9aa664fddaf784b389361a402" archimateRelationship="id-24cb93f8d14c4bdbb896a9126c637212"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-de69b4ad8eec4cb485b471c86943941f" source="id-cb3a8866339d45da993b25105d01b71d" target="id-27a7a8655bef4bd98f3161849576ee15" archimateRelationship="id-e0bf19a047c1441f9b549035987d96de"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a35a87806bc5420bb9fa257e7343b98f" source="id-cb3a8866339d45da993b25105d01b71d" target="id-b0817d42d5b841e9b0819ed364582e4b" archimateRelationship="id-496427caca544f71b6bb0234ed683cd9"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-34baf8f96e8e4b28893aefd43f4ec477" source="id-cb3a8866339d45da993b25105d01b71d" target="id-ace4fecd79da40558ddde579f1bd8257" archimateRelationship="id-f2df01643be0455ab07e0eaf1401af9f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8e2cf8c9aa664fddaf784b389361a402" targetConnections="id-ebfcffcd318447b9a737c3c8b7967014 id-f112ad10c8e149b081a85f94a3c068e4" textPosition="1" archimateElement="id-1797a1af07b64d5db59bc0c01542bf06">
+          <bounds x="288" y="33" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-aefa540f78294d608a74b3427593fb57" textPosition="1" archimateElement="id-bcbd31af7e4b447e850fe34a90693650">
+          <bounds x="12" y="387" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6a2cb4d6dd9345d3b6e23ee8c2979387" source="id-aefa540f78294d608a74b3427593fb57" target="id-5ea1f6039031445fa80f7ab62d033099" archimateRelationship="id-98e65465edfd4911b7d9acc23a688e1c"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7e14a73b06d342a7a581ee28026338b9" textPosition="1" archimateElement="id-d36fcef88adb483abf4a6c1f73be2376">
+          <bounds x="12" y="24" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d2fb0f70c34c4a74b46c2b0e90b2ba39" source="id-7e14a73b06d342a7a581ee28026338b9" target="id-cb3a8866339d45da993b25105d01b71d" archimateRelationship="id-ba8d2527e32c4df3a2a2a5ad7c43e4cf"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f66ab9229da54cc582d11a020ee47209" archimateElement="id-cf9902207c184065a7e57e8530a36e6a">
+          <bounds x="1680" y="888" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c00f13c7ecad4dcf901a80a51d376acc" archimateElement="id-716a06d005054377b938edc686c34178">
+          <bounds x="1680" y="840" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ea0935b039064184b69e9c85de2dbbec" archimateElement="id-0a01d9bc23be4974bcd8e4fc2761d616">
+          <bounds x="1680" y="780" width="241" height="37"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Diensten gekoppeld aan functiemodel" id="id-23edcbc6f8f84ee69e85eca6a40b3231">
+        <child xsi:type="archimate:DiagramObject" id="id-d65ed75331604808bc2f39cad7b9b0c6" archimateElement="id-079caeb56ec2440cad449a57741e2837">
+          <bounds x="17" y="24" width="260" height="205"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-497fc218a87540b297006d388a9b093e" source="id-d65ed75331604808bc2f39cad7b9b0c6" target="id-69942debdb2c449cacf5f315f9708899" archimateRelationship="id-eab2d23520ef4fd582568f4426f18dd7"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-aef6f9686fa04234b47ec6d2f4c2f911" source="id-d65ed75331604808bc2f39cad7b9b0c6" target="id-7c09eaeb1a70447aa264824dd115ed58" archimateRelationship="id-5358ae3d3fad4f8db040ae3bb3a0d450"/>
+          <child xsi:type="archimate:DiagramObject" id="id-69942debdb2c449cacf5f315f9708899" targetConnections="id-497fc218a87540b297006d388a9b093e" textPosition="1" archimateElement="id-1fa5f2305753485fb67830cf4f938f6c">
+            <bounds x="24" y="48" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7c09eaeb1a70447aa264824dd115ed58" targetConnections="id-aef6f9686fa04234b47ec6d2f4c2f911" textPosition="1" archimateElement="id-2ed6b46e84ce4feebaaea34ed67ef9e1">
+            <bounds x="24" y="120" width="216" height="56"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-45483df60c9e4fd6a4ccba6b369bf8c1" archimateElement="id-c5998016874b4a3f9a80d62f09af3f33">
+          <bounds x="600" y="24" width="260" height="408"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-cb23f595d0224992b15689b0b198b2ab" source="id-45483df60c9e4fd6a4ccba6b369bf8c1" target="id-96766de0557a4e9db7573253fbf31133" archimateRelationship="id-b9a35a56e36644b79e726d15773fd860"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-70143f54d7db4f7d8da7ec8b00cea102" source="id-45483df60c9e4fd6a4ccba6b369bf8c1" target="id-5d5a0fab3b964b9a9269a44f7fa982e5" archimateRelationship="id-286ddbb11046483bb4ae8c1dc63a8bac"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-dadc9404b37144d4841482d15f789e53" source="id-45483df60c9e4fd6a4ccba6b369bf8c1" target="id-3020a8e17c75473ea91da815e12ea76d" archimateRelationship="id-10a644e46d334faa89ff1190f8d77f98"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9f1d2f5035b24aae8de00072c62c5e69" source="id-45483df60c9e4fd6a4ccba6b369bf8c1" target="id-14e975675ba04774aaa65c5da5e7dbdd" archimateRelationship="id-246d27f7f3fc405fa42ea2666a1f5ef4"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2c221dcc592f4432a66c82810ab9d7cc" source="id-45483df60c9e4fd6a4ccba6b369bf8c1" target="id-5062f08ac4664e6393b776a5d6472ed5" archimateRelationship="id-2e9f2c32be5b4dd39429c25f88d62fc2"/>
+          <child xsi:type="archimate:DiagramObject" id="id-96766de0557a4e9db7573253fbf31133" targetConnections="id-cb23f595d0224992b15689b0b198b2ab" textPosition="1" archimateElement="id-4768c6c2cbcf465388aa4ce5100ae233">
+            <bounds x="24" y="48" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5d5a0fab3b964b9a9269a44f7fa982e5" targetConnections="id-70143f54d7db4f7d8da7ec8b00cea102" textPosition="1" archimateElement="id-5b9de2157b62436a9afb8a5cb8cf272f">
+            <bounds x="24" y="120" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3020a8e17c75473ea91da815e12ea76d" targetConnections="id-dadc9404b37144d4841482d15f789e53" textPosition="1" archimateElement="id-716a06d005054377b938edc686c34178">
+            <bounds x="24" y="336" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-14e975675ba04774aaa65c5da5e7dbdd" targetConnections="id-9f1d2f5035b24aae8de00072c62c5e69" textPosition="1" archimateElement="id-821e6b0d62a74f529a2ddee47066bb57">
+            <bounds x="24" y="264" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5062f08ac4664e6393b776a5d6472ed5" targetConnections="id-2c221dcc592f4432a66c82810ab9d7cc" textPosition="1" archimateElement="id-bc43c3b96d274eb58213bcb301bbd533">
+            <bounds x="24" y="192" width="216" height="56"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-adf6879f6b3340288190d95c5c3195ac" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
+          <bounds x="312" y="24" width="260" height="409"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-02f87fc3c9484cdd9dcab72bb43f32fd" source="id-adf6879f6b3340288190d95c5c3195ac" target="id-cdcdb8c9306b4215ad59d7a3a5f31cde" archimateRelationship="id-3a7444cde7bd4daaac932fcc5eb32272"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a99490556bba47fd87c21682a64918da" source="id-adf6879f6b3340288190d95c5c3195ac" target="id-ce7b2d883ed04fbb8f7929194903a0b3" archimateRelationship="id-ef28da6149cf4179bf8911ccc420cd1f"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a1018696d0584212801f3a1290c1c16f" source="id-adf6879f6b3340288190d95c5c3195ac" target="id-861e66e2916844daabd7b37359d1119d" archimateRelationship="id-b2f411f09ffc4efc853e497e4ccdabd1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9e5303d1c7cd41a19992ca740bb2aefd" source="id-adf6879f6b3340288190d95c5c3195ac" target="id-2064ae35cac646f9b627dc65e9bbbb93" archimateRelationship="id-3c861e8521424fbc930507c93f338b9a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6a96372d739e4d43a8cab92ca2c943ab" source="id-adf6879f6b3340288190d95c5c3195ac" target="id-266500157ed84606af0927ced8291bc9" archimateRelationship="id-e02407fd3a914dfe9575578fbe7dad5f"/>
+          <child xsi:type="archimate:DiagramObject" id="id-cdcdb8c9306b4215ad59d7a3a5f31cde" targetConnections="id-02f87fc3c9484cdd9dcab72bb43f32fd" textPosition="1" archimateElement="id-6f1632f16f074055bbdaa39f344b4952">
+            <bounds x="24" y="48" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ce7b2d883ed04fbb8f7929194903a0b3" targetConnections="id-a99490556bba47fd87c21682a64918da" textPosition="1" archimateElement="id-2d416b6c6f424d409dbd886850311573">
+            <bounds x="24" y="120" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-861e66e2916844daabd7b37359d1119d" targetConnections="id-a1018696d0584212801f3a1290c1c16f" textPosition="1" archimateElement="id-0a01d9bc23be4974bcd8e4fc2761d616">
+            <bounds x="24" y="264" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2064ae35cac646f9b627dc65e9bbbb93" targetConnections="id-9e5303d1c7cd41a19992ca740bb2aefd" textPosition="1" archimateElement="id-cf9902207c184065a7e57e8530a36e6a">
+            <bounds x="24" y="336" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-266500157ed84606af0927ced8291bc9" targetConnections="id-6a96372d739e4d43a8cab92ca2c943ab" textPosition="1" archimateElement="id-f7292cf598c04a19b4e7777d7f34e974">
+            <bounds x="24" y="192" width="216" height="56"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0e983bb9ee754665b3d182a9c2330ee0" archimateElement="id-71518055a4194c55844b0ed040dacbe2">
+          <bounds x="17" y="247" width="260" height="185"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f0213fab4185427ba5a814858106f02d" source="id-0e983bb9ee754665b3d182a9c2330ee0" target="id-9f97df27677d49c899e0a0e1db4491b3" archimateRelationship="id-f979fe042db24c3baacaf4f5bde51c30"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0d79bce7e4334ad1b1bef8c4e2af7f9b" source="id-0e983bb9ee754665b3d182a9c2330ee0" target="id-576b9002d9334083bb60600bc1dab139" archimateRelationship="id-33722712670f4f588ecb0a705b21cce4"/>
+          <child xsi:type="archimate:DiagramObject" id="id-9f97df27677d49c899e0a0e1db4491b3" targetConnections="id-f0213fab4185427ba5a814858106f02d" textPosition="1" archimateElement="id-55f90228ac6b4e6f904d0a2aeb3a99ac">
+            <bounds x="24" y="36" width="216" height="56"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-576b9002d9334083bb60600bc1dab139" targetConnections="id-0d79bce7e4334ad1b1bef8c4e2af7f9b" textPosition="1" archimateElement="id-148af674814a4a4c954d111b5068d594">
+            <bounds x="24" y="108" width="216" height="56"/>
+          </child>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Relatie functiemodel - capabilities" id="id-28e4eab18ef74a56baae2e328f6b5734">
@@ -2649,6 +2944,62 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
           <feature name="iconVisible" value="2"/>
         </child>
       </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Gewenste voorzieningen" id="id-9fbdab93a7764191be9db0eba5940244">
+        <child xsi:type="archimate:DiagramObject" id="id-e0202fb982b34b76b4bf08c3f161b0ce" textPosition="1" archimateElement="id-1a3340b1b06441a5965f227089d5c72b">
+          <bounds x="432" y="36" width="163" height="70"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5f45d195bc9e4c648d8a2d4b7d8a2e9d" source="id-e0202fb982b34b76b4bf08c3f161b0ce" target="id-0ed3ea3a80464de9b25ce2a928fd2472" archimateRelationship="id-d787108a540546c4bf5f03351d9df37f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f70f38e6d9a04fe2a4c2d6128a012906" targetConnections="id-6bebb44cfc6044cf8cc4f735d8170699" textPosition="1" archimateElement="id-7f0763d2d4144c4ab11d1ee47c43dd9a">
+          <bounds x="432" y="360" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-137bebcfaaf84461a57942ed7e4ddd9f" textPosition="1" archimateElement="id-e4f68989e7a44c11920550a8916ad303">
+          <bounds x="798" y="360" width="163" height="70"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4102b9791e1a48e18b84d3a7da82c744" source="id-137bebcfaaf84461a57942ed7e4ddd9f" target="id-3795af50f09f437585db231fd133dca3" archimateRelationship="id-ad796395a71b4270be70382efe4e21cd">
+            <bendpoint startX="-3" startY="-131" endX="363" endY="13"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-782893e9a7f145dc914ef05490344696" source="id-137bebcfaaf84461a57942ed7e4ddd9f" target="id-e6e6db9443144f6b8fcc1f35f12e3130" archimateRelationship="id-c47d0ecf2bf441b48e5c51b037138b0d">
+            <bendpoint startX="-183" startY="61" endX="519" endY="61"/>
+            <bendpoint startX="-699" startY="61" endX="3" endY="61"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-63af2617730c4d09b87ef8821e52bb1b" textPosition="1" archimateElement="id-7202f8ec02f644fb805e68388799f37f">
+          <bounds x="1182" y="36" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-85db9bab21d2482fa029d3815920f3f5" textPosition="1" archimateElement="id-3a2ecea90df24beb94d3e32afb742a06">
+          <bounds x="798" y="36" width="163" height="70"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-23776c411cac4d2a86f17beab6226fc9" source="id-85db9bab21d2482fa029d3815920f3f5" target="id-3795af50f09f437585db231fd133dca3" archimateRelationship="id-28f7708febb340ec83ee372a357d0aee">
+            <bendpoint startX="-3" startY="157" endX="363" endY="-23"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c615c6d777734068bb902bdf7b1297ae" source="id-85db9bab21d2482fa029d3815920f3f5" target="id-0ed3ea3a80464de9b25ce2a928fd2472" archimateRelationship="id-9e429d0d808248439ead70fae876f5b4">
+            <bendpoint startX="-171" startY="61" endX="531" endY="61"/>
+            <bendpoint startX="-687" startY="61" endX="15" endY="61"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-450fec39265143cf8369333b77d7af7e" source="id-85db9bab21d2482fa029d3815920f3f5" target="id-3775608553154ab5aff2b0fc719f3e4e" archimateRelationship="id-d8c3d958ebcd4632b40d55fa67bd52e9">
+            <bendpoint startX="-51" startY="121" endX="651" endY="-65"/>
+            <bendpoint startX="-687" startY="121" endX="15" endY="-65"/>
+          </sourceConnection>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3795af50f09f437585db231fd133dca3" targetConnections="id-4102b9791e1a48e18b84d3a7da82c744 id-23776c411cac4d2a86f17beab6226fc9" textPosition="1" archimateElement="id-5f633f9872694592bbed624852d0bdfe">
+          <bounds x="432" y="216" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3775608553154ab5aff2b0fc719f3e4e" targetConnections="id-450fec39265143cf8369333b77d7af7e" textPosition="1" archimateElement="id-2354c4fdc74641a59a160a6af2fbce91">
+          <bounds x="96" y="222" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2d8c217bbf59428398132806e49e4d82" textPosition="1" archimateElement="id-6f30a6321ec945ad8d55227348eba3b1">
+          <bounds x="96" y="504" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0ed3ea3a80464de9b25ce2a928fd2472" targetConnections="id-5f45d195bc9e4c648d8a2d4b7d8a2e9d id-c615c6d777734068bb902bdf7b1297ae" textPosition="1" archimateElement="id-1ee0c627be724744ab319ec50c6d6936">
+          <bounds x="96" y="36" width="163" height="70"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e6e6db9443144f6b8fcc1f35f12e3130" targetConnections="id-782893e9a7f145dc914ef05490344696" textPosition="1" archimateElement="id-f9f6b766ac544bb4baefd834a08a4204">
+          <bounds x="96" y="360" width="163" height="70"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6bebb44cfc6044cf8cc4f735d8170699" source="id-e6e6db9443144f6b8fcc1f35f12e3130" target="id-f70f38e6d9a04fe2a4c2d6128a012906" archimateRelationship="id-a90a9d8102ca441a880d653dfbb1f640"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6845e871901946d2b3325b5e988b3ebd" textPosition="1" archimateElement="id-b402b1d5d7c84247ac6adccffccd8ab1">
+          <bounds x="432" y="504" width="163" height="70"/>
+          <feature name="labelExpression" value="Bevoegdheids-&#xD;&#xA;verklaringsdienst"/>
+        </child>
+      </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven geplot op functiemodel (smal)" id="id-c0c8bbad71bf41afa2492c477d80c6fa">
         <child xsi:type="archimate:DiagramObject" id="id-31f3debd533e4c1197c186235363d9e5" archimateElement="id-fe587c1bae3c453285eccb764194ced3">
           <bounds x="348" y="22" width="181" height="435"/>
@@ -2742,6 +3093,217 @@ De begrippen zoals gebruikt in het bedrijfsobjectenmodel zijn onderdeel van de b
         <child xsi:type="archimate:DiagramObject" id="id-23ed8946f431417bb1a720705f7c57a8" archimateElement="id-715ea15b4b9146498e9e88e3cee41494">
           <bounds x="36" y="204" width="109" height="253"/>
           <feature name="iconVisible" value="2"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Doelstellingen" id="id-c505e88917e04808907a2c99fea1eca3">
+        <child xsi:type="archimate:DiagramObject" id="id-3a12ae1f311940bdbf1030c5c2631246" targetConnections="id-29b7890cea4e437fb1ec527fdca2ed46 id-9da38c4894954fa593bd12e3bd78ccb7" textPosition="1" archimateElement="id-0b09d46c610447dc83754d39b4d9dd25">
+          <bounds x="288" y="180" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-02c632ce271c4be98ddaa8ef55cb8d4c" targetConnections="id-481f9ff8e8d542f58bcf631546df3b80 id-2176b58f9a3143de8a0919a3a2e6ea52 id-b783dda73f184fcfb4bfabcf1337bb2f id-f13c30838659441c8b47f0ffde3d4dd6 id-3ecce780c98a4509b21fdae17d1d38de id-8755852cbefa45b88162c08458874826 id-9a725c42ea1e442ca3a2b60ebcc8b31a" textPosition="1" archimateElement="id-2e93c29f10794301b14da0112a375cfc">
+          <bounds x="288" y="540" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1618f61d130741d697d47ea3b3469549" targetConnections="id-9fff9d24ac1c4da195983719cb68373d id-2d1932316a08470db4f4675bb5d3d15b id-567ab7ab6e644114a456f96e9d913a34 id-cc439e1bd7e84c3088cf3df784e8dcb8" textPosition="1" archimateElement="id-acef39b4d9284593be47e39801fb912a">
+          <bounds x="288" y="252" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-42b992baf8904205a59dbd9cee8802a1" targetConnections="id-ddbb96a7f22542d3b3c850916bdad844 id-44b038b9743d47f6b822dc2511eefd44" textPosition="1" archimateElement="id-5e8c806290ee4df6adaf4768b7889f99">
+          <bounds x="288" y="108" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ba9668bde7c54fb784ee457d0f1673db" source="id-42b992baf8904205a59dbd9cee8802a1" target="id-0558de7b44e64f89ae64a836c84e6f57" archimateRelationship="id-c0a3d35976734a3f9f5dd7e04550cec7"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-adb67ba63b774f22a3f288bd5f6db178" targetConnections="id-545987960bba4984b99eb710f3a68c3c" textPosition="1" archimateElement="id-33310f492f524896818054ffc68f1d37">
+          <bounds x="288" y="792" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-afb66a00f1b149288672192ff104e140" targetConnections="id-3c8139f7affc49189685e3b1243d6b00 id-6600d45a3e814ca39459a54aff542c8a" textPosition="1" archimateElement="id-1665cc80e89d465382c563e23302de69">
+          <bounds x="288" y="396" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-103f72e958a642c8b5609261680717b5" targetConnections="id-706553b41803476b812fed209c65c61a id-8b5ccaee5fa9408fb2de08888553fbf7" textPosition="1" archimateElement="id-132b6606a0544ec9bb156a821fb33fef">
+          <bounds x="288" y="720" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-825d40bf8c7342cc83409116f7ec74bf" targetConnections="id-9b6d02c3ef3d48cfa3fe96756430991e id-dc04f634e1064734956e81d3bbb69c64" textPosition="1" archimateElement="id-3ca063aa1228406ca719cb2cedd8a61d">
+          <bounds x="288" y="324" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b2f509b8b0f04db1a0b136d9e32030e5" archimateElement="id-49e5ae32a0164a06a6702718ea02d323">
+          <bounds x="12" y="627" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-481f9ff8e8d542f58bcf631546df3b80" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-1f229e61dc3e4e59a3c86ac325380f12"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9fff9d24ac1c4da195983719cb68373d" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-1618f61d130741d697d47ea3b3469549" archimateRelationship="id-7da6cd98872f4ad9a5c35e72319cd74e"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-ddbb96a7f22542d3b3c850916bdad844" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-42b992baf8904205a59dbd9cee8802a1" archimateRelationship="id-591426ba84db44ce89289a054ee22142"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3c8139f7affc49189685e3b1243d6b00" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-afb66a00f1b149288672192ff104e140" archimateRelationship="id-18f8e15df06e403290a3ef3b3960185d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-706553b41803476b812fed209c65c61a" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-103f72e958a642c8b5609261680717b5" archimateRelationship="id-925d9e5cadac4fa8b99f1ef55b66f637"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9b6d02c3ef3d48cfa3fe96756430991e" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-825d40bf8c7342cc83409116f7ec74bf" archimateRelationship="id-75fcc391c1eb491e9ca84059d487955c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-545987960bba4984b99eb710f3a68c3c" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-adb67ba63b774f22a3f288bd5f6db178" archimateRelationship="id-88d5919a9e5347e4965236c380d91ae8"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-29b7890cea4e437fb1ec527fdca2ed46" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-3a12ae1f311940bdbf1030c5c2631246" archimateRelationship="id-230afa8feb8c43809616f1c79a786abc"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-4df4e53eb64743279cd23c14aa16b2a0" source="id-b2f509b8b0f04db1a0b136d9e32030e5" target="id-2783bfbb8ab64f6da9d37449d11c6600" archimateRelationship="id-28d5fe51cd964fac9c927224c89111d4"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2e26c18503f34f12b588bb7b3a6fcff1" targetConnections="id-5d9d668de6f94431a169b8b84bf55ed5" archimateElement="id-dcdf473919e14835becc91f9cd0ea123">
+          <bounds x="636" y="252" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2d1932316a08470db4f4675bb5d3d15b" source="id-2e26c18503f34f12b588bb7b3a6fcff1" target="id-1618f61d130741d697d47ea3b3469549" archimateRelationship="id-1b2bb8af6d5246a89e55573855bcac3a"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-026b62014e3a4b1cb9e83e80551de4bf" targetConnections="id-c961d24f649e45678bf27ae82bb7469f" textPosition="1" archimateElement="id-a4046d419300443da3ec983b6a64884b">
+          <bounds x="636" y="792" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d0cb044f692b49fcab09b45284241709" targetConnections="id-e3abf49537fb429e96164010442cd9ca" archimateElement="id-7af2fa9c66e94ac397595f5206032775">
+          <bounds x="636" y="528" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2176b58f9a3143de8a0919a3a2e6ea52" source="id-d0cb044f692b49fcab09b45284241709" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-bb2468e199974d5cb8d479a9f2c492b1"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5f49a24ed2954706aab3bf058d175fc6" targetConnections="id-2be0227ba7d14122860a87b778ed8710" textPosition="1" archimateElement="id-3cb71651ed6e4972865ede91d9ff7836">
+          <bounds x="636" y="888" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-1e39224368a5451cb737bf3a8ddbc8ef" targetConnections="id-3e2e47fa7e724267ae8d6519900fef16" archimateElement="id-637d6385fbaf40b88421f72ad1ba4c62">
+          <bounds x="636" y="33" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-66978bc13a0f44fe85bf48a73b2862f2" source="id-1e39224368a5451cb737bf3a8ddbc8ef" target="id-2783bfbb8ab64f6da9d37449d11c6600" archimateRelationship="id-163c5b2c7c244dc0a0967e78223f72ef"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0558de7b44e64f89ae64a836c84e6f57" targetConnections="id-ba9668bde7c54fb784ee457d0f1673db id-82743179f5fd4fd98be862a21dcbfd40" archimateElement="id-4e650de32bdf49b7b7c3ffc0727251bb">
+          <bounds x="636" y="108" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-811c36fb86bf495d9bab8f685c2d8925" targetConnections="id-b867f84fee73402884202536508bed51" archimateElement="id-dad9b4f7711e46a8a1a71c87b71caeec">
+          <bounds x="636" y="180" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-567ab7ab6e644114a456f96e9d913a34" source="id-811c36fb86bf495d9bab8f685c2d8925" target="id-1618f61d130741d697d47ea3b3469549" archimateRelationship="id-8479bc779daa4a628a1ba4e65d3b17e5"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3247acc4d6174b76983a2c2a07162771" targetConnections="id-9a0c7f7e40e64db98aa72b9e054f3600" archimateElement="id-14288973e1b243eb845161c18ff7f671">
+          <bounds x="636" y="648" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b783dda73f184fcfb4bfabcf1337bb2f" source="id-3247acc4d6174b76983a2c2a07162771" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-ec5c5a727eed4b08a132e4330474ed20"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8ff79f325ea247edb5b7b33b5997f82f" targetConnections="id-6b2b020867a74111a633f71c347c1881" textPosition="1" archimateElement="id-516315a21d3943c48d3859fd7c28308e">
+          <bounds x="636" y="468" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-f13c30838659441c8b47f0ffde3d4dd6" source="id-8ff79f325ea247edb5b7b33b5997f82f" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-df43216d97704de9990c88b225e87dce"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d7ca8944cf2a4c03b7bbbe7540f2dfd6" targetConnections="id-54a336f6622a47c9ab93368621283a17" archimateElement="id-dcf64f87176748e19a4fbbcc16dd4f08">
+          <bounds x="636" y="720" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3ecce780c98a4509b21fdae17d1d38de" source="id-d7ca8944cf2a4c03b7bbbe7540f2dfd6" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-dbd801d9015046b0a28d5902e7f114eb">
+            <bendpoint startX="-312" startY="-6" endX="324" endY="18"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8b5ccaee5fa9408fb2de08888553fbf7" source="id-d7ca8944cf2a4c03b7bbbe7540f2dfd6" target="id-103f72e958a642c8b5609261680717b5" archimateRelationship="id-1178a1dace3d420b8ed0c06e0ed6c801"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a7fd09b81ddb48599676139706b57fc4" targetConnections="id-89319384cd174eda90bdc0c306a7f942" archimateElement="id-388da3df069946eb8fcc9f6b801b1882">
+          <bounds x="636" y="405" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9a725c42ea1e442ca3a2b60ebcc8b31a" source="id-a7fd09b81ddb48599676139706b57fc4" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-2c755f0a30074b12b6637ca09cc22f3a"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8e048b337d34474b91359f2d62ab17c6" targetConnections="id-2e2b6fdcc7174466b112263b59586925" archimateElement="id-de89877b42424eac8bc8eddc8462d007">
+          <bounds x="636" y="840" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8bb164f2b72448bea942dd9250c5fa35" targetConnections="id-bd0dfe84c2214515a8e9be25e28ca480" archimateElement="id-13b5b97506004f0b82089095a6c5dae4">
+          <bounds x="636" y="588" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8755852cbefa45b88162c08458874826" source="id-8bb164f2b72448bea942dd9250c5fa35" target="id-02c632ce271c4be98ddaa8ef55cb8d4c" archimateRelationship="id-6c0ac1b1539b41f58a7b4bafbe0175e2"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-190ae8aaed39471cb3086ef4a81cb6ee" targetConnections="id-d2f424dc52084b3da8936aff41a23da2 id-3f40964b286540afa09ad36a35871b5d" archimateElement="id-26a67ab67a2345c59d5176c597443a38">
+          <bounds x="636" y="324" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-dc04f634e1064734956e81d3bbb69c64" source="id-190ae8aaed39471cb3086ef4a81cb6ee" target="id-825d40bf8c7342cc83409116f7ec74bf" archimateRelationship="id-15708ab9a0144716b9b6c4565b20e772"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f7a09bedef834418b52ee887addf7d42" targetConnections="id-283c6cbb06d242f090b21f880c82c13e" textPosition="1" archimateElement="id-face061e1c374e6c8b15e048c9f41d1d">
+          <bounds x="12" y="132" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2ab7d93677764021896e6efc679a7082" source="id-f7a09bedef834418b52ee887addf7d42" target="id-2783bfbb8ab64f6da9d37449d11c6600" archimateRelationship="id-24cb93f8d14c4bdbb896a9126c637212"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9da38c4894954fa593bd12e3bd78ccb7" source="id-f7a09bedef834418b52ee887addf7d42" target="id-3a12ae1f311940bdbf1030c5c2631246" archimateRelationship="id-e0bf19a047c1441f9b549035987d96de"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-44b038b9743d47f6b822dc2511eefd44" source="id-f7a09bedef834418b52ee887addf7d42" target="id-42b992baf8904205a59dbd9cee8802a1" archimateRelationship="id-496427caca544f71b6bb0234ed683cd9"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-cc439e1bd7e84c3088cf3df784e8dcb8" source="id-f7a09bedef834418b52ee887addf7d42" target="id-1618f61d130741d697d47ea3b3469549" archimateRelationship="id-f2df01643be0455ab07e0eaf1401af9f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2783bfbb8ab64f6da9d37449d11c6600" targetConnections="id-66978bc13a0f44fe85bf48a73b2862f2 id-2ab7d93677764021896e6efc679a7082 id-4df4e53eb64743279cd23c14aa16b2a0" textPosition="1" archimateElement="id-1797a1af07b64d5db59bc0c01542bf06">
+          <bounds x="288" y="33" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5a8fd88a89c643f38ad1f1713b6cf446" textPosition="1" archimateElement="id-bcbd31af7e4b447e850fe34a90693650">
+          <bounds x="12" y="387" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6600d45a3e814ca39459a54aff542c8a" source="id-5a8fd88a89c643f38ad1f1713b6cf446" target="id-afb66a00f1b149288672192ff104e140" archimateRelationship="id-98e65465edfd4911b7d9acc23a688e1c"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0ce0bf02ad5f4cb4afafdc895a185bae" textPosition="1" archimateElement="id-d36fcef88adb483abf4a6c1f73be2376">
+          <bounds x="12" y="24" width="145" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-283c6cbb06d242f090b21f880c82c13e" source="id-0ce0bf02ad5f4cb4afafdc895a185bae" target="id-f7a09bedef834418b52ee887addf7d42" archimateRelationship="id-ba8d2527e32c4df3a2a2a5ad7c43e4cf"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0e0d8cf42aa647049209797d83c89d99" textPosition="1" archimateElement="id-aaece110abfd4dd19e66daa9338ce3a9">
+          <bounds x="996" y="33" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3e2e47fa7e724267ae8d6519900fef16" source="id-0e0d8cf42aa647049209797d83c89d99" target="id-1e39224368a5451cb737bf3a8ddbc8ef" archimateRelationship="id-aebd28c61bdd48f6a427d788f85b77d6"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b8536682cc504af1941e9f926a59dece" textPosition="1" archimateElement="id-1d2e7ff3e6c0407fabf7b321503c3df7">
+          <bounds x="996" y="528" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e3abf49537fb429e96164010442cd9ca" source="id-b8536682cc504af1941e9f926a59dece" target="id-d0cb044f692b49fcab09b45284241709" archimateRelationship="id-fee850f36cdb42dc846c2c3de11b0858"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c4193b5bdc6845698f36e155c13be4cd" textPosition="1" archimateElement="id-3acc4865ed1c41eba8b0d7025c1cfb93">
+          <bounds x="996" y="180" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-b867f84fee73402884202536508bed51" source="id-c4193b5bdc6845698f36e155c13be4cd" target="id-811c36fb86bf495d9bab8f685c2d8925" archimateRelationship="id-977842a46eca478ea05977d7d6f3b7f3"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-cc1d10a43da240588e869fb5aa381112" textPosition="1" archimateElement="id-68e94bf51db2445295e270b9d86e825e">
+          <bounds x="996" y="108" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-82743179f5fd4fd98be862a21dcbfd40" source="id-cc1d10a43da240588e869fb5aa381112" target="id-0558de7b44e64f89ae64a836c84e6f57" archimateRelationship="id-4bc3a2f09cd047c8b1fd05c50de35990"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-351d81605bda4f82973f240ed696d68a" textPosition="1" archimateElement="id-4838d4ce599148b3bd430711a296b3d4">
+          <bounds x="996" y="888" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2be0227ba7d14122860a87b778ed8710" source="id-351d81605bda4f82973f240ed696d68a" target="id-5f49a24ed2954706aab3bf058d175fc6" archimateRelationship="id-bf661ae959e54bd3bf38fae8d37f4719"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5ce3fb697be64ad6ad900bb43b492390" textPosition="1" archimateElement="id-75a11a6464244610b8679b4ccf487a9c">
+          <bounds x="996" y="792" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c961d24f649e45678bf27ae82bb7469f" source="id-5ce3fb697be64ad6ad900bb43b492390" target="id-026b62014e3a4b1cb9e83e80551de4bf" archimateRelationship="id-6d5d9099e6204c9eb191a525d6af0e78"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c033d147b8f242c6906d9c2828bae070" textPosition="1" archimateElement="id-82087c95385c4244a8993e31eb05b8a8">
+          <bounds x="996" y="252" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-5d9d668de6f94431a169b8b84bf55ed5" source="id-c033d147b8f242c6906d9c2828bae070" target="id-2e26c18503f34f12b588bb7b3a6fcff1" archimateRelationship="id-0ac4e91461404e2fa27f7d550a99e7fb"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0652a0bc02d14b9e98dab4f60925c044" textPosition="1" archimateElement="id-35d763cff9af450db40ec7b4ac2a7e62">
+          <bounds x="996" y="648" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9a0c7f7e40e64db98aa72b9e054f3600" source="id-0652a0bc02d14b9e98dab4f60925c044" target="id-3247acc4d6174b76983a2c2a07162771" archimateRelationship="id-840c7b3da8f94fabb1837b69a7a92a67"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c31d00d48f73468e88a9e82efc1fc1b4" textPosition="1" archimateElement="id-f7bfe9749f2d4f56a5877841cac332d6">
+          <bounds x="996" y="324" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-89319384cd174eda90bdc0c306a7f942" source="id-c31d00d48f73468e88a9e82efc1fc1b4" target="id-a7fd09b81ddb48599676139706b57fc4" archimateRelationship="id-1ea7ed4e2c984f93a241051dd1887f9c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d2f424dc52084b3da8936aff41a23da2" source="id-c31d00d48f73468e88a9e82efc1fc1b4" target="id-190ae8aaed39471cb3086ef4a81cb6ee" archimateRelationship="id-3b3a5692d05c4b8dac2d45e9138a1720"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fdd3ab70154a4f2ba297802e0bc20e68" textPosition="1" archimateElement="id-4751ff0f92c04cec9018b13305d1f476">
+          <bounds x="996" y="840" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2e2b6fdcc7174466b112263b59586925" source="id-fdd3ab70154a4f2ba297802e0bc20e68" target="id-8e048b337d34474b91359f2d62ab17c6" archimateRelationship="id-422f62cd38e8492fa95bf2d57e82bd30"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8f2f2b5505c34a6cba294eee276a24ce" textPosition="1" archimateElement="id-61dc33c76ec94288b37d10018c2e8caa">
+          <bounds x="996" y="720" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-54a336f6622a47c9ab93368621283a17" source="id-8f2f2b5505c34a6cba294eee276a24ce" target="id-d7ca8944cf2a4c03b7bbbe7540f2dfd6" archimateRelationship="id-0fb1b966c9d348c18c5a42eec892c729"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2c60a1d95ff74fb69b2a0817d6843d9b" textPosition="1" archimateElement="id-8c6dd6da80894426a9b31dc0a78d3503">
+          <bounds x="996" y="468" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-6b2b020867a74111a633f71c347c1881" source="id-2c60a1d95ff74fb69b2a0817d6843d9b" target="id-8ff79f325ea247edb5b7b33b5997f82f" archimateRelationship="id-c562c89fa90d4d0f9fc92484c9859630"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-8582f138b7274f9abe18e900a2b34fb1" textPosition="1" archimateElement="id-e963551e7c424e6e84ca1748475a7eb8">
+          <bounds x="996" y="588" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-bd0dfe84c2214515a8e9be25e28ca480" source="id-8582f138b7274f9abe18e900a2b34fb1" target="id-8bb164f2b72448bea942dd9250c5fa35" archimateRelationship="id-544c951fbc4741c9a77b6926dcd1fba3"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6eeaf6692c654b038f7aa44ec00d0a9a" textPosition="1" archimateElement="id-d9b8e51c53c74a589f8dadf156c1786c">
+          <bounds x="996" y="405" width="241" height="37"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3f40964b286540afa09ad36a35871b5d" source="id-6eeaf6692c654b038f7aa44ec00d0a9a" target="id-190ae8aaed39471cb3086ef4a81cb6ee" archimateRelationship="id-3efa315c98cc417bbae45f52eba42b0d"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fddeac8d9f544dda88457d4c9b762323" archimateElement="id-bc43c3b96d274eb58213bcb301bbd533">
+          <bounds x="1368" y="180" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7a1971db29684079adb8c814d3072b86" archimateElement="id-f7292cf598c04a19b4e7777d7f34e974">
+          <bounds x="1368" y="792" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ecdb9f2fae094c478588b58d8771714f" archimateElement="id-6f1632f16f074055bbdaa39f344b4952">
+          <bounds x="1368" y="108" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-c6dcaa4eb3284c21ac075c1a0a9a4c9f" archimateElement="id-5b9de2157b62436a9afb8a5cb8cf272f">
+          <bounds x="1368" y="246" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b3ae1f5b961d4d0b8fc14ca494d77082" archimateElement="id-55f90228ac6b4e6f904d0a2aeb3a99ac">
+          <bounds x="1368" y="468" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-35fe41885df74b6a9ecf8427a7862b20" archimateElement="id-2d416b6c6f424d409dbd886850311573">
+          <bounds x="1368" y="382" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-16c072612cd94d4eade44da5a4babda0" archimateElement="id-4768c6c2cbcf465388aa4ce5100ae233">
+          <bounds x="1368" y="336" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b2cd1ce18797452a82ebecc787ad96b6" archimateElement="id-148af674814a4a4c954d111b5068d594">
+          <bounds x="1368" y="528" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ff8e3dac20324e7982b31f6fce41ffe1" archimateElement="id-cf9902207c184065a7e57e8530a36e6a">
+          <bounds x="1680" y="888" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5fe366b8258a4da7a1ca0c0e8a0fb269" archimateElement="id-716a06d005054377b938edc686c34178">
+          <bounds x="1680" y="840" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7f9b2c470a774495a4e3aaaf4249aa6e" archimateElement="id-0a01d9bc23be4974bcd8e4fc2761d616">
+          <bounds x="1680" y="780" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-386ee7f9afaa4f069ef126dfac6152b5" archimateElement="id-821e6b0d62a74f529a2ddee47066bb57">
+          <bounds x="1368" y="33" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-838351f89b044c6181285de214f8598e" archimateElement="id-1fa5f2305753485fb67830cf4f938f6c">
+          <bounds x="1368" y="288" width="241" height="37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0e25760356f4473bb651a2a03a24feae" archimateElement="id-2ed6b46e84ce4feebaaea34ed67ef9e1">
+          <bounds x="1368" y="420" width="241" height="37"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Veranderinitiatieven gekoppeld aan knelpunten" id="id-c535327b8e144674afbd41117a90a47e">
