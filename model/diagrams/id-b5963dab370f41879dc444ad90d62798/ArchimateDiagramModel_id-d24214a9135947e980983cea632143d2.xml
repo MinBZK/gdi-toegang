@@ -90,11 +90,11 @@
         fillColor="#ffffff"
         textPosition="1">
       <features
-          name="labelExpression"
-          value="Identiteits&#xD;&#xA;verklaring"/>
-      <features
           name="iconVisible"
           value="2"/>
+      <features
+          name="labelExpression"
+          value="Authenticatie&#xD;&#xA;verklaring"/>
       <bounds
           x="24"
           y="72"
